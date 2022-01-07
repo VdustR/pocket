@@ -15,8 +15,8 @@
       updateQTimeout = null;
     }, 300);
   });
-  qs.subscribe((qs) => {
-    value.set(qs.qs.q);
+  qs.subscribe(() => {
+    $value = $qs.qs.q;
   });
 </script>
 

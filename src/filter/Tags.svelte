@@ -2,19 +2,15 @@
   import useQs from "@/qs/useQs";
   import tags from "@/tags";
   import Fuse from "fuse.js";
-  import { derived } from "svelte/store";
   import Tag from "./Tag.svelte";
   const qs = useQs();
   const sortedTags = tags.sort((a, b) => b.sites.length - a.sites.length);
-  const fuse = derived(qs, ({ qs }) => {
-    const fuse = new Fuse(sortedTags, { keys: ["tag"] });
-    return fuse;
-  });
+  let fuse = new Fuse(sortedTags, { keys: ["tag"] });
   $: filteredTags = (() => {
     const filteredTags =
       $qs.qs.q.trim().length === 0
         ? tags.slice(0, 100)
-        : $fuse
+        : fuse
             .search($qs.qs.q)
             .slice(0, 100)
             .map(({ item }) => item);
