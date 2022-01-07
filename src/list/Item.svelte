@@ -6,7 +6,7 @@
 </script>
 
 <li
-  class="inline-flex relative w-full py-1.5 flex-col border-width-2 rounded transition-all ease-in-out duration-200 transform bg-black bg-opacity-75 scale-95 hover:scale-100 hover:backdrop-filter hover:backdrop-blur-md gap-2"
+  class="inline-flex relative w-full py-1.5 flex-col border-width-2 rounded transition-all ease-in-out duration-200 transform bg-black bg-opacity-75 scale-95 hover:scale-100 hover:backdrop-filter hover:backdrop-blur-md hover:bg-opacity-60 hover:bg-black gap-2"
 >
   <a
     class="px-2 flex flex-col gap-2 hover:text-emerald-200"
@@ -25,11 +25,11 @@
     </div>
   </a>
   {#if site.tags && site.tags.length > 0}
-    <hr />
+    <hr class="opacity-80" />
     <Tags {site} />
   {/if}
   {#if site.description}
-    <hr />
+    <hr class="opacity-80" />
     <p class="px-2">
       {site.description}
     </p>
