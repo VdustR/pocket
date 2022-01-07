@@ -24,10 +24,14 @@
       <div><OpenOutIcon /></div>
     </div>
   </a>
-  <hr />
-  <Tags {site} />
-  <hr />
-  <p class="px-2">
-    {site.description}
-  </p>
+  {#if site.tags && site.tags.length > 0}
+    <hr />
+    <Tags {site} />
+  {/if}
+  {#if site.description}
+    <hr />
+    <p class="px-2">
+      {site.description}
+    </p>
+  {/if}
 </li>
