@@ -44,7 +44,7 @@
     <div
       class="text-red-200 border-red-200 border py-20 px-4 border-solid rounded-lg text-center bg-red-800 bg-opacity-50 backdrop-blur-md backdrop-filter text-3xl"
     >
-      {"No Match Result"}
+      {"No Matched Results"}
     </div>
   {/if}
   <ul class="ul block mx-auto">
