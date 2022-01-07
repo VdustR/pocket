@@ -25,7 +25,7 @@
 </script>
 
 <input
-  class="q border-solid border rounded-xl px-2 text-2xl placeholder-cool-gray-300 bg-black bg-opacity-70 focus:border-emerald-200 focus:text-emerald-200"
+  class="q border-solid border rounded-xl px-2 py-1 text-2xl placeholder-cool-gray-300 bg-black bg-opacity-70 focus:border-emerald-200 focus:text-emerald-200 focus:placeholder-transparent"
   bind:value={$value}
   on:blur={() => {
     clearQTimtout();
