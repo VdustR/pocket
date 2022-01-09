@@ -6,17 +6,17 @@
 </script>
 
 <li
-  class="inline-flex relative w-full py-1.5 flex-col border-width-2 rounded transition-all ease-in-out duration-200 transform bg-black bg-opacity-75 scale-95 hover:scale-100 hover:backdrop-filter hover:backdrop-blur-md hover:bg-opacity-60 hover:bg-black gap-2"
+  class="bg-black rounded flex-col bg-opacity-75 border-width-2 w-full py-1.5 transform transition-all ease-in-out gap-2 scale-95 duration-200 inline-flex relative hover:bg-black hover:bg-opacity-60 hover:scale-100 hover:backdrop-filter hover:backdrop-blur-md"
 >
   <a
-    class="px-2 flex flex-col gap-2 hover:text-emerald-200"
+    class="flex flex-col px-2 gap-2 hover:text-emerald-200"
     href={site.url}
     target="_blank"
     rel="noopener noreferrer"
   >
-    <div class="text-xs leading-tight flex justify-between items-top gap-2">
+    <div class="flex text-xs leading-tight gap-2 justify-between items-top">
       <div>
-        <h3 class="text-xl font-bold ">
+        <h3 class="font-bold text-xl">
           {site.title}
         </h3>
         <div>{site.url}</div>

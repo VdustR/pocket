@@ -3,7 +3,7 @@
   import Tags from "./Tags.svelte";
 </script>
 
-<div class="flex flex-col gap-3 items-center px-4">
+<div class="flex flex-col px-4 gap-3 items-center">
   <Q />
   <Tags />
 </div>

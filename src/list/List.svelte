@@ -23,15 +23,15 @@
   $: noResult = filterSites.length === 0;
 </script>
 
-<div class="flex-1 w-full px-4 flex flex-col items-stretch gap-4">
+<div class="flex flex-col flex-1 w-full px-4 gap-4 items-stretch">
   {#if ($qs.qs.q.trim() || $qs.qs.tags.length > 0) && noResult}
     <div
-      class="text-red-200 border-red-200 border py-20 px-4 border-solid rounded-lg text-center bg-red-800 bg-opacity-50 backdrop-blur-md backdrop-filter text-3xl"
+      class="border border-solid rounded-lg bg-red-800 bg-opacity-50 border-red-200 text-center py-20 px-4 text-red-200 text-3xl backdrop-blur-md backdrop-filter"
     >
       {"No Matched Results"}
     </div>
   {/if}
-  <ul class="ul block mx-auto">
+  <ul class="mx-auto ul block">
     {#each noResult ? allSites : filterSites as site}
       <Item {site} />
     {/each}

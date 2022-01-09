@@ -9,7 +9,7 @@
 
 <Background />
 <QsProvider>
-  <main class="flex-1 flex flex-col mt-16 max-w-7xl mx-auto gap-6 z-0">
+  <main class="flex flex-col mx-auto flex-1 mt-16 max-w-7xl z-0 gap-6">
     <Title />
     <Filter />
     <List />

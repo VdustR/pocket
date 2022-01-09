@@ -24,7 +24,7 @@
 </script>
 
 {#if filteredTags.length > 0}
-  <ul class="flex gap-2 flex-wrap items-center justify-center">
+  <ul class="flex flex-wrap gap-2 items-center justify-center">
     {#each filteredTags as tag}
       <Tag {tag} />
     {/each}

@@ -6,7 +6,7 @@
 </script>
 
 <li
-  class="block px-1 text-xs cursor-pointer border rounded-xl border-white hover:border-emerald-200 hover:text-emerald-200 focus:border-emerald-200 focus:text-emerald-200"
+  class="border border-white rounded-xl cursor-pointer text-xs px-1 block hover:border-emerald-200 hover:text-emerald-200 focus:border-emerald-200 focus:text-emerald-200"
   role="button"
   class:bg-emerald-800={active}
   tabindex={0}
