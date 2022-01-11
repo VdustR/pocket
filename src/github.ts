@@ -222,6 +222,19 @@ const github: {
   },
   {
     owner: "antfu",
+    name: "icones",
+    description: "⚡️ Icon Explorer with Instant searching, powered by Iconify",
+    tags: [
+      "icon-collections",
+      "icons",
+      "iconsets",
+      "searching",
+      "vite",
+      "vue3",
+    ],
+  },
+  {
+    owner: "antfu",
     name: "iroiro",
     description: "Beautiful Colors Lookup in CLI",
     tags: ["cli", "colors", "colors-lookup", "palette"],
@@ -478,22 +491,6 @@ const github: {
     description:
       "Next generation Brave browser for Android, Linux, macOS, Windows.",
     tags: ["brave", "browser", "chromium", "linux", "macos", "windows"],
-  },
-  {
-    owner: "brunocodutra",
-    name: "webapp-webpack-plugin",
-    description: "[DEPRECATED] use favicons-webpack-plugin instead",
-    tags: [
-      "favicon",
-      "favicon-generator",
-      "html-webpack-plugin",
-      "icon",
-      "manifest",
-      "plugin",
-      "pwa",
-      "webapp",
-      "webpack",
-    ],
   },
   {
     owner: "bubkoo",
@@ -1934,12 +1931,6 @@ const github: {
     ],
   },
   {
-    owner: "hackmdio",
-    name: "docker-hackmd",
-    description: "DEPRECATION: Please read our online documentation instead",
-    tags: ["docker", "docker-compose", "hackmd"],
-  },
-  {
     owner: "hakimel",
     name: "reveal.js",
     description: "The HTML Presentation Framework",
@@ -2161,12 +2152,6 @@ const github: {
     name: "nvm.fish",
     description: "Node.js version manager lovingly made for Fish.",
     tags: ["fish", "fish-plugin", "nodejs", "nvm"],
-  },
-  {
-    owner: "joshnuss",
-    name: "react-hooks-in-svelte",
-    description: "React hook examples ported to Svelte",
-    tags: ["hooks", "react", "svelte"],
   },
   {
     owner: "jquery",
@@ -2671,24 +2656,6 @@ const github: {
     ],
   },
   {
-    owner: "matchai",
-    name: "spacefish",
-    description: "🚀🐟 The fish shell prompt for astronauts",
-    tags: [
-      "fish",
-      "fish-plugin",
-      "fish-prompt",
-      "fish-shell",
-      "fish-theme",
-      "fisher",
-      "oh-my-fish",
-      "oh-my-fish-plugin",
-      "omf-theme",
-      "spacefish",
-      "spaceship",
-    ],
-  },
-  {
     owner: "mattboldt",
     name: "typed.js",
     description: "A JavaScript Typing Animation Library",
@@ -3094,12 +3061,6 @@ const github: {
     tags: ["job-board"],
   },
   {
-    owner: "nolanlawson",
-    name: "optimize-js",
-    description: "Optimize a JS file for faster parsing (UNMAINTAINED)",
-    tags: [],
-  },
-  {
     owner: "nolimits4web",
     name: "swiper",
     description:
@@ -3328,7 +3289,7 @@ const github: {
     owner: "ory",
     name: "hydra",
     description:
-      "OpenID Certified™ OpenID Connect and OAuth Provider written in Go - cloud native, security-first, open source API security for your infrastructure. SDKs for any language. Compatible with MITREid.",
+      "OpenID Certified™ OpenID Connect and OAuth Provider written in Go - cloud native, security-first, open source API security for your infrastructure. SDKs for any language. Works with Hardware Security Modules. Compatible with MITREid.",
     tags: [
       "authorization",
       "cloud",
@@ -5390,12 +5351,6 @@ const github: {
       "web-performance",
       "webpack",
     ],
-  },
-  {
-    owner: "webpack-contrib",
-    name: "uglifyjs-webpack-plugin",
-    description: "[deprecated] UglifyJS Plugin",
-    tags: ["minify", "minimizer", "uglify", "webpack", "webpack-plugin"],
   },
   {
     owner: "WebReflection",

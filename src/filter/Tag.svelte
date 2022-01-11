@@ -1,7 +1,6 @@
 <script lang="ts">
-  import useQs from "@/qs/useQs";
+  import qs from "@/qs";
   import type { Tag } from "@/tags";
-  const qs = useQs();
   export let tag: Tag;
   $: active = $qs.qs.tags.includes(tag.tag);
   const toggle = () => {
@@ -14,7 +13,7 @@
 </script>
 
 <li
-  class="border border-white rounded-xl cursor-pointer bg-opacity-70 px-2 block hover:border-emerald-200 hover:text-emerald-200 focus:border-emerald-200 focus:text-emerald-200"
+  class="border border-white rounded-xl cursor-pointer flex bg-opacity-70 px-2 items-center justify-start block hover:border-emerald-200 hover:text-emerald-200 focus:border-emerald-200 focus:text-emerald-200"
   role="button"
   class:bg-black={!active}
   class:bg-emerald-800={active}

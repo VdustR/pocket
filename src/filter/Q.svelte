@@ -1,9 +1,8 @@
 <script lang="ts">
-  import useQs from "@/qs/useQs";
+  import qs from "@/qs";
   import { writable } from "svelte/store";
 
   let value = writable("");
-  const qs = useQs();
   let updateQTimeout: ReturnType<typeof setTimeout> | null = null;
   function clearQTimtout() {
     if (updateQTimeout) {

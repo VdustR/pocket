@@ -1,9 +1,8 @@
 <script lang="ts">
-  import useQs from "@/qs/useQs";
+  import qs from "@/qs";
   import tags from "@/tags";
   import Fuse from "fuse.js";
   import Tag from "./Tag.svelte";
-  const qs = useQs();
   const sortedTags = tags.sort((a, b) => b.sites.length - a.sites.length);
   let fuse = new Fuse(sortedTags, { keys: ["tag"] });
   $: filteredTags = (() => {

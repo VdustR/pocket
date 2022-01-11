@@ -3,16 +3,13 @@
   import Background from "./Background.svelte";
   import Filter from "./filter/Filter.svelte";
   import List from "./list/List.svelte";
-  import QsProvider from "./qs/QsProvider.svelte";
   import Title from "./Title.svelte";
 </script>
 
 <Background />
-<QsProvider>
-  <main class="flex flex-col mx-auto flex-1 mt-16 max-w-7xl z-0 gap-6">
-    <Title />
-    <Filter />
-    <List />
-    <About />
-  </main>
-</QsProvider>
+<main class="flex flex-col mx-auto flex-1 mt-16 max-w-7xl z-0 gap-6">
+  <Title />
+  <Filter />
+  <List />
+  <About />
+</main>
