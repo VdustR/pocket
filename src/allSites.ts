@@ -19,7 +19,6 @@ github.forEach((repo) => {
     return;
   }
   const site = allSites[siteIndex];
-  if (repo.name === "sharedrop") console.log(site.tags, repo.tags);
   allSites[siteIndex] = {
     ...site,
     description: site.description || repo.description,
@@ -28,7 +27,5 @@ github.forEach((repo) => {
     ),
   };
 });
-
-console.log(allSites);
 
 export default allSites;
