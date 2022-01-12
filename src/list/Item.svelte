@@ -5,8 +5,8 @@
   export let site: Site;
 </script>
 
-<li
-  class="bg-black rounded flex-col bg-opacity-75 border-width-2 w-full py-1.5 transform transition-all ease-in-out gap-2 scale-95 duration-200 inline-flex relative hover:bg-black hover:bg-opacity-5 hover:scale-100 hover:backdrop-filter hover:backdrop-blur-md"
+<div
+  class="bg-black rounded flex-col flex bg-opacity-85 border-width-2 w-full py-1.5 transform transition-all ease-in-out gap-2 scale-x-95 duration-200 relative hover:bg-black hover:bg-opacity-50 hover:scale-100 hover:backdrop-filter hover:backdrop-blur-md"
 >
   <a
     class="flex flex-col px-2 gap-2 hover:text-emerald-200"
@@ -34,4 +34,4 @@
       {site.description}
     </p>
   {/if}
-</li>
+</div>

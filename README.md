@@ -45,11 +45,6 @@ Update starred repos:
 pnpm github
 ```
 
-## Logo
-
-- Image: [Twemoji](https://github.com/twitter/twemoji)
-- Font: [Cedarville Cursive](https://fonts.google.com/specimen/Cedarville+Cursive)
-
 ## LICENSE
 
 MIT

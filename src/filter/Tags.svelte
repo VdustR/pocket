@@ -6,13 +6,11 @@
   const sortedTags = tags.sort((a, b) => b.sites.length - a.sites.length);
   let fuse = new Fuse(sortedTags, { keys: ["tag"] });
   $: filteredTags = (() => {
-    const filteredTags =
+    const filteredTags = (
       $qs.qs.q.trim().length === 0
-        ? tags.slice(0, 100)
-        : fuse
-            .search($qs.qs.q)
-            .slice(0, 100)
-            .map(({ item }) => item);
+        ? tags
+        : fuse.search($qs.qs.q).map(({ item }) => item)
+    ).slice(0, 20);
     $qs.qs.tags.forEach((tag) => {
       if (!filteredTags.some((target) => target.tag === tag)) {
         filteredTags.push(sortedTags.find((target) => target.tag === tag));

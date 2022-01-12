@@ -1,9 +1,9 @@
 <div
-  class="bg bg-cover bg-fixed bg-center h-full top-0 right-0 left-0 z-0 fixed filter sepia-[0.8] hue-rotate-180 brightness-[50%]"
+  class="bg-cover bg-fixed bg-center h-full top-0 right-0 left-0 z-0 fixed filter grayscale-[0.75] brightness-75 contrast-75"
 />
 
 <style>
-  .bg {
+  div {
     background-image: url(https://picsum.photos/800);
   }
 </style>

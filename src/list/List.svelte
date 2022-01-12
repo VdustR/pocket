@@ -3,7 +3,10 @@
   import qs from "@/qs";
   import Fuse from "fuse.js";
   import shuffle from "lodash/shuffle";
+  import { flip } from "svelte/animate";
+  import { scale } from "svelte/transition";
   import Item from "./Item.svelte";
+  const duration = 200;
   const shuffledSites = shuffle(allSites);
   $: filteredSites = shuffledSites.filter((site) => {
     if ($qs.qs.tags.length === 0) return true;
@@ -18,41 +21,52 @@
     const q = $qs.qs.q;
     if (q.trim().length === 0) return filteredSites;
     return fuse.search(q).map(({ item }) => item);
-  })();
+  })().slice(0, 20);
   $: noResult = filterSites.length === 0;
   $: searching = $qs.qs.q.trim().length > 0 || $qs.qs.tags.length > 0;
 </script>
 
-<div class="flex flex-col flex-1 w-full px-4 gap-4 items-stretch">
+<section class="flex flex-col flex-1 w-full px-4 gap-4 items-stretch">
   {#if searching && noResult}
     <div
-      class="border border-solid rounded-lg bg-red-800 bg-opacity-50 border-red-200 text-center py-20 px-4 text-red-200 text-3xl backdrop-blur-md backdrop-filter"
+      class="border border-solid rounded-lg flex flex-col bg-red-800 bg-opacity-50 border-red-200 text-center py-20 px-4 text-3xl gap-4 backdrop-blur-md backdrop-filter items-center justify-center"
     >
-      {"No Matched Results"}
+      <span>{"No Matched Results"}</span>
+      <button
+        class="border border-white rounded-xl cursor-pointer flex bg-opacity-70 text-base px-2 items-center justify-start block hover:border-emerald-200 hover:text-emerald-200 focus:border-emerald-200 focus:text-emerald-200"
+        on:click={() => $qs.setQs({ q: "", tags: [] })}
+      >
+        {"Clear Filters"}
+      </button>
     </div>
   {/if}
-  <ul class="mx-auto ul block">
-    {#each !searching ? allSites : filterSites as site}
-      <Item {site} />
+  <ul class="mx-auto block">
+    {#each filterSites as site (site.url)}
+      <li
+        class="mb-4 w-full inline-block"
+        in:scale={{ duration }}
+        animate:flip={{ duration }}
+      >
+        <Item {site} />
+      </li>
     {/each}
   </ul>
-</div>
+</section>
 
 <style>
-  ul.ul {
+  ul {
     --size: 3;
     --gap: 0rem;
     column-gap: var(--gap);
     column-width: 280px;
   }
 
-  ul.ul > :global(*) {
+  ul > :global(*) {
     max-width: 120rem;
-    margin: 0 var(--gap) var(--gap) 0;
   }
 
   @media (max-width: 720px) {
-    ul.ul > :global(*) {
+    ul > :global(*) {
       width: 100%;
     }
   }
