@@ -14,7 +14,7 @@
 
 <style>
   h1 {
-    font-family: "Cedarville Cursive", cursive;
+    font-family: "Cedarville Cursive", cursive, system-ui, sans-serif;
   }
   h1,
   h2,
