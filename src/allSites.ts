@@ -22,8 +22,8 @@ github.forEach((repo) => {
   allSites[siteIndex] = {
     ...site,
     description: site.description || repo.description,
-    tags: [...new Set(...site.tags, ...repo.tags)].sort((a, b) =>
-      a.localeCompare(b)
+    tags: [...new Set(...(site.tags ? site.tags : []), ...repo.tags)].sort(
+      (a, b) => a.localeCompare(b)
     ),
   };
 });

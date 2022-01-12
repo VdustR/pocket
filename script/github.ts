@@ -10,12 +10,12 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const repos: {
   name: string;
   owner: string;
-  description: string | null;
+  description: string | undefined;
   tags: string[];
 }[] = [];
 
 function toOptionalString(val: unknown) {
-  return val ? String(val) : null;
+  return val ? String(val) : undefined;
 }
 
 function toStrArr(val: unknown) {
@@ -55,7 +55,7 @@ await writeFile(
     `const github: {
   name: string;
   owner: string;
-  description: string | null;
+  description: string | undefined;
   tags: string[];
 }[] = ${JSON.stringify(
       repos.sort((a, b) => {

@@ -11,9 +11,12 @@
         ? tags
         : fuse.search($qs.qs.q).map(({ item }) => item)
     ).slice(0, 20);
+    // always show if selected
     $qs.qs.tags.forEach((tag) => {
       if (!filteredTags.some((target) => target.tag === tag)) {
-        filteredTags.push(sortedTags.find((target) => target.tag === tag));
+        const newTag = sortedTags.find((target) => target.tag === tag);
+        if (!newTag) return;
+        filteredTags.push(newTag);
       }
     });
     return filteredTags;

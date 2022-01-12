@@ -1,7 +1,7 @@
 const github: {
   name: string;
   owner: string;
-  description: string | null;
+  description: string | undefined;
   tags: string[];
 }[] = [
   {
@@ -1804,8 +1804,8 @@ const github: {
       "RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.",
     tags: [],
   },
-  { owner: "google", name: "re2-wasm", description: null, tags: [] },
-  { owner: "google", name: "woff2", description: null, tags: [] },
+  { owner: "google", name: "re2-wasm", tags: [] },
+  { owner: "google", name: "woff2", tags: [] },
   {
     owner: "google",
     name: "wwwbasic",
@@ -2141,7 +2141,7 @@ const github: {
     description: "Easy monkey-patching for node.js unit tests",
     tags: ["mock", "monkey-patching", "testing", "unit-testing"],
   },
-  { owner: "jim515jim", name: "bob", description: null, tags: ["jquery"] },
+  { owner: "jim515jim", name: "bob", tags: ["jquery"] },
   {
     owner: "jlevy",
     name: "the-art-of-command-line",
@@ -2871,7 +2871,7 @@ const github: {
     description: "The builder and parser for PHP",
     tags: [],
   },
-  { owner: "MilesChou", name: "daily-coding", description: null, tags: [] },
+  { owner: "MilesChou", name: "daily-coding", tags: [] },
   {
     owner: "MilesChou",
     name: "lua-action",
@@ -3034,7 +3034,7 @@ const github: {
     description: "Official NGINX Dockerfiles",
     tags: [],
   },
-  { owner: "nh-server", name: "switch-guide", description: null, tags: [] },
+  { owner: "nh-server", name: "switch-guide", tags: [] },
   {
     owner: "nicolasbeauvais",
     name: "vue-social-sharing",
@@ -4545,13 +4545,8 @@ const github: {
       "specification",
     ],
   },
-  {
-    owner: "TeamWin",
-    name: "android_bootable_recovery",
-    description: null,
-    tags: [],
-  },
-  { owner: "tedmax100", name: "blog", description: null, tags: [] },
+  { owner: "TeamWin", name: "android_bootable_recovery", tags: [] },
+  { owner: "tedmax100", name: "blog", tags: [] },
   {
     owner: "Templarian",
     name: "MaterialDesign",
@@ -5504,12 +5499,7 @@ const github: {
     description: "show apple daily content without login",
     tags: [],
   },
-  {
-    owner: "yezhi780625",
-    name: "flutter-fetch-data",
-    description: null,
-    tags: [],
-  },
+  { owner: "yezhi780625", name: "flutter-fetch-data", tags: [] },
   {
     owner: "yezhi780625",
     name: "pnm-convertor",
