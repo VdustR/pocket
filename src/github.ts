@@ -107,6 +107,19 @@ const github: {
     tags: ["animations", "css-grid", "transitions"],
   },
   {
+    owner: "aholachek",
+    name: "react-flip-toolkit",
+    description:
+      "A lightweight magic-move library for configurable layout transitions",
+    tags: [
+      "animation-library",
+      "flip-animations",
+      "layout-animation",
+      "reactjs",
+      "scale-animation",
+    ],
+  },
+  {
     owner: "Akryum",
     name: "v-tooltip",
     description: "💬 Easy tooltips, popovers, dropdown for Vue",
@@ -1975,6 +1988,19 @@ const github: {
     tags: [],
   },
   {
+    owner: "http-party",
+    name: "http-server",
+    description: "a simple zero-configuration command-line http server",
+    tags: [
+      "command-line",
+      "hacktoberfest",
+      "hosting",
+      "http",
+      "server",
+      "static",
+    ],
+  },
+  {
     owner: "i-tu",
     name: "Hasklig",
     description: "Hasklig - a code font with monospaced ligatures",
@@ -2914,6 +2940,13 @@ const github: {
     name: "pdf.js",
     description: "PDF Reader in JavaScript",
     tags: [],
+  },
+  {
+    owner: "mrmckeb",
+    name: "typescript-plugin-css-modules",
+    description:
+      "A TypeScript language service plugin providing support for CSS Modules.",
+    tags: ["css", "modules", "plugin", "postcss", "sass", "typescript"],
   },
   {
     owner: "mswjs",
@@ -4068,21 +4101,6 @@ const github: {
       "sound",
       "spectrum",
       "vst",
-    ],
-  },
-  {
-    owner: "shanalikhan",
-    name: "code-settings-sync",
-    description:
-      "🌴💪 Synchronize your Visual Studio Code Settings Across Multiple Machines using GitHub GIST 💪🌴",
-    tags: [
-      "gist",
-      "github-gist",
-      "settings-sync",
-      "sync",
-      "visual-studio-code",
-      "vscode-extension",
-      "vscode-sync",
     ],
   },
   {

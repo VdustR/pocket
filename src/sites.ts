@@ -15,6 +15,17 @@ const originData: Record<string, Omit<Site, "url">> = {
     description:
       "GitLab's DevOps platform is a single application for unparalleled collaboration, visibility, and development velocity. Learn more here!",
   },
+  "https://archive.org": {
+    title:
+      "Internet Archive: Digital Library of Free & Borrowable Books, Movies, Music & Wayback Machine",
+    description:
+      "Internet Archive is a non-profit digital library offering free universal access to books, movies & music, as well as 624 billion archived web pages.",
+  },
+  "https://cachedview.com": {
+    title: "Google Cached Pages of Any Website - CachedView",
+    description:
+      "CachedView - Google Cached Pages for any web site. It is the ultimate Google Cache browser.",
+  },
   "https://clrs.cc": {
     title: "Colors - A nicer color palette for the web.",
     description: "Colors.css - A nicer color palette for the web.",
@@ -38,6 +49,11 @@ const originData: Record<string, Omit<Site, "url">> = {
     title: "Color Palettes for Designers and Artists - Color Hunt",
     description:
       "Discover the newest hand-picked color palettes of Color Hunt. Get color inspiration for your design and art projects.",
+  },
+  "https://downdetector.com": {
+    title: "Downdetector",
+    description:
+      "Realtime overview of issues and outages with all kinds of services. Having issues? We help you find out what is wrong.",
   },
   "https://fakeimg.pl": {
     title: "Fake images please?",
@@ -76,6 +92,17 @@ const originData: Record<string, Omit<Site, "url">> = {
     description:
       "Markdown Here is an extension for Chrome, Firefox, and Thunderbird that allows you to write email in Markdown",
   },
+  "https://myip.ms": {
+    title:
+      "My IP Address - Shows IPv4 & IPv6 | Blacklist IP Check - Hosting Info",
+    description:
+      "Shows Your IPv4 & IPv6, OS, Browser, Organisation, Country on Interactive Map. Live Hosting Information on where any website is hosted on the internet and other information about IP address owners. Online Blacklist your IP Check (Real-time DB). Web Bots 2022 List",
+  },
+  "https://outage.report": {
+    title: "Outage.Report",
+    description:
+      "See if your provider or web service is having an outage or it's just you. Post yours and see other's reports and complaints",
+  },
   "https://owncloud.com": {
     title: "ownCloud - share files and folders, easy and secure",
     description:
@@ -91,6 +118,7 @@ const originData: Record<string, Omit<Site, "url">> = {
     description:
       "Explore Rocket.Chat, where we put data privacy into every conversation and enable teams to collaborate seamlessly.",
   },
+  "https://tineye.com": { title: "TinEye Reverse Image Search" },
   "https://www.color-hex.com": {
     title: "Color Hex Color Codes",
     description:
@@ -106,10 +134,18 @@ const originData: Record<string, Omit<Site, "url">> = {
     description:
       "The most advanced fake name generator. Generate random names, addresses, usernames, passwords, email addresses, and more. Use for software testing, social media, or anything else.",
   },
+  "https://www.justbeamit.com": {
+    title: "JustBeamIt - file transfer made easy",
+    description: "file transfer made easy",
+  },
   "https://www.lipsum.com": {
     title: "Lorem Ipsum - All the facts - Lipsum generator",
     description:
       "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+  },
+  "https://www.sharedrop.io": {
+    title: "ShareDrop",
+    github: { owner: "szimek", name: "sharedrop" },
   },
   "https://www.supremo.co.uk/typeterms/": {
     title: "Type Terms",
