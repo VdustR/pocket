@@ -19,13 +19,16 @@ github.forEach((repo) => {
     return;
   }
   const site = allSites[siteIndex];
+  if (repo.name === "sharedrop") console.log(site.tags, repo.tags);
   allSites[siteIndex] = {
     ...site,
     description: site.description || repo.description,
-    tags: [...new Set(...(site.tags ? site.tags : []), ...repo.tags)].sort(
+    tags: [...new Set([...(site.tags ? site.tags : []), ...repo.tags])].sort(
       (a, b) => a.localeCompare(b)
     ),
   };
 });
+
+console.log(allSites);
 
 export default allSites;
