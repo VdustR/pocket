@@ -2,6 +2,8 @@
 
 👀 Stay awhile and listen.
 
+My bookmarks and starred repositories.
+
 <https://vdustr.github.io/pocket>
 
 ## Maintain
