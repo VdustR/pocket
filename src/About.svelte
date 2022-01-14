@@ -1,15 +1,16 @@
 <script lang="ts" type="module">
   const credits: Record<string, string> = {
-    Svelte: "https://github.com/sveltejs/svelte",
-    "Windi CSS": "https://github.com/windicss/windicss",
-    Vite: "https://github.com/vitejs/vite",
-    Twemoji: "https://github.com/twitter/twemoji",
     "Cedarville Cursive":
       "https://fonts.google.com/specimen/Cedarville+Cursive",
     Kurale: "https://fonts.google.com/specimen/Kurale",
+    "Material Design Icons": "https://github.com/Templarian/MaterialDesign",
+    "Material Icons": "https://fonts.google.com/icons",
     "Noto Sans Traditional Chinese":
       "https://fonts.google.com/noto/specimen/Noto+Sans+TC",
-    "Material Icons": "https://fonts.google.com/icons",
+    Svelte: "https://github.com/sveltejs/svelte",
+    Twemoji: "https://github.com/twitter/twemoji",
+    Vite: "https://github.com/vitejs/vite",
+    "Windi CSS": "https://github.com/windicss/windicss",
   };
 </script>
 
