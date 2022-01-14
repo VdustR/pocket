@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { q } from "@/filter/Q.svelte";
   import qs from "@/qs";
   import tags from "@/tags";
   import Fuse from "fuse.js";
@@ -7,16 +8,16 @@
   let fuse = new Fuse(sortedTags, { keys: ["tag"] });
   $: filteredTags = (() => {
     const filteredTags = (
-      $qs.qs.q.trim().length === 0
-        ? tags
-        : fuse.search($qs.qs.q).map(({ item }) => item)
+      $q.trim().length === 0 ? tags : fuse.search($q).map(({ item }) => item)
     ).slice(0, 20);
     // always show if selected
+    let spliceIndex = filteredTags.length - 1;
     $qs.qs.tags.forEach((tag) => {
       if (!filteredTags.some((target) => target.tag === tag)) {
         const newTag = sortedTags.find((target) => target.tag === tag);
         if (!newTag) return;
-        filteredTags.push(newTag);
+        filteredTags.splice(spliceIndex, 1, newTag);
+        spliceIndex--;
       }
     });
     return filteredTags;
