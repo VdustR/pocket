@@ -17,3 +17,7 @@ input {
   outline: none;
   border-color: #fff;
 }
+
+[role="button"] {
+  user-select: none;
+}
