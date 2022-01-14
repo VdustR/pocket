@@ -1,3 +1,5 @@
+import shuffle from "lodash/shuffle";
+import { writable } from "svelte/store";
 import github from "./github";
 import sites from "./sites";
 
@@ -29,3 +31,9 @@ github.forEach((repo) => {
 });
 
 export default allSites;
+
+export const shuffledSites = writable(shuffle(allSites));
+
+export function shuffleSites() {
+  shuffledSites.set(shuffle(allSites));
+}

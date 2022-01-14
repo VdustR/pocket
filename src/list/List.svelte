@@ -1,14 +1,13 @@
 <script lang="ts">
-  import allSites from "@/allSites";
+  import { shuffledSites } from "@/allSites";
   import qs from "@/qs";
   import Fuse from "fuse.js";
-  import shuffle from "lodash/shuffle";
   import { flip } from "svelte/animate";
   import { scale } from "svelte/transition";
   import Item from "./Item.svelte";
+  const sliceSize = 20;
   const duration = 200;
-  const shuffledSites = shuffle(allSites);
-  $: filteredSites = shuffledSites.filter((site) => {
+  $: filteredSites = $shuffledSites.filter((site) => {
     if ($qs.qs.tags.length === 0) return true;
     return $qs.qs.tags.every((tag) =>
       site.tags?.some((target) => target === tag)
@@ -21,7 +20,7 @@
     const q = $qs.qs.q;
     if (q.trim().length === 0) return filteredSites;
     return fuse.search(q).map(({ item }) => item);
-  })().slice(0, 20);
+  })().slice(0, sliceSize);
   $: noResult = filterSites.length === 0;
   $: searching = $qs.qs.q.trim().length > 0 || $qs.qs.tags.length > 0;
 </script>
