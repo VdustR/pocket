@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Site } from "@/sites";
+  import type { Site } from "@/type";
   import Tag from "./Tag.svelte";
   export let site: Site;
 </script>

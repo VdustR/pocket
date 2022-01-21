@@ -4,9 +4,5 @@
     "module": "es2022",
     "moduleResolution": "Node"
   },
-  "include": ["github.ts"],
-  "ts-node": {
-    "transpileOnly": true,
-    "transpiler": "ts-node/transpilers/swc-experimental"
-  }
+  "include": ["*"]
 }

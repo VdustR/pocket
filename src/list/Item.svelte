@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Site } from "@/sites";
+  import type { Site } from "@/type";
   import { inview } from "svelte-inview";
   import OpenOutIcon from "./OpenOutIcon.svelte";
   import Tags from "./Tags.svelte";

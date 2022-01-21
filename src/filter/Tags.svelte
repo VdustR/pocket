@@ -2,27 +2,22 @@
   import { q } from "@/filter/Q.svelte";
   import getTransitionIdMap from "@/getTransitionIdMap";
   import qs from "@/qs";
-  import tags from "@/tags";
+  import { tags } from "@/sites";
   import Fuse from "fuse.js";
   import { flip } from "svelte/animate";
   import { fade } from "svelte/transition";
 
   const maxCount = 20;
-  const sortedTags = tags
-    .sort((a, b) => b.sites.length - a.sites.length)
-    .map((tag) => tag.tag);
-  let fuse = new Fuse(sortedTags, { keys: ["tag"] });
+  let fuse = new Fuse(tags, { keys: ["tag"] });
   $: filteredTags = (() => {
     const filteredTags = (
-      $q.trim().length === 0
-        ? sortedTags
-        : fuse.search($q).map(({ item }) => item)
+      $q.trim().length === 0 ? tags : fuse.search($q).map(({ item }) => item)
     ).slice(0, maxCount);
     // always show if selected
     let spliceIndex = filteredTags.length - 1;
     $qs.qs.tags.forEach((tag) => {
       if (!filteredTags.some((target) => target === tag)) {
-        const newTag = sortedTags.find((target) => target === tag);
+        const newTag = tags.find((target) => target === tag);
         if (!newTag) return;
         filteredTags.splice(spliceIndex, 1, newTag);
         spliceIndex--;

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { shuffleSites } from "@/allSites";
+  import { shuffleSites } from "@/shuffledSites";
 </script>
 
 <button

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { shuffledSites } from "@/allSites";
   import qs from "@/qs";
+  import shuffledSites from "@/shuffledSites";
   import Fuse from "fuse.js";
   import { flip } from "svelte/animate";
   import { scale } from "svelte/transition";

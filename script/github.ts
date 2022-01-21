@@ -50,12 +50,12 @@ repos.forEach((repo) => {
 });
 
 await writeFile(
-  resolve(__dirname, "../src/github.ts"),
+  resolve(__dirname, "../data/github.ts"),
   prettier.format(
     `const github: {
   name: string;
   owner: string;
-  description: string | undefined;
+  description?: string;
   tags: string[];
 }[] = ${JSON.stringify(
       repos.sort((a, b) => {
