@@ -1,26 +1,42 @@
-<script lang="ts">
+<script lang="ts" context="module">
+  import { sitesKeys } from "@/fuseKeys";
   import qs from "@/qs";
   import shuffledSites from "@/shuffledSites";
+  import sites from "@/sites";
+  import fuseIndex from "@/sitesIndex.json";
+  import type { Site } from "@/type";
   import Fuse from "fuse.js";
   import { flip } from "svelte/animate";
   import { scale } from "svelte/transition";
   import Item from "./Item.svelte";
+
+  const myIndex = Fuse.parseIndex(fuseIndex);
+
+  const fuse = new Fuse<Site>(
+    sites,
+    {
+      keys: sitesKeys,
+    },
+    myIndex
+  );
+</script>
+
+<script lang="ts">
   const sliceSize = 20;
   const duration = 200;
-  $: filteredSites = $shuffledSites.filter((site) => {
-    if ($qs.qs.tags.length === 0) return true;
-    return $qs.qs.tags.every((tag) =>
-      site.tags?.some((target) => target === tag)
-    );
-  });
-  $: fuse = new Fuse(filteredSites, {
-    keys: ["title", "description", "url"],
-  });
+
   $: filterSites = (() => {
     const q = $qs.qs.q;
-    if (q.trim().length === 0) return filteredSites;
+    if (q.trim().length === 0) return $shuffledSites;
     return fuse.search(q).map(({ item }) => item);
-  })().slice(0, sliceSize);
+  })()
+    .filter((site) => {
+      if ($qs.qs.tags.length === 0) return true;
+      return $qs.qs.tags.every((tag) =>
+        site.tags?.some((target) => target === tag)
+      );
+    })
+    .slice(0, sliceSize);
   $: noResult = filterSites.length === 0;
   $: searching = $qs.qs.q.trim().length > 0 || $qs.qs.tags.length > 0;
 </script>

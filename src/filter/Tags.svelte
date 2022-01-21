@@ -8,7 +8,7 @@
   import { fade } from "svelte/transition";
 
   const maxCount = 20;
-  let fuse = new Fuse(tags, { keys: ["tag"] });
+  let fuse = new Fuse(tags);
   $: filteredTags = (() => {
     const filteredTags = (
       $q.trim().length === 0 ? tags : fuse.search($q).map(({ item }) => item)

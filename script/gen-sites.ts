@@ -1,10 +1,12 @@
 import { writeFile } from "fs/promises";
+import Fuse from "fuse.js";
 import kebabCase from "lodash/kebabCase";
 import { dirname, resolve } from "path";
 import prettier from "prettier";
 import { fileURLToPath } from "url";
 import bookmarks from "../data/bookmarks";
 import github from "../data/github";
+import { sitesKeys } from "../src/fuseKeys";
 import type { Site } from "../src/type";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -103,4 +105,10 @@ export default sites;
 `,
     { parser: "typescript" }
   )
+);
+
+const sitesIndex = Fuse.createIndex(sitesKeys, sites);
+await writeFile(
+  resolve(__dirname, "../src/sitesIndex.json"),
+  prettier.format(JSON.stringify(sitesIndex), { parser: "json" })
 );
