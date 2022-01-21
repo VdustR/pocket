@@ -1,12 +1,22 @@
 <script lang="ts">
   import type { Site } from "@/sites";
+  import { inview } from "svelte-inview";
   import OpenOutIcon from "./OpenOutIcon.svelte";
   import Tags from "./Tags.svelte";
+
   export let site: Site;
+  let isInView: boolean;
 </script>
 
 <div
-  class="bg-black rounded flex-col flex bg-opacity-85 border-width-2 w-full py-1.5 transform transition-all ease-in-out gap-2 scale-x-95 duration-200 relative hover:bg-black hover:bg-opacity-50 hover:scale-100 hover:backdrop-filter hover:backdrop-blur-md"
+  use:inview
+  on:change={(e) => {
+    isInView = e.detail.inView;
+  }}
+  class="- bg-black rounded flex-col flex border-width-2 w-full py-1.5 ease-in-out gap-2 scale-x-95 duration-200 relative hover:bg-black hover:border-white hover:bg-opacity-10 hover:border-opacity-20 hover:scale-100 hover:backdrop-filter hover:backdrop-blur-md"
+  class:bg-opacity-65={isInView}
+  class:transform={isInView}
+  class:transition-all={isInView}
 >
   <a
     class="flex flex-col px-2 gap-2 hover:text-emerald-200"
@@ -35,3 +45,9 @@
     </p>
   {/if}
 </div>
+
+<style>
+  .\-:hover hr {
+    opacity: 0.2;
+  }
+</style>

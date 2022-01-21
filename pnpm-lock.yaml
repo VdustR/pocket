@@ -10,6 +10,7 @@ specifiers:
   '@types/node': 16.x||17.x
   '@types/prettier': ^2.4.2
   '@types/qs': ^6.9.7
+  '@types/uuid': ^8.3.4
   axios: ^0.24.0
   fuse.js: ^6.5.3
   lodash: ^4.17.21
@@ -18,10 +19,12 @@ specifiers:
   regenerator-runtime: ^0.13.9
   svelte: ^3.44.0
   svelte-check: ^2.2.7
+  svelte-inview: ^2.1.1
   svelte-preprocess: ^4.9.8
   ts-node: ^10.4.0
   tslib: ^2.3.1
   typescript: ^4.5.4
+  uuid: ^8.3.2
   vite: ^2.7.2
   vite-plugin-windicss: ^1.6.1
 
@@ -35,6 +38,7 @@ dependencies:
   '@types/node': 17.0.8
   '@types/prettier': 2.4.2
   '@types/qs': 6.9.7
+  '@types/uuid': 8.3.4
   axios: 0.24.0
   fuse.js: 6.5.3
   lodash: 4.17.21
@@ -43,10 +47,12 @@ dependencies:
   regenerator-runtime: 0.13.9
   svelte: 3.44.3
   svelte-check: 2.2.11_svelte@3.44.3
+  svelte-inview: 2.1.1_svelte@3.44.3
   svelte-preprocess: 4.10.1_svelte@3.44.3+typescript@4.5.4
   ts-node: 10.4.0_96735e75dd52960ebb6e9162805a2ce7
   tslib: 2.3.1
   typescript: 4.5.4
+  uuid: 8.3.2
   vite: 2.7.10
   vite-plugin-windicss: 1.6.1_vite@2.7.10
 
@@ -322,6 +328,10 @@ packages:
 
   /@types/throttle-debounce/2.1.0:
     resolution: {integrity: sha512-5eQEtSCoESnh2FsiLTxE121IiE60hnMqcb435fShf4bpLRjEu1Eoekht23y6zXS9Ts3l+Szu3TARnTsA0GkOkQ==}
+    dev: false
+
+  /@types/uuid/8.3.4:
+    resolution: {integrity: sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw==}
     dev: false
 
   /@windicss/config/1.6.1:
@@ -1111,6 +1121,14 @@ packages:
       svelte: 3.44.3
     dev: false
 
+  /svelte-inview/2.1.1_svelte@3.44.3:
+    resolution: {integrity: sha512-eEDkcIddA/eYpMl4bDKwop+GP8vjzrxeVAAOlC/lz7FgsrSvJ5hxJGwLT7qwUy9adfXXA2bow/NKVURaOhskag==}
+    peerDependencies:
+      svelte: ^3.0.0
+    dependencies:
+      svelte: 3.44.3
+    dev: false
+
   /svelte-preprocess/4.10.1_svelte@3.44.3+typescript@4.5.4:
     resolution: {integrity: sha512-NSNloaylf+o9UeyUR2KvpdxrAyMdHl3U7rMnoP06/sG0iwJvlUM4TpMno13RaNqovh4AAoGsx1jeYcIyuGUXMw==}
     engines: {node: '>= 9.11.2'}
@@ -1212,6 +1230,11 @@ packages:
   /typescript/4.5.4:
     resolution: {integrity: sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==}
     engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
+  /uuid/8.3.2:
+    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
     hasBin: true
     dev: false
 
