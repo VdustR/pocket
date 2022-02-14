@@ -4,7 +4,7 @@
 
 My bookmarks and starred repositories.
 
-<https://vdustr.github.io/pocket>
+<https://vdustr.dev/pocket>
 
 ## Maintain
 

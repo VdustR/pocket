@@ -52,7 +52,7 @@
   {"Copyright © "}
   <a
     class="transition-all ease-in-out text-emerald-200 duration-200 hover:text-emerald-800"
-    href="https://vdustr.github.io"
+    href="https://vdustr.dev"
     target="_blank"
     rel="noopener noreferrer"
   >
