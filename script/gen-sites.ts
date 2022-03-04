@@ -4,14 +4,14 @@ import kebabCase from "lodash/kebabCase";
 import { dirname, resolve } from "path";
 import prettier from "prettier";
 import { fileURLToPath } from "url";
-import bookmarks from "../data/bookmarks";
+import favorite from "../data/favorite";
 import github from "../data/github";
 import { sitesKeys } from "../src/fuseKeys";
 import type { Site } from "../src/type";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const sites = [...bookmarks];
+const sites = [...favorite];
 github.forEach((repo) => {
   const siteIndex = sites.findIndex(
     (site) =>

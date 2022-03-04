@@ -54,9 +54,27 @@ const github: {
     tags: [],
   },
   {
+    owner: "ACh-K",
+    name: "Cubic-11",
+    description: "免費開源的 11×11 中文點陣體",
+    tags: ["chinese-fonts", "font", "pixel-font"],
+  },
+  {
     owner: "achingbrain",
     name: "pm2-web",
     description: "A web based monitor for PM2",
+    tags: [],
+  },
+  {
+    owner: "actions",
+    name: "github-script",
+    description: "Write workflows scripting the GitHub API in JavaScript",
+    tags: ["actions", "github-api", "javascript"],
+  },
+  {
+    owner: "actions",
+    name: "toolkit",
+    description: "The GitHub ToolKit for developing GitHub Actions.",
     tags: [],
   },
   {
@@ -274,6 +292,12 @@ const github: {
   },
   {
     owner: "antfu",
+    name: "magic-string-extra",
+    description: "Extended magic-string with extra utilities",
+    tags: ["magic-string", "sourcemap"],
+  },
+  {
+    owner: "antfu",
     name: "ni",
     description: "💡 Use the right package manager",
     tags: ["cli", "npm", "package-manager", "pnpm", "yarn"],
@@ -289,6 +313,18 @@ const github: {
     name: "vite-node",
     description: "Vite as Node.js runtime",
     tags: ["node", "runtime", "vite"],
+  },
+  {
+    owner: "antfu",
+    name: "vite-plugin-inspect",
+    description: "Inspect the intermediate state of Vite plugins",
+    tags: ["vite", "vite-plugin"],
+  },
+  {
+    owner: "antfu",
+    name: "vite-plugin-md",
+    description: "Markdown with Vue for Vite",
+    tags: ["markdown", "markdown-it", "vite", "vite-plugin", "vue"],
   },
   {
     owner: "apex",
@@ -363,6 +399,13 @@ const github: {
       "tile-editor",
       "tilemap-editor",
     ],
+  },
+  {
+    owner: "Aslemammad",
+    name: "react-worker-components-plugin",
+    description:
+      "⚡ Something like react server components, but web workers instead of a server",
+    tags: ["next", "react", "server-components", "vite", "webpack", "worker"],
   },
   { owner: "assaultcube", name: "AC", description: "AssaultCube", tags: [] },
   {
@@ -474,6 +517,33 @@ const github: {
     tags: [],
   },
   {
+    owner: "benweet",
+    name: "stackedit",
+    description: "In-browser Markdown editor",
+    tags: [
+      "blogger",
+      "couchdb",
+      "dropbox",
+      "editor",
+      "gist",
+      "github",
+      "gitlab",
+      "google-drive",
+      "javascript",
+      "markdown",
+      "offline",
+      "stackedit",
+      "wordpress",
+      "zendesk",
+    ],
+  },
+  {
+    owner: "benweet",
+    name: "stackedit.js",
+    description: "Add StackEdit to any website",
+    tags: ["editor", "markdown", "markdown-editor", "stackedit"],
+  },
+  {
     owner: "BespokeSynth",
     name: "BespokeSynth",
     description: "Software modular synth",
@@ -486,6 +556,13 @@ const github: {
       "Better Discord enhances Discord desktop app with new features.",
     tags: ["betterdiscord", "discord"],
   },
+  {
+    owner: "beurtschipper",
+    name: "Depix",
+    description: "Recovers passwords from pixelized screenshots",
+    tags: [],
+  },
+  { owner: "bilibili", name: "ailab", tags: [] },
   {
     owner: "bobbyiliev",
     name: "introduction-to-bash-scripting",
@@ -519,6 +596,12 @@ const github: {
     ],
   },
   {
+    owner: "bootandy",
+    name: "dust",
+    description: "A more intuitive version of du in rust",
+    tags: [],
+  },
+  {
     owner: "botoxparty",
     name: "XP.css",
     description:
@@ -549,10 +632,55 @@ const github: {
     ],
   },
   {
+    owner: "Budibase",
+    name: "budibase",
+    description:
+      "Budibase is an open-source low-code platform for creating internal apps in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s 🚀 ",
+    tags: [
+      "automation",
+      "developer-tools",
+      "docker",
+      "docker-compose",
+      "internal-project",
+      "internal-tool",
+      "internal-tools",
+      "low-code",
+      "low-code-development",
+      "low-code-development-platform",
+      "lowcode",
+      "nocode",
+      "opensource",
+      "selfhosted",
+      "web-dev",
+      "web-development",
+      "web-development-tools",
+      "webdev",
+      "webdevelopment",
+      "workflow-automation",
+    ],
+  },
+  {
     owner: "ButTaiwan",
     name: "taigivs",
     description: "the Taiwanese version of bpmfvs.",
     tags: [],
+  },
+  {
+    owner: "bvaughn",
+    name: "react-virtualized",
+    description:
+      "React components for efficiently rendering large lists and tabular data",
+    tags: [
+      "grid",
+      "list",
+      "listview",
+      "performance",
+      "react",
+      "react-components",
+      "tabular-data",
+      "virtualization",
+      "windowing",
+    ],
   },
   {
     owner: "cacjs",
@@ -713,6 +841,13 @@ const github: {
     ],
   },
   {
+    owner: "codesandbox",
+    name: "sandpack",
+    description:
+      "A component toolkit for creating live-running code editing experiences, using the power of CodeSandbox.",
+    tags: ["documentation", "live-coding", "playground", "reactjs", "sandbox"],
+  },
+  {
     owner: "CodeSeven",
     name: "toastr",
     description: "Simple javascript toast notifications",
@@ -724,6 +859,33 @@ const github: {
     description:
       "Play your favorite games in a borderless window; no more time consuming alt-tabs. ",
     tags: ["borderless", "c-sharp", "directx", "games", "steam"],
+  },
+  {
+    owner: "codota",
+    name: "TabNine",
+    description: "AI Code Completions",
+    tags: [
+      "ai",
+      "artificial-intelligence",
+      "atom-package",
+      "bash",
+      "cpp",
+      "golang",
+      "gpt-2",
+      "java",
+      "javascript",
+      "jetbrains-plugin",
+      "lua",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "sublime-package",
+      "swift",
+      "typescript",
+      "vim-plugin",
+      "vscode-extension",
+    ],
   },
   {
     owner: "CoenraadS",
@@ -753,6 +915,24 @@ const github: {
     name: "podman",
     description: "Podman: A tool for managing OCI containers and pods.",
     tags: [],
+  },
+  {
+    owner: "containrrr",
+    name: "watchtower",
+    description:
+      "A process for automating Docker container base image updates. ",
+    tags: [
+      "automation",
+      "continuous-delivery",
+      "devops",
+      "docker",
+      "hacktoberfest",
+      "notifications",
+      "receive-notifications",
+      "registry",
+      "update-checker",
+      "watchtower",
+    ],
   },
   {
     owner: "cure53",
@@ -1117,6 +1297,12 @@ const github: {
     tags: [],
   },
   {
+    owner: "DustinBrett",
+    name: "daedalOS",
+    description: "Desktop environment in the browser.",
+    tags: ["desktop", "environment", "javascript", "os"],
+  },
+  {
     owner: "dwmkerr",
     name: "hacker-laws",
     description:
@@ -1373,6 +1559,12 @@ const github: {
     ],
   },
   {
+    owner: "estree",
+    name: "estree",
+    description: "The ESTree Spec",
+    tags: ["ast", "estree", "javascript", "parsing", "specification"],
+  },
+  {
     owner: "evanw",
     name: "esbuild",
     description: "An extremely fast JavaScript and CSS bundler and minifier",
@@ -1490,16 +1682,21 @@ const github: {
   {
     owner: "files-community",
     name: "Files",
-    description:
-      "A modern file manager that pushes the boundaries of the platform.",
+    description: "A modern file manager for Windows",
     tags: [
+      "alternatives",
       "csharp",
+      "developer-tools",
+      "dotnet",
       "file-manager",
       "files",
       "fluent",
       "fluent-design",
       "good-first-issue",
       "mica",
+      "power-user",
+      "productivity",
+      "utilities",
       "uwp",
       "windows",
       "windows-10",
@@ -1742,6 +1939,7 @@ const github: {
     description: "A collection of useful .gitignore templates",
     tags: ["git", "gitignore"],
   },
+  { owner: "githubocto", name: "flat-ui", tags: ["flat-data"] },
   {
     owner: "gitkraken",
     name: "vscode-gitlens",
@@ -1809,7 +2007,7 @@ const github: {
     owner: "goldbergyoni",
     name: "nodebestpractices",
     description:
-      ":white_check_mark:  The Node.js best practices list (January 2022)",
+      ":white_check_mark:  The Node.js best practices list (February 2022)",
     tags: [
       "best-practices",
       "es6",
@@ -1877,8 +2075,8 @@ const github: {
   {
     owner: "google",
     name: "zx",
-    description: "A tool for writing better scripts",
-    tags: ["javascript", "nodejs"],
+    description: "Replace Bash with JavaScript",
+    tags: ["bash", "cli", "javascript", "nodejs", "shell"],
   },
   {
     owner: "GoogleChromeLabs",
@@ -1886,6 +2084,19 @@ const github: {
     description:
       "ndb is an improved debugging experience for Node.js, enabled by Chrome DevTools",
     tags: ["debugging", "devtools", "nodejs"],
+  },
+  {
+    owner: "GoogleChromeLabs",
+    name: "webpack-libs-optimizations",
+    description:
+      "Using a library in your webpack project? Here’s how to optimize it",
+    tags: ["frontend", "performance", "webpack"],
+  },
+  {
+    owner: "googlefonts",
+    name: "nanoemoji",
+    description: "A wee tool to build color fonts.",
+    tags: [],
   },
   {
     owner: "googlefonts",
@@ -2241,6 +2452,21 @@ const github: {
     tags: ["fish", "fish-plugin", "nodejs", "nvm"],
   },
   {
+    owner: "jprichardson",
+    name: "node-fs-extra",
+    description:
+      "Node.js: extra methods for the fs object like copy(), remove(), mkdirs()",
+    tags: [
+      "copy",
+      "delete",
+      "filesystem",
+      "javascript",
+      "move",
+      "nodejs",
+      "remove",
+    ],
+  },
+  {
     owner: "jquery",
     name: "jquery",
     description: "jQuery JavaScript Library",
@@ -2393,6 +2619,18 @@ const github: {
     ],
   },
   {
+    owner: "kawamataryo",
+    name: "chikamichi",
+    description:
+      "Command pallet for the browser. Enables fuzzy search for histories, tabs and bookmarks.",
+    tags: [
+      "browser-extension",
+      "chrome-extension",
+      "firefox-addon",
+      "webextension",
+    ],
+  },
+  {
     owner: "kazupon",
     name: "vue-i18n",
     description:
@@ -2501,6 +2739,12 @@ const github: {
       "lightweight-fuzzy-search",
       "weighted-search",
     ],
+  },
+  {
+    owner: "kristopolous",
+    name: "BOOTSTRA.386",
+    description: "A vintage 1980s DOS inspired Twitter Bootstrap theme",
+    tags: [],
   },
   {
     owner: "kubeapps",
@@ -2832,6 +3076,43 @@ const github: {
     ],
   },
   {
+    owner: "mhutchie",
+    name: "vscode-git-graph",
+    description:
+      "View a Git Graph of your repository in Visual Studio Code, and easily perform Git actions from the graph.",
+    tags: [
+      "git",
+      "visual-studio-code",
+      "visual-studio-code-extension",
+      "vscode",
+      "vscode-extension",
+    ],
+  },
+  {
+    owner: "micromatch",
+    name: "picomatch",
+    description:
+      "Blazing fast and accurate glob matcher written JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions. Used by GraphQL, Jest, Astro, Snowpack, Storybook, Serverless, fdir, Netlify, AWS Amplify, Revogrid, rollup, routify, open-wc, imba, ava, docusaurus, fast-glob, globby, chokidar, anymatch, cloudflare/miniflare, pts, and more than 5 million projects! Please follow picomatch's author: https://github.com/jonschlinkert",
+    tags: [
+      "fast-glob",
+      "fdir",
+      "find",
+      "glob",
+      "glob-pattern",
+      "globber",
+      "match",
+      "matcher",
+      "matching",
+      "micromatch",
+      "minimatch",
+      "multimatch",
+      "node-glob",
+      "regex",
+      "regexp",
+      "regular-expression",
+    ],
+  },
+  {
     owner: "microsoft",
     name: "cascadia-code",
     description:
@@ -2999,11 +3280,30 @@ const github: {
     ],
   },
   {
+    owner: "minicli",
+    name: "action-contributors",
+    description: "GitHub Action to dynamically update CONTRIBUTORS file",
+    tags: [],
+  },
+  {
     owner: "mishoo",
     name: "UglifyJS",
     description:
       " JavaScript parser / mangler / compressor / beautifier toolkit",
     tags: [],
+  },
+  {
+    owner: "mjmlio",
+    name: "mjml",
+    description: "MJML: the only framework that makes responsive-email easy",
+    tags: [
+      "email",
+      "email-boilerplate",
+      "email-campaigns",
+      "mjml",
+      "responsive",
+      "responsive-email",
+    ],
   },
   {
     owner: "mkrl",
@@ -3070,10 +3370,16 @@ const github: {
     ],
   },
   {
-    owner: "mui-org",
+    owner: "muan",
+    name: "emojilib",
+    description: "Emoji keyword library.",
+    tags: ["emoji", "emoji-searcher"],
+  },
+  {
+    owner: "mui",
     name: "material-ui",
     description:
-      "MUI (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.",
+      "MUI Core (formerly Material UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.",
     tags: [
       "design-systems",
       "hacktoberfest",
@@ -3123,6 +3429,12 @@ const github: {
       "replay",
       "testing",
     ],
+  },
+  {
+    owner: "nextui-org",
+    name: "nextui",
+    description: "🚀   Beautiful, fast and modern React UI library.",
+    tags: ["component-library", "components", "library", "reactjs"],
   },
   { owner: "Nexus-Mods", name: "Nexus-Mod-Manager", tags: [] },
   {
@@ -3220,6 +3532,12 @@ const github: {
     ],
   },
   {
+    owner: "notepad-plus-plus",
+    name: "notepad-plus-plus",
+    description: "Notepad++ official repository",
+    tags: ["editor", "notepad", "notepad-official", "windows"],
+  },
+  {
     owner: "npkgz",
     name: "cli-progress",
     description:
@@ -3255,6 +3573,12 @@ const github: {
     tags: ["javascript", "npm", "package-manager", "tink"],
   },
   {
+    owner: "nteract",
+    name: "ansi-to-react",
+    description: ":guardsman: ANSI to React",
+    tags: [],
+  },
+  {
     owner: "nuxt",
     name: "actions-yarn",
     description: "Github Actions for yarn",
@@ -3283,6 +3607,12 @@ const github: {
     description:
       "Magnificent app which corrects your previous console command.",
     tags: ["python", "shell"],
+  },
+  {
+    owner: "NVIDIAGameWorks",
+    name: "NVIDIAImageScaling",
+    description: "NVIDIA Image Scaling SDK",
+    tags: [],
   },
   {
     owner: "nvm-sh",
@@ -3572,6 +3902,13 @@ const github: {
     name: "parcel-css",
     description: "A CSS parser, transformer, and minifier written in Rust.",
     tags: ["build-tool", "compiler", "css", "minifier", "parser", "rust"],
+  },
+  {
+    owner: "phosphor-icons",
+    name: "phosphor-home",
+    description:
+      "The homepage of Phosphor Icons, a flexible icon family for everyone",
+    tags: ["icon-font", "icon-pack", "icons", "phosphor", "svgs"],
   },
   {
     owner: "photonstorm",
@@ -3941,11 +4278,28 @@ const github: {
     tags: ["fish", "fish-prompt", "fish-theme", "prompt", "theme", "zsh"],
   },
   {
+    owner: "PuruVJ",
+    name: "neodrag",
+    tags: ["draggable", "javascript", "svelte", "typescript"],
+  },
+  {
     owner: "qweasd1",
     name: "hyper-drop-file",
     description:
       "The hyper plugin to let you drop file path into your terminal",
     tags: [],
+  },
+  {
+    owner: "R2Northstar",
+    name: "Northstar",
+    description: "Repo for packaged Northstar releases",
+    tags: [
+      "northstar",
+      "northstar-client",
+      "r2northstar",
+      "titanfall",
+      "titanfall-2",
+    ],
   },
   {
     owner: "railsware",
@@ -3975,6 +4329,12 @@ const github: {
     name: "react-dropzone",
     description: "Simple HTML5 drag-drop zone with React.js.",
     tags: ["drag-and-drop", "file", "file-upload", "react"],
+  },
+  {
+    owner: "react-grid-layout",
+    name: "react-draggable",
+    description: "React draggable component",
+    tags: [],
   },
   {
     owner: "reactjs",
@@ -4047,6 +4407,12 @@ const github: {
   },
   {
     owner: "Rich-Harris",
+    name: "magic-string",
+    description: "Manipulate strings like a wizard",
+    tags: [],
+  },
+  {
+    owner: "Rich-Harris",
     name: "svelte-cubed",
     description: "Svelte ❤️ Three",
     tags: [],
@@ -4107,12 +4473,14 @@ const github: {
     owner: "rootsongjc",
     name: "kubernetes-handbook",
     description:
-      "Kubernetes中文指南/云原生应用架构实践手册 -  https://jimmysong.io/kubernetes-handbook",
+      "Kubernetes中文指南/云原生应用架构实战手册 -  https://jimmysong.io/kubernetes-handbook",
     tags: [
       "cloud-native",
       "cncf",
       "gitbook",
       "handbook",
+      "istio",
+      "k8s",
       "kubernetes",
       "service-mesh",
     ],
@@ -4615,6 +4983,30 @@ const github: {
     tags: ["angles", "arc", "arrow-heads", "draw", "perfect-arrows"],
   },
   {
+    owner: "stop-war-in-ukraine",
+    name: "stop-russia-it",
+    description:
+      "An open letter from IT industry specialists to protect Ukraine from information warfare. Відкритий лист спеціалістів IT-індустрії на захист України від інформаційної війни.",
+    tags: [
+      "atlassian",
+      "bitbucket",
+      "cdn",
+      "github",
+      "gitlab",
+      "go",
+      "jetbrains",
+      "linkedin",
+      "microsoft",
+      "npm",
+      "skype",
+      "slack",
+      "stackexchange",
+      "ukraine",
+      "upwork",
+      "war",
+    ],
+  },
+  {
     owner: "storybookjs",
     name: "storybook",
     description:
@@ -4657,6 +5049,13 @@ const github: {
   },
   {
     owner: "sveltejs",
+    name: "language-tools",
+    description:
+      "The Svelte Language Server, and official extensions which use it",
+    tags: ["language-server", "svelte", "vscode-extension"],
+  },
+  {
+    owner: "sveltejs",
     name: "prettier-plugin-svelte",
     description: "Format your svelte components using prettier.",
     tags: [],
@@ -4666,6 +5065,12 @@ const github: {
     name: "svelte",
     description: "Cybernetically enhanced web apps",
     tags: ["compiler", "template", "ui"],
+  },
+  {
+    owner: "sveltejs",
+    name: "svelte-virtual-list",
+    description: "A virtual list component for Svelte apps",
+    tags: [],
   },
   {
     owner: "svgdotjs",
@@ -4748,10 +5153,40 @@ const github: {
   },
   {
     owner: "tailwindlabs",
+    name: "headlessui",
+    description:
+      "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
+    tags: [
+      "a11y",
+      "accessibility",
+      "components",
+      "headless-ui",
+      "headlessui",
+      "react",
+      "tailwindcss",
+      "vue",
+    ],
+  },
+  {
+    owner: "tailwindlabs",
     name: "heroicons",
     description:
       "A set of free MIT-licensed high-quality SVG icons for UI development.",
     tags: [],
+  },
+  {
+    owner: "tailwindlabs",
+    name: "tailwindcss",
+    description: "A utility-first CSS framework for rapid UI development.",
+    tags: [
+      "css",
+      "css-framework",
+      "functional-css",
+      "postcss",
+      "responsive",
+      "tailwindcss",
+      "utility-classes",
+    ],
   },
   {
     owner: "TakWolf",
@@ -4771,7 +5206,25 @@ const github: {
     ],
   },
   {
-    owner: "tannerlinsley",
+    owner: "TanStack",
+    name: "react-location",
+    description: "⚛️ Enterprise Client-Side Routing for React",
+    tags: [
+      "hooks",
+      "javascript",
+      "location",
+      "params",
+      "react",
+      "route",
+      "router",
+      "routing",
+      "search",
+      "searchparams",
+      "url",
+    ],
+  },
+  {
+    owner: "TanStack",
     name: "react-virtual",
     description: "⚛️ Hooks for virtualizing scrollable elements in React",
     tags: [
@@ -4835,7 +5288,7 @@ const github: {
     owner: "terser",
     name: "terser",
     description: "🗜 JavaScript parser, mangler and compressor toolkit for ES6+",
-    tags: ["compressor", "es6", "javacript", "mangler", "parser", "uglifyjs"],
+    tags: ["compressor", "es6", "javascript", "mangler", "parser", "uglifyjs"],
   },
   {
     owner: "thebuilder",
@@ -4935,6 +5388,27 @@ const github: {
       "shell",
       "terminal",
       "tldr",
+    ],
+  },
+  {
+    owner: "tldraw",
+    name: "tldraw",
+    description: "A tiny little drawing app.",
+    tags: ["code", "drawing", "fun", "sketch", "svg", "whiteboard"],
+  },
+  {
+    owner: "tnfe",
+    name: "FFCreator",
+    description:
+      "一个基于node.js的高速视频制作库  A fast video processing library based on node.js",
+    tags: [
+      "ffmpeg",
+      "ffmpeg-libraries",
+      "nodejs",
+      "short-video",
+      "video",
+      "video-editor",
+      "video-processing",
     ],
   },
   {
@@ -5093,6 +5567,12 @@ const github: {
     tags: ["buffers", "regular-expressions", "unicode-mode"],
   },
   {
+    owner: "ulid",
+    name: "spec",
+    description: "The canonical spec for ulid",
+    tags: [],
+  },
+  {
     owner: "Unitech",
     name: "pm2",
     description:
@@ -5174,7 +5654,14 @@ const github: {
     owner: "vadimdemedes",
     name: "ink",
     description: "🌈 React for interactive command-line apps",
-    tags: ["cli", "command-line", "flexbox", "interactive", "react"],
+    tags: [
+      "cli",
+      "command-line",
+      "flexbox",
+      "interactive",
+      "javascript",
+      "react",
+    ],
   },
   {
     owner: "ValveSoftware",
@@ -5188,6 +5675,46 @@ const github: {
     name: "font-splitter",
     description: "Split the big font file into small subsets",
     tags: ["code-range", "css", "font", "fonttools", "split", "unicode"],
+  },
+  {
+    owner: "VdustR",
+    name: "hanamin",
+    description: "A webfont repository for Hanamin",
+    tags: [
+      "font",
+      "hanamin",
+      "hanazono",
+      "serif",
+      "split",
+      "subset",
+      "web",
+      "woff2",
+    ],
+  },
+  {
+    owner: "VdustR",
+    name: "taipei-sans-tc",
+    description: "台北黑體 Taipei Sans TC",
+    tags: ["font", "noto", "sans", "split", "subset", "taipei", "web"],
+  },
+  {
+    owner: "veler",
+    name: "DevToys",
+    description: "A Swiss Army knife for developers.",
+    tags: [
+      "csharp",
+      "developer-tools",
+      "fluent",
+      "fluent-design",
+      "mica",
+      "syntax-highlighting",
+      "uwp",
+      "windows",
+      "windows-10",
+      "windows-11",
+      "winui",
+      "xaml",
+    ],
   },
   {
     owner: "venables",
@@ -5380,13 +5907,7 @@ const github: {
     owner: "volta-cli",
     name: "volta",
     description: "Volta: JS Toolchains as Code. ⚡",
-    tags: [
-      "hacktoberfest",
-      "hacktoberfest2021",
-      "node",
-      "nodejs",
-      "package-manager",
-    ],
+    tags: ["hacktoberfest", "node", "nodejs", "package-manager"],
   },
   {
     owner: "vscode-icons",
@@ -5597,6 +6118,12 @@ const github: {
       "screencast",
       "video",
     ],
+  },
+  {
+    owner: "w3c",
+    name: "csswg-drafts",
+    description: "CSS Working Group Editor Drafts",
+    tags: ["css"],
   },
   {
     owner: "wangdoc",

@@ -13,38 +13,22 @@ Requirement:
 - node@17.x
 - pnpm@6.x
 
-To fetch title and description:
+Update [favorites](./script/favorite.ts):
 
 ```ts
-JSON.stringify({
-  title: document
-    .querySelector("head title")
-    .innerText.replace(/\n/g, " ")
-    .trim(),
-  description: (
-    document.querySelector('head meta[name="description"]') ||
-    document.querySelector('head meta[property="og:description"]')
-  )
-    ?.getAttribute("content")
-    .replace(/\n/g, " ")
-    .trim(),
-});
-```
-
-Sort sites:
-
-```ts
-JSON.stringify(
-  Object.fromEntries(
-    Object.entries(sites).sort(([a], [b]) => a.localeCompare(b))
-  )
-);
+pnpm favorite
 ```
 
 Update starred repos:
 
 ```sh
 pnpm github
+```
+
+Apply the changes:
+
+```sh
+pnpm gen-sites
 ```
 
 ## LICENSE
