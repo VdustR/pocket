@@ -6,6 +6,7 @@ specifiers:
   '@tsconfig/svelte': ^2.0.1
   '@types/lodash': ^4.14.178
   '@types/node': 16.x||17.x
+  '@types/node-emoji': ^1.8.1
   '@types/prettier': ^2.4.2
   '@types/qs': ^6.9.7
   '@types/uuid': ^8.3.4
@@ -14,6 +15,7 @@ specifiers:
   esno: ^0.14.0
   fuse.js: ^6.5.3
   lodash: ^4.17.21
+  node-emoji: ^1.11.0
   p-map: ^5.3.0
   prettier: ^2.5.1
   qs: ^6.10.2
@@ -32,6 +34,7 @@ dependencies:
   '@tsconfig/svelte': 2.0.1
   '@types/lodash': 4.14.178
   '@types/node': 17.0.8
+  '@types/node-emoji': 1.8.1
   '@types/prettier': 2.4.2
   '@types/qs': 6.9.7
   '@types/uuid': 8.3.4
@@ -40,6 +43,7 @@ dependencies:
   esno: 0.14.0_typescript@4.5.4
   fuse.js: 6.5.3
   lodash: 4.17.21
+  node-emoji: 1.11.0
   p-map: 5.3.0
   prettier: 2.5.1
   qs: 6.10.2
@@ -122,6 +126,10 @@ packages:
 
   /@types/lodash/4.14.178:
     resolution: {integrity: sha512-0d5Wd09ItQWH1qFbEyQ7oTQ3GZrMfth5JkbN3EvTKLXcHLRDSXeLnlvlOn0wvxVIwK5o2M8JzP/OWz7T3NRsbw==}
+    dev: false
+
+  /@types/node-emoji/1.8.1:
+    resolution: {integrity: sha512-0fRfA90FWm6KJfw6P9QGyo0HDTCmthZ7cWaBQndITlaWLTZ6njRyKwrwpzpg+n6kBXBIGKeUHEQuBx7bphGJkA==}
     dev: false
 
   /@types/node/17.0.8:
@@ -1024,6 +1032,12 @@ packages:
     resolution: {integrity: sha512-zJpuPDwOv8D2zq2WRoMe1HsfZthVewpel9CAvTfc/2mBD1uUT/agc5f7GHGWXlYkFvi1mVxe4IjvP2HNrop7nQ==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
+    dev: false
+
+  /node-emoji/1.11.0:
+    resolution: {integrity: sha512-wo2DpQkQp7Sjm2A0cq+sN7EHKO6Sl0ctXeBdFZrL9T9+UywORbufTcTZxom8YqpLQt/FqNMUkOpkZrJVYSKD3A==}
+    dependencies:
+      lodash: 4.17.21
     dev: false
 
   /normalize-path/3.0.0:

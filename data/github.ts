@@ -27,7 +27,7 @@ const github: {
     owner: "4ian",
     name: "GDevelop",
     description:
-      ":video_game: GDevelop is an open-source, cross-platform game engine designed to be used by everyone.",
+      "🎮 GDevelop is an open-source, cross-platform game engine designed to be used by everyone.",
     tags: [
       "2d-game",
       "2d-game-engine",
@@ -52,6 +52,12 @@ const github: {
     description:
       "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
     tags: [],
+  },
+  {
+    owner: "AbyssEngine",
+    name: "OpenDiablo2",
+    description: "An implementation of Diablo 2 in AbyssEngine.",
+    tags: ["diablo", "diablo2", "diablo2lod", "lua"],
   },
   {
     owner: "ACh-K",
@@ -184,7 +190,7 @@ const github: {
   {
     owner: "alda-lang",
     name: "alda",
-    description: "A music programming language for musicians. :notes:",
+    description: "A music programming language for musicians. 🎶",
     tags: [
       "alda",
       "music",
@@ -251,7 +257,7 @@ const github: {
     owner: "AllJointTW",
     name: "clean-code-javascript",
     description:
-      ":bathtub: Clean Code concepts adapted for JavaScript （無瑕的程式碼 JavaScript）",
+      "🛁 Clean Code concepts adapted for JavaScript （無瑕的程式碼 JavaScript）",
     tags: [
       "best-practices",
       "chinese-traditional",
@@ -268,7 +274,7 @@ const github: {
     owner: "ameerthehacker",
     name: "deno-vscode",
     description:
-      ":hammer: A vscode extension to enhance development experience for deno",
+      "🔨 A vscode extension to enhance development experience for deno",
     tags: ["deno", "deno-vscode", "denoland", "vscode"],
   },
   {
@@ -635,7 +641,7 @@ const github: {
     owner: "Budibase",
     name: "budibase",
     description:
-      "Budibase is an open-source low-code platform for creating internal apps in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s 🚀 ",
+      "Budibase is an open-source low-code platform for creating internal apps in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s 🚀",
     tags: [
       "automation",
       "developer-tools",
@@ -707,8 +713,7 @@ const github: {
   {
     owner: "carbon-app",
     name: "carbon",
-    description:
-      ":black_heart: Create and share beautiful images of your source code",
+    description: "🖤 Create and share beautiful images of your source code",
     tags: [
       "beautiful",
       "carbon",
@@ -725,7 +730,7 @@ const github: {
     owner: "CarGuo",
     name: "gsy_github_app_flutter",
     description:
-      "Flutter 超完整的开源项目，功能丰富，适合学习和日常使用。GSYGithubApp系列的优势：我们目前已经拥有Flutter、Weex、ReactNative、kotlin 四个版本。 功能齐全，项目框架内技术涉及面广，完成度高，持续维护，配套文章，适合全面学习，对比参考。跨平台的开源Github客户端App，更好的体验，更丰富的功能，旨在更好的日常管理和维护个人Github，提供更好更方便的驾车体验Σ(￣。￣ﾉ)ﾉ。同款Weex版本 ： https://github.com/CarGuo/GSYGithubAppWeex    、同款React Native版本 ： https://github.com/CarGuo/GSYGithubApp 、原生 kotlin 版本 https://github.com/CarGuo/GSYGithubAppKotlin",
+      "Flutter 超完整的开源项目，功能丰富，适合学习和日常使用。GSYGithubApp系列的优势：我们目前已经拥有Flutter、Weex、ReactNative、kotlin 四个版本。 功能齐全，项目框架内技术涉及面广，完成度高，持续维护，配套文章，适合全面学习，对比参考。跨平台的开源Github客户端App，更好的体验，更丰富的功能，旨在更好的日常管理和维护个人Github，提供更好更方便的驾车体验Σ(￣。￣ﾉ)ﾉ。同款Weex版本 ： https://github.com/CarGuo/GSYGithubAppWeex 、同款React Native版本 ： https://github.com/CarGuo/GSYGithubApp 、原生 kotlin 版本 https://github.com/CarGuo/GSYGithubAppKotlin",
     tags: [
       "android",
       "cross-platform",
@@ -744,14 +749,14 @@ const github: {
   {
     owner: "carloscuesta",
     name: "gitmoji",
-    description: "An emoji guide for your commit messages. 😜 ",
+    description: "An emoji guide for your commit messages. 😜",
     tags: ["commits", "emoji", "gitmoji"],
   },
   {
     owner: "changesets",
     name: "changesets",
     description:
-      "🦋       A way to manage your versioning and changelogs with a focus on monorepos",
+      "🦋 A way to manage your versioning and changelogs with a focus on monorepos",
     tags: [],
   },
   {
@@ -857,7 +862,7 @@ const github: {
     owner: "Codeusa",
     name: "Borderless-Gaming",
     description:
-      "Play your favorite games in a borderless window; no more time consuming alt-tabs. ",
+      "Play your favorite games in a borderless window; no more time consuming alt-tabs.",
     tags: ["borderless", "c-sharp", "directx", "games", "steam"],
   },
   {
@@ -920,7 +925,7 @@ const github: {
     owner: "containrrr",
     name: "watchtower",
     description:
-      "A process for automating Docker container base image updates. ",
+      "A process for automating Docker container base image updates.",
     tags: [
       "automation",
       "continuous-delivery",
@@ -1061,7 +1066,7 @@ const github: {
     owner: "DCurrent",
     name: "openbor",
     description:
-      "OpenBOR is the ultimate 2D side scrolling engine for beat em' ups, shooters, and more! ",
+      "OpenBOR is the ultimate 2D side scrolling engine for beat em' ups, shooters, and more!",
     tags: [
       "engine",
       "fighting-game",
@@ -1164,7 +1169,7 @@ const github: {
     owner: "djrrb",
     name: "Bungee",
     description:
-      "A chromatic signage typeface for vertical and horizontal setting.  ",
+      "A chromatic signage typeface for vertical and horizontal setting.",
     tags: ["bungee", "color", "colorfont", "design", "font", "typeface"],
   },
   {
@@ -1237,7 +1242,7 @@ const github: {
     owner: "donnemartin",
     name: "system-design-primer",
     description:
-      "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
     tags: [
       "design",
       "design-patterns",
@@ -1274,7 +1279,7 @@ const github: {
     owner: "dotansimha",
     name: "graphql-code-generator",
     description:
-      "A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins. ",
+      "A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins.",
     tags: [
       "android",
       "angular",
@@ -1325,7 +1330,7 @@ const github: {
   {
     owner: "EbookFoundation",
     name: "free-programming-books",
-    description: ":books: Freely available programming books",
+    description: "📚 Freely available programming books",
     tags: ["books", "education", "hacktoberfest", "list", "resource"],
   },
   {
@@ -1585,7 +1590,7 @@ const github: {
   {
     owner: "FabioAntunes",
     name: "fish-nvm",
-    description: "nvm wrapper for fish-shell ",
+    description: "nvm wrapper for fish-shell",
     tags: ["fish", "hacktoberfest", "node", "nodejs", "npm", "nvm", "yarn"],
   },
   {
@@ -1741,7 +1746,7 @@ const github: {
     owner: "flameshot-org",
     name: "flameshot",
     description:
-      "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
+      "Powerful yet simple to use screenshot software 🖥️ :camera_flash:",
     tags: [
       "capture",
       "cross-platform",
@@ -2006,8 +2011,7 @@ const github: {
   {
     owner: "goldbergyoni",
     name: "nodebestpractices",
-    description:
-      ":white_check_mark:  The Node.js best practices list (February 2022)",
+    description: "✅ The Node.js best practices list (February 2022)",
     tags: [
       "best-practices",
       "es6",
@@ -2101,7 +2105,7 @@ const github: {
   {
     owner: "googlefonts",
     name: "noto-fonts",
-    description: " Noto fonts, except for CJK and emoji",
+    description: "Noto fonts, except for CJK and emoji",
     tags: [],
   },
   {
@@ -2521,7 +2525,7 @@ const github: {
   {
     owner: "junegunn",
     name: "fzf",
-    description: ":cherry_blossom: A command-line fuzzy finder",
+    description: "🌸 A command-line fuzzy finder",
     tags: [
       "bash",
       "cli",
@@ -2545,7 +2549,7 @@ const github: {
   {
     owner: "justjavac",
     name: "free-programming-books-zh_CN",
-    description: ":books: 免费的计算机编程类中文书籍，欢迎投稿",
+    description: "📚 免费的计算机编程类中文书籍，欢迎投稿",
     tags: [
       "android",
       "angular",
@@ -2633,8 +2637,7 @@ const github: {
   {
     owner: "kazupon",
     name: "vue-i18n",
-    description:
-      ":globe_with_meridians: Internationalization plugin for Vue.js",
+    description: "🌐 Internationalization plugin for Vue.js",
     tags: [
       "i18n",
       "internationalization",
@@ -2796,7 +2799,7 @@ const github: {
     owner: "lerna",
     name: "lerna",
     description:
-      ":dragon: A tool for managing JavaScript projects with multiple packages.",
+      "🐉 A tool for managing JavaScript projects with multiple packages.",
     tags: ["lerna", "monorepo", "npm", "package", "publishing"],
   },
   { owner: "lewish", name: "asciiflow", description: "ASCIIFlow", tags: [] },
@@ -2889,7 +2892,7 @@ const github: {
     owner: "luong-komorebi",
     name: "Awesome-Linux-Software",
     description:
-      "A list of awesome applications, software, tools and other materials for Linux distros. ",
+      "A list of awesome applications, software, tools and other materials for Linux distros.",
     tags: [
       "applications",
       "awesome-list",
@@ -3062,7 +3065,7 @@ const github: {
     owner: "MetaMask",
     name: "metamask-extension",
     description:
-      ":globe_with_meridians: :electric_plug: The MetaMask browser extension enables browsing Ethereum blockchain enabled websites",
+      "🌐 🔌 The MetaMask browser extension enables browsing Ethereum blockchain enabled websites",
     tags: [
       "brave",
       "chrome",
@@ -3207,7 +3210,7 @@ const github: {
   {
     owner: "microsoft",
     name: "vscode-tips-and-tricks",
-    description: "Collection of helpful tips and tricks for VS Code. ",
+    description: "Collection of helpful tips and tricks for VS Code.",
     tags: [],
   },
   {
@@ -3289,7 +3292,7 @@ const github: {
     owner: "mishoo",
     name: "UglifyJS",
     description:
-      " JavaScript parser / mangler / compressor / beautifier toolkit",
+      "JavaScript parser / mangler / compressor / beautifier toolkit",
     tags: [],
   },
   {
@@ -3433,7 +3436,7 @@ const github: {
   {
     owner: "nextui-org",
     name: "nextui",
-    description: "🚀   Beautiful, fast and modern React UI library.",
+    description: "🚀 Beautiful, fast and modern React UI library.",
     tags: ["component-library", "components", "library", "reactjs"],
   },
   { owner: "Nexus-Mods", name: "Nexus-Mod-Manager", tags: [] },
@@ -3482,7 +3485,7 @@ const github: {
   {
     owner: "nodejs",
     name: "docker-node",
-    description: "Official Docker Image for Node.js :whale: :turtle: :rocket: ",
+    description: "Official Docker Image for Node.js 🐳 🐢 🚀",
     tags: [
       "docker",
       "docker-image",
@@ -3495,8 +3498,7 @@ const github: {
   {
     owner: "nodejs",
     name: "node",
-    description:
-      "Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:",
+    description: "Node.js JavaScript runtime ✨🐢🚀✨",
     tags: [
       "javascript",
       "js",
@@ -3541,7 +3543,7 @@ const github: {
     owner: "npkgz",
     name: "cli-progress",
     description:
-      " :hourglass: easy to use progress-bar for command-line/terminal applications",
+      "⌛ easy to use progress-bar for command-line/terminal applications",
     tags: [
       "cli",
       "command-line",
@@ -3569,13 +3571,13 @@ const github: {
   {
     owner: "npm",
     name: "tink",
-    description: "a dependency unwinder for javascript ",
+    description: "a dependency unwinder for javascript",
     tags: ["javascript", "npm", "package-manager", "tink"],
   },
   {
     owner: "nteract",
     name: "ansi-to-react",
-    description: ":guardsman: ANSI to React",
+    description: "💂‍♂️ ANSI to React",
     tags: [],
   },
   {
@@ -3700,21 +3702,16 @@ const github: {
     ],
   },
   {
-    owner: "OpenDiablo2",
-    name: "OpenDiablo2",
-    description: "An open source re-implementation of Diablo 2",
+    owner: "omnidan",
+    name: "node-emoji",
+    description: "😏 simple emoji support for node.js projects",
     tags: [
-      "2d",
-      "arpg",
-      "diablo",
-      "diablo2",
-      "engine",
-      "game",
-      "game-engine",
-      "games",
-      "go",
-      "golang",
-      "open-source",
+      "emoji",
+      "emoji-support",
+      "javascript",
+      "node",
+      "node-emoji",
+      "nodejs",
     ],
   },
   {
@@ -3822,7 +3819,7 @@ const github: {
   {
     owner: "owncloud",
     name: "core",
-    description: ":cloud: ownCloud web server core (Files, DAV, etc.)",
+    description: "☁️ ownCloud web server core (Files, DAV, etc.)",
     tags: [
       "enterprise",
       "federated",
@@ -3856,7 +3853,7 @@ const github: {
     owner: "PanJiaChen",
     name: "vue-element-admin",
     description:
-      ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin",
+      "🎉 A magical vue admin https://panjiachen.github.io/vue-element-admin",
     tags: [
       "admin",
       "admin-dashboard",
@@ -3981,7 +3978,7 @@ const github: {
   {
     owner: "pmndrs",
     name: "react-postprocessing",
-    description: "📬  postprocessing for react-three-fiber",
+    description: "📬 postprocessing for react-three-fiber",
     tags: [
       "3d",
       "postprocessing",
@@ -4104,7 +4101,7 @@ const github: {
   {
     owner: "portainer",
     name: "portainer-compose",
-    description: "Compose setup for Portainer ",
+    description: "Compose setup for Portainer",
     tags: ["docker", "docker-compose", "portainer"],
   },
   {
@@ -4178,7 +4175,7 @@ const github: {
   {
     owner: "probil",
     name: "vue-moveable",
-    description: "↔️ ↕️ 🔄  Vue.js wrapper for Moveable",
+    description: "↔️ ↕️ 🔄 Vue.js wrapper for Moveable",
     tags: [
       "draggable",
       "moveable",
@@ -4219,8 +4216,7 @@ const github: {
   {
     owner: "Ptt-Alertor",
     name: "ptt-alertor",
-    description:
-      ":loudspeaker: Ptt 文章通知機器人！Notify Ptt Article in Realtime",
+    description: "📢 Ptt 文章通知機器人！Notify Ptt Article in Realtime",
     tags: [
       "chatbot",
       "crawler",
@@ -4274,7 +4270,7 @@ const github: {
     owner: "pure-fish",
     name: "pure",
     description:
-      "Pretty, minimal, and fast prompt for Fish from Zsh.fish theme prompt fish-theme fish-prompt ",
+      "Pretty, minimal, and fast prompt for Fish from Zsh.fish theme prompt fish-theme fish-prompt",
     tags: ["fish", "fish-prompt", "fish-theme", "prompt", "theme", "zsh"],
   },
   {
@@ -4321,7 +4317,7 @@ const github: {
   {
     owner: "ramda",
     name: "ramda",
-    description: ":ram: Practical functional Javascript",
+    description: "🐏 Practical functional Javascript",
     tags: ["javascript", "ramda"],
   },
   {
@@ -4359,7 +4355,7 @@ const github: {
   {
     owner: "Redocly",
     name: "redoc",
-    description: "📘  OpenAPI/Swagger-generated API Reference Documentation",
+    description: "📘 OpenAPI/Swagger-generated API Reference Documentation",
     tags: [
       "api-documentation",
       "documentation-generator",
@@ -4389,7 +4385,7 @@ const github: {
   {
     owner: "remotion-dev",
     name: "remotion",
-    description: "🎥      Create videos programmatically in React",
+    description: "🎥 Create videos programmatically in React",
     tags: ["react", "remotion", "video"],
   },
   {
@@ -4473,7 +4469,7 @@ const github: {
     owner: "rootsongjc",
     name: "kubernetes-handbook",
     description:
-      "Kubernetes中文指南/云原生应用架构实战手册 -  https://jimmysong.io/kubernetes-handbook",
+      "Kubernetes中文指南/云原生应用架构实战手册 - https://jimmysong.io/kubernetes-handbook",
     tags: [
       "cloud-native",
       "cncf",
@@ -4528,7 +4524,7 @@ const github: {
   {
     owner: "ryanmcdermott",
     name: "clean-code-javascript",
-    description: ":bathtub: Clean Code concepts adapted for JavaScript",
+    description: "🛁 Clean Code concepts adapted for JavaScript",
     tags: [
       "best-practices",
       "clean-architecture",
@@ -4579,7 +4575,7 @@ const github: {
   {
     owner: "sass",
     name: "node-sass",
-    description: ":rainbow: Node.js bindings to libsass",
+    description: "🌈 Node.js bindings to libsass",
     tags: ["libsass", "node-sass", "sass-files", "scss", "scss-files"],
   },
   { owner: "sass", name: "sass", description: "Sass makes CSS fun!", tags: [] },
@@ -4798,7 +4794,7 @@ const github: {
   {
     owner: "sindresorhus",
     name: "awesome-nodejs",
-    description: ":zap: Delightful Node.js packages and resources",
+    description: "⚡ Delightful Node.js packages and resources",
     tags: ["awesome", "awesome-list", "javascript", "list", "node", "nodejs"],
   },
   {
@@ -5038,7 +5034,7 @@ const github: {
     owner: "sveltejs",
     name: "community-legacy",
     description:
-      " Svelte community meetups, packages, resources, recipes, showcase websites, and more",
+      "Svelte community meetups, packages, resources, recipes, showcase websites, and more",
     tags: ["javascript", "svelte", "web"],
   },
   {
@@ -5400,7 +5396,7 @@ const github: {
     owner: "tnfe",
     name: "FFCreator",
     description:
-      "一个基于node.js的高速视频制作库  A fast video processing library based on node.js",
+      "一个基于node.js的高速视频制作库 A fast video processing library based on node.js",
     tags: [
       "ffmpeg",
       "ffmpeg-libraries",
@@ -5441,7 +5437,7 @@ const github: {
   {
     owner: "transloadit",
     name: "uppy",
-    description: "The next open source file uploader for web browsers :dog: ",
+    description: "The next open source file uploader for web browsers 🐶",
     tags: [
       "dropbox",
       "encoding",
@@ -5529,7 +5525,7 @@ const github: {
     owner: "typescript-eslint",
     name: "typescript-eslint",
     description:
-      ":sparkles: Monorepo for all the tooling which enables ESLint to support TypeScript",
+      "✨ Monorepo for all the tooling which enables ESLint to support TypeScript",
     tags: [
       "eslint",
       "eslint-plugin",
@@ -5556,7 +5552,7 @@ const github: {
   {
     owner: "uglide",
     name: "RedisDesktopManager",
-    description: ":wrench: Cross-platform Developer GUI for Redis",
+    description: "🔧 Cross-platform Developer GUI for Redis",
     tags: ["database-gui", "redis", "redis-gui", "redis-gui-client"],
   },
   {
@@ -5593,7 +5589,7 @@ const github: {
   {
     owner: "unjs",
     name: "consola",
-    description: " Elegant Console Logger for Node.js and Browser 🐨",
+    description: "Elegant Console Logger for Node.js and Browser 🐨",
     tags: ["cli", "console", "fancy", "log", "node", "terminal"],
   },
   {
@@ -5634,8 +5630,7 @@ const github: {
   {
     owner: "utterance",
     name: "utterances",
-    description:
-      ":crystal_ball: A lightweight comments widget built on GitHub issues",
+    description: "🔮 A lightweight comments widget built on GitHub issues",
     tags: ["blog", "comments", "comments-widget", "github", "utterances"],
   },
   {
@@ -5925,7 +5920,7 @@ const github: {
     owner: "vsouza",
     name: "awesome-ios",
     description:
-      "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects ",
+      "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects",
     tags: [
       "apple-swift",
       "arkit",
@@ -6273,7 +6268,7 @@ const github: {
   {
     owner: "yargs",
     name: "yargs",
-    description: " yargs the modern, pirate-themed successor to optimist.",
+    description: "yargs the modern, pirate-themed successor to optimist.",
     tags: [],
   },
   {

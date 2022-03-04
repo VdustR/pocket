@@ -21,8 +21,10 @@ github.forEach((repo) => {
   );
   if (siteIndex === -1) {
     sites.push({
-      url: `https://github.com/${repo.owner}/${repo.name}`,
-      title: `${repo.owner}/${repo.name}`,
+      url: `https://github.com/${encodeURIComponent(
+        repo.owner
+      )}/${encodeURIComponent(repo.name)}`,
+      title: `${repo.owner} / ${repo.name}`,
       description: repo.description,
       tags: repo.tags,
       github: {

@@ -1,11 +1,9 @@
-import axios from "axios";
-import { load } from "cheerio";
 import { writeFile } from "fs/promises";
 import pMap from "p-map";
 import { dirname, resolve } from "path";
 import prettier from "prettier";
 import { fileURLToPath } from "url";
-import { Site } from "../src/type";
+import getSite from "./utils/getSite";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -42,74 +40,9 @@ const favorites = [
   "https://www.supremo.co.uk/typeterms/",
 ];
 
-function request(url: string) {
-  return axios(url, {
-    headers: {
-      "User-Agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
-    },
-    validateStatus: null,
-  });
-}
+const concurrency = 10;
 
-function formatStr(str: string): string {
-  return str.replace(/[\s\n\r]+/g, " ").trim();
-}
-
-async function getSiteDirectly(url: string): Promise<Site | null> {
-  const res = await request(url);
-  if (res.status < 200 || res.status >= 300) return null;
-  const $ = load(res.data);
-  const title = formatStr(
-    $("meta[property='og:title']").attr("content") || $("title").text()
-  );
-  const description = formatStr(
-    $("meta[name='description']").attr("content") || ""
-  );
-  const keywords = $("meta[name='keywords']").attr("content");
-  const site: Site = {
-    title,
-    description,
-    tags: keywords ? keywords.split(",").map(formatStr) : [],
-    url,
-  };
-  return site;
-}
-
-async function getSiteByBraveSearchEngine(url: string): Promise<Site | null> {
-  const res = await request(
-    `https://search.brave.com/search?q=${encodeURIComponent(url)}`
-  );
-  if (res.status < 200 || res.status >= 300) return null;
-  const $ = load(res.data);
-  const $infoBox = $("#infobox");
-  const $firstResult = $("#results > div:nth-child(1)");
-  const title = formatStr(
-    $infoBox.length > 0
-      ? $infoBox.find(".infobox-title").text()
-      : $firstResult.find(".snippet-title").text()
-  );
-  const description = formatStr(
-    $infoBox.length > 0
-      ? $infoBox.find(".infobox-description").text()
-      : $firstResult.find(".snippet-content").text()
-  );
-  const site: Site = {
-    title,
-    description,
-    url,
-  };
-  return site;
-}
-
-async function getSite(url: string): Promise<Site> {
-  const site =
-    (await getSiteDirectly(url)) || (await getSiteByBraveSearchEngine(url));
-  if (!site) throw new Error(`url cannot fetch: ${url}`);
-  return site;
-}
-
-const results = await pMap(favorites, getSite, { concurrency: 10 });
+const results = await pMap(favorites, getSite, { concurrency });
 
 const typescriptContent = prettier.format(
   `import type { Site } from "../src/type";

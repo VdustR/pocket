@@ -1,9 +1,11 @@
-import axios from "axios";
 import { writeFile } from "fs/promises";
-import _ from "lodash";
+import flow from "lodash/flow";
+import get from "lodash/get";
 import { dirname, resolve } from "path";
 import prettier from "prettier";
 import { fileURLToPath } from "url";
+import formatStr from "./utils/formatStr";
+import request from "./utils/request";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -15,27 +17,31 @@ const repos: {
 }[] = [];
 
 function toOptionalString(val: unknown) {
-  return val ? String(val) : undefined;
+  return val ? formatStr(String(val)) : undefined;
 }
 
 function toStrArr(val: unknown) {
-  return !Array.isArray(val) ? [] : val.map((item) => String(item));
+  return !Array.isArray(val) ? [] : val.map((item) => formatStr(String(item)));
 }
 
 async function getStarred(page = 1) {
-  const res = await axios(
-    `https://api.github.com/users/vdustr/starred?per_page=100&page=${page}`
-  );
-  if (!Array.isArray(res.data)) throw new Error("not an array");
+  const url = `https://api.github.com/users/vdustr/starred?per_page=100&page=${page}`;
+  const res = await request(url);
+  if (res.status < 200 || res.status >= 300)
+    throw new Error(`url: ${url}, status: ${res.status}`);
+  if (!Array.isArray(res.data)) {
+    console.error(res.data);
+    throw new Error("not an array");
+  }
   res.data.map((repo: unknown) => {
-    const name = _.flow(() => _.get(repo, "name"), String)();
-    const fullName = _.flow(() => _.get(repo, "full_name"), String)();
-    const [owner] = fullName.split("/");
-    const description = _.flow(
-      () => _.get(repo, "description"),
+    const name = flow(() => get(repo, "name"), String, formatStr)();
+    const fullName = flow(() => get(repo, "full_name"), String, formatStr)();
+    const [owner] = fullName.split("/").map(formatStr);
+    const description = flow(
+      () => get(repo, "description"),
       toOptionalString
     )();
-    const tags = _.flow(() => _.get(repo, "topics"), toStrArr)();
+    const tags = flow(() => get(repo, "topics"), toStrArr)();
     repos.push({ owner, name, description, tags });
   });
   if (res.data.length > 0) {

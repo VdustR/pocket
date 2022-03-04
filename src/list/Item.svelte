@@ -1,7 +1,8 @@
 <script lang="ts">
+  import ArrowSquareOut from "@/icon/phosphor/ArrowSquareOut.svelte";
+  import GithubLogoFill from "@/icon/phosphor/GithubLogoFill.svelte";
   import type { Site } from "@/type";
   import { inview } from "svelte-inview";
-  import OpenOutIcon from "./OpenOutIcon.svelte";
   import Tags from "./Tags.svelte";
 
   export let site: Site;
@@ -25,15 +26,43 @@
     rel="noopener noreferrer"
   >
     <div class="flex text-xs leading-tight gap-2 justify-between items-top">
-      <div>
-        <h3 class="font-bold text-xl">
+      <div class="leading-snug">
+        <h3 class="font-bold text-xl leading-tight">
           {site.title}
         </h3>
-        <div>{site.url}</div>
+        <div class="leading-tight">{site.url}</div>
       </div>
-      <div><OpenOutIcon /></div>
+      <div class="text-size-2em"><ArrowSquareOut /></div>
     </div>
   </a>
+  {#if site.github}
+    <div class="flex text-xs leading-tight px-2 gap-2 justify-start items-top">
+      <span class="text-size-1.5em">
+        <GithubLogoFill />
+      </span>
+      <span class="pt-0.25em">
+        <a
+          class="hover:text-emerald-200"
+          href={`https://github.com/${encodeURIComponent(site.github.owner)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {site.github.owner}
+        </a>
+        {" / "}
+        <a
+          class="hover:text-emerald-200"
+          href={`https://github.com/${encodeURIComponent(
+            site.github.owner
+          )}/${encodeURIComponent(site.github.name)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {site.github.name}
+        </a>
+      </span>
+    </div>
+  {/if}
   {#if site.tags && site.tags.length > 0}
     <hr class="opacity-80" />
     <Tags {site} />

@@ -359,7 +359,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/0voice/from_coder_to_expert",
-    title: "0voice/from_coder_to_expert",
+    title: "0voice / from_coder_to_expert",
     description:
       "2021年最新总结，从程序员到CTO，从专业走向卓越，分享大牛企业内部pdf与PPT",
     tags: [],
@@ -367,23 +367,23 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/104corp/docker-workshop",
-    title: "104corp/docker-workshop",
+    title: "104corp / docker-workshop",
     description: "手把手帶領大家入門 Docker 世界",
     tags: ["docker", "workshop"],
     github: { owner: "104corp", name: "docker-workshop" },
   },
   {
     url: "https://github.com/360Controller/360Controller",
-    title: "360Controller/360Controller",
+    title: "360Controller / 360Controller",
     description: "TattieBogle Xbox 360 Driver (with improvements)",
     tags: ["driver"],
     github: { owner: "360Controller", name: "360Controller" },
   },
   {
     url: "https://github.com/4ian/GDevelop",
-    title: "4ian/GDevelop",
+    title: "4ian / GDevelop",
     description:
-      ":video_game: GDevelop is an open-source, cross-platform game engine designed to be used by everyone.",
+      "🎮 GDevelop is an open-source, cross-platform game engine designed to be used by everyone.",
     tags: [
       "2d-game",
       "2d-game-engine",
@@ -405,43 +405,50 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/996icu/996.ICU",
-    title: "996icu/996.ICU",
+    title: "996icu / 996.ICU",
     description:
       "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
     tags: [],
     github: { owner: "996icu", name: "996.ICU" },
   },
   {
+    url: "https://github.com/AbyssEngine/OpenDiablo2",
+    title: "AbyssEngine / OpenDiablo2",
+    description: "An implementation of Diablo 2 in AbyssEngine.",
+    tags: ["diablo", "diablo2", "diablo2lod", "lua"],
+    github: { owner: "AbyssEngine", name: "OpenDiablo2" },
+  },
+  {
     url: "https://github.com/ACh-K/Cubic-11",
-    title: "ACh-K/Cubic-11",
+    title: "ACh-K / Cubic-11",
     description: "免費開源的 11×11 中文點陣體",
     tags: ["chinese-fonts", "font", "pixel-font"],
     github: { owner: "ACh-K", name: "Cubic-11" },
   },
   {
     url: "https://github.com/achingbrain/pm2-web",
-    title: "achingbrain/pm2-web",
+    title: "achingbrain / pm2-web",
     description: "A web based monitor for PM2",
     tags: ["monitor", "pm2", "web"],
     github: { owner: "achingbrain", name: "pm2-web" },
   },
   {
     url: "https://github.com/actions/github-script",
-    title: "actions/github-script",
+    title: "actions / github-script",
     description: "Write workflows scripting the GitHub API in JavaScript",
     tags: ["actions", "github-api", "javascript"],
     github: { owner: "actions", name: "github-script" },
   },
   {
     url: "https://github.com/actions/toolkit",
-    title: "actions/toolkit",
+    title: "actions / toolkit",
     description: "The GitHub ToolKit for developing GitHub Actions.",
     tags: ["actions", "git", "tool"],
     github: { owner: "actions", name: "toolkit" },
   },
   {
     url: "https://github.com/adam-p/markdown-here",
-    title: "adam-p/markdown-here",
+    title: "adam-p / markdown-here",
     description:
       "Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.",
     tags: ["chrome", "email", "extension", "firefox", "google", "markdown"],
@@ -449,7 +456,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/adobe-fonts/source-han-sans",
-    title: "adobe-fonts/source-han-sans",
+    title: "adobe-fonts / source-han-sans",
     description:
       "Source Han Sans | 思源黑体 | 思源黑體 | 思源黑體 香港 | 源ノ角ゴシック | 본고딕",
     tags: [
@@ -467,7 +474,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/adobe-fonts/source-han-serif",
-    title: "adobe-fonts/source-han-serif",
+    title: "adobe-fonts / source-han-serif",
     description:
       "Source Han Serif | 思源宋体 | 思源宋體 | 思源宋體 香港 | 源ノ明朝 | 본명조",
     tags: [
@@ -485,14 +492,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/aholachek/animate-css-grid",
-    title: "aholachek/animate-css-grid",
+    title: "aholachek / animate-css-grid",
     description: "Painless transitions for CSS Grid",
     tags: ["animations", "css-grid", "transitions"],
     github: { owner: "aholachek", name: "animate-css-grid" },
   },
   {
     url: "https://github.com/aholachek/react-flip-toolkit",
-    title: "aholachek/react-flip-toolkit",
+    title: "aholachek / react-flip-toolkit",
     description:
       "A lightweight magic-move library for configurable layout transitions",
     tags: [
@@ -506,14 +513,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/Akryum/floating-vue",
-    title: "Akryum/floating-vue",
+    title: "Akryum / floating-vue",
     description: "💬 Easy tooltips, popovers, dropdown, menus... for Vue",
     tags: ["dropdown", "menu", "popper", "tooltip", "vue"],
     github: { owner: "Akryum", name: "floating-vue" },
   },
   {
     url: "https://github.com/Akryum/peeky",
-    title: "Akryum/peeky",
+    title: "Akryum / peeky",
     description:
       "A fast and fun test runner for Vite & Node 🐈️ Powered by Vite ⚡️",
     tags: ["test", "vite"],
@@ -521,14 +528,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/Akryum/vue-mention",
-    title: "Akryum/vue-mention",
+    title: "Akryum / vue-mention",
     description: "Mention component for Vue.js",
     tags: ["mention", "suggestion", "vuejs"],
     github: { owner: "Akryum", name: "vue-mention" },
   },
   {
     url: "https://github.com/Akryum/vue-observe-visibility",
-    title: "Akryum/vue-observe-visibility",
+    title: "Akryum / vue-observe-visibility",
     description:
       "Detect when an element is becoming visible or hidden on the page.",
     tags: ["element", "visibility", "vue"],
@@ -536,14 +543,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/Akryum/vue-resize",
-    title: "Akryum/vue-resize",
+    title: "Akryum / vue-resize",
     description: "A generic component to detect DOM elements resizing",
     tags: ["vue", "vuejs", "vuejs2"],
     github: { owner: "Akryum", name: "vue-resize" },
   },
   {
     url: "https://github.com/Akryum/vue-virtual-scroller",
-    title: "Akryum/vue-virtual-scroller",
+    title: "Akryum / vue-virtual-scroller",
     description: "⚡️ Blazing fast scrolling for any amount of data",
     tags: [
       "scroller",
@@ -556,8 +563,8 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/alda-lang/alda",
-    title: "alda-lang/alda",
-    description: "A music programming language for musicians. :notes:",
+    title: "alda-lang / alda",
+    description: "A music programming language for musicians. 🎶",
     tags: [
       "alda",
       "music",
@@ -569,7 +576,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/alexeyraspopov/picocolors",
-    title: "alexeyraspopov/picocolors",
+    title: "alexeyraspopov / picocolors",
     description:
       "The tiniest and the fastest library for terminal output formatting with ANSI colors",
     tags: ["colors", "library", "terminal"],
@@ -577,7 +584,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/algolia/instantsearch.js",
-    title: "algolia/instantsearch.js",
+    title: "algolia / instantsearch.js",
     description:
       "⚡️ A JavaScript library for building performant and instant search experiences with Algolia.",
     tags: ["algolia", "instantsearch", "search", "vanilla", "widgets"],
@@ -585,7 +592,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/AliasIO/wappalyzer",
-    title: "AliasIO/wappalyzer",
+    title: "AliasIO / wappalyzer",
     description: "Identify technology on websites.",
     tags: [
       "browser-extension",
@@ -598,7 +605,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/alixaxel/chrome-aws-lambda",
-    title: "alixaxel/chrome-aws-lambda",
+    title: "alixaxel / chrome-aws-lambda",
     description: "Chromium Binary for AWS Lambda and Google Cloud Functions",
     tags: [
       "ansible",
@@ -612,7 +619,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/all-contributors/all-contributors",
-    title: "all-contributors/all-contributors",
+    title: "all-contributors / all-contributors",
     description:
       "✨ Recognize all contributors, not just the ones who push code ✨",
     tags: [
@@ -628,9 +635,9 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/AllJointTW/clean-code-javascript",
-    title: "AllJointTW/clean-code-javascript",
+    title: "AllJointTW / clean-code-javascript",
     description:
-      ":bathtub: Clean Code concepts adapted for JavaScript （無瑕的程式碼 JavaScript）",
+      "🛁 Clean Code concepts adapted for JavaScript （無瑕的程式碼 JavaScript）",
     tags: [
       "best-practices",
       "chinese-traditional",
@@ -646,15 +653,15 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/ameerthehacker/deno-vscode",
-    title: "ameerthehacker/deno-vscode",
+    title: "ameerthehacker / deno-vscode",
     description:
-      ":hammer: A vscode extension to enhance development experience for deno",
+      "🔨 A vscode extension to enhance development experience for deno",
     tags: ["deno", "deno-vscode", "denoland", "vscode"],
     github: { owner: "ameerthehacker", name: "deno-vscode" },
   },
   {
     url: "https://github.com/antfu/icones",
-    title: "antfu/icones",
+    title: "antfu / icones",
     description: "⚡️ Icon Explorer with Instant searching, powered by Iconify",
     tags: [
       "icon-collections",
@@ -668,56 +675,56 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/antfu/iroiro",
-    title: "antfu/iroiro",
+    title: "antfu / iroiro",
     description: "Beautiful Colors Lookup in CLI",
     tags: ["cli", "colors", "colors-lookup", "palette"],
     github: { owner: "antfu", name: "iroiro" },
   },
   {
     url: "https://github.com/antfu/magic-string-extra",
-    title: "antfu/magic-string-extra",
+    title: "antfu / magic-string-extra",
     description: "Extended magic-string with extra utilities",
     tags: ["magic-string", "sourcemap"],
     github: { owner: "antfu", name: "magic-string-extra" },
   },
   {
     url: "https://github.com/antfu/ni",
-    title: "antfu/ni",
+    title: "antfu / ni",
     description: "💡 Use the right package manager",
     tags: ["cli", "npm", "package-manager", "pnpm", "yarn"],
     github: { owner: "antfu", name: "ni" },
   },
   {
     url: "https://github.com/antfu/prism-theme-vars",
-    title: "antfu/prism-theme-vars",
+    title: "antfu / prism-theme-vars",
     description: "A customizable Prism.js theme using CSS variables",
     tags: ["css", "customizable", "js", "theme", "variables"],
     github: { owner: "antfu", name: "prism-theme-vars" },
   },
   {
     url: "https://github.com/antfu/vite-node",
-    title: "antfu/vite-node",
+    title: "antfu / vite-node",
     description: "Vite as Node.js runtime",
     tags: ["node", "runtime", "vite"],
     github: { owner: "antfu", name: "vite-node" },
   },
   {
     url: "https://github.com/antfu/vite-plugin-inspect",
-    title: "antfu/vite-plugin-inspect",
+    title: "antfu / vite-plugin-inspect",
     description: "Inspect the intermediate state of Vite plugins",
     tags: ["vite", "vite-plugin"],
     github: { owner: "antfu", name: "vite-plugin-inspect" },
   },
   {
     url: "https://github.com/antfu/vite-plugin-md",
-    title: "antfu/vite-plugin-md",
+    title: "antfu / vite-plugin-md",
     description: "Markdown with Vue for Vite",
     tags: ["markdown", "markdown-it", "vite", "vite-plugin", "vue"],
     github: { owner: "antfu", name: "vite-plugin-md" },
   },
   {
     url: "https://github.com/apex/up",
-    title: "apex/up",
+    title: "apex / up",
     description:
       "Deploy infinitely scalable serverless apps, apis, and sites in seconds to AWS.",
     tags: [
@@ -744,7 +751,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/arrowtype/recursive",
-    title: "arrowtype/recursive",
+    title: "arrowtype / recursive",
     description:
       "Recursive Mono & Sans is a variable font family for code & UI",
     tags: [
@@ -759,7 +766,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/asciinema/asciinema",
-    title: "asciinema/asciinema",
+    title: "asciinema / asciinema",
     description: "Terminal session recorder 📹",
     tags: [
       "asciicast",
@@ -772,7 +779,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/aseprite/aseprite",
-    title: "aseprite/aseprite",
+    title: "aseprite / aseprite",
     description:
       "Animated sprite editor & pixel art tool (Windows, macOS, Linux)",
     tags: [
@@ -795,7 +802,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/Aslemammad/react-worker-components-plugin",
-    title: "Aslemammad/react-worker-components-plugin",
+    title: "Aslemammad / react-worker-components-plugin",
     description:
       "⚡ Something like react server components, but web workers instead of a server",
     tags: ["next", "react", "server-components", "vite", "webpack", "worker"],
@@ -803,21 +810,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/assaultcube/AC",
-    title: "assaultcube/AC",
+    title: "assaultcube / AC",
     description: "AssaultCube",
     tags: [],
     github: { owner: "assaultcube", name: "AC" },
   },
   {
     url: "https://github.com/atlassian/react-beautiful-dnd",
-    title: "atlassian/react-beautiful-dnd",
+    title: "atlassian / react-beautiful-dnd",
     description: "Beautiful and accessible drag and drop for lists with React",
     tags: ["dnd", "drag", "drag-and-drop", "react", "reordering", "sortable"],
     github: { owner: "atlassian", name: "react-beautiful-dnd" },
   },
   {
     url: "https://github.com/atomheartother/QTweet",
-    title: "atomheartother/QTweet",
+    title: "atomheartother / QTweet",
     description: "A qt Discord bot who cross-posts from Twitter to Discord",
     tags: [
       "cross-post-tweets",
@@ -830,21 +837,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/axios/axios",
-    title: "axios/axios",
+    title: "axios / axios",
     description: "Promise based HTTP client for the browser and node.js",
     tags: ["hacktoberfest", "http-client", "javascript", "nodejs", "promise"],
     github: { owner: "axios", name: "axios" },
   },
   {
     url: "https://github.com/azz/pretty-quick",
-    title: "azz/pretty-quick",
+    title: "azz / pretty-quick",
     description: "⚡ Get Pretty Quick",
     tags: ["cli", "git", "mercurial", "prettier"],
     github: { owner: "azz", name: "pretty-quick" },
   },
   {
     url: "https://github.com/babel/babel",
-    title: "babel/babel",
+    title: "babel / babel",
     description:
       "🐠 Babel is a compiler for writing next generation JavaScript.",
     tags: [
@@ -860,7 +867,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/badges/shields",
-    title: "badges/shields",
+    title: "badges / shields",
     description:
       "Concise, consistent, and legible badges in SVG and raster format",
     tags: ["badge", "badge-maker", "github", "metadata", "status", "svg"],
@@ -868,21 +875,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/balena-io/etcher",
-    title: "balena-io/etcher",
+    title: "balena-io / etcher",
     description: "Flash OS images to SD cards & USB drives, safely and easily.",
     tags: ["cross-platform", "etcher", "sd-cards", "usb-drives"],
     github: { owner: "balena-io", name: "etcher" },
   },
   {
     url: "https://github.com/barry-ran/QtScrcpy",
-    title: "barry-ran/QtScrcpy",
+    title: "barry-ran / QtScrcpy",
     description: "Android real-time display control software",
     tags: ["android", "qt"],
     github: { owner: "barry-ran", name: "QtScrcpy" },
   },
   {
     url: "https://github.com/barry65536/FBAlpha",
-    title: "barry65536/FBAlpha",
+    title: "barry65536 / FBAlpha",
     description: "Official Repository of FB Alpha Emulator",
     tags: [
       "arcade",
@@ -901,7 +908,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/bartholomej/svelte-sitemap",
-    title: "bartholomej/svelte-sitemap",
+    title: "bartholomej / svelte-sitemap",
     description:
       "Sitemap generator for Svelte. Small helper which scans your Svelte routes and generates static sitemap.xml",
     tags: [
@@ -921,7 +928,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/bcoe/conventional-release-labels",
-    title: "bcoe/conventional-release-labels",
+    title: "bcoe / conventional-release-labels",
     description:
       "Apply labels for automatically generated release notes, based on conventionalcommits.org",
     tags: ["notes"],
@@ -929,7 +936,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/benweet/stackedit",
-    title: "benweet/stackedit",
+    title: "benweet / stackedit",
     description: "In-browser Markdown editor",
     tags: [
       "blogger",
@@ -951,21 +958,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/benweet/stackedit.js",
-    title: "benweet/stackedit.js",
+    title: "benweet / stackedit.js",
     description: "Add StackEdit to any website",
     tags: ["editor", "markdown", "markdown-editor", "stackedit"],
     github: { owner: "benweet", name: "stackedit.js" },
   },
   {
     url: "https://github.com/BespokeSynth/BespokeSynth",
-    title: "BespokeSynth/BespokeSynth",
+    title: "BespokeSynth / BespokeSynth",
     description: "Software modular synth",
     tags: ["modular", "software"],
     github: { owner: "BespokeSynth", name: "BespokeSynth" },
   },
   {
     url: "https://github.com/BetterDiscord/BetterDiscord",
-    title: "BetterDiscord/BetterDiscord",
+    title: "BetterDiscord / BetterDiscord",
     description:
       "Better Discord enhances Discord desktop app with new features.",
     tags: ["betterdiscord", "discord"],
@@ -973,20 +980,20 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/beurtschipper/Depix",
-    title: "beurtschipper/Depix",
+    title: "beurtschipper / Depix",
     description: "Recovers passwords from pixelized screenshots",
     tags: [],
     github: { owner: "beurtschipper", name: "Depix" },
   },
   {
     url: "https://github.com/bilibili/ailab",
-    title: "bilibili/ailab",
+    title: "bilibili / ailab",
     tags: [],
     github: { owner: "bilibili", name: "ailab" },
   },
   {
     url: "https://github.com/bobbyiliev/introduction-to-bash-scripting",
-    title: "bobbyiliev/introduction-to-bash-scripting",
+    title: "bobbyiliev / introduction-to-bash-scripting",
     description: "Free Introduction to Bash Scripting eBook",
     tags: [
       "100daysofcode",
@@ -1002,7 +1009,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/Bogdan-Lyashenko/js-code-to-svg-flowchart",
-    title: "Bogdan-Lyashenko/js-code-to-svg-flowchart",
+    title: "Bogdan-Lyashenko / js-code-to-svg-flowchart",
     description:
       "js2flowchart - a visualization library to convert any JavaScript code into beautiful SVG flowchart. Learn other’s code. Design your code. Refactor code. Document code. Explain code.",
     tags: [
@@ -1020,14 +1027,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/bootandy/dust",
-    title: "bootandy/dust",
+    title: "bootandy / dust",
     description: "A more intuitive version of du in rust",
     tags: ["rust"],
     github: { owner: "bootandy", name: "dust" },
   },
   {
     url: "https://github.com/botoxparty/XP.css",
-    title: "botoxparty/XP.css",
+    title: "botoxparty / XP.css",
     description:
       "A CSS framework for building faithful recreations of operating system GUIs.",
     tags: ["css", "css-framework", "framework", "system"],
@@ -1035,7 +1042,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/brave/brave-browser",
-    title: "brave/brave-browser",
+    title: "brave / brave-browser",
     description:
       "Next generation Brave browser for Android, Linux, macOS, Windows.",
     tags: ["brave", "browser", "chromium", "linux", "macos", "windows"],
@@ -1043,7 +1050,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/bubkoo/html-to-image",
-    title: "bubkoo/html-to-image",
+    title: "bubkoo / html-to-image",
     description:
       "✂️ Generates an image from a DOM node using HTML5 canvas and SVG.",
     tags: [
@@ -1060,9 +1067,9 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/Budibase/budibase",
-    title: "Budibase/budibase",
+    title: "Budibase / budibase",
     description:
-      "Budibase is an open-source low-code platform for creating internal apps in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s 🚀 ",
+      "Budibase is an open-source low-code platform for creating internal apps in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s 🚀",
     tags: [
       "automation",
       "developer-tools",
@@ -1089,14 +1096,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/ButTaiwan/taigivs",
-    title: "ButTaiwan/taigivs",
+    title: "ButTaiwan / taigivs",
     description: "the Taiwanese version of bpmfvs.",
     tags: [],
     github: { owner: "ButTaiwan", name: "taigivs" },
   },
   {
     url: "https://github.com/bvaughn/react-virtualized",
-    title: "bvaughn/react-virtualized",
+    title: "bvaughn / react-virtualized",
     description:
       "React components for efficiently rendering large lists and tabular data",
     tags: [
@@ -1114,7 +1121,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/cacjs/cac",
-    title: "cacjs/cac",
+    title: "cacjs / cac",
     description:
       "Simple yet powerful framework for building command-line apps.",
     tags: [
@@ -1130,7 +1137,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/capricorn86/happy-dom",
-    title: "capricorn86/happy-dom",
+    title: "capricorn86 / happy-dom",
     description:
       "A jsdom alternative with support for server side rendering of web components.",
     tags: [
@@ -1145,9 +1152,8 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/carbon-app/carbon",
-    title: "carbon-app/carbon",
-    description:
-      ":black_heart: Create and share beautiful images of your source code",
+    title: "carbon-app / carbon",
+    description: "🖤 Create and share beautiful images of your source code",
     tags: [
       "beautiful",
       "carbon",
@@ -1163,9 +1169,9 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/CarGuo/gsy_github_app_flutter",
-    title: "CarGuo/gsy_github_app_flutter",
+    title: "CarGuo / gsy_github_app_flutter",
     description:
-      "Flutter 超完整的开源项目，功能丰富，适合学习和日常使用。GSYGithubApp系列的优势：我们目前已经拥有Flutter、Weex、ReactNative、kotlin 四个版本。 功能齐全，项目框架内技术涉及面广，完成度高，持续维护，配套文章，适合全面学习，对比参考。跨平台的开源Github客户端App，更好的体验，更丰富的功能，旨在更好的日常管理和维护个人Github，提供更好更方便的驾车体验Σ(￣。￣ﾉ)ﾉ。同款Weex版本 ： https://github.com/CarGuo/GSYGithubAppWeex    、同款React Native版本 ： https://github.com/CarGuo/GSYGithubApp 、原生 kotlin 版本 https://github.com/CarGuo/GSYGithubAppKotlin",
+      "Flutter 超完整的开源项目，功能丰富，适合学习和日常使用。GSYGithubApp系列的优势：我们目前已经拥有Flutter、Weex、ReactNative、kotlin 四个版本。 功能齐全，项目框架内技术涉及面广，完成度高，持续维护，配套文章，适合全面学习，对比参考。跨平台的开源Github客户端App，更好的体验，更丰富的功能，旨在更好的日常管理和维护个人Github，提供更好更方便的驾车体验Σ(￣。￣ﾉ)ﾉ。同款Weex版本 ： https://github.com/CarGuo/GSYGithubAppWeex 、同款React Native版本 ： https://github.com/CarGuo/GSYGithubApp 、原生 kotlin 版本 https://github.com/CarGuo/GSYGithubAppKotlin",
     tags: [
       "android",
       "cross-platform",
@@ -1184,29 +1190,29 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/carloscuesta/gitmoji",
-    title: "carloscuesta/gitmoji",
-    description: "An emoji guide for your commit messages. 😜 ",
+    title: "carloscuesta / gitmoji",
+    description: "An emoji guide for your commit messages. 😜",
     tags: ["commits", "emoji", "gitmoji"],
     github: { owner: "carloscuesta", name: "gitmoji" },
   },
   {
     url: "https://github.com/changesets/changesets",
-    title: "changesets/changesets",
+    title: "changesets / changesets",
     description:
-      "🦋       A way to manage your versioning and changelogs with a focus on monorepos",
+      "🦋 A way to manage your versioning and changelogs with a focus on monorepos",
     tags: [],
     github: { owner: "changesets", name: "changesets" },
   },
   {
     url: "https://github.com/cheat-engine/cheat-engine",
-    title: "cheat-engine/cheat-engine",
+    title: "cheat-engine / cheat-engine",
     description: "Cheat Engine. A development environment focused on modding",
     tags: ["development", "development-environment", "engine", "environment"],
     github: { owner: "cheat-engine", name: "cheat-engine" },
   },
   {
     url: "https://github.com/cheeriojs/cheerio",
-    title: "cheeriojs/cheerio",
+    title: "cheeriojs / cheerio",
     description:
       "Fast, flexible, and lean implementation of core jQuery designed specifically for the server.",
     tags: [
@@ -1224,7 +1230,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/chinchang/hint.css",
-    title: "chinchang/hint.css",
+    title: "chinchang / hint.css",
     description: "A CSS only tooltip library for your lovely websites.",
     tags: [
       "accessibility",
@@ -1240,14 +1246,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/chokcoco/iCSS",
-    title: "chokcoco/iCSS",
+    title: "chokcoco / iCSS",
     description: "不止于 CSS",
     tags: ["css", "css3"],
     github: { owner: "chokcoco", name: "iCSS" },
   },
   {
     url: "https://github.com/ChooseLicense/ChooseLicense.github.io",
-    title: "ChooseLicense/ChooseLicense.github.io",
+    title: "ChooseLicense / ChooseLicense.github.io",
     description:
       "帮助你选择一个合适的开源共享协议 http://choosealicense.online",
     tags: ["github", "http"],
@@ -1255,7 +1261,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/chriskempson/tomorrow-theme",
-    title: "chriskempson/tomorrow-theme",
+    title: "chriskempson / tomorrow-theme",
     description:
       "Tomorrow Theme now lives on at https://github.com/chriskempson/base16",
     tags: ["github", "now", "theme"],
@@ -1263,7 +1269,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/coder/code-server",
-    title: "coder/code-server",
+    title: "coder / code-server",
     description: "VS Code in the browser",
     tags: [
       "browser-ide",
@@ -1278,7 +1284,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/codesandbox/codesandbox-client",
-    title: "codesandbox/codesandbox-client",
+    title: "codesandbox / codesandbox-client",
     description: "An online IDE for rapid web development",
     tags: [
       "angular",
@@ -1293,7 +1299,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/codesandbox/sandpack",
-    title: "codesandbox/sandpack",
+    title: "codesandbox / sandpack",
     description:
       "A component toolkit for creating live-running code editing experiences, using the power of CodeSandbox.",
     tags: ["documentation", "live-coding", "playground", "reactjs", "sandbox"],
@@ -1301,22 +1307,22 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/CodeSeven/toastr",
-    title: "CodeSeven/toastr",
+    title: "CodeSeven / toastr",
     description: "Simple javascript toast notifications",
     tags: ["code", "javascript", "notifications"],
     github: { owner: "CodeSeven", name: "toastr" },
   },
   {
     url: "https://github.com/Codeusa/Borderless-Gaming",
-    title: "Codeusa/Borderless-Gaming",
+    title: "Codeusa / Borderless-Gaming",
     description:
-      "Play your favorite games in a borderless window; no more time consuming alt-tabs. ",
+      "Play your favorite games in a borderless window; no more time consuming alt-tabs.",
     tags: ["borderless", "c-sharp", "directx", "games", "steam"],
     github: { owner: "Codeusa", name: "Borderless-Gaming" },
   },
   {
     url: "https://github.com/codota/TabNine",
-    title: "codota/TabNine",
+    title: "codota / TabNine",
     description: "AI Code Completions",
     tags: [
       "ai",
@@ -1344,14 +1350,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/CoenraadS/BracketPair",
-    title: "CoenraadS/BracketPair",
+    title: "CoenraadS / BracketPair",
     description: "Bracket Colorizer Extension for VSCode",
     tags: ["extension", "vscode"],
     github: { owner: "CoenraadS", name: "BracketPair" },
   },
   {
     url: "https://github.com/commitizen/cz-cli",
-    title: "commitizen/cz-cli",
+    title: "commitizen / cz-cli",
     description: "The commitizen command line utility. #BlackLivesMatter",
     tags: [
       "command-line",
@@ -1369,16 +1375,16 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/containers/podman",
-    title: "containers/podman",
+    title: "containers / podman",
     description: "Podman: A tool for managing OCI containers and pods.",
     tags: ["containers", "tool"],
     github: { owner: "containers", name: "podman" },
   },
   {
     url: "https://github.com/containrrr/watchtower",
-    title: "containrrr/watchtower",
+    title: "containrrr / watchtower",
     description:
-      "A process for automating Docker container base image updates. ",
+      "A process for automating Docker container base image updates.",
     tags: [
       "automation",
       "continuous-delivery",
@@ -1395,7 +1401,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/cure53/DOMPurify",
-    title: "cure53/DOMPurify",
+    title: "cure53 / DOMPurify",
     description:
       "DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMPurify works with a secure default, but offers a lot of configurability and hooks. Demo:",
     tags: [
@@ -1415,7 +1421,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/CyberLight/caninclude",
-    title: "CyberLight/caninclude",
+    title: "CyberLight / caninclude",
     description:
       "CAN I INCLUDE one TAG to ANOTHER? WHAT IS A QUESTION! Yorik (c) :)",
     tags: ["html", "html-specification", "html5", "htmltag"],
@@ -1423,7 +1429,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/d0k3/GodMode9",
-    title: "d0k3/GodMode9",
+    title: "d0k3 / GodMode9",
     description:
       "GodMode9 Explorer - A full access file browser for the Nintendo 3DS console :godmode:",
     tags: [
@@ -1441,7 +1447,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/da2x/EdgeDeflector",
-    title: "da2x/EdgeDeflector",
+    title: "da2x / EdgeDeflector",
     description:
       "A tiny helper application to force Windows 10 to use your preferred web browser instead of ignoring the setting to promote Microsoft Edge. Only runs for a microsecond when needed.",
     tags: [
@@ -1456,7 +1462,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/dai-shi/react-hooks-worker",
-    title: "dai-shi/react-hooks-worker",
+    title: "dai-shi / react-hooks-worker",
     description: "React custom hooks for web workers",
     tags: [
       "custom-hook",
@@ -1470,7 +1476,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/DamionGans/ubuntu-wsl2-systemd-script",
-    title: "DamionGans/ubuntu-wsl2-systemd-script",
+    title: "DamionGans / ubuntu-wsl2-systemd-script",
     description:
       "Script to enable systemd support on current Ubuntu WSL2 images [Unsupported, no longer updated]",
     tags: [],
@@ -1478,7 +1484,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/date-fns/date-fns",
-    title: "date-fns/date-fns",
+    title: "date-fns / date-fns",
     description: "⏳ Modern JavaScript date utility library ⌛️",
     tags: [
       "date",
@@ -1494,7 +1500,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/davidtheclark/cosmiconfig",
-    title: "davidtheclark/cosmiconfig",
+    title: "davidtheclark / cosmiconfig",
     description:
       "Find and load configuration from a package.json property, rc file, or CommonJS module",
     tags: ["configuration", "file", "find", "js", "json", "module", "package"],
@@ -1502,7 +1508,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/daybrush/scenejs",
-    title: "daybrush/scenejs",
+    title: "daybrush / scenejs",
     description:
       "🎬 Scene.js is JavaScript & CSS timeline-based animation library",
     tags: [
@@ -1527,9 +1533,9 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/DCurrent/openbor",
-    title: "DCurrent/openbor",
+    title: "DCurrent / openbor",
     description:
-      "OpenBOR is the ultimate 2D side scrolling engine for beat em' ups, shooters, and more! ",
+      "OpenBOR is the ultimate 2D side scrolling engine for beat em' ups, shooters, and more!",
     tags: [
       "engine",
       "fighting-game",
@@ -1541,7 +1547,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/DefinitelyTyped/DefinitelyTyped",
-    title: "DefinitelyTyped/DefinitelyTyped",
+    title: "DefinitelyTyped / DefinitelyTyped",
     description: "The repository for high quality TypeScript type definitions.",
     tags: [
       "definition",
@@ -1556,21 +1562,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/denoland/deno",
-    title: "denoland/deno",
+    title: "denoland / deno",
     description: "A modern runtime for JavaScript and TypeScript.",
     tags: ["deno", "javascript", "rust", "typescript"],
     github: { owner: "denoland", name: "deno" },
   },
   {
     url: "https://github.com/denoland/deno_std",
-    title: "denoland/deno_std",
+    title: "denoland / deno_std",
     description: "Deno standard library",
     tags: ["deno", "javascript", "typescript"],
     github: { owner: "denoland", name: "deno_std" },
   },
   {
     url: "https://github.com/denoland/vscode_deno",
-    title: "denoland/vscode_deno",
+    title: "denoland / vscode_deno",
     description: "Visual Studio Code plugin for Deno",
     tags: [
       "code",
@@ -1585,7 +1591,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/denysdovhan/wtfjs",
-    title: "denysdovhan/wtfjs",
+    title: "denysdovhan / wtfjs",
     description: "🤪 A list of funny and tricky JavaScript examples",
     tags: [
       "book",
@@ -1601,21 +1607,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/diasurgical/devilution",
-    title: "diasurgical/devilution",
+    title: "diasurgical / devilution",
     description: "Diablo devolved - magic behind the 1996 computer game",
     tags: ["devilution", "diablo", "game", "hellfire"],
     github: { owner: "diasurgical", name: "devilution" },
   },
   {
     url: "https://github.com/discord/discord-open-source",
-    title: "discord/discord-open-source",
+    title: "discord / discord-open-source",
     description: "List of open source communities living on Discord",
     tags: ["discord", "list", "open-source"],
     github: { owner: "discord", name: "discord-open-source" },
   },
   {
     url: "https://github.com/discordjs/discord.js",
-    title: "discordjs/discord.js",
+    title: "discordjs / discord.js",
     description:
       "A powerful JavaScript library for interacting with the Discord API",
     tags: [
@@ -1633,7 +1639,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/discourse/discourse",
-    title: "discourse/discourse",
+    title: "discourse / discourse",
     description: "A platform for community discussion. Free, open, simple.",
     tags: [
       "discourse",
@@ -1648,15 +1654,15 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/djrrb/Bungee",
-    title: "djrrb/Bungee",
+    title: "djrrb / Bungee",
     description:
-      "A chromatic signage typeface for vertical and horizontal setting.  ",
+      "A chromatic signage typeface for vertical and horizontal setting.",
     tags: ["bungee", "color", "colorfont", "design", "font", "typeface"],
     github: { owner: "djrrb", name: "Bungee" },
   },
   {
     url: "https://github.com/docker/app",
-    title: "docker/app",
+    title: "docker / app",
     description:
       "Make your Docker Compose applications reusable, and share them on Docker Hub",
     tags: ["applications", "compose", "docker", "helm", "kubernetes"],
@@ -1664,28 +1670,28 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/docker/awesome-compose",
-    title: "docker/awesome-compose",
+    title: "docker / awesome-compose",
     description: "Awesome Docker Compose samples",
     tags: ["awesome", "awesome-list", "docker-compose"],
     github: { owner: "docker", name: "awesome-compose" },
   },
   {
     url: "https://github.com/docker/compose",
-    title: "docker/compose",
+    title: "docker / compose",
     description: "Define and run multi-container applications with Docker",
     tags: ["docker", "docker-compose", "go", "golang", "orchestration"],
     github: { owner: "docker", name: "compose" },
   },
   {
     url: "https://github.com/docker/docker-install",
-    title: "docker/docker-install",
+    title: "docker / docker-install",
     description: "Docker installation script",
     tags: ["docker"],
     github: { owner: "docker", name: "docker-install" },
   },
   {
     url: "https://github.com/docker-slim/docker-slim",
-    title: "docker-slim/docker-slim",
+    title: "docker-slim / docker-slim",
     description:
       "DockerSlim (docker-slim): Don't change anything in your Docker container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)",
     tags: [
@@ -1704,7 +1710,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/dokan-dev/dokany",
-    title: "dokan-dev/dokany",
+    title: "dokan-dev / dokany",
     description: "User mode file system library for windows with FUSE Wrapper",
     tags: [
       "c",
@@ -1728,9 +1734,9 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/donnemartin/system-design-primer",
-    title: "donnemartin/system-design-primer",
+    title: "donnemartin / system-design-primer",
     description:
-      "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
     tags: [
       "design",
       "design-patterns",
@@ -1750,7 +1756,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/doocs/leetcode",
-    title: "doocs/leetcode",
+    title: "doocs / leetcode",
     description:
       "😏 LeetCode solutions in any programming language | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解",
     tags: [
@@ -1767,9 +1773,9 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/dotansimha/graphql-code-generator",
-    title: "dotansimha/graphql-code-generator",
+    title: "dotansimha / graphql-code-generator",
     description:
-      "A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins. ",
+      "A tool for generating code based on a GraphQL schema and GraphQL operations (query/mutation/subscription), with flexible support for custom plugins.",
     tags: [
       "android",
       "angular",
@@ -1788,21 +1794,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/dracula/dracula-theme",
-    title: "dracula/dracula-theme",
+    title: "dracula / dracula-theme",
     description: "🧛🏻‍♂️ One theme. All platforms.",
     tags: ["theme"],
     github: { owner: "dracula", name: "dracula-theme" },
   },
   {
     url: "https://github.com/DustinBrett/daedalOS",
-    title: "DustinBrett/daedalOS",
+    title: "DustinBrett / daedalOS",
     description: "Desktop environment in the browser.",
     tags: ["desktop", "environment", "javascript", "os"],
     github: { owner: "DustinBrett", name: "daedalOS" },
   },
   {
     url: "https://github.com/dwmkerr/hacker-laws",
-    title: "dwmkerr/hacker-laws",
+    title: "dwmkerr / hacker-laws",
     description:
       "💻📖 Laws, Theories, Principles and Patterns that developers will find useful. #hackerlaws",
     tags: ["coding", "computerscience", "laws", "principles"],
@@ -1810,14 +1816,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/dylang/npm-check",
-    title: "dylang/npm-check",
+    title: "dylang / npm-check",
     description: "Check for outdated, incorrect, and unused dependencies.",
     tags: ["npm", "unused"],
     github: { owner: "dylang", name: "npm-check" },
   },
   {
     url: "https://github.com/EasyIME/PIME",
-    title: "EasyIME/PIME",
+    title: "EasyIME / PIME",
     description:
       "Develop input methods for Windows easily with Python and node.js",
     tags: ["chinese", "ime", "tsf", "windows-10"],
@@ -1825,14 +1831,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/EbookFoundation/free-programming-books",
-    title: "EbookFoundation/free-programming-books",
-    description: ":books: Freely available programming books",
+    title: "EbookFoundation / free-programming-books",
+    description: "📚 Freely available programming books",
     tags: ["books", "education", "hacktoberfest", "list", "resource"],
     github: { owner: "EbookFoundation", name: "free-programming-books" },
   },
   {
     url: "https://github.com/eclipse-theia/theia",
-    title: "eclipse-theia/theia",
+    title: "eclipse-theia / theia",
     description:
       "Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.",
     tags: [
@@ -1847,14 +1853,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/edc/bass",
-    title: "edc/bass",
+    title: "edc / bass",
     description: "Make Bash utilities usable in Fish shell",
     tags: ["bash", "fish", "shell", "utilities"],
     github: { owner: "edc", name: "bass" },
   },
   {
     url: "https://github.com/edent/SuperTinyIcons",
-    title: "edent/SuperTinyIcons",
+    title: "edent / SuperTinyIcons",
     description:
       "Under 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos",
     tags: [
@@ -1869,56 +1875,56 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/egoist/joycon",
-    title: "egoist/joycon",
+    title: "egoist / joycon",
     description: "Find and load config files with joy.",
     tags: ["files", "find"],
     github: { owner: "egoist", name: "joycon" },
   },
   {
     url: "https://github.com/egoist/lit-vue",
-    title: "egoist/lit-vue",
+    title: "egoist / lit-vue",
     description: "🔥 Vue SFC goodies directly in JavaScript files.",
     tags: ["i-hope-it-works-for-you", "sfc", "vue", "webpack"],
     github: { owner: "egoist", name: "lit-vue" },
   },
   {
     url: "https://github.com/egoist/logo-maker",
-    title: "egoist/logo-maker",
+    title: "egoist / logo-maker",
     description: "create a simple logo..",
     tags: ["logo"],
     github: { owner: "egoist", name: "logo-maker" },
   },
   {
     url: "https://github.com/egoist/objql",
-    title: "egoist/objql",
+    title: "egoist / objql",
     description: "A query utility for JavaScript.",
     tags: ["java"],
     github: { owner: "egoist", name: "objql" },
   },
   {
     url: "https://github.com/egoist/style-module",
-    title: "egoist/style-module",
+    title: "egoist / style-module",
     description: "CSS modules in JS.",
     tags: ["css", "js", "module", "modules"],
     github: { owner: "egoist", name: "style-module" },
   },
   {
     url: "https://github.com/egoist/tinyargs",
-    title: "egoist/tinyargs",
+    title: "egoist / tinyargs",
     description: "Simple yet flexible CLI parser for Node.js and Deno",
     tags: ["cli", "deno", "js", "node", "node-js", "parser"],
     github: { owner: "egoist", name: "tinyargs" },
   },
   {
     url: "https://github.com/egoist/video2gif",
-    title: "egoist/video2gif",
+    title: "egoist / video2gif",
     description: "Convert Video (MP4/OGG/WEBM) to GIF.",
     tags: ["gif", "mp4", "video"],
     github: { owner: "egoist", name: "video2gif" },
   },
   {
     url: "https://github.com/egoist/vue-client-only",
-    title: "egoist/vue-client-only",
+    title: "egoist / vue-client-only",
     description:
       "Vue component to wrap non SSR friendly components (428 bytes)",
     tags: ["component", "components", "ssr", "vue", "vue-component"],
@@ -1926,21 +1932,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/egoist/vue-html",
-    title: "egoist/vue-html",
+    title: "egoist / vue-html",
     description: "An alternative to Vue template and Vue JSX",
     tags: ["hyperscript", "hyperx", "vue", "vuejs"],
     github: { owner: "egoist", name: "vue-html" },
   },
   {
     url: "https://github.com/elastic/elasticsearch-definitive-guide",
-    title: "elastic/elasticsearch-definitive-guide",
+    title: "elastic / elasticsearch-definitive-guide",
     description: "The Definitive Guide to Elasticsearch",
     tags: [],
     github: { owner: "elastic", name: "elasticsearch-definitive-guide" },
   },
   {
     url: "https://github.com/elasticsearch-cn/elasticsearch-definitive-guide",
-    title: "elasticsearch-cn/elasticsearch-definitive-guide",
+    title: "elasticsearch-cn / elasticsearch-definitive-guide",
     description: "欢迎加QQ群：109764489，贡献力量！",
     tags: [],
     github: {
@@ -1950,7 +1956,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/electron/electron",
-    title: "electron/electron",
+    title: "electron / electron",
     description:
       ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
     tags: [
@@ -1968,7 +1974,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/ElemeFE/element",
-    title: "ElemeFE/element",
+    title: "ElemeFE / element",
     description: "A Vue.js 2.0 UI Toolkit for Web",
     tags: [
       "components",
@@ -1983,14 +1989,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/EmNudge/unicode-lookup",
-    title: "EmNudge/unicode-lookup",
+    title: "EmNudge / unicode-lookup",
     description: "The web's best unicode lookup tool!",
     tags: ["codepoint", "lookup", "unicode", "utf"],
     github: { owner: "EmNudge", name: "unicode-lookup" },
   },
   {
     url: "https://github.com/emotion-js/emotion",
-    title: "emotion-js/emotion",
+    title: "emotion-js / emotion",
     description:
       "👩‍🎤 CSS-in-JS library designed for high performance style composition",
     tags: ["babel-plugin", "css", "css-in-js", "emotion", "react", "reactjs"],
@@ -1998,7 +2004,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/Emupedia/emupedia.github.io",
-    title: "Emupedia/emupedia.github.io",
+    title: "Emupedia / emupedia.github.io",
     description:
       "The purpose of Emupedia is to serve as a nonprofit meta-resource, hub and community for those interested mainly in video game preservation which aims to digitally collect, archive and preserve games and software to make them available online accessible by a user-friendly UI that simulates several retro operating systems for educational purposes.",
     tags: [
@@ -2027,7 +2033,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/enquirer/enquirer",
-    title: "enquirer/enquirer",
+    title: "enquirer / enquirer",
     description:
       "Stylish, intuitive and user-friendly prompts, for Node.js. Used by eslint, webpack, yarn, pm2, pnpm, RedwoodJS, FactorJS, salesforce, Cypress, Google Lighthouse, Generate, tencent cloudbase, lint-staged, gluegun, hygen, hardhat, AWS Amplify, GitHub Actions Toolkit, @airbnb/nimbus, and many others! Please follow Enquirer's author: https://github.com/jonschlinkert",
     tags: [
@@ -2056,7 +2062,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/eosrei/twemoji-color-font",
-    title: "eosrei/twemoji-color-font",
+    title: "eosrei / twemoji-color-font",
     description:
       "Twitter Unicode 13.1 emoji color OpenType-SVG font for Linux/MacOS/Windows",
     tags: [
@@ -2074,7 +2080,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/eslint/eslint",
-    title: "eslint/eslint",
+    title: "eslint / eslint",
     description: "Find and fix problems in your JavaScript code.",
     tags: [
       "ecmascript",
@@ -2087,14 +2093,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/estree/estree",
-    title: "estree/estree",
+    title: "estree / estree",
     description: "The ESTree Spec",
     tags: ["ast", "estree", "javascript", "parsing", "specification"],
     github: { owner: "estree", name: "estree" },
   },
   {
     url: "https://github.com/evanw/esbuild",
-    title: "evanw/esbuild",
+    title: "evanw / esbuild",
     description: "An extremely fast JavaScript and CSS bundler and minifier",
     tags: [
       "commonjs",
@@ -2113,21 +2119,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/FabioAntunes/fish-nvm",
-    title: "FabioAntunes/fish-nvm",
-    description: "nvm wrapper for fish-shell ",
+    title: "FabioAntunes / fish-nvm",
+    description: "nvm wrapper for fish-shell",
     tags: ["fish", "hacktoberfest", "node", "nodejs", "npm", "nvm", "yarn"],
     github: { owner: "FabioAntunes", name: "fish-nvm" },
   },
   {
     url: "https://github.com/facebook/create-react-app",
-    title: "facebook/create-react-app",
+    title: "facebook / create-react-app",
     description: "Set up a modern web app by running one command.",
     tags: ["build-tools", "react", "zero-configuration"],
     github: { owner: "facebook", name: "create-react-app" },
   },
   {
     url: "https://github.com/facebook/docusaurus",
-    title: "facebook/docusaurus",
+    title: "facebook / docusaurus",
     description: "Easy to maintain open source documentation websites.",
     tags: [
       "documentation",
@@ -2141,7 +2147,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/facebook/jest",
-    title: "facebook/jest",
+    title: "facebook / jest",
     description: "Delightful JavaScript Testing.",
     tags: [
       "easy",
@@ -2158,7 +2164,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/facebook/react",
-    title: "facebook/react",
+    title: "facebook / react",
     description:
       "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
     tags: ["declarative", "frontend", "javascript", "library", "react", "ui"],
@@ -2166,7 +2172,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/faker-js/faker",
-    title: "faker-js/faker",
+    title: "faker-js / faker",
     description:
       "Generate massive amounts of fake data in the browser and node.js",
     tags: ["browser", "data", "fake", "faker", "javascript", "nodejs"],
@@ -2174,28 +2180,28 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/fastify/fastify",
-    title: "fastify/fastify",
+    title: "fastify / fastify",
     description: "Fast and low overhead web framework, for Node.js",
     tags: ["nodejs", "performance", "speed", "webframework"],
     github: { owner: "fastify", name: "fastify" },
   },
   {
     url: "https://github.com/fcitx/fcitx",
-    title: "fcitx/fcitx",
+    title: "fcitx / fcitx",
     description: "A Flexible Input Method Framework",
     tags: ["framework"],
     github: { owner: "fcitx", name: "fcitx" },
   },
   {
     url: "https://github.com/feathericons/feather",
-    title: "feathericons/feather",
+    title: "feathericons / feather",
     description: "Simply beautiful open source icons",
     tags: ["icons", "javascript", "svg"],
     github: { owner: "feathericons", name: "feather" },
   },
   {
     url: "https://github.com/fengyuanchen/cropperjs",
-    title: "fengyuanchen/cropperjs",
+    title: "fengyuanchen / cropperjs",
     description: "JavaScript image cropper.",
     tags: [
       "cropper",
@@ -2208,21 +2214,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/feo-cz/win-sshfs",
-    title: "feo-cz/win-sshfs",
+    title: "feo-cz / win-sshfs",
     description: "Fork of http://code.google.com/p/win-sshfs/",
     tags: ["code", "google", "http"],
     github: { owner: "feo-cz", name: "win-sshfs" },
   },
   {
     url: "https://github.com/feross/buffer",
-    title: "feross/buffer",
+    title: "feross / buffer",
     description: "The buffer module from node.js, for the browser.",
     tags: ["browser", "browserify", "buffer", "javascript", "nodejs"],
     github: { owner: "feross", name: "buffer" },
   },
   {
     url: "https://github.com/files-community/Files",
-    title: "files-community/Files",
+    title: "files-community / Files",
     description: "A modern file manager for Windows",
     tags: [
       "alternatives",
@@ -2249,7 +2255,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/fingerprintjs/fingerprintjs",
-    title: "fingerprintjs/fingerprintjs",
+    title: "fingerprintjs / fingerprintjs",
     description:
       "Browser fingerprinting library with the highest accuracy and stability.",
     tags: [
@@ -2270,23 +2276,23 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/fish-shell/fish-shell",
-    title: "fish-shell/fish-shell",
+    title: "fish-shell / fish-shell",
     description: "The user-friendly command line shell.",
     tags: ["command", "command-line", "fish", "shell"],
     github: { owner: "fish-shell", name: "fish-shell" },
   },
   {
     url: "https://github.com/FlagBrew/PKSM",
-    title: "FlagBrew/PKSM",
+    title: "FlagBrew / PKSM",
     description: "Gen III to GenVIII save manager.",
     tags: [],
     github: { owner: "FlagBrew", name: "PKSM" },
   },
   {
     url: "https://github.com/flameshot-org/flameshot",
-    title: "flameshot-org/flameshot",
+    title: "flameshot-org / flameshot",
     description:
-      "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
+      "Powerful yet simple to use screenshot software 🖥️ :camera_flash:",
     tags: [
       "capture",
       "cross-platform",
@@ -2302,7 +2308,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/floating-ui/floating-ui",
-    title: "floating-ui/floating-ui",
+    title: "floating-ui / floating-ui",
     description:
       "A low-level toolkit to position floating elements while intelligently keeping them in view. Tooltips, popovers, dropdowns, menus, and more",
     tags: [
@@ -2320,7 +2326,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/flutter/flutter",
-    title: "flutter/flutter",
+    title: "flutter / flutter",
     description:
       "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
     tags: [
@@ -2344,7 +2350,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/fontsource/fontsource",
-    title: "fontsource/fontsource",
+    title: "fontsource / fontsource",
     description: "Self-host Open Source fonts in neatly bundled NPM packages.",
     tags: [
       "css",
@@ -2364,14 +2370,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/forem/forem",
-    title: "forem/forem",
+    title: "forem / forem",
     description: "For empowering community 🌱",
     tags: ["community", "discussion", "feedback", "hacktoberfest"],
     github: { owner: "forem", name: "forem" },
   },
   {
     url: "https://github.com/FormidableLabs/spectacle",
-    title: "FormidableLabs/spectacle",
+    title: "FormidableLabs / spectacle",
     description: "ReactJS based Presentation Library",
     tags: [
       "keynote",
@@ -2385,7 +2391,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/formulahendry/955.WLB",
-    title: "formulahendry/955.WLB",
+    title: "formulahendry / 955.WLB",
     description:
       "955 不加班的公司名单 - 工作 955，work–life balance (工作与生活的平衡)",
     tags: [],
@@ -2393,7 +2399,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/FortAwesome/Font-Awesome",
-    title: "FortAwesome/Font-Awesome",
+    title: "FortAwesome / Font-Awesome",
     description: "The iconic SVG, font, and CSS toolkit",
     tags: [
       "css",
@@ -2408,7 +2414,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/framer/motion",
-    title: "framer/motion",
+    title: "framer / motion",
     description:
       "Open source, production-ready animation and gesture library for React",
     tags: [
@@ -2423,42 +2429,42 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/fuck-xuexiqiangguo/Fuck-XueXiQiangGuo",
-    title: "fuck-xuexiqiangguo/Fuck-XueXiQiangGuo",
+    title: "fuck-xuexiqiangguo / Fuck-XueXiQiangGuo",
     description: "学习强国 懒人刷分工具 自动学习",
     tags: [],
     github: { owner: "fuck-xuexiqiangguo", name: "Fuck-XueXiQiangGuo" },
   },
   {
     url: "https://github.com/fwon/blog",
-    title: "fwon/blog",
+    title: "fwon / blog",
     description: "writing thinking",
     tags: ["blog"],
     github: { owner: "fwon", name: "blog" },
   },
   {
     url: "https://github.com/gaearon/overreacted.io",
-    title: "gaearon/overreacted.io",
+    title: "gaearon / overreacted.io",
     description: "Personal blog by Dan Abramov.",
     tags: ["blog"],
     github: { owner: "gaearon", name: "overreacted.io" },
   },
   {
     url: "https://github.com/ganhuaking/docker-workshop",
-    title: "ganhuaking/docker-workshop",
+    title: "ganhuaking / docker-workshop",
     description: "Docker 工作坊記錄",
     tags: ["docker"],
     github: { owner: "ganhuaking", name: "docker-workshop" },
   },
   {
     url: "https://github.com/ganhuaking/ganhuaking.github.io",
-    title: "ganhuaking/ganhuaking.github.io",
+    title: "ganhuaking / ganhuaking.github.io",
     description: "《蔣幹話軟體》官方網站",
     tags: ["github"],
     github: { owner: "ganhuaking", name: "ganhuaking.github.io" },
   },
   {
     url: "https://github.com/gelstudios/gitfiti",
-    title: "gelstudios/gitfiti",
+    title: "gelstudios / gitfiti",
     description: "abusing github commit history for the lulz",
     tags: [
       "art",
@@ -2474,14 +2480,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/gemini-testing/looks-same",
-    title: "gemini-testing/looks-same",
+    title: "gemini-testing / looks-same",
     description: "Node.js library for comparing images",
     tags: ["js", "library", "node", "node-js", "testing"],
     github: { owner: "gemini-testing", name: "looks-same" },
   },
   {
     url: "https://github.com/getify/You-Dont-Know-JS",
-    title: "getify/You-Dont-Know-JS",
+    title: "getify / You-Dont-Know-JS",
     description: "A book series on JavaScript. @YDKJS on twitter.",
     tags: [
       "async",
@@ -2502,7 +2508,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/git/git",
-    title: "git/git",
+    title: "git / git",
     description:
       "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.",
     tags: ["c", "hacktoberfest", "shell"],
@@ -2510,20 +2516,20 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/github/gitignore",
-    title: "github/gitignore",
+    title: "github / gitignore",
     description: "A collection of useful .gitignore templates",
     tags: ["git", "gitignore"],
     github: { owner: "github", name: "gitignore" },
   },
   {
     url: "https://github.com/githubocto/flat-ui",
-    title: "githubocto/flat-ui",
+    title: "githubocto / flat-ui",
     tags: ["flat-data"],
     github: { owner: "githubocto", name: "flat-ui" },
   },
   {
     url: "https://github.com/gitkraken/vscode-gitlens",
-    title: "gitkraken/vscode-gitlens",
+    title: "gitkraken / vscode-gitlens",
     description:
       "Supercharge the Git capabilities built into Visual Studio Code — Visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more",
     tags: ["git", "vscode", "vscode-extension"],
@@ -2531,7 +2537,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/gitlabhq/gitlabhq",
-    title: "gitlabhq/gitlabhq",
+    title: "gitlabhq / gitlabhq",
     description:
       "GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com",
     tags: ["gitlab", "rails", "ruby"],
@@ -2539,7 +2545,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/GitSquared/edex-ui",
-    title: "GitSquared/edex-ui",
+    title: "GitSquared / edex-ui",
     description:
       "A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.",
     tags: [
@@ -2561,14 +2567,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/gnunn1/tilix",
-    title: "gnunn1/tilix",
+    title: "gnunn1 / tilix",
     description: "A tiling terminal emulator for Linux using GTK+ 3",
     tags: ["dlang", "gtk3", "terminal", "terminal-emulators", "vte"],
     github: { owner: "gnunn1", name: "tilix" },
   },
   {
     url: "https://github.com/go-gitea/gitea",
-    title: "go-gitea/gitea",
+    title: "go-gitea / gitea",
     description: "Git with a cup of tea, painless self-hosted git service",
     tags: [
       "devops",
@@ -2585,16 +2591,15 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/golang/go",
-    title: "golang/go",
+    title: "golang / go",
     description: "The Go programming language",
     tags: ["go", "golang", "language", "programming-language"],
     github: { owner: "golang", name: "go" },
   },
   {
     url: "https://github.com/goldbergyoni/nodebestpractices",
-    title: "goldbergyoni/nodebestpractices",
-    description:
-      ":white_check_mark:  The Node.js best practices list (February 2022)",
+    title: "goldbergyoni / nodebestpractices",
+    description: "✅ The Node.js best practices list (February 2022)",
     tags: [
       "best-practices",
       "es6",
@@ -2619,14 +2624,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/google/guetzli",
-    title: "google/guetzli",
+    title: "google / guetzli",
     description: "Perceptual JPEG encoder",
     tags: ["jpeg-encoder"],
     github: { owner: "google", name: "guetzli" },
   },
   {
     url: "https://github.com/google/libphonenumber",
-    title: "google/libphonenumber",
+    title: "google / libphonenumber",
     description:
       "Google's common Java, C++ and JavaScript library for parsing, formatting, and validating international phone numbers.",
     tags: ["c", "google", "java", "library", "parsing"],
@@ -2634,7 +2639,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/google/material-design-icons",
-    title: "google/material-design-icons",
+    title: "google / material-design-icons",
     description: "Material Design icons by Google",
     tags: [
       "android",
@@ -2649,7 +2654,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/google/re2",
-    title: "google/re2",
+    title: "google / re2",
     description:
       "RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.",
     tags: ["c", "google", "library", "python", "regular-expression"],
@@ -2657,19 +2662,19 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/google/re2-wasm",
-    title: "google/re2-wasm",
+    title: "google / re2-wasm",
     tags: ["google", "wasm"],
     github: { owner: "google", name: "re2-wasm" },
   },
   {
     url: "https://github.com/google/woff2",
-    title: "google/woff2",
+    title: "google / woff2",
     tags: ["google", "woff2"],
     github: { owner: "google", name: "woff2" },
   },
   {
     url: "https://github.com/google/wwwbasic",
-    title: "google/wwwbasic",
+    title: "google / wwwbasic",
     description:
       "wwwBASIC is an implementation of BASIC that runs on Node.js and the Web.",
     tags: ["google", "js", "node", "node-js", "web"],
@@ -2677,14 +2682,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/google/zx",
-    title: "google/zx",
+    title: "google / zx",
     description: "Replace Bash with JavaScript",
     tags: ["bash", "cli", "javascript", "nodejs", "shell"],
     github: { owner: "google", name: "zx" },
   },
   {
     url: "https://github.com/GoogleChromeLabs/ndb",
-    title: "GoogleChromeLabs/ndb",
+    title: "GoogleChromeLabs / ndb",
     description:
       "ndb is an improved debugging experience for Node.js, enabled by Chrome DevTools",
     tags: ["debugging", "devtools", "nodejs"],
@@ -2692,7 +2697,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/GoogleChromeLabs/webpack-libs-optimizations",
-    title: "GoogleChromeLabs/webpack-libs-optimizations",
+    title: "GoogleChromeLabs / webpack-libs-optimizations",
     description:
       "Using a library in your webpack project? Here’s how to optimize it",
     tags: ["frontend", "performance", "webpack"],
@@ -2700,21 +2705,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/googlefonts/nanoemoji",
-    title: "googlefonts/nanoemoji",
+    title: "googlefonts / nanoemoji",
     description: "A wee tool to build color fonts.",
     tags: ["color", "fonts", "tool"],
     github: { owner: "googlefonts", name: "nanoemoji" },
   },
   {
     url: "https://github.com/googlefonts/noto-fonts",
-    title: "googlefonts/noto-fonts",
-    description: " Noto fonts, except for CJK and emoji",
+    title: "googlefonts / noto-fonts",
+    description: "Noto fonts, except for CJK and emoji",
     tags: ["cjk", "emoji", "fonts", "noto"],
     github: { owner: "googlefonts", name: "noto-fonts" },
   },
   {
     url: "https://github.com/googlehosts/hosts",
-    title: "googlehosts/hosts",
+    title: "googlehosts / hosts",
     description:
       "镜像：https://scaffrey.coding.net/p/hosts/git / https://git.qvq.network/googlehosts/hosts",
     tags: ["hosts"],
@@ -2722,7 +2727,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/gorhill/uBlock",
-    title: "gorhill/uBlock",
+    title: "gorhill / uBlock",
     description:
       "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
     tags: [
@@ -2738,7 +2743,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/greenshot/greenshot",
-    title: "greenshot/greenshot",
+    title: "greenshot / greenshot",
     description:
       "Greenshot for Windows - Report bugs & features go here: https://greenshot.atlassian.net or look for information on:",
     tags: ["hacktoberfest", "hacktoberfest2021"],
@@ -2746,7 +2751,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/greensock/GSAP",
-    title: "greensock/GSAP",
+    title: "greensock / GSAP",
     description:
       "GreenSock's GSAP JavaScript animation library (including Draggable).",
     tags: ["animation", "animation-library", "draggable", "java", "library"],
@@ -2754,7 +2759,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/gridsome/gridsome",
-    title: "gridsome/gridsome",
+    title: "gridsome / gridsome",
     description: "⚡️ The Jamstack framework for Vue.js",
     tags: [
       "graphql",
@@ -2768,7 +2773,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/gsoft-inc/craco",
-    title: "gsoft-inc/craco",
+    title: "gsoft-inc / craco",
     description:
       "Create React App Configuration Override, an easy and comprehensible configuration layer for create-react-app",
     tags: [
@@ -2782,7 +2787,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/guyueyingmu/avbook",
-    title: "guyueyingmu/avbook",
+    title: "guyueyingmu / avbook",
     description:
       "AV 电影管理系统， avmoo , javbus , javlibrary 爬虫，线上 AV 影片图书馆，AV 磁力链接数据库，Japanese Adult Video Library,Adult Video Magnet Links - Japanese Adult Video Database",
     tags: [
@@ -2804,7 +2809,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/h5bp/Front-end-Developer-Interview-Questions",
-    title: "h5bp/Front-end-Developer-Interview-Questions",
+    title: "h5bp / Front-end-Developer-Interview-Questions",
     description:
       "A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.",
     tags: [
@@ -2819,7 +2824,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/hackmdio/codimd",
-    title: "hackmdio/codimd",
+    title: "hackmdio / codimd",
     description:
       "CodiMD - Realtime collaborative markdown notes on all platforms.",
     tags: [
@@ -2834,42 +2839,42 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/hakimel/reveal.js",
-    title: "hakimel/reveal.js",
+    title: "hakimel / reveal.js",
     description: "The HTML Presentation Framework",
     tags: ["presentations", "slides", "slideshow"],
     github: { owner: "hakimel", name: "reveal.js" },
   },
   {
     url: "https://github.com/hakluke/how-to-exit-vim",
-    title: "hakluke/how-to-exit-vim",
+    title: "hakluke / how-to-exit-vim",
     description: "Below are some simple methods for exiting vim.",
     tags: ["vim"],
     github: { owner: "hakluke", name: "how-to-exit-vim" },
   },
   {
     url: "https://github.com/hankchizljaw/modern-css-reset",
-    title: "hankchizljaw/modern-css-reset",
+    title: "hankchizljaw / modern-css-reset",
     description: "A bare-bones CSS reset for modern web development.",
     tags: ["css", "css-reset", "development", "web", "web-development"],
     github: { owner: "hankchizljaw", name: "modern-css-reset" },
   },
   {
     url: "https://github.com/HeapsIO/heaps",
-    title: "HeapsIO/heaps",
+    title: "HeapsIO / heaps",
     description: "Heaps : Haxe Game Framework",
     tags: ["framework", "game"],
     github: { owner: "HeapsIO", name: "heaps" },
   },
   {
     url: "https://github.com/HeapsIO/hide",
-    title: "HeapsIO/hide",
+    title: "HeapsIO / hide",
     description: "Heaps IDE",
     tags: ["ide"],
     github: { owner: "HeapsIO", name: "hide" },
   },
   {
     url: "https://github.com/hfg-gmuend/openmoji",
-    title: "hfg-gmuend/openmoji",
+    title: "hfg-gmuend / openmoji",
     description:
       "Open source emojis for designers, developers and everyone else!",
     tags: ["colorfont", "emoji", "openmoji", "styleguide", "svg"],
@@ -2877,21 +2882,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/hihayk/shaper",
-    title: "hihayk/shaper",
+    title: "hihayk / shaper",
     description: "interface styles shaper",
     tags: [],
     github: { owner: "hihayk", name: "shaper" },
   },
   {
     url: "https://github.com/horst3180/arc-theme",
-    title: "horst3180/arc-theme",
+    title: "horst3180 / arc-theme",
     description: "A flat theme with transparent elements",
     tags: ["arc", "theme"],
     github: { owner: "horst3180", name: "arc-theme" },
   },
   {
     url: "https://github.com/http-party/http-server",
-    title: "http-party/http-server",
+    title: "http-party / http-server",
     description: "a simple zero-configuration command-line http server",
     tags: [
       "command-line",
@@ -2905,35 +2910,35 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/i-tu/Hasklig",
-    title: "i-tu/Hasklig",
+    title: "i-tu / Hasklig",
     description: "Hasklig - a code font with monospaced ligatures",
     tags: ["afdko", "font", "hasklig", "ligatures", "otf"],
     github: { owner: "i-tu", name: "Hasklig" },
   },
   {
     url: "https://github.com/iamchucky/PttChrome",
-    title: "iamchucky/PttChrome",
+    title: "iamchucky / PttChrome",
     description: "A GNU/GPL telnet client for connecting to BBS site ptt.cc",
     tags: ["chrome", "ptt"],
     github: { owner: "iamchucky", name: "PttChrome" },
   },
   {
     url: "https://github.com/IBM/plex",
-    title: "IBM/plex",
+    title: "IBM / plex",
     description: "The package of IBM’s typeface, IBM Plex.",
     tags: ["design", "font", "typeface"],
     github: { owner: "IBM", name: "plex" },
   },
   {
     url: "https://github.com/immerjs/immer",
-    title: "immerjs/immer",
+    title: "immerjs / immer",
     description: "Create the next immutable state by mutating the current one",
     tags: ["immutable", "immutables", "reducer", "redux", "state-tree"],
     github: { owner: "immerjs", name: "immer" },
   },
   {
     url: "https://github.com/impress/impress.js",
-    title: "impress/impress.js",
+    title: "impress / impress.js",
     description:
       "It's a presentation framework based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.",
     tags: [
@@ -2949,7 +2954,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/infinitered/nsfwjs",
-    title: "infinitered/nsfwjs",
+    title: "infinitered / nsfwjs",
     description: "NSFW detection on the client-side via TensorFlow.js",
     tags: [
       "content-management",
@@ -2965,14 +2970,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/isaacs/node-glob",
-    title: "isaacs/node-glob",
+    title: "isaacs / node-glob",
     description: "glob functionality for node.js",
     tags: ["glob", "js", "node", "node-glob", "node-js"],
     github: { owner: "isaacs", name: "node-glob" },
   },
   {
     url: "https://github.com/jackmoore/autosize",
-    title: "jackmoore/autosize",
+    title: "jackmoore / autosize",
     description:
       "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
     tags: ["Text"],
@@ -2980,7 +2985,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/jasongin/nvs",
-    title: "jasongin/nvs",
+    title: "jasongin / nvs",
     description:
       "Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js",
     tags: ["cross-platform", "js", "node", "node-js", "platform", "tool"],
@@ -2988,7 +2993,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/javascript-obfuscator/javascript-obfuscator",
-    title: "javascript-obfuscator/javascript-obfuscator",
+    title: "javascript-obfuscator / javascript-obfuscator",
     description: "A powerful obfuscator for JavaScript and Node.js",
     tags: [
       "browser",
@@ -3016,7 +3021,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/jaywcjlove/awesome-mac",
-    title: "jaywcjlove/awesome-mac",
+    title: "jaywcjlove / awesome-mac",
     description:
       " Now we have become very big, Different from the original idea. Collect premium software in various categories.",
     tags: [
@@ -3035,69 +3040,69 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/jdan/98.css",
-    title: "jdan/98.css",
+    title: "jdan / 98.css",
     description: "A design system for building faithful recreations of old UIs",
     tags: ["css", "design-system", "guy-fieri", "windows98"],
     github: { owner: "jdan", name: "98.css" },
   },
   {
     url: "https://github.com/jesseduffield/lazydocker",
-    title: "jesseduffield/lazydocker",
+    title: "jesseduffield / lazydocker",
     description: "The lazier way to manage everything docker",
     tags: ["docker"],
     github: { owner: "jesseduffield", name: "lazydocker" },
   },
   {
     url: "https://github.com/jesseduffield/lazygit",
-    title: "jesseduffield/lazygit",
+    title: "jesseduffield / lazygit",
     description: "simple terminal UI for git commands",
     tags: ["cli", "git", "terminal"],
     github: { owner: "jesseduffield", name: "lazygit" },
   },
   {
     url: "https://github.com/jgraph/drawio",
-    title: "jgraph/drawio",
+    title: "jgraph / drawio",
     description: "Source to app.diagrams.net",
     tags: [],
     github: { owner: "jgraph", name: "drawio" },
   },
   {
     url: "https://github.com/jhnns/rewire",
-    title: "jhnns/rewire",
+    title: "jhnns / rewire",
     description: "Easy monkey-patching for node.js unit tests",
     tags: ["mock", "monkey-patching", "testing", "unit-testing"],
     github: { owner: "jhnns", name: "rewire" },
   },
   {
     url: "https://github.com/jim515jim/bob",
-    title: "jim515jim/bob",
+    title: "jim515jim / bob",
     tags: ["jquery"],
     github: { owner: "jim515jim", name: "bob" },
   },
   {
     url: "https://github.com/jlevy/the-art-of-command-line",
-    title: "jlevy/the-art-of-command-line",
+    title: "jlevy / the-art-of-command-line",
     description: "Master the command line, in one page",
     tags: ["bash", "documentation", "linux", "macos", "unix", "windows"],
     github: { owner: "jlevy", name: "the-art-of-command-line" },
   },
   {
     url: "https://github.com/johnsoncodehk/volar",
-    title: "johnsoncodehk/volar",
+    title: "johnsoncodehk / volar",
     description: "⚡ Explore high-performance tooling for Vue",
     tags: ["performance", "vue"],
     github: { owner: "johnsoncodehk", name: "volar" },
   },
   {
     url: "https://github.com/jonas/tig",
-    title: "jonas/tig",
+    title: "jonas / tig",
     description: "Text-mode interface for git",
     tags: ["c", "git", "ncurses", "tui"],
     github: { owner: "jonas", name: "tig" },
   },
   {
     url: "https://github.com/jorgebucaran/awsm.fish",
-    title: "jorgebucaran/awsm.fish",
+    title: "jorgebucaran / awsm.fish",
     description:
       "A curation of prompts, plugins & other resources for Fish. 🐚",
     tags: ["awesome", "fish", "fish-plugin"],
@@ -3105,21 +3110,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/jorgebucaran/fisher",
-    title: "jorgebucaran/fisher",
+    title: "jorgebucaran / fisher",
     description: "A plugin manager for Fish.",
     tags: ["fish", "fish-plugin", "plugin-manager"],
     github: { owner: "jorgebucaran", name: "fisher" },
   },
   {
     url: "https://github.com/jorgebucaran/nvm.fish",
-    title: "jorgebucaran/nvm.fish",
+    title: "jorgebucaran / nvm.fish",
     description: "Node.js version manager lovingly made for Fish.",
     tags: ["fish", "fish-plugin", "nodejs", "nvm"],
     github: { owner: "jorgebucaran", name: "nvm.fish" },
   },
   {
     url: "https://github.com/jprichardson/node-fs-extra",
-    title: "jprichardson/node-fs-extra",
+    title: "jprichardson / node-fs-extra",
     description:
       "Node.js: extra methods for the fs object like copy(), remove(), mkdirs()",
     tags: [
@@ -3135,14 +3140,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/jquery/jquery",
-    title: "jquery/jquery",
+    title: "jquery / jquery",
     description: "jQuery JavaScript Library",
     tags: ["jquery"],
     github: { owner: "jquery", name: "jquery" },
   },
   {
     url: "https://github.com/jsdelivr/jsdelivr",
-    title: "jsdelivr/jsdelivr",
+    title: "jsdelivr / jsdelivr",
     description:
       "A free, fast, and reliable Open Source CDN for npm, GitHub, Javascript, and ESM",
     tags: [
@@ -3163,21 +3168,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/json5/json5",
-    title: "json5/json5",
+    title: "json5 / json5",
     description: "JSON5 — JSON for humans",
     tags: ["json", "json5"],
     github: { owner: "json5", name: "json5" },
   },
   {
     url: "https://github.com/JuanPotato/Tofu",
-    title: "JuanPotato/Tofu",
+    title: "JuanPotato / Tofu",
     description: "The complete opposite of a font",
     tags: ["font"],
     github: { owner: "JuanPotato", name: "Tofu" },
   },
   {
     url: "https://github.com/juliangarnier/anime",
-    title: "juliangarnier/anime",
+    title: "juliangarnier / anime",
     description: "JavaScript animation engine",
     tags: [
       "animation",
@@ -3192,8 +3197,8 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/junegunn/fzf",
-    title: "junegunn/fzf",
-    description: ":cherry_blossom: A command-line fuzzy finder",
+    title: "junegunn / fzf",
+    description: "🌸 A command-line fuzzy finder",
     tags: [
       "bash",
       "cli",
@@ -3210,7 +3215,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/justfont/open-huninn-font",
-    title: "justfont/open-huninn-font",
+    title: "justfont / open-huninn-font",
     description:
       "「jf open 粉圓」是基於 Kosugi Maru 改作， 由 justfont 設計師針對台灣日常應用加以優化的開源字型。 歡迎大家自由應用、自由優化、自由改做！",
     tags: ["fonts", "jf-open", "typeface"],
@@ -3218,8 +3223,8 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/justjavac/free-programming-books-zh_CN",
-    title: "justjavac/free-programming-books-zh_CN",
-    description: ":books: 免费的计算机编程类中文书籍，欢迎投稿",
+    title: "justjavac / free-programming-books-zh_CN",
+    description: "📚 免费的计算机编程类中文书籍，欢迎投稿",
     tags: [
       "android",
       "angular",
@@ -3240,7 +3245,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/jxnblk/mdx-deck",
-    title: "jxnblk/mdx-deck",
+    title: "jxnblk / mdx-deck",
     description: "♠️ React MDX-based presentation decks",
     tags: [
       "deck",
@@ -3263,21 +3268,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/jxson/front-matter",
-    title: "jxson/front-matter",
+    title: "jxson / front-matter",
     description: "Extract YAML front matter from strings",
     tags: ["yaml"],
     github: { owner: "jxson", name: "front-matter" },
   },
   {
     url: "https://github.com/kagof/pixel-perfect-svg",
-    title: "kagof/pixel-perfect-svg",
+    title: "kagof / pixel-perfect-svg",
     description: "NodeJS CLI to convert pixel art to an SVG",
     tags: ["cli", "nodejs", "npm", "pixel-art", "svg", "typescript"],
     github: { owner: "kagof", name: "pixel-perfect-svg" },
   },
   {
     url: "https://github.com/kamranahmedse/developer-roadmap",
-    title: "kamranahmedse/developer-roadmap",
+    title: "kamranahmedse / developer-roadmap",
     description: "Roadmap to becoming a developer in 2022",
     tags: [
       "angular-roadmap",
@@ -3299,7 +3304,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/kawamataryo/chikamichi",
-    title: "kawamataryo/chikamichi",
+    title: "kawamataryo / chikamichi",
     description:
       "Command pallet for the browser. Enables fuzzy search for histories, tabs and bookmarks.",
     tags: [
@@ -3312,9 +3317,8 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/kazupon/vue-i18n",
-    title: "kazupon/vue-i18n",
-    description:
-      ":globe_with_meridians: Internationalization plugin for Vue.js",
+    title: "kazupon / vue-i18n",
+    description: "🌐 Internationalization plugin for Vue.js",
     tags: [
       "i18n",
       "internationalization",
@@ -3327,49 +3331,49 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/kika/fixedsys",
-    title: "kika/fixedsys",
+    title: "kika / fixedsys",
     description: "Fixedsys Excelsior font with programming ligatures",
     tags: ["font", "ligatures", "programming", "programming-ligatures"],
     github: { owner: "kika", name: "fixedsys" },
   },
   {
     url: "https://github.com/kingdido999/zooming",
-    title: "kingdido999/zooming",
+    title: "kingdido999 / zooming",
     description: "🔍 Image zoom that makes sense.",
     tags: ["image", "image-zoom", "javascript", "no-dependencies", "zoom"],
     github: { owner: "kingdido999", name: "zooming" },
   },
   {
     url: "https://github.com/kitze/JSUI",
-    title: "kitze/JSUI",
+    title: "kitze / JSUI",
     description: "A powerful UI toolkit for managing JavaScript apps",
     tags: ["graphql", "javascript", "nodejs", "react", "ui", "vue"],
     github: { owner: "kitze", name: "JSUI" },
   },
   {
     url: "https://github.com/klaussinani/hyper-pokemon",
-    title: "klaussinani/hyper-pokemon",
+    title: "klaussinani / hyper-pokemon",
     description: "Tailor-made Pokémon themes for your Hyper terminal",
     tags: ["hyper", "pikachu", "pokemon", "theme"],
     github: { owner: "klaussinani", name: "hyper-pokemon" },
   },
   {
     url: "https://github.com/knightlyjs/knightly",
-    title: "knightlyjs/knightly",
+    title: "knightlyjs / knightly",
     description: "🌒 Nightly builds for projects and PRs (BETA)",
     tags: ["automation", "knightly", "nightly-build"],
     github: { owner: "knightlyjs", name: "knightly" },
   },
   {
     url: "https://github.com/knosmos/cmdpxl",
-    title: "knosmos/cmdpxl",
+    title: "knosmos / cmdpxl",
     description: "totally practical command-line image editor",
     tags: ["cli", "image-editor", "opencv", "python", "terminal-based"],
     github: { owner: "knosmos", name: "cmdpxl" },
   },
   {
     url: "https://github.com/koajs/koa",
-    title: "koajs/koa",
+    title: "koajs / koa",
     description:
       "Expressive middleware for node.js using ES2017 async functions",
     tags: ["koa"],
@@ -3377,14 +3381,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/koajs/koa-body",
-    title: "koajs/koa-body",
+    title: "koajs / koa-body",
     description: "koa body parser middleware",
     tags: ["koa", "middleware", "parser"],
     github: { owner: "koajs", name: "koa-body" },
   },
   {
     url: "https://github.com/Kong/insomnia",
-    title: "Kong/insomnia",
+    title: "Kong / insomnia",
     description:
       "The open-source, cross-platform API client for GraphQL, REST, and gRPC.",
     tags: [
@@ -3402,7 +3406,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/kornelski/pngquant",
-    title: "kornelski/pngquant",
+    title: "kornelski / pngquant",
     description:
       "Lossy PNG compressor — pngquant command based on libimagequant library",
     tags: [
@@ -3422,7 +3426,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/krisk/Fuse",
-    title: "krisk/Fuse",
+    title: "krisk / Fuse",
     description: "Lightweight fuzzy-search, in JavaScript",
     tags: [
       "bitap",
@@ -3434,14 +3438,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/kristopolous/BOOTSTRA.386",
-    title: "kristopolous/BOOTSTRA.386",
+    title: "kristopolous / BOOTSTRA.386",
     description: "A vintage 1980s DOS inspired Twitter Bootstrap theme",
     tags: ["bootstrap", "dos", "theme", "twitter"],
     github: { owner: "kristopolous", name: "BOOTSTRA.386" },
   },
   {
     url: "https://github.com/kubeapps/kubeapps",
-    title: "kubeapps/kubeapps",
+    title: "kubeapps / kubeapps",
     description:
       "A web-based UI for deploying and managing applications in Kubernetes clusters",
     tags: ["applications", "kubernetes", "ui", "web"],
@@ -3449,14 +3453,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/kubernetes/kubernetes",
-    title: "kubernetes/kubernetes",
+    title: "kubernetes / kubernetes",
     description: "Production-Grade Container Scheduling and Management",
     tags: ["cncf", "containers", "go", "kubernetes"],
     github: { owner: "kubernetes", name: "kubernetes" },
   },
   {
     url: "https://github.com/kwsch/PKHeX",
-    title: "kwsch/PKHeX",
+    title: "kwsch / PKHeX",
     description: "Pokémon Save File Editor",
     tags: [
       "class-library",
@@ -3473,7 +3477,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/lancedikson/bowser",
-    title: "lancedikson/bowser",
+    title: "lancedikson / bowser",
     description: "a browser detector",
     tags: [
       "browser",
@@ -3491,22 +3495,22 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/lerna/lerna",
-    title: "lerna/lerna",
+    title: "lerna / lerna",
     description:
-      ":dragon: A tool for managing JavaScript projects with multiple packages.",
+      "🐉 A tool for managing JavaScript projects with multiple packages.",
     tags: ["lerna", "monorepo", "npm", "package", "publishing"],
     github: { owner: "lerna", name: "lerna" },
   },
   {
     url: "https://github.com/lewish/asciiflow",
-    title: "lewish/asciiflow",
+    title: "lewish / asciiflow",
     description: "ASCIIFlow",
     tags: ["flow"],
     github: { owner: "lewish", name: "asciiflow" },
   },
   {
     url: "https://github.com/LibreSprite/LibreSprite",
-    title: "LibreSprite/LibreSprite",
+    title: "LibreSprite / LibreSprite",
     description:
       "Animated sprite editor & pixel art tool -- Fork of the last GPLv2 commit of Aseprite",
     tags: [
@@ -3523,7 +3527,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/libretro/RetroArch",
-    title: "libretro/RetroArch",
+    title: "libretro / RetroArch",
     description:
       "Cross-platform, sophisticated frontend for the libretro API. Licensed GPLv3.",
     tags: ["c", "libretro", "retroarch"],
@@ -3531,14 +3535,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/libretro-thumbnails/libretro-thumbnails",
-    title: "libretro-thumbnails/libretro-thumbnails",
+    title: "libretro-thumbnails / libretro-thumbnails",
     description: "Thumbnails for RetroArch",
     tags: ["libretro", "retroarch"],
     github: { owner: "libretro-thumbnails", name: "libretro-thumbnails" },
   },
   {
     url: "https://github.com/ljharb/qs",
-    title: "ljharb/qs",
+    title: "ljharb / qs",
     description: "A querystring parser with nesting support",
     tags: [
       "browsers",
@@ -3555,7 +3559,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/lokalise/i18n-ally",
-    title: "lokalise/i18n-ally",
+    title: "lokalise / i18n-ally",
     description: "🌍 All in one i18n extension for VS Code",
     tags: [
       "angular",
@@ -3574,7 +3578,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/lukeed/kleur",
-    title: "lukeed/kleur",
+    title: "lukeed / kleur",
     description:
       "The fastest Node.js library for formatting terminal text with ANSI colors~!",
     tags: ["colors", "js", "library", "node", "node-js", "terminal", "Text"],
@@ -3582,7 +3586,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/lunapaint/vscode-luna-paint",
-    title: "lunapaint/vscode-luna-paint",
+    title: "lunapaint / vscode-luna-paint",
     description: "A raster image editor extension for VS Code",
     tags: [
       "image",
@@ -3598,9 +3602,9 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/luong-komorebi/Awesome-Linux-Software",
-    title: "luong-komorebi/Awesome-Linux-Software",
+    title: "luong-komorebi / Awesome-Linux-Software",
     description:
-      "A list of awesome applications, software, tools and other materials for Linux distros. ",
+      "A list of awesome applications, software, tools and other materials for Linux distros.",
     tags: [
       "applications",
       "awesome-list",
@@ -3624,7 +3628,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/lusaxweb/vuesax",
-    title: "lusaxweb/vuesax",
+    title: "lusaxweb / vuesax",
     description: "New Framework Components for Vue.js 2",
     tags: [
       "component",
@@ -3644,49 +3648,49 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/lyraeve/lyrae-elixir",
-    title: "lyraeve/lyrae-elixir",
+    title: "lyraeve / lyrae-elixir",
     description: "Lyrae project written by Elixir",
     tags: [],
     github: { owner: "lyraeve", name: "lyrae-elixir" },
   },
   {
     url: "https://github.com/lyraeve/lyrae-go",
-    title: "lyraeve/lyrae-go",
+    title: "lyraeve / lyrae-go",
     description: "Lyrae project written by Golang",
     tags: ["go", "golang"],
     github: { owner: "lyraeve", name: "lyrae-go" },
   },
   {
     url: "https://github.com/maaslalani/slides",
-    title: "maaslalani/slides",
+    title: "maaslalani / slides",
     description: "Terminal based presentation tool",
     tags: ["markdown", "presentation", "slides", "terminal"],
     github: { owner: "maaslalani", name: "slides" },
   },
   {
     url: "https://github.com/mamedev/mame",
-    title: "mamedev/mame",
+    title: "mamedev / mame",
     description: "MAME",
     tags: ["mame"],
     github: { owner: "mamedev", name: "mame" },
   },
   {
     url: "https://github.com/maoberlehner/vue-lazy-hydration",
-    title: "maoberlehner/vue-lazy-hydration",
+    title: "maoberlehner / vue-lazy-hydration",
     description: "Lazy Hydration of Server-Side Rendered Vue.js Components",
     tags: ["hydration", "nuxt", "nuxtjs", "vue", "vuejs"],
     github: { owner: "maoberlehner", name: "vue-lazy-hydration" },
   },
   {
     url: "https://github.com/marcosmoura/mini-react",
-    title: "marcosmoura/mini-react",
+    title: "marcosmoura / mini-react",
     description: "My mini react framework",
     tags: ["framework", "react"],
     github: { owner: "marcosmoura", name: "mini-react" },
   },
   {
     url: "https://github.com/markdown-it/markdown-it",
-    title: "markdown-it/markdown-it",
+    title: "markdown-it / markdown-it",
     description:
       "Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed",
     tags: ["commonmark", "javascript", "markdown"],
@@ -3694,14 +3698,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/markedjs/marked",
-    title: "markedjs/marked",
+    title: "markedjs / marked",
     description: "A markdown parser and compiler. Built for speed.",
     tags: ["commonmark", "compiler", "gfm", "markdown", "parser"],
     github: { owner: "markedjs", name: "marked" },
   },
   {
     url: "https://github.com/martinet101/ElevenClock",
-    title: "martinet101/ElevenClock",
+    title: "martinet101 / ElevenClock",
     description:
       "ElevenClock: Have a customizable clock on your Windows 11 displays",
     tags: [
@@ -3725,7 +3729,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/Martz90/vivify",
-    title: "Martz90/vivify",
+    title: "Martz90 / vivify",
     description: "Vivify is free CSS animation library.",
     tags: [
       "animation",
@@ -3741,21 +3745,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/mattboldt/typed.js",
-    title: "mattboldt/typed.js",
+    title: "mattboldt / typed.js",
     description: "A JavaScript Typing Animation Library",
     tags: ["animation", "animation-library", "java", "js", "library"],
     github: { owner: "mattboldt", name: "typed.js" },
   },
   {
     url: "https://github.com/MatthieuLemoine/unused-webpack-plugin",
-    title: "MatthieuLemoine/unused-webpack-plugin",
+    title: "MatthieuLemoine / unused-webpack-plugin",
     description: "A webpack plugin to find unused modules/source files.",
     tags: ["plugin", "unused", "webpack"],
     github: { owner: "MatthieuLemoine", name: "unused-webpack-plugin" },
   },
   {
     url: "https://github.com/maxGraph/maxGraph",
-    title: "maxGraph/maxGraph",
+    title: "maxGraph / maxGraph",
     description:
       "maxGraph is a fully client side JavaScript diagramming library",
     tags: ["java", "library"],
@@ -3763,14 +3767,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/mdx-js/mdx",
-    title: "mdx-js/mdx",
+    title: "mdx-js / mdx",
     description: "Markdown for the component era",
     tags: ["jsx", "markdown", "mdx", "react", "remark", "unified", "vue"],
     github: { owner: "mdx-js", name: "mdx" },
   },
   {
     url: "https://github.com/medialize/URI.js",
-    title: "medialize/URI.js",
+    title: "medialize / URI.js",
     description: "Javascript URL mutation library",
     tags: [
       "javascript",
@@ -3786,7 +3790,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/mermaid-js/mermaid",
-    title: "mermaid-js/mermaid",
+    title: "mermaid-js / mermaid",
     description:
       "Generation of diagram and flowchart from text in a similar manner as markdown",
     tags: ["flowchart", "js", "markdown", "Text"],
@@ -3794,9 +3798,9 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/MetaMask/metamask-extension",
-    title: "MetaMask/metamask-extension",
+    title: "MetaMask / metamask-extension",
     description:
-      ":globe_with_meridians: :electric_plug: The MetaMask browser extension enables browsing Ethereum blockchain enabled websites",
+      "🌐 🔌 The MetaMask browser extension enables browsing Ethereum blockchain enabled websites",
     tags: [
       "brave",
       "chrome",
@@ -3812,7 +3816,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/mhutchie/vscode-git-graph",
-    title: "mhutchie/vscode-git-graph",
+    title: "mhutchie / vscode-git-graph",
     description:
       "View a Git Graph of your repository in Visual Studio Code, and easily perform Git actions from the graph.",
     tags: [
@@ -3826,7 +3830,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/micromatch/picomatch",
-    title: "micromatch/picomatch",
+    title: "micromatch / picomatch",
     description:
       "Blazing fast and accurate glob matcher written JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions. Used by GraphQL, Jest, Astro, Snowpack, Storybook, Serverless, fdir, Netlify, AWS Amplify, Revogrid, rollup, routify, open-wc, imba, ava, docusaurus, fast-glob, globby, chokidar, anymatch, cloudflare/miniflare, pts, and more than 5 million projects! Please follow picomatch's author: https://github.com/jonschlinkert",
     tags: [
@@ -3851,7 +3855,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/microsoft/cascadia-code",
-    title: "microsoft/cascadia-code",
+    title: "microsoft / cascadia-code",
     description:
       "This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.",
     tags: [
@@ -3869,14 +3873,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/microsoft/monaco-editor",
-    title: "microsoft/monaco-editor",
+    title: "microsoft / monaco-editor",
     description: "A browser based code editor",
     tags: ["browser", "editor", "monaco-editor", "typescript", "vscode"],
     github: { owner: "microsoft", name: "monaco-editor" },
   },
   {
     url: "https://github.com/microsoft/PowerToys",
-    title: "microsoft/PowerToys",
+    title: "microsoft / PowerToys",
     description: "Windows system utilities to maximize productivity",
     tags: [
       "color-picker",
@@ -3892,7 +3896,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/microsoft/TypeScript",
-    title: "microsoft/TypeScript",
+    title: "microsoft / TypeScript",
     description:
       "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
     tags: ["javascript", "language", "typechecker", "typescript"],
@@ -3900,7 +3904,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/microsoft/vcpkg",
-    title: "microsoft/vcpkg",
+    title: "microsoft / vcpkg",
     description: "C++ Library Manager for Windows, Linux, and MacOS",
     tags: [
       "c",
@@ -3918,7 +3922,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/microsoft/vscode",
-    title: "microsoft/vscode",
+    title: "microsoft / vscode",
     description: "Visual Studio Code",
     tags: [
       "editor",
@@ -3931,7 +3935,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/microsoft/vscode-dev-containers",
-    title: "microsoft/vscode-dev-containers",
+    title: "microsoft / vscode-dev-containers",
     description:
       "A repository of development container definitions for the VS Code Remote - Containers extension and GitHub Codespaces",
     tags: [
@@ -3954,35 +3958,35 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/microsoft/vscode-pull-request-github",
-    title: "microsoft/vscode-pull-request-github",
+    title: "microsoft / vscode-pull-request-github",
     description: "GitHub Pull Requests for Visual Studio Code",
     tags: ["code-review", "github", "pull-requests", "vscode"],
     github: { owner: "microsoft", name: "vscode-pull-request-github" },
   },
   {
     url: "https://github.com/microsoft/vscode-tips-and-tricks",
-    title: "microsoft/vscode-tips-and-tricks",
-    description: "Collection of helpful tips and tricks for VS Code. ",
+    title: "microsoft / vscode-tips-and-tricks",
+    description: "Collection of helpful tips and tricks for VS Code.",
     tags: ["code", "microsoft", "vs", "vscode"],
     github: { owner: "microsoft", name: "vscode-tips-and-tricks" },
   },
   {
     url: "https://github.com/microsoft/vscode-vsce",
-    title: "microsoft/vscode-vsce",
+    title: "microsoft / vscode-vsce",
     description: "VS Code Extension Manager",
     tags: ["code", "extension", "microsoft", "vs", "vscode"],
     github: { owner: "microsoft", name: "vscode-vsce" },
   },
   {
     url: "https://github.com/microsoft/WSL",
-    title: "microsoft/WSL",
+    title: "microsoft / WSL",
     description: "Issues found on WSL",
     tags: ["microsoft"],
     github: { owner: "microsoft", name: "WSL" },
   },
   {
     url: "https://github.com/MihaiValentin/lunr-languages",
-    title: "MihaiValentin/lunr-languages",
+    title: "MihaiValentin / lunr-languages",
     description:
       "A collection of languages stemmers and stopwords for Lunr Javascript library",
     tags: [
@@ -3997,7 +4001,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/MikeMcl/decimal.js",
-    title: "MikeMcl/decimal.js",
+    title: "MikeMcl / decimal.js",
     description: "An arbitrary-precision Decimal type for JavaScript",
     tags: [
       "arbitrary-precision",
@@ -4011,27 +4015,27 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/MilesChou/csphp",
-    title: "MilesChou/csphp",
+    title: "MilesChou / csphp",
     description: "The builder and parser for PHP",
     tags: ["parser", "php"],
     github: { owner: "MilesChou", name: "csphp" },
   },
   {
     url: "https://github.com/MilesChou/daily-coding",
-    title: "MilesChou/daily-coding",
+    title: "MilesChou / daily-coding",
     tags: ["coding"],
     github: { owner: "MilesChou", name: "daily-coding" },
   },
   {
     url: "https://github.com/MilesChou/lua-action",
-    title: "MilesChou/lua-action",
+    title: "MilesChou / lua-action",
     description: "GitHub Actions for Lua",
     tags: ["actions", "lua", "luarocks"],
     github: { owner: "MilesChou", name: "lua-action" },
   },
   {
     url: "https://github.com/milligram/milligram",
-    title: "milligram/milligram",
+    title: "milligram / milligram",
     description: "A minimalist CSS framework.",
     tags: [
       "amp",
@@ -4049,22 +4053,22 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/minicli/action-contributors",
-    title: "minicli/action-contributors",
+    title: "minicli / action-contributors",
     description: "GitHub Action to dynamically update CONTRIBUTORS file",
     tags: ["contributors", "file", "git"],
     github: { owner: "minicli", name: "action-contributors" },
   },
   {
     url: "https://github.com/mishoo/UglifyJS",
-    title: "mishoo/UglifyJS",
+    title: "mishoo / UglifyJS",
     description:
-      " JavaScript parser / mangler / compressor / beautifier toolkit",
+      "JavaScript parser / mangler / compressor / beautifier toolkit",
     tags: ["compressor", "java", "js", "mangler", "parser", "uglify"],
     github: { owner: "mishoo", name: "UglifyJS" },
   },
   {
     url: "https://github.com/mjmlio/mjml",
-    title: "mjmlio/mjml",
+    title: "mjmlio / mjml",
     description: "MJML: the only framework that makes responsive-email easy",
     tags: [
       "email",
@@ -4078,14 +4082,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/mkrl/misbrands",
-    title: "mkrl/misbrands",
+    title: "mkrl / misbrands",
     description: "The world's most hated IT stickers",
     tags: [],
     github: { owner: "mkrl", name: "misbrands" },
   },
   {
     url: "https://github.com/moby/moby",
-    title: "moby/moby",
+    title: "moby / moby",
     description:
       "Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
     tags: ["containers", "docker", "go"],
@@ -4093,7 +4097,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/Modernizr/Modernizr",
-    title: "Modernizr/Modernizr",
+    title: "Modernizr / Modernizr",
     description:
       "Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.",
     tags: [
@@ -4108,21 +4112,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/motdotla/dotenv",
-    title: "motdotla/dotenv",
+    title: "motdotla / dotenv",
     description: "Loads environment variables from .env for nodejs projects.",
     tags: ["environment", "environment-variables", "nodejs", "variables"],
     github: { owner: "motdotla", name: "dotenv" },
   },
   {
     url: "https://github.com/mozilla/pdf.js",
-    title: "mozilla/pdf.js",
+    title: "mozilla / pdf.js",
     description: "PDF Reader in JavaScript",
     tags: ["java", "js", "pdf"],
     github: { owner: "mozilla", name: "pdf.js" },
   },
   {
     url: "https://github.com/mrmckeb/typescript-plugin-css-modules",
-    title: "mrmckeb/typescript-plugin-css-modules",
+    title: "mrmckeb / typescript-plugin-css-modules",
     description:
       "A TypeScript language service plugin providing support for CSS Modules.",
     tags: ["css", "modules", "plugin", "postcss", "sass", "typescript"],
@@ -4130,7 +4134,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/mswjs/msw",
-    title: "mswjs/msw",
+    title: "mswjs / msw",
     description:
       "Seamless REST/GraphQL API mocking library for browser and Node.js.",
     tags: [
@@ -4149,14 +4153,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/muan/emojilib",
-    title: "muan/emojilib",
+    title: "muan / emojilib",
     description: "Emoji keyword library.",
     tags: ["emoji", "emoji-searcher"],
     github: { owner: "muan", name: "emojilib" },
   },
   {
     url: "https://github.com/mui/material-ui",
-    title: "mui/material-ui",
+    title: "mui / material-ui",
     description:
       "MUI Core (formerly Material UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.",
     tags: [
@@ -4172,7 +4176,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/mysqljs/mysql",
-    title: "mysqljs/mysql",
+    title: "mysqljs / mysql",
     description:
       "A pure node.js JavaScript Client implementing the MySQL protocol.",
     tags: ["javascript", "mysql", "nodejs"],
@@ -4180,14 +4184,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/necolas/normalize.css",
-    title: "necolas/normalize.css",
+    title: "necolas / normalize.css",
     description: "A modern alternative to CSS resets",
     tags: ["css", "css-reset", "normalize-css"],
     github: { owner: "necolas", name: "normalize.css" },
   },
   {
     url: "https://github.com/NectarJS/nectarjs",
-    title: "NectarJS/nectarjs",
+    title: "NectarJS / nectarjs",
     description:
       "🔱 Javascript's God Mode. No VM. No Bytecode. No GC. Just native binaries.",
     tags: ["arduino", "compilation", "js", "nodejs", "raspberry", "wasm"],
@@ -4195,14 +4199,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/nektos/act",
-    title: "nektos/act",
+    title: "nektos / act",
     description: "Run your GitHub Actions locally 🚀",
     tags: ["ci", "devops", "github-actions", "golang"],
     github: { owner: "nektos", name: "act" },
   },
   {
     url: "https://github.com/Netflix/pollyjs",
-    title: "Netflix/pollyjs",
+    title: "Netflix / pollyjs",
     description: "Record, Replay, and Stub HTTP Interactions.",
     tags: [
       "browser",
@@ -4217,27 +4221,27 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/nextui-org/nextui",
-    title: "nextui-org/nextui",
-    description: "🚀   Beautiful, fast and modern React UI library.",
+    title: "nextui-org / nextui",
+    description: "🚀 Beautiful, fast and modern React UI library.",
     tags: ["component-library", "components", "library", "reactjs"],
     github: { owner: "nextui-org", name: "nextui" },
   },
   {
     url: "https://github.com/Nexus-Mods/Nexus-Mod-Manager",
-    title: "Nexus-Mods/Nexus-Mod-Manager",
+    title: "Nexus-Mods / Nexus-Mod-Manager",
     tags: [],
     github: { owner: "Nexus-Mods", name: "Nexus-Mod-Manager" },
   },
   {
     url: "https://github.com/Nexus-Mods/Vortex",
-    title: "Nexus-Mods/Vortex",
+    title: "Nexus-Mods / Vortex",
     description: "Vortex Development",
     tags: ["development"],
     github: { owner: "Nexus-Mods", name: "Vortex" },
   },
   {
     url: "https://github.com/nginx/nginx",
-    title: "nginx/nginx",
+    title: "nginx / nginx",
     description:
       "An official read-only mirror of http://hg.nginx.org/nginx/ which is updated hourly. Pull requests on GitHub cannot be accepted and will be automatically closed. The proper way to submit changes to nginx is via the nginx development mailing list, see http://nginx.org/en/docs/contributing_changes.html",
     tags: ["development", "git", "html", "http", "list", "pull-requests"],
@@ -4245,20 +4249,20 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/nginxinc/docker-nginx",
-    title: "nginxinc/docker-nginx",
+    title: "nginxinc / docker-nginx",
     description: "Official NGINX Dockerfiles",
     tags: ["docker"],
     github: { owner: "nginxinc", name: "docker-nginx" },
   },
   {
     url: "https://github.com/nh-server/switch-guide",
-    title: "nh-server/switch-guide",
+    title: "nh-server / switch-guide",
     tags: ["server"],
     github: { owner: "nh-server", name: "switch-guide" },
   },
   {
     url: "https://github.com/nicolasbeauvais/vue-social-sharing",
-    title: "nicolasbeauvais/vue-social-sharing",
+    title: "nicolasbeauvais / vue-social-sharing",
     description:
       "A renderless Vue.js component for sharing links to social networks, compatible with SSR",
     tags: [
@@ -4281,8 +4285,8 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/nodejs/docker-node",
-    title: "nodejs/docker-node",
-    description: "Official Docker Image for Node.js :whale: :turtle: :rocket: ",
+    title: "nodejs / docker-node",
+    description: "Official Docker Image for Node.js 🐳 🐢 🚀",
     tags: [
       "docker",
       "docker-image",
@@ -4295,9 +4299,8 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/nodejs/node",
-    title: "nodejs/node",
-    description:
-      "Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:",
+    title: "nodejs / node",
+    description: "Node.js JavaScript runtime ✨🐢🚀✨",
     tags: [
       "javascript",
       "js",
@@ -4313,14 +4316,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/nodejs-tw/jobs",
-    title: "nodejs-tw/jobs",
+    title: "nodejs-tw / jobs",
     description: "Node.js jobs",
     tags: ["job-board"],
     github: { owner: "nodejs-tw", name: "jobs" },
   },
   {
     url: "https://github.com/nolimits4web/swiper",
-    title: "nolimits4web/swiper",
+    title: "nolimits4web / swiper",
     description:
       "Most modern mobile touch slider with hardware accelerated transitions",
     tags: [
@@ -4337,16 +4340,16 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/notepad-plus-plus/notepad-plus-plus",
-    title: "notepad-plus-plus/notepad-plus-plus",
+    title: "notepad-plus-plus / notepad-plus-plus",
     description: "Notepad++ official repository",
     tags: ["editor", "notepad", "notepad-official", "windows"],
     github: { owner: "notepad-plus-plus", name: "notepad-plus-plus" },
   },
   {
     url: "https://github.com/npkgz/cli-progress",
-    title: "npkgz/cli-progress",
+    title: "npkgz / cli-progress",
     description:
-      " :hourglass: easy to use progress-bar for command-line/terminal applications",
+      "⌛ easy to use progress-bar for command-line/terminal applications",
     tags: [
       "cli",
       "command-line",
@@ -4362,42 +4365,42 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/npm/node-semver",
-    title: "npm/node-semver",
+    title: "npm / node-semver",
     description: "The semver parser for node (the one npm uses)",
     tags: ["npm-cli"],
     github: { owner: "npm", name: "node-semver" },
   },
   {
     url: "https://github.com/npm/npm",
-    title: "npm/npm",
+    title: "npm / npm",
     description: "This repository is moving to: https://github.com/npm/cli",
     tags: ["cli", "github", "npm", "npm-cli"],
     github: { owner: "npm", name: "npm" },
   },
   {
     url: "https://github.com/npm/tink",
-    title: "npm/tink",
-    description: "a dependency unwinder for javascript ",
+    title: "npm / tink",
+    description: "a dependency unwinder for javascript",
     tags: ["javascript", "npm", "package-manager", "tink"],
     github: { owner: "npm", name: "tink" },
   },
   {
     url: "https://github.com/nteract/ansi-to-react",
-    title: "nteract/ansi-to-react",
-    description: ":guardsman: ANSI to React",
+    title: "nteract / ansi-to-react",
+    description: "💂‍♂️ ANSI to React",
     tags: ["react"],
     github: { owner: "nteract", name: "ansi-to-react" },
   },
   {
     url: "https://github.com/nuxt/actions-yarn",
-    title: "nuxt/actions-yarn",
+    title: "nuxt / actions-yarn",
     description: "Github Actions for yarn",
     tags: ["actions", "github", "github-actions", "nuxt", "yarn"],
     github: { owner: "nuxt", name: "actions-yarn" },
   },
   {
     url: "https://github.com/nuxt/nuxt.js",
-    title: "nuxt/nuxt.js",
+    title: "nuxt / nuxt.js",
     description: "The Intuitive Vue(2) Framework",
     tags: [
       "framework",
@@ -4415,7 +4418,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/nvbn/thefuck",
-    title: "nvbn/thefuck",
+    title: "nvbn / thefuck",
     description:
       "Magnificent app which corrects your previous console command.",
     tags: ["python", "shell"],
@@ -4423,14 +4426,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/NVIDIAGameWorks/NVIDIAImageScaling",
-    title: "NVIDIAGameWorks/NVIDIAImageScaling",
+    title: "NVIDIAGameWorks / NVIDIAImageScaling",
     description: "NVIDIA Image Scaling SDK",
     tags: ["game", "image"],
     github: { owner: "NVIDIAGameWorks", name: "NVIDIAImageScaling" },
   },
   {
     url: "https://github.com/nvm-sh/nvm",
-    title: "nvm-sh/nvm",
+    title: "nvm-sh / nvm",
     description:
       "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
     tags: [
@@ -4452,14 +4455,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/octokit/rest.js",
-    title: "octokit/rest.js",
+    title: "octokit / rest.js",
     description: "GitHub REST API client for JavaScript",
     tags: ["api", "api-client", "git", "java", "js", "rest", "rest-api"],
     github: { owner: "octokit", name: "rest.js" },
   },
   {
     url: "https://github.com/oh-my-fish/oh-my-fish",
-    title: "oh-my-fish/oh-my-fish",
+    title: "oh-my-fish / oh-my-fish",
     description: "The Fish Shell Framework",
     tags: [
       "fish",
@@ -4477,7 +4480,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/okonet/lint-staged",
-    title: "okonet/lint-staged",
+    title: "okonet / lint-staged",
     description: "🚫💩 — Run linters on git staged files",
     tags: [
       "developer-experience",
@@ -4492,14 +4495,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/olivernn/lunr.js",
-    title: "olivernn/lunr.js",
+    title: "olivernn / lunr.js",
     description: "A bit like Solr, but much smaller and not as bright",
     tags: ["full-text-search", "javascript", "lunr", "search"],
     github: { owner: "olivernn", name: "lunr.js" },
   },
   {
     url: "https://github.com/omgovich/react-colorful",
-    title: "omgovich/react-colorful",
+    title: "omgovich / react-colorful",
     description:
       "🎨 A tiny (2,8 KB) color picker component for React and Preact apps",
     tags: [
@@ -4520,27 +4523,22 @@ const sites: Site[] = [
     github: { owner: "omgovich", name: "react-colorful" },
   },
   {
-    url: "https://github.com/OpenDiablo2/OpenDiablo2",
-    title: "OpenDiablo2/OpenDiablo2",
-    description: "An open source re-implementation of Diablo 2",
+    url: "https://github.com/omnidan/node-emoji",
+    title: "omnidan / node-emoji",
+    description: "😏 simple emoji support for node.js projects",
     tags: [
-      "2d",
-      "arpg",
-      "diablo",
-      "diablo2",
-      "engine",
-      "game",
-      "game-engine",
-      "games",
-      "go",
-      "golang",
-      "open-source",
+      "emoji",
+      "emoji-support",
+      "javascript",
+      "node",
+      "node-emoji",
+      "nodejs",
     ],
-    github: { owner: "OpenDiablo2", name: "OpenDiablo2" },
+    github: { owner: "omnidan", name: "node-emoji" },
   },
   {
     url: "https://github.com/OpenEmu/OpenEmu",
-    title: "OpenEmu/OpenEmu",
+    title: "OpenEmu / OpenEmu",
     description: "🕹 Retro video game emulation for macOS",
     tags: [
       "emulation",
@@ -4554,7 +4552,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/opentypejs/opentype.js",
-    title: "opentypejs/opentype.js",
+    title: "opentypejs / opentype.js",
     description: "Read and write OpenType fonts using JavaScript.",
     tags: [
       "font",
@@ -4571,7 +4569,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/Orama-Interactive/Pixelorama",
-    title: "Orama-Interactive/Pixelorama",
+    title: "Orama-Interactive / Pixelorama",
     description:
       "A free & open-source 2D sprite editor, made with the Godot Engine! Available on Windows, Linux, macOS and the Web!",
     tags: [
@@ -4600,7 +4598,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/ory/hydra",
-    title: "ory/hydra",
+    title: "ory / hydra",
     description:
       "OpenID Certified™ OpenID Connect and OAuth Provider written in Go - cloud native, security-first, open source API security for your infrastructure. SDKs for any language. Works with Hardware Security Modules. Compatible with MITREid.",
     tags: [
@@ -4629,7 +4627,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/ovity/octotree",
-    title: "ovity/octotree",
+    title: "ovity / octotree",
     description: "GitHub on steroids",
     tags: [
       "browser-extension",
@@ -4647,8 +4645,8 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/owncloud/core",
-    title: "owncloud/core",
-    description: ":cloud: ownCloud web server core (Files, DAV, etc.)",
+    title: "owncloud / core",
+    description: "☁️ ownCloud web server core (Files, DAV, etc.)",
     tags: [
       "enterprise",
       "federated",
@@ -4665,7 +4663,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/pablohpsilva/vuejs-component-style-guide",
-    title: "pablohpsilva/vuejs-component-style-guide",
+    title: "pablohpsilva / vuejs-component-style-guide",
     description: "Vue.js Component Style Guide",
     tags: [
       "style-guide",
@@ -4682,9 +4680,9 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/PanJiaChen/vue-element-admin",
-    title: "PanJiaChen/vue-element-admin",
+    title: "PanJiaChen / vue-element-admin",
     description:
-      ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin",
+      "🎉 A magical vue admin https://panjiachen.github.io/vue-element-admin",
     tags: [
       "admin",
       "admin-dashboard",
@@ -4710,7 +4708,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/parcel-bundler/parcel",
-    title: "parcel-bundler/parcel",
+    title: "parcel-bundler / parcel",
     description: "The zero configuration build tool for the web. 📦🚀",
     tags: [
       "assets",
@@ -4729,14 +4727,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/parcel-bundler/parcel-css",
-    title: "parcel-bundler/parcel-css",
+    title: "parcel-bundler / parcel-css",
     description: "A CSS parser, transformer, and minifier written in Rust.",
     tags: ["build-tool", "compiler", "css", "minifier", "parser", "rust"],
     github: { owner: "parcel-bundler", name: "parcel-css" },
   },
   {
     url: "https://github.com/phosphor-icons/phosphor-home",
-    title: "phosphor-icons/phosphor-home",
+    title: "phosphor-icons / phosphor-home",
     description:
       "The homepage of Phosphor Icons, a flexible icon family for everyone",
     tags: ["icon-font", "icon-pack", "icons", "phosphor", "svgs"],
@@ -4744,7 +4742,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/photonstorm/phaser",
-    title: "photonstorm/phaser",
+    title: "photonstorm / phaser",
     description:
       "Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.",
     tags: [
@@ -4764,7 +4762,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/pillarjs/path-to-regexp",
-    title: "pillarjs/path-to-regexp",
+    title: "pillarjs / path-to-regexp",
     description:
       "Turn a path string such as `/user/:name` into a regular expression",
     tags: ["expressjs", "nodejs", "path-to-regexp", "router"],
@@ -4772,7 +4770,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/piotrwitek/utility-types",
-    title: "piotrwitek/utility-types",
+    title: "piotrwitek / utility-types",
     description:
       'Collection of utility types, complementing TypeScript built-in mapped types and aliases (think "lodash" for static types).',
     tags: [
@@ -4786,7 +4784,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/plotly/plotly.js",
-    title: "plotly/plotly.js",
+    title: "plotly / plotly.js",
     description:
       "Open-source JavaScript charting library behind Plotly and Dash",
     tags: [
@@ -4804,22 +4802,22 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/pmndrs/gltfjsx",
-    title: "pmndrs/gltfjsx",
+    title: "pmndrs / gltfjsx",
     description: "🎮 Turns GLTFs into JSX components",
     tags: ["components", "jsx"],
     github: { owner: "pmndrs", name: "gltfjsx" },
   },
   {
     url: "https://github.com/pmndrs/react-nil",
-    title: "pmndrs/react-nil",
+    title: "pmndrs / react-nil",
     description: "⃝ A react null renderer",
     tags: ["react", "renderer"],
     github: { owner: "pmndrs", name: "react-nil" },
   },
   {
     url: "https://github.com/pmndrs/react-postprocessing",
-    title: "pmndrs/react-postprocessing",
-    description: "📬  postprocessing for react-three-fiber",
+    title: "pmndrs / react-postprocessing",
+    description: "📬 postprocessing for react-three-fiber",
     tags: [
       "3d",
       "postprocessing",
@@ -4833,7 +4831,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/pmndrs/react-spring",
-    title: "pmndrs/react-spring",
+    title: "pmndrs / react-spring",
     description: "✌️ A spring physics based React animation library",
     tags: [
       "animation-library",
@@ -4846,21 +4844,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/pmndrs/react-three-fiber",
-    title: "pmndrs/react-three-fiber",
+    title: "pmndrs / react-three-fiber",
     description: "🇨🇭 A React renderer for Three.js",
     tags: ["3d", "animation", "fiber", "react", "renderer", "threejs"],
     github: { owner: "pmndrs", name: "react-three-fiber" },
   },
   {
     url: "https://github.com/pmndrs/suspend-react",
-    title: "pmndrs/suspend-react",
+    title: "pmndrs / suspend-react",
     description: "🚥 Async/await for React components",
     tags: ["async", "components", "react", "react-components"],
     github: { owner: "pmndrs", name: "suspend-react" },
   },
   {
     url: "https://github.com/pmndrs/use-gesture",
-    title: "pmndrs/use-gesture",
+    title: "pmndrs / use-gesture",
     description:
       "👇Bread n butter utility for component-tied mouse/touch gestures in React and Vanilla Javascript.",
     tags: [
@@ -4877,21 +4875,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/pmndrs/zustand",
-    title: "pmndrs/zustand",
+    title: "pmndrs / zustand",
     description: "🐻 Bear necessities for state management in React",
     tags: ["react", "state", "state-management"],
     github: { owner: "pmndrs", name: "zustand" },
   },
   {
     url: "https://github.com/pnpm/action-setup",
-    title: "pnpm/action-setup",
+    title: "pnpm / action-setup",
     description: "Install pnpm package manager",
     tags: ["actions", "ci", "github-actions", "nodejs", "pnpm"],
     github: { owner: "pnpm", name: "action-setup" },
   },
   {
     url: "https://github.com/pnpm/pnpm",
-    title: "pnpm/pnpm",
+    title: "pnpm / pnpm",
     description:
       "Fast, disk space efficient package manager -- 快速的，节省磁盘空间的包管理工具",
     tags: [
@@ -4908,14 +4906,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/pomber/placeholdifier",
-    title: "pomber/placeholdifier",
+    title: "pomber / placeholdifier",
     description: "Turn any website into a live wireframe",
     tags: ["css", "html", "mask", "placeholder", "skeleton", "wireframe"],
     github: { owner: "pomber", name: "placeholdifier" },
   },
   {
     url: "https://github.com/Popmotion/popmotion",
-    title: "Popmotion/popmotion",
+    title: "Popmotion / popmotion",
     description: "Simple animation libraries for delightful user interfaces",
     tags: [
       "animation",
@@ -4931,7 +4929,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/portainer/portainer",
-    title: "portainer/portainer",
+    title: "portainer / portainer",
     description: "Making Docker and Kubernetes management easy.",
     tags: [
       "docker",
@@ -4952,28 +4950,28 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/portainer/portainer-compose",
-    title: "portainer/portainer-compose",
-    description: "Compose setup for Portainer ",
+    title: "portainer / portainer-compose",
+    description: "Compose setup for Portainer",
     tags: ["docker", "docker-compose", "portainer"],
     github: { owner: "portainer", name: "portainer-compose" },
   },
   {
     url: "https://github.com/postcss/postcss",
-    title: "postcss/postcss",
+    title: "postcss / postcss",
     description: "Transforming styles with JS plugins",
     tags: ["ast", "css", "framework", "parser", "postcss"],
     github: { owner: "postcss", name: "postcss" },
   },
   {
     url: "https://github.com/powerline/fonts",
-    title: "powerline/fonts",
+    title: "powerline / fonts",
     description: "Patched fonts for Powerline users.",
     tags: ["fonts"],
     github: { owner: "powerline", name: "fonts" },
   },
   {
     url: "https://github.com/pqrs-org/Karabiner-Elements",
-    title: "pqrs-org/Karabiner-Elements",
+    title: "pqrs-org / Karabiner-Elements",
     description:
       "Karabiner-Elements is a powerful utility for keyboard customization on macOS Sierra (10.12) or later.",
     tags: ["keyboard", "macos"],
@@ -4981,7 +4979,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/prettier/eslint-config-prettier",
-    title: "prettier/eslint-config-prettier",
+    title: "prettier / eslint-config-prettier",
     description:
       "Turns off all rules that are unnecessary or might conflict with Prettier.",
     tags: ["eslint", "eslint-config", "prettier", "react"],
@@ -4989,7 +4987,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/prettier/prettier",
-    title: "prettier/prettier",
+    title: "prettier / prettier",
     description: "Prettier is an opinionated code formatter.",
     tags: [
       "angular",
@@ -5015,7 +5013,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/prettier/prettier-vscode",
-    title: "prettier/prettier-vscode",
+    title: "prettier / prettier-vscode",
     description: "Visual Studio Code extension for Prettier",
     tags: [
       "formatter",
@@ -5027,15 +5025,15 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/PrismJS/prism",
-    title: "PrismJS/prism",
+    title: "PrismJS / prism",
     description: "Lightweight, robust, elegant syntax highlighting.",
     tags: ["js", "syntax-highlighting"],
     github: { owner: "PrismJS", name: "prism" },
   },
   {
     url: "https://github.com/probil/vue-moveable",
-    title: "probil/vue-moveable",
-    description: "↔️ ↕️ 🔄  Vue.js wrapper for Moveable",
+    title: "probil / vue-moveable",
+    description: "↔️ ↕️ 🔄 Vue.js wrapper for Moveable",
     tags: [
       "draggable",
       "moveable",
@@ -5050,7 +5048,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/processhacker/processhacker",
-    title: "processhacker/processhacker",
+    title: "processhacker / processhacker",
     description:
       "A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.",
     tags: [
@@ -5077,9 +5075,8 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/Ptt-Alertor/ptt-alertor",
-    title: "Ptt-Alertor/ptt-alertor",
-    description:
-      ":loudspeaker: Ptt 文章通知機器人！Notify Ptt Article in Realtime",
+    title: "Ptt-Alertor / ptt-alertor",
+    description: "📢 Ptt 文章通知機器人！Notify Ptt Article in Realtime",
     tags: [
       "chatbot",
       "crawler",
@@ -5092,7 +5089,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/public-apis/public-apis",
-    title: "public-apis/public-apis",
+    title: "public-apis / public-apis",
     description: "A collective list of free APIs",
     tags: [
       "api",
@@ -5113,7 +5110,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/pugjs/pug",
-    title: "pugjs/pug",
+    title: "pugjs / pug",
     description:
       "Pug – robust, elegant, feature rich template engine for Node.js",
     tags: ["engine", "js", "node", "node-js", "template"],
@@ -5121,7 +5118,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/puppeteer/puppeteer",
-    title: "puppeteer/puppeteer",
+    title: "puppeteer / puppeteer",
     description: "Headless Chrome Node.js API",
     tags: [
       "automation",
@@ -5135,21 +5132,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/pure-fish/pure",
-    title: "pure-fish/pure",
+    title: "pure-fish / pure",
     description:
-      "Pretty, minimal, and fast prompt for Fish from Zsh.fish theme prompt fish-theme fish-prompt ",
+      "Pretty, minimal, and fast prompt for Fish from Zsh.fish theme prompt fish-theme fish-prompt",
     tags: ["fish", "fish-prompt", "fish-theme", "prompt", "theme", "zsh"],
     github: { owner: "pure-fish", name: "pure" },
   },
   {
     url: "https://github.com/PuruVJ/neodrag",
-    title: "PuruVJ/neodrag",
+    title: "PuruVJ / neodrag",
     tags: ["draggable", "javascript", "svelte", "typescript"],
     github: { owner: "PuruVJ", name: "neodrag" },
   },
   {
     url: "https://github.com/qweasd1/hyper-drop-file",
-    title: "qweasd1/hyper-drop-file",
+    title: "qweasd1 / hyper-drop-file",
     description:
       "The hyper plugin to let you drop file path into your terminal",
     tags: ["file", "hyper", "plugin", "terminal"],
@@ -5157,7 +5154,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/R2Northstar/Northstar",
-    title: "R2Northstar/Northstar",
+    title: "R2Northstar / Northstar",
     description: "Repo for packaged Northstar releases",
     tags: [
       "northstar",
@@ -5170,7 +5167,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/railsware/upterm",
-    title: "railsware/upterm",
+    title: "railsware / upterm",
     description: "A terminal emulator for the 21st century.",
     tags: [
       "console",
@@ -5188,28 +5185,28 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/ramda/ramda",
-    title: "ramda/ramda",
-    description: ":ram: Practical functional Javascript",
+    title: "ramda / ramda",
+    description: "🐏 Practical functional Javascript",
     tags: ["javascript", "ramda"],
     github: { owner: "ramda", name: "ramda" },
   },
   {
     url: "https://github.com/react-dropzone/react-dropzone",
-    title: "react-dropzone/react-dropzone",
+    title: "react-dropzone / react-dropzone",
     description: "Simple HTML5 drag-drop zone with React.js.",
     tags: ["drag-and-drop", "file", "file-upload", "react"],
     github: { owner: "react-dropzone", name: "react-dropzone" },
   },
   {
     url: "https://github.com/react-grid-layout/react-draggable",
-    title: "react-grid-layout/react-draggable",
+    title: "react-grid-layout / react-draggable",
     description: "React draggable component",
     tags: ["component", "draggable", "grid", "react"],
     github: { owner: "react-grid-layout", name: "react-draggable" },
   },
   {
     url: "https://github.com/reactjs/react-future",
-    title: "reactjs/react-future",
+    title: "reactjs / react-future",
     description:
       "Specs & docs for potential future and experimental React APIs and JavaScript syntax.",
     tags: ["experimental", "java", "react", "reactjs"],
@@ -5217,14 +5214,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/reactjs/reactjs.org",
-    title: "reactjs/reactjs.org",
+    title: "reactjs / reactjs.org",
     description: "The React documentation website",
     tags: ["documentation", "javascript", "react", "website"],
     github: { owner: "reactjs", name: "reactjs.org" },
   },
   {
     url: "https://github.com/redis/redis",
-    title: "redis/redis",
+    title: "redis / redis",
     description:
       "Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps.",
     tags: ["data", "database", "hyper", "lists", "log", "memory", "redis"],
@@ -5232,8 +5229,8 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/Redocly/redoc",
-    title: "Redocly/redoc",
-    description: "📘  OpenAPI/Swagger-generated API Reference Documentation",
+    title: "Redocly / redoc",
+    description: "📘 OpenAPI/Swagger-generated API Reference Documentation",
     tags: [
       "api-documentation",
       "documentation-generator",
@@ -5250,14 +5247,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/reduxjs/redux",
-    title: "reduxjs/redux",
+    title: "reduxjs / redux",
     description: "Predictable state container for JavaScript apps",
     tags: ["redux"],
     github: { owner: "reduxjs", name: "redux" },
   },
   {
     url: "https://github.com/remix-run/remix",
-    title: "remix-run/remix",
+    title: "remix-run / remix",
     description:
       "Build Better Websites. Create modern, resilient user experiences with web fundamentals.",
     tags: ["web"],
@@ -5265,14 +5262,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/remotion-dev/remotion",
-    title: "remotion-dev/remotion",
-    description: "🎥      Create videos programmatically in React",
+    title: "remotion-dev / remotion",
+    description: "🎥 Create videos programmatically in React",
     tags: ["react", "remotion", "video"],
     github: { owner: "remotion-dev", name: "remotion" },
   },
   {
     url: "https://github.com/RetroPie/RetroPie-Setup",
-    title: "RetroPie/RetroPie-Setup",
+    title: "RetroPie / RetroPie-Setup",
     description:
       "Shell script to set up a Raspberry Pi/Odroid/PC with RetroArch emulator and various cores",
     tags: ["emulation", "pi", "raspberry-pi", "retrogaming"],
@@ -5280,28 +5277,28 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/Rich-Harris/devalue",
-    title: "Rich-Harris/devalue",
+    title: "Rich-Harris / devalue",
     description: "Gets the job done when JSON.stringify can't",
     tags: ["json", "stringify"],
     github: { owner: "Rich-Harris", name: "devalue" },
   },
   {
     url: "https://github.com/Rich-Harris/magic-string",
-    title: "Rich-Harris/magic-string",
+    title: "Rich-Harris / magic-string",
     description: "Manipulate strings like a wizard",
     tags: ["magic-string", "string"],
     github: { owner: "Rich-Harris", name: "magic-string" },
   },
   {
     url: "https://github.com/Rich-Harris/svelte-cubed",
-    title: "Rich-Harris/svelte-cubed",
+    title: "Rich-Harris / svelte-cubed",
     description: "Svelte ❤️ Three",
     tags: ["svelte"],
     github: { owner: "Rich-Harris", name: "svelte-cubed" },
   },
   {
     url: "https://github.com/rigor789/vue-scrollto",
-    title: "rigor789/vue-scrollto",
+    title: "rigor789 / vue-scrollto",
     description:
       "Adds a directive that listens for click events and scrolls to elements.",
     tags: [
@@ -5317,14 +5314,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/robbie-cao/awesome-slides",
-    title: "robbie-cao/awesome-slides",
+    title: "robbie-cao / awesome-slides",
     description: "Awesome Slides for Presentation",
     tags: ["awesome", "presentation", "slides"],
     github: { owner: "robbie-cao", name: "awesome-slides" },
   },
   {
     url: "https://github.com/robertabcd/PttChrome",
-    title: "robertabcd/PttChrome",
+    title: "robertabcd / PttChrome",
     description:
       "A GNU/GPL telnet client for connecting to BBS site ptt.cc (forked from iamchucky/PttChrome).",
     tags: ["chrome", "ptt"],
@@ -5332,7 +5329,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/RocketChat/Rocket.Chat",
-    title: "RocketChat/Rocket.Chat",
+    title: "RocketChat / Rocket.Chat",
     description: "The communications platform that puts data protection first.",
     tags: [
       "chat",
@@ -5351,16 +5348,16 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/rollup/rollup",
-    title: "rollup/rollup",
+    title: "rollup / rollup",
     description: "Next-generation ES module bundler",
     tags: ["module", "module-bundler", "next", "rollup"],
     github: { owner: "rollup", name: "rollup" },
   },
   {
     url: "https://github.com/rootsongjc/kubernetes-handbook",
-    title: "rootsongjc/kubernetes-handbook",
+    title: "rootsongjc / kubernetes-handbook",
     description:
-      "Kubernetes中文指南/云原生应用架构实战手册 -  https://jimmysong.io/kubernetes-handbook",
+      "Kubernetes中文指南/云原生应用架构实战手册 - https://jimmysong.io/kubernetes-handbook",
     tags: [
       "cloud-native",
       "cncf",
@@ -5375,14 +5372,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/rubjo/ultimate-dark-neo-vs-code",
-    title: "rubjo/ultimate-dark-neo-vs-code",
+    title: "rubjo / ultimate-dark-neo-vs-code",
     description: "Beautiful bluish dark theme with italics.",
     tags: ["beautiful", "code", "dark", "dark-theme", "italics", "theme", "vs"],
     github: { owner: "rubjo", name: "ultimate-dark-neo-vs-code" },
   },
   {
     url: "https://github.com/rubjo/victor-mono",
-    title: "rubjo/victor-mono",
+    title: "rubjo / victor-mono",
     description:
       "A free programming font with cursive italics and ligatures. Donations welcome ❤️",
     tags: [
@@ -5403,21 +5400,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/rupa/z",
-    title: "rupa/z",
+    title: "rupa / z",
     description: "z - jump around",
     tags: [],
     github: { owner: "rupa", name: "z" },
   },
   {
     url: "https://github.com/rwv/chinese-dos-games",
-    title: "rwv/chinese-dos-games",
+    title: "rwv / chinese-dos-games",
     description: "🎮 Chinese DOS games collections.",
     tags: ["dos", "game"],
     github: { owner: "rwv", name: "chinese-dos-games" },
   },
   {
     url: "https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way",
-    title: "ryanhanwu/How-To-Ask-Questions-The-Smart-Way",
+    title: "ryanhanwu / How-To-Ask-Questions-The-Smart-Way",
     description:
       "本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案。",
     tags: ["rtfm", "stfw", "translation"],
@@ -5425,8 +5422,8 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/ryanmcdermott/clean-code-javascript",
-    title: "ryanmcdermott/clean-code-javascript",
-    description: ":bathtub: Clean Code concepts adapted for JavaScript",
+    title: "ryanmcdermott / clean-code-javascript",
+    description: "🛁 Clean Code concepts adapted for JavaScript",
     tags: [
       "best-practices",
       "clean-architecture",
@@ -5440,14 +5437,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/SamVerschueren/listr",
-    title: "SamVerschueren/listr",
+    title: "SamVerschueren / listr",
     description: "Terminal task list",
     tags: ["list", "terminal"],
     github: { owner: "SamVerschueren", name: "listr" },
   },
   {
     url: "https://github.com/sandoche/Darkmode.js",
-    title: "sandoche/Darkmode.js",
+    title: "sandoche / Darkmode.js",
     description:
       "🌓 Add a dark-mode / night-mode to your website in a few seconds",
     tags: [
@@ -5465,7 +5462,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/sandstorm-io/sandstorm",
-    title: "sandstorm-io/sandstorm",
+    title: "sandstorm-io / sandstorm",
     description:
       "Sandstorm is a self-hostable web productivity suite. It's implemented as a security-hardened web app package manager.",
     tags: [
@@ -5480,7 +5477,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/sarcadass/granim.js",
-    title: "sarcadass/granim.js",
+    title: "sarcadass / granim.js",
     description:
       "Create fluid and interactive gradient animations with this small javascript library.",
     tags: ["animation", "fluid", "gradient"],
@@ -5488,21 +5485,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/sass/node-sass",
-    title: "sass/node-sass",
-    description: ":rainbow: Node.js bindings to libsass",
+    title: "sass / node-sass",
+    description: "🌈 Node.js bindings to libsass",
     tags: ["libsass", "node-sass", "sass-files", "scss", "scss-files"],
     github: { owner: "sass", name: "node-sass" },
   },
   {
     url: "https://github.com/sass/sass",
-    title: "sass/sass",
+    title: "sass / sass",
     description: "Sass makes CSS fun!",
     tags: ["css", "fun", "sass"],
     github: { owner: "sass", name: "sass" },
   },
   {
     url: "https://github.com/SBoudrias/Inquirer.js",
-    title: "SBoudrias/Inquirer.js",
+    title: "SBoudrias / Inquirer.js",
     description:
       "A collection of common interactive command line user interfaces.",
     tags: ["command-line", "javascript-library", "nodejs", "prompt"],
@@ -5510,14 +5507,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/SciresM/boot9strap",
-    title: "SciresM/boot9strap",
+    title: "SciresM / boot9strap",
     description: "Boot9/Boot11 code execution.",
     tags: ["code"],
     github: { owner: "SciresM", name: "boot9strap" },
   },
   {
     url: "https://github.com/sdras/awesome-actions",
-    title: "sdras/awesome-actions",
+    title: "sdras / awesome-actions",
     description: "A curated list of awesome actions to use on GitHub",
     tags: [
       "actions",
@@ -5533,7 +5530,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/sdras/night-owl-vscode-theme",
-    title: "sdras/night-owl-vscode-theme",
+    title: "sdras / night-owl-vscode-theme",
     description:
       "🌌 NIGHT OWL: A VS Code dark theme for contrast for nighttime coding, 🦉 LIGHT OWL: a daytime light theme",
     tags: [
@@ -5552,28 +5549,28 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/seek-oss/capsize",
-    title: "seek-oss/capsize",
+    title: "seek-oss / capsize",
     description: "Flipping how we define typography in CSS.",
     tags: ["css"],
     github: { owner: "seek-oss", name: "capsize" },
   },
   {
     url: "https://github.com/seek-oss/vanilla-extract",
-    title: "seek-oss/vanilla-extract",
+    title: "seek-oss / vanilla-extract",
     description: "Zero-runtime Stylesheets-in-TypeScript",
     tags: ["runtime", "type", "vanilla"],
     github: { owner: "seek-oss", name: "vanilla-extract" },
   },
   {
     url: "https://github.com/semver/semver",
-    title: "semver/semver",
+    title: "semver / semver",
     description: "Semantic Versioning Specification",
     tags: ["semantic", "semantic-versioning", "specification"],
     github: { owner: "semver", name: "semver" },
   },
   {
     url: "https://github.com/sergree/matchering",
-    title: "sergree/matchering",
+    title: "sergree / matchering",
     description: "🎚️ Open Source Audio Matching and Mastering",
     tags: [
       "audio",
@@ -5599,7 +5596,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/ShareX/ShareX",
-    title: "ShareX/ShareX",
+    title: "ShareX / ShareX",
     description:
       "ShareX is a free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from.",
     tags: [
@@ -5628,7 +5625,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/sharkdp/bat",
-    title: "sharkdp/bat",
+    title: "sharkdp / bat",
     description: "A cat(1) clone with wings.",
     tags: [
       "cli",
@@ -5644,7 +5641,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/sharkdp/pastel",
-    title: "sharkdp/pastel",
+    title: "sharkdp / pastel",
     description:
       "A command-line tool to generate, analyze, convert and manipulate colors",
     tags: [
@@ -5661,14 +5658,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/shikijs/shiki",
-    title: "shikijs/shiki",
+    title: "shikijs / shiki",
     description: "A beautiful Syntax Highlighter.",
     tags: ["beautiful", "shiki"],
     github: { owner: "shikijs", name: "shiki" },
   },
   {
     url: "https://github.com/shikijs/twoslash",
-    title: "shikijs/twoslash",
+    title: "shikijs / twoslash",
     description:
       "You take some Shiki, add a hint of TypeScript compiler, and 🎉 incredible static code samples",
     tags: [
@@ -5686,14 +5683,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/shrhdk/text-to-svg",
-    title: "shrhdk/text-to-svg",
+    title: "shrhdk / text-to-svg",
     description: "Convert text to SVG path without native dependence.",
     tags: ["javascript", "svg"],
     github: { owner: "shrhdk", name: "text-to-svg" },
   },
   {
     url: "https://github.com/simeydotme/svelte-range-slider-pips",
-    title: "simeydotme/svelte-range-slider-pips",
+    title: "simeydotme / svelte-range-slider-pips",
     description: "Multi-Thumb, Accessible, Beautiful Range Slider with Pips",
     tags: [
       "accessible",
@@ -5717,49 +5714,49 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/simov/slugify",
-    title: "simov/slugify",
+    title: "simov / slugify",
     description: "Slugifies a string",
     tags: ["string"],
     github: { owner: "simov", name: "slugify" },
   },
   {
     url: "https://github.com/sindresorhus/awesome",
-    title: "sindresorhus/awesome",
+    title: "sindresorhus / awesome",
     description: "😎 Awesome lists about all kinds of interesting topics",
     tags: ["awesome", "awesome-list", "lists", "resources", "unicorns"],
     github: { owner: "sindresorhus", name: "awesome" },
   },
   {
     url: "https://github.com/sindresorhus/awesome-nodejs",
-    title: "sindresorhus/awesome-nodejs",
-    description: ":zap: Delightful Node.js packages and resources",
+    title: "sindresorhus / awesome-nodejs",
+    description: "⚡ Delightful Node.js packages and resources",
     tags: ["awesome", "awesome-list", "javascript", "list", "node", "nodejs"],
     github: { owner: "sindresorhus", name: "awesome-nodejs" },
   },
   {
     url: "https://github.com/sindresorhus/cli-spinners",
-    title: "sindresorhus/cli-spinners",
+    title: "sindresorhus / cli-spinners",
     description: "Spinners for use in the terminal",
     tags: ["cli", "terminal"],
     github: { owner: "sindresorhus", name: "cli-spinners" },
   },
   {
     url: "https://github.com/sindresorhus/detect-indent",
-    title: "sindresorhus/detect-indent",
+    title: "sindresorhus / detect-indent",
     description: "Detect the indentation of code",
     tags: ["code"],
     github: { owner: "sindresorhus", name: "detect-indent" },
   },
   {
     url: "https://github.com/sindresorhus/detect-newline",
-    title: "sindresorhus/detect-newline",
+    title: "sindresorhus / detect-newline",
     description: "Detect the dominant newline character of a string",
     tags: ["string"],
     github: { owner: "sindresorhus", name: "detect-newline" },
   },
   {
     url: "https://github.com/sindresorhus/Gifski",
-    title: "sindresorhus/Gifski",
+    title: "sindresorhus / Gifski",
     description: "🌈 Convert videos to high-quality GIFs on your Mac",
     tags: [
       "convert-videos",
@@ -5777,7 +5774,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/sindresorhus/ky",
-    title: "sindresorhus/ky",
+    title: "sindresorhus / ky",
     description:
       "🌳 Tiny & elegant JavaScript HTTP client based on the browser Fetch API",
     tags: [
@@ -5797,14 +5794,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/sindresorhus/ora",
-    title: "sindresorhus/ora",
+    title: "sindresorhus / ora",
     description: "Elegant terminal spinner",
     tags: ["terminal"],
     github: { owner: "sindresorhus", name: "ora" },
   },
   {
     url: "https://github.com/sindresorhus/p-queue",
-    title: "sindresorhus/p-queue",
+    title: "sindresorhus / p-queue",
     description: "Promise queue with concurrency control",
     tags: [
       "async-functions",
@@ -5820,7 +5817,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/sindresorhus/query-string",
-    title: "sindresorhus/query-string",
+    title: "sindresorhus / query-string",
     description: "Parse and stringify URL query strings",
     tags: [
       "npm-package",
@@ -5834,21 +5831,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/sindresorhus/semver-regex",
-    title: "sindresorhus/semver-regex",
+    title: "sindresorhus / semver-regex",
     description: "Regular expression for matching semver versions",
     tags: ["matching", "regex", "regular-expression"],
     github: { owner: "sindresorhus", name: "semver-regex" },
   },
   {
     url: "https://github.com/slidevjs/slidev",
-    title: "slidevjs/slidev",
+    title: "slidevjs / slidev",
     description: "Presentation Slides for Developers (Beta)",
     tags: ["presentation", "slides", "vite", "vue", "vueuse", "windicss"],
     github: { owner: "slidevjs", name: "slidev" },
   },
   {
     url: "https://github.com/snowjs/cli",
-    title: "snowjs/cli",
+    title: "snowjs / cli",
     description:
       "CLI tool for dead-simple serverless Docker deployments on managed Kubernetes services. A self-hosted PaaS. ⚡️",
     tags: [
@@ -5864,21 +5861,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/socketio/socket.io",
-    title: "socketio/socket.io",
+    title: "socketio / socket.io",
     description: "Realtime application framework (Node.JS server)",
     tags: ["framework", "js", "node", "node-js", "realtime", "server"],
     github: { owner: "socketio", name: "socket.io" },
   },
   {
     url: "https://github.com/socketio/socket.io-client",
-    title: "socketio/socket.io-client",
+    title: "socketio / socket.io-client",
     description: "Realtime application framework (client)",
     tags: ["framework", "realtime"],
     github: { owner: "socketio", name: "socket.io-client" },
   },
   {
     url: "https://github.com/SolidZORO/zpix-pixel-font",
-    title: "SolidZORO/zpix-pixel-font",
+    title: "SolidZORO / zpix-pixel-font",
     description:
       "Zpix (最像素) is a pixel font supporting English, Traditional Chinese, Simplified Chinese and Japanese.",
     tags: ["bdf", "bitmap", "font", "game", "pixel", "ttf", "zpix"],
@@ -5886,14 +5883,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/stackblitz/core",
-    title: "stackblitz/core",
+    title: "stackblitz / core",
     description: "Online IDE powered by Visual Studio Code ⚡️",
     tags: ["code", "ide", "visual-studio", "visual-studio-code"],
     github: { owner: "stackblitz", name: "core" },
   },
   {
     url: "https://github.com/standard/standard",
-    title: "standard/standard",
+    title: "standard / standard",
     description:
       "🌟 JavaScript Style Guide, with linter & automatic code fixer",
     tags: [
@@ -5912,7 +5909,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/statelyai/xstate",
-    title: "statelyai/xstate",
+    title: "statelyai / xstate",
     description: "State machines and statecharts for the modern web.",
     tags: [
       "hacktoberfest",
@@ -5930,14 +5927,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/steveruizok/perfect-arrows",
-    title: "steveruizok/perfect-arrows",
+    title: "steveruizok / perfect-arrows",
     description: "Draw perfect arrows between points and shapes.",
     tags: ["angles", "arc", "arrow-heads", "draw", "perfect-arrows"],
     github: { owner: "steveruizok", name: "perfect-arrows" },
   },
   {
     url: "https://github.com/stop-war-in-ukraine/stop-russia-it",
-    title: "stop-war-in-ukraine/stop-russia-it",
+    title: "stop-war-in-ukraine / stop-russia-it",
     description:
       "An open letter from IT industry specialists to protect Ukraine from information warfare. Відкритий лист спеціалістів IT-індустрії на захист України від інформаційної війни.",
     tags: [
@@ -5962,7 +5959,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/storybookjs/storybook",
-    title: "storybookjs/storybook",
+    title: "storybookjs / storybook",
     description:
       "📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!",
     tags: [
@@ -5991,22 +5988,22 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/sveltejs/community-legacy",
-    title: "sveltejs/community-legacy",
+    title: "sveltejs / community-legacy",
     description:
-      " Svelte community meetups, packages, resources, recipes, showcase websites, and more",
+      "Svelte community meetups, packages, resources, recipes, showcase websites, and more",
     tags: ["javascript", "svelte", "web"],
     github: { owner: "sveltejs", name: "community-legacy" },
   },
   {
     url: "https://github.com/sveltejs/kit",
-    title: "sveltejs/kit",
+    title: "sveltejs / kit",
     description: "The fastest way to build Svelte apps",
     tags: ["svelte"],
     github: { owner: "sveltejs", name: "kit" },
   },
   {
     url: "https://github.com/sveltejs/language-tools",
-    title: "sveltejs/language-tools",
+    title: "sveltejs / language-tools",
     description:
       "The Svelte Language Server, and official extensions which use it",
     tags: ["language-server", "svelte", "vscode-extension"],
@@ -6014,35 +6011,35 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/sveltejs/prettier-plugin-svelte",
-    title: "sveltejs/prettier-plugin-svelte",
+    title: "sveltejs / prettier-plugin-svelte",
     description: "Format your svelte components using prettier.",
     tags: ["components", "plugin", "prettier", "svelte", "sveltejs"],
     github: { owner: "sveltejs", name: "prettier-plugin-svelte" },
   },
   {
     url: "https://github.com/sveltejs/svelte",
-    title: "sveltejs/svelte",
+    title: "sveltejs / svelte",
     description: "Cybernetically enhanced web apps",
     tags: ["compiler", "template", "ui"],
     github: { owner: "sveltejs", name: "svelte" },
   },
   {
     url: "https://github.com/sveltejs/svelte-virtual-list",
-    title: "sveltejs/svelte-virtual-list",
+    title: "sveltejs / svelte-virtual-list",
     description: "A virtual list component for Svelte apps",
     tags: ["component", "list", "svelte", "sveltejs", "virtual"],
     github: { owner: "sveltejs", name: "svelte-virtual-list" },
   },
   {
     url: "https://github.com/svgdotjs/svg.js",
-    title: "svgdotjs/svg.js",
+    title: "svgdotjs / svg.js",
     description: "The lightweight library for manipulating and animating SVG",
     tags: ["animation", "javascript", "svg", "svgjs"],
     github: { owner: "svgdotjs", name: "svg.js" },
   },
   {
     url: "https://github.com/swagger-api/swagger-editor",
-    title: "swagger-api/swagger-editor",
+    title: "swagger-api / swagger-editor",
     description: "Swagger Editor",
     tags: [
       "hacktoberfest",
@@ -6058,7 +6055,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/swagger-api/swagger-ui",
-    title: "swagger-api/swagger-ui",
+    title: "swagger-api / swagger-ui",
     description:
       "Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.",
     tags: [
@@ -6078,7 +6075,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/swc-project/swc",
-    title: "swc-project/swc",
+    title: "swc-project / swc",
     description: "Rust-based platform for the Web",
     tags: [
       "babel",
@@ -6097,7 +6094,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/Swordfish90/cool-retro-term",
-    title: "Swordfish90/cool-retro-term",
+    title: "Swordfish90 / cool-retro-term",
     description:
       "A good looking terminal emulator which mimics the old cathode display...",
     tags: ["linux", "macos", "qml", "qt", "retro", "terminal"],
@@ -6105,7 +6102,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/szimek/sharedrop",
-    title: "szimek/sharedrop",
+    title: "szimek / sharedrop",
     description:
       "Easy P2P file transfer powered by WebRTC - inspired by Apple AirDrop",
     tags: [
@@ -6120,7 +6117,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/tailwindlabs/headlessui",
-    title: "tailwindlabs/headlessui",
+    title: "tailwindlabs / headlessui",
     description:
       "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
     tags: [
@@ -6137,7 +6134,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/tailwindlabs/heroicons",
-    title: "tailwindlabs/heroicons",
+    title: "tailwindlabs / heroicons",
     description:
       "A set of free MIT-licensed high-quality SVG icons for UI development.",
     tags: [
@@ -6154,7 +6151,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/tailwindlabs/tailwindcss",
-    title: "tailwindlabs/tailwindcss",
+    title: "tailwindlabs / tailwindcss",
     description: "A utility-first CSS framework for rapid UI development.",
     tags: [
       "css",
@@ -6169,7 +6166,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/TakWolf/ark-pixel-font",
-    title: "TakWolf/ark-pixel-font",
+    title: "TakWolf / ark-pixel-font",
     description: "开源的泛中日韩像素字体 / Open source Pan-CJK pixel font",
     tags: [
       "chinese",
@@ -6187,7 +6184,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/TanStack/react-location",
-    title: "TanStack/react-location",
+    title: "TanStack / react-location",
     description: "⚛️ Enterprise Client-Side Routing for React",
     tags: [
       "hooks",
@@ -6206,7 +6203,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/TanStack/react-virtual",
-    title: "TanStack/react-virtual",
+    title: "TanStack / react-virtual",
     description: "⚛️ Hooks for virtualizing scrollable elements in React",
     tags: [
       "javascript",
@@ -6221,7 +6218,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/tc39/proposals",
-    title: "tc39/proposals",
+    title: "tc39 / proposals",
     description: "Tracking ECMAScript Proposals",
     tags: [
       "committee",
@@ -6237,19 +6234,19 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/TeamWin/android_bootable_recovery",
-    title: "TeamWin/android_bootable_recovery",
+    title: "TeamWin / android_bootable_recovery",
     tags: ["android"],
     github: { owner: "TeamWin", name: "android_bootable_recovery" },
   },
   {
     url: "https://github.com/tedmax100/blog",
-    title: "tedmax100/blog",
+    title: "tedmax100 / blog",
     tags: ["blog"],
     github: { owner: "tedmax100", name: "blog" },
   },
   {
     url: "https://github.com/Templarian/MaterialDesign",
-    title: "Templarian/MaterialDesign",
+    title: "Templarian / MaterialDesign",
     description: "✒6200+ Material Design Icons from the Community",
     tags: [
       "android",
@@ -6265,7 +6262,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/tensorflow/tensorflow",
-    title: "tensorflow/tensorflow",
+    title: "tensorflow / tensorflow",
     description: "An Open Source Machine Learning Framework for Everyone",
     tags: [
       "deep-learning",
@@ -6281,14 +6278,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/terser/terser",
-    title: "terser/terser",
+    title: "terser / terser",
     description: "🗜 JavaScript parser, mangler and compressor toolkit for ES6+",
     tags: ["compressor", "es6", "javascript", "mangler", "parser", "uglifyjs"],
     github: { owner: "terser", name: "terser" },
   },
   {
     url: "https://github.com/thebuilder/react-intersection-observer",
-    title: "thebuilder/react-intersection-observer",
+    title: "thebuilder / react-intersection-observer",
     description:
       "React implementation of the Intersection Observer API to tell you when an element enters or leaves the viewport.",
     tags: [
@@ -6309,7 +6306,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/thedaviddias/Front-End-Checklist",
-    title: "thedaviddias/Front-End-Checklist",
+    title: "thedaviddias / Front-End-Checklist",
     description:
       "🗂 The perfect Front-End Checklist for modern websites and meticulous developers",
     tags: [
@@ -6330,7 +6327,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/thedaviddias/Front-End-Performance-Checklist",
-    title: "thedaviddias/Front-End-Performance-Checklist",
+    title: "thedaviddias / Front-End-Performance-Checklist",
     description:
       "🎮 The only Front-End Performance Checklist that runs faster than the others",
     tags: [
@@ -6353,7 +6350,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/theoephraim/node-google-spreadsheet",
-    title: "theoephraim/node-google-spreadsheet",
+    title: "theoephraim / node-google-spreadsheet",
     description: "Google Sheets API (v4) wrapper for Node.js",
     tags: [
       "google",
@@ -6366,7 +6363,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/tj/commander.js",
-    title: "tj/commander.js",
+    title: "tj / commander.js",
     description: "node.js command-line interfaces made easy",
     tags: [
       "command",
@@ -6381,7 +6378,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/tldr-pages/tldr",
-    title: "tldr-pages/tldr",
+    title: "tldr-pages / tldr",
     description: "📚 Collaborative cheatsheets for console commands",
     tags: [
       "cheatsheets",
@@ -6402,16 +6399,16 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/tldraw/tldraw",
-    title: "tldraw/tldraw",
+    title: "tldraw / tldraw",
     description: "A tiny little drawing app.",
     tags: ["code", "drawing", "fun", "sketch", "svg", "whiteboard"],
     github: { owner: "tldraw", name: "tldraw" },
   },
   {
     url: "https://github.com/tnfe/FFCreator",
-    title: "tnfe/FFCreator",
+    title: "tnfe / FFCreator",
     description:
-      "一个基于node.js的高速视频制作库  A fast video processing library based on node.js",
+      "一个基于node.js的高速视频制作库 A fast video processing library based on node.js",
     tags: [
       "ffmpeg",
       "ffmpeg-libraries",
@@ -6425,7 +6422,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/toddbluhm/env-cmd",
-    title: "toddbluhm/env-cmd",
+    title: "toddbluhm / env-cmd",
     description: "Setting environment variables from a file",
     tags: [
       "command-line-tool",
@@ -6441,22 +6438,22 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/tonsky/FiraCode",
-    title: "tonsky/FiraCode",
+    title: "tonsky / FiraCode",
     description: "Free monospaced font with programming ligatures",
     tags: ["font", "ligatures", "programming-ligatures"],
     github: { owner: "tonsky", name: "FiraCode" },
   },
   {
     url: "https://github.com/torvalds/linux",
-    title: "torvalds/linux",
+    title: "torvalds / linux",
     description: "Linux kernel source tree",
     tags: ["linux"],
     github: { owner: "torvalds", name: "linux" },
   },
   {
     url: "https://github.com/transloadit/uppy",
-    title: "transloadit/uppy",
-    description: "The next open source file uploader for web browsers :dog: ",
+    title: "transloadit / uppy",
+    description: "The next open source file uploader for web browsers 🐶",
     tags: [
       "dropbox",
       "encoding",
@@ -6480,7 +6477,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/trekhleb/javascript-algorithms",
-    title: "trekhleb/javascript-algorithms",
+    title: "trekhleb / javascript-algorithms",
     description:
       "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
     tags: [
@@ -6497,7 +6494,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/TritonHo/slides",
-    title: "TritonHo/slides",
+    title: "TritonHo / slides",
     description:
       "it is a repository to store all slides used by Triton Ho's public presentation and course.",
     tags: ["backend", "redis", "slides"],
@@ -6505,7 +6502,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/tsconfig/bases",
-    title: "tsconfig/bases",
+    title: "tsconfig / bases",
     description:
       "Hosts TSConfigs to extend in a TypeScript app, tuned to a particular runtime environment",
     tags: ["environment", "hosts", "runtime", "type"],
@@ -6513,14 +6510,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/tsenart/vegeta",
-    title: "tsenart/vegeta",
+    title: "tsenart / vegeta",
     description: "HTTP load testing tool and library. It's over 9000!",
     tags: ["benchmarking", "go", "http", "load-testing"],
     github: { owner: "tsenart", name: "vegeta" },
   },
   {
     url: "https://github.com/twbs/bootstrap",
-    title: "twbs/bootstrap",
+    title: "twbs / bootstrap",
     description:
       "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
     tags: [
@@ -6536,23 +6533,23 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/twitter/twemoji",
-    title: "twitter/twemoji",
+    title: "twitter / twemoji",
     description: "Emoji for everyone. https://twemoji.twitter.com/",
     tags: ["emoji", "twemoji"],
     github: { owner: "twitter", name: "twemoji" },
   },
   {
     url: "https://github.com/type-challenges/type-challenges",
-    title: "type-challenges/type-challenges",
+    title: "type-challenges / type-challenges",
     description: "Collection of TypeScript type challenges with online judge",
     tags: ["challenges", "type", "type-system", "typescript"],
     github: { owner: "type-challenges", name: "type-challenges" },
   },
   {
     url: "https://github.com/typescript-eslint/typescript-eslint",
-    title: "typescript-eslint/typescript-eslint",
+    title: "typescript-eslint / typescript-eslint",
     description:
-      ":sparkles: Monorepo for all the tooling which enables ESLint to support TypeScript",
+      "✨ Monorepo for all the tooling which enables ESLint to support TypeScript",
     tags: [
       "eslint",
       "eslint-plugin",
@@ -6566,14 +6563,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/typicode/husky",
-    title: "typicode/husky",
+    title: "typicode / husky",
     description: "Git hooks made easy 🐶 woof!",
     tags: ["commit", "git", "hooks", "pre-commit"],
     github: { owner: "typicode", name: "husky" },
   },
   {
     url: "https://github.com/typicode/json-server",
-    title: "typicode/json-server",
+    title: "typicode / json-server",
     description:
       "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
     tags: [
@@ -6591,14 +6588,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/uglide/RedisDesktopManager",
-    title: "uglide/RedisDesktopManager",
-    description: ":wrench: Cross-platform Developer GUI for Redis",
+    title: "uglide / RedisDesktopManager",
+    description: "🔧 Cross-platform Developer GUI for Redis",
     tags: ["database-gui", "redis", "redis-gui", "redis-gui-client"],
     github: { owner: "uglide", name: "RedisDesktopManager" },
   },
   {
     url: "https://github.com/uhop/node-re2",
-    title: "uhop/node-re2",
+    title: "uhop / node-re2",
     description:
       "node.js bindings for RE2: fast, safe alternative to backtracking regular expression engines.",
     tags: ["buffers", "regular-expressions", "unicode-mode"],
@@ -6606,14 +6603,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/ulid/spec",
-    title: "ulid/spec",
+    title: "ulid / spec",
     description: "The canonical spec for ulid",
     tags: ["spec"],
     github: { owner: "ulid", name: "spec" },
   },
   {
     url: "https://github.com/Unitech/pm2",
-    title: "Unitech/pm2",
+    title: "Unitech / pm2",
     description:
       "Node.js Production Process Manager with a built-in Load Balancer.",
     tags: [
@@ -6632,14 +6629,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/unjs/consola",
-    title: "unjs/consola",
-    description: " Elegant Console Logger for Node.js and Browser 🐨",
+    title: "unjs / consola",
+    description: "Elegant Console Logger for Node.js and Browser 🐨",
     tags: ["cli", "console", "fancy", "log", "node", "terminal"],
     github: { owner: "unjs", name: "consola" },
   },
   {
     url: "https://github.com/unjs/ipx",
-    title: "unjs/ipx",
+    title: "unjs / ipx",
     description:
       "High performance, secure and easy to use image proxy based on Sharp and libvips.",
     tags: [
@@ -6657,36 +6654,35 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/unjs/mlly",
-    title: "unjs/mlly",
+    title: "unjs / mlly",
     description: "🤝 Missing ECMAScript module utils for Node.js",
     tags: ["js", "module", "node", "node-js"],
     github: { owner: "unjs", name: "mlly" },
   },
   {
     url: "https://github.com/unjs/rc9",
-    title: "unjs/rc9",
+    title: "unjs / rc9",
     description: "Read/Write config couldn't be easier!",
     tags: [],
     github: { owner: "unjs", name: "rc9" },
   },
   {
     url: "https://github.com/unjs/unplugin",
-    title: "unjs/unplugin",
+    title: "unjs / unplugin",
     description: "Unified plugin system for Vite, Rollup, Webpack, and more",
     tags: ["rollup", "unplugin", "vite", "webpack"],
     github: { owner: "unjs", name: "unplugin" },
   },
   {
     url: "https://github.com/utterance/utterances",
-    title: "utterance/utterances",
-    description:
-      ":crystal_ball: A lightweight comments widget built on GitHub issues",
+    title: "utterance / utterances",
+    description: "🔮 A lightweight comments widget built on GitHub issues",
     tags: ["blog", "comments", "comments-widget", "github", "utterances"],
     github: { owner: "utterance", name: "utterances" },
   },
   {
     url: "https://github.com/v8/v8",
-    title: "v8/v8",
+    title: "v8 / v8",
     description: "The official mirror of the V8 Git repository",
     tags: [
       "compiler",
@@ -6699,7 +6695,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vadimdemedes/ink",
-    title: "vadimdemedes/ink",
+    title: "vadimdemedes / ink",
     description: "🌈 React for interactive command-line apps",
     tags: [
       "cli",
@@ -6713,7 +6709,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/ValveSoftware/Proton",
-    title: "ValveSoftware/Proton",
+    title: "ValveSoftware / Proton",
     description:
       "Compatibility tool for Steam Play based on Wine and additional components",
     tags: ["proton"],
@@ -6721,14 +6717,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/VdustR/font-splitter",
-    title: "VdustR/font-splitter",
+    title: "VdustR / font-splitter",
     description: "Split the big font file into small subsets",
     tags: ["code-range", "css", "font", "fonttools", "split", "unicode"],
     github: { owner: "VdustR", name: "font-splitter" },
   },
   {
     url: "https://github.com/VdustR/hanamin",
-    title: "VdustR/hanamin",
+    title: "VdustR / hanamin",
     description: "A webfont repository for Hanamin",
     tags: [
       "font",
@@ -6744,14 +6740,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/VdustR/taipei-sans-tc",
-    title: "VdustR/taipei-sans-tc",
+    title: "VdustR / taipei-sans-tc",
     description: "台北黑體 Taipei Sans TC",
     tags: ["font", "noto", "sans", "split", "subset", "taipei", "web"],
     github: { owner: "VdustR", name: "taipei-sans-tc" },
   },
   {
     url: "https://github.com/veler/DevToys",
-    title: "veler/DevToys",
+    title: "veler / DevToys",
     description: "A Swiss Army knife for developers.",
     tags: [
       "csharp",
@@ -6771,7 +6767,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/venables/koa-helmet",
-    title: "venables/koa-helmet",
+    title: "venables / koa-helmet",
     description: "Important security headers for koa",
     tags: [
       "headers",
@@ -6787,7 +6783,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vercel/hyper",
-    title: "vercel/hyper",
+    title: "vercel / hyper",
     description: "A terminal built on web technologies",
     tags: [
       "css",
@@ -6804,7 +6800,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vercel/next.js",
-    title: "vercel/next.js",
+    title: "vercel / next.js",
     description: "The React Framework",
     tags: [
       "blog",
@@ -6826,14 +6822,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vercel/serve",
-    title: "vercel/serve",
+    title: "vercel / serve",
     description: "Static file serving and directory listing",
     tags: ["cli", "command", "http", "node"],
     github: { owner: "vercel", name: "serve" },
   },
   {
     url: "https://github.com/vercel/swr",
-    title: "vercel/swr",
+    title: "vercel / swr",
     description: "React Hooks for Data Fetching",
     tags: [
       "cache",
@@ -6854,14 +6850,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vercel/vercel",
-    title: "vercel/vercel",
+    title: "vercel / vercel",
     description: "Develop. Preview. Ship.",
     tags: ["cli", "cloud", "command", "hosting", "jamstack", "ship", "vercel"],
     github: { owner: "vercel", name: "vercel" },
   },
   {
     url: "https://github.com/verdaccio/verdaccio",
-    title: "verdaccio/verdaccio",
+    title: "verdaccio / verdaccio",
     description: "📦🔐 A lightweight Node.js private proxy registry",
     tags: [
       "docker",
@@ -6887,7 +6883,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/viatsko/awesome-vscode",
-    title: "viatsko/awesome-vscode",
+    title: "viatsko / awesome-vscode",
     description:
       "🎨 A curated list of delightful VS Code packages and resources.",
     tags: [
@@ -6907,7 +6903,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/video-dev/hls.js",
-    title: "video-dev/hls.js",
+    title: "video-dev / hls.js",
     description:
       "HLS.js is a JavaScript library that plays HLS in browsers with support for MSE.",
     tags: [
@@ -6932,28 +6928,28 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vim/vim",
-    title: "vim/vim",
+    title: "vim / vim",
     description: "The official Vim repository",
     tags: ["c", "cross-platform", "text-editor", "vim"],
     github: { owner: "vim", name: "vim" },
   },
   {
     url: "https://github.com/vitejs/vite",
-    title: "vitejs/vite",
+    title: "vitejs / vite",
     description: "Next generation frontend tooling. It's fast!",
     tags: ["build-tool", "dev-server", "frontend", "hmr", "vite"],
     github: { owner: "vitejs", name: "vite" },
   },
   {
     url: "https://github.com/vitest-dev/vitest",
-    title: "vitest-dev/vitest",
+    title: "vitest-dev / vitest",
     description: "A Vite-native test framework. It's fast!",
     tags: ["test", "testing-tools", "vite"],
     github: { owner: "vitest-dev", name: "vitest" },
   },
   {
     url: "https://github.com/voidcosmos/npkill",
-    title: "voidcosmos/npkill",
+    title: "voidcosmos / npkill",
     description:
       "List any node_modules directories in your system, as well as the space they take up. You can then select which ones you want to erase to free up space.",
     tags: [
@@ -6971,14 +6967,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/volta-cli/volta",
-    title: "volta-cli/volta",
+    title: "volta-cli / volta",
     description: "Volta: JS Toolchains as Code. ⚡",
     tags: ["hacktoberfest", "node", "nodejs", "package-manager"],
     github: { owner: "volta-cli", name: "volta" },
   },
   {
     url: "https://github.com/vscode-icons/vscode-icons",
-    title: "vscode-icons/vscode-icons",
+    title: "vscode-icons / vscode-icons",
     description: "Icons for Visual Studio Code",
     tags: [
       "icon-theme",
@@ -6991,9 +6987,9 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vsouza/awesome-ios",
-    title: "vsouza/awesome-ios",
+    title: "vsouza / awesome-ios",
     description:
-      "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects ",
+      "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects",
     tags: [
       "apple-swift",
       "arkit",
@@ -7013,35 +7009,35 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vue-reactivity/use",
-    title: "vue-reactivity/use",
+    title: "vue-reactivity / use",
     description: "Utilities from VueUse for @vue/reactivity",
     tags: ["vue", "vue-reactivity", "vue3"],
     github: { owner: "vue-reactivity", name: "use" },
   },
   {
     url: "https://github.com/vuejs/art",
-    title: "vuejs/art",
+    title: "vuejs / art",
     description: "🎨 Artworks",
     tags: ["art", "vuejs"],
     github: { owner: "vuejs", name: "art" },
   },
   {
     url: "https://github.com/vuejs/awesome-vue",
-    title: "vuejs/awesome-vue",
+    title: "vuejs / awesome-vue",
     description: "🎉 A curated list of awesome things related to Vue.js",
     tags: ["awesome", "curated-list", "js", "list", "vue", "vuejs"],
     github: { owner: "vuejs", name: "awesome-vue" },
   },
   {
     url: "https://github.com/vuejs/babel-plugin-transform-vue-jsx",
-    title: "vuejs/babel-plugin-transform-vue-jsx",
+    title: "vuejs / babel-plugin-transform-vue-jsx",
     description: "babel plugin for vue 2.0 jsx",
     tags: ["babel", "babel-plugin", "jsx", "plugin", "vue", "vue2", "vuejs"],
     github: { owner: "vuejs", name: "babel-plugin-transform-vue-jsx" },
   },
   {
     url: "https://github.com/vuejs/core",
-    title: "vuejs/core",
+    title: "vuejs / core",
     description:
       "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
     tags: ["framework", "java", "js", "ui", "vue", "vuejs", "web"],
@@ -7049,7 +7045,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vuejs/devtools",
-    title: "vuejs/devtools",
+    title: "vuejs / devtools",
     description:
       "⚙️ Browser devtools extension for debugging Vue.js applications.",
     tags: [
@@ -7066,14 +7062,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vuejs/petite-vue",
-    title: "vuejs/petite-vue",
+    title: "vuejs / petite-vue",
     description: "6kb subset of Vue optimized for progressive enhancement",
     tags: ["subset", "vue", "vuejs"],
     github: { owner: "vuejs", name: "petite-vue" },
   },
   {
     url: "https://github.com/vuejs/pinia",
-    title: "vuejs/pinia",
+    title: "vuejs / pinia",
     description:
       "🍍 Intuitive, type safe, light and flexible Store for Vue using the composition api with DevTools support",
     tags: ["composition-api", "ssr", "store", "vue", "vuex"],
@@ -7081,7 +7077,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vuejs/vetur",
-    title: "vuejs/vetur",
+    title: "vuejs / vetur",
     description: "Vue tooling for VS Code.",
     tags: [
       "hacktoberfest",
@@ -7094,14 +7090,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vuejs/vitepress",
-    title: "vuejs/vitepress",
+    title: "vuejs / vitepress",
     description: "Vite & Vue powered static site generator.",
     tags: ["vite", "vue"],
     github: { owner: "vuejs", name: "vitepress" },
   },
   {
     url: "https://github.com/vuejs/vue",
-    title: "vuejs/vue",
+    title: "vuejs / vue",
     description:
       "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
     tags: ["framework", "frontend", "javascript", "vue"],
@@ -7109,28 +7105,28 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vuejs/vue-cli",
-    title: "vuejs/vue-cli",
+    title: "vuejs / vue-cli",
     description: "🛠️ webpack-based tooling for Vue.js Development",
     tags: ["cli", "development", "js", "vue", "vue-cli", "vuejs", "webpack"],
     github: { owner: "vuejs", name: "vue-cli" },
   },
   {
     url: "https://github.com/vuejs/vue-loader",
-    title: "vuejs/vue-loader",
+    title: "vuejs / vue-loader",
     description: "📦 Webpack loader for Vue.js components",
     tags: ["hot-reload", "single-file-component", "vue", "webpack"],
     github: { owner: "vuejs", name: "vue-loader" },
   },
   {
     url: "https://github.com/vuejs/vue-router",
-    title: "vuejs/vue-router",
+    title: "vuejs / vue-router",
     description: "🚦 The official router for Vue 2",
     tags: ["javascript", "router", "vue"],
     github: { owner: "vuejs", name: "vue-router" },
   },
   {
     url: "https://github.com/vuejs/vuepress",
-    title: "vuejs/vuepress",
+    title: "vuejs / vuepress",
     description: "📝 Minimalistic Vue-powered static site generator",
     tags: [
       "blog-engine",
@@ -7144,14 +7140,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vuejs/vuex",
-    title: "vuejs/vuex",
+    title: "vuejs / vuex",
     description: "🗃️ Centralized State Management for Vue.js.",
     tags: ["javascript", "state-management", "time-travel", "vue", "vuex"],
     github: { owner: "vuejs", name: "vuex" },
   },
   {
     url: "https://github.com/vuematerial/vue-material",
-    title: "vuematerial/vue-material",
+    title: "vuematerial / vue-material",
     description: "Material design for Vue.js",
     tags: [
       "hacktoberfest",
@@ -7166,14 +7162,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vuepress/vuepress-next",
-    title: "vuepress/vuepress-next",
+    title: "vuepress / vuepress-next",
     description: "Repo for VuePress 2",
     tags: ["vue", "vuepress"],
     github: { owner: "vuepress", name: "vuepress-next" },
   },
   {
     url: "https://github.com/vuese/vuese",
-    title: "vuese/vuese",
+    title: "vuese / vuese",
     description:
       "🤗 One-stop solution for vue component documentation. Original org: https://github.com/vuese",
     tags: ["component", "documentation", "github", "vue", "vue-component"],
@@ -7181,7 +7177,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vuetifyjs/vuetify",
-    title: "vuetifyjs/vuetify",
+    title: "vuetifyjs / vuetify",
     description: "🐉 Material Component Framework for Vue",
     tags: [
       "hacktoberfest",
@@ -7208,7 +7204,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/vvo/gifify",
-    title: "vvo/gifify",
+    title: "vvo / gifify",
     description: "😻 Convert any video file to an optimized animated GIF.",
     tags: [
       "ffmpeg",
@@ -7225,21 +7221,21 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/w3c/csswg-drafts",
-    title: "w3c/csswg-drafts",
+    title: "w3c / csswg-drafts",
     description: "CSS Working Group Editor Drafts",
     tags: ["css"],
     github: { owner: "w3c", name: "csswg-drafts" },
   },
   {
     url: "https://github.com/wangdoc/javascript-tutorial",
-    title: "wangdoc/javascript-tutorial",
+    title: "wangdoc / javascript-tutorial",
     description: "JavaScript 教程 https://wangdoc.com/javascript",
     tags: ["java", "javascript"],
     github: { owner: "wangdoc", name: "javascript-tutorial" },
   },
   {
     url: "https://github.com/webpack/webpack",
-    title: "webpack/webpack",
+    title: "webpack / webpack",
     description:
       'A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through "loaders", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.',
     tags: [
@@ -7264,7 +7260,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/WebReflection/html-escaper",
-    title: "WebReflection/html-escaper",
+    title: "WebReflection / html-escaper",
     description:
       "A module to escape/unescape common problematic entities done the right way.",
     tags: ["html", "module", "web"],
@@ -7272,7 +7268,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/welai/glow-sans",
-    title: "welai/glow-sans",
+    title: "welai / glow-sans",
     description:
       "SHSans-derived CJK font family with a more concise & modern look. 未来荧黑·未來熒黑·ヒカリ角ゴ：基于思源黑体改造，拥有粗度和宽度系列，更加简明现代的超大字体家族。",
     tags: ["cjk", "font", "otf", "source-han"],
@@ -7280,7 +7276,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/wellyshen/react-cool-virtual",
-    title: "wellyshen/react-cool-virtual",
+    title: "wellyshen / react-cool-virtual",
     description:
       "😎 ♻️ A tiny React hook for rendering large datasets like a breeze.",
     tags: [
@@ -7309,7 +7305,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/windicss/windicss",
-    title: "windicss/windicss",
+    title: "windicss / windicss",
     description: "Next generation utility-first CSS framework.",
     tags: [
       "css",
@@ -7325,14 +7321,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/winstonjs/winston",
-    title: "winstonjs/winston",
+    title: "winstonjs / winston",
     description: "A logger for just about everything.",
     tags: [],
     github: { owner: "winstonjs", name: "winston" },
   },
   {
     url: "https://github.com/withspectrum/spectrum",
-    title: "withspectrum/spectrum",
+    title: "withspectrum / spectrum",
     description: "Simple, powerful online communities.",
     tags: [
       "expo",
@@ -7348,14 +7344,14 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/woltapp/blurhash",
-    title: "woltapp/blurhash",
+    title: "woltapp / blurhash",
     description: "A very compact representation of a placeholder for an image.",
     tags: ["image", "placeholder"],
     github: { owner: "woltapp", name: "blurhash" },
   },
   {
     url: "https://github.com/xtermjs/xterm.js",
-    title: "xtermjs/xterm.js",
+    title: "xtermjs / xterm.js",
     description: "A terminal for the web",
     tags: [
       "console",
@@ -7375,28 +7371,28 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/XX-net/XX-Net",
-    title: "XX-net/XX-Net",
+    title: "XX-net / XX-Net",
     description: "A proxy tool to bypass GFW.",
     tags: ["gfw", "goagent", "proxy", "uncensored", "vpn"],
     github: { owner: "XX-net", name: "XX-Net" },
   },
   {
     url: "https://github.com/yanyiwu/nodejieba",
-    title: "yanyiwu/nodejieba",
+    title: "yanyiwu / nodejieba",
     description: '"结巴"中文分词的Node.js版本',
     tags: ["node"],
     github: { owner: "yanyiwu", name: "nodejieba" },
   },
   {
     url: "https://github.com/yargs/yargs",
-    title: "yargs/yargs",
-    description: " yargs the modern, pirate-themed successor to optimist.",
+    title: "yargs / yargs",
+    description: "yargs the modern, pirate-themed successor to optimist.",
     tags: [],
     github: { owner: "yargs", name: "yargs" },
   },
   {
     url: "https://github.com/yarnpkg/yarn",
-    title: "yarnpkg/yarn",
+    title: "yarnpkg / yarn",
     description:
       "The 1.x line is frozen - features and bugfixes now happen on https://github.com/yarnpkg/berry",
     tags: ["javascript", "npm", "package-manager", "yarn"],
@@ -7404,41 +7400,41 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/yezhi780625/apple-daily-extension",
-    title: "yezhi780625/apple-daily-extension",
+    title: "yezhi780625 / apple-daily-extension",
     description: "show apple daily content without login",
     tags: ["apple", "extension"],
     github: { owner: "yezhi780625", name: "apple-daily-extension" },
   },
   {
     url: "https://github.com/yezhi780625/flutter-fetch-data",
-    title: "yezhi780625/flutter-fetch-data",
+    title: "yezhi780625 / flutter-fetch-data",
     tags: ["data", "fetch", "flutter"],
     github: { owner: "yezhi780625", name: "flutter-fetch-data" },
   },
   {
     url: "https://github.com/yezhi780625/pnm-convertor",
-    title: "yezhi780625/pnm-convertor",
+    title: "yezhi780625 / pnm-convertor",
     description: "Convert NetPBM format file to DataURL",
     tags: ["netpbm", "pbm", "pgm", "pnm-convertor", "ppm"],
     github: { owner: "yezhi780625", name: "pnm-convertor" },
   },
   {
     url: "https://github.com/yezhi780625/service-worker-notification",
-    title: "yezhi780625/service-worker-notification",
+    title: "yezhi780625 / service-worker-notification",
     description: "A demo for service worker notification",
     tags: ["service-worker", "worker"],
     github: { owner: "yezhi780625", name: "service-worker-notification" },
   },
   {
     url: "https://github.com/yoshiko2/Movie_Data_Capture",
-    title: "yoshiko2/Movie_Data_Capture",
+    title: "yoshiko2 / Movie_Data_Capture",
     description: "本地电影刮削与整理一体化解决方案",
     tags: ["cli", "emby", "kodi", "plex", "python"],
     github: { owner: "yoshiko2", name: "Movie_Data_Capture" },
   },
   {
     url: "https://github.com/you-dont-need/You-Dont-Need-JavaScript",
-    title: "you-dont-need/You-Dont-Need-JavaScript",
+    title: "you-dont-need / You-Dont-Need-JavaScript",
     description: "CSS is powerful, you can do a lot of things without JS.",
     tags: [
       "accordion",
@@ -7459,7 +7455,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/you-dont-need/You-Dont-Need-Loops",
-    title: "you-dont-need/You-Dont-Need-Loops",
+    title: "you-dont-need / You-Dont-Need-Loops",
     description:
       "Avoid The One-off Problem, Infinite Loops, Statefulness and Hidden intent.",
     tags: [
@@ -7477,35 +7473,35 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/YTVanced/VancedManager",
-    title: "YTVanced/VancedManager",
+    title: "YTVanced / VancedManager",
     description: "Vanced Installer",
     tags: ["apk", "vanced", "vanced-developers", "youtube"],
     github: { owner: "YTVanced", name: "VancedManager" },
   },
   {
     url: "https://github.com/yyx990803/laravel-vue-cli-3",
-    title: "yyx990803/laravel-vue-cli-3",
+    title: "yyx990803 / laravel-vue-cli-3",
     description: "Example project using Vue CLI 3 with Laravel",
     tags: ["cli", "laravel", "vue", "vue-cli"],
     github: { owner: "yyx990803", name: "laravel-vue-cli-3" },
   },
   {
     url: "https://github.com/yyx990803/vue-hooks",
-    title: "yyx990803/vue-hooks",
+    title: "yyx990803 / vue-hooks",
     description: "Experimental React hooks implementation in Vue",
     tags: ["experimental", "hooks", "react", "react-hooks", "vue"],
     github: { owner: "yyx990803", name: "vue-hooks" },
   },
   {
     url: "https://github.com/ZijianHe/koa-router",
-    title: "ZijianHe/koa-router",
+    title: "ZijianHe / koa-router",
     description: "Router middleware for koa.",
     tags: ["koa", "middleware", "router"],
     github: { owner: "ZijianHe", name: "koa-router" },
   },
   {
     url: "https://github.com/zircleUI/zircleUI",
-    title: "zircleUI/zircleUI",
+    title: "zircleUI / zircleUI",
     description:
       "🚀 zircle-ui is a frontend library to develop zoomable user interfaces.",
     tags: [
@@ -7524,7 +7520,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/zloirock/core-js",
-    title: "zloirock/core-js",
+    title: "zloirock / core-js",
     description: "Standard Library",
     tags: [
       "ecmascript-proposals",
@@ -7548,7 +7544,7 @@ const sites: Site[] = [
   },
   {
     url: "https://github.com/znck/vue-slides",
-    title: "znck/vue-slides",
+    title: "znck / vue-slides",
     description: "Present with Vue",
     tags: ["keynote", "presentation", "presentation-tools", "slideshow", "vue"],
     github: { owner: "znck", name: "vue-slides" },
@@ -7558,12 +7554,12 @@ export const tags: string[] = [
   "javascript",
   "vue",
   "react",
-  "hacktoberfest",
   "nodejs",
+  "hacktoberfest",
   "css",
   "typescript",
-  "js",
   "node",
+  "js",
   "cli",
   "font",
   "web",
@@ -7589,7 +7585,6 @@ export const tags: string[] = [
   "shell",
   "svelte",
   "development",
-  "go",
   "macos",
   "reactjs",
   "vite",
@@ -7600,7 +7595,7 @@ export const tags: string[] = [
   "components",
   "es6",
   "fish",
-  "golang",
+  "go",
   "google",
   "parser",
   "python",
@@ -7609,15 +7604,16 @@ export const tags: string[] = [
   "webpack",
   "fonts",
   "free",
-  "game",
+  "golang",
   "linux",
-  "open-source",
   "performance",
   "theme",
   "visual-studio-code",
   "android",
   "bash",
+  "game",
   "http",
+  "open-source",
   "plugin",
   "presentation",
   "testing",
@@ -7630,6 +7626,7 @@ export const tags: string[] = [
   "cross-platform",
   "documentation",
   "editor",
+  "emoji",
   "extension",
   "graphql",
   "hooks",
@@ -7647,7 +7644,6 @@ export const tags: string[] = [
   "design",
   "desktop",
   "developer-tools",
-  "emoji",
   "eslint",
   "file",
   "frontend",
@@ -7709,7 +7705,6 @@ export const tags: string[] = [
   "draggable",
   "easy",
   "ecmascript",
-  "engine",
   "environment",
   "es2015",
   "fake",
@@ -7777,6 +7772,7 @@ export const tags: string[] = [
   "emulation",
   "emulator",
   "encoding",
+  "engine",
   "experimental",
   "fetch",
   "find",
@@ -7785,7 +7781,6 @@ export const tags: string[] = [
   "fun",
   "game-development",
   "gamedev",
-  "games",
   "generator",
   "google-fonts",
   "graphics",
@@ -7798,6 +7793,7 @@ export const tags: string[] = [
   "keynote",
   "language",
   "linter",
+  "lua",
   "matching",
   "material",
   "middleware",
@@ -7947,7 +7943,7 @@ export const tags: string[] = [
   "formatter",
   "front-end-developer-tool",
   "front-end-development",
-  "game-engine",
+  "games",
   "Generator",
   "glob",
   "grid",
@@ -7976,7 +7972,6 @@ export const tags: string[] = [
   "linux-desktop",
   "log",
   "logo",
-  "lua",
   "lunr",
   "mac",
   "machine-learning",
@@ -8097,7 +8092,6 @@ export const tags: string[] = [
   "yaml",
   "zoom",
   "100daysofcode",
-  "2d",
   "2d-game",
   "2d-game-engine",
   "3ds",
@@ -8144,7 +8138,6 @@ export const tags: string[] = [
   "arcade",
   "arduino",
   "arkit",
-  "arpg",
   "arrow-heads",
   "artificial-intelligence",
   "asciicast",
@@ -8342,6 +8335,7 @@ export const tags: string[] = [
   "devilution",
   "devops-roadmap",
   "diablo2",
+  "diablo2lod",
   "directive",
   "directx",
   "discord-api",
@@ -8394,6 +8388,7 @@ export const tags: string[] = [
   "ember-cli",
   "emby",
   "emoji-searcher",
+  "emoji-support",
   "emotion",
   "emularity",
   "emupedia",
@@ -8495,6 +8490,7 @@ export const tags: string[] = [
   "fzf",
   "gallery",
   "game-2d",
+  "game-engine",
   "game-frameworks",
   "gamemaker",
   "Garbled",
@@ -8798,6 +8794,7 @@ export const tags: string[] = [
   "nintendo-hacking",
   "no-dependencies",
   "nocode",
+  "node-emoji",
   "node-sass",
   "nodejs-development",
   "nodejs-library",
