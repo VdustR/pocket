@@ -4,11 +4,12 @@
   const credits: Record<string, string> = {
     "Cedarville Cursive":
       "https://fonts.google.com/specimen/Cedarville+Cursive",
+    "Corbon Design Icons":
+      "https://www.carbondesignsystem.com/guidelines/icons/library/",
     Kurale: "https://fonts.google.com/specimen/Kurale",
-    "Material Design Icons": "https://github.com/Templarian/MaterialDesign",
-    "Material Icons": "https://fonts.google.com/icons",
     "Noto Sans Traditional Chinese":
       "https://fonts.google.com/noto/specimen/Noto+Sans+TC",
+    "Phosphor Icons": "https://phosphoricons.com/",
     Svelte: "https://github.com/sveltejs/svelte",
     Twemoji: "https://github.com/twitter/twemoji",
     Vite: "https://github.com/vitejs/vite",

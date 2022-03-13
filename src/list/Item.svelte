@@ -1,11 +1,9 @@
 <script lang="ts">
-  import ArrowSquareOut from "@/icon/phosphor/ArrowSquareOut.svelte";
-  import GithubLogoFill from "@/icon/phosphor/GithubLogoFill.svelte";
-  import type { Site } from "@/type";
+  import type { Repo } from "@/type";
   import { inview } from "svelte-inview";
   import Tags from "./Tags.svelte";
 
-  export let site: Site;
+  export let repo: Repo;
   let isInView: boolean;
 </script>
 
@@ -19,58 +17,49 @@
   class:transform={isInView}
   class:transition-all={isInView}
 >
-  <a
-    class="flex flex-col px-2 gap-2 hover:text-emerald-200"
-    href={site.url}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <div class="flex text-xs leading-tight gap-2 justify-between items-top">
-      <div class="leading-snug">
-        <h3 class="font-bold text-xl leading-tight">
-          {site.title}
-        </h3>
-        <div class="leading-tight">{site.url}</div>
-      </div>
-      <div class="text-size-2em"><ArrowSquareOut /></div>
-    </div>
-  </a>
-  {#if site.github}
-    <div class="flex text-xs leading-tight px-2 gap-2 justify-start items-top">
-      <span class="text-size-1.5em">
-        <GithubLogoFill />
-      </span>
-      <span class="pt-0.25em">
-        <a
-          class="hover:text-emerald-200"
-          href={`https://github.com/${encodeURIComponent(site.github.owner)}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {site.github.owner}
-        </a>
-        {" / "}
-        <a
-          class="hover:text-emerald-200"
-          href={`https://github.com/${encodeURIComponent(
-            site.github.owner
-          )}/${encodeURIComponent(site.github.name)}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {site.github.name}
-        </a>
-      </span>
-    </div>
+  <div class="flex text-xs leading-tight px-2 gap-2 justify-start items-top">
+    <span class="text-lg">
+      <a
+        class="hover:text-emerald-200"
+        href={`https://github.com/${encodeURIComponent(repo.owner)}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {repo.owner}
+      </a>
+      {" / "}
+      <a
+        class="hover:text-emerald-200"
+        href={`https://github.com/${encodeURIComponent(
+          repo.owner
+        )}/${encodeURIComponent(repo.name)}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {repo.name}
+      </a>
+    </span>
+  </div>
+  {#if repo.homepage}
+    <p class="text-sm px-2">
+      <a
+        class="hover:text-emerald-200"
+        href={repo.homepage}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {repo.homepage}
+      </a>
+    </p>
   {/if}
-  {#if site.tags && site.tags.length > 0}
+  {#if repo.tags && repo.tags.length > 0}
     <hr class="opacity-80" />
-    <Tags {site} />
+    <Tags {repo} />
   {/if}
-  {#if site.description}
+  {#if repo.description}
     <hr class="opacity-80" />
     <p class="px-2">
-      {site.description}
+      {repo.description}
     </p>
   {/if}
 </div>

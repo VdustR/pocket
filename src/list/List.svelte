@@ -1,10 +1,10 @@
 <script lang="ts" context="module">
-  import { sitesKeys } from "@/fuseKeys";
+  import fuseKeys from "@/fuseKeys";
   import qs from "@/qs";
-  import shuffledSites from "@/shuffledSites";
-  import sites from "@/sites";
-  import fuseIndex from "@/sitesIndex.json";
-  import type { Site } from "@/type";
+  import repos from "@/repos";
+  import fuseIndex from "@/reposIndex.json";
+  import shuffledSites from "@/shuffledRepos";
+  import type { Repo } from "@/type";
   import Fuse from "fuse.js";
   import { flip } from "svelte/animate";
   import { scale } from "svelte/transition";
@@ -12,10 +12,10 @@
 
   const myIndex = Fuse.parseIndex(fuseIndex);
 
-  const fuse = new Fuse<Site>(
-    sites,
+  const fuse = new Fuse<Repo>(
+    repos,
     {
-      keys: sitesKeys,
+      keys: fuseKeys,
     },
     myIndex
   );
@@ -25,7 +25,7 @@
   const sliceSize = 20;
   const duration = 200;
 
-  $: filterSites = (() => {
+  $: filterRepos = (() => {
     const q = $qs.qs.q;
     if (q.trim().length === 0) return $shuffledSites;
     return fuse.search(q).map(({ item }) => item);
@@ -37,7 +37,7 @@
       );
     })
     .slice(0, sliceSize);
-  $: noResult = filterSites.length === 0;
+  $: noResult = filterRepos.length === 0;
   $: searching = $qs.qs.q.trim().length > 0 || $qs.qs.tags.length > 0;
 </script>
 
@@ -56,13 +56,13 @@
     </div>
   {/if}
   <ul class="mx-auto block">
-    {#each filterSites as site (site.url)}
+    {#each filterRepos as repo (`${repo.owner}/${repo.name}`)}
       <li
         class="mb-4 w-full inline-block"
         in:scale={{ duration }}
         animate:flip={{ duration }}
       >
-        <Item {site} />
+        <Item {repo} />
       </li>
     {/each}
   </ul>

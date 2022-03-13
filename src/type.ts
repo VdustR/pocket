@@ -1,10 +1,10 @@
-export type Site = {
-  title: string;
-  description?: string;
-  url: string;
-  tags?: string[];
-  github?: {
-    owner: string;
-    name: string;
-  };
+export type Repo = {
+  owner: string;
+  name: string;
+  description: string;
+  tags: string[];
+  homepage: string;
+  stargazersCount: number;
+  forksCount: number;
+  openIssuesCount: number;
 };

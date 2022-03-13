@@ -1,5 +1,9 @@
-<div class="px-4 filter drop-shadow-2xl">
-  <img class="mx-auto max-w-sm" src="./1f440.svg" alt="1f440" />
+<script lang="ts">
+  import GithubLogoFill from "./icon/phosphor/GithubLogoFill.svelte";
+</script>
+
+<div class="mx-auto py-16 px-4 text-9xl filter drop-shadow-2xl">
+  <GithubLogoFill />
 </div>
 
 <h1 class="font-bold mx-auto text-center px-4 text-4xl filter">

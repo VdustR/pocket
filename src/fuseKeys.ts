@@ -1,1 +1,3 @@
-export const sitesKeys = ["title", "description", "url"];
+const fuseKeys = ["owner", "name", "description", "homepage"];
+
+export default fuseKeys;

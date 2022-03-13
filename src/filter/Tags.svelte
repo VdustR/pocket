@@ -2,7 +2,7 @@
   import { q } from "@/filter/Q.svelte";
   import getTransitionIdMap from "@/getTransitionIdMap";
   import qs from "@/qs";
-  import { tags } from "@/sites";
+  import { tags } from "@/repos";
   import Fuse from "fuse.js";
   import { flip } from "svelte/animate";
   import { fade } from "svelte/transition";

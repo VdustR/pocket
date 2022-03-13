@@ -1,12 +1,12 @@
 <script lang="ts">
-  import type { Site } from "@/type";
+  import type { Repo } from "@/type";
   import Tag from "./Tag.svelte";
-  export let site: Site;
+  export let repo: Repo;
 </script>
 
-{#if site.tags && site.tags.length > 0}
+{#if repo.tags && repo.tags.length > 0}
   <ul class="flex flex-wrap px-2 gap-1 items-center">
-    {#each site.tags as tag}
+    {#each repo.tags as tag}
       <Tag {tag} />
     {/each}
   </ul>

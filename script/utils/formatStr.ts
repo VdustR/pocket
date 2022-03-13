@@ -3,10 +3,11 @@ import nodeEmoji from "node-emoji";
 
 const { emojify } = nodeEmoji;
 
-export default function formatStr(str: string): string {
-  return flow(
-    () => str.replace(/[\s\n\r]+/g, " "),
-    (str) => str.trim(),
-    (str) => emojify(str)
-  )();
-}
+const formatStr = flow(
+  (str: unknown) => (!str ? "" : String(str)),
+  (str) => str.replace(/[\s\n\r]+/g, " "),
+  (str) => str.trim(),
+  (str) => emojify(str)
+);
+
+export default formatStr;

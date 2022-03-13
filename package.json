@@ -1,15 +1,11 @@
 {
-  "name": "pocket",
-  "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "pnpm gen-sites && vite build",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "dev": "vite",
-    "favorite": "esmo ./script/favorite.ts",
-    "github": "esmo ./script/github.ts",
-    "gen-sites": "esmo ./script/gen-sites.ts",
+    "updateRepos": "esmo ./script/updateRepos.ts",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -28,7 +24,6 @@
     "fuse.js": "^6.5.3",
     "lodash": "^4.17.21",
     "node-emoji": "^1.11.0",
-    "p-map": "^5.3.0",
     "prettier": "^2.5.1",
     "qs": "^6.10.2",
     "svelte": "^3.44.0",
