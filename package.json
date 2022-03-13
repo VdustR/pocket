@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "pnpm gen-sites && vite build",
+    "build": "vite build",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "dev": "vite",
     "updateRepos": "esmo ./script/updateRepos.ts",
