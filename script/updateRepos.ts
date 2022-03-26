@@ -30,32 +30,14 @@ async function getStarred(page = 1) {
   res.data.map((repo: unknown) => {
     const name = flow(() => get(repo, "name"), formatStr)();
     const fullName = flow(() => get(repo, "full_name"), formatStr)();
-    const description = flow(
-      () => get(repo, "description"),
-      formatStr
-    )();
+    const description = flow(() => get(repo, "description"), formatStr)();
     const [owner] = fullName.split("/").map(formatStr);
-    const stargazersCount = flow(
-      () => get(repo, "stargazers_count"),
-      (v) => Number.parseInt(v)
-    )();
-    const forksCount = flow(
-      () => get(repo, "forks_count"),
-      (v) => Number.parseInt(v)
-    )();
-    const openIssuesCount = flow(
-      () => get(repo, "open_issues_count"),
-      (v) => Number.parseInt(v)
-    )();
-    const homepage = flow(() => get(repo, "homepage"),  formatStr)();
+    const homepage = flow(() => get(repo, "homepage"), formatStr)();
     const tags = flow(() => get(repo, "topics"), toStrArr)();
     repos.push({
       owner,
       name,
       description,
-      stargazersCount,
-      forksCount,
-      openIssuesCount,
       homepage,
       tags,
     });

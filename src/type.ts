@@ -4,7 +4,4 @@ export type Repo = {
   description: string;
   tags: string[];
   homepage: string;
-  stargazersCount: number;
-  forksCount: number;
-  openIssuesCount: number;
 };
