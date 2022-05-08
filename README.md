@@ -10,8 +10,8 @@ My starred repositories.
 
 Requirement:
 
-- node@17.x
-- pnpm@6.x
+- node@>=16
+- pnpm@>=6
 
 Update starred repos:
 
