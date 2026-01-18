@@ -6,73 +6,27 @@
   import Dashboard from "./Dashboard.svelte";
   import Footer from "./Footer.svelte";
   import KeyboardShortcuts from "./KeyboardShortcuts.svelte";
-  import type { Repo, FilterState, LayoutMode, SortField, SortOrder } from "../../lib/types";
-  import { filterAndSortRepos } from "../../lib/search";
+  import type { FilterState, LayoutMode, SortField, SortOrder } from "../../lib/types";
+  
+  import { 
+    repos, 
+    filteredRepos, 
+    languages, 
+    topics, 
+    isLoading, 
+    filter as filterStore, 
+    loadData 
+  } from "../../stores/repos";
 
-  // State using Svelte 5 runes
-  let repos = $state<Repo[]>([]);
-  let filteredRepos = $state<Repo[]>([]);
-  let languages = $state<string[]>([]);
-  let topics = $state<string[]>([]);
-  let isLoading = $state(true);
+  // State using Svelte 5 runes, but sourced from stores
   let showDashboard = $state(false);
   let layoutMode = $state<LayoutMode>("card");
 
-  let filter = $state<FilterState>({
-    query: "",
-    languages: [],
-    topics: [],
-    sortField: "score",
-    sortOrder: "desc",
-  });
-
   // Load data on mount
   onMount(async () => {
-    try {
-      // Use hardcoded base URL - Astro sets this at build time
-      const baseUrl = "/pocket/";
-      console.log("Fetching data from:", baseUrl);
-
-      const [reposRes, filtersRes] = await Promise.all([
-        fetch(baseUrl + "data/repos.json"),
-        fetch(baseUrl + "data/filters.json"),
-      ]);
-
-      console.log("Repos response status:", reposRes.status);
-      console.log("Filters response status:", filtersRes.status);
-
-      const reposData = await reposRes.json();
-      const filtersData = await filtersRes.json();
-
-      console.log("Loaded repos:", reposData.length);
-      console.log("Loaded languages:", filtersData.languages?.length);
-
-      // Initialize from URL params first
-      initFromURL();
-
-      // Set data
-      repos = reposData;
-      languages = filtersData.languages;
-      topics = filtersData.topics;
-
-      // Initialize filteredRepos
-      filteredRepos = filterAndSortRepos(reposData, filter);
-      console.log("Filtered repos:", filteredRepos.length);
-
-      isLoading = false;
-    } catch (error) {
-      console.error("Failed to load data:", error);
-      isLoading = false;
-    }
-  });
-
-  // Filter repos when filter state changes
-  $effect(() => {
-    // Access filter properties to track them as dependencies
-    const { query, languages: filterLangs, topics: filterTopics, sortField, sortOrder } = filter;
-    if (repos.length > 0) {
-      filteredRepos = filterAndSortRepos(repos, { query, languages: filterLangs, topics: filterTopics, sortField, sortOrder });
-    }
+    // Initialize from URL params first
+    initFromURL();
+    await loadData();
   });
 
   function initFromURL() {
@@ -84,22 +38,28 @@
     const order = params.get("order") as SortOrder | null;
     const layout = params.get("layout") as LayoutMode | null;
 
-    if (q) filter.query = q;
-    if (lang.length) filter.languages = lang;
-    if (topic.length) filter.topics = topic;
-    if (sort) filter.sortField = sort;
-    if (order) filter.sortOrder = order;
+    const newFilter: Partial<FilterState> = {};
+    if (q) newFilter.query = q;
+    if (lang.length) newFilter.languages = lang;
+    if (topic.length) newFilter.topics = topic;
+    if (sort) newFilter.sortField = sort;
+    if (order) newFilter.sortOrder = order;
+    
+    // Update the store with the initial filter state
+    filterStore.update(f => ({...f, ...newFilter}));
+
     if (layout) layoutMode = layout;
   }
 
   function updateURL() {
     const params = new URLSearchParams();
+    const currentFilter = $filterStore;
 
-    if (filter.query) params.set("q", filter.query);
-    filter.languages.forEach((l) => params.append("lang", l));
-    filter.topics.forEach((t) => params.append("topic", t));
-    if (filter.sortField !== "score") params.set("sort", filter.sortField);
-    if (filter.sortOrder !== "desc") params.set("order", filter.sortOrder);
+    if (currentFilter.query) params.set("q", currentFilter.query);
+    currentFilter.languages.forEach((l) => params.append("lang", l));
+    currentFilter.topics.forEach((t) => params.append("topic", t));
+    if (currentFilter.sortField !== "score") params.set("sort", currentFilter.sortField);
+    if (currentFilter.sortOrder !== "desc") params.set("order", currentFilter.sortOrder);
     if (layoutMode !== "card") params.set("layout", layoutMode);
 
     const newURL = params.toString()
@@ -110,7 +70,7 @@
   }
 
   function handleFilterChange(newFilter: Partial<FilterState>) {
-    filter = { ...filter, ...newFilter };
+    filterStore.update(f => ({ ...f, ...newFilter }));
     updateURL();
   }
 
@@ -129,25 +89,25 @@
 
   <main class="flex-1 container mx-auto px-4 py-8 max-w-7xl">
     {#if showDashboard}
-      <Dashboard {repos} {languages} />
+      <Dashboard repos={$repos} languages={$languages} />
     {:else}
-      <SearchFilter
-        {filter}
-        {languages}
-        {topics}
+       <SearchFilter
+        filter={$filterStore}
+        languages={$languages}
+        topics={$topics}
         {layoutMode}
         onFilterChange={handleFilterChange}
         onLayoutChange={handleLayoutChange}
-        totalCount={repos.length}
-        filteredCount={filteredRepos.length}
+        totalCount={$repos.length}
+        filteredCount={$filteredRepos.length}
       />
 
-      {#if isLoading}
+      {#if $isLoading}
         <div class="flex items-center justify-center py-20">
           <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-500"></div>
         </div>
       {:else}
-        <RepoList repos={filteredRepos} {layoutMode} />
+        <RepoList repos={$filteredRepos} {layoutMode} />
       {/if}
     {/if}
   </main>
