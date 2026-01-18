@@ -30,6 +30,11 @@ export const filteredRepos = derived(
   }
 );
 
+// Top 3 repos (fixed, based on original data order)
+export const top3FullNames = derived(repos, ($repos) =>
+  new Set($repos.slice(0, 3).map((r) => r.fullName))
+);
+
 export async function loadData() {
   isLoading.set(true);
   try {

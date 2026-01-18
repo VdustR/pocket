@@ -5,9 +5,10 @@
   interface Props {
     repos: Repo[];
     layoutMode: LayoutMode;
+    top3FullNames: Set<string>;
   }
 
-  let { repos, layoutMode }: Props = $props();
+  let { repos, layoutMode, top3FullNames }: Props = $props();
 
   // Limit display for performance (can implement virtual scroll later)
   const DISPLAY_LIMIT = 100;
@@ -40,8 +41,8 @@
   </div>
 {:else}
   <div class={gridClass()}>
-    {#each displayedRepos as repo, index (repo.fullName)}
-      <RepoCard {repo} {layoutMode} isHot={index < 3} />
+    {#each displayedRepos as repo (repo.fullName)}
+      <RepoCard {repo} {layoutMode} isHot={top3FullNames.has(repo.fullName)} />
     {/each}
   </div>
 

@@ -8,14 +8,15 @@
   import KeyboardShortcuts from "./KeyboardShortcuts.svelte";
   import type { FilterState, LayoutMode, SortField, SortOrder } from "../../lib/types";
   
-  import { 
-    repos, 
-    filteredRepos, 
-    languages, 
-    topics, 
-    isLoading, 
-    filter as filterStore, 
-    loadData 
+  import {
+    repos,
+    filteredRepos,
+    languages,
+    topics,
+    isLoading,
+    filter as filterStore,
+    loadData,
+    top3FullNames
   } from "../../stores/repos";
 
   // State using Svelte 5 runes, but sourced from stores
@@ -107,7 +108,7 @@
           <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-500"></div>
         </div>
       {:else}
-        <RepoList repos={$filteredRepos} {layoutMode} />
+        <RepoList repos={$filteredRepos} {layoutMode} top3FullNames={$top3FullNames} />
       {/if}
     {/if}
   </main>
