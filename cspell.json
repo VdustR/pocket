@@ -3,28 +3,23 @@
   "ignorePaths": [
     "package-lock.json",
     "node_modules",
-    "vscode-extension",
     ".git/objects",
     ".vscode",
-    ".vscode-insiders",
-    "src/repos.ts",
-    "src/reposIndex.json"
+    "src/data/*.json",
+    "dist"
   ],
-  "dictionaryDefinitions": [],
-  "dictionaries": [],
   "words": [
+    "astro",
+    "astrojs",
     "cedarville",
-    "emojify",
-    "esmo",
-    "esno",
-    "inview",
+    "chartjs",
+    "iconify",
+    "octokit",
     "pnpm",
+    "runes",
     "sveltejs",
-    "twemoji",
-    "vite",
-    "windi",
-    "windicss"
-  ],
-  "ignoreWords": [],
-  "import": []
+    "tailwindcss",
+    "vdustr",
+    "vite"
+  ]
 }
