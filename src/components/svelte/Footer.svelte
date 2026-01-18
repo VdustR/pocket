@@ -64,7 +64,7 @@
       </div>
 
       <div class="text-zinc-400">
-        Stay awhile and listen 👀
+        It's dangerous to go alone! Take this. 🗡️
       </div>
     </div>
   </div>
