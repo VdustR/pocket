@@ -30,6 +30,14 @@ export const filteredRepos = derived(
   }
 );
 
+// Number of repos to mark as "hot"
+export const HOT_REPO_COUNT = 3;
+
+// Top repos (fixed, based on original data order)
+export const top3FullNames = derived(repos, ($repos) =>
+  new Set($repos.slice(0, HOT_REPO_COUNT).map((r) => r.fullName))
+);
+
 export async function loadData() {
   isLoading.set(true);
   try {
