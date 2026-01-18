@@ -84,7 +84,7 @@
 <div class="space-y-4 mb-8">
   <!-- Search bar -->
   <div class="flex gap-4 flex-wrap">
-    <div class="relative flex-1 min-w-64">
+    <div class="relative flex-1 min-w-0 sm:min-w-64">
       <Icon
         icon="ph:magnifying-glass-bold"
         class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-400"
@@ -133,12 +133,12 @@
       </button>
 
       {#if showLanguages}
-        <div class="absolute left-0 mt-2 w-64 max-h-80 overflow-y-auto bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 p-2 z-50">
+        <div class="absolute left-0 mt-2 w-64 max-w-[calc(100vw-2rem)] max-h-80 overflow-y-auto bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 p-2 z-50">
           <div class="grid grid-cols-2 gap-1">
             {#each languages as lang}
               <button
                 onclick={() => toggleLanguage(lang)}
-                class="tag {filter.languages.includes(lang) ? 'tag-active' : ''}"
+                class="tag {filter.languages.includes(lang) ? 'tag-active' : ''} truncate"
               >
                 {lang}
               </button>
@@ -169,7 +169,7 @@
       </button>
 
       {#if showTopics}
-        <div class="absolute left-0 mt-2 w-80 max-h-80 overflow-y-auto bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 p-2 z-50">
+        <div class="absolute left-0 sm:left-auto sm:right-0 mt-2 w-[calc(100vw-2rem)] sm:w-80 max-h-80 overflow-y-auto bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 p-2 z-50">
           <div class="flex flex-wrap gap-1">
             {#each topics.slice(0, 50) as topic}
               <button

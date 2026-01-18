@@ -16,8 +16,9 @@
       <div class="flex items-center gap-4">
         <a href="/pocket/" class="flex items-center gap-2 hover:opacity-80 transition-opacity group">
           <img src="/pocket/favicon.png" alt="Pocket" class="w-8 h-8 rounded-full transition-transform group-hover:scale-110" />
-          <h1 class="text-2xl font-display font-bold text-primary-600 dark:text-primary-400 dark:drop-shadow-[0_0_10px_rgba(6,182,212,0.3)] tracking-wide">
-            ViPro's Picks
+          <h1 class="text-lg sm:text-2xl font-display font-bold text-primary-600 dark:text-primary-400 dark:drop-shadow-[0_0_10px_rgba(6,182,212,0.3)] tracking-wide whitespace-nowrap">
+            <span class="sm:hidden">Pocket</span>
+            <span class="hidden sm:inline">ViPro's Picks</span>
           </h1>
         </a>
       </div>
