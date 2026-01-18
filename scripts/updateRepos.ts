@@ -42,13 +42,14 @@ async function fetchStarredRepos(): Promise<Repo[]> {
 
   // Use pagination to fetch all starred repos
   // The star+json media type returns starred_at timestamp
+  // @ts-expect-error mediaType is valid at runtime but not in the paginate.iterator type definitions
   for await (const response of octokit.paginate.iterator(
     "GET /users/{username}/starred",
     {
       username: USERNAME,
       per_page: 100,
-      headers: {
-        accept: "application/vnd.github.star+json",
+      mediaType: {
+        format: "star+json",
       },
     }
   )) {

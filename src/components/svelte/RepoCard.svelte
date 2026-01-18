@@ -64,7 +64,7 @@
     </span>
     <span class="flex items-center gap-1 text-sm text-zinc-500 flex-shrink-0">
       {#if isHot(repo.pushedAt)}
-        <Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" title="Active in last 30 days" />
+        <span title="Active in last 30 days"><Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" /></span>
       {/if}
       <Icon icon="ph:star-fill" class="w-4 h-4 text-yellow-500" />
       {formatNumber(repo.stars)}
@@ -100,7 +100,7 @@
       </div>
       <div class="flex items-center gap-4 text-sm text-zinc-500 flex-shrink-0">
         {#if isHot(repo.pushedAt)}
-          <Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" title="Active in last 30 days" />
+          <span title="Active in last 30 days"><Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" /></span>
         {/if}
         <span class="flex items-center gap-1">
           <Icon icon="ph:star-fill" class="w-4 h-4 text-yellow-500" />
@@ -143,7 +143,7 @@
 
     <div class="flex items-center gap-4 text-sm text-zinc-500 mb-3">
       {#if isHot(repo.pushedAt)}
-        <Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" title="Active in last 30 days" />
+        <span title="Active in last 30 days"><Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" /></span>
       {/if}
       <span class="flex items-center gap-1">
         <Icon icon="ph:star-fill" class="w-4 h-4 text-yellow-500" />
