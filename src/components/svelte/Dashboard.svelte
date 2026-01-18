@@ -14,6 +14,7 @@
 
   let chartCanvas: HTMLCanvasElement;
   let chart: Chart<"pie"> | null = null;
+  let isMobile = $state(false);
 
   // Computed stats
   let totalStars = $derived(repos.reduce((sum, r) => sum + r.stars, 0));
@@ -48,6 +49,20 @@
   onMount(() => {
     Chart.register(PieController, ArcElement, Tooltip, Legend);
 
+    // Check initial screen size
+    const mediaQuery = window.matchMedia("(max-width: 639px)");
+    isMobile = mediaQuery.matches;
+
+    const handleResize = (e: MediaQueryListEvent | MediaQueryList) => {
+      isMobile = e.matches;
+      if (chart) {
+        chart.options.plugins!.legend!.position = isMobile ? "bottom" : "right";
+        chart.update();
+      }
+    };
+
+    mediaQuery.addEventListener("change", handleResize);
+
     const data = languageDistribution();
     if (data.length > 0 && chartCanvas) {
       chart = new Chart(chartCanvas, {
@@ -67,7 +82,7 @@
           maintainAspectRatio: false,
           plugins: {
             legend: {
-              position: "right",
+              position: isMobile ? "bottom" : "right",
               labels: {
                 usePointStyle: true,
                 padding: 12,
@@ -79,6 +94,7 @@
     }
 
     return () => {
+      mediaQuery.removeEventListener("change", handleResize);
       chart?.destroy();
     };
   });
@@ -98,7 +114,7 @@
   }
 </script>
 
-<div class="space-y-8">
+<div class="space-y-8 overflow-hidden">
   <!-- Stats Overview -->
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
     <div class="card p-4 text-center">
@@ -127,9 +143,9 @@
     </div>
   </div>
 
-  <div class="grid md:grid-cols-2 gap-8">
+  <div class="grid md:grid-cols-2 gap-4 md:gap-8">
     <!-- Language Distribution Chart -->
-    <div class="card p-6">
+    <div class="card p-4 sm:p-6 min-w-0">
       <h3 class="text-lg font-medium mb-4 flex items-center gap-2">
         <Icon icon="ph:chart-pie-bold" class="w-5 h-5" />
         Language Distribution
@@ -140,22 +156,27 @@
     </div>
 
     <!-- Top Starred -->
-    <div class="card p-6">
+    <div class="card p-4 sm:p-6 min-w-0">
       <h3 class="text-lg font-medium mb-4 flex items-center gap-2">
         <Icon icon="ph:star-bold" class="w-5 h-5 text-yellow-500" />
         Most Starred
       </h3>
-      <div class="space-y-2">
+      <div class="space-y-2 min-w-0">
         {#each topRepos as repo, i}
+          {@const [owner, repoName] = repo.fullName.split("/")}
           <a
             href={`https://github.com/${repo.fullName}`}
             target="_blank"
             rel="noopener noreferrer"
-            class="flex items-center gap-3 p-2 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors"
+            class="flex items-center gap-2 sm:gap-3 p-2 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors min-w-0"
+            title={repo.fullName}
           >
-            <span class="text-zinc-400 w-6 text-right">{i + 1}</span>
-            <span class="flex-1 truncate text-sm">{repo.fullName}</span>
-            <span class="flex items-center gap-1 text-sm text-zinc-500">
+            <span class="text-zinc-400 w-5 sm:w-6 text-right shrink-0">{i + 1}</span>
+            <div class="flex-1 min-w-0">
+              <div class="font-medium text-sm text-primary-600 dark:text-primary-400 truncate">{repoName}</div>
+              <div class="text-xs text-zinc-400 truncate">{owner}</div>
+            </div>
+            <span class="flex items-center gap-1 text-sm text-zinc-500 shrink-0">
               <Icon icon="ph:star-fill" class="w-4 h-4 text-yellow-500" />
               {formatNumber(repo.stars)}
             </span>
@@ -166,21 +187,26 @@
   </div>
 
   <!-- Recently Starred -->
-  <div class="card p-6">
+  <div class="card p-4 sm:p-6 min-w-0">
     <h3 class="text-lg font-medium mb-4 flex items-center gap-2">
       <Icon icon="ph:clock-bold" class="w-5 h-5" />
       Recently Starred
     </h3>
-    <div class="grid md:grid-cols-2 gap-2">
+    <div class="grid md:grid-cols-2 gap-2 min-w-0">
       {#each recentlyStarred as repo}
+        {@const [owner, repoName] = repo.fullName.split("/")}
         <a
           href={`https://github.com/${repo.fullName}`}
           target="_blank"
           rel="noopener noreferrer"
-          class="flex items-center gap-3 p-2 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors"
+          class="flex items-center gap-2 sm:gap-3 p-2 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors min-w-0"
+          title={repo.fullName}
         >
-          <span class="flex-1 truncate text-sm">{repo.fullName}</span>
-          <span class="text-xs text-zinc-500">
+          <div class="flex-1 min-w-0">
+            <div class="font-medium text-sm text-primary-600 dark:text-primary-400 truncate">{repoName}</div>
+            <div class="text-xs text-zinc-400 truncate">{owner}</div>
+          </div>
+          <span class="text-xs text-zinc-500 shrink-0 whitespace-nowrap">
             {formatDate(repo.starredAt)}
           </span>
         </a>
