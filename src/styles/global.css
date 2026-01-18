@@ -5,20 +5,39 @@
 
 /* Custom theme configuration for Tailwind v4 */
 @theme {
-  --font-family-cursive: "Cedarville Cursive", cursive;
-  --font-family-sans: "Noto Sans TC", "Kurale", sans-serif;
+  --font-display: "Orbitron", sans-serif;
+  --font-sans: "Space Grotesk", "Noto Sans TC", sans-serif;
 
-  --color-primary-50: #ecfdf5;
-  --color-primary-100: #d1fae5;
-  --color-primary-200: #a7f3d0;
-  --color-primary-300: #6ee7b7;
-  --color-primary-400: #34d399;
-  --color-primary-500: #10b981;
-  --color-primary-600: #059669;
-  --color-primary-700: #047857;
-  --color-primary-800: #065f46;
-  --color-primary-900: #064e3b;
-  --color-primary-950: #022c22;
+  /* Cyberpunk Cyan (Primary) */
+  --color-primary-50: #ecfeff;
+  --color-primary-100: #cffafe;
+  --color-primary-200: #a5f3fc;
+  --color-primary-300: #67e8f9;
+  --color-primary-400: #22d3ee;
+  --color-primary-500: #06b6d4;
+  --color-primary-600: #0891b2;
+  --color-primary-700: #0e7490;
+  --color-primary-800: #155e75;
+  --color-primary-900: #164e63;
+  --color-primary-950: #083344;
+
+  /* Cyberpunk Pink (Accent) */
+  --color-accent-50: #fdf2f8;
+  --color-accent-100: #fce7f3;
+  --color-accent-200: #fbcfe8;
+  --color-accent-300: #f9a8d4;
+  --color-accent-400: #f472b6;
+  --color-accent-500: #ec4899;
+  --color-accent-600: #db2777;
+  --color-accent-700: #be185d;
+  --color-accent-800: #9d174d;
+  --color-accent-900: #831843;
+  --color-accent-950: #500724;
+
+  /* Dark background */
+  --color-dark-bg: #0d1117;
+  --color-dark-card: #161b22;
+  --color-dark-border: #30363d;
 }
 
 /* Base styles */
@@ -27,8 +46,59 @@ html {
 }
 
 body {
+  font-family: "Space Grotesk", "Noto Sans TC", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Cyberpunk dark mode background with gradient */
+.dark body,
+.dark {
+  background-color: var(--color-dark-bg);
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(6, 182, 212, 0.15), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 100%, rgba(236, 72, 153, 0.1), transparent);
+  background-attachment: fixed;
+}
+
+/* Animated background orbs */
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(180deg); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 0.8; }
+}
+
+/* Glassmorphism utility */
+@utility glass {
+  background: rgba(22, 27, 34, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(48, 54, 61, 0.5);
+}
+
+/* Neon glow effects */
+@utility glow-cyan {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.3),
+              0 0 40px rgba(6, 182, 212, 0.1);
+}
+
+@utility glow-pink {
+  box-shadow: 0 0 20px rgba(236, 72, 153, 0.3),
+              0 0 40px rgba(236, 72, 153, 0.1);
+}
+
+@utility glow-text-cyan {
+  text-shadow: 0 0 10px rgba(6, 182, 212, 0.5),
+               0 0 20px rgba(6, 182, 212, 0.3);
+}
+
+@utility glow-text-pink {
+  text-shadow: 0 0 10px rgba(236, 72, 153, 0.5),
+               0 0 20px rgba(236, 72, 153, 0.3);
 }
 
 /* Custom scrollbar for dark mode */
@@ -38,16 +108,16 @@ body {
 }
 
 .dark ::-webkit-scrollbar-track {
-  background-color: rgb(24 24 27);
+  background-color: var(--color-dark-bg);
 }
 
 .dark ::-webkit-scrollbar-thumb {
-  background-color: rgb(63 63 70);
+  background-color: var(--color-dark-border);
   border-radius: 9999px;
 }
 
 .dark ::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(82 82 91);
+  background-color: #484f58;
 }
 
 /* Component styles */
@@ -75,12 +145,12 @@ body {
 }
 
 .dark .btn-secondary {
-  background-color: rgb(39 39 42);
+  background-color: var(--color-dark-card);
   color: rgb(228 228 231);
 }
 
 .dark .btn-secondary:hover {
-  background-color: rgb(63 63 70);
+  background-color: var(--color-dark-border);
 }
 
 @utility card {
@@ -91,8 +161,16 @@ body {
 }
 
 .dark .card {
-  background-color: rgb(24 24 27);
-  border-color: rgb(39 39 42);
+  background: rgba(22, 27, 34, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-color: rgba(48, 54, 61, 0.5);
+  transition: all 0.3s ease;
+}
+
+.dark .card:hover {
+  border-color: rgba(6, 182, 212, 0.3);
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.1);
 }
 
 @utility input {
@@ -109,8 +187,17 @@ body {
 }
 
 .dark .input {
-  border-color: rgb(63 63 70);
-  background-color: rgb(24 24 27);
+  border-color: rgba(48, 54, 61, 0.5);
+  background: rgba(22, 27, 34, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+
+.dark .input:focus {
+  border-color: var(--color-primary-500);
+  box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.2),
+              0 0 20px rgba(6, 182, 212, 0.15);
 }
 
 @utility tag {
@@ -130,12 +217,15 @@ body {
 }
 
 .dark .tag {
-  background-color: rgb(39 39 42);
+  background: rgba(22, 27, 34, 0.6);
   color: rgb(212 212 216);
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
 }
 
 .dark .tag:hover {
-  background-color: rgb(63 63 70);
+  background: rgba(48, 54, 61, 0.6);
+  border-color: rgba(6, 182, 212, 0.3);
 }
 
 @utility tag-active {
@@ -144,6 +234,42 @@ body {
 }
 
 .dark .tag-active {
-  background-color: rgb(6 78 59 / 0.5);
+  background: rgba(6, 182, 212, 0.15);
   color: var(--color-primary-300);
+  border-color: rgba(6, 182, 212, 0.3);
+}
+
+/* Smooth transitions for interactive elements */
+@utility transition-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Hover lift effect */
+@utility hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* Gradient border utility */
+@utility gradient-border {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(135deg, var(--color-primary-500), var(--color-accent-500));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  &:hover::before {
+    opacity: 1;
+  }
 }

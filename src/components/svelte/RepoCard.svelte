@@ -2,6 +2,7 @@
   import Icon from "@iconify/svelte";
   import type { Repo, LayoutMode } from "../../lib/types";
   import { getLanguageColor } from "../../lib/colors";
+  import { parseEmoji } from "../../lib/emoji";
 
   interface Props {
     repo: Repo;
@@ -44,7 +45,7 @@
     target="_blank"
     rel="noopener noreferrer"
     data-repo-card
-    class="flex items-center gap-3 px-3 py-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-lg transition-colors group"
+    class="flex items-center gap-3 px-3 py-2 hover:bg-zinc-100 dark:hover:bg-[rgba(6,182,212,0.08)] rounded-lg transition-all duration-200 group"
   >
     {#if repo.language}
       <span
@@ -59,11 +60,11 @@
       {repo.fullName}
     </span>
     <span class="text-zinc-500 text-sm truncate flex-1">
-      {repo.description}
+      {parseEmoji(repo.description)}
     </span>
     <span class="flex items-center gap-1 text-sm text-zinc-500 flex-shrink-0">
       {#if isHot(repo.pushedAt)}
-        <Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" title="Active in last 30 days" />
+        <span title="Active in last 30 days"><Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" /></span>
       {/if}
       <Icon icon="ph:star-fill" class="w-4 h-4 text-yellow-500" />
       {formatNumber(repo.stars)}
@@ -71,7 +72,7 @@
   </a>
 {:else if layoutMode === "list"}
   <!-- List mode -->
-  <div data-repo-card class="card p-4 hover:border-primary-300 dark:hover:border-primary-700 transition-colors">
+  <div data-repo-card class="card p-4 hover:border-primary-300 dark:hover:border-primary-500/30 transition-all duration-300 dark:hover:shadow-[0_0_20px_rgba(6,182,212,0.15)]">
     <div class="flex items-start gap-4">
       <div class="flex-1 min-w-0">
         <div class="flex items-center gap-2 mb-1">
@@ -94,12 +95,12 @@
           {/if}
         </div>
         <p class="text-sm text-zinc-600 dark:text-zinc-400 line-clamp-1">
-          {repo.description || "No description"}
+          {parseEmoji(repo.description) || "No description"}
         </p>
       </div>
       <div class="flex items-center gap-4 text-sm text-zinc-500 flex-shrink-0">
         {#if isHot(repo.pushedAt)}
-          <Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" title="Active in last 30 days" />
+          <span title="Active in last 30 days"><Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" /></span>
         {/if}
         <span class="flex items-center gap-1">
           <Icon icon="ph:star-fill" class="w-4 h-4 text-yellow-500" />
@@ -114,7 +115,7 @@
   </div>
 {:else}
   <!-- Card mode -->
-  <div data-repo-card class="card p-4 hover:border-primary-300 dark:hover:border-primary-700 transition-colors flex flex-col">
+  <div data-repo-card class="card p-4 hover:border-primary-300 dark:hover:border-primary-500/30 transition-all duration-300 dark:hover:shadow-[0_0_20px_rgba(6,182,212,0.15)] flex flex-col">
     <div class="flex items-start justify-between gap-2 mb-2">
       <a
         href={`https://github.com/${repo.fullName}`}
@@ -137,12 +138,12 @@
     </div>
 
     <p class="text-sm text-zinc-600 dark:text-zinc-400 mb-3 {isExpanded ? '' : 'line-clamp-2'} flex-1">
-      {repo.description || "No description"}
+      {parseEmoji(repo.description) || "No description"}
     </p>
 
     <div class="flex items-center gap-4 text-sm text-zinc-500 mb-3">
       {#if isHot(repo.pushedAt)}
-        <Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" title="Active in last 30 days" />
+        <span title="Active in last 30 days"><Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" /></span>
       {/if}
       <span class="flex items-center gap-1">
         <Icon icon="ph:star-fill" class="w-4 h-4 text-yellow-500" />

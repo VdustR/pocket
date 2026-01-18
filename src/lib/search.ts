@@ -1,9 +1,9 @@
-import Fuse from "fuse.js";
+import Fuse, { type IFuseOptions } from "fuse.js";
 import type { Repo, FilterState } from "./types";
 
 let fuseInstance: Fuse<Repo> | null = null;
 
-const fuseOptions: Fuse.IFuseOptions<Repo> = {
+const fuseOptions: IFuseOptions<Repo> = {
   keys: [
     { name: "owner", weight: 1 },
     { name: "name", weight: 2 },

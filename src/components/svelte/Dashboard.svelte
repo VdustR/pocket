@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   import Icon from "@iconify/svelte";
   import type { Repo } from "../../lib/types";
-  import { Chart, ArcElement, Tooltip, Legend, type ChartData } from "chart.js";
+  import { Chart, ArcElement, Tooltip, Legend, PieController } from "chart.js";
   import { getLanguageColor } from "../../lib/colors";
 
   interface Props {
@@ -46,7 +46,7 @@
   );
 
   onMount(() => {
-    Chart.register(ArcElement, Tooltip, Legend);
+    Chart.register(PieController, ArcElement, Tooltip, Legend);
 
     const data = languageDistribution();
     if (data.length > 0 && chartCanvas) {
