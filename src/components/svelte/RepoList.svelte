@@ -40,8 +40,8 @@
   </div>
 {:else}
   <div class={gridClass()}>
-    {#each displayedRepos as repo (repo.fullName)}
-      <RepoCard {repo} {layoutMode} />
+    {#each displayedRepos as repo, index (repo.fullName)}
+      <RepoCard {repo} {layoutMode} isHot={index < 3} />
     {/each}
   </div>
 

@@ -7,9 +7,10 @@
   interface Props {
     repo: Repo;
     layoutMode: LayoutMode;
+    isHot?: boolean;
   }
 
-  let { repo, layoutMode }: Props = $props();
+  let { repo, layoutMode, isHot = false }: Props = $props();
 
   let isExpanded = $state(false);
 
@@ -35,10 +36,6 @@
     });
   }
 
-  function isHot(pushedAt: string): boolean {
-    const daysSincePush = (Date.now() - new Date(pushedAt).getTime()) / (1000 * 60 * 60 * 24);
-    return daysSincePush <= 30; // Active if updated in the last 30 days
-  }
 </script>
 
 {#if layoutMode === "compact"}
@@ -69,8 +66,8 @@
       {parseEmoji(repo.description)}
     </span>
     <span class="flex items-center gap-1 text-sm text-zinc-500 flex-shrink-0">
-      {#if isHot(repo.pushedAt)}
-        <span title="Active in last 30 days"><Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" /></span>
+      {#if isHot}
+        <span title="Top 3"><Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" /></span>
       {/if}
       <Icon icon="ph:star-fill" class="w-4 h-4 text-yellow-500" />
       {formatNumber(repo.stars)}
@@ -106,8 +103,8 @@
         </p>
       </div>
       <div class="flex items-center gap-4 text-sm text-zinc-500 flex-shrink-0">
-        {#if isHot(repo.pushedAt)}
-          <span title="Active in last 30 days"><Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" /></span>
+        {#if isHot}
+          <span title="Top 3"><Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" /></span>
         {/if}
         <span class="flex items-center gap-1">
           <Icon icon="ph:star-fill" class="w-4 h-4 text-yellow-500" />
@@ -150,8 +147,8 @@
     </p>
 
     <div class="flex items-center gap-4 text-sm text-zinc-500 mb-3">
-      {#if isHot(repo.pushedAt)}
-        <span title="Active in last 30 days"><Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" /></span>
+      {#if isHot}
+        <span title="Top 3"><Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" /></span>
       {/if}
       <span class="flex items-center gap-1">
         <Icon icon="ph:star-fill" class="w-4 h-4 text-yellow-500" />
