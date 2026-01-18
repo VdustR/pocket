@@ -5,8 +5,8 @@
 
 /* Custom theme configuration for Tailwind v4 */
 @theme {
-  --font-family-cursive: "Cedarville Cursive", cursive;
-  --font-family-sans: "Noto Sans TC", "Kurale", sans-serif;
+  --font-display: "Orbitron", sans-serif;
+  --font-sans: "Space Grotesk", "Noto Sans TC", sans-serif;
 
   /* Cyberpunk Cyan (Primary) */
   --color-primary-50: #ecfeff;
@@ -46,6 +46,7 @@ html {
 }
 
 body {
+  font-family: "Space Grotesk", "Noto Sans TC", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
