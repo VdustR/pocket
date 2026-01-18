@@ -1,4 +1,4 @@
-import { writable, get } from "svelte/store";
+import { writable, derived } from "svelte/store";
 import type { Repo, FilterState } from "../lib/types";
 import { filterAndSortRepos } from "../lib/search";
 
@@ -8,9 +8,6 @@ export const languages = writable<string[]>([]);
 export const topics = writable<string[]>([]);
 export const isLoading = writable(true);
 
-// Writable store for filtered repos
-export const filteredRepos = writable<Repo[]>([]);
-
 // Filter state store
 export const filter = writable<FilterState>({
   query: "",
@@ -19,6 +16,17 @@ export const filter = writable<FilterState>({
   sortField: "score",
   sortOrder: "desc",
 });
+
+// Derived store for filtered repos - automatically updates when repos or filter changes
+export const filteredRepos = derived(
+  [repos, filter],
+  ([$repos, $filter]) => {
+    if ($repos.length === 0) {
+      return [];
+    }
+    return filterAndSortRepos($repos, $filter);
+  }
+);
 
 export async function loadData() {
   isLoading.set(true);
@@ -36,24 +44,9 @@ export async function loadData() {
     repos.set(reposData);
     languages.set(filtersData.languages);
     topics.set(filtersData.topics);
-    
-    // Initial filter and sort
-    const currentFilter = get(filter);
-    const allRepos = get(repos);
-    filteredRepos.set(filterAndSortRepos(allRepos, currentFilter));
-
   } catch (error) {
     console.error("Failed to load data:", error);
   } finally {
     isLoading.set(false);
   }
 }
-
-// When the filter changes, update the filtered repos
-filter.subscribe(newFilter => {
-    const allRepos = get(repos);
-    // only run if repos have been loaded
-    if (allRepos.length > 0) {
-        filteredRepos.set(filterAndSortRepos(allRepos, newFilter));
-    }
-});
