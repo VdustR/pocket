@@ -84,7 +84,8 @@
   function openFocusedItem() {
     const items = document.querySelectorAll("[data-repo-card]");
     if (focusedIndex >= 0 && focusedIndex < items.length) {
-      const link = items[focusedIndex].querySelector("a");
+      const item = items[focusedIndex];
+      const link = item.tagName === "A" ? (item as HTMLAnchorElement) : item.querySelector("a");
       if (link) {
         window.open(link.href, "_blank");
       }

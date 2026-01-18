@@ -1,6 +1,7 @@
 <script lang="ts">
   import Icon from "@iconify/svelte";
   import type { Repo, LayoutMode } from "../../lib/types";
+  import { getLanguageColor } from "../../lib/colors";
 
   interface Props {
     repo: Repo;
@@ -32,31 +33,7 @@
 
   function isHot(pushedAt: string): boolean {
     const daysSincePush = (Date.now() - new Date(pushedAt).getTime()) / (1000 * 60 * 60 * 24);
-    return daysSincePush <= 30; // 30 天內有更新 = 活躍
-  }
-
-  function getLanguageColor(language: string | null): string {
-    const colors: Record<string, string> = {
-      JavaScript: "#f1e05a",
-      TypeScript: "#3178c6",
-      Python: "#3572A5",
-      Rust: "#dea584",
-      Go: "#00ADD8",
-      Java: "#b07219",
-      Ruby: "#701516",
-      PHP: "#4F5D95",
-      "C++": "#f34b7d",
-      C: "#555555",
-      "C#": "#178600",
-      Swift: "#F05138",
-      Kotlin: "#A97BFF",
-      Vue: "#41b883",
-      Svelte: "#ff3e00",
-      HTML: "#e34c26",
-      CSS: "#563d7c",
-      Shell: "#89e051",
-    };
-    return colors[language || ""] || "#8b8b8b";
+    return daysSincePush <= 30; // Active if updated in the last 30 days
   }
 </script>
 
@@ -66,6 +43,7 @@
     href={`https://github.com/${repo.fullName}`}
     target="_blank"
     rel="noopener noreferrer"
+    data-repo-card
     class="flex items-center gap-3 px-3 py-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-lg transition-colors group"
   >
     {#if repo.language}
@@ -93,7 +71,7 @@
   </a>
 {:else if layoutMode === "list"}
   <!-- List mode -->
-  <div class="card p-4 hover:border-primary-300 dark:hover:border-primary-700 transition-colors">
+  <div data-repo-card class="card p-4 hover:border-primary-300 dark:hover:border-primary-700 transition-colors">
     <div class="flex items-start gap-4">
       <div class="flex-1 min-w-0">
         <div class="flex items-center gap-2 mb-1">
@@ -136,7 +114,7 @@
   </div>
 {:else}
   <!-- Card mode -->
-  <div class="card p-4 hover:border-primary-300 dark:hover:border-primary-700 transition-colors flex flex-col">
+  <div data-repo-card class="card p-4 hover:border-primary-300 dark:hover:border-primary-700 transition-colors flex flex-col">
     <div class="flex items-start justify-between gap-2 mb-2">
       <a
         href={`https://github.com/${repo.fullName}`}

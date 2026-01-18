@@ -111,6 +111,7 @@
 
   function handleFilterChange(newFilter: Partial<FilterState>) {
     filter = { ...filter, ...newFilter };
+    updateURL();
   }
 
   function handleLayoutChange(mode: LayoutMode) {
