@@ -1,0 +1,97 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "ViPro's Pocket",
+  description = "👀 Stay awhile and listen.",
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL("/pocket/og.png", Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/pocket/1f440.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Kurale&family=Noto+Sans+TC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Primary Meta Tags -->
+    <title>{title}</title>
+    <meta name="title" content={title} />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={canonicalURL} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={ogImage} />
+
+    <!-- RSS Feed -->
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={title}
+      href="/pocket/rss.xml"
+    />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": title,
+      "description": description,
+      "url": "https://vdustr.dev/pocket/",
+      "author": {
+        "@type": "Person",
+        "name": "VdustR",
+        "url": "https://github.com/VdustR"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://vdustr.dev/pocket/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    })} />
+
+    <!-- Theme -->
+    <script is:inline>
+      const theme = localStorage.getItem("theme") || "system";
+      const prefersDark = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
+      const isDark = theme === "dark" || (theme === "system" && prefersDark);
+      document.documentElement.classList.toggle("dark", isDark);
+    </script>
+  </head>
+  <body
+    class="min-h-screen bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100 font-sans"
+  >
+    <slot />
+  </body>
+</html>
+
+<style is:global>
+  @import "../styles/global.css";
+</style>
