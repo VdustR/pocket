@@ -17,7 +17,7 @@ export async function GET(context: APIContext) {
   } catch {
     // Fallback: try to import the file directly during build
     try {
-      const data = await import("../data/repos.json");
+      const data = await import("../../public/data/repos.json");
       repos = data.default as Repo[];
     } catch {
       console.warn("Could not load repos data for RSS feed");

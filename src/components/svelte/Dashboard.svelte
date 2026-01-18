@@ -1,13 +1,13 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import Icon from "@iconify/svelte";
-  import type { Repo } from "../../lib/types";
+  import type { Repo, LanguageWithCount } from "../../lib/types";
   import { Chart, ArcElement, Tooltip, Legend, PieController } from "chart.js";
   import { getLanguageColor } from "../../lib/colors";
 
   interface Props {
     repos: Repo[];
-    languages: string[];
+    languages: LanguageWithCount[];
   }
 
   let { repos, languages }: Props = $props();
@@ -21,17 +21,8 @@
   let totalForks = $derived(repos.reduce((sum, r) => sum + r.forks, 0));
   let avgStars = $derived(Math.round(totalStars / (repos.length || 1)));
 
-  let languageDistribution = $derived(() => {
-    const dist: Record<string, number> = {};
-    repos.forEach((repo) => {
-      if (repo.language) {
-        dist[repo.language] = (dist[repo.language] || 0) + 1;
-      }
-    });
-    return Object.entries(dist)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 10);
-  });
+  // Use the pre-calculated languages prop (already sorted by count)
+  let topLanguages = $derived(languages.slice(0, 10));
 
   let topRepos = $derived(
     [...repos].sort((a, b) => b.stars - a.stars).slice(0, 10)
@@ -63,16 +54,15 @@
 
     mediaQuery.addEventListener("change", handleResize);
 
-    const data = languageDistribution();
-    if (data.length > 0 && chartCanvas) {
+    if (topLanguages.length > 0 && chartCanvas) {
       chart = new Chart(chartCanvas, {
         type: "pie",
         data: {
-          labels: data.map(([lang]) => lang),
+          labels: topLanguages.map((l) => l.name),
           datasets: [
             {
-              data: data.map(([, count]) => count),
-              backgroundColor: data.map(([lang]) => getLanguageColor(lang)),
+              data: topLanguages.map((l) => l.count),
+              backgroundColor: topLanguages.map((l) => getLanguageColor(l.name)),
               borderWidth: 0,
             },
           ],

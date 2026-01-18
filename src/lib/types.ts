@@ -49,3 +49,11 @@ export interface FilterState {
   sortField: SortField;
   sortOrder: SortOrder;
 }
+
+export interface FilterItemWithCount {
+  name: string;
+  count: number;
+}
+
+export type TopicWithCount = FilterItemWithCount;
+export type LanguageWithCount = FilterItemWithCount;
