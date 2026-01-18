@@ -1,11 +1,13 @@
 import { writable, derived } from "svelte/store";
-import type { Repo, FilterState } from "../lib/types";
+import type { Repo, FilterState, LanguageWithCount, TopicWithCount } from "../lib/types";
 import { filterAndSortRepos } from "../lib/search";
+
+declare const __BUILD_TIME__: string;
 
 // Writable stores for raw data
 export const repos = writable<Repo[]>([]);
-export const languages = writable<string[]>([]);
-export const topics = writable<string[]>([]);
+export const languages = writable<LanguageWithCount[]>([]);
+export const topics = writable<TopicWithCount[]>([]);
 export const isLoading = writable(true);
 
 // Filter state store
@@ -33,9 +35,10 @@ export async function loadData() {
   try {
     // Use hardcoded base URL - Astro sets this at build time
     const baseUrl = "/pocket/";
+    const cacheBuster = `?v=${__BUILD_TIME__}`;
     const [reposRes, filtersRes] = await Promise.all([
-      fetch(baseUrl + "data/repos.json"),
-      fetch(baseUrl + "data/filters.json"),
+      fetch(baseUrl + "data/repos.json" + cacheBuster),
+      fetch(baseUrl + "data/filters.json" + cacheBuster),
     ]);
 
     const reposData = await reposRes.json();

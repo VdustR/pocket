@@ -4,10 +4,10 @@ import Fuse from "fuse.js";
 import { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
 import { calculateScore } from "../src/lib/scoring";
-import type { Repo, RepoStats } from "../src/lib/types";
+import type { Repo, RepoStats, LanguageWithCount, TopicWithCount } from "../src/lib/types";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const OUTPUT_DIR = resolve(__dirname, "../src/data");
+const OUTPUT_DIR = resolve(__dirname, "../public/data");
 
 // Initialize Octokit with optional token for higher rate limits
 const octokit = new Octokit({
@@ -159,11 +159,21 @@ async function main() {
     );
     console.log("Written stats.json");
 
-    // Extract unique languages and topics for filters
-    const languages = [
-      ...new Set(repos.map((r) => r.language).filter(Boolean)),
-    ].sort() as string[];
-    const topics = [...new Set(repos.flatMap((r) => r.topics))].sort();
+    // Use stats.languageDistribution to create sorted LanguageWithCount array
+    const languages: LanguageWithCount[] = Object.entries(stats.languageDistribution)
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => b.count - a.count);
+
+    // Calculate topic usage counts and sort by popularity
+    const topicCounts: Record<string, number> = {};
+    for (const repo of repos) {
+      for (const topic of repo.topics) {
+        topicCounts[topic] = (topicCounts[topic] || 0) + 1;
+      }
+    }
+    const topics: TopicWithCount[] = Object.entries(topicCounts)
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => b.count - a.count);
 
     await writeFile(
       resolve(OUTPUT_DIR, "filters.json"),

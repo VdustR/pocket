@@ -8,6 +8,9 @@ export default defineConfig({
   integrations: [svelte()],
   vite: {
     plugins: [tailwindcss()],
+    define: {
+      __BUILD_TIME__: JSON.stringify(Date.now().toString(36)),
+    },
   },
   output: "static",
 });
