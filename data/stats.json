@@ -1,8 +1,8 @@
 {
-  "totalRepos": 1498,
-  "totalStars": 23004768,
+  "totalRepos": 1499,
+  "totalStars": 23175051,
   "languageDistribution": {
-    "TypeScript": 551,
+    "TypeScript": 552,
     "Rust": 47,
     "Go": 50,
     "C++": 57,
@@ -36,8 +36,8 @@
     "Dockerfile": 5,
     "MDX": 1,
     "Mermaid": 1,
-    "Objective-C": 1,
     "JSON": 1,
+    "Objective-C": 1,
     "Jupyter Notebook": 5,
     "Haxe": 3,
     "Scala": 1,
@@ -59,22 +59,61 @@
   },
   "topActiveRepos": [
     {
+      "owner": "n8n-io",
+      "name": "n8n",
+      "fullName": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "homepage": "https://n8n.io",
+      "stars": 169815,
+      "forks": 53763,
+      "watchers": 169815,
+      "openIssues": 1244,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ],
+      "createdAt": "2019-06-22T09:24:21Z",
+      "updatedAt": "2026-01-19T01:34:39Z",
+      "pushedAt": "2026-01-18T22:47:46Z",
+      "starredAt": "2026-01-19T01:14:28Z",
+      "score": 1
+    },
+    {
       "owner": "anomalyco",
       "name": "opencode",
       "fullName": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "homepage": "https://opencode.ai",
-      "stars": 76663,
-      "forks": 6753,
-      "watchers": 76663,
-      "openIssues": 3274,
+      "stars": 76746,
+      "forks": 6757,
+      "watchers": 76746,
+      "openIssues": 3276,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2025-04-30T20:08:00Z",
-      "updatedAt": "2026-01-19T00:33:13Z",
+      "updatedAt": "2026-01-19T01:37:06Z",
       "pushedAt": "2026-01-19T00:23:42Z",
       "starredAt": "2026-01-07T21:29:51Z",
-      "score": 0.9862467700660098
+      "score": 0.9862843647057841
     },
     {
       "owner": "starship",
@@ -82,9 +121,9 @@
       "fullName": "starship/starship",
       "description": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
       "homepage": "https://starship.rs",
-      "stars": 53557,
-      "forks": 2349,
-      "watchers": 53557,
+      "stars": 53558,
+      "forks": 2348,
+      "watchers": 53558,
       "openIssues": 965,
       "language": "Rust",
       "topics": [
@@ -102,10 +141,10 @@
         "zsh-theme"
       ],
       "createdAt": "2019-04-02T03:23:12Z",
-      "updatedAt": "2026-01-18T23:13:18Z",
+      "updatedAt": "2026-01-19T00:44:08Z",
       "pushedAt": "2026-01-18T19:53:01Z",
       "starredAt": "2025-09-19T02:28:12Z",
-      "score": 0.9285799206760892
+      "score": 0.9285805693790692
     },
     {
       "owner": "GopeedLab",
@@ -113,9 +152,9 @@
       "fullName": "GopeedLab/gopeed",
       "description": "A modern download manager that supports all platforms.  Built with Golang and Flutter.",
       "homepage": "https://gopeed.com",
-      "stars": 22425,
+      "stars": 22426,
       "forks": 1548,
-      "watchers": 22425,
+      "watchers": 22426,
       "openIssues": 243,
       "language": "Go",
       "topics": [
@@ -136,10 +175,10 @@
         "windows"
       ],
       "createdAt": "2019-04-21T07:23:32Z",
-      "updatedAt": "2026-01-18T21:54:09Z",
+      "updatedAt": "2026-01-19T00:46:10Z",
       "pushedAt": "2026-01-16T05:53:59Z",
       "starredAt": "2025-12-02T16:06:09Z",
-      "score": 0.9271012413157242
+      "score": 0.9271027905346643
     },
     {
       "owner": "upstash",
@@ -147,9 +186,9 @@
       "fullName": "upstash/context7",
       "description": "Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors",
       "homepage": "https://context7.com",
-      "stars": 42436,
+      "stars": 42441,
       "forks": 2053,
-      "watchers": 42436,
+      "watchers": 42441,
       "openIssues": 91,
       "language": "TypeScript",
       "topics": [
@@ -159,10 +198,10 @@
         "vibe-coding"
       ],
       "createdAt": "2025-03-26T23:40:39Z",
-      "updatedAt": "2026-01-19T00:25:25Z",
+      "updatedAt": "2026-01-19T01:18:03Z",
       "pushedAt": "2026-01-17T20:17:56Z",
       "starredAt": "2025-10-01T03:06:32Z",
-      "score": 0.9246031356216577
+      "score": 0.9246072289260785
     },
     {
       "owner": "telegramdesktop",
@@ -170,9 +209,9 @@
       "fullName": "telegramdesktop/tdesktop",
       "description": "Telegram Desktop messaging app",
       "homepage": "https://desktop.telegram.org/",
-      "stars": 29569,
+      "stars": 29570,
       "forks": 6190,
-      "watchers": 29569,
+      "watchers": 29570,
       "openIssues": 935,
       "language": "C++",
       "topics": [
@@ -183,10 +222,10 @@
         "telegram-solution"
       ],
       "createdAt": "2014-05-02T12:36:31Z",
-      "updatedAt": "2026-01-18T21:01:12Z",
+      "updatedAt": "2026-01-19T01:13:56Z",
       "pushedAt": "2026-01-16T11:45:29Z",
       "starredAt": "2025-10-11T15:19:11Z",
-      "score": 0.9153393388388018
+      "score": 0.9153405137786423
     },
     {
       "owner": "DrKLO",
@@ -214,9 +253,9 @@
       "fullName": "JunkFood02/Seal",
       "description": "🦭 Video/Audio Downloader for Android, based on yt-dlp",
       "homepage": "",
-      "stars": 24036,
+      "stars": 24040,
       "forks": 1029,
-      "watchers": 24036,
+      "watchers": 24040,
       "openIssues": 565,
       "language": "Kotlin",
       "topics": [
@@ -230,10 +269,10 @@
         "yt-dlp"
       ],
       "createdAt": "2022-04-15T01:15:25Z",
-      "updatedAt": "2026-01-18T23:40:13Z",
+      "updatedAt": "2026-01-19T01:08:32Z",
       "pushedAt": "2025-12-25T15:35:29Z",
       "starredAt": "2025-12-02T16:33:05Z",
-      "score": 0.9114293251868699
+      "score": 0.9114351063855275
     },
     {
       "owner": "ChromeDevTools",
@@ -241,9 +280,9 @@
       "fullName": "ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "homepage": "https://npmjs.org/package/chrome-devtools-mcp",
-      "stars": 21463,
+      "stars": 21465,
       "forks": 1287,
-      "watchers": 21463,
+      "watchers": 21465,
       "openIssues": 73,
       "language": "TypeScript",
       "topics": [
@@ -257,10 +296,10 @@
         "puppeteer"
       ],
       "createdAt": "2025-09-11T10:39:55Z",
-      "updatedAt": "2026-01-19T00:24:56Z",
+      "updatedAt": "2026-01-19T01:27:12Z",
       "pushedAt": "2026-01-18T09:07:42Z",
       "starredAt": "2025-10-23T00:38:46Z",
-      "score": 0.9107834281155763
+      "score": 0.9103757064403116
     },
     {
       "owner": "pinojs",
@@ -285,27 +324,48 @@
       "pushedAt": "2026-01-14T19:03:32Z",
       "starredAt": "2025-11-05T03:51:15Z",
       "score": 0.9050931095215407
-    },
-    {
-      "owner": "vercel-labs",
-      "name": "json-render",
-      "fullName": "vercel-labs/json-render",
-      "description": "AI → JSON → UI",
-      "homepage": "https://json-render.dev",
-      "stars": 6473,
-      "forks": 316,
-      "watchers": 6473,
-      "openIssues": 17,
-      "language": "TypeScript",
-      "topics": [],
-      "createdAt": "2026-01-14T17:22:39Z",
-      "updatedAt": "2026-01-19T00:32:55Z",
-      "pushedAt": "2026-01-17T04:45:16Z",
-      "starredAt": "2026-01-16T00:56:26Z",
-      "score": 0.903249979988886
     }
   ],
   "recentlyStarred": [
+    {
+      "owner": "n8n-io",
+      "name": "n8n",
+      "fullName": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "homepage": "https://n8n.io",
+      "stars": 169815,
+      "forks": 53763,
+      "watchers": 169815,
+      "openIssues": 1244,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ],
+      "createdAt": "2019-06-22T09:24:21Z",
+      "updatedAt": "2026-01-19T01:34:39Z",
+      "pushedAt": "2026-01-18T22:47:46Z",
+      "starredAt": "2026-01-19T01:14:28Z",
+      "score": 1
+    },
     {
       "owner": "pschlan",
       "name": "cron-job.org",
@@ -409,17 +469,17 @@
       "fullName": "vercel-labs/add-skill",
       "description": "",
       "homepage": "",
-      "stars": 1200,
-      "forks": 61,
-      "watchers": 1200,
+      "stars": 1207,
+      "forks": 63,
+      "watchers": 1207,
       "openIssues": 19,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-01-14T21:31:18Z",
-      "updatedAt": "2026-01-19T00:31:55Z",
+      "updatedAt": "2026-01-19T01:33:50Z",
       "pushedAt": "2026-01-18T16:53:34Z",
       "starredAt": "2026-01-16T01:07:28Z",
-      "score": 0.8455415227840133
+      "score": 0.8453324780304803
     },
     {
       "owner": "vercel-labs",
@@ -427,17 +487,17 @@
       "fullName": "vercel-labs/json-render",
       "description": "AI → JSON → UI",
       "homepage": "https://json-render.dev",
-      "stars": 6473,
-      "forks": 316,
-      "watchers": 6473,
+      "stars": 6542,
+      "forks": 320,
+      "watchers": 6542,
       "openIssues": 17,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-01-14T17:22:39Z",
-      "updatedAt": "2026-01-19T00:32:55Z",
+      "updatedAt": "2026-01-19T01:36:52Z",
       "pushedAt": "2026-01-17T04:45:16Z",
       "starredAt": "2026-01-16T00:56:26Z",
-      "score": 0.903249979988886
+      "score": 0.9032073591033211
     },
     {
       "owner": "ZDoom",
@@ -463,17 +523,17 @@
       "fullName": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "homepage": "https://opencode.ai",
-      "stars": 76663,
-      "forks": 6753,
-      "watchers": 76663,
-      "openIssues": 3274,
+      "stars": 76746,
+      "forks": 6757,
+      "watchers": 76746,
+      "openIssues": 3276,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2025-04-30T20:08:00Z",
-      "updatedAt": "2026-01-19T00:33:13Z",
+      "updatedAt": "2026-01-19T01:37:06Z",
       "pushedAt": "2026-01-19T00:23:42Z",
       "starredAt": "2026-01-07T21:29:51Z",
-      "score": 0.9862467700660098
+      "score": 0.9862843647057841
     },
     {
       "owner": "emanuele-f",
@@ -505,30 +565,6 @@
       "pushedAt": "2026-01-15T20:25:25Z",
       "starredAt": "2026-01-05T23:57:30Z",
       "score": 0.876801979896064
-    },
-    {
-      "owner": "PavelDoGreat",
-      "name": "WebGL-Fluid-Simulation",
-      "fullName": "PavelDoGreat/WebGL-Fluid-Simulation",
-      "description": "Play with fluids in your browser (works even on mobile)",
-      "homepage": "https://paveldogreat.github.io/WebGL-Fluid-Simulation/",
-      "stars": 16067,
-      "forks": 1838,
-      "watchers": 16067,
-      "openIssues": 75,
-      "language": "JavaScript",
-      "topics": [
-        "fluid",
-        "gpu",
-        "navier-stokes",
-        "simulation",
-        "webgl"
-      ],
-      "createdAt": "2017-08-22T21:30:33Z",
-      "updatedAt": "2026-01-18T17:35:15Z",
-      "pushedAt": "2024-11-12T13:29:23Z",
-      "starredAt": "2026-01-04T03:13:20Z",
-      "score": 0.6307235211872364
     }
   ]
 }
