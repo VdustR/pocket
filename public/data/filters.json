@@ -2075,11 +2075,11 @@
       "count": 3
     },
     {
-      "name": "snapshot",
+      "name": "package",
       "count": 3
     },
     {
-      "name": "package",
+      "name": "snapshot",
       "count": 3
     },
     {
@@ -2775,15 +2775,15 @@
       "count": 2
     },
     {
-      "name": "fake",
-      "count": 2
-    },
-    {
       "name": "bitbucket",
       "count": 2
     },
     {
       "name": "dependency-manager",
+      "count": 2
+    },
+    {
+      "name": "fake",
       "count": 2
     },
     {
@@ -3279,11 +3279,11 @@
       "count": 2
     },
     {
-      "name": "facebook",
+      "name": "store",
       "count": 2
     },
     {
-      "name": "store",
+      "name": "facebook",
       "count": 2
     },
     {
@@ -3435,6 +3435,10 @@
       "count": 2
     },
     {
+      "name": "static-code-analysis",
+      "count": 2
+    },
+    {
       "name": "configuration-file",
       "count": 2
     },
@@ -3468,10 +3472,6 @@
     },
     {
       "name": "multiplatform",
-      "count": 2
-    },
-    {
-      "name": "static-code-analysis",
       "count": 2
     },
     {
@@ -3515,15 +3515,15 @@
       "count": 2
     },
     {
-      "name": "status",
-      "count": 2
-    },
-    {
       "name": "qml",
       "count": 2
     },
     {
       "name": "virtual-machine",
+      "count": 2
+    },
+    {
+      "name": "status",
       "count": 2
     },
     {
@@ -3627,11 +3627,11 @@
       "count": 2
     },
     {
-      "name": "config",
+      "name": "unified",
       "count": 2
     },
     {
-      "name": "unified",
+      "name": "config",
       "count": 2
     },
     {
@@ -3819,6 +3819,10 @@
       "count": 2
     },
     {
+      "name": "uglifyjs",
+      "count": 2
+    },
+    {
       "name": "http-request",
       "count": 2
     },
@@ -3856,10 +3860,6 @@
     },
     {
       "name": "user-agent-parser",
-      "count": 2
-    },
-    {
-      "name": "uglifyjs",
       "count": 2
     },
     {
@@ -5335,14 +5335,6 @@
       "count": 1
     },
     {
-      "name": "nonsense",
-      "count": 1
-    },
-    {
-      "name": "useless",
-      "count": 1
-    },
-    {
       "name": "azure-devops",
       "count": 1
     },
@@ -5352,6 +5344,14 @@
     },
     {
       "name": "package-management",
+      "count": 1
+    },
+    {
+      "name": "nonsense",
+      "count": 1
+    },
+    {
+      "name": "useless",
       "count": 1
     },
     {
@@ -5543,18 +5543,6 @@
       "count": 1
     },
     {
-      "name": "file-transfer",
-      "count": 1
-    },
-    {
-      "name": "mtp",
-      "count": 1
-    },
-    {
-      "name": "openmtp",
-      "count": 1
-    },
-    {
       "name": "android-application",
       "count": 1
     },
@@ -5564,6 +5552,18 @@
     },
     {
       "name": "cordova",
+      "count": 1
+    },
+    {
+      "name": "file-transfer",
+      "count": 1
+    },
+    {
+      "name": "mtp",
+      "count": 1
+    },
+    {
+      "name": "openmtp",
       "count": 1
     },
     {
@@ -6927,26 +6927,6 @@
       "count": 1
     },
     {
-      "name": "easy",
-      "count": 1
-    },
-    {
-      "name": "expectation",
-      "count": 1
-    },
-    {
-      "name": "immersive",
-      "count": 1
-    },
-    {
-      "name": "painless",
-      "count": 1
-    },
-    {
-      "name": "painless-javascript-testing",
-      "count": 1
-    },
-    {
       "name": "gemini",
       "count": 1
     },
@@ -6964,6 +6944,26 @@
     },
     {
       "name": "logging",
+      "count": 1
+    },
+    {
+      "name": "easy",
+      "count": 1
+    },
+    {
+      "name": "expectation",
+      "count": 1
+    },
+    {
+      "name": "immersive",
+      "count": 1
+    },
+    {
+      "name": "painless",
+      "count": 1
+    },
+    {
+      "name": "painless-javascript-testing",
       "count": 1
     },
     {
@@ -7383,14 +7383,6 @@
       "count": 1
     },
     {
-      "name": "algorithms-and-data-structures",
-      "count": 1
-    },
-    {
-      "name": "tutorials",
-      "count": 1
-    },
-    {
       "name": "react-spring",
       "count": 1
     },
@@ -7408,6 +7400,14 @@
     },
     {
       "name": "image-editing",
+      "count": 1
+    },
+    {
+      "name": "algorithms-and-data-structures",
+      "count": 1
+    },
+    {
+      "name": "tutorials",
       "count": 1
     },
     {
@@ -7699,15 +7699,15 @@
       "count": 1
     },
     {
+      "name": "javascript-engine",
+      "count": 1
+    },
+    {
       "name": "badge",
       "count": 1
     },
     {
       "name": "badge-maker",
-      "count": 1
-    },
-    {
-      "name": "javascript-engine",
       "count": 1
     },
     {
@@ -7851,15 +7851,15 @@
       "count": 1
     },
     {
-      "name": "reasonml",
-      "count": 1
-    },
-    {
       "name": "eye-care",
       "count": 1
     },
     {
       "name": "night-mode",
+      "count": 1
+    },
+    {
+      "name": "reasonml",
       "count": 1
     },
     {
@@ -8207,18 +8207,6 @@
       "count": 1
     },
     {
-      "name": "public",
-      "count": 1
-    },
-    {
-      "name": "public-api",
-      "count": 1
-    },
-    {
-      "name": "public-apis",
-      "count": 1
-    },
-    {
       "name": "charting-library",
       "count": 1
     },
@@ -8272,6 +8260,18 @@
     },
     {
       "name": "gitmoji",
+      "count": 1
+    },
+    {
+      "name": "public",
+      "count": 1
+    },
+    {
+      "name": "public-api",
+      "count": 1
+    },
+    {
+      "name": "public-apis",
       "count": 1
     },
     {
@@ -9075,6 +9075,14 @@
       "count": 1
     },
     {
+      "name": "github-apps",
+      "count": 1
+    },
+    {
+      "name": "probot",
+      "count": 1
+    },
+    {
       "name": "dprint",
       "count": 1
     },
@@ -9087,11 +9095,35 @@
       "count": 1
     },
     {
+      "name": "compressor",
+      "count": 1
+    },
+    {
+      "name": "mangler",
+      "count": 1
+    },
+    {
       "name": "whatwg-fetch",
       "count": 1
     },
     {
       "name": "csv-parser",
+      "count": 1
+    },
+    {
+      "name": "gdscript",
+      "count": 1
+    },
+    {
+      "name": "pixel-art-maker",
+      "count": 1
+    },
+    {
+      "name": "pixelorama",
+      "count": 1
+    },
+    {
+      "name": "sprite-animation",
       "count": 1
     },
     {
@@ -9112,22 +9144,6 @@
     },
     {
       "name": "serverless-functions",
-      "count": 1
-    },
-    {
-      "name": "gdscript",
-      "count": 1
-    },
-    {
-      "name": "pixel-art-maker",
-      "count": 1
-    },
-    {
-      "name": "pixelorama",
-      "count": 1
-    },
-    {
-      "name": "sprite-animation",
       "count": 1
     },
     {
@@ -9271,11 +9287,7 @@
       "count": 1
     },
     {
-      "name": "compressor",
-      "count": 1
-    },
-    {
-      "name": "mangler",
+      "name": "docker-node",
       "count": 1
     },
     {
@@ -9292,14 +9304,6 @@
     },
     {
       "name": "xonsh",
-      "count": 1
-    },
-    {
-      "name": "github-apps",
-      "count": 1
-    },
-    {
-      "name": "probot",
       "count": 1
     },
     {
@@ -9375,10 +9379,6 @@
       "count": 1
     },
     {
-      "name": "docker-node",
-      "count": 1
-    },
-    {
       "name": "menu-bar",
       "count": 1
     },
@@ -9395,22 +9395,6 @@
       "count": 1
     },
     {
-      "name": "browsers",
-      "count": 1
-    },
-    {
-      "name": "querystrings",
-      "count": 1
-    },
-    {
-      "name": "url-parsing",
-      "count": 1
-    },
-    {
-      "name": "path-to-regexp",
-      "count": 1
-    },
-    {
       "name": "dates",
       "count": 1
     },
@@ -9424,6 +9408,18 @@
     },
     {
       "name": "timezones",
+      "count": 1
+    },
+    {
+      "name": "browsers",
+      "count": 1
+    },
+    {
+      "name": "querystrings",
+      "count": 1
+    },
+    {
+      "name": "url-parsing",
       "count": 1
     },
     {
@@ -9452,6 +9448,10 @@
     },
     {
       "name": "vcs",
+      "count": 1
+    },
+    {
+      "name": "path-to-regexp",
       "count": 1
     },
     {
@@ -9567,6 +9567,18 @@
       "count": 1
     },
     {
+      "name": "format-pug",
+      "count": 1
+    },
+    {
+      "name": "prettier-plugin",
+      "count": 1
+    },
+    {
+      "name": "pug",
+      "count": 1
+    },
+    {
       "name": "log",
       "count": 1
     },
@@ -9588,18 +9600,6 @@
     },
     {
       "name": "minecraft",
-      "count": 1
-    },
-    {
-      "name": "format-pug",
-      "count": 1
-    },
-    {
-      "name": "prettier-plugin",
-      "count": 1
-    },
-    {
-      "name": "pug",
       "count": 1
     },
     {
@@ -10123,14 +10123,6 @@
       "count": 1
     },
     {
-      "name": "signature",
-      "count": 1
-    },
-    {
-      "name": "signature-pad",
-      "count": 1
-    },
-    {
       "name": "manifest-v2",
       "count": 1
     },
@@ -10140,6 +10132,14 @@
     },
     {
       "name": "rollup-js",
+      "count": 1
+    },
+    {
+      "name": "signature",
+      "count": 1
+    },
+    {
+      "name": "signature-pad",
       "count": 1
     },
     {
@@ -10535,30 +10535,6 @@
       "count": 1
     },
     {
-      "name": "css-properties",
-      "count": 1
-    },
-    {
-      "name": "mui",
-      "count": 1
-    },
-    {
-      "name": "mui-joy",
-      "count": 1
-    },
-    {
-      "name": "mui-material",
-      "count": 1
-    },
-    {
-      "name": "mui-system",
-      "count": 1
-    },
-    {
-      "name": "type-safe",
-      "count": 1
-    },
-    {
       "name": "golden-layout",
       "count": 1
     },
@@ -10580,6 +10556,30 @@
     },
     {
       "name": "nunjucks",
+      "count": 1
+    },
+    {
+      "name": "css-properties",
+      "count": 1
+    },
+    {
+      "name": "mui",
+      "count": 1
+    },
+    {
+      "name": "mui-joy",
+      "count": 1
+    },
+    {
+      "name": "mui-material",
+      "count": 1
+    },
+    {
+      "name": "mui-system",
+      "count": 1
+    },
+    {
+      "name": "type-safe",
       "count": 1
     },
     {
@@ -11115,19 +11115,19 @@
       "count": 1
     },
     {
-      "name": "open-data",
-      "count": 1
-    },
-    {
-      "name": "product",
-      "count": 1
-    },
-    {
       "name": "workbox",
       "count": 1
     },
     {
       "name": "keep",
+      "count": 1
+    },
+    {
+      "name": "open-data",
+      "count": 1
+    },
+    {
+      "name": "product",
       "count": 1
     },
     {
