@@ -151,7 +151,7 @@
 
       {#if showLanguages}
         <div
-          class="dropdown-panel w-64 max-h-80 overflow-y-auto bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 z-50"
+          class="dropdown-panel w-64 max-h-80 overflow-y-auto bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 z-40"
           role="listbox"
           aria-label="Filter by language"
         >
@@ -231,7 +231,7 @@
 
       {#if showTopics}
         <div
-          class="dropdown-panel w-[calc(100vw-2rem)] sm:w-80 max-h-80 overflow-y-auto bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 z-50"
+          class="dropdown-panel w-[calc(100vw-2rem)] sm:w-80 max-h-80 overflow-y-auto bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 z-40"
           role="listbox"
           aria-label="Filter by topic"
         >
@@ -313,7 +313,7 @@
 
       {#if showSort}
         <div
-          class="dropdown-panel w-48 bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 py-1 z-50"
+          class="dropdown-panel w-48 bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 py-1 z-40"
           role="listbox"
           aria-label="Sort repositories"
         >
