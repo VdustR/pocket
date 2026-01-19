@@ -151,7 +151,7 @@
 
       {#if showLanguages}
         <div
-          class="absolute left-0 mt-2 w-64 max-w-[calc(100vw-2rem)] max-h-80 overflow-y-auto bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 z-50"
+          class="dropdown-panel w-64 max-h-80 overflow-y-auto bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 z-50"
           role="listbox"
           aria-label="Filter by language"
         >
@@ -231,7 +231,7 @@
 
       {#if showTopics}
         <div
-          class="absolute left-0 sm:left-auto sm:right-0 mt-2 w-[calc(100vw-2rem)] sm:w-80 max-h-80 overflow-y-auto bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 z-50"
+          class="dropdown-panel w-[calc(100vw-2rem)] sm:w-80 max-h-80 overflow-y-auto bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 z-50"
           role="listbox"
           aria-label="Filter by topic"
         >
@@ -313,7 +313,7 @@
 
       {#if showSort}
         <div
-          class="absolute left-0 mt-2 w-48 bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 py-1 z-50"
+          class="dropdown-panel w-48 bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 py-1 z-50"
           role="listbox"
           aria-label="Sort repositories"
         >
@@ -389,3 +389,26 @@
     topicSearchQuery = "";
   }
 }} />
+
+<style>
+  /* Dropdown panel - responsive positioning */
+  :global(.dropdown-panel) {
+    position: fixed;
+    margin-top: 0.5rem;
+    /* Mobile: full width with padding */
+    left: 1rem;
+    right: 1rem;
+    width: auto !important;
+  }
+
+  /* Desktop: relative to button */
+  @media (min-width: 640px) {
+    :global(.dropdown-panel) {
+      position: absolute;
+      left: 0;
+      right: auto;
+      width: revert-layer !important;
+      max-width: calc(100vw - 2rem);
+    }
+  }
+</style>
