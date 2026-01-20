@@ -1487,11 +1487,11 @@
       "count": 4
     },
     {
-      "name": "docker-compose",
+      "name": "semantic",
       "count": 4
     },
     {
-      "name": "semantic",
+      "name": "docker-compose",
       "count": 4
     },
     {
@@ -2295,19 +2295,19 @@
       "count": 3
     },
     {
-      "name": "contributors",
-      "count": 3
-    },
-    {
-      "name": "datetime",
-      "count": 3
-    },
-    {
       "name": "eslint-config",
       "count": 3
     },
     {
       "name": "eslint-flat-config",
+      "count": 3
+    },
+    {
+      "name": "contributors",
+      "count": 3
+    },
+    {
+      "name": "datetime",
       "count": 3
     },
     {
@@ -2639,15 +2639,15 @@
       "count": 2
     },
     {
+      "name": "gui",
+      "count": 2
+    },
+    {
       "name": "pcsx2",
       "count": 2
     },
     {
       "name": "ps2",
-      "count": 2
-    },
-    {
-      "name": "gui",
       "count": 2
     },
     {
@@ -6135,6 +6135,14 @@
       "count": 1
     },
     {
+      "name": "cli-tool",
+      "count": 1
+    },
+    {
+      "name": "updates",
+      "count": 1
+    },
+    {
       "name": "template",
       "count": 1
     },
@@ -6244,14 +6252,6 @@
     },
     {
       "name": "prometheus",
-      "count": 1
-    },
-    {
-      "name": "cli-tool",
-      "count": 1
-    },
-    {
-      "name": "updates",
       "count": 1
     },
     {
@@ -6935,14 +6935,6 @@
       "count": 1
     },
     {
-      "name": "debug",
-      "count": 1
-    },
-    {
-      "name": "logging",
-      "count": 1
-    },
-    {
       "name": "challenges",
       "count": 1
     },
@@ -6964,6 +6956,14 @@
     },
     {
       "name": "painless-javascript-testing",
+      "count": 1
+    },
+    {
+      "name": "debug",
+      "count": 1
+    },
+    {
+      "name": "logging",
       "count": 1
     },
     {
@@ -9147,66 +9147,6 @@
       "count": 1
     },
     {
-      "name": "codec",
-      "count": 1
-    },
-    {
-      "name": "decoder",
-      "count": 1
-    },
-    {
-      "name": "encoder",
-      "count": 1
-    },
-    {
-      "name": "image-compression",
-      "count": 1
-    },
-    {
-      "name": "images",
-      "count": 1
-    },
-    {
-      "name": "jpeg-xl",
-      "count": 1
-    },
-    {
-      "name": "jxl",
-      "count": 1
-    },
-    {
-      "name": "lossless-compression-algorithm",
-      "count": 1
-    },
-    {
-      "name": "lossless-image-compression",
-      "count": 1
-    },
-    {
-      "name": "lossless-images",
-      "count": 1
-    },
-    {
-      "name": "lossy",
-      "count": 1
-    },
-    {
-      "name": "lossy-compression",
-      "count": 1
-    },
-    {
-      "name": "lossy-image-compression",
-      "count": 1
-    },
-    {
-      "name": "photography",
-      "count": 1
-    },
-    {
-      "name": "photos",
-      "count": 1
-    },
-    {
       "name": "loopback",
       "count": 1
     },
@@ -9284,6 +9224,66 @@
     },
     {
       "name": "betterdiscord",
+      "count": 1
+    },
+    {
+      "name": "codec",
+      "count": 1
+    },
+    {
+      "name": "decoder",
+      "count": 1
+    },
+    {
+      "name": "encoder",
+      "count": 1
+    },
+    {
+      "name": "image-compression",
+      "count": 1
+    },
+    {
+      "name": "images",
+      "count": 1
+    },
+    {
+      "name": "jpeg-xl",
+      "count": 1
+    },
+    {
+      "name": "jxl",
+      "count": 1
+    },
+    {
+      "name": "lossless-compression-algorithm",
+      "count": 1
+    },
+    {
+      "name": "lossless-image-compression",
+      "count": 1
+    },
+    {
+      "name": "lossless-images",
+      "count": 1
+    },
+    {
+      "name": "lossy",
+      "count": 1
+    },
+    {
+      "name": "lossy-compression",
+      "count": 1
+    },
+    {
+      "name": "lossy-image-compression",
+      "count": 1
+    },
+    {
+      "name": "photography",
+      "count": 1
+    },
+    {
+      "name": "photos",
       "count": 1
     },
     {
@@ -9391,6 +9391,22 @@
       "count": 1
     },
     {
+      "name": "menu-bar",
+      "count": 1
+    },
+    {
+      "name": "menubar-app",
+      "count": 1
+    },
+    {
+      "name": "status-bar",
+      "count": 1
+    },
+    {
+      "name": "statusbar",
+      "count": 1
+    },
+    {
       "name": "beautiful",
       "count": 1
     },
@@ -9408,22 +9424,6 @@
     },
     {
       "name": "tweet",
-      "count": 1
-    },
-    {
-      "name": "menu-bar",
-      "count": 1
-    },
-    {
-      "name": "menubar-app",
-      "count": 1
-    },
-    {
-      "name": "status-bar",
-      "count": 1
-    },
-    {
-      "name": "statusbar",
       "count": 1
     },
     {
@@ -11143,15 +11143,15 @@
       "count": 1
     },
     {
-      "name": "keep",
-      "count": 1
-    },
-    {
       "name": "open-data",
       "count": 1
     },
     {
       "name": "product",
+      "count": 1
+    },
+    {
+      "name": "keep",
       "count": 1
     },
     {
@@ -11164,22 +11164,6 @@
     },
     {
       "name": "worker-threads",
-      "count": 1
-    },
-    {
-      "name": "autocorrect",
-      "count": 1
-    },
-    {
-      "name": "copywriting",
-      "count": 1
-    },
-    {
-      "name": "lsp",
-      "count": 1
-    },
-    {
-      "name": "spellcheck",
       "count": 1
     },
     {
@@ -11200,6 +11184,22 @@
     },
     {
       "name": "uncensored",
+      "count": 1
+    },
+    {
+      "name": "autocorrect",
+      "count": 1
+    },
+    {
+      "name": "copywriting",
+      "count": 1
+    },
+    {
+      "name": "lsp",
+      "count": 1
+    },
+    {
+      "name": "spellcheck",
       "count": 1
     },
     {
@@ -14367,14 +14367,6 @@
       "count": 1
     },
     {
-      "name": "noto",
-      "count": 1
-    },
-    {
-      "name": "taipei",
-      "count": 1
-    },
-    {
       "name": "animate-on-scroll",
       "count": 1
     },
@@ -14396,6 +14388,14 @@
     },
     {
       "name": "simple",
+      "count": 1
+    },
+    {
+      "name": "noto",
+      "count": 1
+    },
+    {
+      "name": "taipei",
       "count": 1
     },
     {
