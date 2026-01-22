@@ -1,8 +1,9 @@
 {
-  "totalRepos": 1501,
-  "totalStars": 23215819,
+  "totalRepos": 1502,
+  "totalStars": 23229387,
   "languageDistribution": {
     "TypeScript": 552,
+    "Shell": 31,
     "Go": 50,
     "Rust": 48,
     "C++": 58,
@@ -13,7 +14,6 @@
     "HTML": 34,
     "Dart": 5,
     "C#": 24,
-    "Shell": 30,
     "C": 31,
     "Svelte": 10,
     "Astro": 1,
@@ -64,9 +64,9 @@
       "fullName": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "homepage": "https://n8n.io",
-      "stars": 170540,
+      "stars": 170551,
       "forks": 53909,
-      "watchers": 170540,
+      "watchers": 170551,
       "openIssues": 1276,
       "language": "TypeScript",
       "topics": [
@@ -92,8 +92,8 @@
         "workflow-automation"
       ],
       "createdAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-01-22T04:45:36Z",
-      "pushedAt": "2026-01-22T00:47:04Z",
+      "updatedAt": "2026-01-22T06:10:13Z",
+      "pushedAt": "2026-01-22T05:43:20Z",
       "starredAt": "2026-01-19T01:14:28Z",
       "score": 0.9987671232876711
     },
@@ -103,17 +103,35 @@
       "fullName": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "homepage": "https://opencode.ai",
-      "stars": 82589,
-      "forks": 7372,
-      "watchers": 82589,
-      "openIssues": 3551,
+      "stars": 82665,
+      "forks": 7376,
+      "watchers": 82665,
+      "openIssues": 3556,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2025-04-30T20:08:00Z",
-      "updatedAt": "2026-01-22T05:13:44Z",
-      "pushedAt": "2026-01-22T04:11:09Z",
+      "updatedAt": "2026-01-22T06:11:32Z",
+      "pushedAt": "2026-01-22T06:04:30Z",
       "starredAt": "2026-01-07T21:29:51Z",
-      "score": 0.9876007726315053
+      "score": 0.9876327292398719
+    },
+    {
+      "owner": "affaan-m",
+      "name": "everything-claude-code",
+      "fullName": "affaan-m/everything-claude-code",
+      "description": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.",
+      "homepage": "",
+      "stars": 13085,
+      "forks": 1640,
+      "watchers": 13085,
+      "openIssues": 6,
+      "language": "Shell",
+      "topics": [],
+      "createdAt": "2026-01-18T00:51:51Z",
+      "updatedAt": "2026-01-22T06:12:10Z",
+      "pushedAt": "2026-01-21T20:23:50Z",
+      "starredAt": "2026-01-22T05:53:26Z",
+      "score": 0.9293445532769875
     },
     {
       "owner": "GopeedLab",
@@ -145,7 +163,7 @@
       ],
       "createdAt": "2019-04-21T07:23:32Z",
       "updatedAt": "2026-01-22T04:43:59Z",
-      "pushedAt": "2026-01-22T03:28:46Z",
+      "pushedAt": "2026-01-22T06:10:58Z",
       "starredAt": "2025-12-02T16:06:09Z",
       "score": 0.9275555522593026
     },
@@ -186,9 +204,9 @@
       "fullName": "upstash/context7",
       "description": "Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors",
       "homepage": "https://context7.com",
-      "stars": 42896,
+      "stars": 42902,
       "forks": 2065,
-      "watchers": 42896,
+      "watchers": 42902,
       "openIssues": 94,
       "language": "TypeScript",
       "topics": [
@@ -198,10 +216,10 @@
         "vibe-coding"
       ],
       "createdAt": "2025-03-26T23:40:39Z",
-      "updatedAt": "2026-01-22T05:07:45Z",
+      "updatedAt": "2026-01-22T06:07:24Z",
       "pushedAt": "2026-01-21T20:25:52Z",
       "starredAt": "2025-10-01T03:06:32Z",
-      "score": 0.9241557975059594
+      "score": 0.9241606567449258
     },
     {
       "owner": "telegramdesktop",
@@ -209,9 +227,9 @@
       "fullName": "telegramdesktop/tdesktop",
       "description": "Telegram Desktop messaging app",
       "homepage": "https://desktop.telegram.org/",
-      "stars": 29599,
+      "stars": 29600,
       "forks": 6199,
-      "watchers": 29599,
+      "watchers": 29600,
       "openIssues": 936,
       "language": "C++",
       "topics": [
@@ -222,10 +240,10 @@
         "telegram-solution"
       ],
       "createdAt": "2014-05-02T12:36:31Z",
-      "updatedAt": "2026-01-22T04:43:20Z",
+      "updatedAt": "2026-01-22T05:59:22Z",
       "pushedAt": "2026-01-21T16:59:52Z",
       "starredAt": "2025-10-11T15:19:11Z",
-      "score": 0.9157855286655371
+      "score": 0.9157867024145804
     },
     {
       "owner": "vercel-labs",
@@ -233,17 +251,44 @@
       "fullName": "vercel-labs/json-render",
       "description": "AI → JSON → UI",
       "homepage": "https://json-render.dev",
-      "stars": 8104,
-      "forks": 404,
-      "watchers": 8104,
+      "stars": 8129,
+      "forks": 405,
+      "watchers": 8129,
       "openIssues": 28,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-01-14T17:22:39Z",
-      "updatedAt": "2026-01-22T05:11:59Z",
+      "updatedAt": "2026-01-22T06:08:23Z",
       "pushedAt": "2026-01-21T19:55:17Z",
       "starredAt": "2026-01-16T00:56:26Z",
-      "score": 0.9102344881101051
+      "score": 0.9103414902228679
+    },
+    {
+      "owner": "ChromeDevTools",
+      "name": "chrome-devtools-mcp",
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "homepage": "https://npmjs.org/package/chrome-devtools-mcp",
+      "stars": 21864,
+      "forks": 1303,
+      "watchers": 21864,
+      "openIssues": 63,
+      "language": "TypeScript",
+      "topics": [
+        "browser",
+        "chrome",
+        "chrome-devtools",
+        "debugging",
+        "devtools",
+        "mcp",
+        "mcp-server",
+        "puppeteer"
+      ],
+      "createdAt": "2025-09-11T10:39:55Z",
+      "updatedAt": "2026-01-22T06:09:31Z",
+      "pushedAt": "2026-01-21T18:23:33Z",
+      "starredAt": "2025-10-23T00:38:46Z",
+      "score": 0.9097826982604975
     },
     {
       "owner": "dexie",
@@ -268,57 +313,28 @@
       "updatedAt": "2026-01-22T00:57:38Z",
       "pushedAt": "2026-01-21T16:42:05Z",
       "starredAt": "2025-11-29T05:43:22Z",
-      "score": 0.9098622369391703
-    },
-    {
-      "owner": "ChromeDevTools",
-      "name": "chrome-devtools-mcp",
-      "fullName": "ChromeDevTools/chrome-devtools-mcp",
-      "description": "Chrome DevTools for coding agents",
-      "homepage": "https://npmjs.org/package/chrome-devtools-mcp",
-      "stars": 21859,
-      "forks": 1303,
-      "watchers": 21859,
-      "openIssues": 63,
-      "language": "TypeScript",
-      "topics": [
-        "browser",
-        "chrome",
-        "chrome-devtools",
-        "debugging",
-        "devtools",
-        "mcp",
-        "mcp-server",
-        "puppeteer"
-      ],
-      "createdAt": "2025-09-11T10:39:55Z",
-      "updatedAt": "2026-01-22T05:12:56Z",
-      "pushedAt": "2026-01-21T18:23:33Z",
-      "starredAt": "2025-10-23T00:38:46Z",
-      "score": 0.9097747523351221
-    },
-    {
-      "owner": "DrKLO",
-      "name": "Telegram",
-      "fullName": "DrKLO/Telegram",
-      "description": "Telegram for Android source",
-      "homepage": "",
-      "stars": 28362,
-      "forks": 9218,
-      "watchers": 28362,
-      "openIssues": 426,
-      "language": "Java",
-      "topics": [
-        "telegram"
-      ],
-      "createdAt": "2013-10-25T14:08:10Z",
-      "updatedAt": "2026-01-21T18:58:35Z",
-      "pushedAt": "2026-01-15T15:17:25Z",
-      "starredAt": "2025-10-11T15:18:51Z",
-      "score": 0.9093708581286634
+      "score": 0.9094512780350608
     }
   ],
   "recentlyStarred": [
+    {
+      "owner": "affaan-m",
+      "name": "everything-claude-code",
+      "fullName": "affaan-m/everything-claude-code",
+      "description": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.",
+      "homepage": "",
+      "stars": 13085,
+      "forks": 1640,
+      "watchers": 13085,
+      "openIssues": 6,
+      "language": "Shell",
+      "topics": [],
+      "createdAt": "2026-01-18T00:51:51Z",
+      "updatedAt": "2026-01-22T06:12:10Z",
+      "pushedAt": "2026-01-21T20:23:50Z",
+      "starredAt": "2026-01-22T05:53:26Z",
+      "score": 0.9293445532769875
+    },
     {
       "owner": "visioncortex",
       "name": "vtracer",
@@ -365,9 +381,9 @@
       "fullName": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "homepage": "https://n8n.io",
-      "stars": 170540,
+      "stars": 170551,
       "forks": 53909,
-      "watchers": 170540,
+      "watchers": 170551,
       "openIssues": 1276,
       "language": "TypeScript",
       "topics": [
@@ -393,8 +409,8 @@
         "workflow-automation"
       ],
       "createdAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-01-22T04:45:36Z",
-      "pushedAt": "2026-01-22T00:47:04Z",
+      "updatedAt": "2026-01-22T06:10:13Z",
+      "pushedAt": "2026-01-22T05:43:20Z",
       "starredAt": "2026-01-19T01:14:28Z",
       "score": 0.9987671232876711
     },
@@ -422,17 +438,17 @@
       "fullName": "gemini-cli-extensions/nanobanana",
       "description": "",
       "homepage": "",
-      "stars": 722,
+      "stars": 723,
       "forks": 69,
-      "watchers": 722,
+      "watchers": 723,
       "openIssues": 30,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2025-09-19T21:08:55Z",
-      "updatedAt": "2026-01-22T00:51:30Z",
+      "updatedAt": "2026-01-22T05:41:29Z",
       "pushedAt": "2026-01-07T16:44:57Z",
       "starredAt": "2026-01-18T07:05:06Z",
-      "score": 0.8159913377561652
+      "score": 0.8160393592683745
     },
     {
       "owner": "TeamAmaze",
@@ -440,9 +456,9 @@
       "fullName": "TeamAmaze/AmazeFileManager",
       "description": "Material design file manager for Android",
       "homepage": "https://teamamaze.xyz",
-      "stars": 5961,
+      "stars": 5960,
       "forks": 1650,
-      "watchers": 5961,
+      "watchers": 5960,
       "openIssues": 628,
       "language": "Kotlin",
       "topics": [
@@ -459,10 +475,10 @@
         "rxjava"
       ],
       "createdAt": "2014-07-14T19:47:53Z",
-      "updatedAt": "2026-01-22T02:16:52Z",
+      "updatedAt": "2026-01-22T05:25:01Z",
       "pushedAt": "2026-01-21T17:30:06Z",
       "starredAt": "2026-01-17T15:49:05Z",
-      "score": 0.9003875221192907
+      "score": 0.9003816941299199
     },
     {
       "owner": "jamesgeorge007",
@@ -501,17 +517,17 @@
       "fullName": "vercel-labs/add-skill",
       "description": "",
       "homepage": "",
-      "stars": 1717,
+      "stars": 1732,
       "forks": 101,
-      "watchers": 1717,
+      "watchers": 1732,
       "openIssues": 31,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-01-14T21:31:18Z",
-      "updatedAt": "2026-01-22T04:57:45Z",
+      "updatedAt": "2026-01-22T05:59:07Z",
       "pushedAt": "2026-01-21T21:09:28Z",
       "starredAt": "2026-01-16T01:07:28Z",
-      "score": 0.8563360993349604
+      "score": 0.8566381315924558
     },
     {
       "owner": "vercel-labs",
@@ -519,35 +535,17 @@
       "fullName": "vercel-labs/json-render",
       "description": "AI → JSON → UI",
       "homepage": "https://json-render.dev",
-      "stars": 8104,
-      "forks": 404,
-      "watchers": 8104,
+      "stars": 8129,
+      "forks": 405,
+      "watchers": 8129,
       "openIssues": 28,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-01-14T17:22:39Z",
-      "updatedAt": "2026-01-22T05:11:59Z",
+      "updatedAt": "2026-01-22T06:08:23Z",
       "pushedAt": "2026-01-21T19:55:17Z",
       "starredAt": "2026-01-16T00:56:26Z",
-      "score": 0.9102344881101051
-    },
-    {
-      "owner": "ZDoom",
-      "name": "gzdoom",
-      "fullName": "ZDoom/gzdoom",
-      "description": "GZDoom is a feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities",
-      "homepage": "http://zdoom.org",
-      "stars": 3006,
-      "forks": 626,
-      "watchers": 3006,
-      "openIssues": 180,
-      "language": "C++",
-      "topics": [],
-      "createdAt": "2013-06-23T06:38:12Z",
-      "updatedAt": "2026-01-21T09:00:29Z",
-      "pushedAt": "2025-11-17T06:40:58Z",
-      "starredAt": "2026-01-10T16:31:26Z",
-      "score": 0.8203054687685893
+      "score": 0.9103414902228679
     }
   ]
 }
