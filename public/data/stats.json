@@ -1,13 +1,13 @@
 {
   "totalRepos": 1506,
-  "totalStars": 23379141,
+  "totalStars": 23379618,
   "languageDistribution": {
     "TypeScript": 553,
     "Shell": 31,
     "JavaScript": 360,
     "C#": 25,
-    "Kotlin": 5,
     "Rust": 49,
+    "Kotlin": 5,
     "Go": 50,
     "C++": 58,
     "Java": 8,
@@ -64,9 +64,9 @@
       "fullName": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "homepage": "https://n8n.io",
-      "stars": 171363,
-      "forks": 54128,
-      "watchers": 171363,
+      "stars": 171372,
+      "forks": 54126,
+      "watchers": 171372,
       "openIssues": 1277,
       "language": "TypeScript",
       "topics": [
@@ -92,8 +92,8 @@
         "workflow-automation"
       ],
       "createdAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-01-26T16:00:29Z",
-      "pushedAt": "2026-01-26T16:09:28Z",
+      "updatedAt": "2026-01-26T17:11:25Z",
+      "pushedAt": "2026-01-26T17:11:26Z",
       "starredAt": "2026-01-19T01:14:28Z",
       "score": 0.9971232876712328
     },
@@ -103,17 +103,17 @@
       "fullName": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "homepage": "https://opencode.ai",
-      "stars": 88577,
-      "forks": 8084,
-      "watchers": 88577,
-      "openIssues": 3945,
+      "stars": 88606,
+      "forks": 8092,
+      "watchers": 88606,
+      "openIssues": 3946,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2025-04-30T20:08:00Z",
-      "updatedAt": "2026-01-26T16:10:41Z",
-      "pushedAt": "2026-01-26T15:53:15Z",
+      "updatedAt": "2026-01-26T17:10:47Z",
+      "pushedAt": "2026-01-26T17:09:23Z",
       "starredAt": "2026-01-07T21:29:51Z",
-      "score": 0.9883888093370183
+      "score": 0.9884001823449706
     },
     {
       "owner": "anthropics",
@@ -121,17 +121,17 @@
       "fullName": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "homepage": "https://code.claude.com/docs/en/overview",
-      "stars": 60892,
-      "forks": 4547,
-      "watchers": 60892,
-      "openIssues": 5511,
+      "stars": 60907,
+      "forks": 4546,
+      "watchers": 60907,
+      "openIssues": 5526,
       "language": "Shell",
       "topics": [],
       "createdAt": "2025-02-22T17:41:21Z",
-      "updatedAt": "2026-01-26T16:10:15Z",
+      "updatedAt": "2026-01-26T17:11:36Z",
       "pushedAt": "2026-01-24T21:58:50Z",
       "starredAt": "2026-01-24T19:15:11Z",
-      "score": 0.9815325129562942
+      "score": 0.9815410704128162
     },
     {
       "owner": "affaan-m",
@@ -139,10 +139,10 @@
       "fullName": "affaan-m/everything-claude-code",
       "description": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.",
       "homepage": "",
-      "stars": 30502,
-      "forks": 3667,
-      "watchers": 30502,
-      "openIssues": 13,
+      "stars": 30586,
+      "forks": 3675,
+      "watchers": 30586,
+      "openIssues": 14,
       "language": "JavaScript",
       "topics": [
         "ai-agents",
@@ -155,10 +155,10 @@
         "productivity"
       ],
       "createdAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-01-26T16:11:30Z",
+      "updatedAt": "2026-01-26T17:12:44Z",
       "pushedAt": "2026-01-26T03:04:47Z",
       "starredAt": "2026-01-22T05:53:26Z",
-      "score": 0.9571035687624485
+      "score": 0.9571991150305017
     },
     {
       "owner": "Flow-Launcher",
@@ -166,9 +166,9 @@
       "fullName": "Flow-Launcher/Flow.Launcher",
       "description": ":mag: Quick file search & app launcher for Windows with community-made plugins",
       "homepage": "https://flowlauncher.com",
-      "stars": 13468,
+      "stars": 13469,
       "forks": 539,
-      "watchers": 13468,
+      "watchers": 13469,
       "openIssues": 270,
       "language": "C#",
       "topics": [
@@ -193,37 +193,10 @@
         "wox"
       ],
       "createdAt": "2020-04-21T08:12:15Z",
-      "updatedAt": "2026-01-26T15:52:26Z",
+      "updatedAt": "2026-01-26T17:02:27Z",
       "pushedAt": "2026-01-26T06:50:57Z",
       "starredAt": "2026-01-24T04:59:39Z",
-      "score": 0.9295249104251
-    },
-    {
-      "owner": "JunkFood02",
-      "name": "Seal",
-      "fullName": "JunkFood02/Seal",
-      "description": "🦭 Video/Audio Downloader for Android, based on yt-dlp",
-      "homepage": "",
-      "stars": 24239,
-      "forks": 1040,
-      "watchers": 24239,
-      "openIssues": 574,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "f-droid",
-        "jetpack-compose",
-        "kotlin",
-        "material-design",
-        "youtube-dl",
-        "youtube-downloader",
-        "yt-dlp"
-      ],
-      "createdAt": "2022-04-15T01:15:25Z",
-      "updatedAt": "2026-01-26T14:17:32Z",
-      "pushedAt": "2026-01-25T15:35:29Z",
-      "starredAt": "2025-12-02T16:33:05Z",
-      "score": 0.927748910609403
+      "score": 0.9295274898496197
     },
     {
       "owner": "espanso",
@@ -251,6 +224,33 @@
       "pushedAt": "2026-01-25T00:19:44Z",
       "starredAt": "2026-01-24T05:00:50Z",
       "score": 0.9273779660719914
+    },
+    {
+      "owner": "JunkFood02",
+      "name": "Seal",
+      "fullName": "JunkFood02/Seal",
+      "description": "🦭 Video/Audio Downloader for Android, based on yt-dlp",
+      "homepage": "",
+      "stars": 24240,
+      "forks": 1040,
+      "watchers": 24240,
+      "openIssues": 574,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "f-droid",
+        "jetpack-compose",
+        "kotlin",
+        "material-design",
+        "youtube-dl",
+        "youtube-downloader",
+        "yt-dlp"
+      ],
+      "createdAt": "2022-04-15T01:15:25Z",
+      "updatedAt": "2026-01-26T16:13:01Z",
+      "pushedAt": "2026-01-25T15:35:29Z",
+      "starredAt": "2025-12-02T16:33:05Z",
+      "score": 0.9273393849908508
     },
     {
       "owner": "GopeedLab",
@@ -292,9 +292,9 @@
       "fullName": "starship/starship",
       "description": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
       "homepage": "https://starship.rs",
-      "stars": 53727,
+      "stars": 53728,
       "forks": 2355,
-      "watchers": 53727,
+      "watchers": 53728,
       "openIssues": 967,
       "language": "Rust",
       "topics": [
@@ -312,10 +312,10 @@
         "zsh-theme"
       ],
       "createdAt": "2019-04-02T03:23:12Z",
-      "updatedAt": "2026-01-26T14:50:55Z",
+      "updatedAt": "2026-01-26T16:21:25Z",
       "pushedAt": "2026-01-26T05:58:20Z",
       "starredAt": "2025-09-19T02:28:12Z",
-      "score": 0.9254023553264994
+      "score": 0.9254030019769466
     },
     {
       "owner": "upstash",
@@ -323,9 +323,9 @@
       "fullName": "upstash/context7",
       "description": "Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors",
       "homepage": "https://context7.com",
-      "stars": 43613,
+      "stars": 43621,
       "forks": 2097,
-      "watchers": 43613,
+      "watchers": 43621,
       "openIssues": 96,
       "language": "TypeScript",
       "topics": [
@@ -335,10 +335,10 @@
         "vibe-coding"
       ],
       "createdAt": "2025-03-26T23:40:39Z",
-      "updatedAt": "2026-01-26T15:57:25Z",
+      "updatedAt": "2026-01-26T16:59:07Z",
       "pushedAt": "2026-01-26T14:49:31Z",
       "starredAt": "2025-10-01T03:06:32Z",
-      "score": 0.9230878817584429
+      "score": 0.9230942540925526
     }
   ],
   "recentlyStarred": [
@@ -387,17 +387,17 @@
       "fullName": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "homepage": "https://code.claude.com/docs/en/overview",
-      "stars": 60892,
-      "forks": 4547,
-      "watchers": 60892,
-      "openIssues": 5511,
+      "stars": 60907,
+      "forks": 4546,
+      "watchers": 60907,
+      "openIssues": 5526,
       "language": "Shell",
       "topics": [],
       "createdAt": "2025-02-22T17:41:21Z",
-      "updatedAt": "2026-01-26T16:10:15Z",
+      "updatedAt": "2026-01-26T17:11:36Z",
       "pushedAt": "2026-01-24T21:58:50Z",
       "starredAt": "2026-01-24T19:15:11Z",
-      "score": 0.9815325129562942
+      "score": 0.9815410704128162
     },
     {
       "owner": "espanso",
@@ -432,9 +432,9 @@
       "fullName": "Flow-Launcher/Flow.Launcher",
       "description": ":mag: Quick file search & app launcher for Windows with community-made plugins",
       "homepage": "https://flowlauncher.com",
-      "stars": 13468,
+      "stars": 13469,
       "forks": 539,
-      "watchers": 13468,
+      "watchers": 13469,
       "openIssues": 270,
       "language": "C#",
       "topics": [
@@ -459,10 +459,10 @@
         "wox"
       ],
       "createdAt": "2020-04-21T08:12:15Z",
-      "updatedAt": "2026-01-26T15:52:26Z",
+      "updatedAt": "2026-01-26T17:02:27Z",
       "pushedAt": "2026-01-26T06:50:57Z",
       "starredAt": "2026-01-24T04:59:39Z",
-      "score": 0.9295249104251
+      "score": 0.9295274898496197
     },
     {
       "owner": "affaan-m",
@@ -470,10 +470,10 @@
       "fullName": "affaan-m/everything-claude-code",
       "description": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.",
       "homepage": "",
-      "stars": 30502,
-      "forks": 3667,
-      "watchers": 30502,
-      "openIssues": 13,
+      "stars": 30586,
+      "forks": 3675,
+      "watchers": 30586,
+      "openIssues": 14,
       "language": "JavaScript",
       "topics": [
         "ai-agents",
@@ -486,10 +486,10 @@
         "productivity"
       ],
       "createdAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-01-26T16:11:30Z",
+      "updatedAt": "2026-01-26T17:12:44Z",
       "pushedAt": "2026-01-26T03:04:47Z",
       "starredAt": "2026-01-22T05:53:26Z",
-      "score": 0.9571035687624485
+      "score": 0.9571991150305017
     },
     {
       "owner": "visioncortex",
@@ -537,9 +537,9 @@
       "fullName": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "homepage": "https://n8n.io",
-      "stars": 171363,
-      "forks": 54128,
-      "watchers": 171363,
+      "stars": 171372,
+      "forks": 54126,
+      "watchers": 171372,
       "openIssues": 1277,
       "language": "TypeScript",
       "topics": [
@@ -565,8 +565,8 @@
         "workflow-automation"
       ],
       "createdAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-01-26T16:00:29Z",
-      "pushedAt": "2026-01-26T16:09:28Z",
+      "updatedAt": "2026-01-26T17:11:25Z",
+      "pushedAt": "2026-01-26T17:11:26Z",
       "starredAt": "2026-01-19T01:14:28Z",
       "score": 0.9971232876712328
     },
@@ -604,7 +604,7 @@
       "updatedAt": "2026-01-26T15:26:29Z",
       "pushedAt": "2026-01-07T16:44:57Z",
       "starredAt": "2026-01-18T07:05:06Z",
-      "score": 0.8114563457976561
+      "score": 0.810634427989437
     }
   ]
 }
