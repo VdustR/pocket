@@ -1,13 +1,13 @@
 {
   "totalRepos": 1506,
-  "totalStars": 23368021,
+  "totalStars": 23368513,
   "languageDistribution": {
     "TypeScript": 553,
     "Shell": 31,
     "JavaScript": 360,
     "C#": 25,
-    "Rust": 49,
     "Kotlin": 5,
+    "Rust": 49,
     "Go": 50,
     "C++": 58,
     "Java": 8,
@@ -64,9 +64,9 @@
       "fullName": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "homepage": "https://n8n.io",
-      "stars": 171201,
-      "forks": 54093,
-      "watchers": 171201,
+      "stars": 171208,
+      "forks": 54094,
+      "watchers": 171208,
       "openIssues": 1287,
       "language": "TypeScript",
       "topics": [
@@ -92,7 +92,7 @@
         "workflow-automation"
       ],
       "createdAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-01-25T23:02:10Z",
+      "updatedAt": "2026-01-26T00:22:53Z",
       "pushedAt": "2026-01-25T20:49:22Z",
       "starredAt": "2026-01-19T01:14:28Z",
       "score": 0.9975342465753424
@@ -103,17 +103,17 @@
       "fullName": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "homepage": "https://opencode.ai",
-      "stars": 87351,
-      "forks": 7943,
-      "watchers": 87351,
-      "openIssues": 3888,
+      "stars": 87383,
+      "forks": 7947,
+      "watchers": 87383,
+      "openIssues": 3891,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2025-04-30T20:08:00Z",
-      "updatedAt": "2026-01-25T23:05:45Z",
+      "updatedAt": "2026-01-26T00:33:42Z",
       "pushedAt": "2026-01-25T22:57:47Z",
       "starredAt": "2026-01-07T21:29:51Z",
-      "score": 0.9879045679646357
+      "score": 0.9879172933776714
     },
     {
       "owner": "anthropics",
@@ -121,17 +121,17 @@
       "fullName": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "homepage": "https://code.claude.com/docs/en/overview",
-      "stars": 60566,
-      "forks": 4528,
-      "watchers": 60566,
-      "openIssues": 5529,
+      "stars": 60576,
+      "forks": 4531,
+      "watchers": 60576,
+      "openIssues": 5534,
       "language": "Shell",
       "topics": [],
       "createdAt": "2025-02-22T17:41:21Z",
-      "updatedAt": "2026-01-25T22:49:14Z",
+      "updatedAt": "2026-01-26T00:23:19Z",
       "pushedAt": "2026-01-24T21:58:50Z",
       "starredAt": "2026-01-24T19:15:11Z",
-      "score": 0.9813460083080758
+      "score": 0.9813517442188318
     },
     {
       "owner": "affaan-m",
@@ -139,10 +139,10 @@
       "fullName": "affaan-m/everything-claude-code",
       "description": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.",
       "homepage": "",
-      "stars": 28184,
-      "forks": 3372,
-      "watchers": 28184,
-      "openIssues": 26,
+      "stars": 28324,
+      "forks": 3383,
+      "watchers": 28324,
+      "openIssues": 7,
       "language": "JavaScript",
       "topics": [
         "ai-agents",
@@ -155,10 +155,10 @@
         "productivity"
       ],
       "createdAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-01-25T23:06:10Z",
-      "pushedAt": "2026-01-25T18:32:46Z",
+      "updatedAt": "2026-01-26T00:33:13Z",
+      "pushedAt": "2026-01-25T23:46:04Z",
       "starredAt": "2026-01-22T05:53:26Z",
-      "score": 0.9547685664201677
+      "score": 0.954940716770506
     },
     {
       "owner": "Flow-Launcher",
@@ -166,9 +166,9 @@
       "fullName": "Flow-Launcher/Flow.Launcher",
       "description": ":mag: Quick file search & app launcher for Windows with community-made plugins",
       "homepage": "https://flowlauncher.com",
-      "stars": 13441,
+      "stars": 13443,
       "forks": 536,
-      "watchers": 13441,
+      "watchers": 13443,
       "openIssues": 271,
       "language": "C#",
       "topics": [
@@ -193,37 +193,10 @@
         "wox"
       ],
       "createdAt": "2020-04-21T08:12:15Z",
-      "updatedAt": "2026-01-25T20:32:53Z",
+      "updatedAt": "2026-01-25T23:43:08Z",
       "pushedAt": "2026-01-25T16:34:07Z",
       "starredAt": "2026-01-24T04:59:39Z",
-      "score": 0.9298661523810712
-    },
-    {
-      "owner": "espanso",
-      "name": "espanso",
-      "fullName": "espanso/espanso",
-      "description": "A Privacy-first, Cross-platform Text Expander written in Rust",
-      "homepage": "https://espanso.org",
-      "stars": 12952,
-      "forks": 381,
-      "watchers": 12952,
-      "openIssues": 478,
-      "language": "Rust",
-      "topics": [
-        "espanso",
-        "linux",
-        "macos",
-        "productivity",
-        "productivity-tools",
-        "rust",
-        "text-expander",
-        "windows"
-      ],
-      "createdAt": "2019-08-30T07:16:58Z",
-      "updatedAt": "2026-01-25T21:46:21Z",
-      "pushedAt": "2026-01-25T00:19:44Z",
-      "starredAt": "2026-01-24T05:00:50Z",
-      "score": 0.928578670337957
+      "score": 0.9298713213996856
     },
     {
       "owner": "JunkFood02",
@@ -253,14 +226,41 @@
       "score": 0.928550756208929
     },
     {
+      "owner": "espanso",
+      "name": "espanso",
+      "fullName": "espanso/espanso",
+      "description": "A Privacy-first, Cross-platform Text Expander written in Rust",
+      "homepage": "https://espanso.org",
+      "stars": 12955,
+      "forks": 381,
+      "watchers": 12955,
+      "openIssues": 478,
+      "language": "Rust",
+      "topics": [
+        "espanso",
+        "linux",
+        "macos",
+        "productivity",
+        "productivity-tools",
+        "rust",
+        "text-expander",
+        "windows"
+      ],
+      "createdAt": "2019-08-30T07:16:58Z",
+      "updatedAt": "2026-01-26T00:00:56Z",
+      "pushedAt": "2026-01-25T00:19:44Z",
+      "starredAt": "2026-01-24T05:00:50Z",
+      "score": 0.9277647984347224
+    },
+    {
       "owner": "starship",
       "name": "starship",
       "fullName": "starship/starship",
       "description": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
       "homepage": "https://starship.rs",
-      "stars": 53711,
+      "stars": 53713,
       "forks": 2354,
-      "watchers": 53711,
+      "watchers": 53713,
       "openIssues": 967,
       "language": "Rust",
       "topics": [
@@ -278,10 +278,10 @@
         "zsh-theme"
       ],
       "createdAt": "2019-04-02T03:23:12Z",
-      "updatedAt": "2026-01-25T22:38:14Z",
+      "updatedAt": "2026-01-26T00:22:08Z",
       "pushedAt": "2026-01-25T21:20:03Z",
       "starredAt": "2025-09-19T02:28:12Z",
-      "score": 0.9258029661862875
+      "score": 0.9258042598603909
     },
     {
       "owner": "GopeedLab",
@@ -289,9 +289,9 @@
       "fullName": "GopeedLab/gopeed",
       "description": "A modern download manager that supports all platforms.  Built with Golang and Flutter.",
       "homepage": "https://gopeed.com",
-      "stars": 22490,
+      "stars": 22492,
       "forks": 1551,
-      "watchers": 22490,
+      "watchers": 22492,
       "openIssues": 238,
       "language": "Go",
       "topics": [
@@ -312,10 +312,10 @@
         "windows"
       ],
       "createdAt": "2019-04-21T07:23:32Z",
-      "updatedAt": "2026-01-25T22:11:44Z",
+      "updatedAt": "2026-01-26T00:13:45Z",
       "pushedAt": "2026-01-23T15:55:44Z",
       "starredAt": "2025-12-02T16:06:09Z",
-      "score": 0.9243250848069058
+      "score": 0.9243281742216822
     },
     {
       "owner": "upstash",
@@ -323,9 +323,9 @@
       "fullName": "upstash/context7",
       "description": "Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors",
       "homepage": "https://context7.com",
-      "stars": 43476,
+      "stars": 43483,
       "forks": 2092,
-      "watchers": 43476,
+      "watchers": 43483,
       "openIssues": 93,
       "language": "TypeScript",
       "topics": [
@@ -335,10 +335,10 @@
         "vibe-coding"
       ],
       "createdAt": "2025-03-26T23:40:39Z",
-      "updatedAt": "2026-01-25T23:04:17Z",
+      "updatedAt": "2026-01-26T00:20:29Z",
       "pushedAt": "2026-01-25T20:45:14Z",
       "starredAt": "2025-10-01T03:06:32Z",
-      "score": 0.9233895326640723
+      "score": 0.9233951260889499
     }
   ],
   "recentlyStarred": [
@@ -387,17 +387,17 @@
       "fullName": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "homepage": "https://code.claude.com/docs/en/overview",
-      "stars": 60566,
-      "forks": 4528,
-      "watchers": 60566,
-      "openIssues": 5529,
+      "stars": 60576,
+      "forks": 4531,
+      "watchers": 60576,
+      "openIssues": 5534,
       "language": "Shell",
       "topics": [],
       "createdAt": "2025-02-22T17:41:21Z",
-      "updatedAt": "2026-01-25T22:49:14Z",
+      "updatedAt": "2026-01-26T00:23:19Z",
       "pushedAt": "2026-01-24T21:58:50Z",
       "starredAt": "2026-01-24T19:15:11Z",
-      "score": 0.9813460083080758
+      "score": 0.9813517442188318
     },
     {
       "owner": "espanso",
@@ -405,9 +405,9 @@
       "fullName": "espanso/espanso",
       "description": "A Privacy-first, Cross-platform Text Expander written in Rust",
       "homepage": "https://espanso.org",
-      "stars": 12952,
+      "stars": 12955,
       "forks": 381,
-      "watchers": 12952,
+      "watchers": 12955,
       "openIssues": 478,
       "language": "Rust",
       "topics": [
@@ -421,10 +421,10 @@
         "windows"
       ],
       "createdAt": "2019-08-30T07:16:58Z",
-      "updatedAt": "2026-01-25T21:46:21Z",
+      "updatedAt": "2026-01-26T00:00:56Z",
       "pushedAt": "2026-01-25T00:19:44Z",
       "starredAt": "2026-01-24T05:00:50Z",
-      "score": 0.928578670337957
+      "score": 0.9277647984347224
     },
     {
       "owner": "Flow-Launcher",
@@ -432,9 +432,9 @@
       "fullName": "Flow-Launcher/Flow.Launcher",
       "description": ":mag: Quick file search & app launcher for Windows with community-made plugins",
       "homepage": "https://flowlauncher.com",
-      "stars": 13441,
+      "stars": 13443,
       "forks": 536,
-      "watchers": 13441,
+      "watchers": 13443,
       "openIssues": 271,
       "language": "C#",
       "topics": [
@@ -459,10 +459,10 @@
         "wox"
       ],
       "createdAt": "2020-04-21T08:12:15Z",
-      "updatedAt": "2026-01-25T20:32:53Z",
+      "updatedAt": "2026-01-25T23:43:08Z",
       "pushedAt": "2026-01-25T16:34:07Z",
       "starredAt": "2026-01-24T04:59:39Z",
-      "score": 0.9298661523810712
+      "score": 0.9298713213996856
     },
     {
       "owner": "affaan-m",
@@ -470,10 +470,10 @@
       "fullName": "affaan-m/everything-claude-code",
       "description": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.",
       "homepage": "",
-      "stars": 28184,
-      "forks": 3372,
-      "watchers": 28184,
-      "openIssues": 26,
+      "stars": 28324,
+      "forks": 3383,
+      "watchers": 28324,
+      "openIssues": 7,
       "language": "JavaScript",
       "topics": [
         "ai-agents",
@@ -486,10 +486,10 @@
         "productivity"
       ],
       "createdAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-01-25T23:06:10Z",
-      "pushedAt": "2026-01-25T18:32:46Z",
+      "updatedAt": "2026-01-26T00:33:13Z",
+      "pushedAt": "2026-01-25T23:46:04Z",
       "starredAt": "2026-01-22T05:53:26Z",
-      "score": 0.9547685664201677
+      "score": 0.954940716770506
     },
     {
       "owner": "visioncortex",
@@ -537,9 +537,9 @@
       "fullName": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "homepage": "https://n8n.io",
-      "stars": 171201,
-      "forks": 54093,
-      "watchers": 171201,
+      "stars": 171208,
+      "forks": 54094,
+      "watchers": 171208,
       "openIssues": 1287,
       "language": "TypeScript",
       "topics": [
@@ -565,7 +565,7 @@
         "workflow-automation"
       ],
       "createdAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-01-25T23:02:10Z",
+      "updatedAt": "2026-01-26T00:22:53Z",
       "pushedAt": "2026-01-25T20:49:22Z",
       "starredAt": "2026-01-19T01:14:28Z",
       "score": 0.9975342465753424
