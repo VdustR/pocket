@@ -1,9 +1,10 @@
 {
-  "totalRepos": 1512,
-  "totalStars": 23648376,
+  "totalRepos": 1513,
+  "totalStars": 23691747,
   "languageDistribution": {
     "TypeScript": 559,
     "Shell": 31,
+    "Zig": 2,
     "JavaScript": 360,
     "Python": 68,
     "C#": 25,
@@ -20,7 +21,6 @@
     "Ruby": 7,
     "Vue": 15,
     "CSS": 24,
-    "Zig": 1,
     "Clojure": 2,
     "Markdown": 1,
     "Nunjucks": 2,
@@ -64,10 +64,10 @@
       "fullName": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "homepage": "https://openclaw.ai",
-      "stars": 151185,
-      "forks": 22953,
-      "watchers": 151185,
-      "openIssues": 2124,
+      "stars": 151456,
+      "forks": 23027,
+      "watchers": 151456,
+      "openIssues": 2171,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -79,8 +79,8 @@
         "personal"
       ],
       "createdAt": "2025-11-24T10:16:47Z",
-      "updatedAt": "2026-02-02T23:10:33Z",
-      "pushedAt": "2026-02-02T22:42:07Z",
+      "updatedAt": "2026-02-03T00:38:11Z",
+      "pushedAt": "2026-02-03T00:09:07Z",
       "starredAt": "2026-01-27T14:01:52Z",
       "score": 0.9975342465753424
     },
@@ -90,9 +90,9 @@
       "fullName": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "homepage": "https://n8n.io",
-      "stars": 172653,
+      "stars": 172658,
       "forks": 54428,
-      "watchers": 172653,
+      "watchers": 172658,
       "openIssues": 1285,
       "language": "TypeScript",
       "topics": [
@@ -118,8 +118,8 @@
         "workflow-automation"
       ],
       "createdAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-02-02T23:05:01Z",
-      "pushedAt": "2026-02-02T23:01:33Z",
+      "updatedAt": "2026-02-03T00:27:34Z",
+      "pushedAt": "2026-02-02T23:33:38Z",
       "starredAt": "2026-01-19T01:14:28Z",
       "score": 0.9942465753424656
     },
@@ -129,17 +129,17 @@
       "fullName": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "homepage": "https://opencode.ai",
-      "stars": 95689,
-      "forks": 8962,
-      "watchers": 95689,
-      "openIssues": 4355,
+      "stars": 95714,
+      "forks": 8968,
+      "watchers": 95714,
+      "openIssues": 4361,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2025-04-30T20:08:00Z",
-      "updatedAt": "2026-02-02T23:01:56Z",
-      "pushedAt": "2026-02-02T23:01:47Z",
+      "updatedAt": "2026-02-03T00:36:43Z",
+      "pushedAt": "2026-02-03T00:20:05Z",
       "starredAt": "2026-01-07T21:29:51Z",
-      "score": 0.987784392859717
+      "score": 0.9877934687873966
     },
     {
       "owner": "anthropics",
@@ -147,17 +147,35 @@
       "fullName": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "homepage": "https://code.claude.com/docs/en/overview",
-      "stars": 63362,
-      "forks": 4772,
-      "watchers": 63362,
-      "openIssues": 5876,
+      "stars": 63373,
+      "forks": 4774,
+      "watchers": 63373,
+      "openIssues": 5885,
       "language": "Shell",
       "topics": [],
       "createdAt": "2025-02-22T17:41:21Z",
-      "updatedAt": "2026-02-02T23:08:28Z",
+      "updatedAt": "2026-02-03T00:20:47Z",
       "pushedAt": "2026-02-02T19:35:31Z",
       "starredAt": "2026-01-24T19:15:11Z",
-      "score": 0.9804482283654402
+      "score": 0.9804542594241685
+    },
+    {
+      "owner": "ghostty-org",
+      "name": "ghostty",
+      "fullName": "ghostty-org/ghostty",
+      "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+      "homepage": "https://ghostty.org",
+      "stars": 42717,
+      "forks": 1525,
+      "watchers": 42717,
+      "openIssues": 184,
+      "language": "Zig",
+      "topics": [],
+      "createdAt": "2022-03-29T17:38:26Z",
+      "updatedAt": "2026-02-03T00:35:04Z",
+      "pushedAt": "2026-02-02T23:20:45Z",
+      "starredAt": "2026-02-03T00:30:36Z",
+      "score": 0.9704488729124705
     },
     {
       "owner": "affaan-m",
@@ -165,9 +183,9 @@
       "fullName": "affaan-m/everything-claude-code",
       "description": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.",
       "homepage": "",
-      "stars": 37979,
-      "forks": 4715,
-      "watchers": 37979,
+      "stars": 38003,
+      "forks": 4720,
+      "watchers": 38003,
       "openIssues": 27,
       "language": "JavaScript",
       "topics": [
@@ -181,10 +199,10 @@
         "productivity"
       ],
       "createdAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-02-02T23:08:46Z",
+      "updatedAt": "2026-02-03T00:38:09Z",
       "pushedAt": "2026-02-01T20:21:13Z",
       "starredAt": "2026-01-22T05:53:26Z",
-      "score": 0.9610219310786553
+      "score": 0.9610438790001383
     },
     {
       "owner": "nextlevelbuilder",
@@ -192,9 +210,9 @@
       "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
       "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
       "homepage": "https://ui-ux-pro-max-skill.nextlevelbuilder.io",
-      "stars": 26323,
-      "forks": 2683,
-      "watchers": 26323,
+      "stars": 26350,
+      "forks": 2684,
+      "watchers": 26350,
       "openIssues": 46,
       "language": "Python",
       "topics": [
@@ -219,10 +237,10 @@
         "windsurf-ai"
       ],
       "createdAt": "2025-11-30T11:36:31Z",
-      "updatedAt": "2026-02-02T23:01:13Z",
+      "updatedAt": "2026-02-03T00:34:37Z",
       "pushedAt": "2026-01-29T14:25:48Z",
       "starredAt": "2026-01-30T02:34:01Z",
-      "score": 0.9491076026250311
+      "score": 0.9491432201347821
     },
     {
       "owner": "Flow-Launcher",
@@ -233,7 +251,7 @@
       "stars": 13630,
       "forks": 542,
       "watchers": 13630,
-      "openIssues": 273,
+      "openIssues": 274,
       "language": "C#",
       "topics": [
         "alfred",
@@ -287,7 +305,7 @@
       "updatedAt": "2026-02-02T22:07:26Z",
       "pushedAt": "2026-02-01T00:24:16Z",
       "starredAt": "2026-01-24T05:00:50Z",
-      "score": 0.9246429934312637
+      "score": 0.9238210756230445
     },
     {
       "owner": "GopeedLab",
@@ -322,57 +340,44 @@
       "pushedAt": "2026-02-02T10:41:05Z",
       "starredAt": "2025-12-02T16:06:09Z",
       "score": 0.9227984542574508
-    },
-    {
-      "owner": "starship",
-      "name": "starship",
-      "fullName": "starship/starship",
-      "description": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
-      "homepage": "https://starship.rs",
-      "stars": 53878,
-      "forks": 2357,
-      "watchers": 53878,
-      "openIssues": 968,
-      "language": "Rust",
-      "topics": [
-        "bash",
-        "fish",
-        "fish-prompt",
-        "fish-theme",
-        "oh-my-zsh",
-        "powershell",
-        "rust",
-        "shell-prompt",
-        "starship",
-        "zsh",
-        "zsh-prompt",
-        "zsh-theme"
-      ],
-      "createdAt": "2019-04-02T03:23:12Z",
-      "updatedAt": "2026-02-02T23:08:48Z",
-      "pushedAt": "2026-02-02T16:30:26Z",
-      "starredAt": "2025-09-19T02:28:12Z",
-      "score": 0.9226231511669947
     }
   ],
   "recentlyStarred": [
+    {
+      "owner": "ghostty-org",
+      "name": "ghostty",
+      "fullName": "ghostty-org/ghostty",
+      "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+      "homepage": "https://ghostty.org",
+      "stars": 42717,
+      "forks": 1525,
+      "watchers": 42717,
+      "openIssues": 184,
+      "language": "Zig",
+      "topics": [],
+      "createdAt": "2022-03-29T17:38:26Z",
+      "updatedAt": "2026-02-03T00:35:04Z",
+      "pushedAt": "2026-02-02T23:20:45Z",
+      "starredAt": "2026-02-03T00:30:36Z",
+      "score": 0.9704488729124705
+    },
     {
       "owner": "lukilabs",
       "name": "beautiful-mermaid",
       "fullName": "lukilabs/beautiful-mermaid",
       "description": "",
       "homepage": "",
-      "stars": 5434,
+      "stars": 5447,
       "forks": 153,
-      "watchers": 5434,
+      "watchers": 5447,
       "openIssues": 19,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-01-28T16:31:46Z",
-      "updatedAt": "2026-02-02T23:07:20Z",
+      "updatedAt": "2026-02-03T00:37:14Z",
       "pushedAt": "2026-01-31T12:56:52Z",
       "starredAt": "2026-01-31T11:49:27Z",
-      "score": 0.8963502104491277
+      "score": 0.8964332144877207
     },
     {
       "owner": "cloudflare",
@@ -380,20 +385,20 @@
       "fullName": "cloudflare/moltworker",
       "description": "Run OpenClaw, (formerly Moltbot, formerly Clawdbot) on Cloudflare Workers",
       "homepage": "https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/",
-      "stars": 6694,
+      "stars": 6751,
       "forks": 900,
-      "watchers": 6694,
-      "openIssues": 56,
+      "watchers": 6751,
+      "openIssues": 57,
       "language": "TypeScript",
       "topics": [
         "ai-agents",
         "cloudflare-workers"
       ],
       "createdAt": "2026-01-27T11:09:39Z",
-      "updatedAt": "2026-02-02T23:10:05Z",
+      "updatedAt": "2026-02-03T00:35:39Z",
       "pushedAt": "2026-02-02T19:23:18Z",
       "starredAt": "2026-01-30T06:01:58Z",
-      "score": 0.9048271697955135
+      "score": 0.9051217179770791
     },
     {
       "owner": "nextlevelbuilder",
@@ -401,9 +406,9 @@
       "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
       "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
       "homepage": "https://ui-ux-pro-max-skill.nextlevelbuilder.io",
-      "stars": 26323,
-      "forks": 2683,
-      "watchers": 26323,
+      "stars": 26350,
+      "forks": 2684,
+      "watchers": 26350,
       "openIssues": 46,
       "language": "Python",
       "topics": [
@@ -428,10 +433,10 @@
         "windsurf-ai"
       ],
       "createdAt": "2025-11-30T11:36:31Z",
-      "updatedAt": "2026-02-02T23:01:13Z",
+      "updatedAt": "2026-02-03T00:34:37Z",
       "pushedAt": "2026-01-29T14:25:48Z",
       "starredAt": "2026-01-30T02:34:01Z",
-      "score": 0.9491076026250311
+      "score": 0.9491432201347821
     },
     {
       "owner": "Yqnn",
@@ -480,9 +485,9 @@
       "fullName": "antfu/skills",
       "description": "Anthony Fu's curated collection of agent skills.",
       "homepage": "",
-      "stars": 2673,
+      "stars": 2674,
       "forks": 103,
-      "watchers": 2673,
+      "watchers": 2674,
       "openIssues": 3,
       "language": "TypeScript",
       "topics": [
@@ -490,10 +495,10 @@
         "skills"
       ],
       "createdAt": "2026-01-28T05:59:03Z",
-      "updatedAt": "2026-02-02T22:57:02Z",
+      "updatedAt": "2026-02-02T23:28:14Z",
       "pushedAt": "2026-01-31T11:25:09Z",
       "starredAt": "2026-01-28T08:34:05Z",
-      "score": 0.870474282097091
+      "score": 0.8704872727715934
     },
     {
       "owner": "openclaw",
@@ -501,10 +506,10 @@
       "fullName": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "homepage": "https://openclaw.ai",
-      "stars": 151185,
-      "forks": 22953,
-      "watchers": 151185,
-      "openIssues": 2124,
+      "stars": 151456,
+      "forks": 23027,
+      "watchers": 151456,
+      "openIssues": 2171,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -516,8 +521,8 @@
         "personal"
       ],
       "createdAt": "2025-11-24T10:16:47Z",
-      "updatedAt": "2026-02-02T23:10:33Z",
-      "pushedAt": "2026-02-02T22:42:07Z",
+      "updatedAt": "2026-02-03T00:38:11Z",
+      "pushedAt": "2026-02-03T00:09:07Z",
       "starredAt": "2026-01-27T14:01:52Z",
       "score": 0.9975342465753424
     },
@@ -566,44 +571,17 @@
       "fullName": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "homepage": "https://code.claude.com/docs/en/overview",
-      "stars": 63362,
-      "forks": 4772,
-      "watchers": 63362,
-      "openIssues": 5876,
+      "stars": 63373,
+      "forks": 4774,
+      "watchers": 63373,
+      "openIssues": 5885,
       "language": "Shell",
       "topics": [],
       "createdAt": "2025-02-22T17:41:21Z",
-      "updatedAt": "2026-02-02T23:08:28Z",
+      "updatedAt": "2026-02-03T00:20:47Z",
       "pushedAt": "2026-02-02T19:35:31Z",
       "starredAt": "2026-01-24T19:15:11Z",
-      "score": 0.9804482283654402
-    },
-    {
-      "owner": "espanso",
-      "name": "espanso",
-      "fullName": "espanso/espanso",
-      "description": "A Privacy-first, Cross-platform Text Expander written in Rust",
-      "homepage": "https://espanso.org",
-      "stars": 13017,
-      "forks": 386,
-      "watchers": 13017,
-      "openIssues": 481,
-      "language": "Rust",
-      "topics": [
-        "espanso",
-        "linux",
-        "macos",
-        "productivity",
-        "productivity-tools",
-        "rust",
-        "text-expander",
-        "windows"
-      ],
-      "createdAt": "2019-08-30T07:16:58Z",
-      "updatedAt": "2026-02-02T22:07:26Z",
-      "pushedAt": "2026-02-01T00:24:16Z",
-      "starredAt": "2026-01-24T05:00:50Z",
-      "score": 0.9246429934312637
+      "score": 0.9804542594241685
     }
   ]
 }
