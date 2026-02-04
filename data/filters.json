@@ -1467,11 +1467,11 @@
       "count": 4
     },
     {
-      "name": "lodash",
+      "name": "schema",
       "count": 4
     },
     {
-      "name": "schema",
+      "name": "lodash",
       "count": 4
     },
     {
@@ -1555,6 +1555,10 @@
       "count": 4
     },
     {
+      "name": "openapi",
+      "count": 4
+    },
+    {
       "name": "helm",
       "count": 4
     },
@@ -1568,10 +1572,6 @@
     },
     {
       "name": "rts",
-      "count": 4
-    },
-    {
-      "name": "openapi",
       "count": 4
     },
     {
@@ -1643,11 +1643,11 @@
       "count": 4
     },
     {
-      "name": "vitejs",
+      "name": "sveltekit",
       "count": 4
     },
     {
-      "name": "sveltekit",
+      "name": "vitejs",
       "count": 4
     },
     {
@@ -1692,6 +1692,14 @@
     },
     {
       "name": "ui-design",
+      "count": 3
+    },
+    {
+      "name": "configuration",
+      "count": 3
+    },
+    {
+      "name": "dotfiles",
       "count": 3
     },
     {
@@ -2175,18 +2183,6 @@
       "count": 3
     },
     {
-      "name": "container",
-      "count": 3
-    },
-    {
-      "name": "cmake",
-      "count": 3
-    },
-    {
-      "name": "cplusplus",
-      "count": 3
-    },
-    {
       "name": "openapi-specification",
       "count": 3
     },
@@ -2200,6 +2196,18 @@
     },
     {
       "name": "swagger",
+      "count": 3
+    },
+    {
+      "name": "container",
+      "count": 3
+    },
+    {
+      "name": "cmake",
+      "count": 3
+    },
+    {
+      "name": "cplusplus",
       "count": 3
     },
     {
@@ -2532,14 +2540,6 @@
     },
     {
       "name": "workflow-automation",
-      "count": 2
-    },
-    {
-      "name": "configuration",
-      "count": 2
-    },
-    {
-      "name": "dotfiles",
       "count": 2
     },
     {
@@ -3211,11 +3211,11 @@
       "count": 2
     },
     {
-      "name": "octokit-js",
+      "name": "socket-io",
       "count": 2
     },
     {
-      "name": "socket-io",
+      "name": "octokit-js",
       "count": 2
     },
     {
@@ -3483,6 +3483,14 @@
       "count": 2
     },
     {
+      "name": "swagger-oss",
+      "count": 2
+    },
+    {
+      "name": "swagger-ui",
+      "count": 2
+    },
+    {
       "name": "internal-tools",
       "count": 2
     },
@@ -3504,14 +3512,6 @@
     },
     {
       "name": "status",
-      "count": 2
-    },
-    {
-      "name": "swagger-oss",
-      "count": 2
-    },
-    {
-      "name": "swagger-ui",
       "count": 2
     },
     {
@@ -3903,15 +3903,15 @@
       "count": 2
     },
     {
-      "name": "gaming",
-      "count": 2
-    },
-    {
       "name": "browser-detection",
       "count": 2
     },
     {
       "name": "user-agent-parser",
+      "count": 2
+    },
+    {
+      "name": "gaming",
       "count": 2
     },
     {
@@ -7663,6 +7663,18 @@
       "count": 1
     },
     {
+      "name": "oas",
+      "count": 1
+    },
+    {
+      "name": "swagger-api",
+      "count": 1
+    },
+    {
+      "name": "swagger-js",
+      "count": 1
+    },
+    {
       "name": "micro",
       "count": 1
     },
@@ -7792,18 +7804,6 @@
     },
     {
       "name": "badge-maker",
-      "count": 1
-    },
-    {
-      "name": "oas",
-      "count": 1
-    },
-    {
-      "name": "swagger-api",
-      "count": 1
-    },
-    {
-      "name": "swagger-js",
       "count": 1
     },
     {
@@ -9259,10 +9259,6 @@
       "count": 1
     },
     {
-      "name": "wpf",
-      "count": 1
-    },
-    {
       "name": "deadcode",
       "count": 1
     },
@@ -9287,10 +9283,6 @@
       "count": 1
     },
     {
-      "name": "pi",
-      "count": 1
-    },
-    {
       "name": "bot-detection",
       "count": 1
     },
@@ -9303,11 +9295,19 @@
       "count": 1
     },
     {
+      "name": "wpf",
+      "count": 1
+    },
+    {
       "name": "minification",
       "count": 1
     },
     {
       "name": "optimization",
+      "count": 1
+    },
+    {
+      "name": "pi",
       "count": 1
     },
     {
@@ -10219,14 +10219,6 @@
       "count": 1
     },
     {
-      "name": "icons-provider",
-      "count": 1
-    },
-    {
-      "name": "vscode-icons",
-      "count": 1
-    },
-    {
       "name": "createfile",
       "count": 1
     },
@@ -10275,6 +10267,14 @@
       "count": 1
     },
     {
+      "name": "icons-provider",
+      "count": 1
+    },
+    {
+      "name": "vscode-icons",
+      "count": 1
+    },
+    {
       "name": "hacktoberfest2025",
       "count": 1
     },
@@ -10311,6 +10311,10 @@
       "count": 1
     },
     {
+      "name": "optimized",
+      "count": 1
+    },
+    {
       "name": "manifest-v2",
       "count": 1
     },
@@ -10320,10 +10324,6 @@
     },
     {
       "name": "rollup-js",
-      "count": 1
-    },
-    {
-      "name": "optimized",
       "count": 1
     },
     {
@@ -10559,14 +10559,6 @@
       "count": 1
     },
     {
-      "name": "add-ons",
-      "count": 1
-    },
-    {
-      "name": "webextensions",
-      "count": 1
-    },
-    {
       "name": "gpt",
       "count": 1
     },
@@ -10615,6 +10607,14 @@
       "count": 1
     },
     {
+      "name": "add-ons",
+      "count": 1
+    },
+    {
+      "name": "webextensions",
+      "count": 1
+    },
+    {
       "name": "es6-javascript",
       "count": 1
     },
@@ -10659,15 +10659,15 @@
       "count": 1
     },
     {
-      "name": "chrome-tabs",
-      "count": 1
-    },
-    {
       "name": "stage-files",
       "count": 1
     },
     {
       "name": "stylelint",
+      "count": 1
+    },
+    {
+      "name": "chrome-tabs",
       "count": 1
     },
     {
@@ -11579,6 +11579,18 @@
       "count": 1
     },
     {
+      "name": "npm-publish",
+      "count": 1
+    },
+    {
+      "name": "version-bump",
+      "count": 1
+    },
+    {
+      "name": "version-checker",
+      "count": 1
+    },
+    {
       "name": "github-copilot",
       "count": 1
     },
@@ -11608,18 +11620,6 @@
     },
     {
       "name": "tutorial-exercises",
-      "count": 1
-    },
-    {
-      "name": "npm-publish",
-      "count": 1
-    },
-    {
-      "name": "version-bump",
-      "count": 1
-    },
-    {
-      "name": "version-checker",
       "count": 1
     },
     {
@@ -13243,58 +13243,6 @@
       "count": 1
     },
     {
-      "name": "cnn",
-      "count": 1
-    },
-    {
-      "name": "colab",
-      "count": 1
-    },
-    {
-      "name": "colab-notebook",
-      "count": 1
-    },
-    {
-      "name": "fourier",
-      "count": 1
-    },
-    {
-      "name": "fourier-convolutions",
-      "count": 1
-    },
-    {
-      "name": "fourier-transform",
-      "count": 1
-    },
-    {
-      "name": "gan",
-      "count": 1
-    },
-    {
-      "name": "generative-adversarial-network",
-      "count": 1
-    },
-    {
-      "name": "generative-adversarial-networks",
-      "count": 1
-    },
-    {
-      "name": "high-resolution",
-      "count": 1
-    },
-    {
-      "name": "image-inpainting",
-      "count": 1
-    },
-    {
-      "name": "inpainting-algorithm",
-      "count": 1
-    },
-    {
-      "name": "inpainting-methods",
-      "count": 1
-    },
-    {
       "name": "dataset-analysis",
       "count": 1
     },
@@ -13380,6 +13328,58 @@
     },
     {
       "name": "svg-sprite",
+      "count": 1
+    },
+    {
+      "name": "cnn",
+      "count": 1
+    },
+    {
+      "name": "colab",
+      "count": 1
+    },
+    {
+      "name": "colab-notebook",
+      "count": 1
+    },
+    {
+      "name": "fourier",
+      "count": 1
+    },
+    {
+      "name": "fourier-convolutions",
+      "count": 1
+    },
+    {
+      "name": "fourier-transform",
+      "count": 1
+    },
+    {
+      "name": "gan",
+      "count": 1
+    },
+    {
+      "name": "generative-adversarial-network",
+      "count": 1
+    },
+    {
+      "name": "generative-adversarial-networks",
+      "count": 1
+    },
+    {
+      "name": "high-resolution",
+      "count": 1
+    },
+    {
+      "name": "image-inpainting",
+      "count": 1
+    },
+    {
+      "name": "inpainting-algorithm",
+      "count": 1
+    },
+    {
+      "name": "inpainting-methods",
       "count": 1
     },
     {
@@ -14351,19 +14351,19 @@
       "count": 1
     },
     {
-      "name": "emoji-support",
-      "count": 1
-    },
-    {
-      "name": "node-emoji",
-      "count": 1
-    },
-    {
       "name": "vue-composition-api",
       "count": 1
     },
     {
       "name": "vue-in-react",
+      "count": 1
+    },
+    {
+      "name": "emoji-support",
+      "count": 1
+    },
+    {
+      "name": "node-emoji",
       "count": 1
     },
     {
