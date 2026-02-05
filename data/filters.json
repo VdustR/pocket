@@ -2167,10 +2167,6 @@
       "count": 3
     },
     {
-      "name": "nginx",
-      "count": 3
-    },
-    {
       "name": "animation-library",
       "count": 3
     },
@@ -2188,6 +2184,10 @@
     },
     {
       "name": "swagger",
+      "count": 3
+    },
+    {
+      "name": "nginx",
       "count": 3
     },
     {
@@ -2419,11 +2419,11 @@
       "count": 3
     },
     {
-      "name": "objective-c",
+      "name": "repository",
       "count": 3
     },
     {
-      "name": "repository",
+      "name": "objective-c",
       "count": 3
     },
     {
@@ -3467,6 +3467,14 @@
       "count": 2
     },
     {
+      "name": "swagger-oss",
+      "count": 2
+    },
+    {
+      "name": "swagger-ui",
+      "count": 2
+    },
+    {
       "name": "http2",
       "count": 2
     },
@@ -3476,14 +3484,6 @@
     },
     {
       "name": "reverse-proxy",
-      "count": 2
-    },
-    {
-      "name": "swagger-oss",
-      "count": 2
-    },
-    {
-      "name": "swagger-ui",
       "count": 2
     },
     {
@@ -3635,10 +3635,6 @@
       "count": 2
     },
     {
-      "name": "store",
-      "count": 2
-    },
-    {
       "name": "configuration-file",
       "count": 2
     },
@@ -3668,6 +3664,10 @@
     },
     {
       "name": "osint",
+      "count": 2
+    },
+    {
+      "name": "store",
       "count": 2
     },
     {
@@ -3819,14 +3819,6 @@
       "count": 2
     },
     {
-      "name": "http-request",
-      "count": 2
-    },
-    {
-      "name": "request",
-      "count": 2
-    },
-    {
       "name": "shiki",
       "count": 2
     },
@@ -3848,6 +3840,14 @@
     },
     {
       "name": "visualisation",
+      "count": 2
+    },
+    {
+      "name": "http-request",
+      "count": 2
+    },
+    {
+      "name": "request",
       "count": 2
     },
     {
@@ -7567,38 +7567,6 @@
       "count": 1
     },
     {
-      "name": "content-cache",
-      "count": 1
-    },
-    {
-      "name": "http3",
-      "count": 1
-    },
-    {
-      "name": "mail-proxy-server",
-      "count": 1
-    },
-    {
-      "name": "quic",
-      "count": 1
-    },
-    {
-      "name": "tcp-proxy-server",
-      "count": 1
-    },
-    {
-      "name": "tls",
-      "count": 1
-    },
-    {
-      "name": "udp-proxy-server",
-      "count": 1
-    },
-    {
-      "name": "web-server",
-      "count": 1
-    },
-    {
       "name": "gnu-linux",
       "count": 1
     },
@@ -7628,6 +7596,38 @@
     },
     {
       "name": "swagger-js",
+      "count": 1
+    },
+    {
+      "name": "content-cache",
+      "count": 1
+    },
+    {
+      "name": "http3",
+      "count": 1
+    },
+    {
+      "name": "mail-proxy-server",
+      "count": 1
+    },
+    {
+      "name": "quic",
+      "count": 1
+    },
+    {
+      "name": "tcp-proxy-server",
+      "count": 1
+    },
+    {
+      "name": "tls",
+      "count": 1
+    },
+    {
+      "name": "udp-proxy-server",
+      "count": 1
+    },
+    {
+      "name": "web-server",
       "count": 1
     },
     {
@@ -8423,15 +8423,15 @@
       "count": 1
     },
     {
-      "name": "ramda",
-      "count": 1
-    },
-    {
       "name": "contributions-welcome",
       "count": 1
     },
     {
       "name": "opensource-alternative",
+      "count": 1
+    },
+    {
+      "name": "ramda",
       "count": 1
     },
     {
@@ -8855,10 +8855,6 @@
       "count": 1
     },
     {
-      "name": "whatwg-fetch",
-      "count": 1
-    },
-    {
       "name": "textmate-grammar",
       "count": 1
     },
@@ -8959,6 +8955,10 @@
       "count": 1
     },
     {
+      "name": "whatwg-fetch",
+      "count": 1
+    },
+    {
       "name": "progressive-web-app",
       "count": 1
     },
@@ -9039,10 +9039,6 @@
       "count": 1
     },
     {
-      "name": "css-in-react",
-      "count": 1
-    },
-    {
       "name": "eye-candy",
       "count": 1
     },
@@ -9060,6 +9056,10 @@
     },
     {
       "name": "soothing-pastel-theme",
+      "count": 1
+    },
+    {
+      "name": "css-in-react",
       "count": 1
     },
     {
@@ -9827,6 +9827,14 @@
       "count": 1
     },
     {
+      "name": "loopback",
+      "count": 1
+    },
+    {
+      "name": "virtual-audio-cable",
+      "count": 1
+    },
+    {
       "name": "gnome-terminal",
       "count": 1
     },
@@ -9840,14 +9848,6 @@
     },
     {
       "name": "pantheon-terminal",
-      "count": 1
-    },
-    {
-      "name": "loopback",
-      "count": 1
-    },
-    {
-      "name": "virtual-audio-cable",
       "count": 1
     },
     {
@@ -10091,26 +10091,6 @@
       "count": 1
     },
     {
-      "name": "design-tokens",
-      "count": 1
-    },
-    {
-      "name": "framework-agnostic",
-      "count": 1
-    },
-    {
-      "name": "jit-compiler",
-      "count": 1
-    },
-    {
-      "name": "styled-system",
-      "count": 1
-    },
-    {
-      "name": "theming",
-      "count": 1
-    },
-    {
       "name": "hacktoberfest2021",
       "count": 1
     },
@@ -10128,6 +10108,26 @@
     },
     {
       "name": "winforms",
+      "count": 1
+    },
+    {
+      "name": "design-tokens",
+      "count": 1
+    },
+    {
+      "name": "framework-agnostic",
+      "count": 1
+    },
+    {
+      "name": "jit-compiler",
+      "count": 1
+    },
+    {
+      "name": "styled-system",
+      "count": 1
+    },
+    {
+      "name": "theming",
       "count": 1
     },
     {
@@ -10311,10 +10311,6 @@
       "count": 1
     },
     {
-      "name": "optimized",
-      "count": 1
-    },
-    {
       "name": "manifest-v2",
       "count": 1
     },
@@ -10340,6 +10336,10 @@
     },
     {
       "name": "fish-plugin",
+      "count": 1
+    },
+    {
+      "name": "optimized",
       "count": 1
     },
     {
@@ -10675,6 +10675,14 @@
       "count": 1
     },
     {
+      "name": "openmoji",
+      "count": 1
+    },
+    {
+      "name": "github-api",
+      "count": 1
+    },
+    {
       "name": "apple-swift",
       "count": 1
     },
@@ -10712,14 +10720,6 @@
     },
     {
       "name": "swift-programming",
-      "count": 1
-    },
-    {
-      "name": "openmoji",
-      "count": 1
-    },
-    {
-      "name": "github-api",
       "count": 1
     },
     {
@@ -10775,10 +10775,6 @@
       "count": 1
     },
     {
-      "name": "visual-inspector",
-      "count": 1
-    },
-    {
       "name": "cropper",
       "count": 1
     },
@@ -10788,6 +10784,14 @@
     },
     {
       "name": "image-cropper",
+      "count": 1
+    },
+    {
+      "name": "visual-inspector",
+      "count": 1
+    },
+    {
+      "name": "mercurial",
       "count": 1
     },
     {
@@ -10816,10 +10820,6 @@
     },
     {
       "name": "system-design-interview",
-      "count": 1
-    },
-    {
-      "name": "mercurial",
       "count": 1
     },
     {
@@ -11267,6 +11267,18 @@
       "count": 1
     },
     {
+      "name": "combobox",
+      "count": 1
+    },
+    {
+      "name": "command-menu",
+      "count": 1
+    },
+    {
+      "name": "radix-ui",
+      "count": 1
+    },
+    {
       "name": "css-properties",
       "count": 1
     },
@@ -11292,18 +11304,6 @@
     },
     {
       "name": "type-safe",
-      "count": 1
-    },
-    {
-      "name": "combobox",
-      "count": 1
-    },
-    {
-      "name": "command-menu",
-      "count": 1
-    },
-    {
-      "name": "radix-ui",
       "count": 1
     },
     {
@@ -11587,10 +11587,6 @@
       "count": 1
     },
     {
-      "name": "keep",
-      "count": 1
-    },
-    {
       "name": "github-copilot",
       "count": 1
     },
@@ -11620,6 +11616,10 @@
     },
     {
       "name": "tutorial-exercises",
+      "count": 1
+    },
+    {
+      "name": "keep",
       "count": 1
     },
     {
@@ -11911,6 +11911,22 @@
       "count": 1
     },
     {
+      "name": "guy-fieri",
+      "count": 1
+    },
+    {
+      "name": "windows98",
+      "count": 1
+    },
+    {
+      "name": "devilution",
+      "count": 1
+    },
+    {
+      "name": "hellfire",
+      "count": 1
+    },
+    {
       "name": "filter-list",
       "count": 1
     },
@@ -11932,22 +11948,6 @@
     },
     {
       "name": "typeahead-search",
-      "count": 1
-    },
-    {
-      "name": "guy-fieri",
-      "count": 1
-    },
-    {
-      "name": "windows98",
-      "count": 1
-    },
-    {
-      "name": "devilution",
-      "count": 1
-    },
-    {
-      "name": "hellfire",
       "count": 1
     },
     {
@@ -12159,19 +12159,19 @@
       "count": 1
     },
     {
-      "name": "borderless",
-      "count": 1
-    },
-    {
-      "name": "c-sharp",
-      "count": 1
-    },
-    {
       "name": "chart",
       "count": 1
     },
     {
       "name": "rollup-plugin-visualizer",
+      "count": 1
+    },
+    {
+      "name": "borderless",
+      "count": 1
+    },
+    {
+      "name": "c-sharp",
       "count": 1
     },
     {
