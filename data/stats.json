@@ -1,11 +1,11 @@
 {
   "totalRepos": 1520,
-  "totalStars": 23853105,
+  "totalStars": 23853442,
   "languageDistribution": {
     "TypeScript": 560,
     "Shell": 31,
     "Zig": 2,
-    "JavaScript": 360,
+    "JavaScript": 359,
     "Python": 68,
     "Rust": 50,
     "Go": 51,
@@ -34,7 +34,7 @@
     "Bikeshed": 2,
     "GDScript": 3,
     "Dockerfile": 5,
-    "MDX": 1,
+    "MDX": 2,
     "JSON": 1,
     "Mermaid": 1,
     "Haxe": 3,
@@ -64,10 +64,10 @@
       "fullName": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "homepage": "https://openclaw.ai",
-      "stars": 182525,
-      "forks": 30512,
-      "watchers": 182525,
-      "openIssues": 5640,
+      "stars": 182614,
+      "forks": 30530,
+      "watchers": 182614,
+      "openIssues": 5672,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -79,8 +79,8 @@
         "personal"
       ],
       "createdAt": "2025-11-24T10:16:47Z",
-      "updatedAt": "2026-02-10T22:17:44Z",
-      "pushedAt": "2026-02-10T21:04:41Z",
+      "updatedAt": "2026-02-10T23:18:07Z",
+      "pushedAt": "2026-02-10T23:04:51Z",
       "starredAt": "2026-01-27T14:01:52Z",
       "score": 0.9942465753424656
     },
@@ -90,10 +90,10 @@
       "fullName": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "homepage": "https://n8n.io",
-      "stars": 173972,
-      "forks": 54734,
-      "watchers": 173972,
-      "openIssues": 1329,
+      "stars": 173974,
+      "forks": 54735,
+      "watchers": 173974,
+      "openIssues": 1324,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -118,8 +118,8 @@
         "workflow-automation"
       ],
       "createdAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-02-10T21:58:12Z",
-      "pushedAt": "2026-02-10T20:33:26Z",
+      "updatedAt": "2026-02-10T23:13:52Z",
+      "pushedAt": "2026-02-10T23:17:46Z",
       "starredAt": "2026-01-19T01:14:28Z",
       "score": 0.990958904109589
     },
@@ -129,15 +129,15 @@
       "fullName": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "homepage": "https://opencode.ai",
-      "stars": 101832,
-      "forks": 9806,
-      "watchers": 101832,
-      "openIssues": 4914,
+      "stars": 101850,
+      "forks": 9808,
+      "watchers": 101850,
+      "openIssues": 4917,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2025-04-30T20:08:00Z",
-      "updatedAt": "2026-02-10T22:18:22Z",
-      "pushedAt": "2026-02-10T22:15:15Z",
+      "updatedAt": "2026-02-10T23:14:14Z",
+      "pushedAt": "2026-02-10T23:03:36Z",
       "starredAt": "2026-01-07T21:29:51Z",
       "score": 0.9860273972602739
     },
@@ -147,17 +147,17 @@
       "fullName": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "homepage": "https://code.claude.com/docs/en/overview",
-      "stars": 65877,
-      "forks": 5066,
-      "watchers": 65877,
-      "openIssues": 6622,
+      "stars": 65884,
+      "forks": 5065,
+      "watchers": 65884,
+      "openIssues": 6626,
       "language": "Shell",
       "topics": [],
       "createdAt": "2025-02-22T17:41:21Z",
-      "updatedAt": "2026-02-10T22:12:34Z",
-      "pushedAt": "2026-02-10T19:46:19Z",
+      "updatedAt": "2026-02-10T23:14:39Z",
+      "pushedAt": "2026-02-10T23:11:36Z",
       "starredAt": "2026-01-24T19:15:11Z",
-      "score": 0.9785129311011038
+      "score": 0.9785166226519957
     },
     {
       "owner": "ghostty-org",
@@ -165,17 +165,17 @@
       "fullName": "ghostty-org/ghostty",
       "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
       "homepage": "https://ghostty.org",
-      "stars": 43475,
+      "stars": 43479,
       "forks": 1586,
-      "watchers": 43475,
+      "watchers": 43479,
       "openIssues": 205,
       "language": "Zig",
       "topics": [],
       "createdAt": "2022-03-29T17:38:26Z",
-      "updatedAt": "2026-02-10T22:13:00Z",
+      "updatedAt": "2026-02-10T23:09:30Z",
       "pushedAt": "2026-02-10T20:18:27Z",
       "starredAt": "2026-02-03T00:30:36Z",
-      "score": 0.9681832540778059
+      "score": 0.9681864505043735
     },
     {
       "owner": "affaan-m",
@@ -183,9 +183,9 @@
       "fullName": "affaan-m/everything-claude-code",
       "description": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.",
       "homepage": "",
-      "stars": 43591,
-      "forks": 5395,
-      "watchers": 43591,
+      "stars": 43614,
+      "forks": 5399,
+      "watchers": 43614,
       "openIssues": 20,
       "language": "JavaScript",
       "topics": [
@@ -199,10 +199,10 @@
         "productivity"
       ],
       "createdAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-02-10T22:16:16Z",
+      "updatedAt": "2026-02-10T23:17:23Z",
       "pushedAt": "2026-02-09T10:43:40Z",
       "starredAt": "2026-01-22T05:53:26Z",
-      "score": 0.9625224066053828
+      "score": 0.9625407331586464
     },
     {
       "owner": "nextlevelbuilder",
@@ -210,9 +210,9 @@
       "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
       "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
       "homepage": "https://www.uupm.cc/",
-      "stars": 30296,
-      "forks": 3002,
-      "watchers": 30296,
+      "stars": 30298,
+      "forks": 3003,
+      "watchers": 30298,
       "openIssues": 51,
       "language": "Python",
       "topics": [
@@ -237,10 +237,10 @@
         "windsurf-ai"
       ],
       "createdAt": "2025-11-30T11:36:31Z",
-      "updatedAt": "2026-02-10T22:13:04Z",
+      "updatedAt": "2026-02-10T22:44:06Z",
       "pushedAt": "2026-02-08T05:46:57Z",
       "starredAt": "2026-01-30T02:34:01Z",
-      "score": 0.9523475865919422
+      "score": 0.9523498800475212
     },
     {
       "owner": "jdx",
@@ -248,17 +248,17 @@
       "fullName": "jdx/mise",
       "description": "dev tools, env vars, task runner",
       "homepage": "https://mise.jdx.dev",
-      "stars": 24403,
+      "stars": 24404,
       "forks": 877,
-      "watchers": 24403,
+      "watchers": 24404,
       "openIssues": 32,
       "language": "Rust",
       "topics": [],
       "createdAt": "2023-01-09T14:44:21Z",
-      "updatedAt": "2026-02-10T21:44:19Z",
-      "pushedAt": "2026-02-10T22:11:14Z",
+      "updatedAt": "2026-02-10T23:02:34Z",
+      "pushedAt": "2026-02-10T22:42:23Z",
       "starredAt": "2026-02-06T03:34:52Z",
-      "score": 0.9493530456891897
+      "score": 0.949354469342965
     },
     {
       "owner": "twpayne",
@@ -266,10 +266,10 @@
       "fullName": "twpayne/chezmoi",
       "description": "Manage your dotfiles across multiple diverse machines, securely.",
       "homepage": "https://www.chezmoi.io/",
-      "stars": 17941,
+      "stars": 17942,
       "forks": 606,
-      "watchers": 17941,
-      "openIssues": 44,
+      "watchers": 17942,
+      "openIssues": 43,
       "language": "Go",
       "topics": [
         "configuration",
@@ -284,10 +284,10 @@
         "windows"
       ],
       "createdAt": "2018-11-12T16:45:43Z",
-      "updatedAt": "2026-02-10T22:05:02Z",
+      "updatedAt": "2026-02-10T23:18:29Z",
       "pushedAt": "2026-02-10T21:47:23Z",
       "starredAt": "2026-02-04T02:21:03Z",
-      "score": 0.937843914762517
+      "score": 0.937845851145884
     },
     {
       "owner": "github",
@@ -295,9 +295,9 @@
       "fullName": "github/spec-kit",
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "homepage": "https://github.github.com/spec-kit/",
-      "stars": 68835,
+      "stars": 68838,
       "forks": 5943,
-      "watchers": 68835,
+      "watchers": 68838,
       "openIssues": 616,
       "language": "Python",
       "topics": [
@@ -310,10 +310,10 @@
         "spec-driven"
       ],
       "createdAt": "2025-08-21T22:54:31Z",
-      "updatedAt": "2026-02-10T22:15:09Z",
+      "updatedAt": "2026-02-10T23:18:40Z",
       "pushedAt": "2026-02-10T20:27:46Z",
       "starredAt": "2025-09-15T09:56:29Z",
-      "score": 0.9262033322649552
+      "score": 0.9262048464204036
     }
   ],
   "recentlyStarred": [
@@ -366,17 +366,17 @@
       "fullName": "jdx/mise",
       "description": "dev tools, env vars, task runner",
       "homepage": "https://mise.jdx.dev",
-      "stars": 24403,
+      "stars": 24404,
       "forks": 877,
-      "watchers": 24403,
+      "watchers": 24404,
       "openIssues": 32,
       "language": "Rust",
       "topics": [],
       "createdAt": "2023-01-09T14:44:21Z",
-      "updatedAt": "2026-02-10T21:44:19Z",
-      "pushedAt": "2026-02-10T22:11:14Z",
+      "updatedAt": "2026-02-10T23:02:34Z",
+      "pushedAt": "2026-02-10T22:42:23Z",
       "starredAt": "2026-02-06T03:34:52Z",
-      "score": 0.9493530456891897
+      "score": 0.949354469342965
     },
     {
       "owner": "VdustR",
@@ -432,10 +432,10 @@
       "fullName": "twpayne/chezmoi",
       "description": "Manage your dotfiles across multiple diverse machines, securely.",
       "homepage": "https://www.chezmoi.io/",
-      "stars": 17941,
+      "stars": 17942,
       "forks": 606,
-      "watchers": 17941,
-      "openIssues": 44,
+      "watchers": 17942,
+      "openIssues": 43,
       "language": "Go",
       "topics": [
         "configuration",
@@ -450,10 +450,10 @@
         "windows"
       ],
       "createdAt": "2018-11-12T16:45:43Z",
-      "updatedAt": "2026-02-10T22:05:02Z",
+      "updatedAt": "2026-02-10T23:18:29Z",
       "pushedAt": "2026-02-10T21:47:23Z",
       "starredAt": "2026-02-04T02:21:03Z",
-      "score": 0.937843914762517
+      "score": 0.937845851145884
     },
     {
       "owner": "axtonliu",
@@ -479,17 +479,17 @@
       "fullName": "ghostty-org/ghostty",
       "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
       "homepage": "https://ghostty.org",
-      "stars": 43475,
+      "stars": 43479,
       "forks": 1586,
-      "watchers": 43475,
+      "watchers": 43479,
       "openIssues": 205,
       "language": "Zig",
       "topics": [],
       "createdAt": "2022-03-29T17:38:26Z",
-      "updatedAt": "2026-02-10T22:13:00Z",
+      "updatedAt": "2026-02-10T23:09:30Z",
       "pushedAt": "2026-02-10T20:18:27Z",
       "starredAt": "2026-02-03T00:30:36Z",
-      "score": 0.9681832540778059
+      "score": 0.9681864505043735
     },
     {
       "owner": "lukilabs",
@@ -497,17 +497,17 @@
       "fullName": "lukilabs/beautiful-mermaid",
       "description": "",
       "homepage": "",
-      "stars": 6840,
+      "stars": 6842,
       "forks": 200,
-      "watchers": 6840,
+      "watchers": 6842,
       "openIssues": 27,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-01-28T16:31:46Z",
-      "updatedAt": "2026-02-10T21:24:48Z",
+      "updatedAt": "2026-02-10T23:16:29Z",
       "pushedAt": "2026-01-31T12:56:52Z",
       "starredAt": "2026-01-31T11:49:27Z",
-      "score": 0.8944808001106761
+      "score": 0.8944909560764172
     },
     {
       "owner": "cloudflare",
@@ -515,20 +515,20 @@
       "fullName": "cloudflare/moltworker",
       "description": "Run OpenClaw, (formerly Moltbot, formerly Clawdbot) on Cloudflare Workers",
       "homepage": "https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/",
-      "stars": 8371,
+      "stars": 8374,
       "forks": 1400,
-      "watchers": 8371,
-      "openIssues": 81,
+      "watchers": 8374,
+      "openIssues": 82,
       "language": "TypeScript",
       "topics": [
         "ai-agents",
         "cloudflare-workers"
       ],
       "createdAt": "2026-01-27T11:09:39Z",
-      "updatedAt": "2026-02-10T21:49:08Z",
-      "pushedAt": "2026-02-10T22:04:09Z",
+      "updatedAt": "2026-02-10T22:53:14Z",
+      "pushedAt": "2026-02-10T22:27:54Z",
       "starredAt": "2026-01-30T06:01:58Z",
-      "score": 0.9093057896281265
+      "score": 0.9093182373115052
     }
   ]
 }
