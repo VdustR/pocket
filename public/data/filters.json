@@ -1791,6 +1791,10 @@
       "count": 3
     },
     {
+      "name": "oauth2",
+      "count": 3
+    },
+    {
       "name": "component-library",
       "count": 3
     },
@@ -1804,10 +1808,6 @@
     },
     {
       "name": "ui-library",
-      "count": 3
-    },
-    {
-      "name": "oauth2",
       "count": 3
     },
     {
@@ -1911,19 +1911,19 @@
       "count": 3
     },
     {
-      "name": "component",
-      "count": 3
-    },
-    {
-      "name": "pwa",
-      "count": 3
-    },
-    {
       "name": "standard",
       "count": 3
     },
     {
       "name": "validation",
+      "count": 3
+    },
+    {
+      "name": "component",
+      "count": 3
+    },
+    {
+      "name": "pwa",
       "count": 3
     },
     {
@@ -1940,10 +1940,6 @@
     },
     {
       "name": "declarative",
-      "count": 3
-    },
-    {
-      "name": "computer-science",
       "count": 3
     },
     {
@@ -1968,6 +1964,10 @@
     },
     {
       "name": "software",
+      "count": 3
+    },
+    {
+      "name": "computer-science",
       "count": 3
     },
     {
@@ -2731,22 +2731,6 @@
       "count": 2
     },
     {
-      "name": "api-gateway",
-      "count": 2
-    },
-    {
-      "name": "federation",
-      "count": 2
-    },
-    {
-      "name": "observability",
-      "count": 2
-    },
-    {
-      "name": "tools",
-      "count": 2
-    },
-    {
       "name": "authentication",
       "count": 2
     },
@@ -2764,6 +2748,22 @@
     },
     {
       "name": "sso",
+      "count": 2
+    },
+    {
+      "name": "api-gateway",
+      "count": 2
+    },
+    {
+      "name": "federation",
+      "count": 2
+    },
+    {
+      "name": "observability",
+      "count": 2
+    },
+    {
+      "name": "tools",
       "count": 2
     },
     {
@@ -3127,6 +3127,14 @@
       "count": 2
     },
     {
+      "name": "blazor",
+      "count": 2
+    },
+    {
+      "name": "pkhex",
+      "count": 2
+    },
+    {
       "name": "2d-game",
       "count": 2
     },
@@ -3136,14 +3144,6 @@
     },
     {
       "name": "reimplementation",
-      "count": 2
-    },
-    {
-      "name": "blazor",
-      "count": 2
-    },
-    {
-      "name": "pkhex",
       "count": 2
     },
     {
@@ -3355,11 +3355,11 @@
       "count": 2
     },
     {
-      "name": "octokit-js",
+      "name": "orchestration",
       "count": 2
     },
     {
-      "name": "orchestration",
+      "name": "octokit-js",
       "count": 2
     },
     {
@@ -3935,11 +3935,11 @@
       "count": 2
     },
     {
-      "name": "config",
+      "name": "self-hosting",
       "count": 2
     },
     {
-      "name": "self-hosting",
+      "name": "config",
       "count": 2
     },
     {
@@ -4127,15 +4127,15 @@
       "count": 2
     },
     {
+      "name": "nerd-fonts",
+      "count": 2
+    },
+    {
       "name": "nintendo-ds",
       "count": 2
     },
     {
       "name": "sega-master-system",
-      "count": 2
-    },
-    {
-      "name": "nerd-fonts",
       "count": 2
     },
     {
@@ -5211,50 +5211,6 @@
       "count": 1
     },
     {
-      "name": "components-library",
-      "count": 1
-    },
-    {
-      "name": "components-react",
-      "count": 1
-    },
-    {
-      "name": "x86",
-      "count": 1
-    },
-    {
-      "name": "asyncio",
-      "count": 1
-    },
-    {
-      "name": "authentication-middleware",
-      "count": 1
-    },
-    {
-      "name": "fastapi",
-      "count": 1
-    },
-    {
-      "name": "gateway",
-      "count": 1
-    },
-    {
-      "name": "jwt",
-      "count": 1
-    },
-    {
-      "name": "llm-agents",
-      "count": 1
-    },
-    {
-      "name": "model-context-protocol",
-      "count": 1
-    },
-    {
-      "name": "prompt-engineering",
-      "count": 1
-    },
-    {
       "name": "2fa",
       "count": 1
     },
@@ -5304,6 +5260,50 @@
     },
     {
       "name": "webauthn",
+      "count": 1
+    },
+    {
+      "name": "components-library",
+      "count": 1
+    },
+    {
+      "name": "components-react",
+      "count": 1
+    },
+    {
+      "name": "x86",
+      "count": 1
+    },
+    {
+      "name": "asyncio",
+      "count": 1
+    },
+    {
+      "name": "authentication-middleware",
+      "count": 1
+    },
+    {
+      "name": "fastapi",
+      "count": 1
+    },
+    {
+      "name": "gateway",
+      "count": 1
+    },
+    {
+      "name": "jwt",
+      "count": 1
+    },
+    {
+      "name": "llm-agents",
+      "count": 1
+    },
+    {
+      "name": "model-context-protocol",
+      "count": 1
+    },
+    {
+      "name": "prompt-engineering",
       "count": 1
     },
     {
@@ -5839,10 +5839,6 @@
       "count": 1
     },
     {
-      "name": "neovim-guis",
-      "count": 1
-    },
-    {
       "name": "android-application",
       "count": 1
     },
@@ -5852,6 +5848,10 @@
     },
     {
       "name": "cordova",
+      "count": 1
+    },
+    {
+      "name": "neovim-guis",
       "count": 1
     },
     {
@@ -5892,18 +5892,6 @@
     },
     {
       "name": "olap",
-      "count": 1
-    },
-    {
-      "name": "file-transfer",
-      "count": 1
-    },
-    {
-      "name": "mtp",
-      "count": 1
-    },
-    {
-      "name": "openmtp",
       "count": 1
     },
     {
@@ -5948,6 +5936,18 @@
     },
     {
       "name": "xdr",
+      "count": 1
+    },
+    {
+      "name": "file-transfer",
+      "count": 1
+    },
+    {
+      "name": "mtp",
+      "count": 1
+    },
+    {
+      "name": "openmtp",
       "count": 1
     },
     {
@@ -6087,74 +6087,6 @@
       "count": 1
     },
     {
-      "name": "angular-roadmap",
-      "count": 1
-    },
-    {
-      "name": "backend-roadmap",
-      "count": 1
-    },
-    {
-      "name": "blockchain-roadmap",
-      "count": 1
-    },
-    {
-      "name": "dba-roadmap",
-      "count": 1
-    },
-    {
-      "name": "developer-roadmap",
-      "count": 1
-    },
-    {
-      "name": "devops-roadmap",
-      "count": 1
-    },
-    {
-      "name": "frontend-roadmap",
-      "count": 1
-    },
-    {
-      "name": "go-roadmap",
-      "count": 1
-    },
-    {
-      "name": "java-roadmap",
-      "count": 1
-    },
-    {
-      "name": "javascript-roadmap",
-      "count": 1
-    },
-    {
-      "name": "nodejs-roadmap",
-      "count": 1
-    },
-    {
-      "name": "python-roadmap",
-      "count": 1
-    },
-    {
-      "name": "qa-roadmap",
-      "count": 1
-    },
-    {
-      "name": "react-roadmap",
-      "count": 1
-    },
-    {
-      "name": "roadmap",
-      "count": 1
-    },
-    {
-      "name": "software-architect-roadmap",
-      "count": 1
-    },
-    {
-      "name": "vue-roadmap",
-      "count": 1
-    },
-    {
       "name": "app-framework",
       "count": 1
     },
@@ -6220,6 +6152,74 @@
     },
     {
       "name": "material-ui",
+      "count": 1
+    },
+    {
+      "name": "angular-roadmap",
+      "count": 1
+    },
+    {
+      "name": "backend-roadmap",
+      "count": 1
+    },
+    {
+      "name": "blockchain-roadmap",
+      "count": 1
+    },
+    {
+      "name": "dba-roadmap",
+      "count": 1
+    },
+    {
+      "name": "developer-roadmap",
+      "count": 1
+    },
+    {
+      "name": "devops-roadmap",
+      "count": 1
+    },
+    {
+      "name": "frontend-roadmap",
+      "count": 1
+    },
+    {
+      "name": "go-roadmap",
+      "count": 1
+    },
+    {
+      "name": "java-roadmap",
+      "count": 1
+    },
+    {
+      "name": "javascript-roadmap",
+      "count": 1
+    },
+    {
+      "name": "nodejs-roadmap",
+      "count": 1
+    },
+    {
+      "name": "python-roadmap",
+      "count": 1
+    },
+    {
+      "name": "qa-roadmap",
+      "count": 1
+    },
+    {
+      "name": "react-roadmap",
+      "count": 1
+    },
+    {
+      "name": "roadmap",
+      "count": 1
+    },
+    {
+      "name": "software-architect-roadmap",
+      "count": 1
+    },
+    {
+      "name": "vue-roadmap",
       "count": 1
     },
     {
@@ -6487,22 +6487,6 @@
       "count": 1
     },
     {
-      "name": "game-2d",
-      "count": 1
-    },
-    {
-      "name": "jazz-jackrabbit",
-      "count": 1
-    },
-    {
-      "name": "ncine",
-      "count": 1
-    },
-    {
-      "name": "uwp",
-      "count": 1
-    },
-    {
       "name": "asp-net",
       "count": 1
     },
@@ -6548,6 +6532,22 @@
     },
     {
       "name": "pokemon-game",
+      "count": 1
+    },
+    {
+      "name": "game-2d",
+      "count": 1
+    },
+    {
+      "name": "jazz-jackrabbit",
+      "count": 1
+    },
+    {
+      "name": "ncine",
+      "count": 1
+    },
+    {
+      "name": "uwp",
       "count": 1
     },
     {
@@ -7115,22 +7115,6 @@
       "count": 1
     },
     {
-      "name": "runtime-validation",
-      "count": 1
-    },
-    {
-      "name": "schema-validation",
-      "count": 1
-    },
-    {
-      "name": "static-types",
-      "count": 1
-    },
-    {
-      "name": "type-inference",
-      "count": 1
-    },
-    {
       "name": "discord-activities",
       "count": 1
     },
@@ -7160,6 +7144,22 @@
     },
     {
       "name": "youtube-playables",
+      "count": 1
+    },
+    {
+      "name": "runtime-validation",
+      "count": 1
+    },
+    {
+      "name": "schema-validation",
+      "count": 1
+    },
+    {
+      "name": "static-types",
+      "count": 1
+    },
+    {
+      "name": "type-inference",
       "count": 1
     },
     {
@@ -7211,15 +7211,15 @@
       "count": 1
     },
     {
-      "name": "octokit",
-      "count": 1
-    },
-    {
       "name": "assets",
       "count": 1
     },
     {
       "name": "module-bundler",
+      "count": 1
+    },
+    {
+      "name": "octokit",
       "count": 1
     },
     {
@@ -7499,6 +7499,14 @@
       "count": 1
     },
     {
+      "name": "floss",
+      "count": 1
+    },
+    {
+      "name": "open-source-licensing",
+      "count": 1
+    },
+    {
       "name": "proton",
       "count": 1
     },
@@ -7524,14 +7532,6 @@
     },
     {
       "name": "reactanimations",
-      "count": 1
-    },
-    {
-      "name": "floss",
-      "count": 1
-    },
-    {
-      "name": "open-source-licensing",
       "count": 1
     },
     {
@@ -8359,14 +8359,6 @@
       "count": 1
     },
     {
-      "name": "algorithms-and-data-structures",
-      "count": 1
-    },
-    {
-      "name": "tutorials",
-      "count": 1
-    },
-    {
       "name": "helm-charts",
       "count": 1
     },
@@ -8420,6 +8412,14 @@
     },
     {
       "name": "webserver",
+      "count": 1
+    },
+    {
+      "name": "algorithms-and-data-structures",
+      "count": 1
+    },
+    {
+      "name": "tutorials",
       "count": 1
     },
     {
@@ -9231,6 +9231,10 @@
       "count": 1
     },
     {
+      "name": "pi",
+      "count": 1
+    },
+    {
       "name": "public",
       "count": 1
     },
@@ -9255,10 +9259,6 @@
       "count": 1
     },
     {
-      "name": "pi",
-      "count": 1
-    },
-    {
       "name": "swagger-editor",
       "count": 1
     },
@@ -9268,14 +9268,6 @@
     },
     {
       "name": "interview-practice",
-      "count": 1
-    },
-    {
-      "name": "github-apps",
-      "count": 1
-    },
-    {
-      "name": "probot",
       "count": 1
     },
     {
@@ -9324,6 +9316,14 @@
     },
     {
       "name": "serverless-functions",
+      "count": 1
+    },
+    {
+      "name": "github-apps",
+      "count": 1
+    },
+    {
+      "name": "probot",
       "count": 1
     },
     {
@@ -10139,14 +10139,6 @@
       "count": 1
     },
     {
-      "name": "icons-provider",
-      "count": 1
-    },
-    {
-      "name": "vscode-icons",
-      "count": 1
-    },
-    {
       "name": "github-enterprise",
       "count": 1
     },
@@ -10168,6 +10160,14 @@
     },
     {
       "name": "github-sponsors",
+      "count": 1
+    },
+    {
+      "name": "icons-provider",
+      "count": 1
+    },
+    {
+      "name": "vscode-icons",
       "count": 1
     },
     {
@@ -10411,10 +10411,6 @@
       "count": 1
     },
     {
-      "name": "fastify-library",
-      "count": 1
-    },
-    {
       "name": "cockroachdb",
       "count": 1
     },
@@ -10495,7 +10491,23 @@
       "count": 1
     },
     {
+      "name": "fastify-library",
+      "count": 1
+    },
+    {
       "name": "rspack",
+      "count": 1
+    },
+    {
+      "name": "ls",
+      "count": 1
+    },
+    {
+      "name": "gtk3",
+      "count": 1
+    },
+    {
+      "name": "vte",
       "count": 1
     },
     {
@@ -10528,18 +10540,6 @@
     },
     {
       "name": "snes",
-      "count": 1
-    },
-    {
-      "name": "ls",
-      "count": 1
-    },
-    {
-      "name": "gtk3",
-      "count": 1
-    },
-    {
-      "name": "vte",
       "count": 1
     },
     {
@@ -10883,10 +10883,6 @@
       "count": 1
     },
     {
-      "name": "pastel-colors",
-      "count": 1
-    },
-    {
       "name": "cropper",
       "count": 1
     },
@@ -10896,6 +10892,10 @@
     },
     {
       "name": "image-cropper",
+      "count": 1
+    },
+    {
+      "name": "pastel-colors",
       "count": 1
     },
     {
@@ -10916,26 +10916,6 @@
     },
     {
       "name": "coffeescript",
-      "count": 1
-    },
-    {
-      "name": "detect",
-      "count": 1
-    },
-    {
-      "name": "file-types",
-      "count": 1
-    },
-    {
-      "name": "magic",
-      "count": 1
-    },
-    {
-      "name": "magic-numbers",
-      "count": 1
-    },
-    {
-      "name": "uint8array",
       "count": 1
     },
     {
@@ -11016,6 +10996,26 @@
     },
     {
       "name": "web-vitals",
+      "count": 1
+    },
+    {
+      "name": "detect",
+      "count": 1
+    },
+    {
+      "name": "file-types",
+      "count": 1
+    },
+    {
+      "name": "magic",
+      "count": 1
+    },
+    {
+      "name": "magic-numbers",
+      "count": 1
+    },
+    {
+      "name": "uint8array",
       "count": 1
     },
     {
@@ -11335,14 +11335,6 @@
       "count": 1
     },
     {
-      "name": "date-formatting",
-      "count": 1
-    },
-    {
-      "name": "time-formatting",
-      "count": 1
-    },
-    {
       "name": "linguist",
       "count": 1
     },
@@ -11380,6 +11372,14 @@
     },
     {
       "name": "sysnand",
+      "count": 1
+    },
+    {
+      "name": "date-formatting",
+      "count": 1
+    },
+    {
+      "name": "time-formatting",
       "count": 1
     },
     {
