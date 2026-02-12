@@ -1471,11 +1471,11 @@
       "count": 4
     },
     {
-      "name": "lodash",
+      "name": "regexp",
       "count": 4
     },
     {
-      "name": "regexp",
+      "name": "lodash",
       "count": 4
     },
     {
@@ -1603,19 +1603,19 @@
       "count": 4
     },
     {
-      "name": "draw",
-      "count": 4
-    },
-    {
-      "name": "pixel-editor",
-      "count": 4
-    },
-    {
       "name": "libretro",
       "count": 4
     },
     {
       "name": "retroarch",
+      "count": 4
+    },
+    {
+      "name": "draw",
+      "count": 4
+    },
+    {
+      "name": "pixel-editor",
       "count": 4
     },
     {
@@ -1915,14 +1915,6 @@
       "count": 3
     },
     {
-      "name": "component",
-      "count": 3
-    },
-    {
-      "name": "pwa",
-      "count": 3
-    },
-    {
       "name": "standard",
       "count": 3
     },
@@ -1964,6 +1956,14 @@
     },
     {
       "name": "mit",
+      "count": 3
+    },
+    {
+      "name": "component",
+      "count": 3
+    },
+    {
+      "name": "pwa",
       "count": 3
     },
     {
@@ -3303,10 +3303,6 @@
       "count": 2
     },
     {
-      "name": "socket-io",
-      "count": 2
-    },
-    {
       "name": "child-process",
       "count": 2
     },
@@ -3336,6 +3332,10 @@
     },
     {
       "name": "facebook",
+      "count": 2
+    },
+    {
+      "name": "socket-io",
       "count": 2
     },
     {
@@ -3403,15 +3403,15 @@
       "count": 2
     },
     {
-      "name": "swc",
-      "count": 2
-    },
-    {
       "name": "menubar",
       "count": 2
     },
     {
       "name": "ecommerce",
+      "count": 2
+    },
+    {
+      "name": "swc",
       "count": 2
     },
     {
@@ -3823,14 +3823,6 @@
       "count": 2
     },
     {
-      "name": "aseprite",
-      "count": 2
-    },
-    {
-      "name": "spritesheet",
-      "count": 2
-    },
-    {
       "name": "admin",
       "count": 2
     },
@@ -3844,6 +3836,14 @@
     },
     {
       "name": "developer-experience",
+      "count": 2
+    },
+    {
+      "name": "aseprite",
+      "count": 2
+    },
+    {
+      "name": "spritesheet",
       "count": 2
     },
     {
@@ -3879,14 +3879,6 @@
       "count": 2
     },
     {
-      "name": "reactive-programming",
-      "count": 2
-    },
-    {
-      "name": "web-application",
-      "count": 2
-    },
-    {
       "name": "http-server",
       "count": 2
     },
@@ -3896,6 +3888,14 @@
     },
     {
       "name": "visualisation",
+      "count": 2
+    },
+    {
+      "name": "reactive-programming",
+      "count": 2
+    },
+    {
+      "name": "web-application",
       "count": 2
     },
     {
@@ -5423,6 +5423,22 @@
       "count": 1
     },
     {
+      "name": "autogen",
+      "count": 1
+    },
+    {
+      "name": "autogen-extension",
+      "count": 1
+    },
+    {
+      "name": "langchain",
+      "count": 1
+    },
+    {
+      "name": "microsoft-office",
+      "count": 1
+    },
+    {
       "name": "github-action-javascript",
       "count": 1
     },
@@ -5448,22 +5464,6 @@
     },
     {
       "name": "readme-template",
-      "count": 1
-    },
-    {
-      "name": "autogen",
-      "count": 1
-    },
-    {
-      "name": "autogen-extension",
-      "count": 1
-    },
-    {
-      "name": "langchain",
-      "count": 1
-    },
-    {
-      "name": "microsoft-office",
       "count": 1
     },
     {
@@ -5719,6 +5719,22 @@
       "count": 1
     },
     {
+      "name": "windows-virtual-desktop",
+      "count": 1
+    },
+    {
+      "name": "windows-virtual-machine",
+      "count": 1
+    },
+    {
+      "name": "windows-virtual-machines",
+      "count": 1
+    },
+    {
+      "name": "windows-vm",
+      "count": 1
+    },
+    {
       "name": "cheerp",
       "count": 1
     },
@@ -5748,22 +5764,6 @@
     },
     {
       "name": "xterm-js",
-      "count": 1
-    },
-    {
-      "name": "windows-virtual-desktop",
-      "count": 1
-    },
-    {
-      "name": "windows-virtual-machine",
-      "count": 1
-    },
-    {
-      "name": "windows-virtual-machines",
-      "count": 1
-    },
-    {
-      "name": "windows-vm",
       "count": 1
     },
     {
@@ -7343,18 +7343,6 @@
       "count": 1
     },
     {
-      "name": "ecmascript-parser",
-      "count": 1
-    },
-    {
-      "name": "typescript-compiler",
-      "count": 1
-    },
-    {
-      "name": "typescript-parser",
-      "count": 1
-    },
-    {
       "name": "control",
       "count": 1
     },
@@ -7396,6 +7384,18 @@
     },
     {
       "name": "medusa",
+      "count": 1
+    },
+    {
+      "name": "ecmascript-parser",
+      "count": 1
+    },
+    {
+      "name": "typescript-compiler",
+      "count": 1
+    },
+    {
+      "name": "typescript-parser",
       "count": 1
     },
     {
@@ -8367,6 +8367,18 @@
       "count": 1
     },
     {
+      "name": "developer-portal",
+      "count": 1
+    },
+    {
+      "name": "professional-networking",
+      "count": 1
+    },
+    {
+      "name": "search-engine",
+      "count": 1
+    },
+    {
       "name": "email-boilerplate",
       "count": 1
     },
@@ -8380,18 +8392,6 @@
     },
     {
       "name": "responsive-email",
-      "count": 1
-    },
-    {
-      "name": "developer-portal",
-      "count": 1
-    },
-    {
-      "name": "professional-networking",
-      "count": 1
-    },
-    {
-      "name": "search-engine",
       "count": 1
     },
     {
@@ -8723,14 +8723,6 @@
       "count": 1
     },
     {
-      "name": "denofresh",
-      "count": 1
-    },
-    {
-      "name": "fresh",
-      "count": 1
-    },
-    {
       "name": "persistent",
       "count": 1
     },
@@ -8808,6 +8800,14 @@
     },
     {
       "name": "protection",
+      "count": 1
+    },
+    {
+      "name": "denofresh",
+      "count": 1
+    },
+    {
+      "name": "fresh",
       "count": 1
     },
     {
@@ -8891,22 +8891,6 @@
       "count": 1
     },
     {
-      "name": "animated-sprites",
-      "count": 1
-    },
-    {
-      "name": "sprite-editor",
-      "count": 1
-    },
-    {
-      "name": "tile-editor",
-      "count": 1
-    },
-    {
-      "name": "tilemap-editor",
-      "count": 1
-    },
-    {
       "name": "frontend-framework",
       "count": 1
     },
@@ -8967,6 +8951,22 @@
       "count": 1
     },
     {
+      "name": "animated-sprites",
+      "count": 1
+    },
+    {
+      "name": "sprite-editor",
+      "count": 1
+    },
+    {
+      "name": "tile-editor",
+      "count": 1
+    },
+    {
+      "name": "tilemap-editor",
+      "count": 1
+    },
+    {
       "name": "dartlang",
       "count": 1
     },
@@ -9023,14 +9023,6 @@
       "count": 1
     },
     {
-      "name": "short-url",
-      "count": 1
-    },
-    {
-      "name": "yourls",
-      "count": 1
-    },
-    {
       "name": "code-generator",
       "count": 1
     },
@@ -9064,6 +9056,14 @@
     },
     {
       "name": "semantic-versioning",
+      "count": 1
+    },
+    {
+      "name": "short-url",
+      "count": 1
+    },
+    {
+      "name": "yourls",
       "count": 1
     },
     {
@@ -9159,14 +9159,6 @@
       "count": 1
     },
     {
-      "name": "observable",
-      "count": 1
-    },
-    {
-      "name": "observables",
-      "count": 1
-    },
-    {
       "name": "static-server",
       "count": 1
     },
@@ -9196,6 +9188,14 @@
     },
     {
       "name": "visual-effects",
+      "count": 1
+    },
+    {
+      "name": "observable",
+      "count": 1
+    },
+    {
+      "name": "observables",
       "count": 1
     },
     {
@@ -10739,14 +10739,6 @@
       "count": 1
     },
     {
-      "name": "sega-dreamcast",
-      "count": 1
-    },
-    {
-      "name": "sega-naomi",
-      "count": 1
-    },
-    {
       "name": "github-api",
       "count": 1
     },
@@ -10788,6 +10780,14 @@
     },
     {
       "name": "swift-programming",
+      "count": 1
+    },
+    {
+      "name": "sega-dreamcast",
+      "count": 1
+    },
+    {
+      "name": "sega-naomi",
       "count": 1
     },
     {
@@ -11291,10 +11291,6 @@
       "count": 1
     },
     {
-      "name": "system-monitoring",
-      "count": 1
-    },
-    {
       "name": "combobox",
       "count": 1
     },
@@ -11304,6 +11300,10 @@
     },
     {
       "name": "radix-ui",
+      "count": 1
+    },
+    {
+      "name": "system-monitoring",
       "count": 1
     },
     {
@@ -11915,14 +11915,6 @@
       "count": 1
     },
     {
-      "name": "guy-fieri",
-      "count": 1
-    },
-    {
-      "name": "windows98",
-      "count": 1
-    },
-    {
       "name": "filter-list",
       "count": 1
     },
@@ -11944,6 +11936,14 @@
     },
     {
       "name": "typeahead-search",
+      "count": 1
+    },
+    {
+      "name": "guy-fieri",
+      "count": 1
+    },
+    {
+      "name": "windows98",
       "count": 1
     },
     {
@@ -12131,6 +12131,14 @@
       "count": 1
     },
     {
+      "name": "fontmake",
+      "count": 1
+    },
+    {
+      "name": "type-design",
+      "count": 1
+    },
+    {
       "name": "git-hooks",
       "count": 1
     },
@@ -12140,14 +12148,6 @@
     },
     {
       "name": "pre-push",
-      "count": 1
-    },
-    {
-      "name": "fontmake",
-      "count": 1
-    },
-    {
-      "name": "type-design",
       "count": 1
     },
     {
@@ -12511,6 +12511,10 @@
       "count": 1
     },
     {
+      "name": "sudo",
+      "count": 1
+    },
+    {
       "name": "conversion",
       "count": 1
     },
@@ -12536,10 +12540,6 @@
     },
     {
       "name": "stdin",
-      "count": 1
-    },
-    {
-      "name": "sudo",
       "count": 1
     },
     {
@@ -12643,10 +12643,6 @@
       "count": 1
     },
     {
-      "name": "handwriting",
-      "count": 1
-    },
-    {
       "name": "admin-template",
       "count": 1
     },
@@ -12676,6 +12672,10 @@
     },
     {
       "name": "webpack4",
+      "count": 1
+    },
+    {
+      "name": "handwriting",
       "count": 1
     },
     {
