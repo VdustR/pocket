@@ -2,7 +2,7 @@
   "languages": [
     {
       "name": "TypeScript",
-      "count": 562
+      "count": 563
     },
     {
       "name": "JavaScript",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Python",
-      "count": 68
+      "count": 67
     },
     {
       "name": "C++",
@@ -903,6 +903,10 @@
       "count": 6
     },
     {
+      "name": "diagrams",
+      "count": 6
+    },
+    {
       "name": "deep-learning",
       "count": 6
     },
@@ -916,10 +920,6 @@
     },
     {
       "name": "postgres",
-      "count": 6
-    },
-    {
-      "name": "diagrams",
       "count": 6
     },
     {
@@ -1391,6 +1391,10 @@
       "count": 4
     },
     {
+      "name": "drawing",
+      "count": 4
+    },
+    {
       "name": "pytorch",
       "count": 4
     },
@@ -1424,10 +1428,6 @@
     },
     {
       "name": "websockets",
-      "count": 4
-    },
-    {
-      "name": "drawing",
       "count": 4
     },
     {
@@ -1923,6 +1923,10 @@
       "count": 3
     },
     {
+      "name": "whiteboard",
+      "count": 3
+    },
+    {
       "name": "color-picker",
       "count": 3
     },
@@ -1959,10 +1963,6 @@
       "count": 3
     },
     {
-      "name": "whiteboard",
-      "count": 3
-    },
-    {
       "name": "app",
       "count": 3
     },
@@ -1991,19 +1991,19 @@
       "count": 3
     },
     {
-      "name": "component",
-      "count": 3
-    },
-    {
-      "name": "pwa",
-      "count": 3
-    },
-    {
       "name": "standard",
       "count": 3
     },
     {
       "name": "validation",
+      "count": 3
+    },
+    {
+      "name": "component",
+      "count": 3
+    },
+    {
+      "name": "pwa",
       "count": 3
     },
     {
@@ -2051,11 +2051,11 @@
       "count": 3
     },
     {
-      "name": "jquery",
+      "name": "react-context",
       "count": 3
     },
     {
-      "name": "react-context",
+      "name": "jquery",
       "count": 3
     },
     {
@@ -2171,11 +2171,11 @@
       "count": 3
     },
     {
-      "name": "nginx",
+      "name": "animation-library",
       "count": 3
     },
     {
-      "name": "animation-library",
+      "name": "nginx",
       "count": 3
     },
     {
@@ -2267,15 +2267,15 @@
       "count": 3
     },
     {
-      "name": "utility",
-      "count": 3
-    },
-    {
       "name": "mock",
       "count": 3
     },
     {
       "name": "atomic-css",
+      "count": 3
+    },
+    {
+      "name": "utility",
       "count": 3
     },
     {
@@ -2311,11 +2311,11 @@
       "count": 3
     },
     {
-      "name": "php",
+      "name": "widget",
       "count": 3
     },
     {
-      "name": "widget",
+      "name": "php",
       "count": 3
     },
     {
@@ -3411,10 +3411,6 @@
       "count": 2
     },
     {
-      "name": "socket-io",
-      "count": 2
-    },
-    {
       "name": "load-balancer",
       "count": 2
     },
@@ -3424,6 +3420,10 @@
     },
     {
       "name": "facebook",
+      "count": 2
+    },
+    {
+      "name": "socket-io",
       "count": 2
     },
     {
@@ -3475,15 +3475,15 @@
       "count": 2
     },
     {
+      "name": "safari-extension",
+      "count": 2
+    },
+    {
       "name": "http2",
       "count": 2
     },
     {
       "name": "reverse-proxy",
-      "count": 2
-    },
-    {
-      "name": "safari-extension",
       "count": 2
     },
     {
@@ -3571,10 +3571,6 @@
       "count": 2
     },
     {
-      "name": "load-testing",
-      "count": 2
-    },
-    {
       "name": "applications",
       "count": 2
     },
@@ -3596,6 +3592,10 @@
     },
     {
       "name": "reducer",
+      "count": 2
+    },
+    {
+      "name": "load-testing",
       "count": 2
     },
     {
@@ -3951,19 +3951,19 @@
       "count": 2
     },
     {
-      "name": "reactive-programming",
-      "count": 2
-    },
-    {
-      "name": "web-application",
-      "count": 2
-    },
-    {
       "name": "module",
       "count": 2
     },
     {
       "name": "visualisation",
+      "count": 2
+    },
+    {
+      "name": "reactive-programming",
+      "count": 2
+    },
+    {
+      "name": "web-application",
       "count": 2
     },
     {
@@ -4823,6 +4823,14 @@
       "count": 1
     },
     {
+      "name": "logger",
+      "count": 1
+    },
+    {
+      "name": "pino",
+      "count": 1
+    },
+    {
       "name": "fdroid",
       "count": 1
     },
@@ -4836,14 +4844,6 @@
     },
     {
       "name": "rxjava",
-      "count": 1
-    },
-    {
-      "name": "logger",
-      "count": 1
-    },
-    {
-      "name": "pino",
       "count": 1
     },
     {
@@ -7099,22 +7099,6 @@
       "count": 1
     },
     {
-      "name": "runtime-validation",
-      "count": 1
-    },
-    {
-      "name": "schema-validation",
-      "count": 1
-    },
-    {
-      "name": "static-types",
-      "count": 1
-    },
-    {
-      "name": "type-inference",
-      "count": 1
-    },
-    {
       "name": "discord-activities",
       "count": 1
     },
@@ -7144,6 +7128,22 @@
     },
     {
       "name": "youtube-playables",
+      "count": 1
+    },
+    {
+      "name": "runtime-validation",
+      "count": 1
+    },
+    {
+      "name": "schema-validation",
+      "count": 1
+    },
+    {
+      "name": "static-types",
+      "count": 1
+    },
+    {
+      "name": "type-inference",
       "count": 1
     },
     {
@@ -7547,6 +7547,26 @@
       "count": 1
     },
     {
+      "name": "github-extension",
+      "count": 1
+    },
+    {
+      "name": "userstyle",
+      "count": 1
+    },
+    {
+      "name": "react-spring",
+      "count": 1
+    },
+    {
+      "name": "spring-physics",
+      "count": 1
+    },
+    {
+      "name": "springs",
+      "count": 1
+    },
+    {
       "name": "content-cache",
       "count": 1
     },
@@ -7579,31 +7599,15 @@
       "count": 1
     },
     {
-      "name": "github-extension",
-      "count": 1
-    },
-    {
-      "name": "userstyle",
-      "count": 1
-    },
-    {
-      "name": "react-spring",
-      "count": 1
-    },
-    {
-      "name": "spring-physics",
-      "count": 1
-    },
-    {
-      "name": "springs",
-      "count": 1
-    },
-    {
       "name": "gnu-linux",
       "count": 1
     },
     {
       "name": "image-editing",
+      "count": 1
+    },
+    {
+      "name": "micro",
       "count": 1
     },
     {
@@ -7636,10 +7640,6 @@
     },
     {
       "name": "visualizer",
-      "count": 1
-    },
-    {
-      "name": "micro",
       "count": 1
     },
     {
@@ -8447,10 +8447,6 @@
       "count": 1
     },
     {
-      "name": "functional",
-      "count": 1
-    },
-    {
       "name": "api-mocking",
       "count": 1
     },
@@ -8524,6 +8520,10 @@
     },
     {
       "name": "windicss",
+      "count": 1
+    },
+    {
+      "name": "functional",
       "count": 1
     },
     {
@@ -8667,6 +8667,14 @@
       "count": 1
     },
     {
+      "name": "graphs",
+      "count": 1
+    },
+    {
+      "name": "ship",
+      "count": 1
+    },
+    {
       "name": "email-boilerplate",
       "count": 1
     },
@@ -8680,14 +8688,6 @@
     },
     {
       "name": "responsive-email",
-      "count": 1
-    },
-    {
-      "name": "graphs",
-      "count": 1
-    },
-    {
-      "name": "ship",
       "count": 1
     },
     {
@@ -8935,14 +8935,6 @@
       "count": 1
     },
     {
-      "name": "denofresh",
-      "count": 1
-    },
-    {
-      "name": "fresh",
-      "count": 1
-    },
-    {
       "name": "explorer",
       "count": 1
     },
@@ -8991,11 +8983,11 @@
       "count": 1
     },
     {
-      "name": "short-url",
+      "name": "denofresh",
       "count": 1
     },
     {
-      "name": "yourls",
+      "name": "fresh",
       "count": 1
     },
     {
@@ -9020,6 +9012,14 @@
     },
     {
       "name": "zero-trust-network-access",
+      "count": 1
+    },
+    {
+      "name": "short-url",
+      "count": 1
+    },
+    {
+      "name": "yourls",
       "count": 1
     },
     {
@@ -9419,19 +9419,19 @@
       "count": 1
     },
     {
-      "name": "observable",
-      "count": 1
-    },
-    {
-      "name": "observables",
-      "count": 1
-    },
-    {
       "name": "ascii-art",
       "count": 1
     },
     {
       "name": "visual-effects",
+      "count": 1
+    },
+    {
+      "name": "observable",
+      "count": 1
+    },
+    {
+      "name": "observables",
       "count": 1
     },
     {
@@ -11411,10 +11411,6 @@
       "count": 1
     },
     {
-      "name": "system-monitoring",
-      "count": 1
-    },
-    {
       "name": "experimental",
       "count": 1
     },
@@ -11424,6 +11420,10 @@
     },
     {
       "name": "zircle-ui",
+      "count": 1
+    },
+    {
+      "name": "system-monitoring",
       "count": 1
     },
     {
@@ -11983,14 +11983,6 @@
       "count": 1
     },
     {
-      "name": "guy-fieri",
-      "count": 1
-    },
-    {
-      "name": "windows98",
-      "count": 1
-    },
-    {
       "name": "filter-list",
       "count": 1
     },
@@ -12012,6 +12004,14 @@
     },
     {
       "name": "typeahead-search",
+      "count": 1
+    },
+    {
+      "name": "guy-fieri",
+      "count": 1
+    },
+    {
+      "name": "windows98",
       "count": 1
     },
     {
@@ -12171,18 +12171,6 @@
       "count": 1
     },
     {
-      "name": "git-hooks",
-      "count": 1
-    },
-    {
-      "name": "hooks-manager",
-      "count": 1
-    },
-    {
-      "name": "pre-push",
-      "count": 1
-    },
-    {
       "name": "browserify",
       "count": 1
     },
@@ -12192,6 +12180,18 @@
     },
     {
       "name": "mobx",
+      "count": 1
+    },
+    {
+      "name": "git-hooks",
+      "count": 1
+    },
+    {
+      "name": "hooks-manager",
+      "count": 1
+    },
+    {
+      "name": "pre-push",
       "count": 1
     },
     {
@@ -12551,6 +12551,10 @@
       "count": 1
     },
     {
+      "name": "sudo",
+      "count": 1
+    },
+    {
       "name": "conversion",
       "count": 1
     },
@@ -12576,10 +12580,6 @@
     },
     {
       "name": "stdin",
-      "count": 1
-    },
-    {
-      "name": "sudo",
       "count": 1
     },
     {
