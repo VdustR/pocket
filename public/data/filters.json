@@ -17,12 +17,12 @@
       "count": 58
     },
     {
-      "name": "Go",
+      "name": "Rust",
       "count": 51
     },
     {
-      "name": "Rust",
-      "count": 50
+      "name": "Go",
+      "count": 51
     },
     {
       "name": "HTML",
@@ -85,11 +85,11 @@
       "count": 5
     },
     {
-      "name": "Makefile",
-      "count": 5
+      "name": "Assembly",
+      "count": 4
     },
     {
-      "name": "Assembly",
+      "name": "Makefile",
       "count": 4
     },
     {
@@ -2143,15 +2143,11 @@
       "count": 3
     },
     {
-      "name": "snapshot",
-      "count": 3
-    },
-    {
       "name": "flexbox",
       "count": 3
     },
     {
-      "name": "type",
+      "name": "snapshot",
       "count": 3
     },
     {
@@ -2164,6 +2160,10 @@
     },
     {
       "name": "security-tools",
+      "count": 3
+    },
+    {
+      "name": "type",
       "count": 3
     },
     {
@@ -2563,15 +2563,15 @@
       "count": 2
     },
     {
-      "name": "productivity-tools",
-      "count": 2
-    },
-    {
       "name": "plugins",
       "count": 2
     },
     {
       "name": "portable",
+      "count": 2
+    },
+    {
+      "name": "productivity-tools",
       "count": 2
     },
     {
@@ -3403,7 +3403,7 @@
       "count": 2
     },
     {
-      "name": "facebook",
+      "name": "reactive",
       "count": 2
     },
     {
@@ -3419,6 +3419,10 @@
       "count": 2
     },
     {
+      "name": "facebook",
+      "count": 2
+    },
+    {
       "name": "interview",
       "count": 2
     },
@@ -3427,19 +3431,11 @@
       "count": 2
     },
     {
-      "name": "reactive",
-      "count": 2
-    },
-    {
       "name": "koa",
       "count": 2
     },
     {
       "name": "swc",
-      "count": 2
-    },
-    {
-      "name": "type-system",
       "count": 2
     },
     {
@@ -3456,6 +3452,10 @@
     },
     {
       "name": "ecommerce",
+      "count": 2
+    },
+    {
+      "name": "type-system",
       "count": 2
     },
     {
@@ -3523,11 +3523,11 @@
       "count": 2
     },
     {
-      "name": "multiplatform",
+      "name": "static-code-analysis",
       "count": 2
     },
     {
-      "name": "static-code-analysis",
+      "name": "multiplatform",
       "count": 2
     },
     {
@@ -4063,11 +4063,11 @@
       "count": 2
     },
     {
-      "name": "quality",
+      "name": "parsing",
       "count": 2
     },
     {
-      "name": "parsing",
+      "name": "quality",
       "count": 2
     },
     {
@@ -4084,6 +4084,14 @@
     },
     {
       "name": "virtualized",
+      "count": 2
+    },
+    {
+      "name": "jest",
+      "count": 2
+    },
+    {
+      "name": "vitest",
       "count": 2
     },
     {
@@ -4120,14 +4128,6 @@
     },
     {
       "name": "expressjs",
-      "count": 2
-    },
-    {
-      "name": "jest",
-      "count": 2
-    },
-    {
-      "name": "vitest",
       "count": 2
     },
     {
@@ -4711,14 +4711,6 @@
       "count": 1
     },
     {
-      "name": "espanso",
-      "count": 1
-    },
-    {
-      "name": "text-expander",
-      "count": 1
-    },
-    {
       "name": "alfred",
       "count": 1
     },
@@ -4752,6 +4744,14 @@
     },
     {
       "name": "wox",
+      "count": 1
+    },
+    {
+      "name": "espanso",
+      "count": 1
+    },
+    {
+      "name": "text-expander",
       "count": 1
     },
     {
@@ -7255,6 +7255,26 @@
       "count": 1
     },
     {
+      "name": "fine-grained",
+      "count": 1
+    },
+    {
+      "name": "proxies",
+      "count": 1
+    },
+    {
+      "name": "deploy",
+      "count": 1
+    },
+    {
+      "name": "pm2",
+      "count": 1
+    },
+    {
+      "name": "production",
+      "count": 1
+    },
+    {
       "name": "easy",
       "count": 1
     },
@@ -7275,18 +7295,6 @@
       "count": 1
     },
     {
-      "name": "deploy",
-      "count": 1
-    },
-    {
-      "name": "pm2",
-      "count": 1
-    },
-    {
-      "name": "production",
-      "count": 1
-    },
-    {
       "name": "algorithm",
       "count": 1
     },
@@ -7303,14 +7311,6 @@
       "count": 1
     },
     {
-      "name": "fine-grained",
-      "count": 1
-    },
-    {
-      "name": "proxies",
-      "count": 1
-    },
-    {
       "name": "ecmascript-parser",
       "count": 1
     },
@@ -7320,10 +7320,6 @@
     },
     {
       "name": "typescript-parser",
-      "count": 1
-    },
-    {
-      "name": "challenges",
       "count": 1
     },
     {
@@ -7416,6 +7412,10 @@
     },
     {
       "name": "vulnerability-scanners",
+      "count": 1
+    },
+    {
+      "name": "challenges",
       "count": 1
     },
     {
@@ -8275,6 +8275,30 @@
       "count": 1
     },
     {
+      "name": "changelog-generator",
+      "count": 1
+    },
+    {
+      "name": "conventional-changelog",
+      "count": 1
+    },
+    {
+      "name": "conventional-commit",
+      "count": 1
+    },
+    {
+      "name": "conventional-commits",
+      "count": 1
+    },
+    {
+      "name": "git-cliff",
+      "count": 1
+    },
+    {
+      "name": "keepachangelog",
+      "count": 1
+    },
+    {
       "name": "annotations",
       "count": 1
     },
@@ -8304,30 +8328,6 @@
     },
     {
       "name": "self-extracting-zip",
-      "count": 1
-    },
-    {
-      "name": "changelog-generator",
-      "count": 1
-    },
-    {
-      "name": "conventional-changelog",
-      "count": 1
-    },
-    {
-      "name": "conventional-commit",
-      "count": 1
-    },
-    {
-      "name": "conventional-commits",
-      "count": 1
-    },
-    {
-      "name": "git-cliff",
-      "count": 1
-    },
-    {
-      "name": "keepachangelog",
       "count": 1
     },
     {
@@ -9079,6 +9079,10 @@
       "count": 1
     },
     {
+      "name": "pi",
+      "count": 1
+    },
+    {
       "name": "deadcode",
       "count": 1
     },
@@ -9128,10 +9132,6 @@
     },
     {
       "name": "sw-toolbox",
-      "count": 1
-    },
-    {
-      "name": "pi",
       "count": 1
     },
     {
@@ -9531,14 +9531,6 @@
       "count": 1
     },
     {
-      "name": "minification",
-      "count": 1
-    },
-    {
-      "name": "optimization",
-      "count": 1
-    },
-    {
       "name": "command-line-app",
       "count": 1
     },
@@ -9559,11 +9551,15 @@
       "count": 1
     },
     {
-      "name": "log",
+      "name": "minification",
       "count": 1
     },
     {
-      "name": "twemoji",
+      "name": "optimization",
+      "count": 1
+    },
+    {
+      "name": "log",
       "count": 1
     },
     {
@@ -9579,6 +9575,18 @@
       "count": 1
     },
     {
+      "name": "telegram-channel",
+      "count": 1
+    },
+    {
+      "name": "twemoji",
+      "count": 1
+    },
+    {
+      "name": "hedgedoc",
+      "count": 1
+    },
+    {
       "name": "chinese-programmers",
       "count": 1
     },
@@ -9588,14 +9596,6 @@
     },
     {
       "name": "spelling",
-      "count": 1
-    },
-    {
-      "name": "telegram-channel",
-      "count": 1
-    },
-    {
-      "name": "hedgedoc",
       "count": 1
     },
     {
@@ -9907,14 +9907,6 @@
       "count": 1
     },
     {
-      "name": "phosphor",
-      "count": 1
-    },
-    {
-      "name": "svgs",
-      "count": 1
-    },
-    {
       "name": "data-grid",
       "count": 1
     },
@@ -9944,6 +9936,14 @@
     },
     {
       "name": "compatibility",
+      "count": 1
+    },
+    {
+      "name": "phosphor",
+      "count": 1
+    },
+    {
+      "name": "svgs",
       "count": 1
     },
     {
@@ -9991,34 +9991,6 @@
       "count": 1
     },
     {
-      "name": "clones-detection",
-      "count": 1
-    },
-    {
-      "name": "code-quality",
-      "count": 1
-    },
-    {
-      "name": "copy-paste",
-      "count": 1
-    },
-    {
-      "name": "cpd",
-      "count": 1
-    },
-    {
-      "name": "detect-duplications",
-      "count": 1
-    },
-    {
-      "name": "duplicates",
-      "count": 1
-    },
-    {
-      "name": "duplications",
-      "count": 1
-    },
-    {
       "name": "runtime-typechecking",
       "count": 1
     },
@@ -10056,6 +10028,34 @@
     },
     {
       "name": "stylus",
+      "count": 1
+    },
+    {
+      "name": "clones-detection",
+      "count": 1
+    },
+    {
+      "name": "code-quality",
+      "count": 1
+    },
+    {
+      "name": "copy-paste",
+      "count": 1
+    },
+    {
+      "name": "cpd",
+      "count": 1
+    },
+    {
+      "name": "detect-duplications",
+      "count": 1
+    },
+    {
+      "name": "duplicates",
+      "count": 1
+    },
+    {
+      "name": "duplications",
       "count": 1
     },
     {
@@ -10231,6 +10231,14 @@
       "count": 1
     },
     {
+      "name": "hacktoberfest2025",
+      "count": 1
+    },
+    {
+      "name": "testing-library",
+      "count": 1
+    },
+    {
       "name": "commercial",
       "count": 1
     },
@@ -10316,14 +10324,6 @@
     },
     {
       "name": "path-to-regexp",
-      "count": 1
-    },
-    {
-      "name": "hacktoberfest2025",
-      "count": 1
-    },
-    {
-      "name": "testing-library",
       "count": 1
     },
     {
@@ -10679,26 +10679,6 @@
       "count": 1
     },
     {
-      "name": "es6-javascript",
-      "count": 1
-    },
-    {
-      "name": "express-js",
-      "count": 1
-    },
-    {
-      "name": "javascript-framework",
-      "count": 1
-    },
-    {
-      "name": "nodejs-frameworks",
-      "count": 1
-    },
-    {
-      "name": "nodejs-server",
-      "count": 1
-    },
-    {
       "name": "3ds",
       "count": 1
     },
@@ -10732,6 +10712,26 @@
     },
     {
       "name": "sysnand",
+      "count": 1
+    },
+    {
+      "name": "es6-javascript",
+      "count": 1
+    },
+    {
+      "name": "express-js",
+      "count": 1
+    },
+    {
+      "name": "javascript-framework",
+      "count": 1
+    },
+    {
+      "name": "nodejs-frameworks",
+      "count": 1
+    },
+    {
+      "name": "nodejs-server",
       "count": 1
     },
     {
@@ -11051,6 +11051,10 @@
       "count": 1
     },
     {
+      "name": "emoji-searcher",
+      "count": 1
+    },
+    {
       "name": "cropper",
       "count": 1
     },
@@ -11303,6 +11307,10 @@
       "count": 1
     },
     {
+      "name": "linters",
+      "count": 1
+    },
+    {
       "name": "northstar-client",
       "count": 1
     },
@@ -11312,10 +11320,6 @@
     },
     {
       "name": "titanfall",
-      "count": 1
-    },
-    {
-      "name": "linters",
       "count": 1
     },
     {
@@ -11467,10 +11471,6 @@
       "count": 1
     },
     {
-      "name": "linguist",
-      "count": 1
-    },
-    {
       "name": "estree",
       "count": 1
     },
@@ -11496,6 +11496,10 @@
     },
     {
       "name": "shell-scripts",
+      "count": 1
+    },
+    {
+      "name": "linguist",
       "count": 1
     },
     {
@@ -12175,15 +12179,15 @@
       "count": 1
     },
     {
-      "name": "browserify",
-      "count": 1
-    },
-    {
       "name": "font-design",
       "count": 1
     },
     {
       "name": "mobx",
+      "count": 1
+    },
+    {
+      "name": "browserify",
       "count": 1
     },
     {
@@ -12487,11 +12491,11 @@
       "count": 1
     },
     {
-      "name": "pikachu",
+      "name": "zip",
       "count": 1
     },
     {
-      "name": "zip",
+      "name": "pikachu",
       "count": 1
     },
     {
@@ -13432,10 +13436,6 @@
     },
     {
       "name": "type-theory",
-      "count": 1
-    },
-    {
-      "name": "emoji-searcher",
       "count": 1
     },
     {
