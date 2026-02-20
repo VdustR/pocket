@@ -1,6 +1,6 @@
 {
   "totalRepos": 1528,
-  "totalStars": 24004451,
+  "totalStars": 24004831,
   "languageDistribution": {
     "TypeScript": 564,
     "Shell": 33,
@@ -32,10 +32,10 @@
     "Assembly": 4,
     "PowerShell": 1,
     "PHP": 6,
+    "GDScript": 3,
     "Dockerfile": 5,
     "MDX": 2,
     "Bikeshed": 2,
-    "GDScript": 3,
     "JSON": 1,
     "Haxe": 3,
     "Mermaid": 1,
@@ -64,9 +64,9 @@
       "fullName": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "homepage": "https://openclaw.ai",
-      "stars": 213301,
-      "forks": 39680,
-      "watchers": 213301,
+      "stars": 213404,
+      "forks": 39719,
+      "watchers": 213404,
       "openIssues": 8317,
       "language": "TypeScript",
       "topics": [
@@ -79,10 +79,10 @@
         "personal"
       ],
       "createdAt": "2025-11-24T10:16:47Z",
-      "updatedAt": "2026-02-20T13:29:31Z",
-      "pushedAt": "2026-02-20T13:07:17Z",
+      "updatedAt": "2026-02-20T14:19:45Z",
+      "pushedAt": "2026-02-20T13:59:10Z",
       "starredAt": "2026-01-27T14:01:52Z",
-      "score": 0.9905479452054794
+      "score": 0.9901369863013698
     },
     {
       "owner": "n8n-io",
@@ -90,10 +90,10 @@
       "fullName": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "homepage": "https://n8n.io",
-      "stars": 175460,
+      "stars": 175477,
       "forks": 55021,
-      "watchers": 175460,
-      "openIssues": 1393,
+      "watchers": 175477,
+      "openIssues": 1394,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -118,8 +118,8 @@
         "workflow-automation"
       ],
       "createdAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-02-20T13:24:53Z",
-      "pushedAt": "2026-02-20T13:25:40Z",
+      "updatedAt": "2026-02-20T14:17:10Z",
+      "pushedAt": "2026-02-20T14:11:28Z",
       "starredAt": "2026-01-19T01:14:28Z",
       "score": 0.9868493150684932
     },
@@ -129,15 +129,15 @@
       "fullName": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "homepage": "https://opencode.ai",
-      "stars": 107444,
-      "forks": 10582,
-      "watchers": 107444,
-      "openIssues": 5510,
+      "stars": 107473,
+      "forks": 10587,
+      "watchers": 107473,
+      "openIssues": 5509,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2025-04-30T20:08:00Z",
-      "updatedAt": "2026-02-20T13:29:15Z",
-      "pushedAt": "2026-02-20T13:29:08Z",
+      "updatedAt": "2026-02-20T14:18:10Z",
+      "pushedAt": "2026-02-20T14:17:49Z",
       "starredAt": "2026-01-07T21:29:51Z",
       "score": 0.9823287671232876
     },
@@ -147,17 +147,17 @@
       "fullName": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "homepage": "https://code.claude.com/docs/en/overview",
-      "stars": 67957,
-      "forks": 5318,
-      "watchers": 67957,
-      "openIssues": 6459,
+      "stars": 67964,
+      "forks": 5320,
+      "watchers": 67964,
+      "openIssues": 6463,
       "language": "Shell",
       "topics": [],
       "createdAt": "2025-02-22T17:41:21Z",
-      "updatedAt": "2026-02-20T13:20:19Z",
+      "updatedAt": "2026-02-20T14:18:10Z",
       "pushedAt": "2026-02-19T23:55:06Z",
       "starredAt": "2026-01-24T19:15:11Z",
-      "score": 0.9758943156230433
+      "score": 0.9758978941919401
     },
     {
       "owner": "ghostty-org",
@@ -165,17 +165,17 @@
       "fullName": "ghostty-org/ghostty",
       "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
       "homepage": "https://ghostty.org",
-      "stars": 44148,
+      "stars": 44150,
       "forks": 1679,
-      "watchers": 44148,
-      "openIssues": 190,
+      "watchers": 44150,
+      "openIssues": 191,
       "language": "Zig",
       "topics": [],
       "createdAt": "2022-03-29T17:38:26Z",
-      "updatedAt": "2026-02-20T13:28:16Z",
+      "updatedAt": "2026-02-20T14:11:25Z",
       "pushedAt": "2026-02-20T12:37:52Z",
       "starredAt": "2026-02-03T00:30:36Z",
-      "score": 0.9646073683107432
+      "score": 0.9646089421978805
     },
     {
       "owner": "affaan-m",
@@ -183,9 +183,9 @@
       "fullName": "affaan-m/everything-claude-code",
       "description": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.",
       "homepage": "",
-      "stars": 48618,
-      "forks": 6027,
-      "watchers": 48618,
+      "stars": 48636,
+      "forks": 6034,
+      "watchers": 48636,
       "openIssues": 19,
       "language": "JavaScript",
       "topics": [
@@ -199,10 +199,10 @@
         "productivity"
       ],
       "createdAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-02-20T13:29:58Z",
+      "updatedAt": "2026-02-20T14:13:44Z",
       "pushedAt": "2026-02-20T09:11:40Z",
       "starredAt": "2026-01-22T05:53:26Z",
-      "score": 0.9630266735400939
+      "score": 0.9630395341155047
     },
     {
       "owner": "nextlevelbuilder",
@@ -210,9 +210,9 @@
       "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
       "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
       "homepage": "https://www.uupm.cc/",
-      "stars": 32911,
-      "forks": 3260,
-      "watchers": 32911,
+      "stars": 32920,
+      "forks": 3261,
+      "watchers": 32920,
       "openIssues": 55,
       "language": "Python",
       "topics": [
@@ -237,10 +237,10 @@
         "windsurf-ai"
       ],
       "createdAt": "2025-11-30T11:36:31Z",
-      "updatedAt": "2026-02-20T13:18:37Z",
+      "updatedAt": "2026-02-20T14:19:12Z",
       "pushedAt": "2026-02-12T16:11:34Z",
       "starredAt": "2026-01-30T02:34:01Z",
-      "score": 0.9470047803042162
+      "score": 0.9470142798569913
     },
     {
       "owner": "jdx",
@@ -248,17 +248,17 @@
       "fullName": "jdx/mise",
       "description": "dev tools, env vars, task runner",
       "homepage": "https://mise.jdx.dev",
-      "stars": 24771,
+      "stars": 24772,
       "forks": 889,
-      "watchers": 24771,
+      "watchers": 24772,
       "openIssues": 37,
       "language": "Rust",
       "topics": [],
       "createdAt": "2023-01-09T14:44:21Z",
-      "updatedAt": "2026-02-20T13:17:05Z",
+      "updatedAt": "2026-02-20T14:03:34Z",
       "pushedAt": "2026-02-20T00:14:19Z",
       "starredAt": "2026-02-06T03:34:52Z",
-      "score": 0.9457634610494685
+      "score": 0.9457648635546074
     },
     {
       "owner": "microsoft",
@@ -276,7 +276,7 @@
       "updatedAt": "2026-02-20T13:15:40Z",
       "pushedAt": "2026-02-07T04:32:03Z",
       "starredAt": "2026-02-19T13:35:25Z",
-      "score": 0.9387824828390887
+      "score": 0.938371523934979
     },
     {
       "owner": "twpayne",
@@ -284,9 +284,9 @@
       "fullName": "twpayne/chezmoi",
       "description": "Manage your dotfiles across multiple diverse machines, securely.",
       "homepage": "https://www.chezmoi.io/",
-      "stars": 18079,
+      "stars": 18080,
       "forks": 610,
-      "watchers": 18079,
+      "watchers": 18080,
       "openIssues": 41,
       "language": "Go",
       "topics": [
@@ -302,10 +302,10 @@
         "windows"
       ],
       "createdAt": "2018-11-12T16:45:43Z",
-      "updatedAt": "2026-02-20T11:55:35Z",
+      "updatedAt": "2026-02-20T14:14:46Z",
       "pushedAt": "2026-02-17T20:25:14Z",
       "starredAt": "2026-02-04T02:21:03Z",
-      "score": 0.9323566960089558
+      "score": 0.932358617612814
     }
   ],
   "recentlyStarred": [
@@ -315,10 +315,10 @@
       "fullName": "npmx-dev/npmx.dev",
       "description": "a fast, modern browser for the npm registry",
       "homepage": "https://npmx.dev",
-      "stars": 2005,
+      "stars": 2007,
       "forks": 263,
-      "watchers": 2005,
-      "openIssues": 241,
+      "watchers": 2007,
+      "openIssues": 242,
       "language": "TypeScript",
       "topics": [
         "npm",
@@ -326,10 +326,10 @@
         "nuxt"
       ],
       "createdAt": "2026-01-22T16:00:54Z",
-      "updatedAt": "2026-02-20T13:29:12Z",
+      "updatedAt": "2026-02-20T14:10:18Z",
       "pushedAt": "2026-02-19T22:29:56Z",
       "starredAt": "2026-02-20T04:05:21Z",
-      "score": 0.864186474294752
+      "score": 0.8642210966778385
     },
     {
       "owner": "microsoft",
@@ -347,7 +347,7 @@
       "updatedAt": "2026-02-20T13:15:40Z",
       "pushedAt": "2026-02-07T04:32:03Z",
       "starredAt": "2026-02-19T13:35:25Z",
-      "score": 0.9387824828390887
+      "score": 0.938371523934979
     },
     {
       "owner": "f-is-h",
@@ -388,9 +388,9 @@
       "fullName": "julienXX/terminal-notifier",
       "description": "Send User Notifications on macOS from the command-line.",
       "homepage": "",
-      "stars": 6992,
+      "stars": 6993,
       "forks": 348,
-      "watchers": 6992,
+      "watchers": 6993,
       "openIssues": 50,
       "language": "Objective-C",
       "topics": [
@@ -401,10 +401,10 @@
         "ruby"
       ],
       "createdAt": "2012-07-15T15:48:59Z",
-      "updatedAt": "2026-02-19T21:28:51Z",
+      "updatedAt": "2026-02-20T14:12:56Z",
       "pushedAt": "2025-11-02T14:24:58Z",
       "starredAt": "2026-02-16T12:54:44Z",
-      "score": 0.8163402055468905
+      "score": 0.8163451735255294
     },
     {
       "owner": "PeonPing",
@@ -430,9 +430,9 @@
       "fullName": "PeonPing/peon-ping",
       "description": "Warcraft III Peon voice notifications (+ more!) for Claude Code, Codex, IDEs, and any AI agent. Stop babysitting your terminal. Employ a Peon today.",
       "homepage": "https://www.peonping.com",
-      "stars": 2579,
+      "stars": 2583,
       "forks": 175,
-      "watchers": 2579,
+      "watchers": 2583,
       "openIssues": 12,
       "language": "Shell",
       "topics": [
@@ -446,10 +446,10 @@
         "terminal"
       ],
       "createdAt": "2026-02-09T23:12:48Z",
-      "updatedAt": "2026-02-20T12:53:25Z",
-      "pushedAt": "2026-02-20T12:18:18Z",
+      "updatedAt": "2026-02-20T14:09:52Z",
+      "pushedAt": "2026-02-20T13:56:06Z",
       "starredAt": "2026-02-16T09:45:44Z",
-      "score": 0.87128574086062
+      "score": 0.8713395651294054
     },
     {
       "owner": "google-gemini",
