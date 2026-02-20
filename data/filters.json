@@ -2,7 +2,7 @@
   "languages": [
     {
       "name": "TypeScript",
-      "count": 562
+      "count": 564
     },
     {
       "name": "JavaScript",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Python",
-      "count": 69
+      "count": 68
     },
     {
       "name": "C++",
@@ -275,6 +275,10 @@
       "count": 32
     },
     {
+      "name": "npm",
+      "count": 31
+    },
+    {
       "name": "svelte",
       "count": 31
     },
@@ -284,10 +288,6 @@
     },
     {
       "name": "markdown",
-      "count": 30
-    },
-    {
-      "name": "npm",
       "count": 30
     },
     {
@@ -855,6 +855,10 @@
       "count": 6
     },
     {
+      "name": "nuxt",
+      "count": 6
+    },
+    {
       "name": "webassembly",
       "count": 6
     },
@@ -1151,10 +1155,6 @@
       "count": 5
     },
     {
-      "name": "nuxt",
-      "count": 5
-    },
-    {
       "name": "javascript-library",
       "count": 5
     },
@@ -1443,11 +1443,11 @@
       "count": 4
     },
     {
-      "name": "programming",
+      "name": "styleguide",
       "count": 4
     },
     {
-      "name": "styleguide",
+      "name": "programming",
       "count": 4
     },
     {
@@ -2323,11 +2323,11 @@
       "count": 3
     },
     {
-      "name": "eslint-flat-config",
+      "name": "widget",
       "count": 3
     },
     {
-      "name": "widget",
+      "name": "eslint-flat-config",
       "count": 3
     },
     {
@@ -2571,18 +2571,6 @@
       "count": 2
     },
     {
-      "name": "oh-my-zsh",
-      "count": 2
-    },
-    {
-      "name": "powershell",
-      "count": 2
-    },
-    {
-      "name": "vibe-coding",
-      "count": 2
-    },
-    {
       "name": "plugins",
       "count": 2
     },
@@ -2596,6 +2584,18 @@
     },
     {
       "name": "spotlight",
+      "count": 2
+    },
+    {
+      "name": "oh-my-zsh",
+      "count": 2
+    },
+    {
+      "name": "powershell",
+      "count": 2
+    },
+    {
+      "name": "vibe-coding",
       "count": 2
     },
     {
@@ -3227,6 +3227,10 @@
       "count": 2
     },
     {
+      "name": "material",
+      "count": 2
+    },
+    {
       "name": "less",
       "count": 2
     },
@@ -3336,10 +3340,6 @@
     },
     {
       "name": "spotify",
-      "count": 2
-    },
-    {
-      "name": "material",
       "count": 2
     },
     {
@@ -3763,6 +3763,10 @@
       "count": 2
     },
     {
+      "name": "composable",
+      "count": 2
+    },
+    {
       "name": "disk-usage",
       "count": 2
     },
@@ -3772,10 +3776,6 @@
     },
     {
       "name": "wsl",
-      "count": 2
-    },
-    {
-      "name": "composable",
       "count": 2
     },
     {
@@ -3799,15 +3799,15 @@
       "count": 2
     },
     {
-      "name": "unocss",
-      "count": 2
-    },
-    {
       "name": "ecmascript6",
       "count": 2
     },
     {
       "name": "service-worker",
+      "count": 2
+    },
+    {
+      "name": "unocss",
       "count": 2
     },
     {
@@ -3839,10 +3839,6 @@
       "count": 2
     },
     {
-      "name": "http-server",
-      "count": 2
-    },
-    {
       "name": "monitor",
       "count": 2
     },
@@ -3852,6 +3848,10 @@
     },
     {
       "name": "searchparams",
+      "count": 2
+    },
+    {
+      "name": "http-server",
       "count": 2
     },
     {
@@ -3927,11 +3927,11 @@
       "count": 2
     },
     {
-      "name": "fluid",
+      "name": "shopify",
       "count": 2
     },
     {
-      "name": "shopify",
+      "name": "fluid",
       "count": 2
     },
     {
@@ -3967,15 +3967,15 @@
       "count": 2
     },
     {
-      "name": "catppuccin",
-      "count": 2
-    },
-    {
       "name": "zod",
       "count": 2
     },
     {
       "name": "module",
+      "count": 2
+    },
+    {
+      "name": "catppuccin",
       "count": 2
     },
     {
@@ -4727,30 +4727,6 @@
       "count": 1
     },
     {
-      "name": "fish-prompt",
-      "count": 1
-    },
-    {
-      "name": "fish-theme",
-      "count": 1
-    },
-    {
-      "name": "shell-prompt",
-      "count": 1
-    },
-    {
-      "name": "starship",
-      "count": 1
-    },
-    {
-      "name": "zsh-prompt",
-      "count": 1
-    },
-    {
-      "name": "zsh-theme",
-      "count": 1
-    },
-    {
       "name": "alfred",
       "count": 1
     },
@@ -4784,6 +4760,30 @@
     },
     {
       "name": "wox",
+      "count": 1
+    },
+    {
+      "name": "fish-prompt",
+      "count": 1
+    },
+    {
+      "name": "fish-theme",
+      "count": 1
+    },
+    {
+      "name": "shell-prompt",
+      "count": 1
+    },
+    {
+      "name": "starship",
+      "count": 1
+    },
+    {
+      "name": "zsh-prompt",
+      "count": 1
+    },
+    {
+      "name": "zsh-theme",
       "count": 1
     },
     {
@@ -4839,14 +4839,6 @@
       "count": 1
     },
     {
-      "name": "logger",
-      "count": 1
-    },
-    {
-      "name": "pino",
-      "count": 1
-    },
-    {
       "name": "fdroid",
       "count": 1
     },
@@ -4860,6 +4852,14 @@
     },
     {
       "name": "rxjava",
+      "count": 1
+    },
+    {
+      "name": "logger",
+      "count": 1
+    },
+    {
+      "name": "pino",
       "count": 1
     },
     {
@@ -4972,6 +4972,10 @@
     },
     {
       "name": "anthropic-claude",
+      "count": 1
+    },
+    {
+      "name": "npmjs",
       "count": 1
     },
     {
@@ -5887,15 +5891,15 @@
       "count": 1
     },
     {
+      "name": "neovim-guis",
+      "count": 1
+    },
+    {
       "name": "debug",
       "count": 1
     },
     {
       "name": "logging",
-      "count": 1
-    },
-    {
-      "name": "neovim-guis",
       "count": 1
     },
     {
@@ -6327,6 +6331,14 @@
       "count": 1
     },
     {
+      "name": "design-systems",
+      "count": 1
+    },
+    {
+      "name": "stories",
+      "count": 1
+    },
+    {
       "name": "book-series",
       "count": 1
     },
@@ -6348,14 +6360,6 @@
     },
     {
       "name": "training-providers",
-      "count": 1
-    },
-    {
-      "name": "design-systems",
-      "count": 1
-    },
-    {
-      "name": "stories",
       "count": 1
     },
     {
@@ -7287,11 +7291,11 @@
       "count": 1
     },
     {
-      "name": "leetcode",
+      "name": "toast",
       "count": 1
     },
     {
-      "name": "toast",
+      "name": "leetcode",
       "count": 1
     },
     {
@@ -8287,6 +8291,10 @@
       "count": 1
     },
     {
+      "name": "utility-library",
+      "count": 1
+    },
+    {
       "name": "batch-rename",
       "count": 1
     },
@@ -8296,10 +8304,6 @@
     },
     {
       "name": "file-search",
-      "count": 1
-    },
-    {
-      "name": "utility-library",
       "count": 1
     },
     {
@@ -8539,10 +8543,6 @@
       "count": 1
     },
     {
-      "name": "windicss",
-      "count": 1
-    },
-    {
       "name": "hlsjs",
       "count": 1
     },
@@ -8612,6 +8612,10 @@
     },
     {
       "name": "redis-cluster",
+      "count": 1
+    },
+    {
+      "name": "windicss",
       "count": 1
     },
     {
@@ -8771,10 +8775,6 @@
       "count": 1
     },
     {
-      "name": "static-server",
-      "count": 1
-    },
-    {
       "name": "commits",
       "count": 1
     },
@@ -8860,6 +8860,10 @@
     },
     {
       "name": "typesafe",
+      "count": 1
+    },
+    {
+      "name": "static-server",
       "count": 1
     },
     {
@@ -9459,6 +9463,22 @@
       "count": 1
     },
     {
+      "name": "packagejson",
+      "count": 1
+    },
+    {
+      "name": "browsers",
+      "count": 1
+    },
+    {
+      "name": "querystrings",
+      "count": 1
+    },
+    {
+      "name": "url-parsing",
+      "count": 1
+    },
+    {
       "name": "eye-candy",
       "count": 1
     },
@@ -9476,22 +9496,6 @@
     },
     {
       "name": "soothing-pastel-theme",
-      "count": 1
-    },
-    {
-      "name": "packagejson",
-      "count": 1
-    },
-    {
-      "name": "browsers",
-      "count": 1
-    },
-    {
-      "name": "querystrings",
-      "count": 1
-    },
-    {
-      "name": "url-parsing",
       "count": 1
     },
     {
@@ -9787,6 +9791,54 @@
       "count": 1
     },
     {
+      "name": "aead",
+      "count": 1
+    },
+    {
+      "name": "encryption",
+      "count": 1
+    },
+    {
+      "name": "hpke",
+      "count": 1
+    },
+    {
+      "name": "kdf",
+      "count": 1
+    },
+    {
+      "name": "kem",
+      "count": 1
+    },
+    {
+      "name": "kyber",
+      "count": 1
+    },
+    {
+      "name": "ml-kem",
+      "count": 1
+    },
+    {
+      "name": "post-quantum",
+      "count": 1
+    },
+    {
+      "name": "pqc",
+      "count": 1
+    },
+    {
+      "name": "rfc9180",
+      "count": 1
+    },
+    {
+      "name": "webcrypto",
+      "count": 1
+    },
+    {
+      "name": "x-wing",
+      "count": 1
+    },
+    {
       "name": "codec",
       "count": 1
     },
@@ -9844,54 +9896,6 @@
     },
     {
       "name": "photos",
-      "count": 1
-    },
-    {
-      "name": "aead",
-      "count": 1
-    },
-    {
-      "name": "encryption",
-      "count": 1
-    },
-    {
-      "name": "hpke",
-      "count": 1
-    },
-    {
-      "name": "kdf",
-      "count": 1
-    },
-    {
-      "name": "kem",
-      "count": 1
-    },
-    {
-      "name": "kyber",
-      "count": 1
-    },
-    {
-      "name": "ml-kem",
-      "count": 1
-    },
-    {
-      "name": "post-quantum",
-      "count": 1
-    },
-    {
-      "name": "pqc",
-      "count": 1
-    },
-    {
-      "name": "rfc9180",
-      "count": 1
-    },
-    {
-      "name": "webcrypto",
-      "count": 1
-    },
-    {
-      "name": "x-wing",
       "count": 1
     },
     {
@@ -10095,22 +10099,6 @@
       "count": 1
     },
     {
-      "name": "alda",
-      "count": 1
-    },
-    {
-      "name": "music-composition",
-      "count": 1
-    },
-    {
-      "name": "music-programming",
-      "count": 1
-    },
-    {
-      "name": "music-programming-language",
-      "count": 1
-    },
-    {
       "name": "optimized",
       "count": 1
     },
@@ -10164,6 +10152,22 @@
     },
     {
       "name": "vscode-icons",
+      "count": 1
+    },
+    {
+      "name": "alda",
+      "count": 1
+    },
+    {
+      "name": "music-composition",
+      "count": 1
+    },
+    {
+      "name": "music-programming",
+      "count": 1
+    },
+    {
+      "name": "music-programming-language",
       "count": 1
     },
     {
@@ -10307,14 +10311,6 @@
       "count": 1
     },
     {
-      "name": "extension-api",
-      "count": 1
-    },
-    {
-      "name": "extension-development",
-      "count": 1
-    },
-    {
       "name": "blitzjs",
       "count": 1
     },
@@ -10336,6 +10332,14 @@
     },
     {
       "name": "vanilla",
+      "count": 1
+    },
+    {
+      "name": "extension-api",
+      "count": 1
+    },
+    {
+      "name": "extension-development",
       "count": 1
     },
     {
@@ -10447,10 +10451,6 @@
       "count": 1
     },
     {
-      "name": "rollup-plugins",
-      "count": 1
-    },
-    {
       "name": "genesis",
       "count": 1
     },
@@ -10480,6 +10480,10 @@
     },
     {
       "name": "snes",
+      "count": 1
+    },
+    {
+      "name": "rollup-plugins",
       "count": 1
     },
     {
@@ -10531,22 +10535,6 @@
       "count": 1
     },
     {
-      "name": "e2e",
-      "count": 1
-    },
-    {
-      "name": "heap",
-      "count": 1
-    },
-    {
-      "name": "hermes",
-      "count": 1
-    },
-    {
-      "name": "perf-tools",
-      "count": 1
-    },
-    {
       "name": "accordion",
       "count": 1
     },
@@ -10564,6 +10552,22 @@
     },
     {
       "name": "treeview",
+      "count": 1
+    },
+    {
+      "name": "e2e",
+      "count": 1
+    },
+    {
+      "name": "heap",
+      "count": 1
+    },
+    {
+      "name": "hermes",
+      "count": 1
+    },
+    {
+      "name": "perf-tools",
       "count": 1
     },
     {
@@ -10843,19 +10847,19 @@
       "count": 1
     },
     {
-      "name": "terser",
-      "count": 1
-    },
-    {
-      "name": "uglify-js",
-      "count": 1
-    },
-    {
       "name": "global-states",
       "count": 1
     },
     {
       "name": "zustand",
+      "count": 1
+    },
+    {
+      "name": "terser",
+      "count": 1
+    },
+    {
+      "name": "uglify-js",
       "count": 1
     },
     {
@@ -11407,15 +11411,15 @@
       "count": 1
     },
     {
-      "name": "elm",
-      "count": 1
-    },
-    {
       "name": "pnpm-monorepo",
       "count": 1
     },
     {
       "name": "pnpm-workspace",
+      "count": 1
+    },
+    {
+      "name": "elm",
       "count": 1
     },
     {
@@ -11491,14 +11495,6 @@
       "count": 1
     },
     {
-      "name": "developertools",
-      "count": 1
-    },
-    {
-      "name": "microsoft-edge-browser",
-      "count": 1
-    },
-    {
       "name": "css-properties",
       "count": 1
     },
@@ -11556,6 +11552,14 @@
     },
     {
       "name": "mosh",
+      "count": 1
+    },
+    {
+      "name": "developertools",
+      "count": 1
+    },
+    {
+      "name": "microsoft-edge-browser",
       "count": 1
     },
     {
@@ -12391,6 +12395,10 @@
       "count": 1
     },
     {
+      "name": "inspect",
+      "count": 1
+    },
+    {
       "name": "codepoint",
       "count": 1
     },
@@ -12400,10 +12408,6 @@
     },
     {
       "name": "utf",
-      "count": 1
-    },
-    {
-      "name": "inspect",
       "count": 1
     },
     {
@@ -13459,19 +13463,19 @@
       "count": 1
     },
     {
-      "name": "tagged-template",
-      "count": 1
-    },
-    {
-      "name": "virtual-dom",
-      "count": 1
-    },
-    {
       "name": "sudoku",
       "count": 1
     },
     {
       "name": "type-theory",
+      "count": 1
+    },
+    {
+      "name": "tagged-template",
+      "count": 1
+    },
+    {
+      "name": "virtual-dom",
       "count": 1
     },
     {
