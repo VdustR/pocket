@@ -1583,15 +1583,15 @@
       "count": 4
     },
     {
-      "name": "rts",
-      "count": 4
-    },
-    {
       "name": "helm",
       "count": 4
     },
     {
       "name": "registry",
+      "count": 4
+    },
+    {
+      "name": "rts",
       "count": 4
     },
     {
@@ -1635,6 +1635,10 @@
       "count": 4
     },
     {
+      "name": "playground",
+      "count": 4
+    },
+    {
       "name": "vitejs",
       "count": 4
     },
@@ -1672,10 +1676,6 @@
     },
     {
       "name": "bundle",
-      "count": 4
-    },
-    {
-      "name": "playground",
       "count": 4
     },
     {
@@ -2139,15 +2139,15 @@
       "count": 3
     },
     {
+      "name": "ocr",
+      "count": 3
+    },
+    {
       "name": "csv",
       "count": 3
     },
     {
       "name": "graph",
-      "count": 3
-    },
-    {
-      "name": "ocr",
       "count": 3
     },
     {
@@ -2275,11 +2275,11 @@
       "count": 3
     },
     {
-      "name": "png",
+      "name": "ncurses",
       "count": 3
     },
     {
-      "name": "ncurses",
+      "name": "png",
       "count": 3
     },
     {
@@ -2403,6 +2403,10 @@
       "count": 3
     },
     {
+      "name": "reactivity",
+      "count": 3
+    },
+    {
       "name": "bitmap",
       "count": 3
     },
@@ -2412,10 +2416,6 @@
     },
     {
       "name": "chinese-traditional",
-      "count": 3
-    },
-    {
-      "name": "reactivity",
       "count": 3
     },
     {
@@ -3547,11 +3547,11 @@
       "count": 2
     },
     {
-      "name": "multiplatform",
+      "name": "cloud-native",
       "count": 2
     },
     {
-      "name": "cloud-native",
+      "name": "multiplatform",
       "count": 2
     },
     {
@@ -3619,14 +3619,6 @@
       "count": 2
     },
     {
-      "name": "community",
-      "count": 2
-    },
-    {
-      "name": "feedback",
-      "count": 2
-    },
-    {
       "name": "responsive-web-design",
       "count": 2
     },
@@ -3652,6 +3644,14 @@
     },
     {
       "name": "load-testing",
+      "count": 2
+    },
+    {
+      "name": "community",
+      "count": 2
+    },
+    {
+      "name": "feedback",
       "count": 2
     },
     {
@@ -3851,10 +3851,6 @@
       "count": 2
     },
     {
-      "name": "faker",
-      "count": 2
-    },
-    {
       "name": "monitor",
       "count": 2
     },
@@ -3864,6 +3860,10 @@
     },
     {
       "name": "searchparams",
+      "count": 2
+    },
+    {
+      "name": "faker",
       "count": 2
     },
     {
@@ -6463,18 +6463,6 @@
       "count": 1
     },
     {
-      "name": "macos-virtual-machine",
-      "count": 1
-    },
-    {
-      "name": "macos-vm",
-      "count": 1
-    },
-    {
-      "name": "osx-virtual-machine",
-      "count": 1
-    },
-    {
       "name": "web-ui",
       "count": 1
     },
@@ -6504,6 +6492,18 @@
     },
     {
       "name": "prometheus",
+      "count": 1
+    },
+    {
+      "name": "macos-virtual-machine",
+      "count": 1
+    },
+    {
+      "name": "macos-vm",
+      "count": 1
+    },
+    {
+      "name": "osx-virtual-machine",
       "count": 1
     },
     {
@@ -6939,18 +6939,6 @@
       "count": 1
     },
     {
-      "name": "iconic-fonts",
-      "count": 1
-    },
-    {
-      "name": "octicons",
-      "count": 1
-    },
-    {
-      "name": "patched-fonts",
-      "count": 1
-    },
-    {
       "name": "clojure",
       "count": 1
     },
@@ -6968,6 +6956,18 @@
     },
     {
       "name": "ux-experience",
+      "count": 1
+    },
+    {
+      "name": "iconic-fonts",
+      "count": 1
+    },
+    {
+      "name": "octicons",
+      "count": 1
+    },
+    {
+      "name": "patched-fonts",
       "count": 1
     },
     {
@@ -7691,10 +7691,6 @@
       "count": 1
     },
     {
-      "name": "tsx",
-      "count": 1
-    },
-    {
       "name": "beautiful",
       "count": 1
     },
@@ -7767,6 +7763,10 @@
       "count": 1
     },
     {
+      "name": "tsx",
+      "count": 1
+    },
+    {
       "name": "notepad",
       "count": 1
     },
@@ -7807,22 +7807,6 @@
       "count": 1
     },
     {
-      "name": "mindustry",
-      "count": 1
-    },
-    {
-      "name": "mobile-game",
-      "count": 1
-    },
-    {
-      "name": "sandbox-game",
-      "count": 1
-    },
-    {
-      "name": "tower-defense",
-      "count": 1
-    },
-    {
       "name": "cncf-project",
       "count": 1
     },
@@ -7844,6 +7828,22 @@
     },
     {
       "name": "vcpkg",
+      "count": 1
+    },
+    {
+      "name": "mindustry",
+      "count": 1
+    },
+    {
+      "name": "mobile-game",
+      "count": 1
+    },
+    {
+      "name": "sandbox-game",
+      "count": 1
+    },
+    {
+      "name": "tower-defense",
       "count": 1
     },
     {
@@ -8007,10 +8007,6 @@
       "count": 1
     },
     {
-      "name": "discussion",
-      "count": 1
-    },
-    {
       "name": "contributions-welcome",
       "count": 1
     },
@@ -8044,6 +8040,10 @@
     },
     {
       "name": "ubuntu-linux",
+      "count": 1
+    },
+    {
+      "name": "discussion",
       "count": 1
     },
     {
@@ -8211,18 +8211,6 @@
       "count": 1
     },
     {
-      "name": "avif",
-      "count": 1
-    },
-    {
-      "name": "crop",
-      "count": 1
-    },
-    {
-      "name": "icc",
-      "count": 1
-    },
-    {
       "name": "apache",
       "count": 1
     },
@@ -8252,6 +8240,18 @@
     },
     {
       "name": "management",
+      "count": 1
+    },
+    {
+      "name": "avif",
+      "count": 1
+    },
+    {
+      "name": "crop",
+      "count": 1
+    },
+    {
+      "name": "icc",
       "count": 1
     },
     {
@@ -8367,26 +8367,6 @@
       "count": 1
     },
     {
-      "name": "charting-library",
-      "count": 1
-    },
-    {
-      "name": "d3",
-      "count": 1
-    },
-    {
-      "name": "plotly",
-      "count": 1
-    },
-    {
-      "name": "plotly-dash",
-      "count": 1
-    },
-    {
-      "name": "regl",
-      "count": 1
-    },
-    {
       "name": "batch-rename",
       "count": 1
     },
@@ -8460,6 +8440,26 @@
     },
     {
       "name": "keepachangelog",
+      "count": 1
+    },
+    {
+      "name": "charting-library",
+      "count": 1
+    },
+    {
+      "name": "d3",
+      "count": 1
+    },
+    {
+      "name": "plotly",
+      "count": 1
+    },
+    {
+      "name": "plotly-dash",
+      "count": 1
+    },
+    {
+      "name": "regl",
       "count": 1
     },
     {
@@ -8927,14 +8927,6 @@
       "count": 1
     },
     {
-      "name": "dnd",
-      "count": 1
-    },
-    {
-      "name": "dropzone",
-      "count": 1
-    },
-    {
       "name": "algorithms-and-data-structures",
       "count": 1
     },
@@ -8964,6 +8956,14 @@
     },
     {
       "name": "ppsspp",
+      "count": 1
+    },
+    {
+      "name": "dnd",
+      "count": 1
+    },
+    {
+      "name": "dropzone",
       "count": 1
     },
     {
@@ -9028,6 +9028,14 @@
     },
     {
       "name": "ramda",
+      "count": 1
+    },
+    {
+      "name": "artifacts",
+      "count": 1
+    },
+    {
+      "name": "v0",
       "count": 1
     },
     {
@@ -9211,22 +9219,6 @@
       "count": 1
     },
     {
-      "name": "gnome-terminal",
-      "count": 1
-    },
-    {
-      "name": "iterm2",
-      "count": 1
-    },
-    {
-      "name": "mint",
-      "count": 1
-    },
-    {
-      "name": "pantheon-terminal",
-      "count": 1
-    },
-    {
       "name": "chroma",
       "count": 1
     },
@@ -9252,6 +9244,22 @@
     },
     {
       "name": "satori",
+      "count": 1
+    },
+    {
+      "name": "gnome-terminal",
+      "count": 1
+    },
+    {
+      "name": "iterm2",
+      "count": 1
+    },
+    {
+      "name": "mint",
+      "count": 1
+    },
+    {
+      "name": "pantheon-terminal",
       "count": 1
     },
     {
@@ -9659,6 +9667,14 @@
       "count": 1
     },
     {
+      "name": "asynchronous",
+      "count": 1
+    },
+    {
+      "name": "command-line-app",
+      "count": 1
+    },
+    {
       "name": "emby",
       "count": 1
     },
@@ -9680,14 +9696,6 @@
     },
     {
       "name": "plex",
-      "count": 1
-    },
-    {
-      "name": "asynchronous",
-      "count": 1
-    },
-    {
-      "name": "command-line-app",
       "count": 1
     },
     {
@@ -10235,6 +10243,10 @@
       "count": 1
     },
     {
+      "name": "hacktoberfest2021",
+      "count": 1
+    },
+    {
       "name": "browser-detector",
       "count": 1
     },
@@ -10252,10 +10264,6 @@
     },
     {
       "name": "useragentparser",
-      "count": 1
-    },
-    {
-      "name": "hacktoberfest2021",
       "count": 1
     },
     {
@@ -10759,19 +10767,19 @@
       "count": 1
     },
     {
-      "name": "oci-distribution",
-      "count": 1
-    },
-    {
-      "name": "quay",
-      "count": 1
-    },
-    {
       "name": "gtk3",
       "count": 1
     },
     {
       "name": "vte",
+      "count": 1
+    },
+    {
+      "name": "oci-distribution",
+      "count": 1
+    },
+    {
+      "name": "quay",
       "count": 1
     },
     {
@@ -11707,19 +11715,19 @@
       "count": 1
     },
     {
-      "name": "monkey-patching",
-      "count": 1
-    },
-    {
-      "name": "unit-testing",
-      "count": 1
-    },
-    {
       "name": "typedoc",
       "count": 1
     },
     {
       "name": "typedoc-plugin",
+      "count": 1
+    },
+    {
+      "name": "monkey-patching",
+      "count": 1
+    },
+    {
+      "name": "unit-testing",
       "count": 1
     },
     {
@@ -12220,14 +12228,6 @@
     },
     {
       "name": "embeddable",
-      "count": 1
-    },
-    {
-      "name": "artifacts",
-      "count": 1
-    },
-    {
-      "name": "v0",
       "count": 1
     },
     {
@@ -14791,6 +14791,14 @@
       "count": 1
     },
     {
+      "name": "diablo2",
+      "count": 1
+    },
+    {
+      "name": "diablo2lod",
+      "count": 1
+    },
+    {
       "name": "animate-on-scroll",
       "count": 1
     },
@@ -14812,14 +14820,6 @@
     },
     {
       "name": "simple",
-      "count": 1
-    },
-    {
-      "name": "diablo2",
-      "count": 1
-    },
-    {
-      "name": "diablo2lod",
       "count": 1
     },
     {
