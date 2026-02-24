@@ -1559,11 +1559,11 @@
       "count": 4
     },
     {
-      "name": "charts",
+      "name": "interactive",
       "count": 4
     },
     {
-      "name": "interactive",
+      "name": "charts",
       "count": 4
     },
     {
@@ -1911,15 +1911,15 @@
       "count": 3
     },
     {
-      "name": "dev-tools",
-      "count": 3
-    },
-    {
       "name": "desktop-environment",
       "count": 3
     },
     {
       "name": "unix",
+      "count": 3
+    },
+    {
+      "name": "dev-tools",
       "count": 3
     },
     {
@@ -2915,11 +2915,11 @@
       "count": 2
     },
     {
-      "name": "patterns",
+      "name": "os",
       "count": 2
     },
     {
-      "name": "os",
+      "name": "patterns",
       "count": 2
     },
     {
@@ -3251,6 +3251,18 @@
       "count": 2
     },
     {
+      "name": "query",
+      "count": 2
+    },
+    {
+      "name": "stale",
+      "count": 2
+    },
+    {
+      "name": "update",
+      "count": 2
+    },
+    {
       "name": "material",
       "count": 2
     },
@@ -3264,18 +3276,6 @@
     },
     {
       "name": "xlsx",
-      "count": 2
-    },
-    {
-      "name": "query",
-      "count": 2
-    },
-    {
-      "name": "stale",
-      "count": 2
-    },
-    {
-      "name": "update",
       "count": 2
     },
     {
@@ -3531,10 +3531,6 @@
       "count": 2
     },
     {
-      "name": "store",
-      "count": 2
-    },
-    {
       "name": "type-system",
       "count": 2
     },
@@ -3544,6 +3540,10 @@
     },
     {
       "name": "cloud-native",
+      "count": 2
+    },
+    {
+      "name": "store",
       "count": 2
     },
     {
@@ -3567,22 +3567,6 @@
       "count": 2
     },
     {
-      "name": "bot",
-      "count": 2
-    },
-    {
-      "name": "discord-api",
-      "count": 2
-    },
-    {
-      "name": "discord-bot",
-      "count": 2
-    },
-    {
-      "name": "discord-server",
-      "count": 2
-    },
-    {
       "name": "sharing",
       "count": 2
     },
@@ -3596,6 +3580,22 @@
     },
     {
       "name": "proposal",
+      "count": 2
+    },
+    {
+      "name": "bot",
+      "count": 2
+    },
+    {
+      "name": "discord-api",
+      "count": 2
+    },
+    {
+      "name": "discord-bot",
+      "count": 2
+    },
+    {
+      "name": "discord-server",
       "count": 2
     },
     {
@@ -5723,6 +5723,14 @@
       "count": 1
     },
     {
+      "name": "kernel",
+      "count": 1
+    },
+    {
+      "name": "operating-system",
+      "count": 1
+    },
+    {
       "name": "background",
       "count": 1
     },
@@ -5795,14 +5803,6 @@
       "count": 1
     },
     {
-      "name": "kernel",
-      "count": 1
-    },
-    {
-      "name": "operating-system",
-      "count": 1
-    },
-    {
       "name": "anydesk",
       "count": 1
     },
@@ -5843,6 +5843,10 @@
       "count": 1
     },
     {
+      "name": "bubbletea",
+      "count": 1
+    },
+    {
       "name": "language-grammars",
       "count": 1
     },
@@ -5852,10 +5856,6 @@
     },
     {
       "name": "linguistic",
-      "count": 1
-    },
-    {
-      "name": "bubbletea",
       "count": 1
     },
     {
@@ -5915,15 +5915,15 @@
       "count": 1
     },
     {
-      "name": "pokeapi",
-      "count": 1
-    },
-    {
       "name": "lefthook",
       "count": 1
     },
     {
       "name": "manager",
+      "count": 1
+    },
+    {
+      "name": "pokeapi",
       "count": 1
     },
     {
@@ -7947,14 +7947,6 @@
       "count": 1
     },
     {
-      "name": "discordjs",
-      "count": 1
-    },
-    {
-      "name": "voice-support",
-      "count": 1
-    },
-    {
       "name": "beautiful",
       "count": 1
     },
@@ -7988,6 +7980,14 @@
     },
     {
       "name": "shim",
+      "count": 1
+    },
+    {
+      "name": "discordjs",
+      "count": 1
+    },
+    {
+      "name": "voice-support",
       "count": 1
     },
     {
@@ -8515,26 +8515,6 @@
       "count": 1
     },
     {
-      "name": "helm-charts",
-      "count": 1
-    },
-    {
-      "name": "private-npm",
-      "count": 1
-    },
-    {
-      "name": "registry-proxy",
-      "count": 1
-    },
-    {
-      "name": "sponsor",
-      "count": 1
-    },
-    {
-      "name": "verdaccio",
-      "count": 1
-    },
-    {
       "name": "email-boilerplate",
       "count": 1
     },
@@ -8604,6 +8584,26 @@
     },
     {
       "name": "wtfutil",
+      "count": 1
+    },
+    {
+      "name": "helm-charts",
+      "count": 1
+    },
+    {
+      "name": "private-npm",
+      "count": 1
+    },
+    {
+      "name": "registry-proxy",
+      "count": 1
+    },
+    {
+      "name": "sponsor",
+      "count": 1
+    },
+    {
+      "name": "verdaccio",
       "count": 1
     },
     {
@@ -9183,19 +9183,19 @@
       "count": 1
     },
     {
-      "name": "artifacts",
-      "count": 1
-    },
-    {
-      "name": "v0",
-      "count": 1
-    },
-    {
       "name": "ahooks",
       "count": 1
     },
     {
       "name": "umi-hooks",
+      "count": 1
+    },
+    {
+      "name": "artifacts",
+      "count": 1
+    },
+    {
+      "name": "v0",
       "count": 1
     },
     {
@@ -9995,26 +9995,6 @@
       "count": 1
     },
     {
-      "name": "df",
-      "count": 1
-    },
-    {
-      "name": "disk-space",
-      "count": 1
-    },
-    {
-      "name": "freebsd",
-      "count": 1
-    },
-    {
-      "name": "openbsd",
-      "count": 1
-    },
-    {
-      "name": "user-friendly",
-      "count": 1
-    },
-    {
       "name": "compat",
       "count": 1
     },
@@ -10024,22 +10004,6 @@
     },
     {
       "name": "optimized",
-      "count": 1
-    },
-    {
-      "name": "8bit",
-      "count": 1
-    },
-    {
-      "name": "gameengine",
-      "count": 1
-    },
-    {
-      "name": "tic-80",
-      "count": 1
-    },
-    {
-      "name": "tic80",
       "count": 1
     },
     {
@@ -10084,6 +10048,42 @@
     },
     {
       "name": "random",
+      "count": 1
+    },
+    {
+      "name": "df",
+      "count": 1
+    },
+    {
+      "name": "disk-space",
+      "count": 1
+    },
+    {
+      "name": "freebsd",
+      "count": 1
+    },
+    {
+      "name": "openbsd",
+      "count": 1
+    },
+    {
+      "name": "user-friendly",
+      "count": 1
+    },
+    {
+      "name": "8bit",
+      "count": 1
+    },
+    {
+      "name": "gameengine",
+      "count": 1
+    },
+    {
+      "name": "tic-80",
+      "count": 1
+    },
+    {
+      "name": "tic80",
       "count": 1
     },
     {
@@ -11063,6 +11063,10 @@
       "count": 1
     },
     {
+      "name": "visual-inspector",
+      "count": 1
+    },
+    {
       "name": "cls",
       "count": 1
     },
@@ -11164,10 +11168,6 @@
     },
     {
       "name": "uglify-js",
-      "count": 1
-    },
-    {
-      "name": "visual-inspector",
       "count": 1
     },
     {
@@ -11763,10 +11763,6 @@
       "count": 1
     },
     {
-      "name": "linguist",
-      "count": 1
-    },
-    {
       "name": "std",
       "count": 1
     },
@@ -11776,6 +11772,10 @@
     },
     {
       "name": "time-formatting",
+      "count": 1
+    },
+    {
+      "name": "linguist",
       "count": 1
     },
     {
@@ -12359,14 +12359,6 @@
       "count": 1
     },
     {
-      "name": "pico8",
-      "count": 1
-    },
-    {
-      "name": "virtual-console",
-      "count": 1
-    },
-    {
       "name": "git-hooks",
       "count": 1
     },
@@ -12376,6 +12368,14 @@
     },
     {
       "name": "pre-push",
+      "count": 1
+    },
+    {
+      "name": "pico8",
+      "count": 1
+    },
+    {
+      "name": "virtual-console",
       "count": 1
     },
     {
