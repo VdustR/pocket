@@ -1175,11 +1175,11 @@
       "count": 5
     },
     {
-      "name": "javascript-library",
+      "name": "fetch",
       "count": 5
     },
     {
-      "name": "fetch",
+      "name": "javascript-library",
       "count": 5
     },
     {
@@ -1955,10 +1955,6 @@
       "count": 3
     },
     {
-      "name": "solid-js",
-      "count": 3
-    },
-    {
       "name": "download",
       "count": 3
     },
@@ -1972,6 +1968,10 @@
     },
     {
       "name": "tampermonkey",
+      "count": 3
+    },
+    {
+      "name": "solid-js",
       "count": 3
     },
     {
@@ -2135,11 +2135,11 @@
       "count": 3
     },
     {
-      "name": "type",
+      "name": "stale-while-revalidate",
       "count": 3
     },
     {
-      "name": "stale-while-revalidate",
+      "name": "type",
       "count": 3
     },
     {
@@ -3039,15 +3039,15 @@
       "count": 2
     },
     {
+      "name": "ebooks",
+      "count": 2
+    },
+    {
       "name": "hls",
       "count": 2
     },
     {
       "name": "player",
-      "count": 2
-    },
-    {
-      "name": "ebooks",
       "count": 2
     },
     {
@@ -3275,10 +3275,6 @@
       "count": 2
     },
     {
-      "name": "type-system",
-      "count": 2
-    },
-    {
       "name": "query",
       "count": 2
     },
@@ -3288,6 +3284,10 @@
     },
     {
       "name": "update",
+      "count": 2
+    },
+    {
+      "name": "type-system",
       "count": 2
     },
     {
@@ -3611,10 +3611,6 @@
       "count": 2
     },
     {
-      "name": "config",
-      "count": 2
-    },
-    {
       "name": "polyfill",
       "count": 2
     },
@@ -3624,6 +3620,10 @@
     },
     {
       "name": "proposal",
+      "count": 2
+    },
+    {
+      "name": "config",
       "count": 2
     },
     {
@@ -3871,6 +3871,10 @@
       "count": 2
     },
     {
+      "name": "http-server",
+      "count": 2
+    },
+    {
       "name": "visualisation",
       "count": 2
     },
@@ -3904,10 +3908,6 @@
     },
     {
       "name": "platform",
-      "count": 2
-    },
-    {
-      "name": "http-server",
       "count": 2
     },
     {
@@ -6087,10 +6087,6 @@
       "count": 1
     },
     {
-      "name": "media",
-      "count": 1
-    },
-    {
       "name": "economist",
       "count": 1
     },
@@ -6124,6 +6120,10 @@
     },
     {
       "name": "violentmonkey",
+      "count": 1
+    },
+    {
+      "name": "media",
       "count": 1
     },
     {
@@ -6787,10 +6787,6 @@
       "count": 1
     },
     {
-      "name": "web-ui",
-      "count": 1
-    },
-    {
       "name": "blocker",
       "count": 1
     },
@@ -6812,6 +6808,10 @@
     },
     {
       "name": "osx-virtual-machine",
+      "count": 1
+    },
+    {
+      "name": "web-ui",
       "count": 1
     },
     {
@@ -8219,6 +8219,26 @@
       "count": 1
     },
     {
+      "name": "3d-game",
+      "count": 1
+    },
+    {
+      "name": "3d-game-engine",
+      "count": 1
+    },
+    {
+      "name": "gamemaker",
+      "count": 1
+    },
+    {
+      "name": "gdevelop",
+      "count": 1
+    },
+    {
+      "name": "html5-game-engine",
+      "count": 1
+    },
+    {
       "name": "control",
       "count": 1
     },
@@ -8248,26 +8268,6 @@
     },
     {
       "name": "xcode",
-      "count": 1
-    },
-    {
-      "name": "3d-game",
-      "count": 1
-    },
-    {
-      "name": "3d-game-engine",
-      "count": 1
-    },
-    {
-      "name": "gamemaker",
-      "count": 1
-    },
-    {
-      "name": "gdevelop",
-      "count": 1
-    },
-    {
-      "name": "html5-game-engine",
       "count": 1
     },
     {
@@ -8531,54 +8531,6 @@
       "count": 1
     },
     {
-      "name": "aead",
-      "count": 1
-    },
-    {
-      "name": "encryption",
-      "count": 1
-    },
-    {
-      "name": "hpke",
-      "count": 1
-    },
-    {
-      "name": "kdf",
-      "count": 1
-    },
-    {
-      "name": "kem",
-      "count": 1
-    },
-    {
-      "name": "kyber",
-      "count": 1
-    },
-    {
-      "name": "ml-kem",
-      "count": 1
-    },
-    {
-      "name": "post-quantum",
-      "count": 1
-    },
-    {
-      "name": "pqc",
-      "count": 1
-    },
-    {
-      "name": "rfc9180",
-      "count": 1
-    },
-    {
-      "name": "webcrypto",
-      "count": 1
-    },
-    {
-      "name": "x-wing",
-      "count": 1
-    },
-    {
       "name": "desktop-wallpaper",
       "count": 1
     },
@@ -8668,6 +8620,54 @@
     },
     {
       "name": "openid-provider",
+      "count": 1
+    },
+    {
+      "name": "aead",
+      "count": 1
+    },
+    {
+      "name": "encryption",
+      "count": 1
+    },
+    {
+      "name": "hpke",
+      "count": 1
+    },
+    {
+      "name": "kdf",
+      "count": 1
+    },
+    {
+      "name": "kem",
+      "count": 1
+    },
+    {
+      "name": "kyber",
+      "count": 1
+    },
+    {
+      "name": "ml-kem",
+      "count": 1
+    },
+    {
+      "name": "post-quantum",
+      "count": 1
+    },
+    {
+      "name": "pqc",
+      "count": 1
+    },
+    {
+      "name": "rfc9180",
+      "count": 1
+    },
+    {
+      "name": "webcrypto",
+      "count": 1
+    },
+    {
+      "name": "x-wing",
       "count": 1
     },
     {
@@ -8991,6 +8991,10 @@
       "count": 1
     },
     {
+      "name": "static-server",
+      "count": 1
+    },
+    {
       "name": "composition-api",
       "count": 1
     },
@@ -9160,10 +9164,6 @@
     },
     {
       "name": "recording",
-      "count": 1
-    },
-    {
-      "name": "static-server",
       "count": 1
     },
     {
@@ -9551,6 +9551,18 @@
       "count": 1
     },
     {
+      "name": "image-generator",
+      "count": 1
+    },
+    {
+      "name": "opengraph-images",
+      "count": 1
+    },
+    {
+      "name": "satori",
+      "count": 1
+    },
+    {
       "name": "enterprise",
       "count": 1
     },
@@ -9564,18 +9576,6 @@
     },
     {
       "name": "owncloud",
-      "count": 1
-    },
-    {
-      "name": "image-generator",
-      "count": 1
-    },
-    {
-      "name": "opengraph-images",
-      "count": 1
-    },
-    {
-      "name": "satori",
       "count": 1
     },
     {
@@ -10115,10 +10115,6 @@
       "count": 1
     },
     {
-      "name": "optimized",
-      "count": 1
-    },
-    {
       "name": "ajax",
       "count": 1
     },
@@ -10144,6 +10140,10 @@
     },
     {
       "name": "user-friendly",
+      "count": 1
+    },
+    {
+      "name": "optimized",
       "count": 1
     },
     {
@@ -10471,22 +10471,6 @@
       "count": 1
     },
     {
-      "name": "algolia",
-      "count": 1
-    },
-    {
-      "name": "instantsearch",
-      "count": 1
-    },
-    {
-      "name": "recommend",
-      "count": 1
-    },
-    {
-      "name": "vanilla",
-      "count": 1
-    },
-    {
       "name": "100daysofcode",
       "count": 1
     },
@@ -10504,6 +10488,22 @@
     },
     {
       "name": "gsap",
+      "count": 1
+    },
+    {
+      "name": "algolia",
+      "count": 1
+    },
+    {
+      "name": "instantsearch",
+      "count": 1
+    },
+    {
+      "name": "recommend",
+      "count": 1
+    },
+    {
+      "name": "vanilla",
       "count": 1
     },
     {
@@ -11831,6 +11831,10 @@
       "count": 1
     },
     {
+      "name": "linguist",
+      "count": 1
+    },
+    {
       "name": "fabulous",
       "count": 1
     },
@@ -11840,10 +11844,6 @@
     },
     {
       "name": "process",
-      "count": 1
-    },
-    {
-      "name": "linguist",
       "count": 1
     },
     {
@@ -12143,15 +12143,15 @@
       "count": 1
     },
     {
+      "name": "bungee",
+      "count": 1
+    },
+    {
       "name": "payment",
       "count": 1
     },
     {
       "name": "payment-logos",
-      "count": 1
-    },
-    {
-      "name": "bungee",
       "count": 1
     },
     {
