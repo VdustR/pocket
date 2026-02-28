@@ -1631,15 +1631,15 @@
       "count": 4
     },
     {
-      "name": "generator",
-      "count": 4
-    },
-    {
       "name": "minimal",
       "count": 4
     },
     {
       "name": "draggable",
+      "count": 4
+    },
+    {
+      "name": "generator",
       "count": 4
     },
     {
@@ -2115,6 +2115,10 @@
       "count": 3
     },
     {
+      "name": "dark-mode",
+      "count": 3
+    },
+    {
       "name": "system",
       "count": 3
     },
@@ -2128,6 +2132,10 @@
     },
     {
       "name": "opengl",
+      "count": 3
+    },
+    {
+      "name": "type",
       "count": 3
     },
     {
@@ -2184,10 +2192,6 @@
     },
     {
       "name": "slider",
-      "count": 3
-    },
-    {
-      "name": "dark-mode",
       "count": 3
     },
     {
@@ -2264,10 +2268,6 @@
     },
     {
       "name": "esnext",
-      "count": 3
-    },
-    {
-      "name": "type",
       "count": 3
     },
     {
@@ -2851,10 +2851,6 @@
       "count": 2
     },
     {
-      "name": "svg-path",
-      "count": 2
-    },
-    {
       "name": "fastify",
       "count": 2
     },
@@ -2864,6 +2860,10 @@
     },
     {
       "name": "polka",
+      "count": 2
+    },
+    {
+      "name": "svg-path",
       "count": 2
     },
     {
@@ -3275,6 +3275,10 @@
       "count": 2
     },
     {
+      "name": "type-system",
+      "count": 2
+    },
+    {
       "name": "query",
       "count": 2
     },
@@ -3623,10 +3627,6 @@
       "count": 2
     },
     {
-      "name": "type-system",
-      "count": 2
-    },
-    {
       "name": "virtual-machine",
       "count": 2
     },
@@ -3659,6 +3659,14 @@
       "count": 2
     },
     {
+      "name": "minify",
+      "count": 2
+    },
+    {
+      "name": "seccomp",
+      "count": 2
+    },
+    {
       "name": "publish",
       "count": 2
     },
@@ -3672,14 +3680,6 @@
     },
     {
       "name": "feedback",
-      "count": 2
-    },
-    {
-      "name": "minify",
-      "count": 2
-    },
-    {
-      "name": "seccomp",
       "count": 2
     },
     {
@@ -3783,11 +3783,11 @@
       "count": 2
     },
     {
-      "name": "admin",
+      "name": "qml",
       "count": 2
     },
     {
-      "name": "qml",
+      "name": "admin",
       "count": 2
     },
     {
@@ -3987,6 +3987,10 @@
       "count": 2
     },
     {
+      "name": "module",
+      "count": 2
+    },
+    {
       "name": "self-hosting",
       "count": 2
     },
@@ -4003,6 +4007,10 @@
       "count": 2
     },
     {
+      "name": "pubsub",
+      "count": 2
+    },
+    {
       "name": "comments-widget",
       "count": 2
     },
@@ -4012,10 +4020,6 @@
     },
     {
       "name": "utterances",
-      "count": 2
-    },
-    {
-      "name": "pubsub",
       "count": 2
     },
     {
@@ -4059,19 +4063,11 @@
       "count": 2
     },
     {
-      "name": "module",
-      "count": 2
-    },
-    {
       "name": "game-boy",
       "count": 2
     },
     {
       "name": "web-application",
-      "count": 2
-    },
-    {
-      "name": "github-codespaces",
       "count": 2
     },
     {
@@ -4084,6 +4080,10 @@
     },
     {
       "name": "virtualized",
+      "count": 2
+    },
+    {
+      "name": "github-codespaces",
       "count": 2
     },
     {
@@ -5495,14 +5495,6 @@
       "count": 1
     },
     {
-      "name": "svg-editor",
-      "count": 1
-    },
-    {
-      "name": "svg-parser",
-      "count": 1
-    },
-    {
       "name": "browser-sync",
       "count": 1
     },
@@ -5516,6 +5508,14 @@
     },
     {
       "name": "proxy-middleware",
+      "count": 1
+    },
+    {
+      "name": "svg-editor",
+      "count": 1
+    },
+    {
+      "name": "svg-parser",
       "count": 1
     },
     {
@@ -6791,10 +6791,6 @@
       "count": 1
     },
     {
-      "name": "remote-access",
-      "count": 1
-    },
-    {
       "name": "blocker",
       "count": 1
     },
@@ -6820,6 +6816,10 @@
     },
     {
       "name": "islands",
+      "count": 1
+    },
+    {
+      "name": "remote-access",
       "count": 1
     },
     {
@@ -6919,6 +6919,46 @@
       "count": 1
     },
     {
+      "name": "analyzer",
+      "count": 1
+    },
+    {
+      "name": "binary-analysis",
+      "count": 1
+    },
+    {
+      "name": "cybersecurity",
+      "count": 1
+    },
+    {
+      "name": "dear-imgui",
+      "count": 1
+    },
+    {
+      "name": "disassembler",
+      "count": 1
+    },
+    {
+      "name": "forensics",
+      "count": 1
+    },
+    {
+      "name": "hacking",
+      "count": 1
+    },
+    {
+      "name": "hex-editor",
+      "count": 1
+    },
+    {
+      "name": "pattern-language",
+      "count": 1
+    },
+    {
+      "name": "reverse-engineering",
+      "count": 1
+    },
+    {
       "name": "btop",
       "count": 1
     },
@@ -6988,6 +7028,10 @@
     },
     {
       "name": "anime",
+      "count": 1
+    },
+    {
+      "name": "challenges",
       "count": 1
     },
     {
@@ -7340,46 +7384,6 @@
     },
     {
       "name": "youtube-playables",
-      "count": 1
-    },
-    {
-      "name": "analyzer",
-      "count": 1
-    },
-    {
-      "name": "binary-analysis",
-      "count": 1
-    },
-    {
-      "name": "cybersecurity",
-      "count": 1
-    },
-    {
-      "name": "dear-imgui",
-      "count": 1
-    },
-    {
-      "name": "disassembler",
-      "count": 1
-    },
-    {
-      "name": "forensics",
-      "count": 1
-    },
-    {
-      "name": "hacking",
-      "count": 1
-    },
-    {
-      "name": "hex-editor",
-      "count": 1
-    },
-    {
-      "name": "pattern-language",
-      "count": 1
-    },
-    {
-      "name": "reverse-engineering",
       "count": 1
     },
     {
@@ -8071,10 +8075,6 @@
       "count": 1
     },
     {
-      "name": "challenges",
-      "count": 1
-    },
-    {
       "name": "javascript-engine",
       "count": 1
     },
@@ -8167,6 +8167,22 @@
       "count": 1
     },
     {
+      "name": "apparmor",
+      "count": 1
+    },
+    {
+      "name": "minify-images",
+      "count": 1
+    },
+    {
+      "name": "seccomp-profile",
+      "count": 1
+    },
+    {
+      "name": "slim",
+      "count": 1
+    },
+    {
       "name": "release-automation",
       "count": 1
     },
@@ -8184,22 +8200,6 @@
     },
     {
       "name": "discussion",
-      "count": 1
-    },
-    {
-      "name": "apparmor",
-      "count": 1
-    },
-    {
-      "name": "minify-images",
-      "count": 1
-    },
-    {
-      "name": "seccomp-profile",
-      "count": 1
-    },
-    {
-      "name": "slim",
       "count": 1
     },
     {
@@ -8387,18 +8387,6 @@
       "count": 1
     },
     {
-      "name": "frontend-framework",
-      "count": 1
-    },
-    {
-      "name": "low-code-development-platform",
-      "count": 1
-    },
-    {
-      "name": "lowcode",
-      "count": 1
-    },
-    {
       "name": "beatmap",
       "count": 1
     },
@@ -8420,6 +8408,18 @@
     },
     {
       "name": "taiko",
+      "count": 1
+    },
+    {
+      "name": "frontend-framework",
+      "count": 1
+    },
+    {
+      "name": "low-code-development-platform",
+      "count": 1
+    },
+    {
+      "name": "lowcode",
       "count": 1
     },
     {
@@ -8755,6 +8755,38 @@
       "count": 1
     },
     {
+      "name": "whatwg-fetch",
+      "count": 1
+    },
+    {
+      "name": "minimalistic",
+      "count": 1
+    },
+    {
+      "name": "native-html",
+      "count": 1
+    },
+    {
+      "name": "scss-framework",
+      "count": 1
+    },
+    {
+      "name": "droppable",
+      "count": 1
+    },
+    {
+      "name": "indie-game",
+      "count": 1
+    },
+    {
+      "name": "pokerogue",
+      "count": 1
+    },
+    {
+      "name": "tslint",
+      "count": 1
+    },
+    {
       "name": "changelog-generator",
       "count": 1
     },
@@ -8776,38 +8808,6 @@
     },
     {
       "name": "keepachangelog",
-      "count": 1
-    },
-    {
-      "name": "whatwg-fetch",
-      "count": 1
-    },
-    {
-      "name": "minimalistic",
-      "count": 1
-    },
-    {
-      "name": "native-html",
-      "count": 1
-    },
-    {
-      "name": "scss-framework",
-      "count": 1
-    },
-    {
-      "name": "droppable",
-      "count": 1
-    },
-    {
-      "name": "tslint",
-      "count": 1
-    },
-    {
-      "name": "indie-game",
-      "count": 1
-    },
-    {
-      "name": "pokerogue",
       "count": 1
     },
     {
@@ -8959,6 +8959,14 @@
       "count": 1
     },
     {
+      "name": "stage-files",
+      "count": 1
+    },
+    {
+      "name": "stylelint",
+      "count": 1
+    },
+    {
       "name": "dartlang",
       "count": 1
     },
@@ -8980,14 +8988,6 @@
     },
     {
       "name": "github-app",
-      "count": 1
-    },
-    {
-      "name": "stage-files",
-      "count": 1
-    },
-    {
-      "name": "stylelint",
       "count": 1
     },
     {
@@ -9655,19 +9655,19 @@
       "count": 1
     },
     {
-      "name": "comment-system",
-      "count": 1
-    },
-    {
-      "name": "giscus",
-      "count": 1
-    },
-    {
       "name": "commercial",
       "count": 1
     },
     {
       "name": "proxy-protocol",
+      "count": 1
+    },
+    {
+      "name": "comment-system",
+      "count": 1
+    },
+    {
+      "name": "giscus",
       "count": 1
     },
     {
@@ -9763,11 +9763,11 @@
       "count": 1
     },
     {
-      "name": "command-line-app",
+      "name": "log",
       "count": 1
     },
     {
-      "name": "log",
+      "name": "command-line-app",
       "count": 1
     },
     {
@@ -9784,6 +9784,18 @@
     },
     {
       "name": "url-parsing",
+      "count": 1
+    },
+    {
+      "name": "capnproto",
+      "count": 1
+    },
+    {
+      "name": "decentralized",
+      "count": 1
+    },
+    {
+      "name": "sandstorm",
       "count": 1
     },
     {
@@ -9827,18 +9839,6 @@
       "count": 1
     },
     {
-      "name": "capnproto",
-      "count": 1
-    },
-    {
-      "name": "decentralized",
-      "count": 1
-    },
-    {
-      "name": "sandstorm",
-      "count": 1
-    },
-    {
       "name": "design-patterns",
       "count": 1
     },
@@ -9863,6 +9863,10 @@
       "count": 1
     },
     {
+      "name": "packagejson",
+      "count": 1
+    },
+    {
       "name": "github-enterprise",
       "count": 1
     },
@@ -9884,10 +9888,6 @@
     },
     {
       "name": "github-sponsors",
-      "count": 1
-    },
-    {
-      "name": "packagejson",
       "count": 1
     },
     {
@@ -10171,6 +10171,14 @@
       "count": 1
     },
     {
+      "name": "icons-provider",
+      "count": 1
+    },
+    {
+      "name": "vscode-icons",
+      "count": 1
+    },
+    {
       "name": "datalayer",
       "count": 1
     },
@@ -10276,14 +10284,6 @@
     },
     {
       "name": "style-observer",
-      "count": 1
-    },
-    {
-      "name": "icons-provider",
-      "count": 1
-    },
-    {
-      "name": "vscode-icons",
       "count": 1
     },
     {
@@ -10887,10 +10887,6 @@
       "count": 1
     },
     {
-      "name": "csv-parser",
-      "count": 1
-    },
-    {
       "name": "eta",
       "count": 1
     },
@@ -10900,6 +10896,10 @@
     },
     {
       "name": "nunjucks",
+      "count": 1
+    },
+    {
+      "name": "csv-parser",
       "count": 1
     },
     {
@@ -11359,6 +11359,14 @@
       "count": 1
     },
     {
+      "name": "pastel-colors",
+      "count": 1
+    },
+    {
+      "name": "language-server",
+      "count": 1
+    },
+    {
       "name": "cropper",
       "count": 1
     },
@@ -11371,11 +11379,11 @@
       "count": 1
     },
     {
-      "name": "pastel-colors",
+      "name": "defaults",
       "count": 1
     },
     {
-      "name": "language-server",
+      "name": "defaultsdeep",
       "count": 1
     },
     {
@@ -11396,26 +11404,6 @@
     },
     {
       "name": "uint8array",
-      "count": 1
-    },
-    {
-      "name": "defaults",
-      "count": 1
-    },
-    {
-      "name": "defaultsdeep",
-      "count": 1
-    },
-    {
-      "name": "blend-modes",
-      "count": 1
-    },
-    {
-      "name": "holo",
-      "count": 1
-    },
-    {
-      "name": "holographic",
       "count": 1
     },
     {
@@ -11440,6 +11428,18 @@
     },
     {
       "name": "taito",
+      "count": 1
+    },
+    {
+      "name": "blend-modes",
+      "count": 1
+    },
+    {
+      "name": "holo",
+      "count": 1
+    },
+    {
+      "name": "holographic",
       "count": 1
     },
     {
@@ -11591,18 +11591,6 @@
       "count": 1
     },
     {
-      "name": "barcode",
-      "count": 1
-    },
-    {
-      "name": "camera",
-      "count": 1
-    },
-    {
-      "name": "scanning",
-      "count": 1
-    },
-    {
       "name": "require",
       "count": 1
     },
@@ -11612,6 +11600,18 @@
     },
     {
       "name": "resolver",
+      "count": 1
+    },
+    {
+      "name": "barcode",
+      "count": 1
+    },
+    {
+      "name": "camera",
+      "count": 1
+    },
+    {
+      "name": "scanning",
       "count": 1
     },
     {
@@ -12307,6 +12307,10 @@
       "count": 1
     },
     {
+      "name": "envsubst",
+      "count": 1
+    },
+    {
       "name": "admin-panel",
       "count": 1
     },
@@ -12320,10 +12324,6 @@
     },
     {
       "name": "web-development-tools",
-      "count": 1
-    },
-    {
-      "name": "envsubst",
       "count": 1
     },
     {
