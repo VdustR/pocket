@@ -1003,15 +1003,15 @@
       "count": 6
     },
     {
+      "name": "otf",
+      "count": 6
+    },
+    {
       "name": "bitmap-font",
       "count": 6
     },
     {
       "name": "pixel-font",
-      "count": 6
-    },
-    {
-      "name": "otf",
       "count": 6
     },
     {
@@ -1335,15 +1335,15 @@
       "count": 4
     },
     {
+      "name": "programming-font",
+      "count": 4
+    },
+    {
       "name": "openai",
       "count": 4
     },
     {
       "name": "pdf",
-      "count": 4
-    },
-    {
-      "name": "programming-font",
       "count": 4
     },
     {
@@ -1523,15 +1523,15 @@
       "count": 4
     },
     {
+      "name": "dotnet",
+      "count": 4
+    },
+    {
       "name": "types",
       "count": 4
     },
     {
       "name": "lodash",
-      "count": 4
-    },
-    {
-      "name": "dotnet",
       "count": 4
     },
     {
@@ -2411,6 +2411,10 @@
       "count": 3
     },
     {
+      "name": "truetype",
+      "count": 3
+    },
+    {
       "name": "figma",
       "count": 3
     },
@@ -2504,10 +2508,6 @@
     },
     {
       "name": "time",
-      "count": 3
-    },
-    {
-      "name": "truetype",
       "count": 3
     },
     {
@@ -3239,6 +3239,14 @@
       "count": 2
     },
     {
+      "name": "blazor",
+      "count": 2
+    },
+    {
+      "name": "pkhex",
+      "count": 2
+    },
+    {
       "name": "2d-game",
       "count": 2
     },
@@ -3252,14 +3260,6 @@
     },
     {
       "name": "typescript-definitions",
-      "count": 2
-    },
-    {
-      "name": "blazor",
-      "count": 2
-    },
-    {
-      "name": "pkhex",
       "count": 2
     },
     {
@@ -4031,6 +4031,10 @@
       "count": 2
     },
     {
+      "name": "prompts",
+      "count": 2
+    },
+    {
       "name": "comments-widget",
       "count": 2
     },
@@ -4040,10 +4044,6 @@
     },
     {
       "name": "utterances",
-      "count": 2
-    },
-    {
-      "name": "prompts",
       "count": 2
     },
     {
@@ -4375,11 +4375,11 @@
       "count": 2
     },
     {
-      "name": "shortcuts",
+      "name": "fonttools",
       "count": 2
     },
     {
-      "name": "fonttools",
+      "name": "shortcuts",
       "count": 2
     },
     {
@@ -5411,22 +5411,6 @@
       "count": 1
     },
     {
-      "name": "autogen",
-      "count": 1
-    },
-    {
-      "name": "autogen-extension",
-      "count": 1
-    },
-    {
-      "name": "langchain",
-      "count": 1
-    },
-    {
-      "name": "microsoft-office",
-      "count": 1
-    },
-    {
       "name": "asyncio",
       "count": 1
     },
@@ -5456,6 +5440,22 @@
     },
     {
       "name": "prompt-engineering",
+      "count": 1
+    },
+    {
+      "name": "autogen",
+      "count": 1
+    },
+    {
+      "name": "autogen-extension",
+      "count": 1
+    },
+    {
+      "name": "langchain",
+      "count": 1
+    },
+    {
+      "name": "microsoft-office",
       "count": 1
     },
     {
@@ -6939,38 +6939,6 @@
       "count": 1
     },
     {
-      "name": "game-2d",
-      "count": 1
-    },
-    {
-      "name": "jazz-jackrabbit",
-      "count": 1
-    },
-    {
-      "name": "ncine",
-      "count": 1
-    },
-    {
-      "name": "uwp",
-      "count": 1
-    },
-    {
-      "name": "web-ui",
-      "count": 1
-    },
-    {
-      "name": "definition",
-      "count": 1
-    },
-    {
-      "name": "dts",
-      "count": 1
-    },
-    {
-      "name": "typings",
-      "count": 1
-    },
-    {
       "name": "asp-net",
       "count": 1
     },
@@ -7016,6 +6984,38 @@
     },
     {
       "name": "pokemon-game",
+      "count": 1
+    },
+    {
+      "name": "game-2d",
+      "count": 1
+    },
+    {
+      "name": "jazz-jackrabbit",
+      "count": 1
+    },
+    {
+      "name": "ncine",
+      "count": 1
+    },
+    {
+      "name": "uwp",
+      "count": 1
+    },
+    {
+      "name": "web-ui",
+      "count": 1
+    },
+    {
+      "name": "definition",
+      "count": 1
+    },
+    {
+      "name": "dts",
+      "count": 1
+    },
+    {
+      "name": "typings",
       "count": 1
     },
     {
@@ -9683,18 +9683,6 @@
       "count": 1
     },
     {
-      "name": "port",
-      "count": 1
-    },
-    {
-      "name": "webaudio-api",
-      "count": 1
-    },
-    {
-      "name": "winamp",
-      "count": 1
-    },
-    {
       "name": "content-management",
       "count": 1
     },
@@ -9715,7 +9703,23 @@
       "count": 1
     },
     {
+      "name": "command-line-app",
+      "count": 1
+    },
+    {
       "name": "betterdiscord",
+      "count": 1
+    },
+    {
+      "name": "port",
+      "count": 1
+    },
+    {
+      "name": "webaudio-api",
+      "count": 1
+    },
+    {
+      "name": "winamp",
       "count": 1
     },
     {
@@ -9724,10 +9728,6 @@
     },
     {
       "name": "giscus",
-      "count": 1
-    },
-    {
-      "name": "command-line-app",
       "count": 1
     },
     {
@@ -10167,6 +10167,18 @@
       "count": 1
     },
     {
+      "name": "glyphs",
+      "count": 1
+    },
+    {
+      "name": "kerning",
+      "count": 1
+    },
+    {
+      "name": "opentypejs",
+      "count": 1
+    },
+    {
       "name": "hacktoberfest2021",
       "count": 1
     },
@@ -10479,10 +10491,6 @@
       "count": 1
     },
     {
-      "name": "compression",
-      "count": 1
-    },
-    {
       "name": "ocr-python",
       "count": 1
     },
@@ -10492,6 +10500,10 @@
     },
     {
       "name": "umi-ocr",
+      "count": 1
+    },
+    {
+      "name": "compression",
       "count": 1
     },
     {
@@ -10615,19 +10627,19 @@
       "count": 1
     },
     {
-      "name": "golden-layout",
-      "count": 1
-    },
-    {
-      "name": "layout",
-      "count": 1
-    },
-    {
       "name": "agnostic",
       "count": 1
     },
     {
       "name": "client-side",
+      "count": 1
+    },
+    {
+      "name": "golden-layout",
+      "count": 1
+    },
+    {
+      "name": "layout",
       "count": 1
     },
     {
@@ -11135,10 +11147,6 @@
       "count": 1
     },
     {
-      "name": "chrome-tabs",
-      "count": 1
-    },
-    {
       "name": "browserfs",
       "count": 1
     },
@@ -11168,6 +11176,10 @@
     },
     {
       "name": "visual-inspector",
+      "count": 1
+    },
+    {
+      "name": "chrome-tabs",
       "count": 1
     },
     {
@@ -11795,6 +11807,10 @@
       "count": 1
     },
     {
+      "name": "es-modules",
+      "count": 1
+    },
+    {
       "name": "bootstrap-theme",
       "count": 1
     },
@@ -11803,7 +11819,11 @@
       "count": 1
     },
     {
-      "name": "es-modules",
+      "name": "openlara",
+      "count": 1
+    },
+    {
+      "name": "tombraider",
       "count": 1
     },
     {
@@ -11812,14 +11832,6 @@
     },
     {
       "name": "time-formatting",
-      "count": 1
-    },
-    {
-      "name": "openlara",
-      "count": 1
-    },
-    {
-      "name": "tombraider",
       "count": 1
     },
     {
@@ -12355,15 +12367,15 @@
       "count": 1
     },
     {
-      "name": "decorator",
-      "count": 1
-    },
-    {
       "name": "fontmake",
       "count": 1
     },
     {
       "name": "type-design",
+      "count": 1
+    },
+    {
+      "name": "decorator",
       "count": 1
     },
     {
@@ -12723,10 +12735,6 @@
       "count": 1
     },
     {
-      "name": "sudo",
-      "count": 1
-    },
-    {
       "name": "conversion",
       "count": 1
     },
@@ -12752,6 +12760,10 @@
     },
     {
       "name": "stdin",
+      "count": 1
+    },
+    {
+      "name": "sudo",
       "count": 1
     },
     {
@@ -13139,18 +13151,6 @@
       "count": 1
     },
     {
-      "name": "bitap",
-      "count": 1
-    },
-    {
-      "name": "lightweight-fuzzy-search",
-      "count": 1
-    },
-    {
-      "name": "weighted-search",
-      "count": 1
-    },
-    {
       "name": "blogger",
       "count": 1
     },
@@ -13172,6 +13172,18 @@
     },
     {
       "name": "blog-engine",
+      "count": 1
+    },
+    {
+      "name": "bitap",
+      "count": 1
+    },
+    {
+      "name": "lightweight-fuzzy-search",
+      "count": 1
+    },
+    {
+      "name": "weighted-search",
       "count": 1
     },
     {
@@ -13932,18 +13944,6 @@
     },
     {
       "name": "single-file-component",
-      "count": 1
-    },
-    {
-      "name": "glyphs",
-      "count": 1
-    },
-    {
-      "name": "kerning",
-      "count": 1
-    },
-    {
-      "name": "opentypejs",
       "count": 1
     },
     {
