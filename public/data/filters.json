@@ -1303,11 +1303,11 @@
       "count": 4
     },
     {
-      "name": "qrcode",
+      "name": "launcher",
       "count": 4
     },
     {
-      "name": "launcher",
+      "name": "qrcode",
       "count": 4
     },
     {
@@ -2267,6 +2267,10 @@
       "count": 3
     },
     {
+      "name": "state",
+      "count": 3
+    },
+    {
       "name": "animation-library",
       "count": 3
     },
@@ -2284,10 +2288,6 @@
     },
     {
       "name": "swagger",
-      "count": 3
-    },
-    {
-      "name": "state",
       "count": 3
     },
     {
@@ -3467,10 +3467,6 @@
       "count": 2
     },
     {
-      "name": "orchestration",
-      "count": 2
-    },
-    {
       "name": "capture",
       "count": 2
     },
@@ -3491,15 +3487,19 @@
       "count": 2
     },
     {
+      "name": "orchestration",
+      "count": 2
+    },
+    {
+      "name": "type-system",
+      "count": 2
+    },
+    {
       "name": "aseprite",
       "count": 2
     },
     {
       "name": "spritesheet",
-      "count": 2
-    },
-    {
-      "name": "type-system",
       "count": 2
     },
     {
@@ -3571,15 +3571,15 @@
       "count": 2
     },
     {
+      "name": "interpreter",
+      "count": 2
+    },
+    {
       "name": "swagger-oss",
       "count": 2
     },
     {
       "name": "swagger-ui",
-      "count": 2
-    },
-    {
-      "name": "interpreter",
       "count": 2
     },
     {
@@ -3663,19 +3663,19 @@
       "count": 2
     },
     {
-      "name": "spreadsheet",
-      "count": 2
-    },
-    {
-      "name": "xlsx",
-      "count": 2
-    },
-    {
       "name": "dropdown",
       "count": 2
     },
     {
       "name": "virtual-machine",
+      "count": 2
+    },
+    {
+      "name": "spreadsheet",
+      "count": 2
+    },
+    {
+      "name": "xlsx",
       "count": 2
     },
     {
@@ -4027,10 +4027,6 @@
       "count": 2
     },
     {
-      "name": "workers",
-      "count": 2
-    },
-    {
       "name": "nanostores",
       "count": 2
     },
@@ -4044,6 +4040,10 @@
     },
     {
       "name": "pixelart",
+      "count": 2
+    },
+    {
+      "name": "workers",
       "count": 2
     },
     {
@@ -4083,10 +4083,6 @@
       "count": 2
     },
     {
-      "name": "gaming",
-      "count": 2
-    },
-    {
       "name": "copy",
       "count": 2
     },
@@ -4096,6 +4092,10 @@
     },
     {
       "name": "prompts",
+      "count": 2
+    },
+    {
+      "name": "gaming",
       "count": 2
     },
     {
@@ -5839,10 +5839,6 @@
       "count": 1
     },
     {
-      "name": "x86",
-      "count": 1
-    },
-    {
       "name": "reddit",
       "count": 1
     },
@@ -5852,6 +5848,10 @@
     },
     {
       "name": "vk",
+      "count": 1
+    },
+    {
+      "name": "x86",
       "count": 1
     },
     {
@@ -6923,22 +6923,6 @@
       "count": 1
     },
     {
-      "name": "css-questions",
-      "count": 1
-    },
-    {
-      "name": "html-questions",
-      "count": 1
-    },
-    {
-      "name": "interview-test",
-      "count": 1
-    },
-    {
-      "name": "js-questions",
-      "count": 1
-    },
-    {
       "name": "blocker",
       "count": 1
     },
@@ -6968,6 +6952,22 @@
     },
     {
       "name": "public-apis",
+      "count": 1
+    },
+    {
+      "name": "css-questions",
+      "count": 1
+    },
+    {
+      "name": "html-questions",
+      "count": 1
+    },
+    {
+      "name": "interview-test",
+      "count": 1
+    },
+    {
+      "name": "js-questions",
       "count": 1
     },
     {
@@ -7631,7 +7631,19 @@
       "count": 1
     },
     {
+      "name": "challenges",
+      "count": 1
+    },
+    {
       "name": "web-ui",
+      "count": 1
+    },
+    {
+      "name": "remote-access",
+      "count": 1
+    },
+    {
+      "name": "anime",
       "count": 1
     },
     {
@@ -7648,18 +7660,6 @@
     },
     {
       "name": "tilemap-editor",
-      "count": 1
-    },
-    {
-      "name": "challenges",
-      "count": 1
-    },
-    {
-      "name": "remote-access",
-      "count": 1
-    },
-    {
-      "name": "anime",
       "count": 1
     },
     {
@@ -7919,30 +7919,6 @@
       "count": 1
     },
     {
-      "name": "react-spring",
-      "count": 1
-    },
-    {
-      "name": "spring-physics",
-      "count": 1
-    },
-    {
-      "name": "springs",
-      "count": 1
-    },
-    {
-      "name": "oas",
-      "count": 1
-    },
-    {
-      "name": "swagger-api",
-      "count": 1
-    },
-    {
-      "name": "swagger-js",
-      "count": 1
-    },
-    {
       "name": "background-jobs",
       "count": 1
     },
@@ -7972,6 +7948,30 @@
     },
     {
       "name": "visualizer",
+      "count": 1
+    },
+    {
+      "name": "react-spring",
+      "count": 1
+    },
+    {
+      "name": "spring-physics",
+      "count": 1
+    },
+    {
+      "name": "springs",
+      "count": 1
+    },
+    {
+      "name": "oas",
+      "count": 1
+    },
+    {
+      "name": "swagger-api",
+      "count": 1
+    },
+    {
+      "name": "swagger-js",
       "count": 1
     },
     {
@@ -8215,14 +8215,6 @@
       "count": 1
     },
     {
-      "name": "collaborative",
-      "count": 1
-    },
-    {
-      "name": "excel",
-      "count": 1
-    },
-    {
       "name": "popovers",
       "count": 1
     },
@@ -8244,6 +8236,14 @@
     },
     {
       "name": "javascript-engine",
+      "count": 1
+    },
+    {
+      "name": "collaborative",
+      "count": 1
+    },
+    {
+      "name": "excel",
       "count": 1
     },
     {
@@ -8807,10 +8807,6 @@
       "count": 1
     },
     {
-      "name": "tslint",
-      "count": 1
-    },
-    {
       "name": "apache",
       "count": 1
     },
@@ -8852,6 +8848,10 @@
     },
     {
       "name": "rustlang",
+      "count": 1
+    },
+    {
+      "name": "tslint",
       "count": 1
     },
     {
@@ -9499,6 +9499,14 @@
       "count": 1
     },
     {
+      "name": "short-url",
+      "count": 1
+    },
+    {
+      "name": "yourls",
+      "count": 1
+    },
+    {
       "name": "image-generator",
       "count": 1
     },
@@ -9508,14 +9516,6 @@
     },
     {
       "name": "satori",
-      "count": 1
-    },
-    {
-      "name": "short-url",
-      "count": 1
-    },
-    {
-      "name": "yourls",
       "count": 1
     },
     {
@@ -9639,14 +9639,6 @@
       "count": 1
     },
     {
-      "name": "eventsource",
-      "count": 1
-    },
-    {
-      "name": "html-standard",
-      "count": 1
-    },
-    {
       "name": "persistent",
       "count": 1
     },
@@ -9692,6 +9684,14 @@
     },
     {
       "name": "sprite-animation",
+      "count": 1
+    },
+    {
+      "name": "eventsource",
+      "count": 1
+    },
+    {
+      "name": "html-standard",
       "count": 1
     },
     {
@@ -9743,22 +9743,6 @@
       "count": 1
     },
     {
-      "name": "enterprise",
-      "count": 1
-    },
-    {
-      "name": "federated",
-      "count": 1
-    },
-    {
-      "name": "file-sync",
-      "count": 1
-    },
-    {
-      "name": "owncloud",
-      "count": 1
-    },
-    {
       "name": "bg",
       "count": 1
     },
@@ -9780,6 +9764,22 @@
     },
     {
       "name": "tsparticles",
+      "count": 1
+    },
+    {
+      "name": "enterprise",
+      "count": 1
+    },
+    {
+      "name": "federated",
+      "count": 1
+    },
+    {
+      "name": "file-sync",
+      "count": 1
+    },
+    {
+      "name": "owncloud",
       "count": 1
     },
     {
@@ -9831,15 +9831,15 @@
       "count": 1
     },
     {
-      "name": "wpf",
-      "count": 1
-    },
-    {
       "name": "delete",
       "count": 1
     },
     {
       "name": "command-line-app",
+      "count": 1
+    },
+    {
+      "name": "wpf",
       "count": 1
     },
     {
@@ -10883,10 +10883,6 @@
       "count": 1
     },
     {
-      "name": "90s",
-      "count": 1
-    },
-    {
       "name": "style-observer",
       "count": 1
     },
@@ -10896,10 +10892,6 @@
     },
     {
       "name": "quay",
-      "count": 1
-    },
-    {
-      "name": "universal-javascript",
       "count": 1
     },
     {
@@ -10920,6 +10912,14 @@
     },
     {
       "name": "slang",
+      "count": 1
+    },
+    {
+      "name": "90s",
+      "count": 1
+    },
+    {
+      "name": "universal-javascript",
       "count": 1
     },
     {
@@ -11035,6 +11035,18 @@
       "count": 1
     },
     {
+      "name": "eta",
+      "count": 1
+    },
+    {
+      "name": "lume",
+      "count": 1
+    },
+    {
+      "name": "nunjucks",
+      "count": 1
+    },
+    {
       "name": "es6-javascript",
       "count": 1
     },
@@ -11052,18 +11064,6 @@
     },
     {
       "name": "nodejs-server",
-      "count": 1
-    },
-    {
-      "name": "eta",
-      "count": 1
-    },
-    {
-      "name": "lume",
-      "count": 1
-    },
-    {
-      "name": "nunjucks",
       "count": 1
     },
     {
@@ -11391,6 +11391,22 @@
       "count": 1
     },
     {
+      "name": "gtk3",
+      "count": 1
+    },
+    {
+      "name": "vte",
+      "count": 1
+    },
+    {
+      "name": "pnpm-monorepo",
+      "count": 1
+    },
+    {
+      "name": "pnpm-workspace",
+      "count": 1
+    },
+    {
       "name": "browserfs",
       "count": 1
     },
@@ -11416,22 +11432,6 @@
     },
     {
       "name": "webfs",
-      "count": 1
-    },
-    {
-      "name": "gtk3",
-      "count": 1
-    },
-    {
-      "name": "vte",
-      "count": 1
-    },
-    {
-      "name": "pnpm-monorepo",
-      "count": 1
-    },
-    {
-      "name": "pnpm-workspace",
       "count": 1
     },
     {
@@ -12615,10 +12615,6 @@
       "count": 1
     },
     {
-      "name": "envsubst",
-      "count": 1
-    },
-    {
       "name": "admin-panel",
       "count": 1
     },
@@ -12632,6 +12628,10 @@
     },
     {
       "name": "web-development-tools",
+      "count": 1
+    },
+    {
+      "name": "envsubst",
       "count": 1
     },
     {
@@ -13723,34 +13723,6 @@
       "count": 1
     },
     {
-      "name": "cdn-providers",
-      "count": 1
-    },
-    {
-      "name": "distribution",
-      "count": 1
-    },
-    {
-      "name": "esmodules",
-      "count": 1
-    },
-    {
-      "name": "infrastructure",
-      "count": 1
-    },
-    {
-      "name": "jsdelivr",
-      "count": 1
-    },
-    {
-      "name": "npm-cdn",
-      "count": 1
-    },
-    {
-      "name": "traffic",
-      "count": 1
-    },
-    {
       "name": "gowid",
       "count": 1
     },
@@ -13812,6 +13784,34 @@
     },
     {
       "name": "inpainting-methods",
+      "count": 1
+    },
+    {
+      "name": "cdn-providers",
+      "count": 1
+    },
+    {
+      "name": "distribution",
+      "count": 1
+    },
+    {
+      "name": "esmodules",
+      "count": 1
+    },
+    {
+      "name": "infrastructure",
+      "count": 1
+    },
+    {
+      "name": "jsdelivr",
+      "count": 1
+    },
+    {
+      "name": "npm-cdn",
+      "count": 1
+    },
+    {
+      "name": "traffic",
       "count": 1
     },
     {
