@@ -1643,11 +1643,11 @@
       "count": 4
     },
     {
-      "name": "environment-variables",
+      "name": "regexp",
       "count": 4
     },
     {
-      "name": "regexp",
+      "name": "environment-variables",
       "count": 4
     },
     {
@@ -3799,6 +3799,10 @@
       "count": 2
     },
     {
+      "name": "edge-extension",
+      "count": 2
+    },
+    {
       "name": "configuration-file",
       "count": 2
     },
@@ -3827,10 +3831,6 @@
       "count": 2
     },
     {
-      "name": "edge-extension",
-      "count": 2
-    },
-    {
       "name": "responsive-web-design",
       "count": 2
     },
@@ -3847,11 +3847,11 @@
       "count": 2
     },
     {
-      "name": "sharing",
+      "name": "widgets",
       "count": 2
     },
     {
-      "name": "widgets",
+      "name": "sharing",
       "count": 2
     },
     {
@@ -4915,19 +4915,19 @@
       "count": 1
     },
     {
-      "name": "espanso",
-      "count": 1
-    },
-    {
-      "name": "text-expander",
-      "count": 1
-    },
-    {
       "name": "cdp",
       "count": 1
     },
     {
       "name": "orchestrator",
+      "count": 1
+    },
+    {
+      "name": "espanso",
+      "count": 1
+    },
+    {
+      "name": "text-expander",
       "count": 1
     },
     {
@@ -5155,10 +5155,6 @@
       "count": 1
     },
     {
-      "name": "anthropic-claude",
-      "count": 1
-    },
-    {
       "name": "agent-development",
       "count": 1
     },
@@ -5168,6 +5164,10 @@
     },
     {
       "name": "teaching",
+      "count": 1
+    },
+    {
+      "name": "anthropic-claude",
       "count": 1
     },
     {
@@ -5627,10 +5627,6 @@
       "count": 1
     },
     {
-      "name": "rainmeter",
-      "count": 1
-    },
-    {
       "name": "background",
       "count": 1
     },
@@ -5672,6 +5668,10 @@
     },
     {
       "name": "tailwind-backgrounds",
+      "count": 1
+    },
+    {
+      "name": "rainmeter",
       "count": 1
     },
     {
@@ -8199,30 +8199,6 @@
       "count": 1
     },
     {
-      "name": "dom-to-image",
-      "count": 1
-    },
-    {
-      "name": "html-to-image",
-      "count": 1
-    },
-    {
-      "name": "html2canvas",
-      "count": 1
-    },
-    {
-      "name": "modern-screenshot",
-      "count": 1
-    },
-    {
-      "name": "css-modules",
-      "count": 1
-    },
-    {
-      "name": "typescript-language-server-plugin",
-      "count": 1
-    },
-    {
       "name": "brand",
       "count": 1
     },
@@ -8264,6 +8240,30 @@
     },
     {
       "name": "svg-files",
+      "count": 1
+    },
+    {
+      "name": "dom-to-image",
+      "count": 1
+    },
+    {
+      "name": "html-to-image",
+      "count": 1
+    },
+    {
+      "name": "html2canvas",
+      "count": 1
+    },
+    {
+      "name": "modern-screenshot",
+      "count": 1
+    },
+    {
+      "name": "css-modules",
+      "count": 1
+    },
+    {
+      "name": "typescript-language-server-plugin",
       "count": 1
     },
     {
@@ -8659,22 +8659,6 @@
       "count": 1
     },
     {
-      "name": "dotenvx",
-      "count": 1
-    },
-    {
-      "name": "end-to-end-encryption",
-      "count": 1
-    },
-    {
-      "name": "secrets-management",
-      "count": 1
-    },
-    {
-      "name": "winget",
-      "count": 1
-    },
-    {
       "name": "committee",
       "count": 1
     },
@@ -8692,6 +8676,22 @@
     },
     {
       "name": "search-engine",
+      "count": 1
+    },
+    {
+      "name": "dotenvx",
+      "count": 1
+    },
+    {
+      "name": "end-to-end-encryption",
+      "count": 1
+    },
+    {
+      "name": "secrets-management",
+      "count": 1
+    },
+    {
+      "name": "winget",
       "count": 1
     },
     {
@@ -8752,26 +8752,6 @@
     },
     {
       "name": "tslint",
-      "count": 1
-    },
-    {
-      "name": "beautiful",
-      "count": 1
-    },
-    {
-      "name": "carbon",
-      "count": 1
-    },
-    {
-      "name": "github-gist",
-      "count": 1
-    },
-    {
-      "name": "snippets",
-      "count": 1
-    },
-    {
-      "name": "tweet",
       "count": 1
     },
     {
@@ -8848,6 +8828,26 @@
     },
     {
       "name": "xss",
+      "count": 1
+    },
+    {
+      "name": "beautiful",
+      "count": 1
+    },
+    {
+      "name": "carbon",
+      "count": 1
+    },
+    {
+      "name": "github-gist",
+      "count": 1
+    },
+    {
+      "name": "snippets",
+      "count": 1
+    },
+    {
+      "name": "tweet",
       "count": 1
     },
     {
@@ -10039,30 +10039,6 @@
       "count": 1
     },
     {
-      "name": "emby",
-      "count": 1
-    },
-    {
-      "name": "jellyfin",
-      "count": 1
-    },
-    {
-      "name": "kodi",
-      "count": 1
-    },
-    {
-      "name": "movie",
-      "count": 1
-    },
-    {
-      "name": "nas",
-      "count": 1
-    },
-    {
-      "name": "plex",
-      "count": 1
-    },
-    {
       "name": "file-system-routing",
       "count": 1
     },
@@ -10088,6 +10064,30 @@
     },
     {
       "name": "static-typing",
+      "count": 1
+    },
+    {
+      "name": "emby",
+      "count": 1
+    },
+    {
+      "name": "jellyfin",
+      "count": 1
+    },
+    {
+      "name": "kodi",
+      "count": 1
+    },
+    {
+      "name": "movie",
+      "count": 1
+    },
+    {
+      "name": "nas",
+      "count": 1
+    },
+    {
+      "name": "plex",
       "count": 1
     },
     {
@@ -10611,18 +10611,6 @@
       "count": 1
     },
     {
-      "name": "format-pug",
-      "count": 1
-    },
-    {
-      "name": "prettier-plugin",
-      "count": 1
-    },
-    {
-      "name": "pug",
-      "count": 1
-    },
-    {
       "name": "df",
       "count": 1
     },
@@ -10640,6 +10628,18 @@
     },
     {
       "name": "user-friendly",
+      "count": 1
+    },
+    {
+      "name": "format-pug",
+      "count": 1
+    },
+    {
+      "name": "prettier-plugin",
+      "count": 1
+    },
+    {
+      "name": "pug",
       "count": 1
     },
     {
