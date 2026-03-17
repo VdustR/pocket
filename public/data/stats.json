@@ -1,10 +1,10 @@
 {
   "totalRepos": 1556,
-  "totalStars": 24559232,
+  "totalStars": 24560614,
   "languageDistribution": {
     "TypeScript": 574,
-    "Shell": 33,
     "JavaScript": 362,
+    "Shell": 33,
     "Zig": 2,
     "Python": 71,
     "Rust": 54,
@@ -64,10 +64,10 @@
       "fullName": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "homepage": "https://openclaw.ai",
-      "stars": 317822,
-      "forks": 60939,
-      "watchers": 317822,
-      "openIssues": 14590,
+      "stars": 318031,
+      "forks": 60986,
+      "watchers": 318031,
+      "openIssues": 14417,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -79,8 +79,8 @@
         "personal"
       ],
       "createdAt": "2025-11-24T10:16:47Z",
-      "updatedAt": "2026-03-17T03:05:45Z",
-      "pushedAt": "2026-03-17T03:02:05Z",
+      "updatedAt": "2026-03-17T04:39:58Z",
+      "pushedAt": "2026-03-17T04:39:26Z",
       "starredAt": "2026-01-27T14:01:52Z",
       "score": 0.9802739726027396
     },
@@ -90,10 +90,10 @@
       "fullName": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "homepage": "https://n8n.io",
-      "stars": 179481,
-      "forks": 55849,
-      "watchers": 179481,
-      "openIssues": 1411,
+      "stars": 179494,
+      "forks": 55854,
+      "watchers": 179494,
+      "openIssues": 1405,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -118,8 +118,8 @@
         "workflow-automation"
       ],
       "createdAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-03-17T03:05:27Z",
-      "pushedAt": "2026-03-16T23:45:39Z",
+      "updatedAt": "2026-03-17T04:39:15Z",
+      "pushedAt": "2026-03-17T03:37:41Z",
       "starredAt": "2026-01-19T01:14:28Z",
       "score": 0.9765753424657534
     },
@@ -129,35 +129,17 @@
       "fullName": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "homepage": "https://opencode.ai",
-      "stars": 123548,
-      "forks": 12883,
-      "watchers": 123548,
-      "openIssues": 7012,
+      "stars": 123589,
+      "forks": 12889,
+      "watchers": 123589,
+      "openIssues": 6997,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2025-04-30T20:08:00Z",
-      "updatedAt": "2026-03-17T03:02:22Z",
-      "pushedAt": "2026-03-17T02:55:59Z",
+      "updatedAt": "2026-03-17T04:39:44Z",
+      "pushedAt": "2026-03-17T03:47:34Z",
       "starredAt": "2026-01-07T21:29:51Z",
       "score": 0.9720547945205479
-    },
-    {
-      "owner": "anthropics",
-      "name": "claude-code",
-      "fullName": "anthropics/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "homepage": "https://code.claude.com/docs/en/overview",
-      "stars": 78801,
-      "forks": 6452,
-      "watchers": 78801,
-      "openIssues": 6530,
-      "language": "Shell",
-      "topics": [],
-      "createdAt": "2025-02-22T17:41:21Z",
-      "updatedAt": "2026-03-17T03:05:41Z",
-      "pushedAt": "2026-03-17T00:28:12Z",
-      "starredAt": "2026-01-24T19:15:11Z",
-      "score": 0.970764075094592
     },
     {
       "owner": "affaan-m",
@@ -165,10 +147,10 @@
       "fullName": "affaan-m/everything-claude-code",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "homepage": "https://ecc.tools",
-      "stars": 80674,
-      "forks": 10358,
-      "watchers": 80674,
-      "openIssues": 46,
+      "stars": 80888,
+      "forks": 10394,
+      "watchers": 80888,
+      "openIssues": 49,
       "language": "JavaScript",
       "topics": [
         "ai-agents",
@@ -181,10 +163,28 @@
         "productivity"
       ],
       "createdAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-03-17T03:05:33Z",
+      "updatedAt": "2026-03-17T04:39:58Z",
       "pushedAt": "2026-03-16T21:32:25Z",
       "starredAt": "2026-01-22T05:53:26Z",
-      "score": 0.9707582960082671
+      "score": 0.9708503353967243
+    },
+    {
+      "owner": "anthropics",
+      "name": "claude-code",
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "homepage": "https://code.claude.com/docs/en/overview",
+      "stars": 78825,
+      "forks": 6455,
+      "watchers": 78825,
+      "openIssues": 6543,
+      "language": "Shell",
+      "topics": [],
+      "createdAt": "2025-02-22T17:41:21Z",
+      "updatedAt": "2026-03-17T04:38:16Z",
+      "pushedAt": "2026-03-17T00:28:12Z",
+      "starredAt": "2026-01-24T19:15:11Z",
+      "score": 0.9707746550094764
     },
     {
       "owner": "ghostty-org",
@@ -192,17 +192,17 @@
       "fullName": "ghostty-org/ghostty",
       "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
       "homepage": "https://ghostty.org",
-      "stars": 47194,
-      "forks": 1980,
-      "watchers": 47194,
-      "openIssues": 191,
+      "stars": 47213,
+      "forks": 1981,
+      "watchers": 47213,
+      "openIssues": 192,
       "language": "Zig",
       "topics": [],
       "createdAt": "2022-03-29T17:38:26Z",
-      "updatedAt": "2026-03-17T03:00:06Z",
-      "pushedAt": "2026-03-17T00:33:50Z",
+      "updatedAt": "2026-03-17T04:39:26Z",
+      "pushedAt": "2026-03-17T03:15:53Z",
       "starredAt": "2026-02-03T00:30:36Z",
-      "score": 0.9566514052614598
+      "score": 0.9566653896828902
     },
     {
       "owner": "D4Vinci",
@@ -210,9 +210,9 @@
       "fullName": "D4Vinci/Scrapling",
       "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "homepage": "https://scrapling.readthedocs.io/en/latest/",
-      "stars": 30339,
-      "forks": 2347,
-      "watchers": 30339,
+      "stars": 30368,
+      "forks": 2352,
+      "watchers": 30368,
       "openIssues": 9,
       "language": "Python",
       "topics": [
@@ -238,10 +238,10 @@
         "xpath"
       ],
       "createdAt": "2024-10-13T20:29:53Z",
-      "updatedAt": "2026-03-17T03:03:37Z",
+      "updatedAt": "2026-03-17T04:35:36Z",
       "pushedAt": "2026-03-16T14:23:10Z",
       "starredAt": "2026-03-06T11:22:46Z",
-      "score": 0.954451657074961
+      "score": 0.9544848502843584
     },
     {
       "owner": "nextlevelbuilder",
@@ -249,10 +249,10 @@
       "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
       "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
       "homepage": "https://www.uupm.cc/",
-      "stars": 42960,
-      "forks": 4152,
-      "watchers": 42960,
-      "openIssues": 73,
+      "stars": 43005,
+      "forks": 4155,
+      "watchers": 43005,
+      "openIssues": 74,
       "language": "Python",
       "topics": [
         "ai-skills",
@@ -276,10 +276,10 @@
         "windsurf-ai"
       ],
       "createdAt": "2025-11-30T11:36:31Z",
-      "updatedAt": "2026-03-17T03:05:42Z",
+      "updatedAt": "2026-03-17T04:39:15Z",
       "pushedAt": "2026-03-10T06:05:57Z",
       "starredAt": "2026-01-30T02:34:01Z",
-      "score": 0.946810334109603
+      "score": 0.9468467076082165
     },
     {
       "owner": "googleworkspace",
@@ -287,9 +287,9 @@
       "fullName": "googleworkspace/cli",
       "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
       "homepage": "https://developers.google.com/workspace",
-      "stars": 20962,
+      "stars": 20973,
       "forks": 975,
-      "watchers": 20962,
+      "watchers": 20973,
       "openIssues": 88,
       "language": "Rust",
       "topics": [
@@ -311,10 +311,10 @@
         "rust"
       ],
       "createdAt": "2026-03-02T19:46:06Z",
-      "updatedAt": "2026-03-17T03:02:30Z",
+      "updatedAt": "2026-03-17T04:40:21Z",
       "pushedAt": "2026-03-13T23:28:46Z",
       "starredAt": "2026-03-05T10:28:15Z",
-      "score": 0.9387299733768045
+      "score": 0.9387481997236028
     },
     {
       "owner": "charmbracelet",
@@ -322,9 +322,9 @@
       "fullName": "charmbracelet/vhs",
       "description": "Your CLI home video recorder 📼",
       "homepage": "",
-      "stars": 18990,
+      "stars": 18992,
       "forks": 388,
-      "watchers": 18990,
+      "watchers": 18992,
       "openIssues": 142,
       "language": "Go",
       "topics": [
@@ -338,10 +338,10 @@
         "video"
       ],
       "createdAt": "2022-07-19T14:28:36Z",
-      "updatedAt": "2026-03-16T23:27:25Z",
+      "updatedAt": "2026-03-17T03:16:34Z",
       "pushedAt": "2026-03-16T09:13:42Z",
       "starredAt": "2026-03-05T05:56:31Z",
-      "score": 0.9377632787568628
+      "score": 0.9377669375140851
     }
   ],
   "recentlyStarred": [
@@ -387,9 +387,9 @@
       "fullName": "ghostwright/ghost-os",
       "description": "Full computer-use for AI agents. Self-learning workflows. Native macOS. No screenshots required.",
       "homepage": "",
-      "stars": 1000,
+      "stars": 1001,
       "forks": 94,
-      "watchers": 1000,
+      "watchers": 1001,
       "openIssues": 3,
       "language": "Swift",
       "topics": [
@@ -405,10 +405,10 @@
         "swift"
       ],
       "createdAt": "2026-02-19T03:53:36Z",
-      "updatedAt": "2026-03-17T02:49:39Z",
+      "updatedAt": "2026-03-17T03:24:54Z",
       "pushedAt": "2026-03-16T04:04:18Z",
       "starredAt": "2026-03-11T16:51:40Z",
-      "score": 0.8379799316777975
+      "score": 0.837192705393731
     },
     {
       "owner": "git-hub-tig",
@@ -426,7 +426,7 @@
       "updatedAt": "2026-03-14T19:06:53Z",
       "pushedAt": "2025-12-23T15:38:43Z",
       "starredAt": "2026-03-11T04:03:59Z",
-      "score": 0.6836683702822107
+      "score": 0.6832574113781011
     },
     {
       "owner": "ParthJadhav",
@@ -434,9 +434,9 @@
       "fullName": "ParthJadhav/app-store-screenshots",
       "description": "end to end app store screenshot creation using AI",
       "homepage": "https://skills.sh/parthjadhav/app-store-screenshots/app-store-screenshots",
-      "stars": 2833,
+      "stars": 2836,
       "forks": 188,
-      "watchers": 2833,
+      "watchers": 2836,
       "openIssues": 4,
       "language": null,
       "topics": [
@@ -459,10 +459,10 @@
         "ui"
       ],
       "createdAt": "2026-03-07T13:56:04Z",
-      "updatedAt": "2026-03-17T02:44:19Z",
+      "updatedAt": "2026-03-17T04:27:02Z",
       "pushedAt": "2026-03-14T07:32:28Z",
       "starredAt": "2026-03-11T01:12:47Z",
-      "score": 0.8720823986318195
+      "score": 0.8721191578225723
     },
     {
       "owner": "crs-k",
@@ -491,17 +491,17 @@
       "fullName": "jackwener/twitter-cli",
       "description": "A CLI for Twitter/X — feed, bookmarks, and user timeline in terminal",
       "homepage": "",
-      "stars": 1962,
-      "forks": 167,
-      "watchers": 1962,
-      "openIssues": 8,
+      "stars": 1964,
+      "forks": 169,
+      "watchers": 1964,
+      "openIssues": 10,
       "language": "Python",
       "topics": [],
       "createdAt": "2026-03-05T08:18:37Z",
-      "updatedAt": "2026-03-17T02:18:32Z",
+      "updatedAt": "2026-03-17T03:31:35Z",
       "pushedAt": "2026-03-16T10:24:38Z",
       "starredAt": "2026-03-09T17:20:05Z",
-      "score": 0.8605569116392333
+      "score": 0.8605922920481485
     },
     {
       "owner": "srizzon",
@@ -509,10 +509,10 @@
       "fullName": "srizzon/git-city",
       "description": "Your GitHub profile as a 3D pixel art building in an interactive city",
       "homepage": "https://thegitcity.com",
-      "stars": 4040,
+      "stars": 4044,
       "forks": 194,
-      "watchers": 4040,
-      "openIssues": 8,
+      "watchers": 4044,
+      "openIssues": 9,
       "language": "TypeScript",
       "topics": [
         "3d",
@@ -528,10 +528,10 @@
         "visualization"
       ],
       "createdAt": "2026-02-20T16:11:55Z",
-      "updatedAt": "2026-03-17T02:03:53Z",
-      "pushedAt": "2026-03-16T23:17:02Z",
+      "updatedAt": "2026-03-17T04:35:09Z",
+      "pushedAt": "2026-03-17T04:14:08Z",
       "starredAt": "2026-03-09T17:05:32Z",
-      "score": 0.8856423957066447
+      "score": 0.8856767697470962
     },
     {
       "owner": "tddworks",
@@ -539,9 +539,9 @@
       "fullName": "tddworks/ClaudeBar",
       "description": "A macOS menu bar application that monitors AI coding assistant usage quotas. Keep track of your Claude, Codex, Antigravity ,and Gemini usage at a glance.",
       "homepage": "https://tddworks.github.io/ClaudeBar/",
-      "stars": 800,
+      "stars": 801,
       "forks": 68,
-      "watchers": 800,
+      "watchers": 801,
       "openIssues": 31,
       "language": "Swift",
       "topics": [
@@ -555,10 +555,10 @@
         "kimi"
       ],
       "createdAt": "2025-12-20T13:58:06Z",
-      "updatedAt": "2026-03-17T02:51:40Z",
-      "pushedAt": "2026-03-17T02:51:37Z",
+      "updatedAt": "2026-03-17T04:35:17Z",
+      "pushedAt": "2026-03-17T04:35:14Z",
       "starredAt": "2026-03-09T16:14:27Z",
-      "score": 0.8294138889579719
+      "score": 0.8294572371339659
     },
     {
       "owner": "pbakaus",
@@ -566,17 +566,17 @@
       "fullName": "pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "homepage": "https://impeccable.style",
-      "stars": 9359,
+      "stars": 9393,
       "forks": 363,
-      "watchers": 9359,
+      "watchers": 9393,
       "openIssues": 6,
       "language": "JavaScript",
       "topics": [],
       "createdAt": "2025-11-16T01:52:04Z",
-      "updatedAt": "2026-03-17T03:03:49Z",
+      "updatedAt": "2026-03-17T04:39:34Z",
       "pushedAt": "2026-03-16T23:22:11Z",
       "starredAt": "2026-03-09T01:27:25Z",
-      "score": 0.9144143966661716
+      "score": 0.9145403732349017
     }
   ]
 }
