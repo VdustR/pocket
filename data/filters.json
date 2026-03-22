@@ -467,11 +467,11 @@
       "count": 13
     },
     {
-      "name": "mcp",
+      "name": "claude-code",
       "count": 12
     },
     {
-      "name": "claude-code",
+      "name": "mcp",
       "count": 12
     },
     {
@@ -535,11 +535,11 @@
       "count": 11
     },
     {
-      "name": "parser",
+      "name": "api",
       "count": 11
     },
     {
-      "name": "api",
+      "name": "parser",
       "count": 11
     },
     {
@@ -631,11 +631,11 @@
       "count": 10
     },
     {
-      "name": "self-hosted",
+      "name": "productivity",
       "count": 9
     },
     {
-      "name": "productivity",
+      "name": "self-hosted",
       "count": 9
     },
     {
@@ -743,11 +743,11 @@
       "count": 8
     },
     {
-      "name": "development",
+      "name": "llm",
       "count": 7
     },
     {
-      "name": "llm",
+      "name": "development",
       "count": 7
     },
     {
@@ -1039,15 +1039,15 @@
       "count": 6
     },
     {
-      "name": "no-code",
-      "count": 5
-    },
-    {
       "name": "ai-agents",
       "count": 5
     },
     {
       "name": "anthropic",
+      "count": 5
+    },
+    {
+      "name": "no-code",
       "count": 5
     },
     {
@@ -1943,6 +1943,10 @@
       "count": 3
     },
     {
+      "name": "api-client",
+      "count": 3
+    },
+    {
       "name": "renderer",
       "count": 3
     },
@@ -1951,15 +1955,7 @@
       "count": 3
     },
     {
-      "name": "api-client",
-      "count": 3
-    },
-    {
       "name": "fake",
-      "count": 3
-    },
-    {
-      "name": "docker-container",
       "count": 3
     },
     {
@@ -1968,6 +1964,10 @@
     },
     {
       "name": "unix",
+      "count": 3
+    },
+    {
+      "name": "docker-container",
       "count": 3
     },
     {
@@ -2971,6 +2971,10 @@
       "count": 2
     },
     {
+      "name": "firefox-extension",
+      "count": 2
+    },
+    {
       "name": "menubar-app",
       "count": 2
     },
@@ -2980,10 +2984,6 @@
     },
     {
       "name": "status-bar",
-      "count": 2
-    },
-    {
-      "name": "firefox-extension",
       "count": 2
     },
     {
@@ -3255,11 +3255,11 @@
       "count": 2
     },
     {
-      "name": "development-environment",
+      "name": "rolldown",
       "count": 2
     },
     {
-      "name": "rolldown",
+      "name": "development-environment",
       "count": 2
     },
     {
@@ -3272,10 +3272,6 @@
     },
     {
       "name": "workspace",
-      "count": 2
-    },
-    {
-      "name": "collection",
       "count": 2
     },
     {
@@ -3292,6 +3288,10 @@
     },
     {
       "name": "guidelines",
+      "count": 2
+    },
+    {
+      "name": "collection",
       "count": 2
     },
     {
@@ -3507,10 +3507,6 @@
       "count": 2
     },
     {
-      "name": "orchestration",
-      "count": 2
-    },
-    {
       "name": "capture",
       "count": 2
     },
@@ -3528,6 +3524,10 @@
     },
     {
       "name": "web-analytics",
+      "count": 2
+    },
+    {
+      "name": "orchestration",
       "count": 2
     },
     {
@@ -4267,15 +4267,15 @@
       "count": 2
     },
     {
+      "name": "iconsets",
+      "count": 2
+    },
+    {
       "name": "reactive-programming",
       "count": 2
     },
     {
       "name": "lazy-loading",
-      "count": 2
-    },
-    {
-      "name": "iconsets",
       "count": 2
     },
     {
@@ -5099,6 +5099,10 @@
       "count": 1
     },
     {
+      "name": "cloudflare-workers",
+      "count": 1
+    },
+    {
       "name": "messenger",
       "count": 1
     },
@@ -5108,10 +5112,6 @@
     },
     {
       "name": "telegram-solution",
-      "count": 1
-    },
-    {
-      "name": "cloudflare-workers",
       "count": 1
     },
     {
@@ -5943,18 +5943,6 @@
       "count": 1
     },
     {
-      "name": "caffeine",
-      "count": 1
-    },
-    {
-      "name": "claude-ai",
-      "count": 1
-    },
-    {
-      "name": "claude-desktop",
-      "count": 1
-    },
-    {
       "name": "api-mock",
       "count": 1
     },
@@ -6008,6 +5996,18 @@
     },
     {
       "name": "postman-environment",
+      "count": 1
+    },
+    {
+      "name": "caffeine",
+      "count": 1
+    },
+    {
+      "name": "claude-ai",
+      "count": 1
+    },
+    {
+      "name": "claude-desktop",
       "count": 1
     },
     {
@@ -6079,6 +6079,14 @@
       "count": 1
     },
     {
+      "name": "kernel",
+      "count": 1
+    },
+    {
+      "name": "operating-system",
+      "count": 1
+    },
+    {
       "name": "windows-virtual-desktop",
       "count": 1
     },
@@ -6092,14 +6100,6 @@
     },
     {
       "name": "windows-vm",
-      "count": 1
-    },
-    {
-      "name": "kernel",
-      "count": 1
-    },
-    {
-      "name": "operating-system",
       "count": 1
     },
     {
@@ -6823,6 +6823,10 @@
       "count": 1
     },
     {
+      "name": "oxc",
+      "count": 1
+    },
+    {
       "name": "browser-ide",
       "count": 1
     },
@@ -6852,10 +6856,6 @@
     },
     {
       "name": "version-manager",
-      "count": 1
-    },
-    {
-      "name": "oxc",
       "count": 1
     },
     {
@@ -7827,10 +7827,6 @@
       "count": 1
     },
     {
-      "name": "tsx",
-      "count": 1
-    },
-    {
       "name": "avif",
       "count": 1
     },
@@ -7868,6 +7864,10 @@
     },
     {
       "name": "vulnerability-scanners",
+      "count": 1
+    },
+    {
+      "name": "tsx",
       "count": 1
     },
     {
@@ -8603,6 +8603,14 @@
       "count": 1
     },
     {
+      "name": "collaborative",
+      "count": 1
+    },
+    {
+      "name": "excel",
+      "count": 1
+    },
+    {
       "name": "runtime-validation",
       "count": 1
     },
@@ -8616,14 +8624,6 @@
     },
     {
       "name": "type-inference",
-      "count": 1
-    },
-    {
-      "name": "collaborative",
-      "count": 1
-    },
-    {
-      "name": "excel",
       "count": 1
     },
     {
@@ -9219,14 +9219,6 @@
       "count": 1
     },
     {
-      "name": "emulators",
-      "count": 1
-    },
-    {
-      "name": "ppsspp",
-      "count": 1
-    },
-    {
       "name": "aead",
       "count": 1
     },
@@ -9296,6 +9288,14 @@
     },
     {
       "name": "webserver",
+      "count": 1
+    },
+    {
+      "name": "emulators",
+      "count": 1
+    },
+    {
+      "name": "ppsspp",
       "count": 1
     },
     {
@@ -9847,10 +9847,6 @@
       "count": 1
     },
     {
-      "name": "swagger-editor",
-      "count": 1
-    },
-    {
       "name": "bot-detection",
       "count": 1
     },
@@ -9908,6 +9904,10 @@
     },
     {
       "name": "codesandbox",
+      "count": 1
+    },
+    {
+      "name": "swagger-editor",
       "count": 1
     },
     {
@@ -9975,11 +9975,11 @@
       "count": 1
     },
     {
-      "name": "command-line-app",
+      "name": "steam-api",
       "count": 1
     },
     {
-      "name": "steam-api",
+      "name": "command-line-app",
       "count": 1
     },
     {
@@ -10927,10 +10927,6 @@
       "count": 1
     },
     {
-      "name": "workbox",
-      "count": 1
-    },
-    {
       "name": "oci-distribution",
       "count": 1
     },
@@ -10944,6 +10940,18 @@
     },
     {
       "name": "svgs",
+      "count": 1
+    },
+    {
+      "name": "workbox",
+      "count": 1
+    },
+    {
+      "name": "icon-collections",
+      "count": 1
+    },
+    {
+      "name": "searching",
       "count": 1
     },
     {
@@ -10995,14 +11003,6 @@
       "count": 1
     },
     {
-      "name": "icon-collections",
-      "count": 1
-    },
-    {
-      "name": "searching",
-      "count": 1
-    },
-    {
       "name": "chrome-tabs",
       "count": 1
     },
@@ -11051,6 +11051,18 @@
       "count": 1
     },
     {
+      "name": "r3f",
+      "count": 1
+    },
+    {
+      "name": "userinterface",
+      "count": 1
+    },
+    {
+      "name": "yoga",
+      "count": 1
+    },
+    {
       "name": "ocr-python",
       "count": 1
     },
@@ -11060,6 +11072,14 @@
     },
     {
       "name": "umi-ocr",
+      "count": 1
+    },
+    {
+      "name": "commander",
+      "count": 1
+    },
+    {
+      "name": "minimist",
       "count": 1
     },
     {
@@ -11096,26 +11116,6 @@
     },
     {
       "name": "sysnand",
-      "count": 1
-    },
-    {
-      "name": "r3f",
-      "count": 1
-    },
-    {
-      "name": "userinterface",
-      "count": 1
-    },
-    {
-      "name": "yoga",
-      "count": 1
-    },
-    {
-      "name": "commander",
-      "count": 1
-    },
-    {
-      "name": "minimist",
       "count": 1
     },
     {
@@ -11623,6 +11623,14 @@
       "count": 1
     },
     {
+      "name": "spell",
+      "count": 1
+    },
+    {
+      "name": "spell-checker",
+      "count": 1
+    },
+    {
       "name": "ghostery",
       "count": 1
     },
@@ -11632,14 +11640,6 @@
     },
     {
       "name": "yandex-extension",
-      "count": 1
-    },
-    {
-      "name": "spell",
-      "count": 1
-    },
-    {
-      "name": "spell-checker",
       "count": 1
     },
     {
@@ -11683,10 +11683,6 @@
       "count": 1
     },
     {
-      "name": "cockroachdb",
-      "count": 1
-    },
-    {
       "name": "convert-videos",
       "count": 1
     },
@@ -11696,6 +11692,10 @@
     },
     {
       "name": "gifski",
+      "count": 1
+    },
+    {
+      "name": "cockroachdb",
       "count": 1
     },
     {
@@ -12063,15 +12063,15 @@
       "count": 1
     },
     {
+      "name": "json-data",
+      "count": 1
+    },
+    {
       "name": "react-a11y",
       "count": 1
     },
     {
       "name": "tappable",
-      "count": 1
-    },
-    {
-      "name": "json-data",
       "count": 1
     },
     {
@@ -14463,18 +14463,6 @@
       "count": 1
     },
     {
-      "name": "dimensions",
-      "count": 1
-    },
-    {
-      "name": "image-analysis",
-      "count": 1
-    },
-    {
-      "name": "image-size",
-      "count": 1
-    },
-    {
       "name": "dark-syntax-theme",
       "count": 1
     },
@@ -14516,6 +14504,18 @@
     },
     {
       "name": "web-browser",
+      "count": 1
+    },
+    {
+      "name": "dimensions",
+      "count": 1
+    },
+    {
+      "name": "image-analysis",
+      "count": 1
+    },
+    {
+      "name": "image-size",
       "count": 1
     },
     {
