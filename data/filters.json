@@ -3771,14 +3771,6 @@
       "count": 2
     },
     {
-      "name": "minify",
-      "count": 2
-    },
-    {
-      "name": "seccomp",
-      "count": 2
-    },
-    {
       "name": "disk-usage",
       "count": 2
     },
@@ -3792,6 +3784,14 @@
     },
     {
       "name": "pty",
+      "count": 2
+    },
+    {
+      "name": "minify",
+      "count": 2
+    },
+    {
+      "name": "seccomp",
       "count": 2
     },
     {
@@ -4179,11 +4179,11 @@
       "count": 2
     },
     {
-      "name": "leak",
+      "name": "parsing",
       "count": 2
     },
     {
-      "name": "parsing",
+      "name": "leak",
       "count": 2
     },
     {
@@ -6683,6 +6683,10 @@
       "count": 1
     },
     {
+      "name": "typechecker",
+      "count": 1
+    },
+    {
       "name": "works-with-codespaces",
       "count": 1
     },
@@ -6716,10 +6720,6 @@
     },
     {
       "name": "material-ui",
-      "count": 1
-    },
-    {
-      "name": "typechecker",
       "count": 1
     },
     {
@@ -8535,6 +8535,18 @@
       "count": 1
     },
     {
+      "name": "batch-rename",
+      "count": 1
+    },
+    {
+      "name": "file-preview",
+      "count": 1
+    },
+    {
+      "name": "file-search",
+      "count": 1
+    },
+    {
       "name": "dom-to-image",
       "count": 1
     },
@@ -8551,6 +8563,14 @@
       "count": 1
     },
     {
+      "name": "vt100",
+      "count": 1
+    },
+    {
+      "name": "xterm",
+      "count": 1
+    },
+    {
       "name": "apparmor",
       "count": 1
     },
@@ -8564,26 +8584,6 @@
     },
     {
       "name": "slim",
-      "count": 1
-    },
-    {
-      "name": "batch-rename",
-      "count": 1
-    },
-    {
-      "name": "file-preview",
-      "count": 1
-    },
-    {
-      "name": "file-search",
-      "count": 1
-    },
-    {
-      "name": "vt100",
-      "count": 1
-    },
-    {
-      "name": "xterm",
       "count": 1
     },
     {
@@ -9248,6 +9248,14 @@
     },
     {
       "name": "task-manager",
+      "count": 1
+    },
+    {
+      "name": "denofresh",
+      "count": 1
+    },
+    {
+      "name": "fresh",
       "count": 1
     },
     {
@@ -10003,14 +10011,6 @@
       "count": 1
     },
     {
-      "name": "denofresh",
-      "count": 1
-    },
-    {
-      "name": "fresh",
-      "count": 1
-    },
-    {
       "name": "multi-cursor",
       "count": 1
     },
@@ -10319,26 +10319,6 @@
       "count": 1
     },
     {
-      "name": "file-system-routing",
-      "count": 1
-    },
-    {
-      "name": "fine-grained-reactivity",
-      "count": 1
-    },
-    {
-      "name": "meta-framework",
-      "count": 1
-    },
-    {
-      "name": "solidstart",
-      "count": 1
-    },
-    {
-      "name": "spa",
-      "count": 1
-    },
-    {
       "name": "createfile",
       "count": 1
     },
@@ -10420,6 +10400,26 @@
     },
     {
       "name": "useragentparser",
+      "count": 1
+    },
+    {
+      "name": "file-system-routing",
+      "count": 1
+    },
+    {
+      "name": "fine-grained-reactivity",
+      "count": 1
+    },
+    {
+      "name": "meta-framework",
+      "count": 1
+    },
+    {
+      "name": "solidstart",
+      "count": 1
+    },
+    {
+      "name": "spa",
       "count": 1
     },
     {
@@ -10507,6 +10507,22 @@
       "count": 1
     },
     {
+      "name": "runtime-typechecking",
+      "count": 1
+    },
+    {
+      "name": "static-typing",
+      "count": 1
+    },
+    {
+      "name": "github-api",
+      "count": 1
+    },
+    {
+      "name": "hacktoberfest2021",
+      "count": 1
+    },
+    {
       "name": "color-converter",
       "count": 1
     },
@@ -10528,22 +10544,6 @@
     },
     {
       "name": "perf-tools",
-      "count": 1
-    },
-    {
-      "name": "runtime-typechecking",
-      "count": 1
-    },
-    {
-      "name": "static-typing",
-      "count": 1
-    },
-    {
-      "name": "github-api",
-      "count": 1
-    },
-    {
-      "name": "hacktoberfest2021",
       "count": 1
     },
     {
@@ -10583,18 +10583,6 @@
       "count": 1
     },
     {
-      "name": "port",
-      "count": 1
-    },
-    {
-      "name": "webaudio-api",
-      "count": 1
-    },
-    {
-      "name": "winamp",
-      "count": 1
-    },
-    {
       "name": "javascipt",
       "count": 1
     },
@@ -10608,6 +10596,18 @@
     },
     {
       "name": "text-spacing",
+      "count": 1
+    },
+    {
+      "name": "port",
+      "count": 1
+    },
+    {
+      "name": "webaudio-api",
+      "count": 1
+    },
+    {
+      "name": "winamp",
       "count": 1
     },
     {
@@ -11331,14 +11331,6 @@
       "count": 1
     },
     {
-      "name": "date-formatting",
-      "count": 1
-    },
-    {
-      "name": "time-formatting",
-      "count": 1
-    },
-    {
       "name": "dsp",
       "count": 1
     },
@@ -11460,6 +11452,14 @@
     },
     {
       "name": "virtual-audio-cable",
+      "count": 1
+    },
+    {
+      "name": "date-formatting",
+      "count": 1
+    },
+    {
+      "name": "time-formatting",
       "count": 1
     },
     {
@@ -12511,15 +12511,15 @@
       "count": 1
     },
     {
+      "name": "es-modules",
+      "count": 1
+    },
+    {
       "name": "bootstrap-theme",
       "count": 1
     },
     {
       "name": "msdos",
-      "count": 1
-    },
-    {
-      "name": "es-modules",
       "count": 1
     },
     {
@@ -13199,10 +13199,6 @@
       "count": 1
     },
     {
-      "name": "sudo",
-      "count": 1
-    },
-    {
       "name": "conversion",
       "count": 1
     },
@@ -13228,6 +13224,10 @@
     },
     {
       "name": "stdin",
+      "count": 1
+    },
+    {
+      "name": "sudo",
       "count": 1
     },
     {
