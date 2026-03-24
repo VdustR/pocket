@@ -224,7 +224,7 @@
     },
     {
       "name": "typescript",
-      "count": 143
+      "count": 144
     },
     {
       "name": "hacktoberfest",
@@ -360,7 +360,7 @@
     },
     {
       "name": "ai",
-      "count": 18
+      "count": 19
     },
     {
       "name": "deno",
@@ -380,6 +380,10 @@
     },
     {
       "name": "bash",
+      "count": 16
+    },
+    {
+      "name": "electron",
       "count": 16
     },
     {
@@ -411,10 +415,6 @@
       "count": 15
     },
     {
-      "name": "electron",
-      "count": 15
-    },
-    {
       "name": "fonts",
       "count": 15
     },
@@ -437,6 +437,10 @@
     {
       "name": "eslint",
       "count": 14
+    },
+    {
+      "name": "claude-code",
+      "count": 13
     },
     {
       "name": "automation",
@@ -467,7 +471,11 @@
       "count": 13
     },
     {
-      "name": "claude-code",
+      "name": "claude",
+      "count": 12
+    },
+    {
+      "name": "developer-tools",
       "count": 12
     },
     {
@@ -509,14 +517,6 @@
     {
       "name": "es6",
       "count": 12
-    },
-    {
-      "name": "claude",
-      "count": 11
-    },
-    {
-      "name": "developer-tools",
-      "count": 11
     },
     {
       "name": "theme",
@@ -887,6 +887,10 @@
       "count": 6
     },
     {
+      "name": "desktop-app",
+      "count": 6
+    },
+    {
       "name": "machine-learning",
       "count": 6
     },
@@ -1104,10 +1108,6 @@
     },
     {
       "name": "graphics",
-      "count": 5
-    },
-    {
-      "name": "desktop-app",
       "count": 5
     },
     {
@@ -1427,15 +1427,15 @@
       "count": 4
     },
     {
+      "name": "signals",
+      "count": 4
+    },
+    {
       "name": "dart",
       "count": 4
     },
     {
       "name": "rust-lang",
-      "count": 4
-    },
-    {
-      "name": "signals",
       "count": 4
     },
     {
@@ -1695,11 +1695,11 @@
       "count": 4
     },
     {
-      "name": "google",
+      "name": "sveltekit",
       "count": 4
     },
     {
-      "name": "sveltekit",
+      "name": "google",
       "count": 4
     },
     {
@@ -1788,6 +1788,10 @@
     },
     {
       "name": "nuxtjs",
+      "count": 3
+    },
+    {
+      "name": "ai-tools",
       "count": 3
     },
     {
@@ -2407,11 +2411,11 @@
       "count": 3
     },
     {
-      "name": "principles",
+      "name": "whatwg",
       "count": 3
     },
     {
-      "name": "whatwg",
+      "name": "principles",
       "count": 3
     },
     {
@@ -2735,10 +2739,6 @@
       "count": 2
     },
     {
-      "name": "ai-tools",
-      "count": 2
-    },
-    {
       "name": "react-three-fiber",
       "count": 2
     },
@@ -2795,6 +2795,10 @@
       "count": 2
     },
     {
+      "name": "gfm",
+      "count": 2
+    },
+    {
       "name": "denoland",
       "count": 2
     },
@@ -2804,10 +2808,6 @@
     },
     {
       "name": "webauthn",
-      "count": 2
-    },
-    {
-      "name": "gfm",
       "count": 2
     },
     {
@@ -3023,6 +3023,14 @@
       "count": 2
     },
     {
+      "name": "local-first",
+      "count": 2
+    },
+    {
+      "name": "sqlite",
+      "count": 2
+    },
+    {
       "name": "flutter-apps",
       "count": 2
     },
@@ -3032,14 +3040,6 @@
     },
     {
       "name": "remote-desktop",
-      "count": 2
-    },
-    {
-      "name": "local-first",
-      "count": 2
-    },
-    {
-      "name": "sqlite",
       "count": 2
     },
     {
@@ -4099,15 +4099,15 @@
       "count": 2
     },
     {
-      "name": "game-boy",
-      "count": 2
-    },
-    {
       "name": "codimd",
       "count": 2
     },
     {
       "name": "hackmd",
+      "count": 2
+    },
+    {
+      "name": "game-boy",
       "count": 2
     },
     {
@@ -4515,18 +4515,6 @@
       "count": 2
     },
     {
-      "name": "css-library",
-      "count": 2
-    },
-    {
-      "name": "css-reset",
-      "count": 2
-    },
-    {
-      "name": "normalize-css",
-      "count": 2
-    },
-    {
       "name": "clean-architecture",
       "count": 2
     },
@@ -4540,6 +4528,18 @@
     },
     {
       "name": "inheritance",
+      "count": 2
+    },
+    {
+      "name": "css-library",
+      "count": 2
+    },
+    {
+      "name": "css-reset",
+      "count": 2
+    },
+    {
+      "name": "normalize-css",
       "count": 2
     },
     {
@@ -5339,14 +5339,6 @@
       "count": 1
     },
     {
-      "name": "fido",
-      "count": 1
-    },
-    {
-      "name": "umd",
-      "count": 1
-    },
-    {
       "name": "lute",
       "count": 1
     },
@@ -5364,6 +5356,14 @@
     },
     {
       "name": "wysiwyg",
+      "count": 1
+    },
+    {
+      "name": "fido",
+      "count": 1
+    },
+    {
+      "name": "umd",
       "count": 1
     },
     {
@@ -6107,6 +6107,14 @@
       "count": 1
     },
     {
+      "name": "data-layer",
+      "count": 1
+    },
+    {
+      "name": "sync-engine",
+      "count": 1
+    },
+    {
       "name": "anydesk",
       "count": 1
     },
@@ -6128,14 +6136,6 @@
     },
     {
       "name": "wayland",
-      "count": 1
-    },
-    {
-      "name": "data-layer",
-      "count": 1
-    },
-    {
-      "name": "sync-engine",
       "count": 1
     },
     {
@@ -8255,10 +8255,6 @@
       "count": 1
     },
     {
-      "name": "remote-access",
-      "count": 1
-    },
-    {
       "name": "contributions-welcome",
       "count": 1
     },
@@ -8292,6 +8288,10 @@
     },
     {
       "name": "visitor-identifier",
+      "count": 1
+    },
+    {
+      "name": "remote-access",
       "count": 1
     },
     {
@@ -9427,10 +9427,6 @@
       "count": 1
     },
     {
-      "name": "web-desktop",
-      "count": 1
-    },
-    {
       "name": "image-generator",
       "count": 1
     },
@@ -9440,6 +9436,10 @@
     },
     {
       "name": "satori",
+      "count": 1
+    },
+    {
+      "name": "web-desktop",
       "count": 1
     },
     {
@@ -9727,18 +9727,6 @@
       "count": 1
     },
     {
-      "name": "coding",
-      "count": 1
-    },
-    {
-      "name": "computerscience",
-      "count": 1
-    },
-    {
-      "name": "laws",
-      "count": 1
-    },
-    {
       "name": "gdscript",
       "count": 1
     },
@@ -9783,6 +9771,18 @@
       "count": 1
     },
     {
+      "name": "coding",
+      "count": 1
+    },
+    {
+      "name": "computerscience",
+      "count": 1
+    },
+    {
+      "name": "laws",
+      "count": 1
+    },
+    {
       "name": "tiny-social-icons",
       "count": 1
     },
@@ -9800,22 +9800,6 @@
     },
     {
       "name": "probot",
-      "count": 1
-    },
-    {
-      "name": "api-documentation",
-      "count": 1
-    },
-    {
-      "name": "documentation-generator",
-      "count": 1
-    },
-    {
-      "name": "documentation-tool",
-      "count": 1
-    },
-    {
-      "name": "redoc",
       "count": 1
     },
     {
@@ -9856,6 +9840,22 @@
     },
     {
       "name": "unix-toolkit",
+      "count": 1
+    },
+    {
+      "name": "api-documentation",
+      "count": 1
+    },
+    {
+      "name": "documentation-generator",
+      "count": 1
+    },
+    {
+      "name": "documentation-tool",
+      "count": 1
+    },
+    {
+      "name": "redoc",
       "count": 1
     },
     {
@@ -10019,6 +10019,10 @@
       "count": 1
     },
     {
+      "name": "hedgedoc",
+      "count": 1
+    },
+    {
       "name": "game-boy-advance",
       "count": 1
     },
@@ -10056,10 +10060,6 @@
     },
     {
       "name": "mgba",
-      "count": 1
-    },
-    {
-      "name": "hedgedoc",
       "count": 1
     },
     {
@@ -10207,6 +10207,14 @@
       "count": 1
     },
     {
+      "name": "ramda",
+      "count": 1
+    },
+    {
+      "name": "optimized",
+      "count": 1
+    },
+    {
       "name": "font-family",
       "count": 1
     },
@@ -10224,14 +10232,6 @@
     },
     {
       "name": "typefaces",
-      "count": 1
-    },
-    {
-      "name": "ramda",
-      "count": 1
-    },
-    {
-      "name": "optimized",
       "count": 1
     },
     {
@@ -11335,10 +11335,6 @@
       "count": 1
     },
     {
-      "name": "style-observer",
-      "count": 1
-    },
-    {
       "name": "date-formatting",
       "count": 1
     },
@@ -11388,6 +11384,10 @@
     },
     {
       "name": "vst",
+      "count": 1
+    },
+    {
+      "name": "style-observer",
       "count": 1
     },
     {
@@ -11955,6 +11955,14 @@
       "count": 1
     },
     {
+      "name": "tsconfig",
+      "count": 1
+    },
+    {
+      "name": "tsconfig-paths",
+      "count": 1
+    },
+    {
       "name": "cursive",
       "count": 1
     },
@@ -11968,14 +11976,6 @@
     },
     {
       "name": "victor-mono",
-      "count": 1
-    },
-    {
-      "name": "tsconfig",
-      "count": 1
-    },
-    {
-      "name": "tsconfig-paths",
       "count": 1
     },
     {
@@ -12103,6 +12103,14 @@
       "count": 1
     },
     {
+      "name": "typedoc",
+      "count": 1
+    },
+    {
+      "name": "typedoc-plugin",
+      "count": 1
+    },
+    {
       "name": "blend-modes",
       "count": 1
     },
@@ -12112,14 +12120,6 @@
     },
     {
       "name": "holographic",
-      "count": 1
-    },
-    {
-      "name": "typedoc",
-      "count": 1
-    },
-    {
-      "name": "typedoc-plugin",
       "count": 1
     },
     {
@@ -13527,6 +13527,10 @@
       "count": 1
     },
     {
+      "name": "terminals",
+      "count": 1
+    },
+    {
       "name": "ai-research",
       "count": 1
     },
@@ -13564,10 +13568,6 @@
     },
     {
       "name": "styles",
-      "count": 1
-    },
-    {
-      "name": "terminals",
       "count": 1
     },
     {
