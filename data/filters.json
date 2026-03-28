@@ -2,7 +2,7 @@
   "languages": [
     {
       "name": "TypeScript",
-      "count": 576
+      "count": 578
     },
     {
       "name": "JavaScript",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Rust",
-      "count": 54
+      "count": 55
     },
     {
       "name": "Shell",
@@ -275,11 +275,11 @@
       "count": 34
     },
     {
-      "name": "linux",
-      "count": 31
+      "name": "npm",
+      "count": 32
     },
     {
-      "name": "npm",
+      "name": "linux",
       "count": 31
     },
     {
@@ -375,6 +375,10 @@
       "count": 18
     },
     {
+      "name": "vscode-extension",
+      "count": 17
+    },
+    {
       "name": "cross-platform",
       "count": 16
     },
@@ -400,10 +404,6 @@
     },
     {
       "name": "game",
-      "count": 16
-    },
-    {
-      "name": "vscode-extension",
       "count": 16
     },
     {
@@ -1531,11 +1531,11 @@
       "count": 4
     },
     {
-      "name": "mock",
+      "name": "ci",
       "count": 4
     },
     {
-      "name": "ci",
+      "name": "mock",
       "count": 4
     },
     {
@@ -2775,6 +2775,10 @@
       "count": 2
     },
     {
+      "name": "npmjs",
+      "count": 2
+    },
+    {
       "name": "tutorial",
       "count": 2
     },
@@ -3367,14 +3371,6 @@
       "count": 2
     },
     {
-      "name": "icon-font",
-      "count": 2
-    },
-    {
-      "name": "powerline",
-      "count": 2
-    },
-    {
       "name": "query",
       "count": 2
     },
@@ -3392,6 +3388,14 @@
     },
     {
       "name": "docs",
+      "count": 2
+    },
+    {
+      "name": "icon-font",
+      "count": 2
+    },
+    {
+      "name": "powerline",
       "count": 2
     },
     {
@@ -3755,6 +3759,10 @@
       "count": 2
     },
     {
+      "name": "command-line-interface",
+      "count": 2
+    },
+    {
       "name": "composable",
       "count": 2
     },
@@ -3784,10 +3792,6 @@
     },
     {
       "name": "qml",
-      "count": 2
-    },
-    {
-      "name": "command-line-interface",
       "count": 2
     },
     {
@@ -3915,10 +3919,6 @@
       "count": 2
     },
     {
-      "name": "developer-experience",
-      "count": 2
-    },
-    {
       "name": "string",
       "count": 2
     },
@@ -3932,6 +3932,10 @@
     },
     {
       "name": "searchparams",
+      "count": 2
+    },
+    {
+      "name": "developer-experience",
       "count": 2
     },
     {
@@ -4039,10 +4043,6 @@
       "count": 2
     },
     {
-      "name": "module",
-      "count": 2
-    },
-    {
       "name": "uglifyjs",
       "count": 2
     },
@@ -4051,11 +4051,11 @@
       "count": 2
     },
     {
-      "name": "pubsub",
+      "name": "module",
       "count": 2
     },
     {
-      "name": "catppuccin",
+      "name": "pubsub",
       "count": 2
     },
     {
@@ -4076,6 +4076,10 @@
     },
     {
       "name": "self-hosting",
+      "count": 2
+    },
+    {
+      "name": "catppuccin",
       "count": 2
     },
     {
@@ -5276,10 +5280,6 @@
     },
     {
       "name": "vision",
-      "count": 1
-    },
-    {
-      "name": "npmjs",
       "count": 1
     },
     {
@@ -7311,6 +7311,10 @@
       "count": 1
     },
     {
+      "name": "scrollytelling",
+      "count": 1
+    },
+    {
       "name": "iconic-fonts",
       "count": 1
     },
@@ -7320,10 +7324,6 @@
     },
     {
       "name": "patched-fonts",
-      "count": 1
-    },
-    {
-      "name": "scrollytelling",
       "count": 1
     },
     {
@@ -7895,14 +7895,6 @@
       "count": 1
     },
     {
-      "name": "assets",
-      "count": 1
-    },
-    {
-      "name": "module-bundler",
-      "count": 1
-    },
-    {
       "name": "fine-grained",
       "count": 1
     },
@@ -7936,6 +7928,14 @@
     },
     {
       "name": "vulnerability-scanners",
+      "count": 1
+    },
+    {
+      "name": "assets",
+      "count": 1
+    },
+    {
+      "name": "module-bundler",
       "count": 1
     },
     {
@@ -8791,30 +8791,6 @@
       "count": 1
     },
     {
-      "name": "aot",
-      "count": 1
-    },
-    {
-      "name": "cranelift",
-      "count": 1
-    },
-    {
-      "name": "jit",
-      "count": 1
-    },
-    {
-      "name": "standalone",
-      "count": 1
-    },
-    {
-      "name": "wasi",
-      "count": 1
-    },
-    {
-      "name": "wasmtime",
-      "count": 1
-    },
-    {
       "name": "helm-charts",
       "count": 1
     },
@@ -8851,11 +8827,27 @@
       "count": 1
     },
     {
-      "name": "committee",
+      "name": "aot",
       "count": 1
     },
     {
-      "name": "language-design",
+      "name": "cranelift",
+      "count": 1
+    },
+    {
+      "name": "jit",
+      "count": 1
+    },
+    {
+      "name": "standalone",
+      "count": 1
+    },
+    {
+      "name": "wasi",
+      "count": 1
+    },
+    {
+      "name": "wasmtime",
       "count": 1
     },
     {
@@ -8887,6 +8879,14 @@
       "count": 1
     },
     {
+      "name": "committee",
+      "count": 1
+    },
+    {
+      "name": "language-design",
+      "count": 1
+    },
+    {
       "name": "droppable",
       "count": 1
     },
@@ -8896,22 +8896,6 @@
     },
     {
       "name": "gitmoji",
-      "count": 1
-    },
-    {
-      "name": "dom-to-image",
-      "count": 1
-    },
-    {
-      "name": "html-to-image",
-      "count": 1
-    },
-    {
-      "name": "html2canvas",
-      "count": 1
-    },
-    {
-      "name": "modern-screenshot",
       "count": 1
     },
     {
@@ -8976,6 +8960,22 @@
     },
     {
       "name": "whatwg-fetch",
+      "count": 1
+    },
+    {
+      "name": "dom-to-image",
+      "count": 1
+    },
+    {
+      "name": "html-to-image",
+      "count": 1
+    },
+    {
+      "name": "html2canvas",
+      "count": 1
+    },
+    {
+      "name": "modern-screenshot",
       "count": 1
     },
     {
@@ -9219,14 +9219,6 @@
       "count": 1
     },
     {
-      "name": "stage-files",
-      "count": 1
-    },
-    {
-      "name": "stylelint",
-      "count": 1
-    },
-    {
       "name": "control-flow",
       "count": 1
     },
@@ -9284,6 +9276,14 @@
     },
     {
       "name": "typesafe",
+      "count": 1
+    },
+    {
+      "name": "stage-files",
+      "count": 1
+    },
+    {
+      "name": "stylelint",
       "count": 1
     },
     {
@@ -9919,26 +9919,6 @@
       "count": 1
     },
     {
-      "name": "eye-candy",
-      "count": 1
-    },
-    {
-      "name": "meta",
-      "count": 1
-    },
-    {
-      "name": "pastel",
-      "count": 1
-    },
-    {
-      "name": "soothing-dark-theme",
-      "count": 1
-    },
-    {
-      "name": "soothing-pastel-theme",
-      "count": 1
-    },
-    {
       "name": "datajournalism",
       "count": 1
     },
@@ -10008,6 +9988,26 @@
     },
     {
       "name": "owncloud",
+      "count": 1
+    },
+    {
+      "name": "eye-candy",
+      "count": 1
+    },
+    {
+      "name": "meta",
+      "count": 1
+    },
+    {
+      "name": "pastel",
+      "count": 1
+    },
+    {
+      "name": "soothing-dark-theme",
+      "count": 1
+    },
+    {
+      "name": "soothing-pastel-theme",
       "count": 1
     },
     {
@@ -10083,6 +10083,10 @@
       "count": 1
     },
     {
+      "name": "log",
+      "count": 1
+    },
+    {
       "name": "github-copilot",
       "count": 1
     },
@@ -10112,10 +10116,6 @@
     },
     {
       "name": "tutorial-exercises",
-      "count": 1
-    },
-    {
-      "name": "log",
       "count": 1
     },
     {
@@ -10691,14 +10691,6 @@
       "count": 1
     },
     {
-      "name": "color-converter",
-      "count": 1
-    },
-    {
-      "name": "color-space",
-      "count": 1
-    },
-    {
       "name": "javascipt",
       "count": 1
     },
@@ -10720,6 +10712,14 @@
     },
     {
       "name": "static-typing",
+      "count": 1
+    },
+    {
+      "name": "color-converter",
+      "count": 1
+    },
+    {
+      "name": "color-space",
       "count": 1
     },
     {
@@ -11511,14 +11511,6 @@
       "count": 1
     },
     {
-      "name": "date-formatting",
-      "count": 1
-    },
-    {
-      "name": "time-formatting",
-      "count": 1
-    },
-    {
       "name": "eslint-stylistic",
       "count": 1
     },
@@ -11591,6 +11583,14 @@
       "count": 1
     },
     {
+      "name": "date-formatting",
+      "count": 1
+    },
+    {
+      "name": "time-formatting",
+      "count": 1
+    },
+    {
       "name": "northstar-client",
       "count": 1
     },
@@ -11659,10 +11659,6 @@
       "count": 1
     },
     {
-      "name": "compression",
-      "count": 1
-    },
-    {
       "name": "es6-javascript",
       "count": 1
     },
@@ -11680,6 +11676,10 @@
     },
     {
       "name": "nodejs-server",
+      "count": 1
+    },
+    {
+      "name": "compression",
       "count": 1
     },
     {
@@ -12607,15 +12607,15 @@
       "count": 1
     },
     {
+      "name": "es-modules",
+      "count": 1
+    },
+    {
       "name": "bootstrap-theme",
       "count": 1
     },
     {
       "name": "msdos",
-      "count": 1
-    },
-    {
-      "name": "es-modules",
       "count": 1
     },
     {
@@ -14603,14 +14603,6 @@
       "count": 1
     },
     {
-      "name": "devtool",
-      "count": 1
-    },
-    {
-      "name": "flowcharts",
-      "count": 1
-    },
-    {
       "name": "css3-animation",
       "count": 1
     },
@@ -14636,6 +14628,14 @@
     },
     {
       "name": "timeline",
+      "count": 1
+    },
+    {
+      "name": "devtool",
+      "count": 1
+    },
+    {
+      "name": "flowcharts",
       "count": 1
     },
     {
