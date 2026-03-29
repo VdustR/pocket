@@ -1971,15 +1971,15 @@
       "count": 3
     },
     {
+      "name": "fake",
+      "count": 3
+    },
+    {
       "name": "desktop-environment",
       "count": 3
     },
     {
       "name": "unix",
-      "count": 3
-    },
-    {
-      "name": "fake",
       "count": 3
     },
     {
@@ -2179,11 +2179,11 @@
       "count": 3
     },
     {
-      "name": "filter",
+      "name": "stale-while-revalidate",
       "count": 3
     },
     {
-      "name": "stale-while-revalidate",
+      "name": "filter",
       "count": 3
     },
     {
@@ -2251,11 +2251,11 @@
       "count": 3
     },
     {
-      "name": "opengl",
+      "name": "book",
       "count": 3
     },
     {
-      "name": "book",
+      "name": "opengl",
       "count": 3
     },
     {
@@ -3363,10 +3363,6 @@
       "count": 2
     },
     {
-      "name": "email",
-      "count": 2
-    },
-    {
       "name": "query",
       "count": 2
     },
@@ -3383,11 +3379,7 @@
       "count": 2
     },
     {
-      "name": "code",
-      "count": 2
-    },
-    {
-      "name": "docs",
+      "name": "email",
       "count": 2
     },
     {
@@ -3396,6 +3388,14 @@
     },
     {
       "name": "powerline",
+      "count": 2
+    },
+    {
+      "name": "code",
+      "count": 2
+    },
+    {
+      "name": "docs",
       "count": 2
     },
     {
@@ -3699,10 +3699,6 @@
       "count": 2
     },
     {
-      "name": "octokit-js",
-      "count": 2
-    },
-    {
       "name": "polyfill",
       "count": 2
     },
@@ -3728,6 +3724,10 @@
     },
     {
       "name": "svg-images",
+      "count": 2
+    },
+    {
+      "name": "octokit-js",
       "count": 2
     },
     {
@@ -3827,10 +3827,6 @@
       "count": 2
     },
     {
-      "name": "oauth",
-      "count": 2
-    },
-    {
       "name": "service-worker",
       "count": 2
     },
@@ -3840,6 +3836,10 @@
     },
     {
       "name": "request",
+      "count": 2
+    },
+    {
+      "name": "oauth",
       "count": 2
     },
     {
@@ -4111,11 +4111,11 @@
       "count": 2
     },
     {
-      "name": "prompts",
+      "name": "lab",
       "count": 2
     },
     {
-      "name": "lab",
+      "name": "prompts",
       "count": 2
     },
     {
@@ -4283,6 +4283,14 @@
       "count": 2
     },
     {
+      "name": "react-component",
+      "count": 2
+    },
+    {
+      "name": "resizable",
+      "count": 2
+    },
+    {
       "name": "observer",
       "count": 2
     },
@@ -4344,14 +4352,6 @@
     },
     {
       "name": "titanfall-2",
-      "count": 2
-    },
-    {
-      "name": "react-component",
-      "count": 2
-    },
-    {
-      "name": "resizable",
       "count": 2
     },
     {
@@ -6147,19 +6147,19 @@
       "count": 1
     },
     {
-      "name": "kernel",
-      "count": 1
-    },
-    {
-      "name": "operating-system",
-      "count": 1
-    },
-    {
       "name": "nonsense",
       "count": 1
     },
     {
       "name": "useless",
+      "count": 1
+    },
+    {
+      "name": "kernel",
+      "count": 1
+    },
+    {
+      "name": "operating-system",
       "count": 1
     },
     {
@@ -6559,10 +6559,6 @@
       "count": 1
     },
     {
-      "name": "toast",
-      "count": 1
-    },
-    {
       "name": "high-performance",
       "count": 1
     },
@@ -6699,6 +6695,10 @@
       "count": 1
     },
     {
+      "name": "toast",
+      "count": 1
+    },
+    {
       "name": "material-ui",
       "count": 1
     },
@@ -6807,19 +6807,19 @@
       "count": 1
     },
     {
-      "name": "payment",
-      "count": 1
-    },
-    {
-      "name": "payment-logos",
-      "count": 1
-    },
-    {
       "name": "design-systems",
       "count": 1
     },
     {
       "name": "stories",
+      "count": 1
+    },
+    {
+      "name": "payment",
+      "count": 1
+    },
+    {
+      "name": "payment-logos",
       "count": 1
     },
     {
@@ -7311,10 +7311,6 @@
       "count": 1
     },
     {
-      "name": "scrollytelling",
-      "count": 1
-    },
-    {
       "name": "iconic-fonts",
       "count": 1
     },
@@ -7324,6 +7320,10 @@
     },
     {
       "name": "patched-fonts",
+      "count": 1
+    },
+    {
+      "name": "scrollytelling",
       "count": 1
     },
     {
@@ -7675,22 +7675,6 @@
       "count": 1
     },
     {
-      "name": "game-2d",
-      "count": 1
-    },
-    {
-      "name": "jazz-jackrabbit",
-      "count": 1
-    },
-    {
-      "name": "ncine",
-      "count": 1
-    },
-    {
-      "name": "uwp",
-      "count": 1
-    },
-    {
       "name": "book-series",
       "count": 1
     },
@@ -7744,6 +7728,22 @@
     },
     {
       "name": "youtube-playables",
+      "count": 1
+    },
+    {
+      "name": "game-2d",
+      "count": 1
+    },
+    {
+      "name": "jazz-jackrabbit",
+      "count": 1
+    },
+    {
+      "name": "ncine",
+      "count": 1
+    },
+    {
+      "name": "uwp",
       "count": 1
     },
     {
@@ -8331,10 +8331,6 @@
       "count": 1
     },
     {
-      "name": "octokit",
-      "count": 1
-    },
-    {
       "name": "ecmascript-proposals",
       "count": 1
     },
@@ -8400,6 +8396,10 @@
     },
     {
       "name": "svg-files",
+      "count": 1
+    },
+    {
+      "name": "octokit",
       "count": 1
     },
     {
@@ -8851,18 +8851,6 @@
       "count": 1
     },
     {
-      "name": "node-redis",
-      "count": 1
-    },
-    {
-      "name": "redis-client",
-      "count": 1
-    },
-    {
-      "name": "redis-cluster",
-      "count": 1
-    },
-    {
       "name": "committee",
       "count": 1
     },
@@ -8872,6 +8860,18 @@
     },
     {
       "name": "droppable",
+      "count": 1
+    },
+    {
+      "name": "node-redis",
+      "count": 1
+    },
+    {
+      "name": "redis-client",
+      "count": 1
+    },
+    {
+      "name": "redis-cluster",
       "count": 1
     },
     {
@@ -8888,38 +8888,6 @@
     },
     {
       "name": "semantic-versioning",
-      "count": 1
-    },
-    {
-      "name": "authorization",
-      "count": 1
-    },
-    {
-      "name": "hydra",
-      "count": 1
-    },
-    {
-      "name": "oauth-provider",
-      "count": 1
-    },
-    {
-      "name": "oauth2-provider",
-      "count": 1
-    },
-    {
-      "name": "oauth2-server",
-      "count": 1
-    },
-    {
-      "name": "openid",
-      "count": 1
-    },
-    {
-      "name": "openid-connect-provider",
-      "count": 1
-    },
-    {
-      "name": "openid-provider",
       "count": 1
     },
     {
@@ -8972,6 +8940,38 @@
     },
     {
       "name": "swr",
+      "count": 1
+    },
+    {
+      "name": "authorization",
+      "count": 1
+    },
+    {
+      "name": "hydra",
+      "count": 1
+    },
+    {
+      "name": "oauth-provider",
+      "count": 1
+    },
+    {
+      "name": "oauth2-provider",
+      "count": 1
+    },
+    {
+      "name": "oauth2-server",
+      "count": 1
+    },
+    {
+      "name": "openid",
+      "count": 1
+    },
+    {
+      "name": "openid-connect-provider",
+      "count": 1
+    },
+    {
+      "name": "openid-provider",
       "count": 1
     },
     {
@@ -10027,10 +10027,6 @@
       "count": 1
     },
     {
-      "name": "tiny-social-icons",
-      "count": 1
-    },
-    {
       "name": "github-enterprise",
       "count": 1
     },
@@ -10055,6 +10051,10 @@
       "count": 1
     },
     {
+      "name": "tiny-social-icons",
+      "count": 1
+    },
+    {
       "name": "api-documentation",
       "count": 1
     },
@@ -10068,22 +10068,6 @@
     },
     {
       "name": "redoc",
-      "count": 1
-    },
-    {
-      "name": "betterdiscord",
-      "count": 1
-    },
-    {
-      "name": "command-line-app",
-      "count": 1
-    },
-    {
-      "name": "codesandbox",
-      "count": 1
-    },
-    {
-      "name": "log",
       "count": 1
     },
     {
@@ -10116,6 +10100,22 @@
     },
     {
       "name": "tutorial-exercises",
+      "count": 1
+    },
+    {
+      "name": "betterdiscord",
+      "count": 1
+    },
+    {
+      "name": "command-line-app",
+      "count": 1
+    },
+    {
+      "name": "codesandbox",
+      "count": 1
+    },
+    {
+      "name": "log",
       "count": 1
     },
     {
@@ -11207,18 +11207,6 @@
       "count": 1
     },
     {
-      "name": "eta",
-      "count": 1
-    },
-    {
-      "name": "lume",
-      "count": 1
-    },
-    {
-      "name": "nunjucks",
-      "count": 1
-    },
-    {
       "name": "sega-dreamcast",
       "count": 1
     },
@@ -11236,6 +11224,18 @@
     },
     {
       "name": "packagejson",
+      "count": 1
+    },
+    {
+      "name": "eta",
+      "count": 1
+    },
+    {
+      "name": "lume",
+      "count": 1
+    },
+    {
+      "name": "nunjucks",
       "count": 1
     },
     {
@@ -11811,6 +11811,10 @@
       "count": 1
     },
     {
+      "name": "visual-inspector",
+      "count": 1
+    },
+    {
       "name": "minecraft",
       "count": 1
     },
@@ -11844,10 +11848,6 @@
     },
     {
       "name": "defaultsdeep",
-      "count": 1
-    },
-    {
-      "name": "visual-inspector",
       "count": 1
     },
     {
