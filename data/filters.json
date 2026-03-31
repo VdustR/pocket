@@ -1695,11 +1695,11 @@
       "count": 4
     },
     {
-      "name": "regexp",
+      "name": "lint",
       "count": 4
     },
     {
-      "name": "lint",
+      "name": "regexp",
       "count": 4
     },
     {
@@ -3807,6 +3807,10 @@
       "count": 2
     },
     {
+      "name": "pty",
+      "count": 2
+    },
+    {
       "name": "qml",
       "count": 2
     },
@@ -3816,10 +3820,6 @@
     },
     {
       "name": "widgets",
-      "count": 2
-    },
-    {
-      "name": "pty",
       "count": 2
     },
     {
@@ -5247,10 +5247,6 @@
       "count": 1
     },
     {
-      "name": "image-procesing",
-      "count": 1
-    },
-    {
       "name": "agent-development",
       "count": 1
     },
@@ -5260,6 +5256,10 @@
     },
     {
       "name": "teaching",
+      "count": 1
+    },
+    {
+      "name": "image-procesing",
       "count": 1
     },
     {
@@ -7671,18 +7671,6 @@
       "count": 1
     },
     {
-      "name": "file-transfer",
-      "count": 1
-    },
-    {
-      "name": "mtp",
-      "count": 1
-    },
-    {
-      "name": "openmtp",
-      "count": 1
-    },
-    {
       "name": "algorithm",
       "count": 1
     },
@@ -7696,6 +7684,18 @@
     },
     {
       "name": "javascript-algorithms",
+      "count": 1
+    },
+    {
+      "name": "file-transfer",
+      "count": 1
+    },
+    {
+      "name": "mtp",
+      "count": 1
+    },
+    {
+      "name": "openmtp",
       "count": 1
     },
     {
@@ -8563,6 +8563,14 @@
       "count": 1
     },
     {
+      "name": "vt100",
+      "count": 1
+    },
+    {
+      "name": "xterm",
+      "count": 1
+    },
+    {
       "name": "minification",
       "count": 1
     },
@@ -8672,14 +8680,6 @@
     },
     {
       "name": "winui3",
-      "count": 1
-    },
-    {
-      "name": "vt100",
-      "count": 1
-    },
-    {
-      "name": "xterm",
       "count": 1
     },
     {
@@ -9607,6 +9607,30 @@
       "count": 1
     },
     {
+      "name": "deadcode",
+      "count": 1
+    },
+    {
+      "name": "dependency-analysis",
+      "count": 1
+    },
+    {
+      "name": "dependency-management",
+      "count": 1
+    },
+    {
+      "name": "maintenance",
+      "count": 1
+    },
+    {
+      "name": "unused-code",
+      "count": 1
+    },
+    {
+      "name": "unused-exports",
+      "count": 1
+    },
+    {
       "name": "image-generator",
       "count": 1
     },
@@ -9660,30 +9684,6 @@
     },
     {
       "name": "xcode",
-      "count": 1
-    },
-    {
-      "name": "deadcode",
-      "count": 1
-    },
-    {
-      "name": "dependency-analysis",
-      "count": 1
-    },
-    {
-      "name": "dependency-management",
-      "count": 1
-    },
-    {
-      "name": "maintenance",
-      "count": 1
-    },
-    {
-      "name": "unused-code",
-      "count": 1
-    },
-    {
-      "name": "unused-exports",
       "count": 1
     },
     {
@@ -11531,6 +11531,26 @@
       "count": 1
     },
     {
+      "name": "loopback",
+      "count": 1
+    },
+    {
+      "name": "virtual-audio-cable",
+      "count": 1
+    },
+    {
+      "name": "rspack",
+      "count": 1
+    },
+    {
+      "name": "date-formatting",
+      "count": 1
+    },
+    {
+      "name": "time-formatting",
+      "count": 1
+    },
+    {
       "name": "dsp",
       "count": 1
     },
@@ -11572,26 +11592,6 @@
     },
     {
       "name": "vst",
-      "count": 1
-    },
-    {
-      "name": "loopback",
-      "count": 1
-    },
-    {
-      "name": "virtual-audio-cable",
-      "count": 1
-    },
-    {
-      "name": "rspack",
-      "count": 1
-    },
-    {
-      "name": "date-formatting",
-      "count": 1
-    },
-    {
-      "name": "time-formatting",
       "count": 1
     },
     {
@@ -11939,10 +11939,6 @@
       "count": 1
     },
     {
-      "name": "fish-plugin",
-      "count": 1
-    },
-    {
       "name": "fast-glob",
       "count": 1
     },
@@ -11972,6 +11968,10 @@
     },
     {
       "name": "multimatch",
+      "count": 1
+    },
+    {
+      "name": "fish-plugin",
       "count": 1
     },
     {
@@ -12931,15 +12931,15 @@
       "count": 1
     },
     {
+      "name": "browserify",
+      "count": 1
+    },
+    {
       "name": "image-viewer",
       "count": 1
     },
     {
       "name": "viewer",
-      "count": 1
-    },
-    {
-      "name": "browserify",
       "count": 1
     },
     {
