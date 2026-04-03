@@ -1919,15 +1919,15 @@
       "count": 3
     },
     {
-      "name": "github-action",
-      "count": 3
-    },
-    {
       "name": "codemod",
       "count": 3
     },
     {
       "name": "static-analysis",
+      "count": 3
+    },
+    {
+      "name": "github-action",
       "count": 3
     },
     {
@@ -2023,11 +2023,11 @@
       "count": 3
     },
     {
-      "name": "system",
+      "name": "download",
       "count": 3
     },
     {
-      "name": "download",
+      "name": "system",
       "count": 3
     },
     {
@@ -2935,11 +2935,11 @@
       "count": 2
     },
     {
-      "name": "activity",
+      "name": "refactoring",
       "count": 2
     },
     {
-      "name": "refactoring",
+      "name": "activity",
       "count": 2
     },
     {
@@ -4027,15 +4027,15 @@
       "count": 2
     },
     {
-      "name": "module",
-      "count": 2
-    },
-    {
       "name": "pubsub",
       "count": 2
     },
     {
       "name": "workers",
+      "count": 2
+    },
+    {
+      "name": "module",
       "count": 2
     },
     {
@@ -4267,10 +4267,6 @@
       "count": 2
     },
     {
-      "name": "webextension",
-      "count": 2
-    },
-    {
       "name": "form",
       "count": 2
     },
@@ -4288,6 +4284,10 @@
     },
     {
       "name": "subscription",
+      "count": 2
+    },
+    {
+      "name": "webextension",
       "count": 2
     },
     {
@@ -4323,11 +4323,11 @@
       "count": 2
     },
     {
-      "name": "iconsets",
+      "name": "lazy-loading",
       "count": 2
     },
     {
-      "name": "lazy-loading",
+      "name": "iconsets",
       "count": 2
     },
     {
@@ -5819,6 +5819,18 @@
       "count": 1
     },
     {
+      "name": "codereview",
+      "count": 1
+    },
+    {
+      "name": "grep",
+      "count": 1
+    },
+    {
+      "name": "structural-search",
+      "count": 1
+    },
+    {
       "name": "github-action-javascript",
       "count": 1
     },
@@ -5844,18 +5856,6 @@
     },
     {
       "name": "readme-template",
-      "count": 1
-    },
-    {
-      "name": "codereview",
-      "count": 1
-    },
-    {
-      "name": "grep",
-      "count": 1
-    },
-    {
-      "name": "structural-search",
       "count": 1
     },
     {
@@ -6439,14 +6439,6 @@
       "count": 1
     },
     {
-      "name": "btop",
-      "count": 1
-    },
-    {
-      "name": "htop",
-      "count": 1
-    },
-    {
       "name": "economist",
       "count": 1
     },
@@ -6456,6 +6448,14 @@
     },
     {
       "name": "new-yorker",
+      "count": 1
+    },
+    {
+      "name": "btop",
+      "count": 1
+    },
+    {
+      "name": "htop",
       "count": 1
     },
     {
@@ -7671,14 +7671,6 @@
       "count": 1
     },
     {
-      "name": "cli-tool",
-      "count": 1
-    },
-    {
-      "name": "updates",
-      "count": 1
-    },
-    {
       "name": "discord-activities",
       "count": 1
     },
@@ -7780,6 +7772,14 @@
     },
     {
       "name": "leetcode",
+      "count": 1
+    },
+    {
+      "name": "cli-tool",
+      "count": 1
+    },
+    {
+      "name": "updates",
       "count": 1
     },
     {
@@ -8623,14 +8623,6 @@
       "count": 1
     },
     {
-      "name": "minification",
-      "count": 1
-    },
-    {
-      "name": "optimization",
-      "count": 1
-    },
-    {
       "name": "course",
       "count": 1
     },
@@ -8708,6 +8700,14 @@
     },
     {
       "name": "taiko",
+      "count": 1
+    },
+    {
+      "name": "minification",
+      "count": 1
+    },
+    {
+      "name": "optimization",
       "count": 1
     },
     {
@@ -9855,10 +9855,6 @@
       "count": 1
     },
     {
-      "name": "betterdiscord",
-      "count": 1
-    },
-    {
       "name": "annotations",
       "count": 1
     },
@@ -9920,6 +9916,10 @@
     },
     {
       "name": "ipython",
+      "count": 1
+    },
+    {
+      "name": "betterdiscord",
       "count": 1
     },
     {
@@ -10231,6 +10231,18 @@
       "count": 1
     },
     {
+      "name": "color-converter",
+      "count": 1
+    },
+    {
+      "name": "color-space",
+      "count": 1
+    },
+    {
+      "name": "compression",
+      "count": 1
+    },
+    {
       "name": "design-tokens",
       "count": 1
     },
@@ -10248,18 +10260,6 @@
     },
     {
       "name": "theming",
-      "count": 1
-    },
-    {
-      "name": "color-converter",
-      "count": 1
-    },
-    {
-      "name": "color-space",
-      "count": 1
-    },
-    {
-      "name": "compression",
       "count": 1
     },
     {
@@ -10435,14 +10435,6 @@
       "count": 1
     },
     {
-      "name": "icons-provider",
-      "count": 1
-    },
-    {
-      "name": "vscode-icons",
-      "count": 1
-    },
-    {
       "name": "cellular-automata",
       "count": 1
     },
@@ -10452,6 +10444,14 @@
     },
     {
       "name": "powder-toy",
+      "count": 1
+    },
+    {
+      "name": "icons-provider",
+      "count": 1
+    },
+    {
+      "name": "vscode-icons",
       "count": 1
     },
     {
@@ -10519,10 +10519,6 @@
       "count": 1
     },
     {
-      "name": "hacktoberfest2021",
-      "count": 1
-    },
-    {
       "name": "javascipt",
       "count": 1
     },
@@ -10552,6 +10548,10 @@
     },
     {
       "name": "vte",
+      "count": 1
+    },
+    {
+      "name": "hacktoberfest2021",
       "count": 1
     },
     {
@@ -10963,14 +10963,6 @@
       "count": 1
     },
     {
-      "name": "add-ons",
-      "count": 1
-    },
-    {
-      "name": "webextensions",
-      "count": 1
-    },
-    {
       "name": "agnostic",
       "count": 1
     },
@@ -10988,6 +10980,14 @@
     },
     {
       "name": "url-parsing",
+      "count": 1
+    },
+    {
+      "name": "add-ons",
+      "count": 1
+    },
+    {
+      "name": "webextensions",
       "count": 1
     },
     {
@@ -11259,14 +11259,6 @@
       "count": 1
     },
     {
-      "name": "icon-collections",
-      "count": 1
-    },
-    {
-      "name": "searching",
-      "count": 1
-    },
-    {
       "name": "transformations",
       "count": 1
     },
@@ -11316,6 +11308,14 @@
     },
     {
       "name": "nunjucks",
+      "count": 1
+    },
+    {
+      "name": "icon-collections",
+      "count": 1
+    },
+    {
+      "name": "searching",
       "count": 1
     },
     {
@@ -11591,14 +11591,6 @@
       "count": 1
     },
     {
-      "name": "loopback",
-      "count": 1
-    },
-    {
-      "name": "virtual-audio-cable",
-      "count": 1
-    },
-    {
       "name": "rspack",
       "count": 1
     },
@@ -11648,6 +11640,14 @@
     },
     {
       "name": "vst",
+      "count": 1
+    },
+    {
+      "name": "loopback",
+      "count": 1
+    },
+    {
+      "name": "virtual-audio-cable",
       "count": 1
     },
     {
@@ -12131,15 +12131,15 @@
       "count": 1
     },
     {
+      "name": "linguist",
+      "count": 1
+    },
+    {
       "name": "google-sheets-api-v4",
       "count": 1
     },
     {
       "name": "google-spreadsheets",
-      "count": 1
-    },
-    {
-      "name": "linguist",
       "count": 1
     },
     {
@@ -12159,14 +12159,6 @@
       "count": 1
     },
     {
-      "name": "tsconfig",
-      "count": 1
-    },
-    {
-      "name": "tsconfig-paths",
-      "count": 1
-    },
-    {
       "name": "cursive",
       "count": 1
     },
@@ -12180,6 +12172,14 @@
     },
     {
       "name": "victor-mono",
+      "count": 1
+    },
+    {
+      "name": "tsconfig",
+      "count": 1
+    },
+    {
+      "name": "tsconfig-paths",
       "count": 1
     },
     {
@@ -12240,10 +12240,6 @@
     },
     {
       "name": "swift-programming",
-      "count": 1
-    },
-    {
-      "name": "json-data",
       "count": 1
     },
     {
@@ -12332,6 +12328,10 @@
     },
     {
       "name": "watercolor",
+      "count": 1
+    },
+    {
+      "name": "json-data",
       "count": 1
     },
     {
@@ -12731,15 +12731,15 @@
       "count": 1
     },
     {
+      "name": "board",
+      "count": 1
+    },
+    {
       "name": "pooling",
       "count": 1
     },
     {
       "name": "worker-threads",
-      "count": 1
-    },
-    {
-      "name": "board",
       "count": 1
     },
     {
@@ -13059,22 +13059,6 @@
       "count": 1
     },
     {
-      "name": "globbing",
-      "count": 1
-    },
-    {
-      "name": "readdir",
-      "count": 1
-    },
-    {
-      "name": "scandir",
-      "count": 1
-    },
-    {
-      "name": "wildcard",
-      "count": 1
-    },
-    {
       "name": "clock",
       "count": 1
     },
@@ -13104,6 +13088,22 @@
     },
     {
       "name": "windows11",
+      "count": 1
+    },
+    {
+      "name": "globbing",
+      "count": 1
+    },
+    {
+      "name": "readdir",
+      "count": 1
+    },
+    {
+      "name": "scandir",
+      "count": 1
+    },
+    {
+      "name": "wildcard",
       "count": 1
     },
     {
@@ -14335,6 +14335,30 @@
       "count": 1
     },
     {
+      "name": "dev-containers",
+      "count": 1
+    },
+    {
+      "name": "devcontainer",
+      "count": 1
+    },
+    {
+      "name": "devcontainers",
+      "count": 1
+    },
+    {
+      "name": "remote",
+      "count": 1
+    },
+    {
+      "name": "visual-studio-codespaces",
+      "count": 1
+    },
+    {
+      "name": "vs",
+      "count": 1
+    },
+    {
       "name": "device-responsive-ux",
       "count": 1
     },
@@ -14360,30 +14384,6 @@
     },
     {
       "name": "touch-device-detection",
-      "count": 1
-    },
-    {
-      "name": "dev-containers",
-      "count": 1
-    },
-    {
-      "name": "devcontainer",
-      "count": 1
-    },
-    {
-      "name": "devcontainers",
-      "count": 1
-    },
-    {
-      "name": "remote",
-      "count": 1
-    },
-    {
-      "name": "visual-studio-codespaces",
-      "count": 1
-    },
-    {
-      "name": "vs",
       "count": 1
     },
     {
