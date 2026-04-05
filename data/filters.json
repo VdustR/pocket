@@ -383,11 +383,11 @@
       "count": 17
     },
     {
-      "name": "cross-platform",
+      "name": "bash",
       "count": 16
     },
     {
-      "name": "bash",
+      "name": "cross-platform",
       "count": 16
     },
     {
@@ -1263,11 +1263,11 @@
       "count": 5
     },
     {
-      "name": "javascript-library",
+      "name": "semver",
       "count": 5
     },
     {
-      "name": "semver",
+      "name": "javascript-library",
       "count": 5
     },
     {
@@ -2215,15 +2215,15 @@
       "count": 3
     },
     {
+      "name": "sdk",
+      "count": 3
+    },
+    {
       "name": "reference",
       "count": 3
     },
     {
       "name": "web-development",
-      "count": 3
-    },
-    {
-      "name": "sdk",
       "count": 3
     },
     {
@@ -2731,6 +2731,14 @@
       "count": 2
     },
     {
+      "name": "oh-my-zsh",
+      "count": 2
+    },
+    {
+      "name": "powershell",
+      "count": 2
+    },
+    {
       "name": "bittorrent",
       "count": 2
     },
@@ -2748,14 +2756,6 @@
     },
     {
       "name": "ubuntu",
-      "count": 2
-    },
-    {
-      "name": "oh-my-zsh",
-      "count": 2
-    },
-    {
-      "name": "powershell",
       "count": 2
     },
     {
@@ -3039,15 +3039,15 @@
       "count": 2
     },
     {
+      "name": "os",
+      "count": 2
+    },
+    {
       "name": "extension",
       "count": 2
     },
     {
       "name": "nano",
-      "count": 2
-    },
-    {
-      "name": "os",
       "count": 2
     },
     {
@@ -3375,6 +3375,10 @@
       "count": 2
     },
     {
+      "name": "diagram",
+      "count": 2
+    },
+    {
       "name": "checklist",
       "count": 2
     },
@@ -3391,7 +3395,11 @@
       "count": 2
     },
     {
-      "name": "diagram",
+      "name": "type-system",
+      "count": 2
+    },
+    {
+      "name": "monaco-editor",
       "count": 2
     },
     {
@@ -3404,14 +3412,6 @@
     },
     {
       "name": "stable-diffusion",
-      "count": 2
-    },
-    {
-      "name": "type-system",
-      "count": 2
-    },
-    {
-      "name": "monaco-editor",
       "count": 2
     },
     {
@@ -3935,19 +3935,15 @@
       "count": 2
     },
     {
-      "name": "faker",
-      "count": 2
-    },
-    {
       "name": "developer-experience",
       "count": 2
     },
     {
-      "name": "monitor",
+      "name": "faker",
       "count": 2
     },
     {
-      "name": "http-server",
+      "name": "monitor",
       "count": 2
     },
     {
@@ -3956,6 +3952,10 @@
     },
     {
       "name": "searchparams",
+      "count": 2
+    },
+    {
+      "name": "http-server",
       "count": 2
     },
     {
@@ -5123,10 +5123,6 @@
       "count": 1
     },
     {
-      "name": "debian",
-      "count": 1
-    },
-    {
       "name": "fish-prompt",
       "count": 1
     },
@@ -5148,6 +5144,10 @@
     },
     {
       "name": "zsh-theme",
+      "count": 1
+    },
+    {
+      "name": "debian",
       "count": 1
     },
     {
@@ -6179,6 +6179,14 @@
       "count": 1
     },
     {
+      "name": "kernel",
+      "count": 1
+    },
+    {
+      "name": "operating-system",
+      "count": 1
+    },
+    {
       "name": "comet",
       "count": 1
     },
@@ -6200,14 +6208,6 @@
     },
     {
       "name": "web-automation",
-      "count": 1
-    },
-    {
-      "name": "kernel",
-      "count": 1
-    },
-    {
-      "name": "operating-system",
       "count": 1
     },
     {
@@ -7303,6 +7303,30 @@
       "count": 1
     },
     {
+      "name": "challenges",
+      "count": 1
+    },
+    {
+      "name": "clojure",
+      "count": 1
+    },
+    {
+      "name": "clojurescript",
+      "count": 1
+    },
+    {
+      "name": "prototyping",
+      "count": 1
+    },
+    {
+      "name": "ux-design",
+      "count": 1
+    },
+    {
+      "name": "ux-experience",
+      "count": 1
+    },
+    {
       "name": "diffusion",
       "count": 1
     },
@@ -7336,30 +7360,6 @@
     },
     {
       "name": "upscaling",
-      "count": 1
-    },
-    {
-      "name": "challenges",
-      "count": 1
-    },
-    {
-      "name": "clojure",
-      "count": 1
-    },
-    {
-      "name": "clojurescript",
-      "count": 1
-    },
-    {
-      "name": "prototyping",
-      "count": 1
-    },
-    {
-      "name": "ux-design",
-      "count": 1
-    },
-    {
-      "name": "ux-experience",
       "count": 1
     },
     {
@@ -8439,18 +8439,6 @@
       "count": 1
     },
     {
-      "name": "css3-features",
-      "count": 1
-    },
-    {
-      "name": "feature-detection",
-      "count": 1
-    },
-    {
-      "name": "modernizr",
-      "count": 1
-    },
-    {
       "name": "release-automation",
       "count": 1
     },
@@ -8468,6 +8456,18 @@
     },
     {
       "name": "octokit",
+      "count": 1
+    },
+    {
+      "name": "css3-features",
+      "count": 1
+    },
+    {
+      "name": "feature-detection",
+      "count": 1
+    },
+    {
+      "name": "modernizr",
       "count": 1
     },
     {
@@ -9283,10 +9283,6 @@
       "count": 1
     },
     {
-      "name": "static-server",
-      "count": 1
-    },
-    {
       "name": "route",
       "count": 1
     },
@@ -9308,6 +9304,10 @@
     },
     {
       "name": "composition-api",
+      "count": 1
+    },
+    {
+      "name": "static-server",
       "count": 1
     },
     {
@@ -9563,6 +9563,14 @@
       "count": 1
     },
     {
+      "name": "indie-game",
+      "count": 1
+    },
+    {
+      "name": "pokerogue",
+      "count": 1
+    },
+    {
       "name": "short-url",
       "count": 1
     },
@@ -9624,14 +9632,6 @@
     },
     {
       "name": "web-desktop",
-      "count": 1
-    },
-    {
-      "name": "indie-game",
-      "count": 1
-    },
-    {
-      "name": "pokerogue",
       "count": 1
     },
     {
@@ -9723,18 +9723,6 @@
       "count": 1
     },
     {
-      "name": "image-generator",
-      "count": 1
-    },
-    {
-      "name": "opengraph-images",
-      "count": 1
-    },
-    {
-      "name": "satori",
-      "count": 1
-    },
-    {
       "name": "github-apps",
       "count": 1
     },
@@ -9796,6 +9784,18 @@
     },
     {
       "name": "serverless-functions",
+      "count": 1
+    },
+    {
+      "name": "image-generator",
+      "count": 1
+    },
+    {
+      "name": "opengraph-images",
+      "count": 1
+    },
+    {
+      "name": "satori",
       "count": 1
     },
     {
@@ -10603,18 +10603,6 @@
       "count": 1
     },
     {
-      "name": "persistent",
-      "count": 1
-    },
-    {
-      "name": "qs",
-      "count": 1
-    },
-    {
-      "name": "querystring",
-      "count": 1
-    },
-    {
       "name": "createfile",
       "count": 1
     },
@@ -10679,6 +10667,18 @@
       "count": 1
     },
     {
+      "name": "persistent",
+      "count": 1
+    },
+    {
+      "name": "qs",
+      "count": 1
+    },
+    {
+      "name": "querystring",
+      "count": 1
+    },
+    {
       "name": "hacktoberfest2025",
       "count": 1
     },
@@ -10692,6 +10692,30 @@
     },
     {
       "name": "formdata",
+      "count": 1
+    },
+    {
+      "name": "explorer",
+      "count": 1
+    },
+    {
+      "name": "inspector",
+      "count": 1
+    },
+    {
+      "name": "github-api",
+      "count": 1
+    },
+    {
+      "name": "github-pages",
+      "count": 1
+    },
+    {
+      "name": "hugo",
+      "count": 1
+    },
+    {
+      "name": "mkdocs",
       "count": 1
     },
     {
@@ -10720,30 +10744,6 @@
     },
     {
       "name": "duplications",
-      "count": 1
-    },
-    {
-      "name": "explorer",
-      "count": 1
-    },
-    {
-      "name": "inspector",
-      "count": 1
-    },
-    {
-      "name": "github-api",
-      "count": 1
-    },
-    {
-      "name": "github-pages",
-      "count": 1
-    },
-    {
-      "name": "hugo",
-      "count": 1
-    },
-    {
-      "name": "mkdocs",
       "count": 1
     },
     {
@@ -10975,18 +10975,6 @@
       "count": 1
     },
     {
-      "name": "browsers",
-      "count": 1
-    },
-    {
-      "name": "querystrings",
-      "count": 1
-    },
-    {
-      "name": "url-parsing",
-      "count": 1
-    },
-    {
       "name": "add-ons",
       "count": 1
     },
@@ -11000,6 +10988,18 @@
     },
     {
       "name": "client-side",
+      "count": 1
+    },
+    {
+      "name": "browsers",
+      "count": 1
+    },
+    {
+      "name": "querystrings",
+      "count": 1
+    },
+    {
+      "name": "url-parsing",
       "count": 1
     },
     {
@@ -11087,14 +11087,6 @@
       "count": 1
     },
     {
-      "name": "comment-system",
-      "count": 1
-    },
-    {
-      "name": "giscus",
-      "count": 1
-    },
-    {
       "name": "chrome-tabs",
       "count": 1
     },
@@ -11104,6 +11096,14 @@
     },
     {
       "name": "headlessui",
+      "count": 1
+    },
+    {
+      "name": "comment-system",
+      "count": 1
+    },
+    {
+      "name": "giscus",
       "count": 1
     },
     {
@@ -11679,6 +11679,14 @@
       "count": 1
     },
     {
+      "name": "nexus-repository",
+      "count": 1
+    },
+    {
+      "name": "language-server",
+      "count": 1
+    },
+    {
       "name": "datalayer",
       "count": 1
     },
@@ -11688,14 +11696,6 @@
     },
     {
       "name": "gtm",
-      "count": 1
-    },
-    {
-      "name": "nexus-repository",
-      "count": 1
-    },
-    {
-      "name": "language-server",
       "count": 1
     },
     {
@@ -11739,10 +11739,6 @@
       "count": 1
     },
     {
-      "name": "style-observer",
-      "count": 1
-    },
-    {
       "name": "es6-javascript",
       "count": 1
     },
@@ -11764,6 +11760,10 @@
     },
     {
       "name": "visual-inspector",
+      "count": 1
+    },
+    {
+      "name": "style-observer",
       "count": 1
     },
     {
@@ -12039,6 +12039,26 @@
       "count": 1
     },
     {
+      "name": "pikachu",
+      "count": 1
+    },
+    {
+      "name": "eleventy",
+      "count": 1
+    },
+    {
+      "name": "show-on-my-website",
+      "count": 1
+    },
+    {
+      "name": "dependency",
+      "count": 1
+    },
+    {
+      "name": "typescript-helpers",
+      "count": 1
+    },
+    {
       "name": "adaptive-triggers",
       "count": 1
     },
@@ -12076,26 +12096,6 @@
     },
     {
       "name": "vigembus",
-      "count": 1
-    },
-    {
-      "name": "pikachu",
-      "count": 1
-    },
-    {
-      "name": "eleventy",
-      "count": 1
-    },
-    {
-      "name": "show-on-my-website",
-      "count": 1
-    },
-    {
-      "name": "dependency",
-      "count": 1
-    },
-    {
-      "name": "typescript-helpers",
       "count": 1
     },
     {
@@ -12663,6 +12663,10 @@
       "count": 1
     },
     {
+      "name": "es-modules",
+      "count": 1
+    },
+    {
       "name": "malinajs",
       "count": 1
     },
@@ -12672,10 +12676,6 @@
     },
     {
       "name": "webcomponent",
-      "count": 1
-    },
-    {
-      "name": "es-modules",
       "count": 1
     },
     {
