@@ -1683,11 +1683,11 @@
       "count": 4
     },
     {
-      "name": "tty",
+      "name": "environment-variables",
       "count": 4
     },
     {
-      "name": "environment-variables",
+      "name": "tty",
       "count": 4
     },
     {
@@ -3143,10 +3143,6 @@
       "count": 2
     },
     {
-      "name": "mobile-app",
-      "count": 2
-    },
-    {
       "name": "deepseek",
       "count": 2
     },
@@ -3204,6 +3200,10 @@
     },
     {
       "name": "ebooks",
+      "count": 2
+    },
+    {
+      "name": "mobile-app",
       "count": 2
     },
     {
@@ -3435,10 +3435,6 @@
       "count": 2
     },
     {
-      "name": "ui-kit",
-      "count": 2
-    },
-    {
       "name": "checklist",
       "count": 2
     },
@@ -3452,6 +3448,10 @@
     },
     {
       "name": "guidelines",
+      "count": 2
+    },
+    {
+      "name": "ui-kit",
       "count": 2
     },
     {
@@ -3751,15 +3751,15 @@
       "count": 2
     },
     {
-      "name": "octokit-js",
-      "count": 2
-    },
-    {
       "name": "community",
       "count": 2
     },
     {
       "name": "feedback",
+      "count": 2
+    },
+    {
+      "name": "octokit-js",
       "count": 2
     },
     {
@@ -3807,10 +3807,6 @@
       "count": 2
     },
     {
-      "name": "pty",
-      "count": 2
-    },
-    {
       "name": "responsive-web-design",
       "count": 2
     },
@@ -3836,6 +3832,10 @@
     },
     {
       "name": "secrets",
+      "count": 2
+    },
+    {
+      "name": "pty",
       "count": 2
     },
     {
@@ -4087,6 +4087,10 @@
       "count": 2
     },
     {
+      "name": "nanostores",
+      "count": 2
+    },
+    {
       "name": "acknowledgements",
       "count": 2
     },
@@ -4260,10 +4264,6 @@
     },
     {
       "name": "npm-cli",
-      "count": 2
-    },
-    {
-      "name": "nanostores",
       "count": 2
     },
     {
@@ -6483,18 +6483,6 @@
       "count": 1
     },
     {
-      "name": "high-performance",
-      "count": 1
-    },
-    {
-      "name": "web-frontend",
-      "count": 1
-    },
-    {
-      "name": "webview",
-      "count": 1
-    },
-    {
       "name": "gemma",
       "count": 1
     },
@@ -6720,6 +6708,18 @@
     },
     {
       "name": "new-yorker",
+      "count": 1
+    },
+    {
+      "name": "high-performance",
+      "count": 1
+    },
+    {
+      "name": "web-frontend",
+      "count": 1
+    },
+    {
+      "name": "webview",
       "count": 1
     },
     {
@@ -8511,11 +8511,11 @@
       "count": 1
     },
     {
-      "name": "octokit",
+      "name": "discussion",
       "count": 1
     },
     {
-      "name": "discussion",
+      "name": "octokit",
       "count": 1
     },
     {
@@ -8635,14 +8635,6 @@
       "count": 1
     },
     {
-      "name": "vt100",
-      "count": 1
-    },
-    {
-      "name": "xterm",
-      "count": 1
-    },
-    {
       "name": "contributions-welcome",
       "count": 1
     },
@@ -8692,6 +8684,14 @@
     },
     {
       "name": "regl",
+      "count": 1
+    },
+    {
+      "name": "vt100",
+      "count": 1
+    },
+    {
+      "name": "xterm",
       "count": 1
     },
     {
@@ -9315,10 +9315,6 @@
       "count": 1
     },
     {
-      "name": "remote-access",
-      "count": 1
-    },
-    {
       "name": "bottom",
       "count": 1
     },
@@ -9360,6 +9356,10 @@
     },
     {
       "name": "tooltip-position",
+      "count": 1
+    },
+    {
+      "name": "remote-access",
       "count": 1
     },
     {
@@ -9999,6 +9999,18 @@
       "count": 1
     },
     {
+      "name": "persistent",
+      "count": 1
+    },
+    {
+      "name": "qs",
+      "count": 1
+    },
+    {
+      "name": "querystring",
+      "count": 1
+    },
+    {
       "name": "image-generator",
       "count": 1
     },
@@ -10295,18 +10307,6 @@
       "count": 1
     },
     {
-      "name": "coding",
-      "count": 1
-    },
-    {
-      "name": "computerscience",
-      "count": 1
-    },
-    {
-      "name": "laws",
-      "count": 1
-    },
-    {
       "name": "glyph-fonts",
       "count": 1
     },
@@ -10319,19 +10319,15 @@
       "count": 1
     },
     {
-      "name": "api-documentation",
+      "name": "coding",
       "count": 1
     },
     {
-      "name": "documentation-generator",
+      "name": "computerscience",
       "count": 1
     },
     {
-      "name": "documentation-tool",
-      "count": 1
-    },
-    {
-      "name": "redoc",
+      "name": "laws",
       "count": 1
     },
     {
@@ -10372,6 +10368,22 @@
     },
     {
       "name": "spa",
+      "count": 1
+    },
+    {
+      "name": "api-documentation",
+      "count": 1
+    },
+    {
+      "name": "documentation-generator",
+      "count": 1
+    },
+    {
+      "name": "documentation-tool",
+      "count": 1
+    },
+    {
+      "name": "redoc",
       "count": 1
     },
     {
@@ -10583,6 +10595,10 @@
       "count": 1
     },
     {
+      "name": "github-api",
+      "count": 1
+    },
+    {
       "name": "class-library",
       "count": 1
     },
@@ -10596,10 +10612,6 @@
     },
     {
       "name": "winforms",
-      "count": 1
-    },
-    {
-      "name": "github-api",
       "count": 1
     },
     {
@@ -10908,18 +10920,6 @@
     },
     {
       "name": "fastify-library",
-      "count": 1
-    },
-    {
-      "name": "persistent",
-      "count": 1
-    },
-    {
-      "name": "qs",
-      "count": 1
-    },
-    {
-      "name": "querystring",
       "count": 1
     },
     {
@@ -11943,11 +11943,11 @@
       "count": 1
     },
     {
-      "name": "style-observer",
+      "name": "emoji-searcher",
       "count": 1
     },
     {
-      "name": "emoji-searcher",
+      "name": "style-observer",
       "count": 1
     },
     {
@@ -12147,6 +12147,14 @@
       "count": 1
     },
     {
+      "name": "fish-plugin",
+      "count": 1
+    },
+    {
+      "name": "linguist",
+      "count": 1
+    },
+    {
       "name": "brotli",
       "count": 1
     },
@@ -12164,14 +12172,6 @@
     },
     {
       "name": "unpkg",
-      "count": 1
-    },
-    {
-      "name": "fish-plugin",
-      "count": 1
-    },
-    {
-      "name": "linguist",
       "count": 1
     },
     {
@@ -12275,14 +12275,6 @@
       "count": 1
     },
     {
-      "name": "pnpm-monorepo",
-      "count": 1
-    },
-    {
-      "name": "pnpm-workspace",
-      "count": 1
-    },
-    {
       "name": "headers",
       "count": 1
     },
@@ -12304,6 +12296,14 @@
     },
     {
       "name": "secure-by-default",
+      "count": 1
+    },
+    {
+      "name": "pnpm-monorepo",
+      "count": 1
+    },
+    {
+      "name": "pnpm-workspace",
       "count": 1
     },
     {
