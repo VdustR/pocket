@@ -2,7 +2,7 @@
   "languages": [
     {
       "name": "TypeScript",
-      "count": 577
+      "count": 578
     },
     {
       "name": "JavaScript",
@@ -3855,6 +3855,10 @@
       "count": 2
     },
     {
+      "name": "oauth",
+      "count": 2
+    },
+    {
       "name": "responsive-web-design",
       "count": 2
     },
@@ -3867,15 +3871,15 @@
       "count": 2
     },
     {
-      "name": "ecmascript6",
-      "count": 2
-    },
-    {
       "name": "http-request",
       "count": 2
     },
     {
       "name": "request",
+      "count": 2
+    },
+    {
+      "name": "ecmascript6",
       "count": 2
     },
     {
@@ -3892,10 +3896,6 @@
     },
     {
       "name": "eslintplugin",
-      "count": 2
-    },
-    {
-      "name": "oauth",
       "count": 2
     },
     {
@@ -4343,15 +4343,15 @@
       "count": 2
     },
     {
+      "name": "emulator-frontend",
+      "count": 2
+    },
+    {
       "name": "comments-widget",
       "count": 2
     },
     {
       "name": "utterances",
-      "count": 2
-    },
-    {
-      "name": "emulator-frontend",
       "count": 2
     },
     {
@@ -7631,6 +7631,14 @@
       "count": 1
     },
     {
+      "name": "assets",
+      "count": 1
+    },
+    {
+      "name": "module-bundler",
+      "count": 1
+    },
+    {
       "name": "diffusion",
       "count": 1
     },
@@ -7664,14 +7672,6 @@
     },
     {
       "name": "upscaling",
-      "count": 1
-    },
-    {
-      "name": "assets",
-      "count": 1
-    },
-    {
-      "name": "module-bundler",
       "count": 1
     },
     {
@@ -8859,6 +8859,38 @@
       "count": 1
     },
     {
+      "name": "authorization",
+      "count": 1
+    },
+    {
+      "name": "hydra",
+      "count": 1
+    },
+    {
+      "name": "oauth-provider",
+      "count": 1
+    },
+    {
+      "name": "oauth2-provider",
+      "count": 1
+    },
+    {
+      "name": "oauth2-server",
+      "count": 1
+    },
+    {
+      "name": "openid",
+      "count": 1
+    },
+    {
+      "name": "openid-connect-provider",
+      "count": 1
+    },
+    {
+      "name": "openid-provider",
+      "count": 1
+    },
+    {
       "name": "contributions-welcome",
       "count": 1
     },
@@ -8892,6 +8924,10 @@
     },
     {
       "name": "xss",
+      "count": 1
+    },
+    {
+      "name": "whatwg-fetch",
       "count": 1
     },
     {
@@ -8947,10 +8983,6 @@
       "count": 1
     },
     {
-      "name": "whatwg-fetch",
-      "count": 1
-    },
-    {
       "name": "utility-library",
       "count": 1
     },
@@ -8984,38 +9016,6 @@
     },
     {
       "name": "tslint",
-      "count": 1
-    },
-    {
-      "name": "authorization",
-      "count": 1
-    },
-    {
-      "name": "hydra",
-      "count": 1
-    },
-    {
-      "name": "oauth-provider",
-      "count": 1
-    },
-    {
-      "name": "oauth2-provider",
-      "count": 1
-    },
-    {
-      "name": "oauth2-server",
-      "count": 1
-    },
-    {
-      "name": "openid",
-      "count": 1
-    },
-    {
-      "name": "openid-connect-provider",
-      "count": 1
-    },
-    {
-      "name": "openid-provider",
       "count": 1
     },
     {
@@ -9767,14 +9767,6 @@
       "count": 1
     },
     {
-      "name": "signature",
-      "count": 1
-    },
-    {
-      "name": "signature-pad",
-      "count": 1
-    },
-    {
       "name": "gdscript",
       "count": 1
     },
@@ -9820,6 +9812,14 @@
     },
     {
       "name": "modern-screenshot",
+      "count": 1
+    },
+    {
+      "name": "signature",
+      "count": 1
+    },
+    {
+      "name": "signature-pad",
       "count": 1
     },
     {
@@ -10019,18 +10019,6 @@
       "count": 1
     },
     {
-      "name": "image-generator",
-      "count": 1
-    },
-    {
-      "name": "opengraph-images",
-      "count": 1
-    },
-    {
-      "name": "satori",
-      "count": 1
-    },
-    {
       "name": "persistent",
       "count": 1
     },
@@ -10080,6 +10068,18 @@
     },
     {
       "name": "xcode",
+      "count": 1
+    },
+    {
+      "name": "image-generator",
+      "count": 1
+    },
+    {
+      "name": "opengraph-images",
+      "count": 1
+    },
+    {
+      "name": "satori",
       "count": 1
     },
     {
@@ -10203,10 +10203,6 @@
       "count": 1
     },
     {
-      "name": "betterdiscord",
-      "count": 1
-    },
-    {
       "name": "annotations",
       "count": 1
     },
@@ -10264,6 +10260,10 @@
     },
     {
       "name": "ubuntu-linux",
+      "count": 1
+    },
+    {
+      "name": "betterdiscord",
       "count": 1
     },
     {
@@ -10871,10 +10871,6 @@
       "count": 1
     },
     {
-      "name": "ramda",
-      "count": 1
-    },
-    {
       "name": "multi-cursor",
       "count": 1
     },
@@ -10932,6 +10928,10 @@
     },
     {
       "name": "userland",
+      "count": 1
+    },
+    {
+      "name": "ramda",
       "count": 1
     },
     {
@@ -11083,14 +11083,6 @@
       "count": 1
     },
     {
-      "name": "extension-api",
-      "count": 1
-    },
-    {
-      "name": "extension-development",
-      "count": 1
-    },
-    {
       "name": "8bit",
       "count": 1
     },
@@ -11112,6 +11104,14 @@
     },
     {
       "name": "quay",
+      "count": 1
+    },
+    {
+      "name": "extension-api",
+      "count": 1
+    },
+    {
+      "name": "extension-development",
       "count": 1
     },
     {
@@ -11471,14 +11471,6 @@
       "count": 1
     },
     {
-      "name": "comment-system",
-      "count": 1
-    },
-    {
-      "name": "giscus",
-      "count": 1
-    },
-    {
       "name": "daijishou",
       "count": 1
     },
@@ -11488,6 +11480,14 @@
     },
     {
       "name": "mercurial",
+      "count": 1
+    },
+    {
+      "name": "comment-system",
+      "count": 1
+    },
+    {
+      "name": "giscus",
       "count": 1
     },
     {
@@ -11703,10 +11703,6 @@
       "count": 1
     },
     {
-      "name": "dprint",
-      "count": 1
-    },
-    {
       "name": "colecovision",
       "count": 1
     },
@@ -11728,6 +11724,10 @@
     },
     {
       "name": "taito",
+      "count": 1
+    },
+    {
+      "name": "dprint",
       "count": 1
     },
     {
@@ -11987,6 +11987,14 @@
       "count": 1
     },
     {
+      "name": "emoji-searcher",
+      "count": 1
+    },
+    {
+      "name": "preprocessor",
+      "count": 1
+    },
+    {
       "name": "datalayer",
       "count": 1
     },
@@ -11996,14 +12004,6 @@
     },
     {
       "name": "gtm",
-      "count": 1
-    },
-    {
-      "name": "emoji-searcher",
-      "count": 1
-    },
-    {
-      "name": "preprocessor",
       "count": 1
     },
     {
@@ -12295,14 +12295,6 @@
       "count": 1
     },
     {
-      "name": "tsconfig",
-      "count": 1
-    },
-    {
-      "name": "tsconfig-paths",
-      "count": 1
-    },
-    {
       "name": "mozilla",
       "count": 1
     },
@@ -12332,6 +12324,14 @@
     },
     {
       "name": "secure-by-default",
+      "count": 1
+    },
+    {
+      "name": "tsconfig",
+      "count": 1
+    },
+    {
+      "name": "tsconfig-paths",
       "count": 1
     },
     {
@@ -12775,6 +12775,10 @@
       "count": 1
     },
     {
+      "name": "es-modules",
+      "count": 1
+    },
+    {
       "name": "malinajs",
       "count": 1
     },
@@ -12784,10 +12788,6 @@
     },
     {
       "name": "webcomponent",
-      "count": 1
-    },
-    {
-      "name": "es-modules",
       "count": 1
     },
     {
