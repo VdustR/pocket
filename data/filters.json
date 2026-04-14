@@ -1739,11 +1739,11 @@
       "count": 4
     },
     {
-      "name": "minimal",
+      "name": "regexp",
       "count": 4
     },
     {
-      "name": "regexp",
+      "name": "minimal",
       "count": 4
     },
     {
@@ -3463,6 +3463,18 @@
       "count": 2
     },
     {
+      "name": "orchestration",
+      "count": 2
+    },
+    {
+      "name": "dockerfile",
+      "count": 2
+    },
+    {
+      "name": "portainer",
+      "count": 2
+    },
+    {
       "name": "checklist",
       "count": 2
     },
@@ -3476,18 +3488,6 @@
     },
     {
       "name": "guidelines",
-      "count": 2
-    },
-    {
-      "name": "orchestration",
-      "count": 2
-    },
-    {
-      "name": "dockerfile",
-      "count": 2
-    },
-    {
-      "name": "portainer",
       "count": 2
     },
     {
@@ -3555,19 +3555,19 @@
       "count": 2
     },
     {
-      "name": "aseprite",
-      "count": 2
-    },
-    {
-      "name": "spritesheet",
-      "count": 2
-    },
-    {
       "name": "icon-font",
       "count": 2
     },
     {
       "name": "powerline",
+      "count": 2
+    },
+    {
+      "name": "aseprite",
+      "count": 2
+    },
+    {
+      "name": "spritesheet",
       "count": 2
     },
     {
@@ -3915,15 +3915,15 @@
       "count": 2
     },
     {
-      "name": "localstorage",
-      "count": 2
-    },
-    {
       "name": "faker",
       "count": 2
     },
     {
       "name": "hooks-library",
+      "count": 2
+    },
+    {
+      "name": "localstorage",
       "count": 2
     },
     {
@@ -4191,11 +4191,11 @@
       "count": 2
     },
     {
-      "name": "minimalist",
+      "name": "expressjs",
       "count": 2
     },
     {
-      "name": "expressjs",
+      "name": "minimalist",
       "count": 2
     },
     {
@@ -4235,15 +4235,15 @@
       "count": 2
     },
     {
+      "name": "colorfont",
+      "count": 2
+    },
+    {
       "name": "jest",
       "count": 2
     },
     {
       "name": "vitest",
-      "count": 2
-    },
-    {
-      "name": "colorfont",
       "count": 2
     },
     {
@@ -6755,18 +6755,6 @@
       "count": 1
     },
     {
-      "name": "macos-virtual-machine",
-      "count": 1
-    },
-    {
-      "name": "macos-vm",
-      "count": 1
-    },
-    {
-      "name": "osx-virtual-machine",
-      "count": 1
-    },
-    {
       "name": "gpui",
       "count": 1
     },
@@ -6776,6 +6764,18 @@
     },
     {
       "name": "resource",
+      "count": 1
+    },
+    {
+      "name": "macos-virtual-machine",
+      "count": 1
+    },
+    {
+      "name": "macos-vm",
+      "count": 1
+    },
+    {
+      "name": "osx-virtual-machine",
       "count": 1
     },
     {
@@ -7887,6 +7887,18 @@
       "count": 1
     },
     {
+      "name": "iconic-fonts",
+      "count": 1
+    },
+    {
+      "name": "octicons",
+      "count": 1
+    },
+    {
+      "name": "patched-fonts",
+      "count": 1
+    },
+    {
       "name": "animated-sprites",
       "count": 1
     },
@@ -7900,18 +7912,6 @@
     },
     {
       "name": "tilemap-editor",
-      "count": 1
-    },
-    {
-      "name": "iconic-fonts",
-      "count": 1
-    },
-    {
-      "name": "octicons",
-      "count": 1
-    },
-    {
-      "name": "patched-fonts",
       "count": 1
     },
     {
@@ -8371,14 +8371,6 @@
       "count": 1
     },
     {
-      "name": "badge",
-      "count": 1
-    },
-    {
-      "name": "badge-maker",
-      "count": 1
-    },
-    {
       "name": "cli-tool",
       "count": 1
     },
@@ -8424,6 +8416,14 @@
     },
     {
       "name": "training-providers",
+      "count": 1
+    },
+    {
+      "name": "badge",
+      "count": 1
+    },
+    {
+      "name": "badge-maker",
       "count": 1
     },
     {
@@ -8635,18 +8635,6 @@
       "count": 1
     },
     {
-      "name": "bitap",
-      "count": 1
-    },
-    {
-      "name": "lightweight-fuzzy-search",
-      "count": 1
-    },
-    {
-      "name": "weighted-search",
-      "count": 1
-    },
-    {
       "name": "desktop-wallpaper",
       "count": 1
     },
@@ -8804,6 +8792,18 @@
     },
     {
       "name": "wasmtime",
+      "count": 1
+    },
+    {
+      "name": "bitap",
+      "count": 1
+    },
+    {
+      "name": "lightweight-fuzzy-search",
+      "count": 1
+    },
+    {
+      "name": "weighted-search",
       "count": 1
     },
     {
@@ -9079,10 +9079,6 @@
       "count": 1
     },
     {
-      "name": "embeddable",
-      "count": 1
-    },
-    {
       "name": "dnd",
       "count": 1
     },
@@ -9107,6 +9103,10 @@
       "count": 1
     },
     {
+      "name": "embeddable",
+      "count": 1
+    },
+    {
       "name": "cui",
       "count": 1
     },
@@ -9120,14 +9120,6 @@
     },
     {
       "name": "stylelint",
-      "count": 1
-    },
-    {
-      "name": "commits",
-      "count": 1
-    },
-    {
-      "name": "gitmoji",
       "count": 1
     },
     {
@@ -9192,6 +9184,14 @@
     },
     {
       "name": "study",
+      "count": 1
+    },
+    {
+      "name": "commits",
+      "count": 1
+    },
+    {
+      "name": "gitmoji",
       "count": 1
     },
     {
@@ -9747,14 +9747,6 @@
       "count": 1
     },
     {
-      "name": "indie-game",
-      "count": 1
-    },
-    {
-      "name": "pokerogue",
-      "count": 1
-    },
-    {
       "name": "fishshell",
       "count": 1
     },
@@ -9768,6 +9760,14 @@
     },
     {
       "name": "omf",
+      "count": 1
+    },
+    {
+      "name": "indie-game",
+      "count": 1
+    },
+    {
+      "name": "pokerogue",
       "count": 1
     },
     {
@@ -10275,18 +10275,6 @@
       "count": 1
     },
     {
-      "name": "minimalistic",
-      "count": 1
-    },
-    {
-      "name": "native-html",
-      "count": 1
-    },
-    {
-      "name": "scss-framework",
-      "count": 1
-    },
-    {
       "name": "discordapp",
       "count": 1
     },
@@ -10308,6 +10296,18 @@
     },
     {
       "name": "path-to-regexp",
+      "count": 1
+    },
+    {
+      "name": "minimalistic",
+      "count": 1
+    },
+    {
+      "name": "native-html",
+      "count": 1
+    },
+    {
+      "name": "scss-framework",
       "count": 1
     },
     {
@@ -10679,11 +10679,15 @@
       "count": 1
     },
     {
+      "name": "steam-api",
+      "count": 1
+    },
+    {
       "name": "github-api",
       "count": 1
     },
     {
-      "name": "steam-api",
+      "name": "openmoji",
       "count": 1
     },
     {
@@ -10692,10 +10696,6 @@
     },
     {
       "name": "testing-library",
-      "count": 1
-    },
-    {
-      "name": "openmoji",
       "count": 1
     },
     {
@@ -11619,22 +11619,6 @@
       "count": 1
     },
     {
-      "name": "amd",
-      "count": 1
-    },
-    {
-      "name": "graphviz",
-      "count": 1
-    },
-    {
-      "name": "madge",
-      "count": 1
-    },
-    {
-      "name": "stylus",
-      "count": 1
-    },
-    {
       "name": "admin-panel",
       "count": 1
     },
@@ -11648,6 +11632,22 @@
     },
     {
       "name": "web-development-tools",
+      "count": 1
+    },
+    {
+      "name": "amd",
+      "count": 1
+    },
+    {
+      "name": "graphviz",
+      "count": 1
+    },
+    {
+      "name": "madge",
+      "count": 1
+    },
+    {
+      "name": "stylus",
       "count": 1
     },
     {
@@ -11787,6 +11787,14 @@
       "count": 1
     },
     {
+      "name": "chart",
+      "count": 1
+    },
+    {
+      "name": "rollup-plugin-visualizer",
+      "count": 1
+    },
+    {
       "name": "northstar-client",
       "count": 1
     },
@@ -11796,14 +11804,6 @@
     },
     {
       "name": "titanfall",
-      "count": 1
-    },
-    {
-      "name": "chart",
-      "count": 1
-    },
-    {
-      "name": "rollup-plugin-visualizer",
       "count": 1
     },
     {
@@ -11987,14 +11987,6 @@
       "count": 1
     },
     {
-      "name": "emoji-searcher",
-      "count": 1
-    },
-    {
-      "name": "preprocessor",
-      "count": 1
-    },
-    {
       "name": "datalayer",
       "count": 1
     },
@@ -12052,6 +12044,14 @@
     },
     {
       "name": "vannilajs",
+      "count": 1
+    },
+    {
+      "name": "emoji-searcher",
+      "count": 1
+    },
+    {
+      "name": "preprocessor",
       "count": 1
     },
     {
@@ -12347,14 +12347,6 @@
       "count": 1
     },
     {
-      "name": "typedoc",
-      "count": 1
-    },
-    {
-      "name": "typedoc-plugin",
-      "count": 1
-    },
-    {
       "name": "npm-publish",
       "count": 1
     },
@@ -12403,6 +12395,14 @@
       "count": 1
     },
     {
+      "name": "typedoc",
+      "count": 1
+    },
+    {
+      "name": "typedoc-plugin",
+      "count": 1
+    },
+    {
       "name": "buffers",
       "count": 1
     },
@@ -12412,6 +12412,46 @@
     },
     {
       "name": "unicode-mode",
+      "count": 1
+    },
+    {
+      "name": "apple-swift",
+      "count": 1
+    },
+    {
+      "name": "arkit",
+      "count": 1
+    },
+    {
+      "name": "ios-animation",
+      "count": 1
+    },
+    {
+      "name": "ios-libraries",
+      "count": 1
+    },
+    {
+      "name": "objective-c-library",
+      "count": 1
+    },
+    {
+      "name": "swift-extensions",
+      "count": 1
+    },
+    {
+      "name": "swift-framework",
+      "count": 1
+    },
+    {
+      "name": "swift-language",
+      "count": 1
+    },
+    {
+      "name": "swift-library",
+      "count": 1
+    },
+    {
+      "name": "swift-programming",
       "count": 1
     },
     {
@@ -12464,46 +12504,6 @@
     },
     {
       "name": "trading-software",
-      "count": 1
-    },
-    {
-      "name": "apple-swift",
-      "count": 1
-    },
-    {
-      "name": "arkit",
-      "count": 1
-    },
-    {
-      "name": "ios-animation",
-      "count": 1
-    },
-    {
-      "name": "ios-libraries",
-      "count": 1
-    },
-    {
-      "name": "objective-c-library",
-      "count": 1
-    },
-    {
-      "name": "swift-extensions",
-      "count": 1
-    },
-    {
-      "name": "swift-framework",
-      "count": 1
-    },
-    {
-      "name": "swift-language",
-      "count": 1
-    },
-    {
-      "name": "swift-library",
-      "count": 1
-    },
-    {
-      "name": "swift-programming",
       "count": 1
     },
     {
