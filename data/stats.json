@@ -1,8 +1,8 @@
 {
-  "totalRepos": 1584,
-  "totalStars": 25563007,
+  "totalRepos": 1585,
+  "totalStars": 25679826,
   "languageDistribution": {
-    "Python": 77,
+    "Python": 78,
     "TypeScript": 581,
     "Shell": 34,
     "JavaScript": 367,
@@ -29,8 +29,8 @@
     "Vim Script": 2,
     "CMake": 1,
     "PowerShell": 1,
-    "PHP": 5,
     "QML": 1,
+    "PHP": 5,
     "GDScript": 3,
     "Dockerfile": 4,
     "MDX": 2,
@@ -59,14 +59,49 @@
   },
   "topActiveRepos": [
     {
+      "owner": "NousResearch",
+      "name": "hermes-agent",
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "homepage": "https://hermes-agent.nousresearch.com",
+      "stars": 116194,
+      "forks": 17104,
+      "watchers": 116194,
+      "openIssues": 6933,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "clawdbot",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "moltbot",
+        "nous-research",
+        "openai",
+        "openclaw"
+      ],
+      "createdAt": "2025-07-22T22:22:28Z",
+      "updatedAt": "2026-04-25T14:20:51Z",
+      "pushedAt": "2026-04-25T14:17:27Z",
+      "starredAt": "2026-04-25T13:46:18Z",
+      "score": 1
+    },
+    {
       "owner": "hacksider",
       "name": "Deep-Live-Cam",
       "fullName": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
-      "stars": 92273,
+      "stars": 92276,
       "forks": 13402,
-      "watchers": 92273,
+      "watchers": 92276,
       "openIssues": 108,
       "language": "Python",
       "topics": [
@@ -90,10 +125,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-04-25T13:31:55Z",
+      "updatedAt": "2026-04-25T14:15:26Z",
       "pushedAt": "2026-04-23T16:42:55Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.9848775806621852
+      "score": 0.9848787102217722
     },
     {
       "owner": "openclaw",
@@ -101,10 +136,10 @@
       "fullName": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "homepage": "https://openclaw.ai",
-      "stars": 363709,
-      "forks": 74448,
-      "watchers": 363709,
-      "openIssues": 12243,
+      "stars": 363743,
+      "forks": 74459,
+      "watchers": 363743,
+      "openIssues": 11855,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -116,10 +151,10 @@
         "personal"
       ],
       "createdAt": "2025-11-24T10:16:47Z",
-      "updatedAt": "2026-04-25T13:26:24Z",
-      "pushedAt": "2026-04-25T13:26:30Z",
+      "updatedAt": "2026-04-25T14:18:13Z",
+      "pushedAt": "2026-04-25T14:11:35Z",
       "starredAt": "2026-01-27T14:01:52Z",
-      "score": 0.9642465753424657
+      "score": 0.9638356164383561
     },
     {
       "owner": "anthropics",
@@ -127,14 +162,14 @@
       "fullName": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "homepage": "https://code.claude.com/docs/en/overview",
-      "stars": 117813,
+      "stars": 117824,
       "forks": 19612,
-      "watchers": 117813,
-      "openIssues": 10530,
+      "watchers": 117824,
+      "openIssues": 10540,
       "language": "Shell",
       "topics": [],
       "createdAt": "2025-02-22T17:41:21Z",
-      "updatedAt": "2026-04-25T13:24:05Z",
+      "updatedAt": "2026-04-25T14:14:47Z",
       "pushedAt": "2026-04-25T01:55:08Z",
       "starredAt": "2026-01-24T19:15:11Z",
       "score": 0.963013698630137
@@ -145,9 +180,9 @@
       "fullName": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "homepage": "https://n8n.io",
-      "stars": 185536,
-      "forks": 57108,
-      "watchers": 185536,
+      "stars": 185540,
+      "forks": 57106,
+      "watchers": 185540,
       "openIssues": 1570,
       "language": "TypeScript",
       "topics": [
@@ -173,8 +208,8 @@
         "workflow-automation"
       ],
       "createdAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-04-25T13:20:54Z",
-      "pushedAt": "2026-04-25T09:54:43Z",
+      "updatedAt": "2026-04-25T14:15:48Z",
+      "pushedAt": "2026-04-25T14:00:30Z",
       "starredAt": "2026-01-19T01:14:28Z",
       "score": 0.9605479452054794
     },
@@ -184,9 +219,9 @@
       "fullName": "affaan-m/everything-claude-code",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "homepage": "https://ecc.tools",
-      "stars": 166676,
+      "stars": 166717,
       "forks": 25857,
-      "watchers": 166676,
+      "watchers": 166717,
       "openIssues": 161,
       "language": "JavaScript",
       "topics": [
@@ -200,7 +235,7 @@
         "productivity"
       ],
       "createdAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-04-25T13:32:21Z",
+      "updatedAt": "2026-04-25T14:20:10Z",
       "pushedAt": "2026-04-23T06:14:29Z",
       "starredAt": "2026-01-22T05:53:26Z",
       "score": 0.9601369863013698
@@ -211,17 +246,17 @@
       "fullName": "chenglou/pretext",
       "description": "Fast, accurate & comprehensive text measurement & layout",
       "homepage": "http://chenglou.me/pretext/",
-      "stars": 45321,
+      "stars": 45324,
       "forks": 2493,
-      "watchers": 45321,
+      "watchers": 45324,
       "openIssues": 78,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-03-07T21:06:28Z",
-      "updatedAt": "2026-04-25T13:20:39Z",
+      "updatedAt": "2026-04-25T14:10:31Z",
       "pushedAt": "2026-04-22T17:16:19Z",
       "starredAt": "2026-03-29T07:38:34Z",
-      "score": 0.959764999289092
+      "score": 0.9597672989940065
     },
     {
       "owner": "anomalyco",
@@ -229,15 +264,15 @@
       "fullName": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "homepage": "https://opencode.ai",
-      "stars": 149298,
-      "forks": 17129,
-      "watchers": 149298,
-      "openIssues": 6129,
+      "stars": 149317,
+      "forks": 17134,
+      "watchers": 149317,
+      "openIssues": 6132,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2025-04-30T20:08:00Z",
-      "updatedAt": "2026-04-25T13:32:07Z",
-      "pushedAt": "2026-04-25T13:19:43Z",
+      "updatedAt": "2026-04-25T14:18:02Z",
+      "pushedAt": "2026-04-25T14:11:58Z",
       "starredAt": "2026-01-07T21:29:51Z",
       "score": 0.956027397260274
     },
@@ -247,9 +282,9 @@
       "fullName": "D4Vinci/Scrapling",
       "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "homepage": "https://scrapling.readthedocs.io/en/latest/",
-      "stars": 38657,
+      "stars": 38660,
       "forks": 3433,
-      "watchers": 38657,
+      "watchers": 38660,
       "openIssues": 2,
       "language": "Python",
       "topics": [
@@ -275,10 +310,10 @@
         "xpath"
       ],
       "createdAt": "2024-10-13T20:29:53Z",
-      "updatedAt": "2026-04-25T13:12:50Z",
+      "updatedAt": "2026-04-25T14:20:06Z",
       "pushedAt": "2026-04-24T19:00:11Z",
       "starredAt": "2026-03-06T11:22:46Z",
-      "score": 0.9464312053329198
+      "score": 0.9464339014535552
     },
     {
       "owner": "vercel-labs",
@@ -287,7 +322,7 @@
       "description": "Browser automation CLI for AI agents",
       "homepage": "https://agent-browser.dev",
       "stars": 30546,
-      "forks": 1867,
+      "forks": 1868,
       "watchers": 30546,
       "openIssues": 427,
       "language": "Rust",
@@ -297,36 +332,53 @@
       "pushedAt": "2026-04-20T21:12:47Z",
       "starredAt": "2026-03-28T19:19:00Z",
       "score": 0.9444139235488429
-    },
-    {
-      "owner": "tobi",
-      "name": "qmd",
-      "fullName": "tobi/qmd",
-      "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
-      "homepage": "",
-      "stars": 23161,
-      "forks": 1445,
-      "watchers": 23161,
-      "openIssues": 328,
-      "language": "TypeScript",
-      "topics": [],
-      "createdAt": "2025-12-08T14:22:57Z",
-      "updatedAt": "2026-04-25T13:29:31Z",
-      "pushedAt": "2026-04-22T01:47:38Z",
-      "starredAt": "2026-04-18T05:38:36Z",
-      "score": 0.9438396188287693
     }
   ],
   "recentlyStarred": [
+    {
+      "owner": "NousResearch",
+      "name": "hermes-agent",
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "homepage": "https://hermes-agent.nousresearch.com",
+      "stars": 116194,
+      "forks": 17104,
+      "watchers": 116194,
+      "openIssues": 6933,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "clawdbot",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "moltbot",
+        "nous-research",
+        "openai",
+        "openclaw"
+      ],
+      "createdAt": "2025-07-22T22:22:28Z",
+      "updatedAt": "2026-04-25T14:20:51Z",
+      "pushedAt": "2026-04-25T14:17:27Z",
+      "starredAt": "2026-04-25T13:46:18Z",
+      "score": 1
+    },
     {
       "owner": "rullerzhou-afk",
       "name": "clawd-on-desk",
       "fullName": "rullerzhou-afk/clawd-on-desk",
       "description": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
       "homepage": "",
-      "stars": 1826,
+      "stars": 1827,
       "forks": 187,
-      "watchers": 1826,
+      "watchers": 1827,
       "openIssues": 30,
       "language": "JavaScript",
       "topics": [
@@ -341,10 +393,10 @@
         "svg-animation"
       ],
       "createdAt": "2026-03-18T09:04:20Z",
-      "updatedAt": "2026-04-25T13:22:30Z",
+      "updatedAt": "2026-04-25T13:57:21Z",
       "pushedAt": "2026-04-25T11:39:13Z",
       "starredAt": "2026-04-23T11:25:40Z",
-      "score": 0.8601171659799838
+      "score": 0.8601361775036058
     },
     {
       "owner": "google-labs-code",
@@ -352,17 +404,17 @@
       "fullName": "google-labs-code/design.md",
       "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
       "homepage": "https://stitch.withgoogle.com/docs/design-md/specification",
-      "stars": 7963,
-      "forks": 640,
-      "watchers": 7963,
+      "stars": 7990,
+      "forks": 642,
+      "watchers": 7990,
       "openIssues": 29,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-04-10T17:54:59Z",
-      "updatedAt": "2026-04-25T13:32:34Z",
+      "updatedAt": "2026-04-25T14:20:06Z",
       "pushedAt": "2026-04-22T18:22:35Z",
       "starredAt": "2026-04-22T07:42:50Z",
-      "score": 0.9092137877796627
+      "score": 0.9093313781245553
     },
     {
       "owner": "gitleaks",
@@ -401,7 +453,7 @@
       "updatedAt": "2026-04-25T12:09:48Z",
       "pushedAt": "2026-03-25T13:57:45Z",
       "starredAt": "2026-04-21T16:37:18Z",
-      "score": 0.9276835838454056
+      "score": 0.9268616660371864
     },
     {
       "owner": "tobi",
@@ -409,17 +461,17 @@
       "fullName": "tobi/qmd",
       "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
       "homepage": "",
-      "stars": 23161,
+      "stars": 23165,
       "forks": 1445,
-      "watchers": 23161,
+      "watchers": 23165,
       "openIssues": 328,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2025-12-08T14:22:57Z",
-      "updatedAt": "2026-04-25T13:29:31Z",
+      "updatedAt": "2026-04-25T14:19:23Z",
       "pushedAt": "2026-04-22T01:47:38Z",
       "starredAt": "2026-04-18T05:38:36Z",
-      "score": 0.9438396188287693
+      "score": 0.9438456184071908
     },
     {
       "owner": "tailscale",
@@ -427,17 +479,17 @@
       "fullName": "tailscale/tailscale-rs",
       "description": "Rust implementation of Tailscale (preview, experimental)",
       "homepage": "",
-      "stars": 684,
+      "stars": 685,
       "forks": 26,
-      "watchers": 684,
+      "watchers": 685,
       "openIssues": 45,
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-04-05T22:23:55Z",
-      "updatedAt": "2026-04-25T08:08:59Z",
+      "updatedAt": "2026-04-25T13:44:56Z",
       "pushedAt": "2026-04-24T22:31:13Z",
       "starredAt": "2026-04-17T16:36:22Z",
-      "score": 0.8239785333906269
+      "score": 0.824029216927773
     },
     {
       "owner": "vercel-labs",
@@ -445,17 +497,17 @@
       "fullName": "vercel-labs/wterm",
       "description": "A terminal emulator for the web",
       "homepage": "https://wterm.dev",
-      "stars": 2394,
+      "stars": 2396,
       "forks": 98,
-      "watchers": 2394,
+      "watchers": 2396,
       "openIssues": 10,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-04-14T14:52:44Z",
-      "updatedAt": "2026-04-25T12:57:41Z",
+      "updatedAt": "2026-04-25T14:12:41Z",
       "pushedAt": "2026-04-19T18:45:49Z",
       "starredAt": "2026-04-15T17:34:45Z",
-      "score": 0.8625362222419644
+      "score": 0.8625652235446101
     },
     {
       "owner": "TypeCellOS",
@@ -526,35 +578,6 @@
       "pushedAt": "2026-04-14T18:36:54Z",
       "starredAt": "2026-04-13T00:55:28Z",
       "score": 0.6872711154767576
-    },
-    {
-      "owner": "SarthakRawat-1",
-      "name": "sketchbook-ui",
-      "fullName": "SarthakRawat-1/sketchbook-ui",
-      "description": "UI library that looks like it was drawn by hand",
-      "homepage": "https://sarthakrawat-1.github.io/sketchbook-ui/",
-      "stars": 243,
-      "forks": 11,
-      "watchers": 243,
-      "openIssues": 2,
-      "language": "TypeScript",
-      "topics": [
-        "component-library",
-        "frontend",
-        "hand-drawn",
-        "open-source",
-        "react",
-        "react-components",
-        "react-ui",
-        "sketch-ui",
-        "tailwindcss",
-        "ui-library"
-      ],
-      "createdAt": "2026-03-04T11:22:30Z",
-      "updatedAt": "2026-04-24T22:59:38Z",
-      "pushedAt": "2026-04-02T15:07:33Z",
-      "starredAt": "2026-04-04T10:58:44Z",
-      "score": 0.764278857339975
     }
   ]
 }
