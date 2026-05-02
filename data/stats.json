@@ -1,6 +1,6 @@
 {
   "totalRepos": 1589,
-  "totalStars": 25889663,
+  "totalStars": 25890496,
   "languageDistribution": {
     "Python": 78,
     "TypeScript": 583,
@@ -64,10 +64,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 129477,
-      "forks": 19544,
-      "watchers": 129477,
-      "openIssues": 7810,
+      "stars": 129530,
+      "forks": 19560,
+      "watchers": 129530,
+      "openIssues": 7829,
       "language": "Python",
       "topics": [
         "ai",
@@ -88,7 +88,7 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-05-02T18:22:43Z",
+      "updatedAt": "2026-05-02T19:25:38Z",
       "pushedAt": "2026-05-02T10:38:03Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9971232876712328
@@ -99,9 +99,9 @@
       "fullName": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
-      "stars": 92552,
+      "stars": 92554,
       "forks": 13449,
-      "watchers": 92552,
+      "watchers": 92554,
       "openIssues": 116,
       "language": "Python",
       "topics": [
@@ -125,10 +125,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-05-02T18:19:23Z",
+      "updatedAt": "2026-05-02T19:10:01Z",
       "pushedAt": "2026-04-29T14:31:09Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.9804619249697215
+      "score": 0.9804626757435086
     },
     {
       "owner": "openclaw",
@@ -136,10 +136,10 @@
       "fullName": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "homepage": "https://openclaw.ai",
-      "stars": 367509,
-      "forks": 75581,
-      "watchers": 367509,
-      "openIssues": 6614,
+      "stars": 367528,
+      "forks": 75585,
+      "watchers": 367528,
+      "openIssues": 6621,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -151,28 +151,10 @@
         "personal"
       ],
       "createdAt": "2025-11-24T10:16:47Z",
-      "updatedAt": "2026-05-02T18:21:12Z",
-      "pushedAt": "2026-05-02T18:22:30Z",
+      "updatedAt": "2026-05-02T19:25:21Z",
+      "pushedAt": "2026-05-02T19:24:59Z",
       "starredAt": "2026-01-27T14:01:52Z",
       "score": 0.960958904109589
-    },
-    {
-      "owner": "anthropics",
-      "name": "claude-code",
-      "fullName": "anthropics/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "homepage": "https://code.claude.com/docs/en/overview",
-      "stars": 119898,
-      "forks": 19880,
-      "watchers": 119898,
-      "openIssues": 10797,
-      "language": "Shell",
-      "topics": [],
-      "createdAt": "2025-02-22T17:41:21Z",
-      "updatedAt": "2026-05-02T18:19:27Z",
-      "pushedAt": "2026-05-01T03:11:33Z",
-      "starredAt": "2026-01-24T19:15:11Z",
-      "score": 0.9593150684931506
     },
     {
       "owner": "mattpocock",
@@ -180,17 +162,35 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "homepage": "",
-      "stars": 54623,
-      "forks": 4594,
-      "watchers": 54623,
+      "stars": 54707,
+      "forks": 4604,
+      "watchers": 54707,
       "openIssues": 10,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-05-02T18:23:07Z",
+      "updatedAt": "2026-05-02T19:25:59Z",
       "pushedAt": "2026-04-30T11:38:13Z",
       "starredAt": "2026-03-18T06:37:36Z",
-      "score": 0.9588536936534013
+      "score": 0.9589070807585971
+    },
+    {
+      "owner": "anthropics",
+      "name": "claude-code",
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "homepage": "https://code.claude.com/docs/en/overview",
+      "stars": 119908,
+      "forks": 19880,
+      "watchers": 119908,
+      "openIssues": 10808,
+      "language": "Shell",
+      "topics": [],
+      "createdAt": "2025-02-22T17:41:21Z",
+      "updatedAt": "2026-05-02T19:22:33Z",
+      "pushedAt": "2026-05-01T03:11:33Z",
+      "starredAt": "2026-01-24T19:15:11Z",
+      "score": 0.958904109589041
     },
     {
       "owner": "n8n-io",
@@ -198,9 +198,9 @@
       "fullName": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "homepage": "https://n8n.io",
-      "stars": 186470,
+      "stars": 186474,
       "forks": 57294,
-      "watchers": 186470,
+      "watchers": 186474,
       "openIssues": 1574,
       "language": "TypeScript",
       "topics": [
@@ -226,7 +226,7 @@
         "workflow-automation"
       ],
       "createdAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-05-02T18:12:18Z",
+      "updatedAt": "2026-05-02T19:03:07Z",
       "pushedAt": "2026-05-02T18:00:43Z",
       "starredAt": "2026-01-19T01:14:28Z",
       "score": 0.9576712328767123
@@ -237,10 +237,10 @@
       "fullName": "affaan-m/everything-claude-code",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "homepage": "https://ecc.tools",
-      "stars": 171985,
-      "forks": 26663,
-      "watchers": 171985,
-      "openIssues": 153,
+      "stars": 172007,
+      "forks": 26666,
+      "watchers": 172007,
+      "openIssues": 155,
       "language": "JavaScript",
       "topics": [
         "ai-agents",
@@ -253,7 +253,7 @@
         "productivity"
       ],
       "createdAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-05-02T18:19:50Z",
+      "updatedAt": "2026-05-02T19:25:01Z",
       "pushedAt": "2026-04-30T16:25:17Z",
       "starredAt": "2026-01-22T05:53:26Z",
       "score": 0.9572602739726027
@@ -264,15 +264,15 @@
       "fullName": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "homepage": "https://opencode.ai",
-      "stars": 153477,
-      "forks": 17738,
-      "watchers": 153477,
-      "openIssues": 6213,
+      "stars": 153498,
+      "forks": 17747,
+      "watchers": 153498,
+      "openIssues": 6220,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2025-04-30T20:08:00Z",
-      "updatedAt": "2026-05-02T18:18:27Z",
-      "pushedAt": "2026-05-02T18:00:58Z",
+      "updatedAt": "2026-05-02T19:24:58Z",
+      "pushedAt": "2026-05-02T19:25:09Z",
       "starredAt": "2026-01-07T21:29:51Z",
       "score": 0.9531506849315068
     },
@@ -282,17 +282,17 @@
       "fullName": "chenglou/pretext",
       "description": "Fast, accurate & comprehensive text measurement & layout",
       "homepage": "http://chenglou.me/pretext/",
-      "stars": 46028,
+      "stars": 46029,
       "forks": 2551,
-      "watchers": 46028,
+      "watchers": 46029,
       "openIssues": 81,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-03-07T21:06:28Z",
-      "updatedAt": "2026-05-02T17:59:30Z",
+      "updatedAt": "2026-05-02T19:18:16Z",
       "pushedAt": "2026-04-22T17:16:19Z",
       "starredAt": "2026-03-29T07:38:34Z",
-      "score": 0.9508507423589123
+      "score": 0.9508514971696
     },
     {
       "owner": "D4Vinci",
@@ -300,9 +300,9 @@
       "fullName": "D4Vinci/Scrapling",
       "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "homepage": "https://scrapling.readthedocs.io/en/latest/",
-      "stars": 41405,
-      "forks": 3730,
-      "watchers": 41405,
+      "stars": 41456,
+      "forks": 3736,
+      "watchers": 41456,
       "openIssues": 3,
       "language": "Python",
       "topics": [
@@ -328,10 +328,10 @@
         "xpath"
       ],
       "createdAt": "2024-10-13T20:29:53Z",
-      "updatedAt": "2026-05-02T18:23:49Z",
+      "updatedAt": "2026-05-02T19:24:14Z",
       "pushedAt": "2026-05-02T16:58:57Z",
       "starredAt": "2026-03-06T11:22:46Z",
-      "score": 0.9459404046889248
+      "score": 0.945983172189737
     }
   ],
   "recentlyStarred": [
@@ -344,7 +344,7 @@
       "stars": 14059,
       "forks": 674,
       "watchers": 14059,
-      "openIssues": 164,
+      "openIssues": 165,
       "language": "Rust",
       "topics": [
         "editor",
@@ -364,10 +364,10 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
       "homepage": "https://github.com/nexu-io/open-design",
-      "stars": 15203,
-      "forks": 1715,
-      "watchers": 15203,
-      "openIssues": 104,
+      "stars": 15367,
+      "forks": 1730,
+      "watchers": 15367,
+      "openIssues": 105,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -392,10 +392,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-05-02T18:22:44Z",
+      "updatedAt": "2026-05-02T19:25:25Z",
       "pushedAt": "2026-05-02T17:00:37Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9333237521621565
+      "score": 0.9336965114359621
     },
     {
       "owner": "maria-rcks",
@@ -447,10 +447,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 129477,
-      "forks": 19544,
-      "watchers": 129477,
-      "openIssues": 7810,
+      "stars": 129530,
+      "forks": 19560,
+      "watchers": 129530,
+      "openIssues": 7829,
       "language": "Python",
       "topics": [
         "ai",
@@ -471,7 +471,7 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-05-02T18:22:43Z",
+      "updatedAt": "2026-05-02T19:25:38Z",
       "pushedAt": "2026-05-02T10:38:03Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9971232876712328
@@ -482,9 +482,9 @@
       "fullName": "rullerzhou-afk/clawd-on-desk",
       "description": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
       "homepage": "",
-      "stars": 2025,
+      "stars": 2026,
       "forks": 216,
-      "watchers": 2025,
+      "watchers": 2026,
       "openIssues": 41,
       "language": "JavaScript",
       "topics": [
@@ -499,10 +499,10 @@
         "svg-animation"
       ],
       "createdAt": "2026-03-18T09:04:20Z",
-      "updatedAt": "2026-05-02T17:23:39Z",
+      "updatedAt": "2026-05-02T18:40:02Z",
       "pushedAt": "2026-05-02T15:59:45Z",
       "starredAt": "2026-04-23T11:25:40Z",
-      "score": 0.8608325251449547
+      "score": 0.8608496697584544
     },
     {
       "owner": "google-labs-code",
@@ -510,17 +510,17 @@
       "fullName": "google-labs-code/design.md",
       "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
       "homepage": "https://stitch.withgoogle.com/docs/design-md/specification",
-      "stars": 11111,
+      "stars": 11122,
       "forks": 968,
-      "watchers": 11111,
+      "watchers": 11122,
       "openIssues": 25,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-04-10T17:54:59Z",
-      "updatedAt": "2026-05-02T18:23:27Z",
+      "updatedAt": "2026-05-02T19:18:06Z",
       "pushedAt": "2026-05-02T14:58:40Z",
       "starredAt": "2026-04-22T07:42:50Z",
-      "score": 0.9195537895772687
+      "score": 0.919588165936635
     },
     {
       "owner": "gitleaks",
@@ -528,9 +528,9 @@
       "fullName": "gitleaks/gitleaks",
       "description": "Find secrets with Gitleaks 🔑",
       "homepage": "https://gitleaks.io",
-      "stars": 26480,
+      "stars": 26482,
       "forks": 2014,
-      "watchers": 26480,
+      "watchers": 26482,
       "openIssues": 361,
       "language": "Go",
       "topics": [
@@ -556,10 +556,10 @@
         "security-tools"
       ],
       "createdAt": "2018-01-27T18:19:31Z",
-      "updatedAt": "2026-05-02T17:52:42Z",
+      "updatedAt": "2026-05-02T18:34:59Z",
       "pushedAt": "2026-03-25T13:57:45Z",
       "starredAt": "2026-04-21T16:37:18Z",
-      "score": 0.9180813258470258
+      "score": 0.9180839497846869
     },
     {
       "owner": "tobi",
@@ -567,17 +567,17 @@
       "fullName": "tobi/qmd",
       "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
       "homepage": "",
-      "stars": 23889,
-      "forks": 1505,
-      "watchers": 23889,
+      "stars": 23893,
+      "forks": 1506,
+      "watchers": 23893,
       "openIssues": 342,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2025-12-08T14:22:57Z",
-      "updatedAt": "2026-05-02T18:16:55Z",
+      "updatedAt": "2026-05-02T19:01:59Z",
       "pushedAt": "2026-04-22T01:47:38Z",
       "starredAt": "2026-04-18T05:38:36Z",
-      "score": 0.9362846892402641
+      "score": 0.9362905060088282
     },
     {
       "owner": "tailscale",
