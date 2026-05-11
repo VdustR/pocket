@@ -2487,11 +2487,11 @@
       "count": 3
     },
     {
-      "name": "move",
+      "name": "validation",
       "count": 3
     },
     {
-      "name": "validation",
+      "name": "move",
       "count": 3
     },
     {
@@ -3679,10 +3679,6 @@
       "count": 2
     },
     {
-      "name": "virtual-machine",
-      "count": 2
-    },
-    {
       "name": "polyfill",
       "count": 2
     },
@@ -3692,6 +3688,10 @@
     },
     {
       "name": "proposal",
+      "count": 2
+    },
+    {
+      "name": "virtual-machine",
       "count": 2
     },
     {
@@ -3831,6 +3831,10 @@
       "count": 2
     },
     {
+      "name": "unified",
+      "count": 2
+    },
+    {
       "name": "tinylibs",
       "count": 2
     },
@@ -3844,10 +3848,6 @@
     },
     {
       "name": "stable-diffusion",
-      "count": 2
-    },
-    {
-      "name": "unified",
       "count": 2
     },
     {
@@ -7707,46 +7707,6 @@
       "count": 1
     },
     {
-      "name": "apple-swift",
-      "count": 1
-    },
-    {
-      "name": "arkit",
-      "count": 1
-    },
-    {
-      "name": "ios-animation",
-      "count": 1
-    },
-    {
-      "name": "ios-libraries",
-      "count": 1
-    },
-    {
-      "name": "objective-c-library",
-      "count": 1
-    },
-    {
-      "name": "swift-extensions",
-      "count": 1
-    },
-    {
-      "name": "swift-framework",
-      "count": 1
-    },
-    {
-      "name": "swift-language",
-      "count": 1
-    },
-    {
-      "name": "swift-library",
-      "count": 1
-    },
-    {
-      "name": "swift-programming",
-      "count": 1
-    },
-    {
       "name": "fine-grained",
       "count": 1
     },
@@ -7812,6 +7772,46 @@
     },
     {
       "name": "vulnerability-scanners",
+      "count": 1
+    },
+    {
+      "name": "apple-swift",
+      "count": 1
+    },
+    {
+      "name": "arkit",
+      "count": 1
+    },
+    {
+      "name": "ios-animation",
+      "count": 1
+    },
+    {
+      "name": "ios-libraries",
+      "count": 1
+    },
+    {
+      "name": "objective-c-library",
+      "count": 1
+    },
+    {
+      "name": "swift-extensions",
+      "count": 1
+    },
+    {
+      "name": "swift-framework",
+      "count": 1
+    },
+    {
+      "name": "swift-language",
+      "count": 1
+    },
+    {
+      "name": "swift-library",
+      "count": 1
+    },
+    {
+      "name": "swift-programming",
       "count": 1
     },
     {
@@ -8359,10 +8359,6 @@
       "count": 1
     },
     {
-      "name": "javascript-engine",
-      "count": 1
-    },
-    {
       "name": "ecmascript-proposals",
       "count": 1
     },
@@ -8376,6 +8372,10 @@
     },
     {
       "name": "shim",
+      "count": 1
+    },
+    {
+      "name": "javascript-engine",
       "count": 1
     },
     {
@@ -8939,18 +8939,6 @@
       "count": 1
     },
     {
-      "name": "iconic-fonts",
-      "count": 1
-    },
-    {
-      "name": "octicons",
-      "count": 1
-    },
-    {
-      "name": "patched-fonts",
-      "count": 1
-    },
-    {
       "name": "node-redis",
       "count": 1
     },
@@ -8980,6 +8968,18 @@
     },
     {
       "name": "verdaccio",
+      "count": 1
+    },
+    {
+      "name": "iconic-fonts",
+      "count": 1
+    },
+    {
+      "name": "octicons",
+      "count": 1
+    },
+    {
+      "name": "patched-fonts",
       "count": 1
     },
     {
@@ -9711,11 +9711,11 @@
       "count": 1
     },
     {
-      "name": "pi",
+      "name": "scrollytelling",
       "count": 1
     },
     {
-      "name": "scrollytelling",
+      "name": "pi",
       "count": 1
     },
     {
@@ -9771,18 +9771,6 @@
       "count": 1
     },
     {
-      "name": "file-transfer",
-      "count": 1
-    },
-    {
-      "name": "mtp",
-      "count": 1
-    },
-    {
-      "name": "openmtp",
-      "count": 1
-    },
-    {
       "name": "eventsource",
       "count": 1
     },
@@ -9816,6 +9804,18 @@
     },
     {
       "name": "serverless-functions",
+      "count": 1
+    },
+    {
+      "name": "file-transfer",
+      "count": 1
+    },
+    {
+      "name": "mtp",
+      "count": 1
+    },
+    {
+      "name": "openmtp",
       "count": 1
     },
     {
@@ -9951,15 +9951,15 @@
       "count": 1
     },
     {
-      "name": "delete",
-      "count": 1
-    },
-    {
       "name": "interface",
       "count": 1
     },
     {
       "name": "docker-node",
+      "count": 1
+    },
+    {
+      "name": "delete",
       "count": 1
     },
     {
@@ -10651,18 +10651,6 @@
       "count": 1
     },
     {
-      "name": "glyphs",
-      "count": 1
-    },
-    {
-      "name": "kerning",
-      "count": 1
-    },
-    {
-      "name": "opentypejs",
-      "count": 1
-    },
-    {
       "name": "e2e",
       "count": 1
     },
@@ -10672,6 +10660,18 @@
     },
     {
       "name": "perf-tools",
+      "count": 1
+    },
+    {
+      "name": "glyphs",
+      "count": 1
+    },
+    {
+      "name": "kerning",
+      "count": 1
+    },
+    {
+      "name": "opentypejs",
       "count": 1
     },
     {
