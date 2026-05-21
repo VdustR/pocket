@@ -1979,11 +1979,11 @@
       "count": 3
     },
     {
-      "name": "macosx",
+      "name": "hosting",
       "count": 3
     },
     {
-      "name": "hosting",
+      "name": "macosx",
       "count": 3
     },
     {
@@ -1995,15 +1995,15 @@
       "count": 3
     },
     {
-      "name": "programming-ligatures",
-      "count": 3
-    },
-    {
       "name": "codemod",
       "count": 3
     },
     {
       "name": "static-analysis",
+      "count": 3
+    },
+    {
+      "name": "programming-ligatures",
       "count": 3
     },
     {
@@ -3703,14 +3703,6 @@
       "count": 2
     },
     {
-      "name": "immutable",
-      "count": 2
-    },
-    {
-      "name": "reducer",
-      "count": 2
-    },
-    {
       "name": "polyfill",
       "count": 2
     },
@@ -3720,6 +3712,14 @@
     },
     {
       "name": "proposal",
+      "count": 2
+    },
+    {
+      "name": "immutable",
+      "count": 2
+    },
+    {
+      "name": "reducer",
       "count": 2
     },
     {
@@ -3939,14 +3939,6 @@
       "count": 2
     },
     {
-      "name": "concurrency",
-      "count": 2
-    },
-    {
-      "name": "platform",
-      "count": 2
-    },
-    {
       "name": "godot-engine",
       "count": 2
     },
@@ -3956,6 +3948,14 @@
     },
     {
       "name": "psp",
+      "count": 2
+    },
+    {
+      "name": "concurrency",
+      "count": 2
+    },
+    {
+      "name": "platform",
       "count": 2
     },
     {
@@ -5895,6 +5895,10 @@
       "count": 1
     },
     {
+      "name": "selfhosted",
+      "count": 1
+    },
+    {
       "name": "music-player",
       "count": 1
     },
@@ -5904,10 +5908,6 @@
     },
     {
       "name": "music-player-extension",
-      "count": 1
-    },
-    {
-      "name": "selfhosted",
       "count": 1
     },
     {
@@ -6003,10 +6003,6 @@
       "count": 1
     },
     {
-      "name": "opentype-features",
-      "count": 1
-    },
-    {
       "name": "codereview",
       "count": 1
     },
@@ -6016,6 +6012,10 @@
     },
     {
       "name": "structural-search",
+      "count": 1
+    },
+    {
+      "name": "opentype-features",
       "count": 1
     },
     {
@@ -8359,14 +8359,6 @@
       "count": 1
     },
     {
-      "name": "immutables",
-      "count": 1
-    },
-    {
-      "name": "state-tree",
-      "count": 1
-    },
-    {
       "name": "ecmascript-proposals",
       "count": 1
     },
@@ -8380,6 +8372,14 @@
     },
     {
       "name": "shim",
+      "count": 1
+    },
+    {
+      "name": "immutables",
+      "count": 1
+    },
+    {
+      "name": "state-tree",
       "count": 1
     },
     {
@@ -8719,6 +8719,26 @@
       "count": 1
     },
     {
+      "name": "charting-library",
+      "count": 1
+    },
+    {
+      "name": "d3",
+      "count": 1
+    },
+    {
+      "name": "plotly",
+      "count": 1
+    },
+    {
+      "name": "plotly-dash",
+      "count": 1
+    },
+    {
+      "name": "regl",
+      "count": 1
+    },
+    {
       "name": "email-boilerplate",
       "count": 1
     },
@@ -8784,26 +8804,6 @@
     },
     {
       "name": "xiaomi-smart-home",
-      "count": 1
-    },
-    {
-      "name": "charting-library",
-      "count": 1
-    },
-    {
-      "name": "d3",
-      "count": 1
-    },
-    {
-      "name": "plotly",
-      "count": 1
-    },
-    {
-      "name": "plotly-dash",
-      "count": 1
-    },
-    {
-      "name": "regl",
       "count": 1
     },
     {
@@ -9307,30 +9307,6 @@
       "count": 1
     },
     {
-      "name": "clustering",
-      "count": 1
-    },
-    {
-      "name": "dependency-injection",
-      "count": 1
-    },
-    {
-      "name": "effect",
-      "count": 1
-    },
-    {
-      "name": "error-handling",
-      "count": 1
-    },
-    {
-      "name": "opentelemetry",
-      "count": 1
-    },
-    {
-      "name": "workflows",
-      "count": 1
-    },
-    {
       "name": "asciicast",
       "count": 1
     },
@@ -9368,6 +9344,30 @@
     },
     {
       "name": "ppsspp",
+      "count": 1
+    },
+    {
+      "name": "clustering",
+      "count": 1
+    },
+    {
+      "name": "dependency-injection",
+      "count": 1
+    },
+    {
+      "name": "effect",
+      "count": 1
+    },
+    {
+      "name": "error-handling",
+      "count": 1
+    },
+    {
+      "name": "opentelemetry",
+      "count": 1
+    },
+    {
+      "name": "workflows",
       "count": 1
     },
     {
@@ -9651,6 +9651,22 @@
       "count": 1
     },
     {
+      "name": "fishshell",
+      "count": 1
+    },
+    {
+      "name": "fishshell-framework",
+      "count": 1
+    },
+    {
+      "name": "oh-my-fish",
+      "count": 1
+    },
+    {
+      "name": "omf",
+      "count": 1
+    },
+    {
       "name": "apache",
       "count": 1
     },
@@ -9668,22 +9684,6 @@
     },
     {
       "name": "webserver",
-      "count": 1
-    },
-    {
-      "name": "fishshell",
-      "count": 1
-    },
-    {
-      "name": "fishshell-framework",
-      "count": 1
-    },
-    {
-      "name": "oh-my-fish",
-      "count": 1
-    },
-    {
-      "name": "omf",
       "count": 1
     },
     {
@@ -10231,15 +10231,15 @@
       "count": 1
     },
     {
+      "name": "embeddable",
+      "count": 1
+    },
+    {
       "name": "discordapp",
       "count": 1
     },
     {
       "name": "memescale",
-      "count": 1
-    },
-    {
-      "name": "embeddable",
       "count": 1
     },
     {
@@ -10255,14 +10255,6 @@
       "count": 1
     },
     {
-      "name": "indie-game",
-      "count": 1
-    },
-    {
-      "name": "pokerogue",
-      "count": 1
-    },
-    {
       "name": "glyph-fonts",
       "count": 1
     },
@@ -10272,6 +10264,14 @@
     },
     {
       "name": "vector-icons",
+      "count": 1
+    },
+    {
+      "name": "indie-game",
+      "count": 1
+    },
+    {
+      "name": "pokerogue",
       "count": 1
     },
     {
@@ -10839,15 +10839,15 @@
       "count": 1
     },
     {
-      "name": "packagejson",
-      "count": 1
-    },
-    {
       "name": "color-converter",
       "count": 1
     },
     {
       "name": "color-space",
+      "count": 1
+    },
+    {
+      "name": "packagejson",
       "count": 1
     },
     {
@@ -11779,10 +11779,6 @@
       "count": 1
     },
     {
-      "name": "emoji-searcher",
-      "count": 1
-    },
-    {
       "name": "cursive",
       "count": 1
     },
@@ -11816,6 +11812,10 @@
     },
     {
       "name": "visual-inspector",
+      "count": 1
+    },
+    {
+      "name": "emoji-searcher",
       "count": 1
     },
     {
@@ -11995,6 +11995,18 @@
       "count": 1
     },
     {
+      "name": "northstar-client",
+      "count": 1
+    },
+    {
+      "name": "r2northstar",
+      "count": 1
+    },
+    {
+      "name": "titanfall",
+      "count": 1
+    },
+    {
       "name": "browserfs",
       "count": 1
     },
@@ -12020,18 +12032,6 @@
     },
     {
       "name": "webfs",
-      "count": 1
-    },
-    {
-      "name": "northstar-client",
-      "count": 1
-    },
-    {
-      "name": "r2northstar",
-      "count": 1
-    },
-    {
-      "name": "titanfall",
       "count": 1
     },
     {
@@ -12367,14 +12367,6 @@
       "count": 1
     },
     {
-      "name": "artifacts",
-      "count": 1
-    },
-    {
-      "name": "v0",
-      "count": 1
-    },
-    {
       "name": "loopback",
       "count": 1
     },
@@ -12388,6 +12380,14 @@
     },
     {
       "name": "typescript-helpers",
+      "count": 1
+    },
+    {
+      "name": "artifacts",
+      "count": 1
+    },
+    {
+      "name": "v0",
       "count": 1
     },
     {
