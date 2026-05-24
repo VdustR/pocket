@@ -1,7 +1,8 @@
 {
-  "totalRepos": 1603,
-  "totalStars": 26436583,
+  "totalRepos": 1604,
+  "totalStars": 26580238,
   "languageDistribution": {
+    "C": 35,
     "Python": 83,
     "Go": 61,
     "Shell": 34,
@@ -16,7 +17,6 @@
     "C++": 61,
     "Objective-C": 3,
     "Kotlin": 6,
-    "C": 34,
     "Dart": 5,
     "Swift": 12,
     "Astro": 1,
@@ -59,15 +59,42 @@
   },
   "topActiveRepos": [
     {
+      "owner": "Genymobile",
+      "name": "scrcpy",
+      "fullName": "Genymobile/scrcpy",
+      "description": "Display and control your Android device",
+      "homepage": "",
+      "stars": 142256,
+      "forks": 13124,
+      "watchers": 142256,
+      "openIssues": 2806,
+      "language": "C",
+      "topics": [
+        "android",
+        "c",
+        "ffmpeg",
+        "libav",
+        "mirroring",
+        "recording",
+        "screen",
+        "sdl2"
+      ],
+      "createdAt": "2017-11-21T18:00:27Z",
+      "updatedAt": "2026-05-24T03:06:15Z",
+      "pushedAt": "2026-05-23T17:44:51Z",
+      "starredAt": "2026-05-24T02:27:27Z",
+      "score": 1
+    },
+    {
       "owner": "NousResearch",
       "name": "hermes-agent",
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 164463,
-      "forks": 27019,
-      "watchers": 164463,
-      "openIssues": 13546,
+      "stars": 164553,
+      "forks": 27048,
+      "watchers": 164553,
+      "openIssues": 13581,
       "language": "Python",
       "topics": [
         "ai",
@@ -88,8 +115,8 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-05-24T01:00:06Z",
-      "pushedAt": "2026-05-24T00:54:26Z",
+      "updatedAt": "2026-05-24T03:15:46Z",
+      "pushedAt": "2026-05-24T01:19:18Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9884931506849315
     },
@@ -99,9 +126,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 72674,
+      "stars": 72677,
       "forks": 4753,
-      "watchers": 72674,
+      "watchers": 72677,
       "openIssues": 244,
       "language": "Go",
       "topics": [
@@ -122,10 +149,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-05-24T00:35:54Z",
+      "updatedAt": "2026-05-24T02:52:27Z",
       "pushedAt": "2026-05-22T15:25:08Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9819245018655343
+      "score": 0.9819259360385568
     },
     {
       "owner": "hacksider",
@@ -133,9 +160,9 @@
       "fullName": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
-      "stars": 93312,
-      "forks": 13579,
-      "watchers": 93312,
+      "stars": 93315,
+      "forks": 13582,
+      "watchers": 93315,
       "openIssues": 122,
       "language": "Python",
       "topics": [
@@ -159,10 +186,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-05-23T23:50:02Z",
+      "updatedAt": "2026-05-24T02:58:42Z",
       "pushedAt": "2026-05-23T08:54:42Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.9745816735426541
+      "score": 0.974171831621175
     },
     {
       "owner": "mattpocock",
@@ -170,14 +197,14 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "homepage": "",
-      "stars": 102403,
-      "forks": 9053,
-      "watchers": 102403,
+      "stars": 102496,
+      "forks": 9071,
+      "watchers": 102496,
       "openIssues": 38,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-05-24T01:00:50Z",
+      "updatedAt": "2026-05-24T03:15:39Z",
       "pushedAt": "2026-05-20T08:46:54Z",
       "starredAt": "2026-03-18T06:37:36Z",
       "score": 0.9704109589041097
@@ -188,10 +215,10 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
       "homepage": "https://open-design.ai",
-      "stars": 50622,
-      "forks": 5765,
-      "watchers": 50622,
-      "openIssues": 332,
+      "stars": 50687,
+      "forks": 5776,
+      "watchers": 50687,
+      "openIssues": 333,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -216,10 +243,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-05-24T01:00:54Z",
+      "updatedAt": "2026-05-24T03:14:18Z",
       "pushedAt": "2026-05-23T22:08:37Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9664848165870452
+      "score": 0.9665293987472403
     },
     {
       "owner": "openclaw",
@@ -227,10 +254,10 @@
       "fullName": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "homepage": "https://openclaw.ai",
-      "stars": 374189,
-      "forks": 77809,
-      "watchers": 374189,
-      "openIssues": 7083,
+      "stars": 374209,
+      "forks": 77814,
+      "watchers": 374209,
+      "openIssues": 7025,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -242,8 +269,8 @@
         "personal"
       ],
       "createdAt": "2025-11-24T10:16:47Z",
-      "updatedAt": "2026-05-24T00:52:44Z",
-      "pushedAt": "2026-05-24T00:50:06Z",
+      "updatedAt": "2026-05-24T03:15:35Z",
+      "pushedAt": "2026-05-24T03:15:22Z",
       "starredAt": "2026-01-27T14:01:52Z",
       "score": 0.9523287671232876
     },
@@ -253,17 +280,17 @@
       "fullName": "chenglou/pretext",
       "description": "Fast, accurate & comprehensive text measurement & layout",
       "homepage": "http://chenglou.me/pretext/",
-      "stars": 47520,
-      "forks": 2643,
-      "watchers": 47520,
+      "stars": 47529,
+      "forks": 2644,
+      "watchers": 47529,
       "openIssues": 65,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-03-07T21:06:28Z",
-      "updatedAt": "2026-05-24T00:58:54Z",
+      "updatedAt": "2026-05-24T03:12:09Z",
       "pushedAt": "2026-05-23T05:47:02Z",
       "starredAt": "2026-03-29T07:38:34Z",
-      "score": 0.9515481059596221
+      "score": 0.9515546854175533
     },
     {
       "owner": "anthropics",
@@ -271,14 +298,14 @@
       "fullName": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "homepage": "https://code.claude.com/docs/en/overview",
-      "stars": 126007,
-      "forks": 20679,
-      "watchers": 126007,
-      "openIssues": 10869,
+      "stars": 126035,
+      "forks": 20686,
+      "watchers": 126035,
+      "openIssues": 10884,
       "language": "Shell",
       "topics": [],
       "createdAt": "2025-02-22T17:41:21Z",
-      "updatedAt": "2026-05-24T00:58:13Z",
+      "updatedAt": "2026-05-24T03:10:31Z",
       "pushedAt": "2026-05-23T04:03:51Z",
       "starredAt": "2026-01-24T19:15:11Z",
       "score": 0.9510958904109589
@@ -289,9 +316,9 @@
       "fullName": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "homepage": "https://n8n.io",
-      "stars": 189424,
+      "stars": 189432,
       "forks": 57951,
-      "watchers": 189424,
+      "watchers": 189432,
       "openIssues": 1476,
       "language": "TypeScript",
       "topics": [
@@ -317,49 +344,49 @@
         "workflow-automation"
       ],
       "createdAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-05-24T00:58:01Z",
+      "updatedAt": "2026-05-24T03:09:19Z",
       "pushedAt": "2026-05-23T23:15:56Z",
       "starredAt": "2026-01-19T01:14:28Z",
-      "score": 0.949041095890411
-    },
-    {
-      "owner": "affaan-m",
-      "name": "ECC",
-      "fullName": "affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "homepage": "https://ecc.tools",
-      "stars": 189186,
-      "forks": 29259,
-      "watchers": 189186,
-      "openIssues": 16,
-      "language": "JavaScript",
-      "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools",
-        "llm",
-        "mcp",
-        "productivity"
-      ],
-      "createdAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-05-24T01:00:50Z",
-      "pushedAt": "2026-05-20T03:25:40Z",
-      "starredAt": "2026-01-22T05:53:26Z",
-      "score": 0.9478082191780821
+      "score": 0.9486301369863013
     }
   ],
   "recentlyStarred": [
+    {
+      "owner": "Genymobile",
+      "name": "scrcpy",
+      "fullName": "Genymobile/scrcpy",
+      "description": "Display and control your Android device",
+      "homepage": "",
+      "stars": 142256,
+      "forks": 13124,
+      "watchers": 142256,
+      "openIssues": 2806,
+      "language": "C",
+      "topics": [
+        "android",
+        "c",
+        "ffmpeg",
+        "libav",
+        "mirroring",
+        "recording",
+        "screen",
+        "sdl2"
+      ],
+      "createdAt": "2017-11-21T18:00:27Z",
+      "updatedAt": "2026-05-24T03:06:15Z",
+      "pushedAt": "2026-05-23T17:44:51Z",
+      "starredAt": "2026-05-24T02:27:27Z",
+      "score": 1
+    },
     {
       "owner": "wiltodelta",
       "name": "remove-ai-watermarks",
       "fullName": "wiltodelta/remove-ai-watermarks",
       "description": "CLI and library for removing visible (Gemini) and invisible (SynthID, C2PA, EXIF) AI watermarks from images",
       "homepage": "",
-      "stars": 2076,
-      "forks": 152,
-      "watchers": 2076,
+      "stars": 2115,
+      "forks": 156,
+      "watchers": 2115,
       "openIssues": 7,
       "language": "Python",
       "topics": [
@@ -376,10 +403,10 @@
         "watermark-removal"
       ],
       "createdAt": "2026-03-25T18:15:24Z",
-      "updatedAt": "2026-05-24T01:00:51Z",
+      "updatedAt": "2026-05-24T03:14:06Z",
       "pushedAt": "2026-05-20T13:47:07Z",
       "starredAt": "2026-05-22T15:42:18Z",
-      "score": 0.8625182073940407
+      "score": 0.8631645407402846
     },
     {
       "owner": "crafter-station",
@@ -405,17 +432,17 @@
       "fullName": "tw93/Kami",
       "description": "👩‍🚒 Good content deserves good paper.",
       "homepage": "https://kami.tw93.fun",
-      "stars": 5575,
+      "stars": 5581,
       "forks": 278,
-      "watchers": 5575,
+      "watchers": 5581,
       "openIssues": 0,
       "language": "HTML",
       "topics": [],
       "createdAt": "2026-04-20T16:35:19Z",
-      "updatedAt": "2026-05-23T22:07:12Z",
+      "updatedAt": "2026-05-24T03:14:40Z",
       "pushedAt": "2026-05-22T14:43:03Z",
       "starredAt": "2026-05-14T17:07:00Z",
-      "score": 0.8951852732619907
+      "score": 0.8952226386270035
     },
     {
       "owner": "Tencent",
@@ -423,9 +450,9 @@
       "fullName": "Tencent/TencentDB-Agent-Memory",
       "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
       "homepage": "",
-      "stars": 3899,
-      "forks": 309,
-      "watchers": 3899,
+      "stars": 3905,
+      "forks": 312,
+      "watchers": 3905,
       "openIssues": 39,
       "language": "TypeScript",
       "topics": [
@@ -440,10 +467,10 @@
         "vector-search"
       ],
       "createdAt": "2026-04-07T06:34:26Z",
-      "updatedAt": "2026-05-24T00:07:56Z",
+      "updatedAt": "2026-05-24T03:15:36Z",
       "pushedAt": "2026-05-23T13:20:20Z",
       "starredAt": "2026-05-14T16:32:27Z",
-      "score": 0.8835865384251336
+      "score": 0.8836399489791605
     },
     {
       "owner": "heygen-com",
@@ -451,9 +478,9 @@
       "fullName": "heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "homepage": "",
-      "stars": 20707,
-      "forks": 1949,
-      "watchers": 20707,
+      "stars": 20724,
+      "forks": 1951,
+      "watchers": 20724,
       "openIssues": 45,
       "language": "TypeScript",
       "topics": [
@@ -470,10 +497,10 @@
         "video"
       ],
       "createdAt": "2026-03-10T01:51:06Z",
-      "updatedAt": "2026-05-24T00:53:54Z",
-      "pushedAt": "2026-05-24T00:52:44Z",
+      "updatedAt": "2026-05-24T03:11:59Z",
+      "pushedAt": "2026-05-24T02:38:16Z",
       "starredAt": "2026-05-09T07:47:14Z",
-      "score": 0.9395376278472511
+      "score": 0.9395661384802505
     },
     {
       "owner": "vercel-labs",
@@ -481,17 +508,17 @@
       "fullName": "vercel-labs/zero-native",
       "description": "Build desktop + mobile apps with Zig and web UI",
       "homepage": "https://zero-native.dev",
-      "stars": 3972,
-      "forks": 153,
-      "watchers": 3972,
+      "stars": 3973,
+      "forks": 154,
+      "watchers": 3973,
       "openIssues": 39,
       "language": "Zig",
       "topics": [],
       "createdAt": "2026-05-08T19:53:41Z",
-      "updatedAt": "2026-05-23T23:33:53Z",
+      "updatedAt": "2026-05-24T02:18:39Z",
       "pushedAt": "2026-05-13T16:47:35Z",
       "starredAt": "2026-05-09T00:45:52Z",
-      "score": 0.8735459235605934
+      "score": 0.8735546673780681
     },
     {
       "owner": "openai",
@@ -499,17 +526,17 @@
       "fullName": "openai/openai-cli",
       "description": "Official CLI for the OpenAI API",
       "homepage": "",
-      "stars": 615,
+      "stars": 614,
       "forks": 25,
-      "watchers": 615,
+      "watchers": 614,
       "openIssues": 10,
       "language": "Go",
       "topics": [],
       "createdAt": "2026-05-01T16:40:05Z",
-      "updatedAt": "2026-05-23T00:45:03Z",
+      "updatedAt": "2026-05-24T02:00:33Z",
       "pushedAt": "2026-05-22T20:17:18Z",
       "starredAt": "2026-05-08T16:20:12Z",
-      "score": 0.816180155603291
+      "score": 0.8161237078921704
     },
     {
       "owner": "DetachHead",
@@ -517,17 +544,17 @@
       "fullName": "DetachHead/rebased",
       "description": "A git client based on the IntelliJ platform",
       "homepage": "",
-      "stars": 3518,
+      "stars": 3519,
       "forks": 141,
-      "watchers": 3518,
+      "watchers": 3519,
       "openIssues": 35,
       "language": "Java",
       "topics": [],
       "createdAt": "2026-01-09T16:06:43Z",
-      "updatedAt": "2026-05-23T17:02:37Z",
+      "updatedAt": "2026-05-24T03:09:39Z",
       "pushedAt": "2026-05-22T14:35:53Z",
       "starredAt": "2026-05-08T16:01:01Z",
-      "score": 0.8767272399769523
+      "score": 0.8767371117083875
     },
     {
       "owner": "caddyserver",
@@ -535,9 +562,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 72674,
+      "stars": 72677,
       "forks": 4753,
-      "watchers": 72674,
+      "watchers": 72677,
       "openIssues": 244,
       "language": "Go",
       "topics": [
@@ -558,49 +585,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-05-24T00:35:54Z",
+      "updatedAt": "2026-05-24T02:52:27Z",
       "pushedAt": "2026-05-22T15:25:08Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9819245018655343
-    },
-    {
-      "owner": "CloakHQ",
-      "name": "CloakBrowser",
-      "fullName": "CloakHQ/CloakBrowser",
-      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
-      "homepage": "https://cloakbrowser.dev/",
-      "stars": 19565,
-      "forks": 1549,
-      "watchers": 19565,
-      "openIssues": 97,
-      "language": "Python",
-      "topics": [
-        "ai-agents",
-        "anti-detect",
-        "antidetect-browser",
-        "bot-detection",
-        "browser-automation",
-        "captcha-bypass",
-        "chromium",
-        "cloudflare",
-        "cloudflare-bypass",
-        "fingerprint",
-        "headless-browser",
-        "playwright",
-        "puppeteer",
-        "python",
-        "recaptcha",
-        "selenium",
-        "stealth-browser",
-        "undetected",
-        "web-scraping",
-        "webscraping"
-      ],
-      "createdAt": "2026-02-22T08:09:57Z",
-      "updatedAt": "2026-05-24T01:00:42Z",
-      "pushedAt": "2026-05-21T03:51:06Z",
-      "starredAt": "2026-05-07T13:30:27Z",
-      "score": 0.9351009858529762
+      "score": 0.9819259360385568
     }
   ]
 }
