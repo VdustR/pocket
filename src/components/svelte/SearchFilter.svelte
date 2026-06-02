@@ -32,7 +32,10 @@
 
   let languageSearchQuery = $state("");
   let topicSearchQuery = $state("");
+  let queryInput = $state("");
   let searchInput = $state<HTMLInputElement | null>(null);
+  let committedQuery = "";
+  let queryDebounceTimer: ReturnType<typeof setTimeout> | null = null;
 
   let filteredLanguages = $derived(
     !languageSearchQuery.trim()
@@ -46,17 +49,52 @@
       : topics.filter((t) => t.name.toLowerCase().includes(topicSearchQuery.toLowerCase()))
   );
 
+  let isSearching = $derived(Boolean(queryInput.trim()));
+
+  const QUERY_DEBOUNCE_MS = 180;
+
   const sortOptions: { value: SortField; label: string }[] = [
-    { value: "score", label: "Relevance" },
+    { value: "score", label: "Score" },
     { value: "stars", label: "Stars" },
     { value: "starredAt", label: "Recently Starred" },
     { value: "updatedAt", label: "Recently Updated" },
     { value: "name", label: "Name" },
   ];
 
+  $effect(() => {
+    if (filter.query !== committedQuery) {
+      committedQuery = filter.query;
+      queryInput = filter.query;
+    }
+  });
+
+  function clearQueryDebounce() {
+    if (queryDebounceTimer) {
+      clearTimeout(queryDebounceTimer);
+      queryDebounceTimer = null;
+    }
+  }
+
+  function commitQuery(value: string) {
+    clearQueryDebounce();
+    const query = value.trim();
+    committedQuery = query;
+    queryInput = query;
+    onFilterChange({ query });
+  }
+
   function handleQueryChange(e: Event) {
     const value = (e.target as HTMLInputElement).value;
-    onFilterChange({ query: value });
+    queryInput = value;
+
+    if (value.trim()) {
+      showSort = false;
+    }
+
+    clearQueryDebounce();
+    queryDebounceTimer = setTimeout(() => {
+      commitQuery(value);
+    }, QUERY_DEBOUNCE_MS);
   }
 
   function toggleLanguage(lang: string) {
@@ -81,6 +119,9 @@
   }
 
   function clearFilters() {
+    clearQueryDebounce();
+    queryInput = "";
+    committedQuery = "";
     onFilterChange({
       query: "",
       languages: [],
@@ -91,13 +132,18 @@
   }
 
   function clearSearch() {
-    onFilterChange({ query: "" });
+    queryInput = "";
+    commitQuery("");
     searchInput?.focus();
   }
 
+  $effect(() => {
+    return clearQueryDebounce;
+  });
+
   let hasActiveFilters = $derived(
     Boolean(
-      filter.query ||
+      queryInput.trim() ||
         filter.languages.length > 0 ||
         filter.topics.length > 0 ||
         filter.sortField !== "score" ||
@@ -117,14 +163,14 @@
       <input
         bind:this={searchInput}
         type="text"
-        value={filter.query}
+        value={queryInput}
         oninput={handleQueryChange}
         placeholder="Search names, descriptions, topics, languages..."
         aria-label="Search repositories by name, description, topic, or language"
         class="input h-11 pl-10 pr-10"
         id="search-input"
       />
-      {#if filter.query}
+      {#if queryInput}
         <button
           onclick={clearSearch}
           class="absolute right-3 top-1/2 -translate-y-1/2 rounded text-zinc-500 hover:text-zinc-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 dark:text-zinc-400 dark:hover:text-zinc-200"
@@ -306,50 +352,60 @@
     </div>
 
     <!-- Sort -->
-    <div class="relative" data-dropdown>
-      <button
-        onclick={() => {
-          showSort = !showSort;
-          showLanguages = false;
-          showTopics = false;
-        }}
-        class="btn btn-secondary flex items-center gap-2"
-        aria-haspopup="listbox"
-        aria-expanded={showSort}
+    {#if isSearching}
+      <div
+        class="btn btn-secondary flex cursor-default items-center gap-2 text-zinc-600 dark:text-zinc-300"
+        aria-label="Sorted by search relevance"
       >
         <Icon icon="ph:sort-ascending-bold" class="w-4 h-4" />
-        <span>{sortOptions.find((s) => s.value === filter.sortField)?.label}</span>
-        <Icon
-          icon={filter.sortOrder === "desc" ? "ph:caret-down-bold" : "ph:caret-up-bold"}
-          class="w-3 h-3"
-        />
-      </button>
-
-      {#if showSort}
-        <div
-          class="dropdown-panel w-48 bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 py-1 z-40"
-          role="listbox"
-          aria-label="Sort repositories"
+        <span>Search relevance</span>
+      </div>
+    {:else}
+      <div class="relative" data-dropdown>
+        <button
+          onclick={() => {
+            showSort = !showSort;
+            showLanguages = false;
+            showTopics = false;
+          }}
+          class="btn btn-secondary flex items-center gap-2"
+          aria-haspopup="listbox"
+          aria-expanded={showSort}
         >
-          {#each sortOptions as opt}
-            <button
-              onclick={() => setSort(opt.value)}
-              class="w-full px-4 py-2 text-left flex items-center gap-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors {filter.sortField === opt.value ? 'text-primary-600 dark:text-primary-400' : ''}"
-              role="option"
-              aria-selected={filter.sortField === opt.value}
-            >
-              <span class="text-sm">{opt.label}</span>
-              {#if filter.sortField === opt.value}
-                <Icon
-                  icon={filter.sortOrder === "desc" ? "ph:caret-down-bold" : "ph:caret-up-bold"}
-                  class="w-3 h-3 ml-auto"
-                />
-              {/if}
-            </button>
-          {/each}
-        </div>
-      {/if}
-    </div>
+          <Icon icon="ph:sort-ascending-bold" class="w-4 h-4" />
+          <span>{sortOptions.find((s) => s.value === filter.sortField)?.label}</span>
+          <Icon
+            icon={filter.sortOrder === "desc" ? "ph:caret-down-bold" : "ph:caret-up-bold"}
+            class="w-3 h-3"
+          />
+        </button>
+
+        {#if showSort}
+          <div
+            class="dropdown-panel w-48 bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 py-1 z-40"
+            role="listbox"
+            aria-label="Sort repositories"
+          >
+            {#each sortOptions as opt}
+              <button
+                onclick={() => setSort(opt.value)}
+                class="w-full px-4 py-2 text-left flex items-center gap-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors {filter.sortField === opt.value ? 'text-primary-600 dark:text-primary-400' : ''}"
+                role="option"
+                aria-selected={filter.sortField === opt.value}
+              >
+                <span class="text-sm">{opt.label}</span>
+                {#if filter.sortField === opt.value}
+                  <Icon
+                    icon={filter.sortOrder === "desc" ? "ph:caret-down-bold" : "ph:caret-up-bold"}
+                    class="w-3 h-3 ml-auto"
+                  />
+                {/if}
+              </button>
+            {/each}
+          </div>
+        {/if}
+      </div>
+    {/if}
 
     <!-- Clear filters -->
     {#if hasActiveFilters}
