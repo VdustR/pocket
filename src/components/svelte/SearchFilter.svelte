@@ -80,7 +80,6 @@
     clearQueryDebounce();
     const query = value.trim();
     committedQuery = query;
-    queryInput = query;
     onFilterChange({ query });
   }
 
