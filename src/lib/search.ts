@@ -2,24 +2,38 @@ import Fuse, { type IFuseOptions } from "fuse.js";
 import type { Repo, FilterState } from "./types";
 
 let fuseInstance: Fuse<Repo> | null = null;
+let indexedRepos: Repo[] | null = null;
+
+export const SEARCH_KEYS: NonNullable<IFuseOptions<Repo>["keys"]> = [
+  { name: "owner", weight: 1 },
+  { name: "name", weight: 2 },
+  { name: "fullName", weight: 1.5 },
+  { name: "description", weight: 1 },
+  { name: "homepage", weight: 0.5 },
+  { name: "topics", weight: 1.5 },
+  { name: "language", weight: 1 },
+];
 
 const fuseOptions: IFuseOptions<Repo> = {
-  keys: [
-    { name: "owner", weight: 1 },
-    { name: "name", weight: 2 },
-    { name: "fullName", weight: 1.5 },
-    { name: "description", weight: 1 },
-    { name: "homepage", weight: 0.5 },
-    { name: "topics", weight: 1.5 },
-    { name: "language", weight: 1 },
-  ],
+  keys: SEARCH_KEYS,
   threshold: 0.3,
   ignoreLocation: true,
   includeScore: true,
 };
 
-export function initFuse(repos: Repo[]): void {
+export function initFuse(repos: Repo[]): Fuse<Repo> {
   fuseInstance = new Fuse(repos, fuseOptions);
+  indexedRepos = repos;
+
+  return fuseInstance;
+}
+
+function getFuse(repos: Repo[]): Fuse<Repo> {
+  if (!fuseInstance || indexedRepos !== repos) {
+    return initFuse(repos);
+  }
+
+  return fuseInstance;
 }
 
 export function searchRepos(repos: Repo[], query: string): Repo[] {
@@ -27,11 +41,7 @@ export function searchRepos(repos: Repo[], query: string): Repo[] {
     return repos;
   }
 
-  if (!fuseInstance) {
-    fuseInstance = new Fuse(repos, fuseOptions);
-  }
-
-  const results = fuseInstance.search(query);
+  const results = getFuse(repos).search(query);
   return results.map((r) => r.item);
 }
 

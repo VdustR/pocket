@@ -4,6 +4,7 @@ import Fuse from "fuse.js";
 import { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
 import { calculateScore } from "../src/lib/scoring";
+import { SEARCH_KEYS } from "../src/lib/search";
 import type { Repo, RepoStats, LanguageWithCount, TopicWithCount } from "../src/lib/types";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -135,16 +136,7 @@ async function main() {
     console.log("Written repos.json");
 
     // Create and write Fuse.js search index
-    const fuseKeys = [
-      { name: "owner", weight: 1 },
-      { name: "name", weight: 2 },
-      { name: "fullName", weight: 1.5 },
-      { name: "description", weight: 1 },
-      { name: "homepage", weight: 0.5 },
-      { name: "topics", weight: 1.5 },
-      { name: "language", weight: 1 },
-    ];
-    const fuseIndex = Fuse.createIndex(fuseKeys, repos);
+    const fuseIndex = Fuse.createIndex(SEARCH_KEYS, repos);
     await writeFile(
       resolve(OUTPUT_DIR, "searchIndex.json"),
       JSON.stringify(fuseIndex.toJSON())

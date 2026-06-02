@@ -16,11 +16,12 @@
   ];
 </script>
 
-<div class="flex border border-zinc-200 dark:border-zinc-700 rounded-lg overflow-hidden">
+<div class="flex w-full sm:w-auto border border-zinc-200 dark:border-zinc-700 rounded-lg overflow-hidden" role="group" aria-label="Repository layout">
   {#each layouts as layout}
     <button
       onclick={() => onLayoutChange(layout.value)}
-      class="p-2 transition-colors {layoutMode === layout.value
+      aria-pressed={layoutMode === layout.value}
+      class="flex-1 sm:flex-none p-2 transition-colors {layoutMode === layout.value
         ? 'bg-primary-500 text-white'
         : 'bg-white dark:bg-zinc-900 hover:bg-zinc-100 dark:hover:bg-zinc-800'}"
       title={layout.label}
