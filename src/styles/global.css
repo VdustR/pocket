@@ -52,7 +52,6 @@ body {
 }
 
 /* Dark mode background */
-.dark body,
 .dark {
   background-color: var(--color-dark-bg);
   background-image: linear-gradient(180deg, #0d1117 0%, #10151d 100%);

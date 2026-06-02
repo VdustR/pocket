@@ -33,7 +33,7 @@
     {:else}
       <span
         class="rounded-full {dotClass}"
-        style="background-color: {getLanguageColor(language)}"
+        style="background-color: {getLanguageColor(language) || '#8b949e'}"
       ></span>
     {/if}
   </span>

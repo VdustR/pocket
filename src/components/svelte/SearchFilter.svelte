@@ -96,11 +96,13 @@
   }
 
   let hasActiveFilters = $derived(
-    filter.query ||
-      filter.languages.length > 0 ||
-      filter.topics.length > 0 ||
-      filter.sortField !== "score" ||
-      filter.sortOrder !== "desc"
+    Boolean(
+      filter.query ||
+        filter.languages.length > 0 ||
+        filter.topics.length > 0 ||
+        filter.sortField !== "score" ||
+        filter.sortOrder !== "desc"
+    )
   );
 </script>
 
