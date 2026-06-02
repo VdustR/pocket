@@ -48,7 +48,7 @@
     class="flex items-center gap-3 px-3 py-2 hover:bg-zinc-100 dark:hover:bg-[rgba(6,182,212,0.08)] rounded-lg transition-all duration-200 group"
   >
     {#if repo.language}
-      <LanguageIcon language={repo.language} class="h-4 w-4" dotClass="h-3 w-3" />
+      <LanguageIcon language={repo.language} class="h-4 w-4" dotClass="h-3 w-3" ariaHidden={false} />
     {:else}
       <span class="h-4 w-4 flex-shrink-0"></span>
     {/if}

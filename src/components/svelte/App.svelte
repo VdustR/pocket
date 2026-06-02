@@ -108,7 +108,8 @@
     $filterStore.query ||
       $filterStore.languages.length > 0 ||
       $filterStore.topics.length > 0 ||
-      $filterStore.sortField !== "score"
+      $filterStore.sortField !== "score" ||
+      $filterStore.sortOrder !== "desc"
   ));
 </script>
 
@@ -129,14 +130,14 @@
               Find the repo worth opening next.
             </h2>
             <p class="mt-2 text-sm sm:text-base text-zinc-600 dark:text-zinc-300 text-pretty">
-              Browse {$repos.length ? formatCompactNumber($repos.length) : "curated"} saved projects across {topLanguage} and beyond.
+              Browse {$isLoading ? "curated" : formatCompactNumber($repos.length)} saved projects across {topLanguage} and beyond.
             </p>
           </div>
 
           <div class="flex flex-wrap gap-2 text-sm" aria-label="Collection summary">
             <span class="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-3 py-1.5 text-zinc-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200">
               <Icon icon="ph:archive-bold" class="w-4 h-4 text-primary-600 dark:text-primary-300" />
-              {$repos.length ? formatCompactNumber($repos.length) : "Loading"} repos
+              {$isLoading ? "Loading" : formatCompactNumber($repos.length)} repos
             </span>
             <span class="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-3 py-1.5 text-zinc-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200">
               <Icon icon="ph:star-fill" class="w-4 h-4 text-yellow-500" />

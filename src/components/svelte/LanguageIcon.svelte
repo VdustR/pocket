@@ -7,12 +7,14 @@
     language: string | null;
     class?: string;
     dotClass?: string;
+    ariaHidden?: boolean;
   }
 
   let {
     language,
     class: className = "h-4 w-4",
     dotClass = "h-2 w-2",
+    ariaHidden = true,
   }: Props = $props();
 
   let icon = $derived(getLanguageIcon(language));
@@ -22,7 +24,8 @@
   <span
     class="inline-flex shrink-0 items-center justify-center {className}"
     title={language}
-    aria-hidden="true"
+    aria-label={ariaHidden ? undefined : language}
+    aria-hidden={ariaHidden}
   >
     {#if icon}
       <Icon icon={icon} class="h-full w-full" />
