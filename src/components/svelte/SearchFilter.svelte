@@ -1,6 +1,7 @@
 <script lang="ts">
   import Icon from "@iconify/svelte";
   import LayoutSwitcher from "./LayoutSwitcher.svelte";
+  import LanguageIcon from "./LanguageIcon.svelte";
   import type { FilterState, LanguageWithCount, LayoutMode, SortField, SortOrder, TopicWithCount } from "../../lib/types";
 
   interface Props {
@@ -96,26 +97,28 @@
   );
 </script>
 
-<div class="space-y-4 mb-8">
+<div class="space-y-4 mb-8 rounded-xl border border-zinc-200 bg-white p-3 shadow-sm dark:border-zinc-800 dark:bg-zinc-900 sm:p-4">
   <!-- Search bar -->
-  <div class="flex gap-4 flex-wrap">
-    <div class="relative flex-1 min-w-0 sm:min-w-64">
+  <div class="flex gap-3 flex-wrap">
+    <div class="relative w-full min-w-0 sm:flex-1 sm:min-w-64">
       <Icon
         icon="ph:magnifying-glass-bold"
-        class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-400"
+        class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500 dark:text-zinc-400"
       />
       <input
         type="text"
         value={filter.query}
         oninput={handleQueryChange}
-        placeholder="Search repositories..."
-        class="input pl-10"
+        placeholder="Search names, descriptions, topics, languages..."
+        aria-label="Search repositories by name, description, topic, or language"
+        class="input h-11 pl-10 pr-10"
         id="search-input"
       />
       {#if filter.query}
         <button
           onclick={() => onFilterChange({ query: "" })}
-          class="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-400 hover:text-zinc-600"
+          class="absolute right-3 top-1/2 -translate-y-1/2 rounded text-zinc-500 hover:text-zinc-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 dark:text-zinc-400 dark:hover:text-zinc-200"
+          aria-label="Clear search"
         >
           <Icon icon="ph:x-bold" class="w-4 h-4" />
         </button>
@@ -139,7 +142,7 @@
         aria-haspopup="listbox"
         aria-expanded={showLanguages}
       >
-        <Icon icon="ph:code-bold" class="w-4 h-4" />
+        <Icon icon="vscode-icons:default-file" class="w-4 h-4" />
         <span>Language</span>
         {#if filter.languages.length > 0}
           <span class="bg-primary-500 text-white text-xs px-1.5 py-0.5 rounded-full">
@@ -190,13 +193,14 @@
             {#each filteredLanguages as lang}
               <button
                 onclick={() => toggleLanguage(lang.name)}
-                class="tag {filter.languages.includes(lang.name) ? 'tag-active' : ''} truncate"
+                class="tag w-full min-w-0 justify-start gap-1.5 {filter.languages.includes(lang.name) ? 'tag-active' : ''}"
                 title="{lang.count} repositories"
                 role="option"
                 aria-selected={filter.languages.includes(lang.name)}
               >
-                {lang.name}
-                <span class="ml-1 text-xs opacity-60">({lang.count})</span>
+                <LanguageIcon language={lang.name} class="h-3.5 w-3.5" />
+                <span class="min-w-0 truncate">{lang.name}</span>
+                <span class="shrink-0 text-xs opacity-60">({lang.count})</span>
               </button>
             {/each}
             {#if filteredLanguages.length === 0}
@@ -349,8 +353,8 @@
     {/if}
 
     <!-- Results count -->
-    <div class="ml-auto text-sm text-zinc-500">
-      {filteredCount} of {totalCount} repositories
+    <div class="ml-auto rounded-full bg-zinc-100 px-3 py-1.5 text-sm font-medium text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300">
+      {filteredCount} / {totalCount}
     </div>
   </div>
 
@@ -360,10 +364,11 @@
       {#each filter.languages as lang}
         <button
           onclick={() => toggleLanguage(lang)}
-          class="tag tag-active flex items-center gap-1"
+          class="tag tag-active flex items-center gap-1.5"
         >
+          <LanguageIcon language={lang} class="h-3.5 w-3.5" />
           <span>{lang}</span>
-          <Icon icon="ph:x-bold" class="w-3 h-3" />
+          <Icon icon="ph:x-bold" class="ml-0.5 w-3 h-3" />
         </button>
       {/each}
       {#each filter.topics as topic}

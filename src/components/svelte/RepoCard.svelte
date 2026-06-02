@@ -1,8 +1,8 @@
 <script lang="ts">
   import Icon from "@iconify/svelte";
   import type { Repo, LayoutMode } from "../../lib/types";
-  import { getLanguageColor } from "../../lib/colors";
   import { parseEmoji } from "../../lib/emoji";
+  import LanguageIcon from "./LanguageIcon.svelte";
 
   interface Props {
     repo: Repo;
@@ -48,13 +48,9 @@
     class="flex items-center gap-3 px-3 py-2 hover:bg-zinc-100 dark:hover:bg-[rgba(6,182,212,0.08)] rounded-lg transition-all duration-200 group"
   >
     {#if repo.language}
-      <span
-        class="w-3 h-3 rounded-full flex-shrink-0"
-        style="background-color: {getLanguageColor(repo.language)}"
-        title={repo.language}
-      ></span>
+      <LanguageIcon language={repo.language} class="h-4 w-4" dotClass="h-3 w-3" />
     {:else}
-      <span class="w-3 h-3 flex-shrink-0"></span>
+      <span class="h-4 w-4 flex-shrink-0"></span>
     {/if}
     <div class="flex flex-col min-w-0 flex-shrink-0">
       <span class="font-medium text-primary-600 dark:text-primary-400 group-hover:underline">
@@ -75,7 +71,7 @@
   </a>
 {:else if layoutMode === "list"}
   <!-- List mode -->
-  <div data-repo-card class="card p-4 hover:border-primary-300 dark:hover:border-primary-500/30 transition-all duration-300 dark:hover:shadow-[0_0_20px_rgba(6,182,212,0.15)]">
+  <div data-repo-card class="card p-4 hover:border-primary-300 dark:hover:border-primary-500/30 transition-all duration-200 overflow-hidden">
     <div class="flex items-start gap-4">
       <div class="flex-1 min-w-0">
         <div class="mb-1">
@@ -86,14 +82,11 @@
             class="hover:underline"
           >
             <span class="font-medium text-primary-600 dark:text-primary-400">{repoName}</span>
-            <span class="text-xs text-zinc-400 ml-1">{owner}</span>
+            <span class="text-xs text-zinc-500 dark:text-zinc-400 ml-1">{owner}</span>
           </a>
           {#if repo.language}
             <span class="flex items-center gap-1 text-xs text-zinc-500 inline-flex ml-2">
-              <span
-                class="w-2 h-2 rounded-full"
-                style="background-color: {getLanguageColor(repo.language)}"
-              ></span>
+              <LanguageIcon language={repo.language} />
               {repo.language}
             </span>
           {/if}
@@ -119,7 +112,7 @@
   </div>
 {:else}
   <!-- Card mode -->
-  <div data-repo-card class="card p-4 hover:border-primary-300 dark:hover:border-primary-500/30 transition-all duration-300 dark:hover:shadow-[0_0_20px_rgba(6,182,212,0.15)] flex flex-col">
+  <div data-repo-card class="card p-4 hover:border-primary-300 dark:hover:border-primary-500/30 transition-all duration-200 flex flex-col overflow-hidden">
     <div class="flex items-start justify-between gap-2 mb-2">
       <a
         href={`https://github.com/${repo.fullName}`}
@@ -128,7 +121,7 @@
         class="hover:underline min-w-0"
       >
         <div class="font-medium text-primary-600 dark:text-primary-400 truncate">{repoName}</div>
-        <div class="text-xs text-zinc-400">{owner}</div>
+        <div class="text-xs text-zinc-500 dark:text-zinc-400">{owner}</div>
       </a>
       <button
         onclick={() => (isExpanded = !isExpanded)}
@@ -160,10 +153,7 @@
       </span>
       {#if repo.language}
         <span class="flex items-center gap-1">
-          <span
-            class="w-2 h-2 rounded-full"
-            style="background-color: {getLanguageColor(repo.language)}"
-          ></span>
+          <LanguageIcon language={repo.language} />
           {repo.language}
         </span>
       {/if}

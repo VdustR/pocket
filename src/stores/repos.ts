@@ -1,6 +1,6 @@
 import { writable, derived } from "svelte/store";
 import type { Repo, FilterState, LanguageWithCount, TopicWithCount } from "../lib/types";
-import { filterAndSortRepos } from "../lib/search";
+import { filterAndSortRepos, initFuse } from "../lib/search";
 
 declare const __BUILD_TIME__: string;
 
@@ -49,9 +49,10 @@ export async function loadData() {
       fetch(baseUrl + "data/filters.json" + cacheBuster),
     ]);
 
-    const reposData = await reposRes.json();
+    const reposData = (await reposRes.json()) as Repo[];
     const filtersData = await filtersRes.json();
 
+    initFuse(reposData);
     repos.set(reposData);
     languages.set(filtersData.languages);
     topics.set(filtersData.topics);
