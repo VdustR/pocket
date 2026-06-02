@@ -32,6 +32,7 @@
 
   let languageSearchQuery = $state("");
   let topicSearchQuery = $state("");
+  let searchInput = $state<HTMLInputElement | null>(null);
 
   let filteredLanguages = $derived(
     !languageSearchQuery.trim()
@@ -89,6 +90,11 @@
     });
   }
 
+  function clearSearch() {
+    onFilterChange({ query: "" });
+    searchInput?.focus();
+  }
+
   let hasActiveFilters = $derived(
     filter.query ||
       filter.languages.length > 0 ||
@@ -107,6 +113,7 @@
         class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500 dark:text-zinc-400"
       />
       <input
+        bind:this={searchInput}
         type="text"
         value={filter.query}
         oninput={handleQueryChange}
@@ -117,7 +124,7 @@
       />
       {#if filter.query}
         <button
-          onclick={() => onFilterChange({ query: "" })}
+          onclick={clearSearch}
           class="absolute right-3 top-1/2 -translate-y-1/2 rounded text-zinc-500 hover:text-zinc-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 dark:text-zinc-400 dark:hover:text-zinc-200"
           aria-label="Clear search"
         >

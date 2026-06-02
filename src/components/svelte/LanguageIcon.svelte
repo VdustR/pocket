@@ -24,8 +24,9 @@
   <span
     class="inline-flex shrink-0 items-center justify-center {className}"
     title={language}
-    aria-label={ariaHidden ? undefined : language}
-    aria-hidden={ariaHidden}
+    role={ariaHidden ? undefined : "img"}
+    aria-label={ariaHidden ? undefined : `Language: ${language}`}
+    aria-hidden={ariaHidden ? "true" : undefined}
   >
     {#if icon}
       <Icon icon={icon} class="h-full w-full" />

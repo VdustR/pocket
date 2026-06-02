@@ -25,6 +25,10 @@
   let layoutMode = $state<LayoutMode>("card");
   let totalStars = $derived($repos.reduce((sum, repo) => sum + repo.stars, 0));
   let topLanguage = $derived($languages[0]?.name ?? "many languages");
+  const compactFormatter = new Intl.NumberFormat("en-US", {
+    notation: "compact",
+    maximumFractionDigits: 1,
+  });
 
   // Load data on mount
   onMount(async () => {
@@ -98,10 +102,7 @@
   }
 
   function formatCompactNumber(num: number): string {
-    return new Intl.NumberFormat("en-US", {
-      notation: "compact",
-      maximumFractionDigits: 1,
-    }).format(num);
+    return compactFormatter.format(num);
   }
 
   let hasActiveFilters = $derived(Boolean(
