@@ -101,10 +101,11 @@ export function sortRepos(
 
 export function filterAndSortRepos(repos: Repo[], filter: FilterState): Repo[] {
   let result = repos;
+  const query = filter.query.trim();
 
   // Apply search query
-  if (filter.query) {
-    result = searchRepos(result, filter.query);
+  if (query) {
+    result = searchRepos(result, query);
   }
 
   // Apply language filter
@@ -114,7 +115,7 @@ export function filterAndSortRepos(repos: Repo[], filter: FilterState): Repo[] {
   result = filterByTopics(result, filter.topics);
 
   // Apply sorting (only if not searching, as Fuse.js already sorts by relevance)
-  if (!filter.query) {
+  if (!query) {
     result = sortRepos(result, filter.sortField, filter.sortOrder);
   }
 
