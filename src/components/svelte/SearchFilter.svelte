@@ -49,7 +49,11 @@
       : topics.filter((t) => t.name.toLowerCase().includes(topicSearchQuery.toLowerCase()))
   );
 
-  let isSearching = $derived(Boolean(filter.query.trim()));
+  let normalizedQueryInput = $derived(queryInput.trim());
+  let hasSearchInput = $derived(Boolean(normalizedQueryInput));
+  let isSearchPending = $derived(
+    hasSearchInput && normalizedQueryInput !== filter.query.trim()
+  );
 
   const QUERY_DEBOUNCE_MS = 180;
 
@@ -143,7 +147,7 @@
 
   let hasActiveFilters = $derived(
     Boolean(
-      queryInput.trim() ||
+      hasSearchInput ||
         filter.languages.length > 0 ||
         filter.topics.length > 0 ||
         filter.sortField !== "score" ||
@@ -352,13 +356,13 @@
     </div>
 
     <!-- Sort -->
-    {#if isSearching}
+    {#if hasSearchInput}
       <div
         class="btn btn-secondary flex cursor-default items-center gap-2 text-zinc-600 dark:text-zinc-300"
-        aria-label="Sorted by search relevance"
+        aria-label={isSearchPending ? "Search results updating" : "Sorted by search relevance"}
       >
         <Icon icon="ph:sort-ascending-bold" class="w-4 h-4" />
-        <span>Search relevance</span>
+        <span>{isSearchPending ? "Searching" : "Search relevance"}</span>
       </div>
     {:else}
       <div class="relative" data-dropdown>
