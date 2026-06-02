@@ -49,7 +49,7 @@
       : topics.filter((t) => t.name.toLowerCase().includes(topicSearchQuery.toLowerCase()))
   );
 
-  let isSearching = $derived(Boolean(queryInput.trim()));
+  let isSearching = $derived(Boolean(filter.query.trim()));
 
   const QUERY_DEBOUNCE_MS = 180;
 
@@ -63,6 +63,7 @@
 
   $effect(() => {
     if (filter.query !== committedQuery) {
+      clearQueryDebounce();
       committedQuery = filter.query;
       queryInput = filter.query;
     }
