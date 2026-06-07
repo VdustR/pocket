@@ -1,20 +1,20 @@
 {
   "totalRepos": 1609,
-  "totalStars": 26770051,
+  "totalStars": 26770510,
   "languageDistribution": {
     "C": 35,
     "Python": 83,
     "Go": 62,
-    "Shell": 34,
     "TypeScript": 590,
+    "Shell": 34,
     "JavaScript": 364,
     "Rust": 59,
     "Zig": 2,
     "HTML": 37,
     "C#": 25,
     "Vue": 13,
-    "C++": 61,
     "Java": 9,
+    "C++": 61,
     "Kotlin": 6,
     "Objective-C": 3,
     "Dart": 5,
@@ -64,9 +64,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 143169,
+      "stars": 143170,
       "forks": 13203,
-      "watchers": 143169,
+      "watchers": 143170,
       "openIssues": 2829,
       "language": "C",
       "topics": [
@@ -80,7 +80,7 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-06-07T19:09:38Z",
+      "updatedAt": "2026-06-07T19:50:23Z",
       "pushedAt": "2026-05-29T06:45:43Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9868493150684932
@@ -91,10 +91,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 185728,
-      "forks": 31940,
-      "watchers": 185728,
-      "openIssues": 19053,
+      "stars": 185769,
+      "forks": 31946,
+      "watchers": 185769,
+      "openIssues": 19073,
       "language": "Python",
       "topics": [
         "ai",
@@ -115,8 +115,8 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-06-07T19:34:21Z",
-      "pushedAt": "2026-06-07T18:07:15Z",
+      "updatedAt": "2026-06-07T20:31:48Z",
+      "pushedAt": "2026-06-07T19:54:33Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9823287671232876
     },
@@ -126,9 +126,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 73213,
+      "stars": 73216,
       "forks": 4762,
-      "watchers": 73213,
+      "watchers": 73216,
       "openIssues": 248,
       "language": "Go",
       "topics": [
@@ -149,28 +149,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-06-07T19:07:14Z",
+      "updatedAt": "2026-06-07T20:15:36Z",
       "pushedAt": "2026-06-07T16:18:20Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.976838763668912
-    },
-    {
-      "owner": "mattpocock",
-      "name": "skills",
-      "fullName": "mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "homepage": "",
-      "stars": 120283,
-      "forks": 10544,
-      "watchers": 120283,
-      "openIssues": 62,
-      "language": "Shell",
-      "topics": [],
-      "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-06-07T19:31:22Z",
-      "pushedAt": "2026-06-07T17:44:50Z",
-      "starredAt": "2026-03-18T06:37:36Z",
-      "score": 0.9667123287671232
+      "score": 0.9768401872837977
     },
     {
       "owner": "nexu-io",
@@ -178,9 +160,9 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
       "homepage": "https://open-design.ai",
-      "stars": 60835,
-      "forks": 6834,
-      "watchers": 60835,
+      "stars": 60850,
+      "forks": 6835,
+      "watchers": 60850,
       "openIssues": 344,
       "language": "TypeScript",
       "topics": [
@@ -206,10 +188,28 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-06-07T19:24:45Z",
+      "updatedAt": "2026-06-07T20:31:52Z",
       "pushedAt": "2026-06-07T15:26:04Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9667054548374789
+      "score": 0.9667140203108808
+    },
+    {
+      "owner": "mattpocock",
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "homepage": "",
+      "stars": 120298,
+      "forks": 10545,
+      "watchers": 120298,
+      "openIssues": 62,
+      "language": "Shell",
+      "topics": [],
+      "createdAt": "2026-02-03T11:15:53Z",
+      "updatedAt": "2026-06-07T20:30:46Z",
+      "pushedAt": "2026-06-07T17:44:50Z",
+      "starredAt": "2026-03-18T06:37:36Z",
+      "score": 0.9667123287671232
     },
     {
       "owner": "hacksider",
@@ -217,9 +217,9 @@
       "fullName": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
-      "stars": 93649,
-      "forks": 13666,
-      "watchers": 93649,
+      "stars": 93651,
+      "forks": 13668,
+      "watchers": 93651,
       "openIssues": 121,
       "language": "Python",
       "topics": [
@@ -243,10 +243,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-06-07T17:48:17Z",
+      "updatedAt": "2026-06-07T20:24:54Z",
       "pushedAt": "2026-05-31T16:50:59Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.9627891156875854
+      "score": 0.9627898576670315
     },
     {
       "owner": "lxgw",
@@ -276,10 +276,10 @@
       "fullName": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "homepage": "https://openclaw.ai",
-      "stars": 377412,
-      "forks": 78904,
-      "watchers": 377412,
-      "openIssues": 7863,
+      "stars": 377416,
+      "forks": 78907,
+      "watchers": 377416,
+      "openIssues": 7867,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -291,8 +291,8 @@
         "personal"
       ],
       "createdAt": "2025-11-24T10:16:47Z",
-      "updatedAt": "2026-06-07T19:31:13Z",
-      "pushedAt": "2026-06-07T18:24:14Z",
+      "updatedAt": "2026-06-07T20:31:10Z",
+      "pushedAt": "2026-06-07T20:30:59Z",
       "starredAt": "2026-01-27T14:01:52Z",
       "score": 0.9461643835616438
     },
@@ -302,9 +302,9 @@
       "fullName": "D4Vinci/Scrapling",
       "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "homepage": "https://scrapling.readthedocs.io/en/latest/",
-      "stars": 61890,
+      "stars": 61893,
       "forks": 5990,
-      "watchers": 61890,
+      "watchers": 61893,
       "openIssues": 0,
       "language": "Python",
       "topics": [
@@ -330,10 +330,10 @@
         "xpath"
       ],
       "createdAt": "2024-10-13T20:29:53Z",
-      "updatedAt": "2026-06-07T19:27:54Z",
+      "updatedAt": "2026-06-07T20:15:34Z",
       "pushedAt": "2026-06-07T18:42:12Z",
       "starredAt": "2026-03-06T11:22:46Z",
-      "score": 0.9451110219046643
+      "score": 0.9451127059645372
     },
     {
       "owner": "anthropics",
@@ -341,14 +341,14 @@
       "fullName": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "homepage": "https://code.claude.com/docs/en/overview",
-      "stars": 130844,
-      "forks": 21214,
-      "watchers": 130844,
-      "openIssues": 8493,
+      "stars": 130847,
+      "forks": 21215,
+      "watchers": 130847,
+      "openIssues": 8501,
       "language": "Python",
       "topics": [],
       "createdAt": "2025-02-22T17:41:21Z",
-      "updatedAt": "2026-06-07T19:34:30Z",
+      "updatedAt": "2026-06-07T19:58:48Z",
       "pushedAt": "2026-06-06T23:41:53Z",
       "starredAt": "2026-01-24T19:15:11Z",
       "score": 0.944931506849315
@@ -361,17 +361,17 @@
       "fullName": "withastro/flue",
       "description": "The sandbox agent framework.",
       "homepage": "https://www.flueframework.com",
-      "stars": 4765,
+      "stars": 4769,
       "forks": 251,
-      "watchers": 4765,
+      "watchers": 4769,
       "openIssues": 7,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-02-07T22:27:04Z",
-      "updatedAt": "2026-06-07T19:21:01Z",
+      "updatedAt": "2026-06-07T20:03:03Z",
       "pushedAt": "2026-06-07T06:32:44Z",
       "starredAt": "2026-06-05T16:05:15Z",
-      "score": 0.8934304052326159
+      "score": 0.89345955251499
     },
     {
       "owner": "lxgw",
@@ -475,9 +475,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 143169,
+      "stars": 143170,
       "forks": 13203,
-      "watchers": 143169,
+      "watchers": 143170,
       "openIssues": 2829,
       "language": "C",
       "topics": [
@@ -491,7 +491,7 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-06-07T19:09:38Z",
+      "updatedAt": "2026-06-07T19:50:23Z",
       "pushedAt": "2026-05-29T06:45:43Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9868493150684932
@@ -502,9 +502,9 @@
       "fullName": "wiltodelta/remove-ai-watermarks",
       "description": "CLI and Python library to strip visible and invisible AI watermarks and provenance metadata (SynthID, C2PA, EXIF/XMP \"Made with AI\", Gemini sparkle) from AI-generated images",
       "homepage": "https://raiw.cc",
-      "stars": 3010,
+      "stars": 3012,
       "forks": 260,
-      "watchers": 3010,
+      "watchers": 3012,
       "openIssues": 6,
       "language": "Python",
       "topics": [
@@ -528,10 +528,10 @@
         "watermark-removal"
       ],
       "createdAt": "2026-03-25T18:15:24Z",
-      "updatedAt": "2026-06-07T17:36:16Z",
+      "updatedAt": "2026-06-07T20:25:52Z",
       "pushedAt": "2026-06-05T17:27:56Z",
       "starredAt": "2026-05-22T15:42:18Z",
-      "score": 0.870077682358829
+      "score": 0.8701007524516768
     },
     {
       "owner": "crafter-station",
