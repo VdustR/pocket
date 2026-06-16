@@ -1499,11 +1499,11 @@
       "count": 4
     },
     {
-      "name": "comments",
+      "name": "education",
       "count": 4
     },
     {
-      "name": "education",
+      "name": "comments",
       "count": 4
     },
     {
@@ -1671,6 +1671,10 @@
       "count": 4
     },
     {
+      "name": "interactive",
+      "count": 4
+    },
+    {
       "name": "docker-image",
       "count": 4
     },
@@ -1688,10 +1692,6 @@
     },
     {
       "name": "chinese-traditional",
-      "count": 4
-    },
-    {
-      "name": "interactive",
       "count": 4
     },
     {
@@ -2059,11 +2059,11 @@
       "count": 3
     },
     {
-      "name": "widget",
+      "name": "markdown-editor",
       "count": 3
     },
     {
-      "name": "markdown-editor",
+      "name": "widget",
       "count": 3
     },
     {
@@ -2311,6 +2311,10 @@
       "count": 3
     },
     {
+      "name": "flexbox",
+      "count": 3
+    },
+    {
       "name": "slideshow",
       "count": 3
     },
@@ -2336,10 +2340,6 @@
     },
     {
       "name": "korean",
-      "count": 3
-    },
-    {
-      "name": "flexbox",
       "count": 3
     },
     {
@@ -3131,18 +3131,6 @@
       "count": 2
     },
     {
-      "name": "comments-widget",
-      "count": 2
-    },
-    {
-      "name": "github-discussions",
-      "count": 2
-    },
-    {
-      "name": "utterances",
-      "count": 2
-    },
-    {
       "name": "android-app",
       "count": 2
     },
@@ -3160,6 +3148,18 @@
     },
     {
       "name": "status-bar",
+      "count": 2
+    },
+    {
+      "name": "comments-widget",
+      "count": 2
+    },
+    {
+      "name": "github-discussions",
+      "count": 2
+    },
+    {
+      "name": "utterances",
       "count": 2
     },
     {
@@ -4091,10 +4091,6 @@
       "count": 2
     },
     {
-      "name": "ansi",
-      "count": 2
-    },
-    {
       "name": "art",
       "count": 2
     },
@@ -4108,6 +4104,10 @@
     },
     {
       "name": "pixelart",
+      "count": 2
+    },
+    {
+      "name": "ansi",
       "count": 2
     },
     {
@@ -4387,15 +4387,15 @@
       "count": 2
     },
     {
-      "name": "localstorage",
-      "count": 2
-    },
-    {
       "name": "nintendo-ds",
       "count": 2
     },
     {
       "name": "sega-master-system",
+      "count": 2
+    },
+    {
+      "name": "localstorage",
       "count": 2
     },
     {
@@ -6191,14 +6191,6 @@
       "count": 1
     },
     {
-      "name": "comment-system",
-      "count": 1
-    },
-    {
-      "name": "giscus",
-      "count": 1
-    },
-    {
       "name": "asciidoc",
       "count": 1
     },
@@ -6256,6 +6248,14 @@
     },
     {
       "name": "claude-desktop",
+      "count": 1
+    },
+    {
+      "name": "comment-system",
+      "count": 1
+    },
+    {
+      "name": "giscus",
       "count": 1
     },
     {
@@ -9099,18 +9099,6 @@
       "count": 1
     },
     {
-      "name": "bitap",
-      "count": 1
-    },
-    {
-      "name": "lightweight-fuzzy-search",
-      "count": 1
-    },
-    {
-      "name": "weighted-search",
-      "count": 1
-    },
-    {
       "name": "remote-access",
       "count": 1
     },
@@ -9148,6 +9136,18 @@
     },
     {
       "name": "ship",
+      "count": 1
+    },
+    {
+      "name": "bitap",
+      "count": 1
+    },
+    {
+      "name": "lightweight-fuzzy-search",
+      "count": 1
+    },
+    {
+      "name": "weighted-search",
       "count": 1
     },
     {
@@ -9671,6 +9671,22 @@
       "count": 1
     },
     {
+      "name": "gdscript",
+      "count": 1
+    },
+    {
+      "name": "pixel-art-maker",
+      "count": 1
+    },
+    {
+      "name": "pixelorama",
+      "count": 1
+    },
+    {
+      "name": "sprite-animation",
+      "count": 1
+    },
+    {
       "name": "ansi-escape-codes",
       "count": 1
     },
@@ -9692,22 +9708,6 @@
     },
     {
       "name": "probot",
-      "count": 1
-    },
-    {
-      "name": "gdscript",
-      "count": 1
-    },
-    {
-      "name": "pixel-art-maker",
-      "count": 1
-    },
-    {
-      "name": "pixelorama",
-      "count": 1
-    },
-    {
-      "name": "sprite-animation",
       "count": 1
     },
     {
@@ -10699,30 +10699,6 @@
       "count": 1
     },
     {
-      "name": "emby",
-      "count": 1
-    },
-    {
-      "name": "jellyfin",
-      "count": 1
-    },
-    {
-      "name": "kodi",
-      "count": 1
-    },
-    {
-      "name": "movie",
-      "count": 1
-    },
-    {
-      "name": "nas",
-      "count": 1
-    },
-    {
-      "name": "plex",
-      "count": 1
-    },
-    {
       "name": "class-library",
       "count": 1
     },
@@ -10747,15 +10723,27 @@
       "count": 1
     },
     {
-      "name": "glyphs",
+      "name": "emby",
       "count": 1
     },
     {
-      "name": "kerning",
+      "name": "jellyfin",
       "count": 1
     },
     {
-      "name": "opentypejs",
+      "name": "kodi",
+      "count": 1
+    },
+    {
+      "name": "movie",
+      "count": 1
+    },
+    {
+      "name": "nas",
+      "count": 1
+    },
+    {
+      "name": "plex",
       "count": 1
     },
     {
@@ -10787,11 +10775,15 @@
       "count": 1
     },
     {
-      "name": "hacktoberfest2025",
+      "name": "glyphs",
       "count": 1
     },
     {
-      "name": "testing-library",
+      "name": "kerning",
+      "count": 1
+    },
+    {
+      "name": "opentypejs",
       "count": 1
     },
     {
@@ -10800,6 +10792,14 @@
     },
     {
       "name": "urlsearchparams",
+      "count": 1
+    },
+    {
+      "name": "hacktoberfest2025",
+      "count": 1
+    },
+    {
+      "name": "testing-library",
       "count": 1
     },
     {
@@ -11083,10 +11083,6 @@
       "count": 1
     },
     {
-      "name": "embeddable",
-      "count": 1
-    },
-    {
       "name": "story",
       "count": 1
     },
@@ -11120,6 +11116,10 @@
     },
     {
       "name": "snes",
+      "count": 1
+    },
+    {
+      "name": "embeddable",
       "count": 1
     },
     {
@@ -11347,18 +11347,6 @@
       "count": 1
     },
     {
-      "name": "eta",
-      "count": 1
-    },
-    {
-      "name": "lume",
-      "count": 1
-    },
-    {
-      "name": "nunjucks",
-      "count": 1
-    },
-    {
       "name": "cielab",
       "count": 1
     },
@@ -11452,6 +11440,18 @@
     },
     {
       "name": "userland",
+      "count": 1
+    },
+    {
+      "name": "eta",
+      "count": 1
+    },
+    {
+      "name": "lume",
+      "count": 1
+    },
+    {
+      "name": "nunjucks",
       "count": 1
     },
     {
@@ -11651,14 +11651,6 @@
       "count": 1
     },
     {
-      "name": "google-sheets-api-v4",
-      "count": 1
-    },
-    {
-      "name": "google-spreadsheets",
-      "count": 1
-    },
-    {
       "name": "beautiful",
       "count": 1
     },
@@ -11676,6 +11668,14 @@
     },
     {
       "name": "tweet",
+      "count": 1
+    },
+    {
+      "name": "google-sheets-api-v4",
+      "count": 1
+    },
+    {
+      "name": "google-spreadsheets",
       "count": 1
     },
     {
@@ -12035,18 +12035,6 @@
       "count": 1
     },
     {
-      "name": "persistent",
-      "count": 1
-    },
-    {
-      "name": "qs",
-      "count": 1
-    },
-    {
-      "name": "querystring",
-      "count": 1
-    },
-    {
       "name": "color-names",
       "count": 1
     },
@@ -12096,6 +12084,18 @@
     },
     {
       "name": "tensorflowjs",
+      "count": 1
+    },
+    {
+      "name": "persistent",
+      "count": 1
+    },
+    {
+      "name": "qs",
+      "count": 1
+    },
+    {
+      "name": "querystring",
       "count": 1
     },
     {
@@ -13331,15 +13331,15 @@
       "count": 1
     },
     {
-      "name": "inspect",
-      "count": 1
-    },
-    {
       "name": "menu-bar",
       "count": 1
     },
     {
       "name": "statusbar",
+      "count": 1
+    },
+    {
+      "name": "inspect",
       "count": 1
     },
     {
