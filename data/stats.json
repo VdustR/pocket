@@ -1,16 +1,16 @@
 {
-  "totalRepos": 1616,
-  "totalStars": 27011686,
+  "totalRepos": 1617,
+  "totalStars": 27051004,
   "languageDistribution": {
     "JavaScript": 366,
     "Python": 84,
     "C": 35,
     "Go": 63,
+    "Swift": 14,
     "TypeScript": 590,
     "Shell": 34,
     "Rust": 59,
     "Zig": 2,
-    "Swift": 13,
     "HTML": 40,
     "C#": 24,
     "Java": 10,
@@ -64,10 +64,10 @@
       "fullName": "thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "homepage": "https://claude-mem.ai",
-      "stars": 82899,
-      "forks": 7179,
-      "watchers": 82899,
-      "openIssues": 177,
+      "stars": 82917,
+      "forks": 7180,
+      "watchers": 82917,
+      "openIssues": 180,
       "language": "JavaScript",
       "topics": [
         "ai",
@@ -92,10 +92,10 @@
         "supermemory"
       ],
       "createdAt": "2025-08-31T20:50:03Z",
-      "updatedAt": "2026-06-17T10:33:33Z",
+      "updatedAt": "2026-06-17T12:25:23Z",
       "pushedAt": "2026-06-16T23:55:52Z",
       "starredAt": "2026-06-16T23:32:43Z",
-      "score": 0.9934843624440219
+      "score": 0.993491905461745
     },
     {
       "owner": "NousResearch",
@@ -103,10 +103,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 195783,
-      "forks": 34406,
-      "watchers": 195783,
-      "openIssues": 21426,
+      "stars": 195857,
+      "forks": 34430,
+      "watchers": 195857,
+      "openIssues": 21467,
       "language": "Python",
       "topics": [
         "ai",
@@ -127,8 +127,8 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-06-17T10:34:25Z",
-      "pushedAt": "2026-06-17T10:07:42Z",
+      "updatedAt": "2026-06-17T12:25:44Z",
+      "pushedAt": "2026-06-17T12:20:35Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9786301369863013
     },
@@ -138,9 +138,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 143701,
+      "stars": 143708,
       "forks": 13249,
-      "watchers": 143701,
+      "watchers": 143708,
       "openIssues": 2833,
       "language": "C",
       "topics": [
@@ -154,7 +154,7 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-06-17T09:42:07Z",
+      "updatedAt": "2026-06-17T12:26:27Z",
       "pushedAt": "2026-05-29T06:45:43Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9745205479452055
@@ -165,9 +165,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 73388,
+      "stars": 73392,
       "forks": 4775,
-      "watchers": 73388,
+      "watchers": 73392,
       "openIssues": 245,
       "language": "Go",
       "topics": [
@@ -188,10 +188,28 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-06-17T10:16:27Z",
+      "updatedAt": "2026-06-17T12:22:33Z",
       "pushedAt": "2026-06-17T05:39:45Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9732230803424894
+      "score": 0.9732249739566143
+    },
+    {
+      "owner": "apple",
+      "name": "container",
+      "fullName": "apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+      "homepage": "https://apple.github.io/container/documentation/",
+      "stars": 38077,
+      "forks": 1099,
+      "watchers": 38077,
+      "openIssues": 335,
+      "language": "Swift",
+      "topics": [],
+      "createdAt": "2025-05-30T21:26:05Z",
+      "updatedAt": "2026-06-17T12:25:56Z",
+      "pushedAt": "2026-06-16T21:14:00Z",
+      "starredAt": "2026-06-17T12:16:32Z",
+      "score": 0.9664539303623434
     },
     {
       "owner": "nexu-io",
@@ -199,10 +217,10 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
       "homepage": "https://open-design.ai",
-      "stars": 66298,
-      "forks": 7430,
-      "watchers": 66298,
-      "openIssues": 396,
+      "stars": 66358,
+      "forks": 7438,
+      "watchers": 66358,
+      "openIssues": 397,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -227,10 +245,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-06-17T10:34:26Z",
+      "updatedAt": "2026-06-17T12:24:16Z",
       "pushedAt": "2026-06-17T10:11:19Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9659945308355955
+      "score": 0.9660259592252183
     },
     {
       "owner": "hacksider",
@@ -238,9 +256,9 @@
       "fullName": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
-      "stars": 93902,
-      "forks": 13694,
-      "watchers": 93902,
+      "stars": 93908,
+      "forks": 13695,
+      "watchers": 93908,
       "openIssues": 59,
       "language": "Python",
       "topics": [
@@ -264,10 +282,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-06-17T10:23:19Z",
+      "updatedAt": "2026-06-17T12:18:34Z",
       "pushedAt": "2026-06-14T15:04:27Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.9628828505320873
+      "score": 0.9628850704259321
     },
     {
       "owner": "mattpocock",
@@ -275,14 +293,14 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "homepage": "",
-      "stars": 132646,
-      "forks": 11533,
-      "watchers": 132646,
+      "stars": 132754,
+      "forks": 11541,
+      "watchers": 132754,
       "openIssues": 79,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-06-17T10:37:32Z",
+      "updatedAt": "2026-06-17T12:26:33Z",
       "pushedAt": "2026-06-12T08:25:23Z",
       "starredAt": "2026-03-18T06:37:36Z",
       "score": 0.9584931506849315
@@ -293,10 +311,10 @@
       "fullName": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "homepage": "https://openclaw.ai",
-      "stars": 379129,
-      "forks": 79348,
-      "watchers": 379129,
-      "openIssues": 6380,
+      "stars": 379147,
+      "forks": 79354,
+      "watchers": 379147,
+      "openIssues": 6397,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -308,8 +326,8 @@
         "personal"
       ],
       "createdAt": "2025-11-24T10:16:47Z",
-      "updatedAt": "2026-06-17T10:37:10Z",
-      "pushedAt": "2026-06-17T10:36:45Z",
+      "updatedAt": "2026-06-17T12:26:32Z",
+      "pushedAt": "2026-06-17T12:26:18Z",
       "starredAt": "2026-01-27T14:01:52Z",
       "score": 0.9424657534246574
     },
@@ -319,60 +337,48 @@
       "fullName": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "homepage": "https://code.claude.com/docs/en/overview",
-      "stars": 132938,
-      "forks": 21503,
-      "watchers": 132938,
-      "openIssues": 8935,
+      "stars": 132959,
+      "forks": 21507,
+      "watchers": 132959,
+      "openIssues": 8885,
       "language": "Python",
       "topics": [],
       "createdAt": "2025-02-22T17:41:21Z",
-      "updatedAt": "2026-06-17T10:36:39Z",
+      "updatedAt": "2026-06-17T12:26:31Z",
       "pushedAt": "2026-06-16T20:44:35Z",
       "starredAt": "2026-01-24T19:15:11Z",
       "score": 0.9412328767123287
-    },
-    {
-      "owner": "heygen-com",
-      "name": "hyperframes",
-      "fullName": "heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "homepage": "",
-      "stars": 28246,
-      "forks": 2667,
-      "watchers": 28246,
-      "openIssues": 63,
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "animation",
-        "ffmpeg",
-        "framework",
-        "gsap",
-        "html",
-        "mcp",
-        "puppeteer",
-        "rendering",
-        "typescript",
-        "video"
-      ],
-      "createdAt": "2026-03-10T01:51:06Z",
-      "updatedAt": "2026-06-17T10:37:06Z",
-      "pushedAt": "2026-06-17T08:22:24Z",
-      "starredAt": "2026-05-09T07:47:14Z",
-      "score": 0.9400503891348027
     }
   ],
   "recentlyStarred": [
+    {
+      "owner": "apple",
+      "name": "container",
+      "fullName": "apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+      "homepage": "https://apple.github.io/container/documentation/",
+      "stars": 38077,
+      "forks": 1099,
+      "watchers": 38077,
+      "openIssues": 335,
+      "language": "Swift",
+      "topics": [],
+      "createdAt": "2025-05-30T21:26:05Z",
+      "updatedAt": "2026-06-17T12:25:56Z",
+      "pushedAt": "2026-06-16T21:14:00Z",
+      "starredAt": "2026-06-17T12:16:32Z",
+      "score": 0.9664539303623434
+    },
     {
       "owner": "thedotmack",
       "name": "claude-mem",
       "fullName": "thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "homepage": "https://claude-mem.ai",
-      "stars": 82899,
-      "forks": 7179,
-      "watchers": 82899,
-      "openIssues": 177,
+      "stars": 82917,
+      "forks": 7180,
+      "watchers": 82917,
+      "openIssues": 180,
       "language": "JavaScript",
       "topics": [
         "ai",
@@ -397,10 +403,10 @@
         "supermemory"
       ],
       "createdAt": "2025-08-31T20:50:03Z",
-      "updatedAt": "2026-06-17T10:33:33Z",
+      "updatedAt": "2026-06-17T12:25:23Z",
       "pushedAt": "2026-06-16T23:55:52Z",
       "starredAt": "2026-06-16T23:32:43Z",
-      "score": 0.9934843624440219
+      "score": 0.993491905461745
     },
     {
       "owner": "Trixarian",
@@ -424,7 +430,7 @@
         "ps2"
       ],
       "createdAt": "2023-10-21T12:45:55Z",
-      "updatedAt": "2026-06-16T08:47:21Z",
+      "updatedAt": "2026-06-17T11:31:23Z",
       "pushedAt": "2026-05-30T14:16:16Z",
       "starredAt": "2026-06-15T13:14:17Z",
       "score": 0.8273446556384236
@@ -474,17 +480,17 @@
       "fullName": "WEIFENG2333/phistory",
       "description": "Phistory automatically archives versioned system prompt snapshots from agent CLIs like Claude Code, Codex, OpenClaw, and Hermes.",
       "homepage": "https://phistory.cc",
-      "stars": 182,
+      "stars": 183,
       "forks": 15,
-      "watchers": 182,
+      "watchers": 183,
       "openIssues": 2,
       "language": "HTML",
       "topics": [],
       "createdAt": "2026-05-21T17:08:21Z",
-      "updatedAt": "2026-06-17T08:05:53Z",
+      "updatedAt": "2026-06-17T11:54:22Z",
       "pushedAt": "2026-06-17T00:01:12Z",
       "starredAt": "2026-06-14T01:23:47Z",
-      "score": 0.7797632104661055
+      "score": 0.779952549128434
     },
     {
       "owner": "Finb",
@@ -520,9 +526,9 @@
       "fullName": "plannotator/effective-html",
       "description": "Agent skill for elegant and simple html plans, architecture diagrams, or whatever else you can think of.",
       "homepage": "https://plannotator.ai",
-      "stars": 1015,
+      "stars": 1016,
       "forks": 71,
-      "watchers": 1015,
+      "watchers": 1016,
       "openIssues": 2,
       "language": "HTML",
       "topics": [
@@ -530,10 +536,10 @@
         "skills"
       ],
       "createdAt": "2026-06-09T23:24:51Z",
-      "updatedAt": "2026-06-17T09:11:23Z",
+      "updatedAt": "2026-06-17T12:09:38Z",
       "pushedAt": "2026-06-15T06:13:32Z",
       "starredAt": "2026-06-12T12:46:09Z",
-      "score": 0.8372638254029554
+      "score": 0.8372980050009429
     },
     {
       "owner": "benjojo",
@@ -564,17 +570,17 @@
       "fullName": "withastro/flue",
       "description": "The sandbox agent framework.",
       "homepage": "https://www.flueframework.com",
-      "stars": 5156,
-      "forks": 275,
-      "watchers": 5156,
+      "stars": 5181,
+      "forks": 279,
+      "watchers": 5181,
       "openIssues": 8,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-02-07T22:27:04Z",
-      "updatedAt": "2026-06-17T10:36:32Z",
+      "updatedAt": "2026-06-17T12:20:00Z",
       "pushedAt": "2026-06-17T08:04:25Z",
       "starredAt": "2026-06-05T16:05:15Z",
-      "score": 0.8924712225673317
+      "score": 0.892639244746779
     },
     {
       "owner": "lxgw",
@@ -597,26 +603,6 @@
       "pushedAt": "2026-06-09T02:57:24Z",
       "starredAt": "2026-06-02T16:05:18Z",
       "score": 0.9391291621856162
-    },
-    {
-      "owner": "max32002",
-      "name": "pop-gothic",
-      "fullName": "max32002/pop-gothic",
-      "description": "大波浪圓體是はちまるポップ字體的補字計畫。與原作者的主要差異是調整部件寫法、新增中文字、增加為5個字重、增加一些符號。可以免費商用，歡迎大家自由應用、自由優化、自由改作！",
-      "homepage": "https://max-everyday.com/2021/11/pop-gothic/",
-      "stars": 101,
-      "forks": 3,
-      "watchers": 101,
-      "openIssues": 0,
-      "language": null,
-      "topics": [
-        "font"
-      ],
-      "createdAt": "2021-07-28T11:37:33Z",
-      "updatedAt": "2026-06-08T08:31:33Z",
-      "pushedAt": "2023-01-05T00:20:19Z",
-      "starredAt": "2026-06-02T16:01:21Z",
-      "score": 0.45493458908341916
     }
   ]
 }
