@@ -2091,15 +2091,15 @@
       "count": 3
     },
     {
-      "name": "fake",
-      "count": 3
-    },
-    {
       "name": "desktop-environment",
       "count": 3
     },
     {
       "name": "unix",
+      "count": 3
+    },
+    {
+      "name": "fake",
       "count": 3
     },
     {
@@ -2951,6 +2951,10 @@
       "count": 2
     },
     {
+      "name": "ai-engineering",
+      "count": 2
+    },
+    {
       "name": "userscript",
       "count": 2
     },
@@ -2968,10 +2972,6 @@
     },
     {
       "name": "vlm",
-      "count": 2
-    },
-    {
-      "name": "ai-engineering",
       "count": 2
     },
     {
@@ -3275,10 +3275,6 @@
       "count": 2
     },
     {
-      "name": "programming-language",
-      "count": 2
-    },
-    {
       "name": "books",
       "count": 2
     },
@@ -3328,6 +3324,10 @@
     },
     {
       "name": "material-ui",
+      "count": 2
+    },
+    {
+      "name": "programming-language",
       "count": 2
     },
     {
@@ -3939,14 +3939,6 @@
       "count": 2
     },
     {
-      "name": "blazor",
-      "count": 2
-    },
-    {
-      "name": "pkhex",
-      "count": 2
-    },
-    {
       "name": "configuration-file",
       "count": 2
     },
@@ -3968,6 +3960,14 @@
     },
     {
       "name": "secrets",
+      "count": 2
+    },
+    {
+      "name": "blazor",
+      "count": 2
+    },
+    {
+      "name": "pkhex",
       "count": 2
     },
     {
@@ -6463,14 +6463,6 @@
       "count": 1
     },
     {
-      "name": "nonsense",
-      "count": 1
-    },
-    {
-      "name": "useless",
-      "count": 1
-    },
-    {
       "name": "bubbletea",
       "count": 1
     },
@@ -6480,6 +6472,14 @@
     },
     {
       "name": "operating-system",
+      "count": 1
+    },
+    {
+      "name": "nonsense",
+      "count": 1
+    },
+    {
+      "name": "useless",
       "count": 1
     },
     {
@@ -8071,6 +8071,14 @@
       "count": 1
     },
     {
+      "name": "oci",
+      "count": 1
+    },
+    {
+      "name": "proton",
+      "count": 1
+    },
+    {
       "name": "data-fetching",
       "count": 1
     },
@@ -8080,14 +8088,6 @@
     },
     {
       "name": "swr",
-      "count": 1
-    },
-    {
-      "name": "oci",
-      "count": 1
-    },
-    {
-      "name": "proton",
       "count": 1
     },
     {
@@ -8847,6 +8847,10 @@
       "count": 1
     },
     {
+      "name": "windicss",
+      "count": 1
+    },
+    {
       "name": "charting-library",
       "count": 1
     },
@@ -8864,10 +8868,6 @@
     },
     {
       "name": "regl",
-      "count": 1
-    },
-    {
-      "name": "windicss",
       "count": 1
     },
     {
@@ -8971,6 +8971,34 @@
       "count": 1
     },
     {
+      "name": "apache",
+      "count": 1
+    },
+    {
+      "name": "data-analysis",
+      "count": 1
+    },
+    {
+      "name": "gdpr",
+      "count": 1
+    },
+    {
+      "name": "goaccess",
+      "count": 1
+    },
+    {
+      "name": "webserver",
+      "count": 1
+    },
+    {
+      "name": "web-ui",
+      "count": 1
+    },
+    {
+      "name": "webui",
+      "count": 1
+    },
+    {
       "name": "asp-net",
       "count": 1
     },
@@ -9016,34 +9044,6 @@
     },
     {
       "name": "pokemon-game",
-      "count": 1
-    },
-    {
-      "name": "apache",
-      "count": 1
-    },
-    {
-      "name": "data-analysis",
-      "count": 1
-    },
-    {
-      "name": "gdpr",
-      "count": 1
-    },
-    {
-      "name": "goaccess",
-      "count": 1
-    },
-    {
-      "name": "webserver",
-      "count": 1
-    },
-    {
-      "name": "web-ui",
-      "count": 1
-    },
-    {
-      "name": "webui",
       "count": 1
     },
     {
@@ -9987,34 +9987,6 @@
       "count": 1
     },
     {
-      "name": "api-mocking",
-      "count": 1
-    },
-    {
-      "name": "mock-service-worker",
-      "count": 1
-    },
-    {
-      "name": "mocking",
-      "count": 1
-    },
-    {
-      "name": "mocking-framework",
-      "count": 1
-    },
-    {
-      "name": "mocking-library",
-      "count": 1
-    },
-    {
-      "name": "msw",
-      "count": 1
-    },
-    {
-      "name": "mswjs",
-      "count": 1
-    },
-    {
       "name": "control",
       "count": 1
     },
@@ -10051,14 +10023,6 @@
       "count": 1
     },
     {
-      "name": "isomorphic-javascript",
-      "count": 1
-    },
-    {
-      "name": "vcs",
-      "count": 1
-    },
-    {
       "name": "github-enterprise",
       "count": 1
     },
@@ -10080,6 +10044,42 @@
     },
     {
       "name": "github-sponsors",
+      "count": 1
+    },
+    {
+      "name": "api-mocking",
+      "count": 1
+    },
+    {
+      "name": "mock-service-worker",
+      "count": 1
+    },
+    {
+      "name": "mocking",
+      "count": 1
+    },
+    {
+      "name": "mocking-framework",
+      "count": 1
+    },
+    {
+      "name": "mocking-library",
+      "count": 1
+    },
+    {
+      "name": "msw",
+      "count": 1
+    },
+    {
+      "name": "mswjs",
+      "count": 1
+    },
+    {
+      "name": "isomorphic-javascript",
+      "count": 1
+    },
+    {
+      "name": "vcs",
       "count": 1
     },
     {
@@ -12467,14 +12467,6 @@
       "count": 1
     },
     {
-      "name": "explorer",
-      "count": 1
-    },
-    {
-      "name": "inspector",
-      "count": 1
-    },
-    {
       "name": "immer",
       "count": 1
     },
@@ -12512,6 +12504,14 @@
     },
     {
       "name": "victor-mono",
+      "count": 1
+    },
+    {
+      "name": "explorer",
+      "count": 1
+    },
+    {
+      "name": "inspector",
       "count": 1
     },
     {
@@ -13475,10 +13475,6 @@
       "count": 1
     },
     {
-      "name": "es-modules",
-      "count": 1
-    },
-    {
       "name": "bootstrap-theme",
       "count": 1
     },
@@ -13496,6 +13492,10 @@
     },
     {
       "name": "webcomponent",
+      "count": 1
+    },
+    {
+      "name": "es-modules",
       "count": 1
     },
     {
