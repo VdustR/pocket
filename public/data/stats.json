@@ -1,7 +1,8 @@
 {
-  "totalRepos": 1620,
-  "totalStars": 27105075,
+  "totalRepos": 1621,
+  "totalStars": 27285437,
   "languageDistribution": {
+    "Batchfile": 1,
     "JavaScript": 366,
     "Python": 85,
     "Go": 64,
@@ -59,15 +60,50 @@
   },
   "topActiveRepos": [
     {
+      "owner": "massgravel",
+      "name": "Microsoft-Activation-Scripts",
+      "fullName": "massgravel/Microsoft-Activation-Scripts",
+      "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
+      "homepage": "https://massgrave.dev",
+      "stars": 179946,
+      "forks": 17234,
+      "watchers": 179946,
+      "openIssues": 2,
+      "language": "Batchfile",
+      "topics": [
+        "activator",
+        "hwid",
+        "kms",
+        "kms38",
+        "massgrave",
+        "massgravel",
+        "microsoft",
+        "microsoft365",
+        "office",
+        "office365",
+        "ohook",
+        "powershell",
+        "tsforge",
+        "windows",
+        "windows-10",
+        "windows-11"
+      ],
+      "createdAt": "2020-01-12T23:03:34Z",
+      "updatedAt": "2026-06-20T22:29:38Z",
+      "pushedAt": "2026-06-11T17:21:39Z",
+      "starredAt": "2026-06-20T21:47:10Z",
+      "score": 0.9926027397260275
+    },
+    {
       "owner": "thedotmack",
       "name": "claude-mem",
       "fullName": "thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "homepage": "https://claude-mem.ai",
-      "stars": 83386,
-      "forks": 7219,
-      "watchers": 83386,
-      "openIssues": 195,
+      "stars": 83388,
+      "forks": 7218,
+      "watchers": 83388,
+      "openIssues": 196,
       "language": "JavaScript",
       "topics": [
         "ai",
@@ -92,10 +128,10 @@
         "supermemory"
       ],
       "createdAt": "2025-08-31T20:50:03Z",
-      "updatedAt": "2026-06-20T21:06:30Z",
+      "updatedAt": "2026-06-20T22:28:45Z",
       "pushedAt": "2026-06-20T07:05:21Z",
       "starredAt": "2026-06-16T23:32:43Z",
-      "score": 0.9924549912539583
+      "score": 0.9924558245527197
     },
     {
       "owner": "NousResearch",
@@ -103,10 +139,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 198245,
-      "forks": 35148,
-      "watchers": 198245,
-      "openIssues": 22595,
+      "stars": 198262,
+      "forks": 35153,
+      "watchers": 198262,
+      "openIssues": 22602,
       "language": "Python",
       "topics": [
         "ai",
@@ -127,7 +163,7 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-06-20T21:32:33Z",
+      "updatedAt": "2026-06-20T22:30:09Z",
       "pushedAt": "2026-06-20T20:24:32Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.976986301369863
@@ -172,9 +208,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 143899,
+      "stars": 143901,
       "forks": 13260,
-      "watchers": 143899,
+      "watchers": 143901,
       "openIssues": 2837,
       "language": "C",
       "topics": [
@@ -188,7 +224,7 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-06-20T21:01:44Z",
+      "updatedAt": "2026-06-20T21:54:27Z",
       "pushedAt": "2026-05-29T06:45:43Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9708219178082191
@@ -199,17 +235,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 39072,
+      "stars": 39080,
       "forks": 1122,
-      "watchers": 39072,
+      "watchers": 39080,
       "openIssues": 356,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-06-20T21:25:20Z",
+      "updatedAt": "2026-06-20T22:21:13Z",
       "pushedAt": "2026-06-20T19:01:53Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9661172638763161
+      "score": 0.9661243767168461
     },
     {
       "owner": "nexu-io",
@@ -217,9 +253,9 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
       "homepage": "https://open-design.ai",
-      "stars": 68229,
-      "forks": 7652,
-      "watchers": 68229,
+      "stars": 68234,
+      "forks": 7653,
+      "watchers": 68234,
       "openIssues": 414,
       "language": "TypeScript",
       "topics": [
@@ -245,10 +281,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-06-20T21:25:26Z",
+      "updatedAt": "2026-06-20T22:26:59Z",
       "pushedAt": "2026-06-20T18:47:24Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9653481666886938
+      "score": 0.9653507126571523
     },
     {
       "owner": "mattpocock",
@@ -256,14 +292,14 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "homepage": "",
-      "stars": 138095,
-      "forks": 11980,
-      "watchers": 138095,
+      "stars": 138127,
+      "forks": 11987,
+      "watchers": 138127,
       "openIssues": 86,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-06-20T21:31:38Z",
+      "updatedAt": "2026-06-20T22:29:59Z",
       "pushedAt": "2026-06-18T08:41:52Z",
       "starredAt": "2026-03-18T06:37:36Z",
       "score": 0.9597260273972603
@@ -274,9 +310,9 @@
       "fullName": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
-      "stars": 94010,
+      "stars": 94012,
       "forks": 13705,
-      "watchers": 94010,
+      "watchers": 94012,
       "openIssues": 58,
       "language": "Python",
       "topics": [
@@ -300,10 +336,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-06-20T20:18:09Z",
+      "updatedAt": "2026-06-20T22:21:47Z",
       "pushedAt": "2026-06-14T15:04:27Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.9584022389911604
+      "score": 0.9584029781214534
     },
     {
       "owner": "openclaw",
@@ -311,10 +347,10 @@
       "fullName": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "homepage": "https://openclaw.ai",
-      "stars": 379666,
-      "forks": 79483,
-      "watchers": 379666,
-      "openIssues": 6457,
+      "stars": 379672,
+      "forks": 79482,
+      "watchers": 379672,
+      "openIssues": 6462,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -326,51 +362,48 @@
         "personal"
       ],
       "createdAt": "2025-11-24T10:16:47Z",
-      "updatedAt": "2026-06-20T21:30:12Z",
-      "pushedAt": "2026-06-20T21:29:59Z",
+      "updatedAt": "2026-06-20T22:28:40Z",
+      "pushedAt": "2026-06-20T22:28:28Z",
       "starredAt": "2026-01-27T14:01:52Z",
       "score": 0.9408219178082191
-    },
-    {
-      "owner": "nextlevelbuilder",
-      "name": "ui-ux-pro-max-skill",
-      "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
-      "homepage": "https://www.uupm.cc/",
-      "stars": 94319,
-      "forks": 9877,
-      "watchers": 94319,
-      "openIssues": 200,
-      "language": "Python",
-      "topics": [
-        "ai-skills",
-        "antigravity",
-        "claude",
-        "claude-code",
-        "codex",
-        "command-line",
-        "copilot",
-        "cursor-ai",
-        "html5",
-        "kiro",
-        "landing-page",
-        "mobile-ui",
-        "qoder",
-        "react",
-        "tailwindcss",
-        "trae",
-        "ui-design",
-        "uikit",
-        "windsurf-ai"
-      ],
-      "createdAt": "2025-11-30T11:36:31Z",
-      "updatedAt": "2026-06-20T21:32:18Z",
-      "pushedAt": "2026-06-20T19:00:04Z",
-      "starredAt": "2026-01-30T02:34:01Z",
-      "score": 0.9400230978875105
     }
   ],
   "recentlyStarred": [
+    {
+      "owner": "massgravel",
+      "name": "Microsoft-Activation-Scripts",
+      "fullName": "massgravel/Microsoft-Activation-Scripts",
+      "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
+      "homepage": "https://massgrave.dev",
+      "stars": 179946,
+      "forks": 17234,
+      "watchers": 179946,
+      "openIssues": 2,
+      "language": "Batchfile",
+      "topics": [
+        "activator",
+        "hwid",
+        "kms",
+        "kms38",
+        "massgrave",
+        "massgravel",
+        "microsoft",
+        "microsoft365",
+        "office",
+        "office365",
+        "ohook",
+        "powershell",
+        "tsforge",
+        "windows",
+        "windows-10",
+        "windows-11"
+      ],
+      "createdAt": "2020-01-12T23:03:34Z",
+      "updatedAt": "2026-06-20T22:29:38Z",
+      "pushedAt": "2026-06-11T17:21:39Z",
+      "starredAt": "2026-06-20T21:47:10Z",
+      "score": 0.9926027397260275
+    },
     {
       "owner": "VdustR",
       "name": "ptt-font-tool",
@@ -421,10 +454,10 @@
       "fullName": "vercel/eve",
       "description": "The Framework for Building Agents",
       "homepage": "https://vercel.com/eve",
-      "stars": 1846,
+      "stars": 1852,
       "forks": 120,
-      "watchers": 1846,
-      "openIssues": 64,
+      "watchers": 1852,
+      "openIssues": 62,
       "language": "TypeScript",
       "topics": [
         "agent",
@@ -438,10 +471,10 @@
         "workflows"
       ],
       "createdAt": "2026-06-16T10:51:20Z",
-      "updatedAt": "2026-06-20T21:27:25Z",
-      "pushedAt": "2026-06-20T21:32:44Z",
+      "updatedAt": "2026-06-20T22:29:03Z",
+      "pushedAt": "2026-06-20T22:13:51Z",
       "starredAt": "2026-06-18T00:16:18Z",
-      "score": 0.8604954338270001
+      "score": 0.8606081157372927
     },
     {
       "owner": "apple",
@@ -449,17 +482,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 39072,
+      "stars": 39080,
       "forks": 1122,
-      "watchers": 39072,
+      "watchers": 39080,
       "openIssues": 356,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-06-20T21:25:20Z",
+      "updatedAt": "2026-06-20T22:21:13Z",
       "pushedAt": "2026-06-20T19:01:53Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9661172638763161
+      "score": 0.9661243767168461
     },
     {
       "owner": "thedotmack",
@@ -467,10 +500,10 @@
       "fullName": "thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "homepage": "https://claude-mem.ai",
-      "stars": 83386,
-      "forks": 7219,
-      "watchers": 83386,
-      "openIssues": 195,
+      "stars": 83388,
+      "forks": 7218,
+      "watchers": 83388,
+      "openIssues": 196,
       "language": "JavaScript",
       "topics": [
         "ai",
@@ -495,10 +528,10 @@
         "supermemory"
       ],
       "createdAt": "2025-08-31T20:50:03Z",
-      "updatedAt": "2026-06-20T21:06:30Z",
+      "updatedAt": "2026-06-20T22:28:45Z",
       "pushedAt": "2026-06-20T07:05:21Z",
       "starredAt": "2026-06-16T23:32:43Z",
-      "score": 0.9924549912539583
+      "score": 0.9924558245527197
     },
     {
       "owner": "Trixarian",
@@ -579,8 +612,8 @@
       "language": "HTML",
       "topics": [],
       "createdAt": "2026-05-21T17:08:21Z",
-      "updatedAt": "2026-06-20T14:45:34Z",
-      "pushedAt": "2026-06-20T02:20:04Z",
+      "updatedAt": "2026-06-20T21:52:42Z",
+      "pushedAt": "2026-06-20T21:52:38Z",
       "starredAt": "2026-06-14T01:23:47Z",
       "score": 0.7817899311689815
     },
@@ -611,27 +644,6 @@
       "pushedAt": "2026-06-15T01:59:53Z",
       "starredAt": "2026-06-13T08:46:29Z",
       "score": 0.9073590367704165
-    },
-    {
-      "owner": "plannotator",
-      "name": "effective-html",
-      "fullName": "plannotator/effective-html",
-      "description": "Agent skill for elegant and simple html plans, architecture diagrams, or whatever else you can think of.",
-      "homepage": "https://plannotator.ai",
-      "stars": 1096,
-      "forks": 76,
-      "watchers": 1096,
-      "openIssues": 2,
-      "language": "HTML",
-      "topics": [
-        "agent-skills",
-        "skills"
-      ],
-      "createdAt": "2026-06-09T23:24:51Z",
-      "updatedAt": "2026-06-20T19:17:37Z",
-      "pushedAt": "2026-06-19T20:54:33Z",
-      "starredAt": "2026-06-12T12:46:09Z",
-      "score": 0.839106941164881
     }
   ]
 }
