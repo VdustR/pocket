@@ -1,12 +1,12 @@
 {
   "totalRepos": 1623,
-  "totalStars": 27320996,
+  "totalStars": 27321337,
   "languageDistribution": {
     "JavaScript": 367,
     "Batchfile": 1,
+    "C": 34,
     "Python": 85,
     "Go": 64,
-    "C": 34,
     "Swift": 14,
     "TypeScript": 590,
     "Shell": 34,
@@ -65,9 +65,9 @@
       "fullName": "thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "homepage": "https://claude-mem.ai",
-      "stars": 83756,
+      "stars": 83757,
       "forks": 7235,
-      "watchers": 83756,
+      "watchers": 83757,
       "openIssues": 202,
       "language": "JavaScript",
       "topics": [
@@ -93,10 +93,10 @@
         "supermemory"
       ],
       "createdAt": "2025-08-31T20:50:03Z",
-      "updatedAt": "2026-06-22T21:07:37Z",
-      "pushedAt": "2026-06-21T22:43:44Z",
+      "updatedAt": "2026-06-22T22:21:40Z",
+      "pushedAt": "2026-06-22T22:33:58Z",
       "starredAt": "2026-06-16T23:32:43Z",
-      "score": 0.9917868945540331
+      "score": 0.9917873093653462
     },
     {
       "owner": "massgravel",
@@ -104,9 +104,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 180279,
+      "stars": 180276,
       "forks": 17262,
-      "watchers": 180279,
+      "watchers": 180276,
       "openIssues": 2,
       "language": "Batchfile",
       "topics": [
@@ -128,10 +128,37 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-06-22T21:31:55Z",
+      "updatedAt": "2026-06-22T21:58:00Z",
       "pushedAt": "2026-06-11T17:21:39Z",
       "starredAt": "2026-06-20T21:47:10Z",
-      "score": 0.9905479452054795
+      "score": 0.9901369863013698
+    },
+    {
+      "owner": "Genymobile",
+      "name": "scrcpy",
+      "fullName": "Genymobile/scrcpy",
+      "description": "Display and control your Android device",
+      "homepage": "",
+      "stars": 144119,
+      "forks": 13291,
+      "watchers": 144119,
+      "openIssues": 2842,
+      "language": "C",
+      "topics": [
+        "android",
+        "c",
+        "ffmpeg",
+        "libav",
+        "mirroring",
+        "recording",
+        "screen",
+        "sdl2"
+      ],
+      "createdAt": "2017-11-21T18:00:27Z",
+      "updatedAt": "2026-06-22T22:36:22Z",
+      "pushedAt": "2026-06-22T22:01:28Z",
+      "starredAt": "2026-05-24T02:27:27Z",
+      "score": 0.9880821917808218
     },
     {
       "owner": "NousResearch",
@@ -139,10 +166,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 199898,
-      "forks": 35560,
-      "watchers": 199898,
-      "openIssues": 22768,
+      "stars": 199910,
+      "forks": 35566,
+      "watchers": 199910,
+      "openIssues": 22776,
       "language": "Python",
       "topics": [
         "ai",
@@ -163,8 +190,8 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-06-22T21:43:30Z",
-      "pushedAt": "2026-06-22T21:40:55Z",
+      "updatedAt": "2026-06-22T22:37:40Z",
+      "pushedAt": "2026-06-22T22:35:08Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9761643835616438
     },
@@ -174,9 +201,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 73482,
+      "stars": 73483,
       "forks": 4784,
-      "watchers": 73482,
+      "watchers": 73483,
       "openIssues": 245,
       "language": "Go",
       "topics": [
@@ -197,37 +224,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-06-22T21:36:45Z",
+      "updatedAt": "2026-06-22T22:23:17Z",
       "pushedAt": "2026-06-22T16:29:39Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9708017995872289
-    },
-    {
-      "owner": "Genymobile",
-      "name": "scrcpy",
-      "fullName": "Genymobile/scrcpy",
-      "description": "Display and control your Android device",
-      "homepage": "",
-      "stars": 144116,
-      "forks": 13291,
-      "watchers": 144116,
-      "openIssues": 2841,
-      "language": "C",
-      "topics": [
-        "android",
-        "c",
-        "ffmpeg",
-        "libav",
-        "mirroring",
-        "recording",
-        "screen",
-        "sdl2"
-      ],
-      "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-06-22T21:35:51Z",
-      "pushedAt": "2026-05-29T06:45:43Z",
-      "starredAt": "2026-05-24T02:27:27Z",
-      "score": 0.9683561643835616
+      "score": 0.9708022723948462
     },
     {
       "owner": "apple",
@@ -235,17 +235,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 39506,
-      "forks": 1150,
-      "watchers": 39506,
+      "stars": 39510,
+      "forks": 1152,
+      "watchers": 39510,
       "openIssues": 364,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-06-22T21:38:33Z",
+      "updatedAt": "2026-06-22T22:34:47Z",
       "pushedAt": "2026-06-22T18:54:00Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9656791296703944
+      "score": 0.9656826472039773
     },
     {
       "owner": "nexu-io",
@@ -253,10 +253,10 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
       "homepage": "https://open-design.ai",
-      "stars": 69158,
-      "forks": 7796,
-      "watchers": 69158,
-      "openIssues": 404,
+      "stars": 69174,
+      "forks": 7798,
+      "watchers": 69174,
+      "openIssues": 405,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -281,10 +281,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-06-22T21:39:49Z",
-      "pushedAt": "2026-06-22T21:26:38Z",
+      "updatedAt": "2026-06-22T22:33:26Z",
+      "pushedAt": "2026-06-22T22:37:07Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9649961155776712
+      "score": 0.9650041526031214
     },
     {
       "owner": "mattpocock",
@@ -292,14 +292,14 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "homepage": "",
-      "stars": 141513,
-      "forks": 12243,
-      "watchers": 141513,
+      "stars": 141547,
+      "forks": 12247,
+      "watchers": 141547,
       "openIssues": 91,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-06-22T21:43:36Z",
+      "updatedAt": "2026-06-22T22:36:25Z",
       "pushedAt": "2026-06-18T08:41:52Z",
       "starredAt": "2026-03-18T06:37:36Z",
       "score": 0.9572602739726027
@@ -342,30 +342,34 @@
       "score": 0.9559590219695377
     },
     {
-      "owner": "openclaw",
-      "name": "openclaw",
-      "fullName": "openclaw/openclaw",
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "homepage": "https://openclaw.ai",
-      "stars": 379967,
-      "forks": 79546,
-      "watchers": 379967,
-      "openIssues": 6412,
+      "owner": "heygen-com",
+      "name": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "homepage": "",
+      "stars": 29930,
+      "forks": 2818,
+      "watchers": 29930,
+      "openIssues": 59,
       "language": "TypeScript",
       "topics": [
         "ai",
-        "assistant",
-        "crustacean",
-        "molty",
-        "openclaw",
-        "own-your-data",
-        "personal"
+        "animation",
+        "ffmpeg",
+        "framework",
+        "gsap",
+        "html",
+        "mcp",
+        "puppeteer",
+        "rendering",
+        "typescript",
+        "video"
       ],
-      "createdAt": "2025-11-24T10:16:47Z",
-      "updatedAt": "2026-06-22T21:42:39Z",
-      "pushedAt": "2026-06-22T21:42:24Z",
-      "starredAt": "2026-01-27T14:01:52Z",
-      "score": 0.94
+      "createdAt": "2026-03-10T01:51:06Z",
+      "updatedAt": "2026-06-22T22:34:56Z",
+      "pushedAt": "2026-06-22T22:36:40Z",
+      "starredAt": "2026-05-09T07:47:14Z",
+      "score": 0.9400075063742166
     }
   ],
   "recentlyStarred": [
@@ -375,10 +379,10 @@
       "fullName": "nubjs/nub",
       "description": "The fast all-in-one Node.js toolkit",
       "homepage": "https://nubjs.com",
-      "stars": 1333,
+      "stars": 1336,
       "forks": 10,
-      "watchers": 1333,
-      "openIssues": 1,
+      "watchers": 1336,
+      "openIssues": 2,
       "language": "Rust",
       "topics": [
         "javascript-runtime",
@@ -388,10 +392,10 @@
         "script-runner"
       ],
       "createdAt": "2026-06-03T18:36:21Z",
-      "updatedAt": "2026-06-22T21:43:52Z",
-      "pushedAt": "2026-06-22T19:57:51Z",
+      "updatedAt": "2026-06-22T22:29:04Z",
+      "pushedAt": "2026-06-22T22:30:27Z",
       "starredAt": "2026-06-22T06:16:34Z",
-      "score": 0.8500124663664423
+      "score": 0.8500905125809588
     },
     {
       "owner": "BuilderIO",
@@ -408,7 +412,7 @@
         "skills"
       ],
       "createdAt": "2026-06-10T16:04:20Z",
-      "updatedAt": "2026-06-22T21:41:32Z",
+      "updatedAt": "2026-06-22T22:22:08Z",
       "pushedAt": "2026-06-22T17:06:42Z",
       "starredAt": "2026-06-22T04:36:50Z",
       "score": 0.8711049130778818
@@ -419,9 +423,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 180279,
+      "stars": 180276,
       "forks": 17262,
-      "watchers": 180279,
+      "watchers": 180276,
       "openIssues": 2,
       "language": "Batchfile",
       "topics": [
@@ -443,10 +447,10 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-06-22T21:31:55Z",
+      "updatedAt": "2026-06-22T21:58:00Z",
       "pushedAt": "2026-06-11T17:21:39Z",
       "starredAt": "2026-06-20T21:47:10Z",
-      "score": 0.9905479452054795
+      "score": 0.9901369863013698
     },
     {
       "owner": "VdustR",
@@ -483,7 +487,7 @@
       "stars": 1724,
       "forks": 89,
       "watchers": 1724,
-      "openIssues": 1066,
+      "openIssues": 1068,
       "language": null,
       "topics": [],
       "createdAt": "2026-04-16T22:49:12Z",
@@ -498,10 +502,10 @@
       "fullName": "vercel/eve",
       "description": "The Framework for Building Agents",
       "homepage": "https://vercel.com/eve",
-      "stars": 2262,
+      "stars": 2266,
       "forks": 162,
-      "watchers": 2262,
-      "openIssues": 69,
+      "watchers": 2266,
+      "openIssues": 68,
       "language": "TypeScript",
       "topics": [
         "agent",
@@ -515,10 +519,10 @@
         "workflows"
       ],
       "createdAt": "2026-06-16T10:51:20Z",
-      "updatedAt": "2026-06-22T21:43:44Z",
-      "pushedAt": "2026-06-22T21:43:42Z",
+      "updatedAt": "2026-06-22T22:22:13Z",
+      "pushedAt": "2026-06-22T22:22:10Z",
       "starredAt": "2026-06-18T00:16:18Z",
-      "score": 0.8667309286999401
+      "score": 0.866792285993683
     },
     {
       "owner": "apple",
@@ -526,17 +530,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 39506,
-      "forks": 1150,
-      "watchers": 39506,
+      "stars": 39510,
+      "forks": 1152,
+      "watchers": 39510,
       "openIssues": 364,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-06-22T21:38:33Z",
+      "updatedAt": "2026-06-22T22:34:47Z",
       "pushedAt": "2026-06-22T18:54:00Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9656791296703944
+      "score": 0.9656826472039773
     },
     {
       "owner": "thedotmack",
@@ -544,9 +548,9 @@
       "fullName": "thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "homepage": "https://claude-mem.ai",
-      "stars": 83756,
+      "stars": 83757,
       "forks": 7235,
-      "watchers": 83756,
+      "watchers": 83757,
       "openIssues": 202,
       "language": "JavaScript",
       "topics": [
@@ -572,10 +576,10 @@
         "supermemory"
       ],
       "createdAt": "2025-08-31T20:50:03Z",
-      "updatedAt": "2026-06-22T21:07:37Z",
-      "pushedAt": "2026-06-21T22:43:44Z",
+      "updatedAt": "2026-06-22T22:21:40Z",
+      "pushedAt": "2026-06-22T22:33:58Z",
       "starredAt": "2026-06-16T23:32:43Z",
-      "score": 0.9917868945540331
+      "score": 0.9917873093653462
     },
     {
       "owner": "Trixarian",
