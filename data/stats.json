@@ -1,9 +1,9 @@
 {
   "totalRepos": 1623,
-  "totalStars": 27217479,
+  "totalStars": 27217818,
   "languageDistribution": {
-    "Batchfile": 1,
     "C": 35,
+    "Batchfile": 1,
     "Python": 87,
     "Swift": 14,
     "Go": 64,
@@ -60,14 +60,41 @@
   },
   "topActiveRepos": [
     {
+      "owner": "Genymobile",
+      "name": "scrcpy",
+      "fullName": "Genymobile/scrcpy",
+      "description": "Display and control your Android device",
+      "homepage": "",
+      "stars": 144410,
+      "forks": 13316,
+      "watchers": 144410,
+      "openIssues": 2845,
+      "language": "C",
+      "topics": [
+        "android",
+        "c",
+        "ffmpeg",
+        "libav",
+        "mirroring",
+        "recording",
+        "screen",
+        "sdl2"
+      ],
+      "createdAt": "2017-11-21T18:00:27Z",
+      "updatedAt": "2026-06-26T17:31:36Z",
+      "pushedAt": "2026-06-26T17:08:13Z",
+      "starredAt": "2026-05-24T02:27:27Z",
+      "score": 0.9864383561643835
+    },
+    {
       "owner": "massgravel",
       "name": "Microsoft-Activation-Scripts",
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 180851,
+      "stars": 180855,
       "forks": 17331,
-      "watchers": 180851,
+      "watchers": 180855,
       "openIssues": 2,
       "language": "Batchfile",
       "topics": [
@@ -89,36 +116,9 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-06-26T16:34:39Z",
+      "updatedAt": "2026-06-26T17:37:28Z",
       "pushedAt": "2026-06-11T17:21:39Z",
       "starredAt": "2026-06-20T21:47:10Z",
-      "score": 0.9864383561643836
-    },
-    {
-      "owner": "Genymobile",
-      "name": "scrcpy",
-      "fullName": "Genymobile/scrcpy",
-      "description": "Display and control your Android device",
-      "homepage": "",
-      "stars": 144407,
-      "forks": 13316,
-      "watchers": 144407,
-      "openIssues": 2844,
-      "language": "C",
-      "topics": [
-        "android",
-        "c",
-        "ffmpeg",
-        "libav",
-        "mirroring",
-        "recording",
-        "screen",
-        "sdl2"
-      ],
-      "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-06-26T16:05:06Z",
-      "pushedAt": "2026-06-25T10:07:01Z",
-      "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9856164383561643
     },
     {
@@ -127,10 +127,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 203635,
-      "forks": 36519,
-      "watchers": 203635,
-      "openIssues": 23911,
+      "stars": 203655,
+      "forks": 36526,
+      "watchers": 203655,
+      "openIssues": 23919,
       "language": "Python",
       "topics": [
         "ai",
@@ -151,8 +151,8 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-06-26T16:41:48Z",
-      "pushedAt": "2026-06-26T16:27:04Z",
+      "updatedAt": "2026-06-26T17:36:27Z",
+      "pushedAt": "2026-06-26T17:33:01Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9745205479452055
     },
@@ -162,17 +162,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 43590,
+      "stars": 43603,
       "forks": 1282,
-      "watchers": 43590,
-      "openIssues": 386,
+      "watchers": 43603,
+      "openIssues": 384,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-06-26T16:44:09Z",
-      "pushedAt": "2026-06-26T04:44:13Z",
+      "updatedAt": "2026-06-26T17:37:17Z",
+      "pushedAt": "2026-06-26T17:04:31Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9674531164287055
+      "score": 0.9674634763407308
     },
     {
       "owner": "caddyserver",
@@ -183,7 +183,7 @@
       "stars": 73562,
       "forks": 4796,
       "watchers": 73562,
-      "openIssues": 252,
+      "openIssues": 253,
       "language": "Go",
       "topics": [
         "acme",
@@ -203,7 +203,7 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-06-26T16:27:45Z",
+      "updatedAt": "2026-06-26T17:25:42Z",
       "pushedAt": "2026-06-22T16:29:39Z",
       "starredAt": "2026-05-08T15:58:57Z",
       "score": 0.9659080970298823
@@ -214,9 +214,9 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
       "homepage": "https://open-design.ai",
-      "stars": 71561,
-      "forks": 8083,
-      "watchers": 71561,
+      "stars": 71575,
+      "forks": 8084,
+      "watchers": 71575,
       "openIssues": 438,
       "language": "TypeScript",
       "topics": [
@@ -242,10 +242,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-06-26T16:40:41Z",
-      "pushedAt": "2026-06-26T16:26:45Z",
+      "updatedAt": "2026-06-26T17:36:36Z",
+      "pushedAt": "2026-06-26T16:57:08Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9645389811326404
+      "score": 0.9645457775084634
     },
     {
       "owner": "hacksider",
@@ -253,10 +253,10 @@
       "fullName": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
-      "stars": 94192,
-      "forks": 13725,
-      "watchers": 94192,
-      "openIssues": 56,
+      "stars": 94190,
+      "forks": 13726,
+      "watchers": 94190,
+      "openIssues": 58,
       "language": "Python",
       "topics": [
         "ai",
@@ -279,10 +279,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-06-26T16:26:17Z",
+      "updatedAt": "2026-06-26T16:53:18Z",
       "pushedAt": "2026-06-24T10:15:41Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.9592913533480993
+      "score": 0.9592906156302772
     },
     {
       "owner": "mattpocock",
@@ -290,14 +290,14 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "homepage": "",
-      "stars": 147248,
-      "forks": 12740,
-      "watchers": 147248,
+      "stars": 147291,
+      "forks": 12742,
+      "watchers": 147291,
       "openIssues": 98,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-06-26T16:45:42Z",
+      "updatedAt": "2026-06-26T17:37:02Z",
       "pushedAt": "2026-06-25T11:48:40Z",
       "starredAt": "2026-03-18T06:37:36Z",
       "score": 0.9580821917808219
@@ -330,10 +330,10 @@
       "fullName": "heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "homepage": "",
-      "stars": 31486,
-      "forks": 2925,
-      "watchers": 31486,
-      "openIssues": 59,
+      "stars": 31492,
+      "forks": 2926,
+      "watchers": 31492,
+      "openIssues": 58,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -349,10 +349,10 @@
         "video"
       ],
       "createdAt": "2026-03-10T01:51:06Z",
-      "updatedAt": "2026-06-26T16:37:20Z",
-      "pushedAt": "2026-06-26T16:41:28Z",
+      "updatedAt": "2026-06-26T17:25:23Z",
+      "pushedAt": "2026-06-26T17:23:13Z",
       "starredAt": "2026-05-09T07:47:14Z",
-      "score": 0.9401244753348663
+      "score": 0.9401310952571256
     }
   ],
   "recentlyStarred": [
@@ -485,10 +485,10 @@
       "fullName": "nubjs/nub",
       "description": "The fast all-in-one Node.js toolkit",
       "homepage": "https://nubjs.com",
-      "stars": 2136,
-      "forks": 23,
-      "watchers": 2136,
-      "openIssues": 12,
+      "stars": 2139,
+      "forks": 24,
+      "watchers": 2139,
+      "openIssues": 11,
       "language": "Rust",
       "topics": [
         "javascript-runtime",
@@ -498,10 +498,10 @@
         "script-runner"
       ],
       "createdAt": "2026-06-03T18:36:21Z",
-      "updatedAt": "2026-06-26T16:33:58Z",
-      "pushedAt": "2026-06-26T16:43:35Z",
+      "updatedAt": "2026-06-26T17:28:45Z",
+      "pushedAt": "2026-06-26T17:27:38Z",
       "starredAt": "2026-06-22T06:16:34Z",
-      "score": 0.8647405261566872
+      "score": 0.8647892662514969
     },
     {
       "owner": "BuilderIO",
@@ -509,19 +509,19 @@
       "fullName": "BuilderIO/skills",
       "description": "Skills for coding agents",
       "homepage": "https://www.agent-native.com/",
-      "stars": 2742,
+      "stars": 2746,
       "forks": 143,
-      "watchers": 2742,
+      "watchers": 2746,
       "openIssues": 0,
       "language": "JavaScript",
       "topics": [
         "skills"
       ],
       "createdAt": "2026-06-10T16:04:20Z",
-      "updatedAt": "2026-06-26T16:25:22Z",
+      "updatedAt": "2026-06-26T17:20:47Z",
       "pushedAt": "2026-06-25T18:05:55Z",
       "starredAt": "2026-06-22T04:36:50Z",
-      "score": 0.873414228991924
+      "score": 0.8734648571372066
     },
     {
       "owner": "massgravel",
@@ -529,9 +529,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 180851,
+      "stars": 180855,
       "forks": 17331,
-      "watchers": 180851,
+      "watchers": 180855,
       "openIssues": 2,
       "language": "Batchfile",
       "topics": [
@@ -553,10 +553,10 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-06-26T16:34:39Z",
+      "updatedAt": "2026-06-26T17:37:28Z",
       "pushedAt": "2026-06-11T17:21:39Z",
       "starredAt": "2026-06-20T21:47:10Z",
-      "score": 0.9864383561643836
+      "score": 0.9856164383561643
     },
     {
       "owner": "VdustR",
