@@ -1,12 +1,12 @@
 {
   "totalRepos": 1627,
-  "totalStars": 27302683,
+  "totalStars": 27303276,
   "languageDistribution": {
     "C": 35,
     "Batchfile": 1,
     "Python": 89,
-    "Swift": 14,
     "Go": 64,
+    "Swift": 14,
     "TypeScript": 591,
     "Shell": 35,
     "JavaScript": 364,
@@ -65,9 +65,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 144860,
+      "stars": 144862,
       "forks": 13362,
-      "watchers": 144860,
+      "watchers": 144862,
       "openIssues": 2847,
       "language": "C",
       "topics": [
@@ -81,7 +81,7 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-07-01T23:30:03Z",
+      "updatedAt": "2026-07-02T00:37:03Z",
       "pushedAt": "2026-07-01T22:06:37Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9843835616438356
@@ -92,9 +92,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 181489,
+      "stars": 181493,
       "forks": 17404,
-      "watchers": 181489,
+      "watchers": 181493,
       "openIssues": 3,
       "language": "Batchfile",
       "topics": [
@@ -116,7 +116,7 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-07-01T23:08:01Z",
+      "updatedAt": "2026-07-02T00:56:30Z",
       "pushedAt": "2026-06-11T17:21:39Z",
       "starredAt": "2026-06-20T21:47:10Z",
       "score": 0.979041095890411
@@ -127,10 +127,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 207261,
-      "forks": 37570,
-      "watchers": 207261,
-      "openIssues": 24709,
+      "stars": 207291,
+      "forks": 37577,
+      "watchers": 207291,
+      "openIssues": 24729,
       "language": "Python",
       "topics": [
         "ai",
@@ -151,28 +151,10 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-07-01T23:33:58Z",
-      "pushedAt": "2026-07-01T23:21:56Z",
+      "updatedAt": "2026-07-02T01:01:07Z",
+      "pushedAt": "2026-07-02T00:38:55Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9724657534246575
-    },
-    {
-      "owner": "apple",
-      "name": "container",
-      "fullName": "apple/container",
-      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
-      "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 45631,
-      "forks": 1356,
-      "watchers": 45631,
-      "openIssues": 398,
-      "language": "Swift",
-      "topics": [],
-      "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-07-01T23:04:48Z",
-      "pushedAt": "2026-07-01T23:03:03Z",
-      "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.966988135649326
     },
     {
       "owner": "caddyserver",
@@ -180,9 +162,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 73658,
-      "forks": 4805,
-      "watchers": 73658,
+      "stars": 73659,
+      "forks": 4804,
+      "watchers": 73659,
       "openIssues": 262,
       "language": "Go",
       "topics": [
@@ -203,10 +185,28 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-07-01T23:27:30Z",
-      "pushedAt": "2026-06-30T02:24:50Z",
+      "updatedAt": "2026-07-02T00:47:38Z",
+      "pushedAt": "2026-07-01T23:54:21Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9663643668534707
+      "score": 0.9671867563395937
+    },
+    {
+      "owner": "apple",
+      "name": "container",
+      "fullName": "apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+      "homepage": "https://apple.github.io/container/documentation/",
+      "stars": 45642,
+      "forks": 1357,
+      "watchers": 45642,
+      "openIssues": 399,
+      "language": "Swift",
+      "topics": [],
+      "createdAt": "2025-05-30T21:26:05Z",
+      "updatedAt": "2026-07-02T00:58:10Z",
+      "pushedAt": "2026-07-01T23:03:03Z",
+      "starredAt": "2026-06-17T12:16:32Z",
+      "score": 0.9669965098842408
     },
     {
       "owner": "nexu-io",
@@ -214,9 +214,9 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
       "homepage": "https://open-design.ai",
-      "stars": 73787,
-      "forks": 8395,
-      "watchers": 73787,
+      "stars": 73803,
+      "forks": 8396,
+      "watchers": 73803,
       "openIssues": 485,
       "language": "TypeScript",
       "topics": [
@@ -242,10 +242,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-07-01T23:30:52Z",
+      "updatedAt": "2026-07-02T01:00:37Z",
       "pushedAt": "2026-07-01T15:59:23Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9635484481684777
+      "score": 0.9635559810556127
     },
     {
       "owner": "mattpocock",
@@ -253,14 +253,14 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "homepage": "",
-      "stars": 152966,
-      "forks": 13212,
-      "watchers": 152966,
-      "openIssues": 105,
+      "stars": 153041,
+      "forks": 13213,
+      "watchers": 153041,
+      "openIssues": 106,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-07-01T23:33:12Z",
+      "updatedAt": "2026-07-02T01:00:52Z",
       "pushedAt": "2026-07-01T19:28:53Z",
       "starredAt": "2026-03-18T06:37:36Z",
       "score": 0.9568493150684931
@@ -308,10 +308,10 @@
       "fullName": "heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "homepage": "",
-      "stars": 32553,
+      "stars": 32564,
       "forks": 3031,
-      "watchers": 32553,
-      "openIssues": 72,
+      "watchers": 32564,
+      "openIssues": 76,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -327,10 +327,10 @@
         "video"
       ],
       "createdAt": "2026-03-10T01:51:06Z",
-      "updatedAt": "2026-07-01T23:28:51Z",
-      "pushedAt": "2026-07-01T22:01:50Z",
+      "updatedAt": "2026-07-02T00:53:48Z",
+      "pushedAt": "2026-07-02T00:58:59Z",
       "starredAt": "2026-05-09T07:47:14Z",
-      "score": 0.9392275268139384
+      "score": 0.9392392646829999
     },
     {
       "owner": "lxgw",
@@ -338,9 +338,9 @@
       "fullName": "lxgw/LxgwWenKai",
       "description": "An unprofessional open-source Chinese font derived from Fontworks' Klee One. 一款非专业的开源中文字体，基于 FONTWORKS 出品字体 Klee One 衍生。  ",
       "homepage": "https://lxgw.github.io/2021/01/28/Klee-Simpchin/",
-      "stars": 24972,
+      "stars": 24973,
       "forks": 632,
-      "watchers": 24972,
+      "watchers": 24973,
       "openIssues": 4,
       "language": "Shell",
       "topics": [
@@ -349,10 +349,10 @@
         "typeface"
       ],
       "createdAt": "2021-01-30T15:41:52Z",
-      "updatedAt": "2026-07-01T16:42:11Z",
+      "updatedAt": "2026-07-01T23:50:28Z",
       "pushedAt": "2026-06-29T09:01:17Z",
       "starredAt": "2026-06-02T16:05:18Z",
-      "score": 0.938236013537866
+      "score": 0.9382374047548983
     }
   ],
   "recentlyStarred": [
@@ -380,9 +380,9 @@
       "fullName": "microsoft/SkillOpt",
       "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
       "homepage": "https://aka.ms/skillopt",
-      "stars": 10330,
-      "forks": 965,
-      "watchers": 10330,
+      "stars": 10333,
+      "forks": 966,
+      "watchers": 10333,
       "openIssues": 13,
       "language": "Python",
       "topics": [
@@ -390,10 +390,10 @@
         "self-evolving-agents"
       ],
       "createdAt": "2026-05-08T06:41:01Z",
-      "updatedAt": "2026-07-01T22:00:10Z",
+      "updatedAt": "2026-07-02T00:57:08Z",
       "pushedAt": "2026-06-30T19:49:10Z",
       "starredAt": "2026-06-29T16:33:23Z",
-      "score": 0.9194875533071623
+      "score": 0.9194976409603333
     },
     {
       "owner": "rose-pine",
@@ -425,9 +425,9 @@
       "fullName": "ViscousPot/GitSync",
       "description": "Mobile Git client for syncing a repository between remote and a local directory",
       "homepage": "https://gitsync.viscouspotenti.al",
-      "stars": 2018,
+      "stars": 2019,
       "forks": 169,
-      "watchers": 2018,
+      "watchers": 2019,
       "openIssues": 109,
       "language": "Dart",
       "topics": [
@@ -437,10 +437,10 @@
         "sync"
       ],
       "createdAt": "2024-06-08T17:10:16Z",
-      "updatedAt": "2026-07-01T12:54:24Z",
+      "updatedAt": "2026-07-02T00:01:48Z",
       "pushedAt": "2026-06-25T06:34:00Z",
       "starredAt": "2026-06-28T04:59:26Z",
-      "score": 0.8582465219538472
+      "score": 0.858263725994086
     },
     {
       "owner": "guofei9987",
@@ -448,9 +448,9 @@
       "fullName": "guofei9987/blind_watermark",
       "description": "Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！",
       "homepage": "https://blindwatermark.github.io/blind_watermark/#/en/",
-      "stars": 14011,
+      "stars": 14012,
       "forks": 1394,
-      "watchers": 14011,
+      "watchers": 14012,
       "openIssues": 51,
       "language": "Python",
       "topics": [
@@ -460,10 +460,10 @@
         "watermark-image"
       ],
       "createdAt": "2019-07-16T14:08:51Z",
-      "updatedAt": "2026-07-01T18:41:05Z",
+      "updatedAt": "2026-07-02T00:10:27Z",
       "pushedAt": "2026-03-25T09:09:28Z",
       "starredAt": "2026-06-26T12:17:07Z",
-      "score": 0.849117270565625
+      "score": 0.8491197500345682
     },
     {
       "owner": "googlefonts",
@@ -489,9 +489,9 @@
       "fullName": "orbstack/orbstack",
       "description": "Fast, light, simple Docker containers & Linux machines",
       "homepage": "https://orbstack.dev",
-      "stars": 8972,
+      "stars": 8973,
       "forks": 94,
-      "watchers": 8972,
+      "watchers": 8973,
       "openIssues": 383,
       "language": "Shell",
       "topics": [
@@ -506,10 +506,10 @@
         "virtual-machine"
       ],
       "createdAt": "2023-02-17T09:27:53Z",
-      "updatedAt": "2026-07-01T23:32:25Z",
+      "updatedAt": "2026-07-02T00:21:08Z",
       "pushedAt": "2025-08-15T13:03:07Z",
       "starredAt": "2026-06-26T08:59:41Z",
-      "score": 0.6511665202693935
+      "score": 0.6511703920650795
     },
     {
       "owner": "kaonashi-tyc",
@@ -545,7 +545,7 @@
       "updatedAt": "2026-07-01T21:57:47Z",
       "pushedAt": "2026-06-23T00:37:45Z",
       "starredAt": "2026-06-23T15:24:23Z",
-      "score": 0.7976883903314039
+      "score": 0.7968664725231848
     },
     {
       "owner": "RsyncProject",
@@ -553,17 +553,17 @@
       "fullName": "RsyncProject/rsync",
       "description": "An open source utility that provides fast incremental file transfer. It also has useful features for backup and restore operations among many other use cases.",
       "homepage": "https://rsync.samba.org",
-      "stars": 4973,
+      "stars": 4974,
       "forks": 559,
-      "watchers": 4973,
+      "watchers": 4974,
       "openIssues": 314,
       "language": "C",
       "topics": [],
       "createdAt": "2020-05-25T20:52:12Z",
-      "updatedAt": "2026-07-01T13:43:25Z",
+      "updatedAt": "2026-07-01T23:43:18Z",
       "pushedAt": "2026-06-21T04:14:41Z",
       "starredAt": "2026-06-23T15:01:45Z",
-      "score": 0.8842296131596449
+      "score": 0.8842365974914711
     }
   ]
 }
