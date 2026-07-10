@@ -1,12 +1,12 @@
 {
-  "totalRepos": 1628,
-  "totalStars": 27414829,
+  "totalRepos": 1629,
+  "totalStars": 27416538,
   "languageDistribution": {
     "Batchfile": 1,
     "C": 35,
     "Python": 89,
+    "Go": 65,
     "Swift": 14,
-    "Go": 64,
     "TypeScript": 592,
     "Shell": 35,
     "JavaScript": 364,
@@ -28,8 +28,8 @@
     "Dockerfile": 4,
     "Clojure": 2,
     "MDX": 4,
-    "Nunjucks": 2,
     "Vim Script": 2,
+    "Nunjucks": 2,
     "Svelte": 9,
     "CMake": 1,
     "PowerShell": 1,
@@ -65,9 +65,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 182441,
+      "stars": 182448,
       "forks": 17487,
-      "watchers": 182441,
+      "watchers": 182448,
       "openIssues": 4,
       "language": "Batchfile",
       "topics": [
@@ -89,7 +89,7 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-07-09T22:22:01Z",
+      "updatedAt": "2026-07-10T00:02:48Z",
       "pushedAt": "2026-07-04T16:54:38Z",
       "starredAt": "2026-06-20T21:47:10Z",
       "score": 0.988082191780822
@@ -100,9 +100,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 145398,
-      "forks": 13418,
-      "watchers": 145398,
+      "stars": 145403,
+      "forks": 13419,
+      "watchers": 145403,
       "openIssues": 2847,
       "language": "C",
       "topics": [
@@ -116,7 +116,7 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-07-09T22:03:49Z",
+      "updatedAt": "2026-07-10T00:03:58Z",
       "pushedAt": "2026-07-09T17:49:24Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9810958904109588
@@ -127,10 +127,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 212173,
-      "forks": 39090,
-      "watchers": 212173,
-      "openIssues": 27275,
+      "stars": 212195,
+      "forks": 39095,
+      "watchers": 212195,
+      "openIssues": 27289,
       "language": "Python",
       "topics": [
         "ai",
@@ -151,28 +151,10 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-07-09T22:22:11Z",
-      "pushedAt": "2026-07-09T21:40:10Z",
+      "updatedAt": "2026-07-10T00:06:52Z",
+      "pushedAt": "2026-07-09T23:58:39Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9691780821917808
-    },
-    {
-      "owner": "apple",
-      "name": "container",
-      "fullName": "apple/container",
-      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
-      "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 47298,
-      "forks": 1471,
-      "watchers": 47298,
-      "openIssues": 432,
-      "language": "Swift",
-      "topics": [],
-      "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-07-09T22:16:44Z",
-      "pushedAt": "2026-07-07T20:52:19Z",
-      "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9633032252082891
     },
     {
       "owner": "caddyserver",
@@ -181,7 +163,7 @@
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
       "stars": 73868,
-      "forks": 4813,
+      "forks": 4814,
       "watchers": 73868,
       "openIssues": 269,
       "language": "Go",
@@ -203,10 +185,28 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-07-09T21:29:31Z",
-      "pushedAt": "2026-07-08T15:06:03Z",
+      "updatedAt": "2026-07-10T00:03:24Z",
+      "pushedAt": "2026-07-09T23:16:25Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9631756077216715
+      "score": 0.9639975255298907
+    },
+    {
+      "owner": "apple",
+      "name": "container",
+      "fullName": "apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+      "homepage": "https://apple.github.io/container/documentation/",
+      "stars": 47304,
+      "forks": 1471,
+      "watchers": 47304,
+      "openIssues": 432,
+      "language": "Swift",
+      "topics": [],
+      "createdAt": "2025-05-30T21:26:05Z",
+      "updatedAt": "2026-07-09T23:44:20Z",
+      "pushedAt": "2026-07-07T20:52:19Z",
+      "starredAt": "2026-06-17T12:16:32Z",
+      "score": 0.9633076322386811
     },
     {
       "owner": "nexu-io",
@@ -214,9 +214,9 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 76803,
+      "stars": 76810,
       "forks": 8758,
-      "watchers": 76803,
+      "watchers": 76810,
       "openIssues": 535,
       "language": "TypeScript",
       "topics": [
@@ -242,10 +242,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-07-09T22:22:09Z",
-      "pushedAt": "2026-07-09T19:50:01Z",
+      "updatedAt": "2026-07-09T23:42:15Z",
+      "pushedAt": "2026-07-09T23:51:56Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9616526249239591
+      "score": 0.9616557913453376
     },
     {
       "owner": "mattpocock",
@@ -253,14 +253,14 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "homepage": "",
-      "stars": 162920,
-      "forks": 14016,
-      "watchers": 162920,
+      "stars": 162971,
+      "forks": 14023,
+      "watchers": 162971,
       "openIssues": 129,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-07-09T22:23:55Z",
+      "updatedAt": "2026-07-10T00:06:40Z",
       "pushedAt": "2026-07-09T13:57:49Z",
       "starredAt": "2026-03-18T06:37:36Z",
       "score": 0.9535616438356164
@@ -272,7 +272,7 @@
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
       "stars": 94769,
-      "forks": 13824,
+      "forks": 13825,
       "watchers": 94769,
       "openIssues": 60,
       "language": "Python",
@@ -297,7 +297,7 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-07-09T22:01:35Z",
+      "updatedAt": "2026-07-10T00:02:47Z",
       "pushedAt": "2026-07-06T20:55:43Z",
       "starredAt": "2026-03-28T02:18:00Z",
       "score": 0.9533391499020396
@@ -308,10 +308,10 @@
       "fullName": "heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "homepage": "",
-      "stars": 33990,
-      "forks": 3171,
-      "watchers": 33990,
-      "openIssues": 114,
+      "stars": 33996,
+      "forks": 3172,
+      "watchers": 33996,
+      "openIssues": 112,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -327,10 +327,10 @@
         "video"
       ],
       "createdAt": "2026-03-10T01:51:06Z",
-      "updatedAt": "2026-07-09T22:19:21Z",
-      "pushedAt": "2026-07-09T22:23:06Z",
+      "updatedAt": "2026-07-09T23:46:45Z",
+      "pushedAt": "2026-07-09T23:17:48Z",
       "starredAt": "2026-05-09T07:47:14Z",
-      "score": 0.9374406221709313
+      "score": 0.9374467544693326
     },
     {
       "owner": "D4Vinci",
@@ -338,9 +338,9 @@
       "fullName": "D4Vinci/Scrapling",
       "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "homepage": "https://scrapling.readthedocs.io/en/latest/",
-      "stars": 68899,
-      "forks": 6817,
-      "watchers": 68899,
+      "stars": 68900,
+      "forks": 6819,
+      "watchers": 68900,
       "openIssues": 3,
       "language": "Python",
       "topics": [
@@ -366,13 +366,31 @@
         "xpath"
       ],
       "createdAt": "2024-10-13T20:29:53Z",
-      "updatedAt": "2026-07-09T22:11:15Z",
+      "updatedAt": "2026-07-10T00:05:30Z",
       "pushedAt": "2026-07-08T20:18:06Z",
       "starredAt": "2026-03-06T11:22:46Z",
-      "score": 0.9348657569306922
+      "score": 0.9348662611876795
     }
   ],
   "recentlyStarred": [
+    {
+      "owner": "microsoft",
+      "name": "waza",
+      "fullName": "microsoft/waza",
+      "description": "CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness",
+      "homepage": "https://microsoft.github.io/waza/",
+      "stars": 1075,
+      "forks": 65,
+      "watchers": 1075,
+      "openIssues": 11,
+      "language": "Go",
+      "topics": [],
+      "createdAt": "2026-02-27T21:39:05Z",
+      "updatedAt": "2026-07-09T22:52:27Z",
+      "pushedAt": "2026-07-07T15:20:14Z",
+      "starredAt": "2026-07-09T22:52:27Z",
+      "score": 0.8409011460899913
+    },
     {
       "owner": "vp-tw",
       "name": "nanostores-storage",
@@ -424,20 +442,20 @@
       "fullName": "microsoft/SkillOpt",
       "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
       "homepage": "https://aka.ms/skillopt",
-      "stars": 11942,
+      "stars": 11950,
       "forks": 1106,
-      "watchers": 11942,
-      "openIssues": 30,
+      "watchers": 11950,
+      "openIssues": 31,
       "language": "Python",
       "topics": [
         "agent-skills",
         "self-evolving-agents"
       ],
       "createdAt": "2026-05-08T06:41:01Z",
-      "updatedAt": "2026-07-09T22:20:51Z",
+      "updatedAt": "2026-07-10T00:00:47Z",
       "pushedAt": "2026-07-02T14:11:34Z",
       "starredAt": "2026-06-29T16:33:23Z",
-      "score": 0.9163060608856706
+      "score": 0.9163293260132177
     },
     {
       "owner": "rose-pine",
@@ -572,24 +590,6 @@
       "pushedAt": "2026-03-08T10:56:00Z",
       "starredAt": "2026-06-26T07:20:22Z",
       "score": 0.6754942717767107
-    },
-    {
-      "owner": "samasante",
-      "name": "liquid-glass",
-      "fullName": "samasante/liquid-glass",
-      "description": "Apple-style Liquid Glass for the web — a headless React lens that refracts the live DOM in Safari, Firefox and Chrome. Zero dependencies.",
-      "homepage": "",
-      "stars": 429,
-      "forks": 36,
-      "watchers": 429,
-      "openIssues": 2,
-      "language": "TypeScript",
-      "topics": [],
-      "createdAt": "2026-06-22T23:31:35Z",
-      "updatedAt": "2026-07-09T20:32:29Z",
-      "pushedAt": "2026-06-23T00:37:45Z",
-      "starredAt": "2026-06-23T15:24:23Z",
-      "score": 0.7909514490491067
     }
   ]
 }
