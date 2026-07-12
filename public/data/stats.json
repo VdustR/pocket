@@ -1,12 +1,12 @@
 {
   "totalRepos": 1629,
-  "totalStars": 27455740,
+  "totalStars": 27456460,
   "languageDistribution": {
     "Batchfile": 1,
     "C": 35,
     "Python": 89,
-    "Go": 65,
     "Swift": 14,
+    "Go": 65,
     "TypeScript": 592,
     "Shell": 35,
     "JavaScript": 364,
@@ -14,8 +14,8 @@
     "Zig": 2,
     "HTML": 40,
     "Vue": 13,
-    "C++": 63,
     "C#": 24,
+    "C++": 63,
     "Java": 9,
     "Dart": 6,
     "Kotlin": 6,
@@ -65,9 +65,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 182890,
-      "forks": 17523,
-      "watchers": 182890,
+      "stars": 182901,
+      "forks": 17526,
+      "watchers": 182901,
       "openIssues": 3,
       "language": "Batchfile",
       "topics": [
@@ -89,7 +89,7 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-07-12T14:56:23Z",
+      "updatedAt": "2026-07-12T16:03:21Z",
       "pushedAt": "2026-07-04T16:54:38Z",
       "starredAt": "2026-06-20T21:47:10Z",
       "score": 0.9856164383561644
@@ -100,9 +100,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 145537,
-      "forks": 13425,
-      "watchers": 145537,
+      "stars": 145539,
+      "forks": 13426,
+      "watchers": 145539,
       "openIssues": 2851,
       "language": "C",
       "topics": [
@@ -116,7 +116,7 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-07-12T14:58:25Z",
+      "updatedAt": "2026-07-12T15:43:25Z",
       "pushedAt": "2026-07-12T09:55:58Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9798630136986302
@@ -127,10 +127,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 213558,
-      "forks": 39551,
-      "watchers": 213558,
-      "openIssues": 27327,
+      "stars": 213592,
+      "forks": 39562,
+      "watchers": 213592,
+      "openIssues": 27283,
       "language": "Python",
       "topics": [
         "ai",
@@ -151,10 +151,28 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-07-12T14:56:14Z",
-      "pushedAt": "2026-07-12T11:33:02Z",
+      "updatedAt": "2026-07-12T16:03:58Z",
+      "pushedAt": "2026-07-12T15:27:51Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.967945205479452
+    },
+    {
+      "owner": "apple",
+      "name": "container",
+      "fullName": "apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+      "homepage": "https://apple.github.io/container/documentation/",
+      "stars": 47626,
+      "forks": 1594,
+      "watchers": 47626,
+      "openIssues": 439,
+      "language": "Swift",
+      "topics": [],
+      "createdAt": "2025-05-30T21:26:05Z",
+      "updatedAt": "2026-07-12T15:38:59Z",
+      "pushedAt": "2026-07-11T03:44:40Z",
+      "starredAt": "2026-06-17T12:16:32Z",
+      "score": 0.9631323677001782
     },
     {
       "owner": "caddyserver",
@@ -162,9 +180,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 73934,
+      "stars": 73936,
       "forks": 4821,
-      "watchers": 73934,
+      "watchers": 73936,
       "openIssues": 264,
       "language": "Go",
       "topics": [
@@ -185,28 +203,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-07-12T14:44:46Z",
+      "updatedAt": "2026-07-12T16:01:01Z",
       "pushedAt": "2026-07-12T02:21:11Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9632066363138188
-    },
-    {
-      "owner": "apple",
-      "name": "container",
-      "fullName": "apple/container",
-      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
-      "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 47623,
-      "forks": 1595,
-      "watchers": 47623,
-      "openIssues": 437,
-      "language": "Swift",
-      "topics": [],
-      "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-07-12T14:54:47Z",
-      "pushedAt": "2026-07-11T03:44:40Z",
-      "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.963130179152537
+      "score": 0.9627966172376294
     },
     {
       "owner": "nexu-io",
@@ -214,10 +214,10 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 77494,
-      "forks": 8867,
-      "watchers": 77494,
-      "openIssues": 646,
+      "stars": 77507,
+      "forks": 8874,
+      "watchers": 77507,
+      "openIssues": 645,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -242,10 +242,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-07-12T14:49:02Z",
-      "pushedAt": "2026-07-12T14:44:31Z",
+      "updatedAt": "2026-07-12T16:01:17Z",
+      "pushedAt": "2026-07-12T15:38:00Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9611418946082881
+      "score": 0.961147722447262
     },
     {
       "owner": "mattpocock",
@@ -253,14 +253,14 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "homepage": "",
-      "stars": 166496,
-      "forks": 14335,
-      "watchers": 166496,
+      "stars": 166552,
+      "forks": 14346,
+      "watchers": 166552,
       "openIssues": 147,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-07-12T14:59:17Z",
+      "updatedAt": "2026-07-12T16:05:10Z",
       "pushedAt": "2026-07-10T13:15:20Z",
       "starredAt": "2026-03-18T06:37:36Z",
       "score": 0.9506849315068493
@@ -271,9 +271,9 @@
       "fullName": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
-      "stars": 94826,
+      "stars": 94829,
       "forks": 13828,
-      "watchers": 94826,
+      "watchers": 94829,
       "openIssues": 58,
       "language": "Python",
       "topics": [
@@ -297,10 +297,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-07-12T14:36:23Z",
+      "updatedAt": "2026-07-12T15:49:26Z",
       "pushedAt": "2026-07-06T20:55:43Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.9504833280187663
+      "score": 0.9504844271680268
     },
     {
       "owner": "heygen-com",
@@ -308,10 +308,10 @@
       "fullName": "heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "homepage": "",
-      "stars": 34420,
-      "forks": 3230,
-      "watchers": 34420,
-      "openIssues": 191,
+      "stars": 34430,
+      "forks": 3233,
+      "watchers": 34430,
+      "openIssues": 192,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -327,32 +327,49 @@
         "video"
       ],
       "createdAt": "2026-03-10T01:51:06Z",
-      "updatedAt": "2026-07-12T14:59:13Z",
-      "pushedAt": "2026-07-12T13:07:48Z",
+      "updatedAt": "2026-07-12T15:58:18Z",
+      "pushedAt": "2026-07-12T15:57:22Z",
       "starredAt": "2026-05-09T07:47:14Z",
-      "score": 0.9366445088019535
+      "score": 0.9366546010458379
     },
     {
-      "owner": "lxgw",
-      "name": "LxgwWenKai",
-      "fullName": "lxgw/LxgwWenKai",
-      "description": "An unprofessional open-source Chinese font derived from Fontworks' Klee One. 一款非专业的开源中文字体，基于 FONTWORKS 出品字体 Klee One 衍生。  ",
-      "homepage": "https://lxgw.github.io/2021/01/28/Klee-Simpchin/",
-      "stars": 25118,
-      "forks": 633,
-      "watchers": 25118,
-      "openIssues": 4,
-      "language": "Shell",
+      "owner": "D4Vinci",
+      "name": "Scrapling",
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "homepage": "https://scrapling.readthedocs.io/en/latest/",
+      "stars": 69249,
+      "forks": 6854,
+      "watchers": 69249,
+      "openIssues": 3,
+      "language": "Python",
       "topics": [
-        "cjk",
-        "font",
-        "typeface"
+        "ai",
+        "ai-scraping",
+        "automation",
+        "crawler",
+        "crawling",
+        "crawling-python",
+        "data",
+        "data-extraction",
+        "mcp",
+        "mcp-server",
+        "playwright",
+        "python",
+        "scraping",
+        "selectors",
+        "stealth",
+        "web-scraper",
+        "web-scraping",
+        "web-scraping-python",
+        "webscraping",
+        "xpath"
       ],
-      "createdAt": "2021-01-30T15:41:52Z",
-      "updatedAt": "2026-07-12T13:30:23Z",
-      "pushedAt": "2026-07-10T09:24:16Z",
-      "starredAt": "2026-06-02T16:05:18Z",
-      "score": 0.9343289547975242
+      "createdAt": "2024-10-13T20:29:53Z",
+      "updatedAt": "2026-07-12T16:05:15Z",
+      "pushedAt": "2026-07-12T15:45:23Z",
+      "starredAt": "2026-03-06T11:22:46Z",
+      "score": 0.9346308424928915
     }
   ],
   "recentlyStarred": [
@@ -425,9 +442,9 @@
       "fullName": "microsoft/SkillOpt",
       "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
       "homepage": "https://aka.ms/skillopt",
-      "stars": 12298,
+      "stars": 12306,
       "forks": 1139,
-      "watchers": 12298,
+      "watchers": 12306,
       "openIssues": 42,
       "language": "Python",
       "topics": [
@@ -435,10 +452,10 @@
         "self-evolving-agents"
       ],
       "createdAt": "2026-05-08T06:41:01Z",
-      "updatedAt": "2026-07-12T14:36:39Z",
+      "updatedAt": "2026-07-12T16:05:26Z",
       "pushedAt": "2026-07-02T14:11:34Z",
       "starredAt": "2026-06-29T16:33:23Z",
-      "score": 0.9140388991892572
+      "score": 0.9140614911162841
     },
     {
       "owner": "rose-pine",
@@ -470,9 +487,9 @@
       "fullName": "ViscousPot/GitSync",
       "description": "Mobile Git client for syncing a repository between remote and a local directory",
       "homepage": "https://gitsync.viscouspotenti.al",
-      "stars": 2067,
+      "stars": 2068,
       "forks": 173,
-      "watchers": 2067,
+      "watchers": 2068,
       "openIssues": 133,
       "language": "Dart",
       "topics": [
@@ -482,10 +499,10 @@
         "sync"
       ],
       "createdAt": "2024-06-08T17:10:16Z",
-      "updatedAt": "2026-07-12T11:19:36Z",
+      "updatedAt": "2026-07-12T15:27:54Z",
       "pushedAt": "2026-07-06T15:30:26Z",
       "starredAt": "2026-06-28T04:59:26Z",
-      "score": 0.8553810290551223
+      "score": 0.8545759077464095
     },
     {
       "owner": "guofei9987",
@@ -493,9 +510,9 @@
       "fullName": "guofei9987/blind_watermark",
       "description": "Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！",
       "homepage": "https://blindwatermark.github.io/blind_watermark/#/en/",
-      "stars": 14098,
+      "stars": 14099,
       "forks": 1399,
-      "watchers": 14098,
+      "watchers": 14099,
       "openIssues": 51,
       "language": "Python",
       "topics": [
@@ -505,10 +522,10 @@
         "watermark-image"
       ],
       "createdAt": "2019-07-16T14:08:51Z",
-      "updatedAt": "2026-07-12T12:56:13Z",
+      "updatedAt": "2026-07-12T15:21:05Z",
       "pushedAt": "2026-03-25T09:09:28Z",
       "starredAt": "2026-06-26T12:17:07Z",
-      "score": 0.8357706812812369
+      "score": 0.8357731454507866
     },
     {
       "owner": "googlefonts",
