@@ -1,13 +1,13 @@
 {
   "totalRepos": 1630,
-  "totalStars": 27577011,
+  "totalStars": 27578640,
   "languageDistribution": {
     "Batchfile": 1,
     "C": 35,
     "Python": 89,
     "Go": 65,
-    "Swift": 14,
     "TypeScript": 594,
+    "Swift": 14,
     "Shell": 35,
     "Rust": 59,
     "JavaScript": 362,
@@ -21,9 +21,10 @@
     "Kotlin": 6,
     "Objective-C": 3,
     "Jupyter Notebook": 5,
+    "Assembly": 5,
     "Astro": 1,
-    "CSS": 24,
     "Markdown": 1,
+    "CSS": 24,
     "Ruby": 7,
     "Clojure": 2,
     "Dockerfile": 4,
@@ -40,9 +41,8 @@
     "Bikeshed": 2,
     "D": 1,
     "Haxe": 3,
-    "Groovy": 1,
     "Makefile": 4,
-    "Assembly": 5,
+    "Groovy": 1,
     "XSLT": 2,
     "Mermaid": 1,
     "Scala": 1,
@@ -65,9 +65,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 183805,
-      "forks": 17606,
-      "watchers": 183805,
+      "stars": 183819,
+      "forks": 17607,
+      "watchers": 183819,
       "openIssues": 0,
       "language": "Batchfile",
       "topics": [
@@ -89,7 +89,7 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-07-20T14:11:44Z",
+      "updatedAt": "2026-07-20T16:01:02Z",
       "pushedAt": "2026-07-04T16:54:38Z",
       "starredAt": "2026-06-20T21:47:10Z",
       "score": 0.9757534246575341
@@ -100,9 +100,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 146045,
-      "forks": 13469,
-      "watchers": 146045,
+      "stars": 146052,
+      "forks": 13468,
+      "watchers": 146052,
       "openIssues": 2856,
       "language": "C",
       "topics": [
@@ -116,7 +116,7 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-07-20T14:03:21Z",
+      "updatedAt": "2026-07-20T16:02:30Z",
       "pushedAt": "2026-07-12T18:16:07Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9708219178082192
@@ -127,10 +127,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 217589,
-      "forks": 41015,
-      "watchers": 217589,
-      "openIssues": 24008,
+      "stars": 217643,
+      "forks": 41029,
+      "watchers": 217643,
+      "openIssues": 24017,
       "language": "Python",
       "topics": [
         "ai",
@@ -151,8 +151,8 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-07-20T14:09:25Z",
-      "pushedAt": "2026-07-20T14:02:51Z",
+      "updatedAt": "2026-07-20T16:22:06Z",
+      "pushedAt": "2026-07-20T16:25:12Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9646575342465753
     },
@@ -162,9 +162,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 74205,
+      "stars": 74207,
       "forks": 4836,
-      "watchers": 74205,
+      "watchers": 74207,
       "openIssues": 275,
       "language": "Go",
       "topics": [
@@ -185,28 +185,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-07-20T13:41:09Z",
+      "updatedAt": "2026-07-20T15:39:27Z",
       "pushedAt": "2026-07-20T03:59:46Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9600460806650222
-    },
-    {
-      "owner": "apple",
-      "name": "container",
-      "fullName": "apple/container",
-      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
-      "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 48055,
-      "forks": 1503,
-      "watchers": 48055,
-      "openIssues": 455,
-      "language": "Swift",
-      "topics": [],
-      "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-07-20T13:35:31Z",
-      "pushedAt": "2026-07-17T15:15:20Z",
-      "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9593343300630892
+      "score": 0.9596360581566314
     },
     {
       "owner": "nexu-io",
@@ -214,10 +196,10 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 79911,
-      "forks": 9214,
-      "watchers": 79911,
-      "openIssues": 656,
+      "stars": 79940,
+      "forks": 9217,
+      "watchers": 79940,
+      "openIssues": 640,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -242,10 +224,28 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-07-20T14:08:39Z",
-      "pushedAt": "2026-07-20T14:11:04Z",
+      "updatedAt": "2026-07-20T16:25:29Z",
+      "pushedAt": "2026-07-20T16:20:44Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9589212887767912
+      "score": 0.9585229359946694
+    },
+    {
+      "owner": "apple",
+      "name": "container",
+      "fullName": "apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+      "homepage": "https://apple.github.io/container/documentation/",
+      "stars": 48056,
+      "forks": 1507,
+      "watchers": 48056,
+      "openIssues": 458,
+      "language": "Swift",
+      "topics": [],
+      "createdAt": "2025-05-30T21:26:05Z",
+      "updatedAt": "2026-07-20T14:55:12Z",
+      "pushedAt": "2026-07-17T15:15:20Z",
+      "starredAt": "2026-06-17T12:16:32Z",
+      "score": 0.9585131352280067
     },
     {
       "owner": "hacksider",
@@ -253,9 +253,9 @@
       "fullName": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
-      "stars": 95013,
-      "forks": 13839,
-      "watchers": 95013,
+      "stars": 95020,
+      "forks": 13840,
+      "watchers": 95020,
       "openIssues": 54,
       "language": "Python",
       "topics": [
@@ -279,10 +279,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-07-20T12:50:00Z",
+      "updatedAt": "2026-07-20T16:08:22Z",
       "pushedAt": "2026-07-19T07:12:49Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.9505517752725274
+      "score": 0.9505543348527097
     },
     {
       "owner": "mattpocock",
@@ -290,14 +290,14 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "homepage": "",
-      "stars": 178498,
-      "forks": 15272,
-      "watchers": 178498,
+      "stars": 178645,
+      "forks": 15284,
+      "watchers": 178645,
       "openIssues": 201,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-07-20T14:11:34Z",
+      "updatedAt": "2026-07-20T16:25:29Z",
       "pushedAt": "2026-07-17T09:51:15Z",
       "starredAt": "2026-03-18T06:37:36Z",
       "score": 0.9465753424657535
@@ -308,17 +308,17 @@
       "fullName": "xai-org/grok-build",
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
       "homepage": "",
-      "stars": 20604,
-      "forks": 3772,
-      "watchers": 20604,
+      "stars": 20676,
+      "forks": 3797,
+      "watchers": 20676,
       "openIssues": 0,
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-07-14T20:04:23Z",
-      "updatedAt": "2026-07-20T14:11:44Z",
+      "updatedAt": "2026-07-20T16:24:34Z",
       "pushedAt": "2026-07-19T17:44:05Z",
       "starredAt": "2026-07-15T23:45:16Z",
-      "score": 0.9434739738924103
+      "score": 0.9435951666036275
     },
     {
       "owner": "heygen-com",
@@ -326,10 +326,10 @@
       "fullName": "heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "homepage": "",
-      "stars": 36380,
-      "forks": 3427,
-      "watchers": 36380,
-      "openIssues": 199,
+      "stars": 36390,
+      "forks": 3429,
+      "watchers": 36390,
+      "openIssues": 200,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -345,10 +345,10 @@
         "video"
       ],
       "createdAt": "2026-03-10T01:51:06Z",
-      "updatedAt": "2026-07-20T14:06:47Z",
-      "pushedAt": "2026-07-20T13:52:07Z",
+      "updatedAt": "2026-07-20T16:03:23Z",
+      "pushedAt": "2026-07-20T16:04:33Z",
       "starredAt": "2026-05-09T07:47:14Z",
-      "score": 0.9352809294872835
+      "score": 0.9352904780935525
     }
   ],
   "recentlyStarred": [
@@ -371,8 +371,8 @@
         "openclaw-alternative"
       ],
       "createdAt": "2026-03-09T09:07:00Z",
-      "updatedAt": "2026-07-20T14:01:32Z",
-      "pushedAt": "2026-07-20T14:09:39Z",
+      "updatedAt": "2026-07-20T14:58:02Z",
+      "pushedAt": "2026-07-20T14:56:55Z",
       "starredAt": "2026-07-16T04:52:45Z",
       "score": 0.8460811594534925
     },
@@ -382,17 +382,17 @@
       "fullName": "xai-org/grok-build",
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
       "homepage": "",
-      "stars": 20604,
-      "forks": 3772,
-      "watchers": 20604,
+      "stars": 20676,
+      "forks": 3797,
+      "watchers": 20676,
       "openIssues": 0,
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-07-14T20:04:23Z",
-      "updatedAt": "2026-07-20T14:11:44Z",
+      "updatedAt": "2026-07-20T16:24:34Z",
       "pushedAt": "2026-07-19T17:44:05Z",
       "starredAt": "2026-07-15T23:45:16Z",
-      "score": 0.9434739738924103
+      "score": 0.9435951666036275
     },
     {
       "owner": "microsoft",
@@ -403,12 +403,12 @@
       "stars": 1113,
       "forks": 67,
       "watchers": 1113,
-      "openIssues": 27,
+      "openIssues": 28,
       "language": "Go",
       "topics": [],
       "createdAt": "2026-02-27T21:39:05Z",
       "updatedAt": "2026-07-20T11:50:01Z",
-      "pushedAt": "2026-07-20T13:18:34Z",
+      "pushedAt": "2026-07-20T14:20:52Z",
       "starredAt": "2026-07-09T22:52:27Z",
       "score": 0.839641226225921
     },
@@ -452,10 +452,10 @@
       "language": "Assembly",
       "topics": [],
       "createdAt": "2023-10-06T15:21:57Z",
-      "updatedAt": "2026-07-16T20:06:23Z",
-      "pushedAt": "2025-01-06T01:53:15Z",
+      "updatedAt": "2026-07-20T14:49:32Z",
+      "pushedAt": "2026-07-20T14:48:21Z",
       "starredAt": "2026-06-29T17:02:18Z",
-      "score": 0.4816137821554167
+      "score": 0.7816137821554168
     },
     {
       "owner": "microsoft",
@@ -463,9 +463,9 @@
       "fullName": "microsoft/SkillOpt",
       "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
       "homepage": "https://aka.ms/skillopt",
-      "stars": 13218,
+      "stars": 13224,
       "forks": 1233,
-      "watchers": 13218,
+      "watchers": 13224,
       "openIssues": 30,
       "language": "Python",
       "topics": [
@@ -473,10 +473,10 @@
         "self-evolving-agents"
       ],
       "createdAt": "2026-05-08T06:41:01Z",
-      "updatedAt": "2026-07-20T13:54:17Z",
+      "updatedAt": "2026-07-20T16:22:21Z",
       "pushedAt": "2026-07-18T17:28:47Z",
       "starredAt": "2026-06-29T16:33:23Z",
-      "score": 0.9206547923163643
+      "score": 0.920670558566167
     },
     {
       "owner": "rose-pine",
