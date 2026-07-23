@@ -1315,11 +1315,11 @@
       "count": 5
     },
     {
-      "name": "qt",
+      "name": "webgl",
       "count": 5
     },
     {
-      "name": "webgl",
+      "name": "qt",
       "count": 5
     },
     {
@@ -1615,11 +1615,11 @@
       "count": 4
     },
     {
-      "name": "ci",
+      "name": "minifier",
       "count": 4
     },
     {
-      "name": "minifier",
+      "name": "ci",
       "count": 4
     },
     {
@@ -1663,10 +1663,6 @@
       "count": 4
     },
     {
-      "name": "lodash",
-      "count": 4
-    },
-    {
       "name": "carousel",
       "count": 4
     },
@@ -1676,6 +1672,10 @@
     },
     {
       "name": "pixel-editor",
+      "count": 4
+    },
+    {
+      "name": "lodash",
       "count": 4
     },
     {
@@ -2263,11 +2263,11 @@
       "count": 3
     },
     {
-      "name": "es2015",
+      "name": "curl",
       "count": 3
     },
     {
-      "name": "curl",
+      "name": "es2015",
       "count": 3
     },
     {
@@ -2515,19 +2515,19 @@
       "count": 3
     },
     {
-      "name": "standard",
-      "count": 3
-    },
-    {
-      "name": "validation",
-      "count": 3
-    },
-    {
       "name": "figma",
       "count": 3
     },
     {
       "name": "edge",
+      "count": 3
+    },
+    {
+      "name": "standard",
+      "count": 3
+    },
+    {
+      "name": "validation",
       "count": 3
     },
     {
@@ -2635,11 +2635,11 @@
       "count": 3
     },
     {
-      "name": "cdn",
+      "name": "fonttools",
       "count": 3
     },
     {
-      "name": "fonttools",
+      "name": "cdn",
       "count": 3
     },
     {
@@ -3399,18 +3399,6 @@
       "count": 2
     },
     {
-      "name": "svg-sprites",
-      "count": 2
-    },
-    {
-      "name": "webfont",
-      "count": 2
-    },
-    {
-      "name": "tailscale",
-      "count": 2
-    },
-    {
       "name": "font-awesome",
       "count": 2
     },
@@ -3424,6 +3412,18 @@
     },
     {
       "name": "statusline",
+      "count": 2
+    },
+    {
+      "name": "svg-sprites",
+      "count": 2
+    },
+    {
+      "name": "webfont",
+      "count": 2
+    },
+    {
+      "name": "tailscale",
       "count": 2
     },
     {
@@ -3819,14 +3819,6 @@
       "count": 2
     },
     {
-      "name": "immutable",
-      "count": 2
-    },
-    {
-      "name": "reducer",
-      "count": 2
-    },
-    {
       "name": "datagrid",
       "count": 2
     },
@@ -3840,6 +3832,18 @@
     },
     {
       "name": "dropdown",
+      "count": 2
+    },
+    {
+      "name": "immutable",
+      "count": 2
+    },
+    {
+      "name": "reducer",
+      "count": 2
+    },
+    {
+      "name": "chrome-extensions",
       "count": 2
     },
     {
@@ -3875,19 +3879,7 @@
       "count": 2
     },
     {
-      "name": "chrome-extensions",
-      "count": 2
-    },
-    {
       "name": "composable",
-      "count": 2
-    },
-    {
-      "name": "community",
-      "count": 2
-    },
-    {
-      "name": "feedback",
       "count": 2
     },
     {
@@ -3904,6 +3896,14 @@
     },
     {
       "name": "responsive-web-design",
+      "count": 2
+    },
+    {
+      "name": "community",
+      "count": 2
+    },
+    {
+      "name": "feedback",
       "count": 2
     },
     {
@@ -3951,6 +3951,10 @@
       "count": 2
     },
     {
+      "name": "unocss",
+      "count": 2
+    },
+    {
       "name": "disk-usage",
       "count": 2
     },
@@ -3963,14 +3967,6 @@
       "count": 2
     },
     {
-      "name": "unocss",
-      "count": 2
-    },
-    {
-      "name": "accessible",
-      "count": 2
-    },
-    {
       "name": "unified",
       "count": 2
     },
@@ -3980,6 +3976,10 @@
     },
     {
       "name": "vimeo",
+      "count": 2
+    },
+    {
+      "name": "accessible",
       "count": 2
     },
     {
@@ -4179,14 +4179,6 @@
       "count": 2
     },
     {
-      "name": "cpp20",
-      "count": 2
-    },
-    {
-      "name": "reimplementation",
-      "count": 2
-    },
-    {
       "name": "art",
       "count": 2
     },
@@ -4200,6 +4192,14 @@
     },
     {
       "name": "pixelart",
+      "count": 2
+    },
+    {
+      "name": "cpp20",
+      "count": 2
+    },
+    {
+      "name": "reimplementation",
       "count": 2
     },
     {
@@ -4323,15 +4323,15 @@
       "count": 2
     },
     {
+      "name": "homebrew",
+      "count": 2
+    },
+    {
       "name": "google-fonts",
       "count": 2
     },
     {
       "name": "prompts",
-      "count": 2
-    },
-    {
-      "name": "homebrew",
       "count": 2
     },
     {
@@ -4379,6 +4379,14 @@
       "count": 2
     },
     {
+      "name": "applications",
+      "count": 2
+    },
+    {
+      "name": "cli-app",
+      "count": 2
+    },
+    {
       "name": "minimalist",
       "count": 2
     },
@@ -4388,14 +4396,6 @@
     },
     {
       "name": "vanilla-javascript",
-      "count": 2
-    },
-    {
-      "name": "applications",
-      "count": 2
-    },
-    {
-      "name": "cli-app",
       "count": 2
     },
     {
@@ -4691,11 +4691,11 @@
       "count": 2
     },
     {
-      "name": "css-variables",
+      "name": "inpainting",
       "count": 2
     },
     {
-      "name": "inpainting",
+      "name": "css-variables",
       "count": 2
     },
     {
@@ -6263,10 +6263,6 @@
       "count": 1
     },
     {
-      "name": "x86",
-      "count": 1
-    },
-    {
       "name": "asciidoc",
       "count": 1
     },
@@ -6316,6 +6312,10 @@
     },
     {
       "name": "zim-wiki",
+      "count": 1
+    },
+    {
+      "name": "x86",
       "count": 1
     },
     {
@@ -6703,6 +6703,10 @@
       "count": 1
     },
     {
+      "name": "typechecker",
+      "count": 1
+    },
+    {
       "name": "works-with-codespaces",
       "count": 1
     },
@@ -6772,10 +6776,6 @@
     },
     {
       "name": "vue-roadmap",
-      "count": 1
-    },
-    {
-      "name": "typechecker",
       "count": 1
     },
     {
@@ -7103,6 +7103,26 @@
       "count": 1
     },
     {
+      "name": "iconic-fonts",
+      "count": 1
+    },
+    {
+      "name": "octicons",
+      "count": 1
+    },
+    {
+      "name": "patched-fonts",
+      "count": 1
+    },
+    {
+      "name": "image-viewer",
+      "count": 1
+    },
+    {
+      "name": "viewer",
+      "count": 1
+    },
+    {
       "name": "fontawesome",
       "count": 1
     },
@@ -7132,26 +7152,6 @@
     },
     {
       "name": "xterm-js",
-      "count": 1
-    },
-    {
-      "name": "iconic-fonts",
-      "count": 1
-    },
-    {
-      "name": "octicons",
-      "count": 1
-    },
-    {
-      "name": "patched-fonts",
-      "count": 1
-    },
-    {
-      "name": "image-viewer",
-      "count": 1
-    },
-    {
-      "name": "viewer",
       "count": 1
     },
     {
@@ -7559,10 +7559,6 @@
       "count": 1
     },
     {
-      "name": "flavortown",
-      "count": 1
-    },
-    {
       "name": "javascript-linter",
       "count": 1
     },
@@ -7644,6 +7640,10 @@
     },
     {
       "name": "rushstack",
+      "count": 1
+    },
+    {
+      "name": "flavortown",
       "count": 1
     },
     {
@@ -8127,18 +8127,6 @@
       "count": 1
     },
     {
-      "name": "gnu-linux",
-      "count": 1
-    },
-    {
-      "name": "gui",
-      "count": 1
-    },
-    {
-      "name": "image-editing",
-      "count": 1
-    },
-    {
       "name": "discord-activities",
       "count": 1
     },
@@ -8180,6 +8168,18 @@
     },
     {
       "name": "springs",
+      "count": 1
+    },
+    {
+      "name": "gnu-linux",
+      "count": 1
+    },
+    {
+      "name": "gui",
+      "count": 1
+    },
+    {
+      "name": "image-editing",
       "count": 1
     },
     {
@@ -8455,14 +8455,6 @@
       "count": 1
     },
     {
-      "name": "immutables",
-      "count": 1
-    },
-    {
-      "name": "state-tree",
-      "count": 1
-    },
-    {
       "name": "javascript-engine",
       "count": 1
     },
@@ -8524,6 +8516,18 @@
     },
     {
       "name": "tooltip-position",
+      "count": 1
+    },
+    {
+      "name": "immutables",
+      "count": 1
+    },
+    {
+      "name": "state-tree",
+      "count": 1
+    },
+    {
+      "name": "wxt",
       "count": 1
     },
     {
@@ -8591,15 +8595,7 @@
       "count": 1
     },
     {
-      "name": "wxt",
-      "count": 1
-    },
-    {
       "name": "utility-library",
-      "count": 1
-    },
-    {
-      "name": "discussion",
       "count": 1
     },
     {
@@ -8616,6 +8612,10 @@
     },
     {
       "name": "opensource-alternative",
+      "count": 1
+    },
+    {
+      "name": "discussion",
       "count": 1
     },
     {
@@ -8695,18 +8695,6 @@
       "count": 1
     },
     {
-      "name": "batch-rename",
-      "count": 1
-    },
-    {
-      "name": "file-preview",
-      "count": 1
-    },
-    {
-      "name": "file-search",
-      "count": 1
-    },
-    {
       "name": "committee",
       "count": 1
     },
@@ -8723,7 +8711,15 @@
       "count": 1
     },
     {
-      "name": "odometer",
+      "name": "batch-rename",
+      "count": 1
+    },
+    {
+      "name": "file-preview",
+      "count": 1
+    },
+    {
+      "name": "file-search",
       "count": 1
     },
     {
@@ -8760,6 +8756,10 @@
     },
     {
       "name": "vk",
+      "count": 1
+    },
+    {
+      "name": "odometer",
       "count": 1
     },
     {
@@ -8911,14 +8911,6 @@
       "count": 1
     },
     {
-      "name": "minification",
-      "count": 1
-    },
-    {
-      "name": "optimization",
-      "count": 1
-    },
-    {
       "name": "cross-site-scripting",
       "count": 1
     },
@@ -8940,6 +8932,14 @@
     },
     {
       "name": "xss",
+      "count": 1
+    },
+    {
+      "name": "minification",
+      "count": 1
+    },
+    {
+      "name": "optimization",
       "count": 1
     },
     {
@@ -9015,11 +9015,11 @@
       "count": 1
     },
     {
-      "name": "presentations",
+      "name": "tslint",
       "count": 1
     },
     {
-      "name": "tslint",
+      "name": "presentations",
       "count": 1
     },
     {
@@ -9100,6 +9100,10 @@
     },
     {
       "name": "tsx",
+      "count": 1
+    },
+    {
+      "name": "graphs",
       "count": 1
     },
     {
@@ -9216,10 +9220,6 @@
     },
     {
       "name": "typesafe",
-      "count": 1
-    },
-    {
-      "name": "graphs",
       "count": 1
     },
     {
@@ -9427,10 +9427,6 @@
       "count": 1
     },
     {
-      "name": "interface",
-      "count": 1
-    },
-    {
       "name": "builder",
       "count": 1
     },
@@ -9452,6 +9448,10 @@
     },
     {
       "name": "ethereum",
+      "count": 1
+    },
+    {
+      "name": "interface",
       "count": 1
     },
     {
@@ -9811,22 +9811,6 @@
       "count": 1
     },
     {
-      "name": "game-2d",
-      "count": 1
-    },
-    {
-      "name": "jazz-jackrabbit",
-      "count": 1
-    },
-    {
-      "name": "ncine",
-      "count": 1
-    },
-    {
-      "name": "uwp",
-      "count": 1
-    },
-    {
       "name": "gdscript",
       "count": 1
     },
@@ -9843,6 +9827,22 @@
       "count": 1
     },
     {
+      "name": "game-2d",
+      "count": 1
+    },
+    {
+      "name": "jazz-jackrabbit",
+      "count": 1
+    },
+    {
+      "name": "ncine",
+      "count": 1
+    },
+    {
+      "name": "uwp",
+      "count": 1
+    },
+    {
       "name": "challenges",
       "count": 1
     },
@@ -9852,14 +9852,6 @@
     },
     {
       "name": "loader",
-      "count": 1
-    },
-    {
-      "name": "pwsh",
-      "count": 1
-    },
-    {
-      "name": "xonsh",
       "count": 1
     },
     {
@@ -9888,6 +9880,14 @@
     },
     {
       "name": "betterdiscord",
+      "count": 1
+    },
+    {
+      "name": "pwsh",
+      "count": 1
+    },
+    {
+      "name": "xonsh",
       "count": 1
     },
     {
@@ -10075,15 +10075,15 @@
       "count": 1
     },
     {
-      "name": "octokit",
-      "count": 1
-    },
-    {
       "name": "catalogs",
       "count": 1
     },
     {
       "name": "vlt",
+      "count": 1
+    },
+    {
+      "name": "octokit",
       "count": 1
     },
     {
@@ -10331,26 +10331,6 @@
       "count": 1
     },
     {
-      "name": "content-management",
-      "count": 1
-    },
-    {
-      "name": "machinelearning",
-      "count": 1
-    },
-    {
-      "name": "nsfw-recognition",
-      "count": 1
-    },
-    {
-      "name": "tensorflow-js",
-      "count": 1
-    },
-    {
-      "name": "tensorflowjs",
-      "count": 1
-    },
-    {
       "name": "convert-videos",
       "count": 1
     },
@@ -10463,6 +10443,26 @@
       "count": 1
     },
     {
+      "name": "content-management",
+      "count": 1
+    },
+    {
+      "name": "machinelearning",
+      "count": 1
+    },
+    {
+      "name": "nsfw-recognition",
+      "count": 1
+    },
+    {
+      "name": "tensorflow-js",
+      "count": 1
+    },
+    {
+      "name": "tensorflowjs",
+      "count": 1
+    },
+    {
       "name": "disable-devtool",
       "count": 1
     },
@@ -10507,6 +10507,22 @@
       "count": 1
     },
     {
+      "name": "dotenvx",
+      "count": 1
+    },
+    {
+      "name": "end-to-end-encryption",
+      "count": 1
+    },
+    {
+      "name": "secrets-management",
+      "count": 1
+    },
+    {
+      "name": "winget",
+      "count": 1
+    },
+    {
       "name": "optimized",
       "count": 1
     },
@@ -10535,30 +10551,6 @@
       "count": 1
     },
     {
-      "name": "dotenvx",
-      "count": 1
-    },
-    {
-      "name": "end-to-end-encryption",
-      "count": 1
-    },
-    {
-      "name": "secrets-management",
-      "count": 1
-    },
-    {
-      "name": "winget",
-      "count": 1
-    },
-    {
-      "name": "runtime-typechecking",
-      "count": 1
-    },
-    {
-      "name": "static-typing",
-      "count": 1
-    },
-    {
       "name": "payment",
       "count": 1
     },
@@ -10572,6 +10564,14 @@
     },
     {
       "name": "vitepress",
+      "count": 1
+    },
+    {
+      "name": "runtime-typechecking",
+      "count": 1
+    },
+    {
+      "name": "static-typing",
       "count": 1
     },
     {
@@ -10711,22 +10711,6 @@
       "count": 1
     },
     {
-      "name": "8bit",
-      "count": 1
-    },
-    {
-      "name": "gameengine",
-      "count": 1
-    },
-    {
-      "name": "tic-80",
-      "count": 1
-    },
-    {
-      "name": "tic80",
-      "count": 1
-    },
-    {
       "name": "algolia",
       "count": 1
     },
@@ -10743,6 +10727,22 @@
       "count": 1
     },
     {
+      "name": "8bit",
+      "count": 1
+    },
+    {
+      "name": "gameengine",
+      "count": 1
+    },
+    {
+      "name": "tic-80",
+      "count": 1
+    },
+    {
+      "name": "tic80",
+      "count": 1
+    },
+    {
       "name": "icons-provider",
       "count": 1
     },
@@ -10756,6 +10756,26 @@
     },
     {
       "name": "urlsearchparams",
+      "count": 1
+    },
+    {
+      "name": "freeware-icon",
+      "count": 1
+    },
+    {
+      "name": "gui-app",
+      "count": 1
+    },
+    {
+      "name": "linux-resource",
+      "count": 1
+    },
+    {
+      "name": "oss-icon",
+      "count": 1
+    },
+    {
+      "name": "ubuntu-linux",
       "count": 1
     },
     {
@@ -10804,26 +10824,6 @@
     },
     {
       "name": "vannilajs",
-      "count": 1
-    },
-    {
-      "name": "freeware-icon",
-      "count": 1
-    },
-    {
-      "name": "gui-app",
-      "count": 1
-    },
-    {
-      "name": "linux-resource",
-      "count": 1
-    },
-    {
-      "name": "oss-icon",
-      "count": 1
-    },
-    {
-      "name": "ubuntu-linux",
       "count": 1
     },
     {
@@ -10943,34 +10943,6 @@
       "count": 1
     },
     {
-      "name": "cdn-providers",
-      "count": 1
-    },
-    {
-      "name": "distribution",
-      "count": 1
-    },
-    {
-      "name": "esmodules",
-      "count": 1
-    },
-    {
-      "name": "infrastructure",
-      "count": 1
-    },
-    {
-      "name": "jsdelivr",
-      "count": 1
-    },
-    {
-      "name": "npm-cdn",
-      "count": 1
-    },
-    {
-      "name": "traffic",
-      "count": 1
-    },
-    {
       "name": "bitcoin",
       "count": 1
     },
@@ -11027,19 +10999,39 @@
       "count": 1
     },
     {
-      "name": "gtk3",
-      "count": 1
-    },
-    {
-      "name": "vte",
-      "count": 1
-    },
-    {
       "name": "hacktoberfest2021",
       "count": 1
     },
     {
       "name": "wpf",
+      "count": 1
+    },
+    {
+      "name": "cdn-providers",
+      "count": 1
+    },
+    {
+      "name": "distribution",
+      "count": 1
+    },
+    {
+      "name": "esmodules",
+      "count": 1
+    },
+    {
+      "name": "infrastructure",
+      "count": 1
+    },
+    {
+      "name": "jsdelivr",
+      "count": 1
+    },
+    {
+      "name": "npm-cdn",
+      "count": 1
+    },
+    {
+      "name": "traffic",
       "count": 1
     },
     {
@@ -11108,6 +11100,14 @@
     },
     {
       "name": "upscaling",
+      "count": 1
+    },
+    {
+      "name": "gtk3",
+      "count": 1
+    },
+    {
+      "name": "vte",
       "count": 1
     },
     {
@@ -11243,18 +11243,6 @@
       "count": 1
     },
     {
-      "name": "minimalistic",
-      "count": 1
-    },
-    {
-      "name": "native-html",
-      "count": 1
-    },
-    {
-      "name": "scss-framework",
-      "count": 1
-    },
-    {
       "name": "otb",
       "count": 1
     },
@@ -11264,6 +11252,18 @@
     },
     {
       "name": "powerline-fonts",
+      "count": 1
+    },
+    {
+      "name": "minimalistic",
+      "count": 1
+    },
+    {
+      "name": "native-html",
+      "count": 1
+    },
+    {
+      "name": "scss-framework",
       "count": 1
     },
     {
@@ -11435,6 +11435,14 @@
       "count": 1
     },
     {
+      "name": "cross-tab-sync",
+      "count": 1
+    },
+    {
+      "name": "sessionstorage",
+      "count": 1
+    },
+    {
       "name": "fishshell",
       "count": 1
     },
@@ -11452,14 +11460,6 @@
     },
     {
       "name": "omf",
-      "count": 1
-    },
-    {
-      "name": "cross-tab-sync",
-      "count": 1
-    },
-    {
-      "name": "sessionstorage",
       "count": 1
     },
     {
@@ -11863,6 +11863,14 @@
       "count": 1
     },
     {
+      "name": "cls",
+      "count": 1
+    },
+    {
+      "name": "web-vitals",
+      "count": 1
+    },
+    {
       "name": "dom-to-image",
       "count": 1
     },
@@ -11879,15 +11887,23 @@
       "count": 1
     },
     {
-      "name": "cls",
-      "count": 1
-    },
-    {
-      "name": "web-vitals",
-      "count": 1
-    },
-    {
       "name": "story",
+      "count": 1
+    },
+    {
+      "name": "firefox-extension",
+      "count": 1
+    },
+    {
+      "name": "ghostery",
+      "count": 1
+    },
+    {
+      "name": "opera-extension",
+      "count": 1
+    },
+    {
+      "name": "yandex-extension",
       "count": 1
     },
     {
@@ -11920,22 +11936,6 @@
     },
     {
       "name": "tutorial-exercises",
-      "count": 1
-    },
-    {
-      "name": "firefox-extension",
-      "count": 1
-    },
-    {
-      "name": "ghostery",
-      "count": 1
-    },
-    {
-      "name": "opera-extension",
-      "count": 1
-    },
-    {
-      "name": "yandex-extension",
       "count": 1
     },
     {
@@ -12303,6 +12303,18 @@
       "count": 1
     },
     {
+      "name": "frontend-framework",
+      "count": 1
+    },
+    {
+      "name": "low-code-development-platform",
+      "count": 1
+    },
+    {
+      "name": "lowcode",
+      "count": 1
+    },
+    {
       "name": "createfile",
       "count": 1
     },
@@ -12348,18 +12360,6 @@
     },
     {
       "name": "userland",
-      "count": 1
-    },
-    {
-      "name": "frontend-framework",
-      "count": 1
-    },
-    {
-      "name": "low-code-development-platform",
-      "count": 1
-    },
-    {
-      "name": "lowcode",
       "count": 1
     },
     {
@@ -12467,10 +12467,6 @@
       "count": 1
     },
     {
-      "name": "json-data",
-      "count": 1
-    },
-    {
       "name": "react-a11y",
       "count": 1
     },
@@ -12507,15 +12503,7 @@
       "count": 1
     },
     {
-      "name": "file-transfer",
-      "count": 1
-    },
-    {
-      "name": "mtp",
-      "count": 1
-    },
-    {
-      "name": "openmtp",
+      "name": "json-data",
       "count": 1
     },
     {
@@ -12528,6 +12516,30 @@
     },
     {
       "name": "pug",
+      "count": 1
+    },
+    {
+      "name": "file-transfer",
+      "count": 1
+    },
+    {
+      "name": "mtp",
+      "count": 1
+    },
+    {
+      "name": "openmtp",
+      "count": 1
+    },
+    {
+      "name": "dimensions",
+      "count": 1
+    },
+    {
+      "name": "image-analysis",
+      "count": 1
+    },
+    {
+      "name": "image-size",
       "count": 1
     },
     {
@@ -12544,18 +12556,6 @@
     },
     {
       "name": "web-development-tools",
-      "count": 1
-    },
-    {
-      "name": "dimensions",
-      "count": 1
-    },
-    {
-      "name": "image-analysis",
-      "count": 1
-    },
-    {
-      "name": "image-size",
       "count": 1
     },
     {
@@ -12631,14 +12631,6 @@
       "count": 1
     },
     {
-      "name": "pcf",
-      "count": 1
-    },
-    {
-      "name": "psf",
-      "count": 1
-    },
-    {
       "name": "brush",
       "count": 1
     },
@@ -12672,6 +12664,14 @@
     },
     {
       "name": "watercolor",
+      "count": 1
+    },
+    {
+      "name": "pcf",
+      "count": 1
+    },
+    {
+      "name": "psf",
       "count": 1
     },
     {
@@ -13115,6 +13115,10 @@
       "count": 1
     },
     {
+      "name": "pnpm-config",
+      "count": 1
+    },
+    {
       "name": "100daysofcode",
       "count": 1
     },
@@ -13128,10 +13132,6 @@
     },
     {
       "name": "introduction-to-bash-scripting",
-      "count": 1
-    },
-    {
-      "name": "pnpm-config",
       "count": 1
     },
     {
@@ -13395,6 +13395,22 @@
       "count": 1
     },
     {
+      "name": "dprint",
+      "count": 1
+    },
+    {
+      "name": "image-upscaling",
+      "count": 1
+    },
+    {
+      "name": "super-resolution",
+      "count": 1
+    },
+    {
+      "name": "webgpu",
+      "count": 1
+    },
+    {
       "name": "animate-on-scroll",
       "count": 1
     },
@@ -13416,22 +13432,6 @@
     },
     {
       "name": "simple",
-      "count": 1
-    },
-    {
-      "name": "dprint",
-      "count": 1
-    },
-    {
-      "name": "image-upscaling",
-      "count": 1
-    },
-    {
-      "name": "super-resolution",
-      "count": 1
-    },
-    {
-      "name": "webgpu",
       "count": 1
     },
     {
@@ -13623,14 +13623,6 @@
       "count": 1
     },
     {
-      "name": "bootstrap-theme",
-      "count": 1
-    },
-    {
-      "name": "msdos",
-      "count": 1
-    },
-    {
       "name": "malinajs",
       "count": 1
     },
@@ -13644,6 +13636,14 @@
     },
     {
       "name": "es-modules",
+      "count": 1
+    },
+    {
+      "name": "bootstrap-theme",
+      "count": 1
+    },
+    {
+      "name": "msdos",
       "count": 1
     },
     {
