@@ -587,11 +587,11 @@
       "count": 10
     },
     {
-      "name": "firefox",
+      "name": "desktop",
       "count": 10
     },
     {
-      "name": "desktop",
+      "name": "firefox",
       "count": 10
     },
     {
@@ -1327,15 +1327,15 @@
       "count": 5
     },
     {
+      "name": "version",
+      "count": 5
+    },
+    {
       "name": "discord",
       "count": 5
     },
     {
       "name": "semver",
-      "count": 5
-    },
-    {
-      "name": "version",
       "count": 5
     },
     {
@@ -1547,19 +1547,19 @@
       "count": 4
     },
     {
-      "name": "game-engine",
-      "count": 4
-    },
-    {
-      "name": "godot",
-      "count": 4
-    },
-    {
       "name": "ssg",
       "count": 4
     },
     {
       "name": "static",
+      "count": 4
+    },
+    {
+      "name": "game-engine",
+      "count": 4
+    },
+    {
+      "name": "godot",
       "count": 4
     },
     {
@@ -2023,11 +2023,11 @@
       "count": 3
     },
     {
-      "name": "hosting",
+      "name": "tailwind",
       "count": 3
     },
     {
-      "name": "tailwind",
+      "name": "hosting",
       "count": 3
     },
     {
@@ -2139,10 +2139,6 @@
       "count": 3
     },
     {
-      "name": "renderer",
-      "count": 3
-    },
-    {
       "name": "computer-science",
       "count": 3
     },
@@ -2152,6 +2148,10 @@
     },
     {
       "name": "software",
+      "count": 3
+    },
+    {
+      "name": "renderer",
       "count": 3
     },
     {
@@ -2211,11 +2211,11 @@
       "count": 3
     },
     {
-      "name": "jquery",
+      "name": "webdav",
       "count": 3
     },
     {
-      "name": "webdav",
+      "name": "jquery",
       "count": 3
     },
     {
@@ -2227,11 +2227,11 @@
       "count": 3
     },
     {
-      "name": "sdk",
+      "name": "stale-while-revalidate",
       "count": 3
     },
     {
-      "name": "stale-while-revalidate",
+      "name": "sdk",
       "count": 3
     },
     {
@@ -2403,6 +2403,14 @@
       "count": 3
     },
     {
+      "name": "changelog",
+      "count": 3
+    },
+    {
+      "name": "release",
+      "count": 3
+    },
+    {
       "name": "csv",
       "count": 3
     },
@@ -2412,14 +2420,6 @@
     },
     {
       "name": "learning",
-      "count": 3
-    },
-    {
-      "name": "changelog",
-      "count": 3
-    },
-    {
-      "name": "release",
       "count": 3
     },
     {
@@ -2467,19 +2467,19 @@
       "count": 3
     },
     {
-      "name": "opengl",
-      "count": 3
-    },
-    {
-      "name": "simulation",
-      "count": 3
-    },
-    {
       "name": "command-and-conquer",
       "count": 3
     },
     {
       "name": "real-time-strategy",
+      "count": 3
+    },
+    {
+      "name": "opengl",
+      "count": 3
+    },
+    {
+      "name": "simulation",
       "count": 3
     },
     {
@@ -2895,14 +2895,6 @@
       "count": 2
     },
     {
-      "name": "headless-chrome",
-      "count": 2
-    },
-    {
-      "name": "networking",
-      "count": 2
-    },
-    {
       "name": "plugins",
       "count": 2
     },
@@ -2916,6 +2908,14 @@
     },
     {
       "name": "spotlight",
+      "count": 2
+    },
+    {
+      "name": "headless-chrome",
+      "count": 2
+    },
+    {
+      "name": "networking",
       "count": 2
     },
     {
@@ -3287,10 +3287,6 @@
       "count": 2
     },
     {
-      "name": "godotengine",
-      "count": 2
-    },
-    {
       "name": "programming-language",
       "count": 2
     },
@@ -3324,6 +3320,10 @@
     },
     {
       "name": "material-ui",
+      "count": 2
+    },
+    {
+      "name": "godotengine",
       "count": 2
     },
     {
@@ -3399,22 +3399,6 @@
       "count": 2
     },
     {
-      "name": "font-awesome",
-      "count": 2
-    },
-    {
-      "name": "icon-font",
-      "count": 2
-    },
-    {
-      "name": "powerline",
-      "count": 2
-    },
-    {
-      "name": "statusline",
-      "count": 2
-    },
-    {
       "name": "svg-sprites",
       "count": 2
     },
@@ -3428,6 +3412,22 @@
     },
     {
       "name": "manual",
+      "count": 2
+    },
+    {
+      "name": "font-awesome",
+      "count": 2
+    },
+    {
+      "name": "icon-font",
+      "count": 2
+    },
+    {
+      "name": "powerline",
+      "count": 2
+    },
+    {
+      "name": "statusline",
       "count": 2
     },
     {
@@ -3475,10 +3475,6 @@
       "count": 2
     },
     {
-      "name": "diagram",
-      "count": 2
-    },
-    {
       "name": "query",
       "count": 2
     },
@@ -3488,6 +3484,10 @@
     },
     {
       "name": "update",
+      "count": 2
+    },
+    {
+      "name": "diagram",
       "count": 2
     },
     {
@@ -3519,10 +3519,6 @@
       "count": 2
     },
     {
-      "name": "monaco-editor",
-      "count": 2
-    },
-    {
       "name": "files",
       "count": 2
     },
@@ -3536,6 +3532,10 @@
     },
     {
       "name": "facebook",
+      "count": 2
+    },
+    {
+      "name": "monaco-editor",
       "count": 2
     },
     {
@@ -3847,19 +3847,19 @@
       "count": 2
     },
     {
-      "name": "handbook",
-      "count": 2
-    },
-    {
-      "name": "wtf",
-      "count": 2
-    },
-    {
       "name": "publish",
       "count": 2
     },
     {
       "name": "semantic-release",
+      "count": 2
+    },
+    {
+      "name": "handbook",
+      "count": 2
+    },
+    {
+      "name": "wtf",
       "count": 2
     },
     {
@@ -3983,10 +3983,6 @@
       "count": 2
     },
     {
-      "name": "service-worker",
-      "count": 2
-    },
-    {
       "name": "email",
       "count": 2
     },
@@ -3996,6 +3992,10 @@
     },
     {
       "name": "type-system",
+      "count": 2
+    },
+    {
+      "name": "service-worker",
       "count": 2
     },
     {
@@ -4111,15 +4111,15 @@
       "count": 2
     },
     {
-      "name": "collection",
-      "count": 2
-    },
-    {
       "name": "store",
       "count": 2
     },
     {
       "name": "date-fns",
+      "count": 2
+    },
+    {
+      "name": "collection",
       "count": 2
     },
     {
@@ -4139,6 +4139,14 @@
       "count": 2
     },
     {
+      "name": "blazor",
+      "count": 2
+    },
+    {
+      "name": "pkhex",
+      "count": 2
+    },
+    {
       "name": "http-request",
       "count": 2
     },
@@ -4152,14 +4160,6 @@
     },
     {
       "name": "seccomp",
-      "count": 2
-    },
-    {
-      "name": "blazor",
-      "count": 2
-    },
-    {
-      "name": "pkhex",
       "count": 2
     },
     {
@@ -4351,11 +4351,11 @@
       "count": 2
     },
     {
-      "name": "nerd-fonts",
+      "name": "leak",
       "count": 2
     },
     {
-      "name": "leak",
+      "name": "nerd-fonts",
       "count": 2
     },
     {
@@ -5503,18 +5503,6 @@
       "count": 1
     },
     {
-      "name": "cdp",
-      "count": 1
-    },
-    {
-      "name": "orchestrator",
-      "count": 1
-    },
-    {
-      "name": "antidetect",
-      "count": 1
-    },
-    {
       "name": "alfred",
       "count": 1
     },
@@ -5548,6 +5536,18 @@
     },
     {
       "name": "wox",
+      "count": 1
+    },
+    {
+      "name": "cdp",
+      "count": 1
+    },
+    {
+      "name": "orchestrator",
+      "count": 1
+    },
+    {
+      "name": "antidetect",
       "count": 1
     },
     {
@@ -5851,14 +5851,6 @@
       "count": 1
     },
     {
-      "name": "svg-editor",
-      "count": 1
-    },
-    {
-      "name": "svg-parser",
-      "count": 1
-    },
-    {
       "name": "aria2",
       "count": 1
     },
@@ -5872,6 +5864,14 @@
     },
     {
       "name": "motrix",
+      "count": 1
+    },
+    {
+      "name": "svg-editor",
+      "count": 1
+    },
+    {
+      "name": "svg-parser",
       "count": 1
     },
     {
@@ -6147,15 +6147,15 @@
       "count": 1
     },
     {
-      "name": "selfhosted",
-      "count": 1
-    },
-    {
       "name": "components-library",
       "count": 1
     },
     {
       "name": "components-react",
+      "count": 1
+    },
+    {
+      "name": "selfhosted",
       "count": 1
     },
     {
@@ -6451,18 +6451,6 @@
       "count": 1
     },
     {
-      "name": "hand-drawn",
-      "count": 1
-    },
-    {
-      "name": "react-ui",
-      "count": 1
-    },
-    {
-      "name": "sketch-ui",
-      "count": 1
-    },
-    {
       "name": "ansi-escape-codes",
       "count": 1
     },
@@ -6476,6 +6464,18 @@
     },
     {
       "name": "strip-ansi",
+      "count": 1
+    },
+    {
+      "name": "hand-drawn",
+      "count": 1
+    },
+    {
+      "name": "react-ui",
+      "count": 1
+    },
+    {
+      "name": "sketch-ui",
       "count": 1
     },
     {
@@ -6827,15 +6827,15 @@
       "count": 1
     },
     {
+      "name": "template",
+      "count": 1
+    },
+    {
       "name": "gpui",
       "count": 1
     },
     {
       "name": "zed",
-      "count": 1
-    },
-    {
-      "name": "template",
       "count": 1
     },
     {
@@ -7103,18 +7103,6 @@
       "count": 1
     },
     {
-      "name": "iconic-fonts",
-      "count": 1
-    },
-    {
-      "name": "octicons",
-      "count": 1
-    },
-    {
-      "name": "patched-fonts",
-      "count": 1
-    },
-    {
       "name": "image-viewer",
       "count": 1
     },
@@ -7180,6 +7168,18 @@
     },
     {
       "name": "tldr",
+      "count": 1
+    },
+    {
+      "name": "iconic-fonts",
+      "count": 1
+    },
+    {
+      "name": "octicons",
+      "count": 1
+    },
+    {
+      "name": "patched-fonts",
       "count": 1
     },
     {
@@ -8383,6 +8383,10 @@
       "count": 1
     },
     {
+      "name": "reasonml",
+      "count": 1
+    },
+    {
       "name": "deploy",
       "count": 1
     },
@@ -8392,14 +8396,6 @@
     },
     {
       "name": "production",
-      "count": 1
-    },
-    {
-      "name": "discordjs",
-      "count": 1
-    },
-    {
-      "name": "voice-support",
       "count": 1
     },
     {
@@ -8432,6 +8428,14 @@
     },
     {
       "name": "redoc",
+      "count": 1
+    },
+    {
+      "name": "discordjs",
+      "count": 1
+    },
+    {
+      "name": "voice-support",
       "count": 1
     },
     {
@@ -8531,10 +8535,6 @@
       "count": 1
     },
     {
-      "name": "csv-parser",
-      "count": 1
-    },
-    {
       "name": "release-automation",
       "count": 1
     },
@@ -8548,6 +8548,10 @@
     },
     {
       "name": "semver-release",
+      "count": 1
+    },
+    {
+      "name": "csv-parser",
       "count": 1
     },
     {
@@ -8807,34 +8811,6 @@
       "count": 1
     },
     {
-      "name": "api-mocking",
-      "count": 1
-    },
-    {
-      "name": "mock-service-worker",
-      "count": 1
-    },
-    {
-      "name": "mocking",
-      "count": 1
-    },
-    {
-      "name": "mocking-framework",
-      "count": 1
-    },
-    {
-      "name": "mocking-library",
-      "count": 1
-    },
-    {
-      "name": "msw",
-      "count": 1
-    },
-    {
-      "name": "mswjs",
-      "count": 1
-    },
-    {
       "name": "helm-charts",
       "count": 1
     },
@@ -8899,6 +8875,34 @@
       "count": 1
     },
     {
+      "name": "api-mocking",
+      "count": 1
+    },
+    {
+      "name": "mock-service-worker",
+      "count": 1
+    },
+    {
+      "name": "mocking",
+      "count": 1
+    },
+    {
+      "name": "mocking-framework",
+      "count": 1
+    },
+    {
+      "name": "mocking-library",
+      "count": 1
+    },
+    {
+      "name": "msw",
+      "count": 1
+    },
+    {
+      "name": "mswjs",
+      "count": 1
+    },
+    {
       "name": "node-redis",
       "count": 1
     },
@@ -8935,22 +8939,6 @@
       "count": 1
     },
     {
-      "name": "minification",
-      "count": 1
-    },
-    {
-      "name": "optimization",
-      "count": 1
-    },
-    {
-      "name": "cui",
-      "count": 1
-    },
-    {
-      "name": "wtfutil",
-      "count": 1
-    },
-    {
       "name": "authorization",
       "count": 1
     },
@@ -8980,6 +8968,22 @@
     },
     {
       "name": "openid-provider",
+      "count": 1
+    },
+    {
+      "name": "minification",
+      "count": 1
+    },
+    {
+      "name": "optimization",
+      "count": 1
+    },
+    {
+      "name": "cui",
+      "count": 1
+    },
+    {
+      "name": "wtfutil",
       "count": 1
     },
     {
@@ -9063,22 +9067,6 @@
       "count": 1
     },
     {
-      "name": "msbuild",
-      "count": 1
-    },
-    {
-      "name": "openrct2",
-      "count": 1
-    },
-    {
-      "name": "roller-coaster",
-      "count": 1
-    },
-    {
-      "name": "roller-coaster-tycoon",
-      "count": 1
-    },
-    {
       "name": "dune-2000",
       "count": 1
     },
@@ -9096,6 +9084,22 @@
     },
     {
       "name": "tiberian-dawn",
+      "count": 1
+    },
+    {
+      "name": "msbuild",
+      "count": 1
+    },
+    {
+      "name": "openrct2",
+      "count": 1
+    },
+    {
+      "name": "roller-coaster",
+      "count": 1
+    },
+    {
+      "name": "roller-coaster-tycoon",
       "count": 1
     },
     {
@@ -9355,15 +9359,15 @@
       "count": 1
     },
     {
-      "name": "remote-access",
-      "count": 1
-    },
-    {
       "name": "jetbrains",
       "count": 1
     },
     {
       "name": "terraform",
+      "count": 1
+    },
+    {
+      "name": "remote-access",
       "count": 1
     },
     {
@@ -9471,6 +9475,14 @@
       "count": 1
     },
     {
+      "name": "loopback",
+      "count": 1
+    },
+    {
+      "name": "virtual-audio-cable",
+      "count": 1
+    },
+    {
       "name": "progressive-web-app",
       "count": 1
     },
@@ -9484,14 +9496,6 @@
     },
     {
       "name": "sw-toolbox",
-      "count": 1
-    },
-    {
-      "name": "loopback",
-      "count": 1
-    },
-    {
-      "name": "virtual-audio-cable",
       "count": 1
     },
     {
@@ -9547,42 +9551,6 @@
       "count": 1
     },
     {
-      "name": "whatwg-fetch",
-      "count": 1
-    },
-    {
-      "name": "media",
-      "count": 1
-    },
-    {
-      "name": "css-in-react",
-      "count": 1
-    },
-    {
-      "name": "apparmor",
-      "count": 1
-    },
-    {
-      "name": "minify-images",
-      "count": 1
-    },
-    {
-      "name": "seccomp-profile",
-      "count": 1
-    },
-    {
-      "name": "slim",
-      "count": 1
-    },
-    {
-      "name": "signature",
-      "count": 1
-    },
-    {
-      "name": "signature-pad",
-      "count": 1
-    },
-    {
       "name": "asp-net",
       "count": 1
     },
@@ -9628,6 +9596,42 @@
     },
     {
       "name": "pokemon-game",
+      "count": 1
+    },
+    {
+      "name": "whatwg-fetch",
+      "count": 1
+    },
+    {
+      "name": "media",
+      "count": 1
+    },
+    {
+      "name": "css-in-react",
+      "count": 1
+    },
+    {
+      "name": "apparmor",
+      "count": 1
+    },
+    {
+      "name": "minify-images",
+      "count": 1
+    },
+    {
+      "name": "seccomp-profile",
+      "count": 1
+    },
+    {
+      "name": "slim",
+      "count": 1
+    },
+    {
+      "name": "signature",
+      "count": 1
+    },
+    {
+      "name": "signature-pad",
       "count": 1
     },
     {
@@ -10087,6 +10091,30 @@
       "count": 1
     },
     {
+      "name": "emby",
+      "count": 1
+    },
+    {
+      "name": "jellyfin",
+      "count": 1
+    },
+    {
+      "name": "kodi",
+      "count": 1
+    },
+    {
+      "name": "movie",
+      "count": 1
+    },
+    {
+      "name": "nas",
+      "count": 1
+    },
+    {
+      "name": "plex",
+      "count": 1
+    },
+    {
       "name": "hedgedoc",
       "count": 1
     },
@@ -10167,6 +10195,26 @@
       "count": 1
     },
     {
+      "name": "port",
+      "count": 1
+    },
+    {
+      "name": "webaudio-api",
+      "count": 1
+    },
+    {
+      "name": "winamp",
+      "count": 1
+    },
+    {
+      "name": "commercial",
+      "count": 1
+    },
+    {
+      "name": "proxy-protocol",
+      "count": 1
+    },
+    {
       "name": "nebula",
       "count": 1
     },
@@ -10195,26 +10243,6 @@
       "count": 1
     },
     {
-      "name": "port",
-      "count": 1
-    },
-    {
-      "name": "webaudio-api",
-      "count": 1
-    },
-    {
-      "name": "winamp",
-      "count": 1
-    },
-    {
-      "name": "commercial",
-      "count": 1
-    },
-    {
-      "name": "proxy-protocol",
-      "count": 1
-    },
-    {
       "name": "browsers",
       "count": 1
     },
@@ -10224,30 +10252,6 @@
     },
     {
       "name": "url-parsing",
-      "count": 1
-    },
-    {
-      "name": "emby",
-      "count": 1
-    },
-    {
-      "name": "jellyfin",
-      "count": 1
-    },
-    {
-      "name": "kodi",
-      "count": 1
-    },
-    {
-      "name": "movie",
-      "count": 1
-    },
-    {
-      "name": "nas",
-      "count": 1
-    },
-    {
-      "name": "plex",
       "count": 1
     },
     {
@@ -10623,6 +10627,18 @@
       "count": 1
     },
     {
+      "name": "e2e",
+      "count": 1
+    },
+    {
+      "name": "heap",
+      "count": 1
+    },
+    {
+      "name": "perf-tools",
+      "count": 1
+    },
+    {
       "name": "cellular-automata",
       "count": 1
     },
@@ -10672,18 +10688,6 @@
     },
     {
       "name": "text-spacing",
-      "count": 1
-    },
-    {
-      "name": "e2e",
-      "count": 1
-    },
-    {
-      "name": "heap",
-      "count": 1
-    },
-    {
-      "name": "perf-tools",
       "count": 1
     },
     {
@@ -10839,14 +10843,6 @@
       "count": 1
     },
     {
-      "name": "openlara",
-      "count": 1
-    },
-    {
-      "name": "tombraider",
-      "count": 1
-    },
-    {
       "name": "codec",
       "count": 1
     },
@@ -10939,7 +10935,51 @@
       "count": 1
     },
     {
+      "name": "openlara",
+      "count": 1
+    },
+    {
+      "name": "tombraider",
+      "count": 1
+    },
+    {
       "name": "functional",
+      "count": 1
+    },
+    {
+      "name": "term-ptt",
+      "count": 1
+    },
+    {
+      "name": "wpf",
+      "count": 1
+    },
+    {
+      "name": "cdn-providers",
+      "count": 1
+    },
+    {
+      "name": "distribution",
+      "count": 1
+    },
+    {
+      "name": "esmodules",
+      "count": 1
+    },
+    {
+      "name": "infrastructure",
+      "count": 1
+    },
+    {
+      "name": "jsdelivr",
+      "count": 1
+    },
+    {
+      "name": "npm-cdn",
+      "count": 1
+    },
+    {
+      "name": "traffic",
       "count": 1
     },
     {
@@ -10992,46 +11032,6 @@
     },
     {
       "name": "trading-software",
-      "count": 1
-    },
-    {
-      "name": "term-ptt",
-      "count": 1
-    },
-    {
-      "name": "hacktoberfest2021",
-      "count": 1
-    },
-    {
-      "name": "wpf",
-      "count": 1
-    },
-    {
-      "name": "cdn-providers",
-      "count": 1
-    },
-    {
-      "name": "distribution",
-      "count": 1
-    },
-    {
-      "name": "esmodules",
-      "count": 1
-    },
-    {
-      "name": "infrastructure",
-      "count": 1
-    },
-    {
-      "name": "jsdelivr",
-      "count": 1
-    },
-    {
-      "name": "npm-cdn",
-      "count": 1
-    },
-    {
-      "name": "traffic",
       "count": 1
     },
     {
@@ -11111,6 +11111,10 @@
       "count": 1
     },
     {
+      "name": "hacktoberfest2021",
+      "count": 1
+    },
+    {
       "name": "cursive",
       "count": 1
     },
@@ -11171,6 +11175,26 @@
       "count": 1
     },
     {
+      "name": "add-ons",
+      "count": 1
+    },
+    {
+      "name": "webextensions",
+      "count": 1
+    },
+    {
+      "name": "glyphs",
+      "count": 1
+    },
+    {
+      "name": "kerning",
+      "count": 1
+    },
+    {
+      "name": "opentypejs",
+      "count": 1
+    },
+    {
       "name": "aead",
       "count": 1
     },
@@ -11216,26 +11240,6 @@
     },
     {
       "name": "x-wing",
-      "count": 1
-    },
-    {
-      "name": "add-ons",
-      "count": 1
-    },
-    {
-      "name": "webextensions",
-      "count": 1
-    },
-    {
-      "name": "glyphs",
-      "count": 1
-    },
-    {
-      "name": "kerning",
-      "count": 1
-    },
-    {
-      "name": "opentypejs",
       "count": 1
     },
     {
@@ -11300,10 +11304,6 @@
     },
     {
       "name": "typescript-support",
-      "count": 1
-    },
-    {
-      "name": "reasonml",
       "count": 1
     },
     {
@@ -11411,6 +11411,14 @@
       "count": 1
     },
     {
+      "name": "pull-requests",
+      "count": 1
+    },
+    {
+      "name": "chrome-tabs",
+      "count": 1
+    },
+    {
       "name": "globbing",
       "count": 1
     },
@@ -11424,14 +11432,6 @@
     },
     {
       "name": "wildcard",
-      "count": 1
-    },
-    {
-      "name": "pull-requests",
-      "count": 1
-    },
-    {
-      "name": "chrome-tabs",
       "count": 1
     },
     {
@@ -11671,14 +11671,6 @@
       "count": 1
     },
     {
-      "name": "btop",
-      "count": 1
-    },
-    {
-      "name": "htop",
-      "count": 1
-    },
-    {
       "name": "cielab",
       "count": 1
     },
@@ -11711,19 +11703,19 @@
       "count": 1
     },
     {
+      "name": "btop",
+      "count": 1
+    },
+    {
+      "name": "htop",
+      "count": 1
+    },
+    {
       "name": "asynchronous",
       "count": 1
     },
     {
       "name": "rspack",
-      "count": 1
-    },
-    {
-      "name": "open-data",
-      "count": 1
-    },
-    {
-      "name": "product",
       "count": 1
     },
     {
@@ -11756,6 +11748,14 @@
     },
     {
       "name": "xiaomi-smart-home",
+      "count": 1
+    },
+    {
+      "name": "open-data",
+      "count": 1
+    },
+    {
+      "name": "product",
       "count": 1
     },
     {
@@ -12119,14 +12119,6 @@
       "count": 1
     },
     {
-      "name": "postprocessing",
-      "count": 1
-    },
-    {
-      "name": "react-postprocessing",
-      "count": 1
-    },
-    {
       "name": "northstar-client",
       "count": 1
     },
@@ -12136,6 +12128,14 @@
     },
     {
       "name": "titanfall",
+      "count": 1
+    },
+    {
+      "name": "postprocessing",
+      "count": 1
+    },
+    {
+      "name": "react-postprocessing",
       "count": 1
     },
     {
@@ -12911,15 +12911,15 @@
       "count": 1
     },
     {
-      "name": "emoji-searcher",
-      "count": 1
-    },
-    {
       "name": "explorer",
       "count": 1
     },
     {
       "name": "inspector",
+      "count": 1
+    },
+    {
+      "name": "emoji-searcher",
       "count": 1
     },
     {
