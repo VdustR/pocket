@@ -5,56 +5,46 @@
 
 /* Custom theme configuration for Tailwind v4 */
 @theme {
-  --font-display: "Orbitron", sans-serif;
+  --font-display: "Space Grotesk", "Noto Sans TC", sans-serif;
   --font-sans: "Space Grotesk", "Noto Sans TC", sans-serif;
 
-  /* Cyberpunk Cyan (Primary) */
-  --color-primary-50: #ecfeff;
-  --color-primary-100: #cffafe;
-  --color-primary-200: #a5f3fc;
-  --color-primary-300: #67e8f9;
-  --color-primary-400: #22d3ee;
-  --color-primary-500: #06b6d4;
-  --color-primary-600: #0891b2;
-  --color-primary-700: #0e7490;
-  --color-primary-800: #155e75;
-  --color-primary-900: #164e63;
-  --color-primary-950: #083344;
+  --color-primary-50: oklch(0.97 0.02 209);
+  --color-primary-100: oklch(0.92 0.05 209);
+  --color-primary-200: oklch(0.86 0.09 209);
+  --color-primary-300: oklch(0.79 0.13 209);
+  --color-primary-400: oklch(0.73 0.16 209);
+  --color-primary-500: oklch(0.66 0.15 209);
+  --color-primary-600: oklch(0.57 0.13 209);
+  --color-primary-700: oklch(0.48 0.1 209);
+  --color-primary-800: oklch(0.39 0.075 209);
+  --color-primary-900: oklch(0.3 0.05 209);
+  --color-primary-950: oklch(0.22 0.035 209);
 
-  /* Cyberpunk Pink (Accent) */
-  --color-accent-50: #fdf2f8;
-  --color-accent-100: #fce7f3;
-  --color-accent-200: #fbcfe8;
-  --color-accent-300: #f9a8d4;
-  --color-accent-400: #f472b6;
-  --color-accent-500: #ec4899;
-  --color-accent-600: #db2777;
-  --color-accent-700: #be185d;
-  --color-accent-800: #9d174d;
-  --color-accent-900: #831843;
-  --color-accent-950: #500724;
-
-  /* Dark background */
-  --color-dark-bg: #0d1117;
-  --color-dark-card: #161b22;
-  --color-dark-border: #30363d;
+  --color-dark-bg: oklch(0.16 0.015 255);
+  --color-dark-card: oklch(0.205 0.018 255);
+  --color-dark-elevated: oklch(0.24 0.02 255);
+  --color-dark-border: oklch(0.31 0.022 255);
 }
 
 /* Base styles */
 html {
   scroll-behavior: smooth;
+  background: oklch(0.975 0.004 255);
 }
 
 body {
   font-family: "Space Grotesk", "Noto Sans TC", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: oklch(0.975 0.004 255);
 }
 
-/* Dark mode background */
 .dark {
   background-color: var(--color-dark-bg);
-  background-image: linear-gradient(180deg, #0d1117 0%, #10151d 100%);
+}
+
+.dark body {
+  background-color: var(--color-dark-bg);
 }
 
 /* Custom scrollbar for dark mode */
@@ -78,10 +68,11 @@ body {
 
 /* Component styles */
 @utility btn {
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
+  min-height: 2.75rem;
+  padding: 0.5rem 0.875rem;
+  border-radius: 0.625rem;
   font-weight: 500;
-  transition: background-color 0.2s;
+  transition: background-color 180ms ease-out, color 180ms ease-out, border-color 180ms ease-out;
 }
 
 @utility btn-primary {
@@ -93,26 +84,27 @@ body {
 }
 
 @utility btn-secondary {
-  background-color: rgb(228 228 231);
+  background-color: white;
   color: rgb(39 39 42);
+  border: 1px solid rgb(212 212 216);
   &:hover {
-    background-color: rgb(212 212 216);
+    background-color: rgb(244 244 245);
   }
 }
 
 .dark .btn-secondary {
   background-color: var(--color-dark-card);
-  color: rgb(228 228 231);
+  color: rgb(244 244 245);
+  border-color: var(--color-dark-border);
 }
 
 .dark .btn-secondary:hover {
-  background-color: var(--color-dark-border);
+  background-color: var(--color-dark-elevated);
 }
 
 @utility card {
   background-color: white;
   border-radius: 0.75rem;
-  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   border: 1px solid rgb(228 228 231);
 }
 
@@ -123,7 +115,7 @@ body {
 }
 
 .dark .card:hover {
-  border-color: rgba(6, 182, 212, 0.3);
+  border-color: oklch(0.48 0.075 209);
 }
 
 @utility input {
@@ -134,8 +126,8 @@ body {
   background-color: white;
   &:focus {
     outline: none;
-    box-shadow: 0 0 0 2px var(--color-primary-500);
-    border-color: transparent;
+    box-shadow: 0 0 0 3px oklch(0.73 0.16 209 / 0.24);
+    border-color: var(--color-primary-500);
   }
 }
 
@@ -147,8 +139,7 @@ body {
 
 .dark .input:focus {
   border-color: var(--color-primary-500);
-  box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.2),
-              0 0 20px rgba(6, 182, 212, 0.15);
+  box-shadow: 0 0 0 3px oklch(0.73 0.16 209 / 0.22);
 }
 
 @utility tag {
@@ -168,15 +159,15 @@ body {
 }
 
 .dark .tag {
-  background: rgba(22, 27, 34, 0.6);
-  color: rgb(212 212 216);
-  border: 1px solid transparent;
-  transition: all 0.2s ease;
+  background: var(--color-dark-card);
+  color: rgb(228 228 231);
+  border: 1px solid var(--color-dark-border);
+  transition: background-color 180ms ease-out, border-color 180ms ease-out;
 }
 
 .dark .tag:hover {
-  background: rgba(48, 54, 61, 0.6);
-  border-color: rgba(6, 182, 212, 0.3);
+  background: var(--color-dark-elevated);
+  border-color: oklch(0.48 0.075 209);
 }
 
 @utility tag-active {
@@ -185,9 +176,9 @@ body {
 }
 
 .dark .tag-active {
-  background: rgba(6, 182, 212, 0.15);
+  background: oklch(0.3 0.055 209);
   color: var(--color-primary-300);
-  border-color: rgba(6, 182, 212, 0.3);
+  border-color: oklch(0.48 0.075 209);
 }
 
 @keyframes shimmer {

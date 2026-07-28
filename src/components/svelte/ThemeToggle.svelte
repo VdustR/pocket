@@ -56,7 +56,7 @@
 <div class="relative">
   <button
     onclick={() => (isOpen = !isOpen)}
-    class="p-2 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors"
+    class="flex h-11 w-11 items-center justify-center rounded-lg text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-primary-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-primary-300"
     title="Toggle theme"
   >
     <Icon icon={currentIcon()} class="w-5 h-5" />
@@ -64,12 +64,12 @@
 
   {#if isOpen}
     <div
-      class="absolute right-0 mt-2 w-36 bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 py-1 z-50"
+      class="absolute right-0 z-[60] mt-2 w-40 rounded-xl border border-zinc-200 bg-white py-1 dark:border-zinc-700 dark:bg-zinc-900"
     >
       {#each themes as t}
         <button
           onclick={() => setTheme(t.value)}
-          class="w-full px-4 py-2 text-left flex items-center gap-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors {theme ===
+          class="flex min-h-11 w-full items-center gap-2 px-4 py-2 text-left hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors {theme ===
           t.value
             ? 'text-primary-600 dark:text-primary-400'
             : ''}"

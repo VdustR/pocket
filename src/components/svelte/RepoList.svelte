@@ -21,7 +21,7 @@
   let gridClass = $derived(() => {
     switch (layoutMode) {
       case "card":
-        return "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4";
+        return "grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3";
       case "list":
         return "flex flex-col gap-3";
       case "compact":

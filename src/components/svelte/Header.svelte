@@ -10,23 +10,23 @@
   let { onToggleDashboard, showDashboard }: Props = $props();
 </script>
 
-<header class="sticky top-0 z-50 bg-white/80 dark:bg-[rgba(13,17,23,0.8)] backdrop-blur-md border-b border-zinc-200 dark:border-[rgba(48,54,61,0.5)]">
-  <div class="container mx-auto px-4 py-4 max-w-7xl">
+<header class="sticky top-0 z-50 border-b border-zinc-200 bg-white/95 dark:border-zinc-800 dark:bg-[#12161d]/95">
+  <div class="container mx-auto max-w-6xl px-4 py-3 sm:px-6">
     <div class="flex items-center justify-between">
-      <div class="flex items-center gap-4">
-        <a href="/pocket/" class="flex items-center gap-2 hover:opacity-80 transition-opacity group">
-          <img src="/pocket/favicon.png" alt="Pocket" class="w-8 h-8 rounded-full transition-transform group-hover:scale-110" />
-          <h1 class="text-lg sm:text-2xl font-display font-bold text-primary-600 dark:text-primary-400 dark:drop-shadow-[0_0_10px_rgba(6,182,212,0.3)] tracking-wide whitespace-nowrap">
-            <span class="sm:hidden">Pocket</span>
-            <span class="hidden sm:inline">ViPro's Picks</span>
-          </h1>
+      <div class="flex items-center gap-3">
+        <a href="/pocket/" class="flex items-center gap-2.5 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-zinc-950">
+          <img src="/pocket/favicon.png" alt="Pocket" class="h-8 w-8 rounded-lg" />
+          <div class="leading-none">
+            <h1 class="font-display text-lg font-semibold tracking-tight text-zinc-950 dark:text-zinc-50">Pocket</h1>
+            <p class="mt-1 hidden text-[11px] font-medium text-zinc-500 dark:text-zinc-400 sm:block">A starred repository library</p>
+          </div>
         </a>
       </div>
 
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-1 sm:gap-2">
         <button
           onclick={onToggleDashboard}
-          class="p-2 rounded-lg hover:bg-zinc-100 dark:hover:bg-[rgba(6,182,212,0.1)] transition-all dark:hover:text-primary-400"
+          class="flex h-11 w-11 items-center justify-center rounded-lg text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-primary-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-primary-300"
           title={showDashboard ? "Show List" : "Show Dashboard"}
         >
           <Icon
@@ -37,7 +37,7 @@
 
         <a
           href="/pocket/rss.xml"
-          class="p-2 rounded-lg hover:bg-zinc-100 dark:hover:bg-[rgba(6,182,212,0.1)] transition-all dark:hover:text-primary-400"
+          class="flex h-11 w-11 items-center justify-center rounded-lg text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-primary-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-primary-300"
           title="RSS Feed"
         >
           <Icon icon="ph:rss-bold" class="w-5 h-5" />
@@ -47,7 +47,7 @@
           href="https://github.com/VdustR/pocket"
           target="_blank"
           rel="noopener noreferrer"
-          class="p-2 rounded-lg hover:bg-zinc-100 dark:hover:bg-[rgba(6,182,212,0.1)] transition-all dark:hover:text-primary-400"
+          class="flex h-11 w-11 items-center justify-center rounded-lg text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-primary-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-primary-300"
           title="GitHub"
         >
           <Icon icon="ph:github-logo-bold" class="w-5 h-5" />
