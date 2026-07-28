@@ -114,37 +114,38 @@
   ));
 </script>
 
-<div class="min-h-screen flex flex-col">
+<div class="min-h-screen flex flex-col bg-zinc-50 dark:bg-[#12161d]">
   <Header onToggleDashboard={toggleDashboard} {showDashboard} />
 
-  <main class="flex-1 container mx-auto px-4 py-6 sm:py-8 max-w-7xl">
+  <main class="container mx-auto flex-1 max-w-6xl px-4 py-6 sm:px-6 sm:py-10">
     {#if showDashboard}
       <Dashboard repos={$repos} languages={$languages} />
     {:else}
-      <section class="mb-6 border-b border-zinc-200/80 dark:border-zinc-800 pb-5">
-        <div class="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-          <div class="max-w-3xl">
-            <p class="text-sm font-medium text-primary-700 dark:text-primary-300 mb-2">
-              GitHub stars, ranked and searchable
-            </p>
-            <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-950 dark:text-zinc-50 text-balance">
-              Find the repo worth opening next.
+      <section class="mb-7 border-b border-zinc-200 pb-6 dark:border-zinc-800 sm:mb-8">
+        <div class="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+          <div class="max-w-2xl">
+            <div class="mb-3 flex items-center gap-2 text-xs font-semibold tracking-wide text-primary-700 dark:text-primary-300">
+              <Icon icon="ph:books-bold" class="h-4 w-4" />
+              <span>YOUR STARRED LIBRARY</span>
+            </div>
+            <h2 class="text-2xl font-semibold tracking-tight text-zinc-950 dark:text-zinc-50 sm:text-3xl text-balance">
+              Pick the next repository with intent.
             </h2>
-            <p class="mt-2 text-sm sm:text-base text-zinc-600 dark:text-zinc-300 text-pretty">
-              Browse {$isLoading ? "curated" : formatCompactNumber($repos.length)} saved projects across {topLanguage} and beyond.
+            <p class="mt-2 max-w-xl text-sm leading-6 text-zinc-600 dark:text-zinc-300 sm:text-base text-pretty">
+              Search {$isLoading ? "your saved" : formatCompactNumber($repos.length)} starred projects, then narrow the list by language, topic, or signal.
             </p>
           </div>
 
           <div class="flex flex-wrap gap-2 text-sm" aria-label="Collection summary">
-            <span class="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-3 py-1.5 text-zinc-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200">
+            <span class="inline-flex items-center gap-2 rounded-lg border border-zinc-200 bg-white px-3 py-2 text-zinc-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200">
               <Icon icon="ph:archive-bold" class="w-4 h-4 text-primary-600 dark:text-primary-300" />
               {$isLoading ? "Loading" : formatCompactNumber($repos.length)} repos
             </span>
-            <span class="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-3 py-1.5 text-zinc-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200">
+            <span class="inline-flex items-center gap-2 rounded-lg border border-zinc-200 bg-white px-3 py-2 text-zinc-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200">
               <Icon icon="ph:star-fill" class="w-4 h-4 text-yellow-500" />
               {formatCompactNumber(totalStars)} stars
             </span>
-            <span class="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-3 py-1.5 text-zinc-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200">
+            <span class="inline-flex items-center gap-2 rounded-lg border border-zinc-200 bg-white px-3 py-2 text-zinc-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200">
               <Icon icon="vscode-icons:default-file" class="w-4 h-4" />
               {$languages.length || "Many"} languages
             </span>

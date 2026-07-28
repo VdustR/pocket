@@ -156,9 +156,9 @@
   );
 </script>
 
-<div class="space-y-4 mb-8 rounded-xl border border-zinc-200 bg-white p-3 shadow-sm dark:border-zinc-800 dark:bg-zinc-900 sm:p-4">
+<div class="filter-shell mb-8 space-y-4 rounded-xl border border-zinc-200 bg-white p-3 dark:border-zinc-800 dark:bg-zinc-900 sm:p-4">
   <!-- Search bar -->
-  <div class="flex gap-3 flex-wrap">
+  <div class="flex flex-wrap gap-3">
     <div class="relative w-full min-w-0 sm:flex-1 sm:min-w-64">
       <Icon
         icon="ph:magnifying-glass-bold"
@@ -189,7 +189,7 @@
   </div>
 
   <!-- Filter buttons -->
-  <div class="flex gap-2 flex-wrap items-center">
+  <div class="flex flex-wrap items-center gap-2 border-t border-zinc-100 pt-3 dark:border-zinc-800">
     <!-- Language filter -->
     <div class="relative" data-dropdown>
       <button
@@ -214,7 +214,7 @@
 
       {#if showLanguages}
         <div
-          class="dropdown-panel w-64 max-h-80 overflow-y-auto bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 z-40"
+          class="dropdown-panel max-h-80 w-64 overflow-y-auto rounded-xl border border-zinc-200 bg-white dark:border-zinc-700 dark:bg-zinc-900"
           role="listbox"
           aria-label="Filter by language"
         >
@@ -295,7 +295,7 @@
 
       {#if showTopics}
         <div
-          class="dropdown-panel w-[calc(100vw-2rem)] sm:w-80 max-h-80 overflow-y-auto bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 z-40"
+          class="dropdown-panel max-h-80 w-[calc(100vw-2rem)] overflow-y-auto rounded-xl border border-zinc-200 bg-white dark:border-zinc-700 dark:bg-zinc-900 sm:w-80"
           role="listbox"
           aria-label="Filter by topic"
         >
@@ -386,7 +386,7 @@
 
         {#if showSort}
           <div
-            class="dropdown-panel w-48 bg-white dark:bg-zinc-900 rounded-lg shadow-lg border border-zinc-200 dark:border-zinc-700 py-1 z-40"
+            class="dropdown-panel w-48 rounded-xl border border-zinc-200 bg-white py-1 dark:border-zinc-700 dark:bg-zinc-900"
             role="listbox"
             aria-label="Sort repositories"
           >
@@ -423,7 +423,7 @@
     {/if}
 
     <!-- Results count -->
-    <div class="ml-auto rounded-full bg-zinc-100 px-3 py-1.5 text-sm font-medium text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300">
+    <div class="ml-auto rounded-lg bg-zinc-100 px-3 py-2 text-sm font-medium tabular-nums text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300">
       {filteredCount} / {totalCount}
     </div>
   </div>
@@ -466,24 +466,38 @@
 }} />
 
 <style>
-  /* Dropdown panel - responsive positioning */
+  /* Desktop menus stay anchored to their trigger. On touch-sized viewports they
+     become a fixed sheet so no parent layout or document position can clip it. */
   :global(.dropdown-panel) {
     position: fixed;
-    margin-top: 0.5rem;
-    /* Mobile: full width with padding */
-    left: 1rem;
-    right: 1rem;
-    width: auto !important;
+    z-index: 70;
+    inset-inline: 0.75rem;
+    bottom: max(0.75rem, env(safe-area-inset-bottom));
+    width: min(calc(100vw - 1.5rem), 32rem) !important;
+    max-height: min(32rem, calc(100dvh - 1.5rem));
+    margin-inline: auto;
+    box-shadow: 0 6px 8px rgb(0 0 0 / 0.22);
   }
 
-  /* Desktop: relative to button */
+  /* Desktop: retain the efficient nearby menu interaction. */
   @media (min-width: 640px) {
     :global(.dropdown-panel) {
       position: absolute;
       left: 0;
       right: auto;
+      bottom: auto;
+      margin-top: 0.5rem;
+      margin-inline: 0;
       width: revert-layer !important;
       max-width: calc(100vw - 2rem);
+      max-height: 20rem;
+      box-shadow: 0 5px 8px rgb(0 0 0 / 0.14);
+    }
+  }
+
+  @media (max-width: 639px) {
+    :global(.dropdown-panel) {
+      padding-bottom: max(0px, env(safe-area-inset-bottom));
     }
   }
 </style>

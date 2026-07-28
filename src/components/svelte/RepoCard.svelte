@@ -71,8 +71,8 @@
   </a>
 {:else if layoutMode === "list"}
   <!-- List mode -->
-  <div data-repo-card class="card p-4 hover:border-primary-300 dark:hover:border-primary-500/30 transition-all duration-200 overflow-hidden">
-    <div class="flex items-start gap-4">
+  <div data-repo-card class="card overflow-hidden p-4 transition-colors duration-200 hover:border-primary-300 dark:hover:border-primary-500/30">
+    <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:gap-4">
       <div class="flex-1 min-w-0">
         <div class="mb-1">
           <a
@@ -95,7 +95,7 @@
           {parseEmoji(repo.description) || "No description"}
         </p>
       </div>
-      <div class="flex items-center gap-4 text-sm text-zinc-500 flex-shrink-0">
+      <div class="flex items-center gap-4 self-start text-sm text-zinc-500 sm:self-auto">
         {#if isHot}
           <span title="Top 3"><Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" /></span>
         {/if}
@@ -112,7 +112,7 @@
   </div>
 {:else}
   <!-- Card mode -->
-  <div data-repo-card class="card p-4 hover:border-primary-300 dark:hover:border-primary-500/30 transition-all duration-200 flex flex-col overflow-hidden">
+  <div data-repo-card class="card flex flex-col overflow-hidden p-4 transition-colors duration-200 hover:border-primary-300 dark:hover:border-primary-500/30">
     <div class="flex items-start justify-between gap-2 mb-2">
       <a
         href={`https://github.com/${repo.fullName}`}
@@ -139,7 +139,7 @@
       {parseEmoji(repo.description) || "No description"}
     </p>
 
-    <div class="flex items-center gap-4 text-sm text-zinc-500 mb-3">
+    <div class="mb-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-zinc-500">
       {#if isHot}
         <span title="Top 3"><Icon icon="ph:fire-bold" class="w-4 h-4 text-orange-500" /></span>
       {/if}
