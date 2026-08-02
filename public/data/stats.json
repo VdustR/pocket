@@ -1,12 +1,12 @@
 {
   "totalRepos": 1634,
-  "totalStars": 27777504,
+  "totalStars": 27778455,
   "languageDistribution": {
     "Go": 65,
     "Python": 90,
     "Batchfile": 1,
-    "C": 35,
     "TypeScript": 601,
+    "C": 35,
     "Swift": 15,
     "Shell": 35,
     "Rust": 59,
@@ -65,9 +65,9 @@
       "fullName": "binwiederhier/ntfy",
       "description": "Send push notifications to your phone or desktop using PUT/POST",
       "homepage": "https://ntfy.sh",
-      "stars": 32750,
-      "forks": 1482,
-      "watchers": 32750,
+      "stars": 32756,
+      "forks": 1483,
+      "watchers": 32756,
       "openIssues": 361,
       "language": "Go",
       "topics": [
@@ -80,10 +80,10 @@
         "rest-api"
       ],
       "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-08-02T16:48:19Z",
+      "updatedAt": "2026-08-02T18:16:16Z",
       "pushedAt": "2026-08-01T14:11:18Z",
       "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.9595741295856066
+      "score": 0.9595804940403876
     },
     {
       "owner": "NousResearch",
@@ -91,10 +91,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 224190,
-      "forks": 43316,
-      "watchers": 224190,
-      "openIssues": 26729,
+      "stars": 224239,
+      "forks": 43340,
+      "watchers": 224239,
+      "openIssues": 26761,
       "language": "Python",
       "topics": [
         "ai",
@@ -115,8 +115,8 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-08-02T17:01:43Z",
-      "pushedAt": "2026-08-02T17:01:19Z",
+      "updatedAt": "2026-08-02T19:10:13Z",
+      "pushedAt": "2026-08-02T19:11:49Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9593150684931506
     },
@@ -126,9 +126,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 185687,
+      "stars": 185696,
       "forks": 17778,
-      "watchers": 185687,
+      "watchers": 185696,
       "openIssues": 3,
       "language": "Batchfile",
       "topics": [
@@ -150,37 +150,10 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-08-02T16:40:31Z",
+      "updatedAt": "2026-08-02T18:54:47Z",
       "pushedAt": "2026-07-04T16:54:38Z",
       "starredAt": "2026-06-20T21:47:10Z",
       "score": 0.958904109589041
-    },
-    {
-      "owner": "Genymobile",
-      "name": "scrcpy",
-      "fullName": "Genymobile/scrcpy",
-      "description": "Display and control your Android device",
-      "homepage": "",
-      "stars": 146844,
-      "forks": 13518,
-      "watchers": 146844,
-      "openIssues": 2866,
-      "language": "C",
-      "topics": [
-        "android",
-        "c",
-        "ffmpeg",
-        "libav",
-        "mirroring",
-        "recording",
-        "screen",
-        "sdl2"
-      ],
-      "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-08-02T16:49:37Z",
-      "pushedAt": "2026-07-12T18:16:07Z",
-      "starredAt": "2026-05-24T02:27:27Z",
-      "score": 0.9547945205479452
     },
     {
       "owner": "nexu-io",
@@ -188,9 +161,9 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 83175,
-      "forks": 9642,
-      "watchers": 83175,
+      "stars": 83196,
+      "forks": 9644,
+      "watchers": 83196,
       "openIssues": 718,
       "language": "TypeScript",
       "topics": [
@@ -216,10 +189,37 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-08-02T17:01:22Z",
-      "pushedAt": "2026-08-02T16:59:21Z",
+      "updatedAt": "2026-08-02T19:08:23Z",
+      "pushedAt": "2026-08-02T19:05:31Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9545587465867105
+      "score": 0.9545675174177164
+    },
+    {
+      "owner": "Genymobile",
+      "name": "scrcpy",
+      "fullName": "Genymobile/scrcpy",
+      "description": "Display and control your Android device",
+      "homepage": "",
+      "stars": 146851,
+      "forks": 13518,
+      "watchers": 146851,
+      "openIssues": 2866,
+      "language": "C",
+      "topics": [
+        "android",
+        "c",
+        "ffmpeg",
+        "libav",
+        "mirroring",
+        "recording",
+        "screen",
+        "sdl2"
+      ],
+      "createdAt": "2017-11-21T18:00:27Z",
+      "updatedAt": "2026-08-02T19:10:49Z",
+      "pushedAt": "2026-07-12T18:16:07Z",
+      "starredAt": "2026-05-24T02:27:27Z",
+      "score": 0.9539726027397261
     },
     {
       "owner": "caddyserver",
@@ -227,9 +227,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 74579,
-      "forks": 4859,
-      "watchers": 74579,
+      "stars": 74581,
+      "forks": 4860,
+      "watchers": 74581,
       "openIssues": 273,
       "language": "Go",
       "topics": [
@@ -250,10 +250,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-08-02T16:41:00Z",
+      "updatedAt": "2026-08-02T19:10:16Z",
       "pushedAt": "2026-08-01T02:19:27Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9536454067603792
+      "score": 0.9536463384603714
     },
     {
       "owner": "apple",
@@ -261,17 +261,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 48543,
+      "stars": 48546,
       "forks": 1604,
-      "watchers": 48543,
+      "watchers": 48546,
       "openIssues": 497,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-08-02T15:09:23Z",
+      "updatedAt": "2026-08-02T18:20:11Z",
       "pushedAt": "2026-07-28T22:40:31Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9526990639066131
+      "score": 0.9527012109784465
     },
     {
       "owner": "hacksider",
@@ -280,7 +280,7 @@
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
       "stars": 95492,
-      "forks": 13917,
+      "forks": 13916,
       "watchers": 95492,
       "openIssues": 48,
       "language": "Python",
@@ -305,10 +305,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-08-02T16:51:55Z",
+      "updatedAt": "2026-08-02T18:50:31Z",
       "pushedAt": "2026-08-01T17:44:51Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.9462059421631738
+      "score": 0.9453840243549546
     },
     {
       "owner": "mattpocock",
@@ -316,17 +316,17 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "homepage": "",
-      "stars": 199668,
-      "forks": 17218,
-      "watchers": 199668,
-      "openIssues": 265,
+      "stars": 199747,
+      "forks": 17225,
+      "watchers": 199747,
+      "openIssues": 266,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-08-02T17:00:45Z",
+      "updatedAt": "2026-08-02T19:14:12Z",
       "pushedAt": "2026-07-31T17:06:59Z",
       "starredAt": "2026-03-18T06:37:36Z",
-      "score": 0.9428767123287671
+      "score": 0.942054794520548
     },
     {
       "owner": "xai-org",
@@ -334,17 +334,17 @@
       "fullName": "xai-org/grok-build",
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
       "homepage": "",
-      "stars": 23877,
+      "stars": 23888,
       "forks": 4537,
-      "watchers": 23877,
+      "watchers": 23888,
       "openIssues": 0,
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-07-14T20:04:23Z",
-      "updatedAt": "2026-08-02T16:49:19Z",
+      "updatedAt": "2026-08-02T18:46:12Z",
       "pushedAt": "2026-07-31T18:08:12Z",
       "starredAt": "2026-07-15T23:45:16Z",
-      "score": 0.9424316166508699
+      "score": 0.941625700649372
     }
   ],
   "recentlyStarred": [
@@ -367,8 +367,8 @@
         "swift"
       ],
       "createdAt": "2025-05-22T16:09:06Z",
-      "updatedAt": "2026-08-02T16:36:07Z",
-      "pushedAt": "2026-08-02T16:35:48Z",
+      "updatedAt": "2026-08-02T18:52:43Z",
+      "pushedAt": "2026-08-02T18:52:38Z",
       "starredAt": "2026-08-02T08:22:10Z",
       "score": 0.8955473528291344
     },
@@ -405,9 +405,9 @@
       "fullName": "binwiederhier/ntfy",
       "description": "Send push notifications to your phone or desktop using PUT/POST",
       "homepage": "https://ntfy.sh",
-      "stars": 32750,
-      "forks": 1482,
-      "watchers": 32750,
+      "stars": 32756,
+      "forks": 1483,
+      "watchers": 32756,
       "openIssues": 361,
       "language": "Go",
       "topics": [
@@ -420,10 +420,10 @@
         "rest-api"
       ],
       "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-08-02T16:48:19Z",
+      "updatedAt": "2026-08-02T18:16:16Z",
       "pushedAt": "2026-08-01T14:11:18Z",
       "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.9595741295856066
+      "score": 0.9595804940403876
     },
     {
       "owner": "LawnchairLauncher",
@@ -431,10 +431,10 @@
       "fullName": "LawnchairLauncher/lawnchair",
       "description": "No clever tagline needed.",
       "homepage": "https://lawnchair.app",
-      "stars": 13240,
+      "stars": 13242,
       "forks": 1602,
-      "watchers": 13240,
-      "openIssues": 720,
+      "watchers": 13242,
+      "openIssues": 721,
       "language": "Java",
       "topics": [
         "android",
@@ -446,10 +446,10 @@
         "launcher3"
       ],
       "createdAt": "2017-03-03T13:12:58Z",
-      "updatedAt": "2026-08-02T16:35:35Z",
-      "pushedAt": "2026-08-02T00:50:13Z",
+      "updatedAt": "2026-08-02T19:03:20Z",
+      "pushedAt": "2026-08-02T17:50:55Z",
       "starredAt": "2026-07-26T15:05:04Z",
-      "score": 0.9268769505162759
+      "score": 0.9268821979952999
     },
     {
       "owner": "cloudflare",
@@ -517,17 +517,17 @@
       "fullName": "xai-org/grok-build",
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
       "homepage": "",
-      "stars": 23877,
+      "stars": 23888,
       "forks": 4537,
-      "watchers": 23877,
+      "watchers": 23888,
       "openIssues": 0,
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-07-14T20:04:23Z",
-      "updatedAt": "2026-08-02T16:49:19Z",
+      "updatedAt": "2026-08-02T18:46:12Z",
       "pushedAt": "2026-07-31T18:08:12Z",
       "starredAt": "2026-07-15T23:45:16Z",
-      "score": 0.9424316166508699
+      "score": 0.941625700649372
     },
     {
       "owner": "microsoft",
