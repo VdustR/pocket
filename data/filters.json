@@ -595,11 +595,11 @@
       "count": 10
     },
     {
-      "name": "firefox",
+      "name": "desktop",
       "count": 10
     },
     {
-      "name": "desktop",
+      "name": "firefox",
       "count": 10
     },
     {
@@ -1879,15 +1879,15 @@
       "count": 3
     },
     {
-      "name": "microsoft",
-      "count": 3
-    },
-    {
       "name": "http-server",
       "count": 3
     },
     {
       "name": "reverse-proxy",
+      "count": 3
+    },
+    {
+      "name": "microsoft",
       "count": 3
     },
     {
@@ -2255,11 +2255,11 @@
       "count": 3
     },
     {
-      "name": "jquery",
+      "name": "webdav",
       "count": 3
     },
     {
-      "name": "webdav",
+      "name": "jquery",
       "count": 3
     },
     {
@@ -2311,15 +2311,15 @@
       "count": 3
     },
     {
-      "name": "slider",
-      "count": 3
-    },
-    {
       "name": "unicorns",
       "count": 3
     },
     {
       "name": "url-shortener",
+      "count": 3
+    },
+    {
+      "name": "slider",
       "count": 3
     },
     {
@@ -2555,11 +2555,11 @@
       "count": 3
     },
     {
-      "name": "php",
+      "name": "filter",
       "count": 3
     },
     {
-      "name": "filter",
+      "name": "php",
       "count": 3
     },
     {
@@ -2803,10 +2803,6 @@
       "count": 2
     },
     {
-      "name": "powershell",
-      "count": 2
-    },
-    {
       "name": "caddy",
       "count": 2
     },
@@ -2820,6 +2816,10 @@
     },
     {
       "name": "web-server",
+      "count": 2
+    },
+    {
+      "name": "powershell",
       "count": 2
     },
     {
@@ -2931,10 +2931,6 @@
       "count": 2
     },
     {
-      "name": "networking",
-      "count": 2
-    },
-    {
       "name": "plugins",
       "count": 2
     },
@@ -2948,6 +2944,10 @@
     },
     {
       "name": "spotlight",
+      "count": 2
+    },
+    {
+      "name": "networking",
       "count": 2
     },
     {
@@ -3247,15 +3247,15 @@
       "count": 2
     },
     {
+      "name": "grpc",
+      "count": 2
+    },
+    {
       "name": "ssh",
       "count": 2
     },
     {
       "name": "tailscale",
-      "count": 2
-    },
-    {
-      "name": "grpc",
       "count": 2
     },
     {
@@ -3631,14 +3631,6 @@
       "count": 2
     },
     {
-      "name": "touch",
-      "count": 2
-    },
-    {
-      "name": "touch-events",
-      "count": 2
-    },
-    {
       "name": "capture",
       "count": 2
     },
@@ -3648,6 +3640,14 @@
     },
     {
       "name": "ocr",
+      "count": 2
+    },
+    {
+      "name": "touch",
+      "count": 2
+    },
+    {
+      "name": "touch-events",
       "count": 2
     },
     {
@@ -3883,11 +3883,11 @@
       "count": 2
     },
     {
-      "name": "syntax",
+      "name": "brave",
       "count": 2
     },
     {
-      "name": "brave",
+      "name": "syntax",
       "count": 2
     },
     {
@@ -4155,11 +4155,11 @@
       "count": 2
     },
     {
-      "name": "nerd-fonts",
+      "name": "watch",
       "count": 2
     },
     {
-      "name": "watch",
+      "name": "nerd-fonts",
       "count": 2
     },
     {
@@ -4239,15 +4239,15 @@
       "count": 2
     },
     {
+      "name": "reimplementation",
+      "count": 2
+    },
+    {
       "name": "blazor",
       "count": 2
     },
     {
       "name": "pkhex",
-      "count": 2
-    },
-    {
-      "name": "reimplementation",
       "count": 2
     },
     {
@@ -4343,15 +4343,15 @@
       "count": 2
     },
     {
-      "name": "octokit-js",
-      "count": 2
-    },
-    {
       "name": "copy",
       "count": 2
     },
     {
       "name": "remove",
+      "count": 2
+    },
+    {
+      "name": "octokit-js",
       "count": 2
     },
     {
@@ -4403,11 +4403,11 @@
       "count": 2
     },
     {
-      "name": "validator",
+      "name": "iconsets",
       "count": 2
     },
     {
-      "name": "iconsets",
+      "name": "validator",
       "count": 2
     },
     {
@@ -4959,6 +4959,18 @@
       "count": 1
     },
     {
+      "name": "acme",
+      "count": 1
+    },
+    {
+      "name": "automatic-https",
+      "count": 1
+    },
+    {
+      "name": "caddyfile",
+      "count": 1
+    },
+    {
       "name": "activator",
       "count": 1
     },
@@ -5000,18 +5012,6 @@
     },
     {
       "name": "tsforge",
-      "count": 1
-    },
-    {
-      "name": "acme",
-      "count": 1
-    },
-    {
-      "name": "automatic-https",
-      "count": 1
-    },
-    {
-      "name": "caddyfile",
       "count": 1
     },
     {
@@ -5495,10 +5495,6 @@
       "count": 1
     },
     {
-      "name": "antidetect",
-      "count": 1
-    },
-    {
       "name": "alfred",
       "count": 1
     },
@@ -5551,11 +5547,7 @@
       "count": 1
     },
     {
-      "name": "cdp",
-      "count": 1
-    },
-    {
-      "name": "orchestrator",
+      "name": "antidetect",
       "count": 1
     },
     {
@@ -5564,6 +5556,14 @@
     },
     {
       "name": "text-expander",
+      "count": 1
+    },
+    {
+      "name": "cdp",
+      "count": 1
+    },
+    {
+      "name": "orchestrator",
       "count": 1
     },
     {
@@ -6439,6 +6439,22 @@
       "count": 1
     },
     {
+      "name": "api-testing",
+      "count": 1
+    },
+    {
+      "name": "git-sync",
+      "count": 1
+    },
+    {
+      "name": "postman-alternative",
+      "count": 1
+    },
+    {
+      "name": "privacy-first",
+      "count": 1
+    },
+    {
       "name": "nebula",
       "count": 1
     },
@@ -6464,22 +6480,6 @@
     },
     {
       "name": "zerotier",
-      "count": 1
-    },
-    {
-      "name": "api-testing",
-      "count": 1
-    },
-    {
-      "name": "git-sync",
-      "count": 1
-    },
-    {
-      "name": "postman-alternative",
-      "count": 1
-    },
-    {
-      "name": "privacy-first",
       "count": 1
     },
     {
@@ -7235,19 +7235,19 @@
       "count": 1
     },
     {
-      "name": "llm-tools",
-      "count": 1
-    },
-    {
-      "name": "recipes",
-      "count": 1
-    },
-    {
       "name": "hight-performance",
       "count": 1
     },
     {
       "name": "no-electron",
+      "count": 1
+    },
+    {
+      "name": "llm-tools",
+      "count": 1
+    },
+    {
+      "name": "recipes",
       "count": 1
     },
     {
@@ -7667,14 +7667,6 @@
       "count": 1
     },
     {
-      "name": "swipe",
-      "count": 1
-    },
-    {
-      "name": "swiper",
-      "count": 1
-    },
-    {
       "name": "accelerometer",
       "count": 1
     },
@@ -7756,6 +7748,14 @@
     },
     {
       "name": "sharex",
+      "count": 1
+    },
+    {
+      "name": "swipe",
+      "count": 1
+    },
+    {
+      "name": "swiper",
       "count": 1
     },
     {
@@ -8363,6 +8363,14 @@
       "count": 1
     },
     {
+      "name": "badge",
+      "count": 1
+    },
+    {
+      "name": "badge-maker",
+      "count": 1
+    },
+    {
       "name": "immutables",
       "count": 1
     },
@@ -8440,14 +8448,6 @@
     },
     {
       "name": "redoc",
-      "count": 1
-    },
-    {
-      "name": "badge",
-      "count": 1
-    },
-    {
-      "name": "badge-maker",
       "count": 1
     },
     {
@@ -8663,14 +8663,6 @@
       "count": 1
     },
     {
-      "name": "cloud-ide",
-      "count": 1
-    },
-    {
-      "name": "language-server-protocol",
-      "count": 1
-    },
-    {
       "name": "vt100",
       "count": 1
     },
@@ -8696,6 +8688,14 @@
     },
     {
       "name": "javporn",
+      "count": 1
+    },
+    {
+      "name": "cloud-ide",
+      "count": 1
+    },
+    {
+      "name": "language-server-protocol",
       "count": 1
     },
     {
@@ -9307,14 +9307,6 @@
       "count": 1
     },
     {
-      "name": "cloudflare-tunnel",
-      "count": 1
-    },
-    {
-      "name": "zero-trust-network-access",
-      "count": 1
-    },
-    {
       "name": "control-flow",
       "count": 1
     },
@@ -9356,6 +9348,14 @@
     },
     {
       "name": "windicss",
+      "count": 1
+    },
+    {
+      "name": "cloudflare-tunnel",
+      "count": 1
+    },
+    {
+      "name": "zero-trust-network-access",
       "count": 1
     },
     {
@@ -9607,6 +9607,22 @@
       "count": 1
     },
     {
+      "name": "blocklist",
+      "count": 1
+    },
+    {
+      "name": "disposable",
+      "count": 1
+    },
+    {
+      "name": "domain",
+      "count": 1
+    },
+    {
+      "name": "pypi",
+      "count": 1
+    },
+    {
       "name": "link-shortener",
       "count": 1
     },
@@ -9631,26 +9647,6 @@
       "count": 1
     },
     {
-      "name": "blocklist",
-      "count": 1
-    },
-    {
-      "name": "disposable",
-      "count": 1
-    },
-    {
-      "name": "domain",
-      "count": 1
-    },
-    {
-      "name": "pypi",
-      "count": 1
-    },
-    {
-      "name": "ls",
-      "count": 1
-    },
-    {
       "name": "progressive-web-app",
       "count": 1
     },
@@ -9668,6 +9664,10 @@
     },
     {
       "name": "loader",
+      "count": 1
+    },
+    {
+      "name": "ls",
       "count": 1
     },
     {
@@ -9927,6 +9927,46 @@
       "count": 1
     },
     {
+      "name": "visual-studio-code-theme",
+      "count": 1
+    },
+    {
+      "name": "visualstudio",
+      "count": 1
+    },
+    {
+      "name": "port",
+      "count": 1
+    },
+    {
+      "name": "webaudio-api",
+      "count": 1
+    },
+    {
+      "name": "winamp",
+      "count": 1
+    },
+    {
+      "name": "swagger-editor",
+      "count": 1
+    },
+    {
+      "name": "commit-hooks",
+      "count": 1
+    },
+    {
+      "name": "commitizen",
+      "count": 1
+    },
+    {
+      "name": "commitizen-adapter",
+      "count": 1
+    },
+    {
+      "name": "semantic-versioning",
+      "count": 1
+    },
+    {
       "name": "asp-net",
       "count": 1
     },
@@ -9972,46 +10012,6 @@
     },
     {
       "name": "pokemon-game",
-      "count": 1
-    },
-    {
-      "name": "visual-studio-code-theme",
-      "count": 1
-    },
-    {
-      "name": "visualstudio",
-      "count": 1
-    },
-    {
-      "name": "port",
-      "count": 1
-    },
-    {
-      "name": "webaudio-api",
-      "count": 1
-    },
-    {
-      "name": "winamp",
-      "count": 1
-    },
-    {
-      "name": "swagger-editor",
-      "count": 1
-    },
-    {
-      "name": "commit-hooks",
-      "count": 1
-    },
-    {
-      "name": "commitizen",
-      "count": 1
-    },
-    {
-      "name": "commitizen-adapter",
-      "count": 1
-    },
-    {
-      "name": "semantic-versioning",
       "count": 1
     },
     {
@@ -10307,10 +10307,6 @@
       "count": 1
     },
     {
-      "name": "octokit",
-      "count": 1
-    },
-    {
       "name": "emby",
       "count": 1
     },
@@ -10335,14 +10331,6 @@
       "count": 1
     },
     {
-      "name": "query-string",
-      "count": 1
-    },
-    {
-      "name": "urlsearchparams",
-      "count": 1
-    },
-    {
       "name": "delete",
       "count": 1
     },
@@ -10352,6 +10340,18 @@
     },
     {
       "name": "challenges",
+      "count": 1
+    },
+    {
+      "name": "octokit",
+      "count": 1
+    },
+    {
+      "name": "query-string",
+      "count": 1
+    },
+    {
+      "name": "urlsearchparams",
       "count": 1
     },
     {
@@ -10503,6 +10503,22 @@
       "count": 1
     },
     {
+      "name": "alda",
+      "count": 1
+    },
+    {
+      "name": "music-composition",
+      "count": 1
+    },
+    {
+      "name": "music-programming",
+      "count": 1
+    },
+    {
+      "name": "music-programming-language",
+      "count": 1
+    },
+    {
       "name": "github-enterprise",
       "count": 1
     },
@@ -10524,22 +10540,6 @@
     },
     {
       "name": "github-sponsors",
-      "count": 1
-    },
-    {
-      "name": "alda",
-      "count": 1
-    },
-    {
-      "name": "music-composition",
-      "count": 1
-    },
-    {
-      "name": "music-programming",
-      "count": 1
-    },
-    {
-      "name": "music-programming-language",
       "count": 1
     },
     {
@@ -10695,22 +10695,6 @@
       "count": 1
     },
     {
-      "name": "class-library",
-      "count": 1
-    },
-    {
-      "name": "nintendo-hacking",
-      "count": 1
-    },
-    {
-      "name": "save-editor",
-      "count": 1
-    },
-    {
-      "name": "winforms",
-      "count": 1
-    },
-    {
       "name": "glyphs",
       "count": 1
     },
@@ -10748,6 +10732,22 @@
     },
     {
       "name": "searching",
+      "count": 1
+    },
+    {
+      "name": "class-library",
+      "count": 1
+    },
+    {
+      "name": "nintendo-hacking",
+      "count": 1
+    },
+    {
+      "name": "save-editor",
+      "count": 1
+    },
+    {
+      "name": "winforms",
       "count": 1
     },
     {
@@ -10911,14 +10911,6 @@
       "count": 1
     },
     {
-      "name": "openlara",
-      "count": 1
-    },
-    {
-      "name": "tombraider",
-      "count": 1
-    },
-    {
       "name": "runtime-typechecking",
       "count": 1
     },
@@ -10932,6 +10924,14 @@
     },
     {
       "name": "vitepress",
+      "count": 1
+    },
+    {
+      "name": "openlara",
+      "count": 1
+    },
+    {
+      "name": "tombraider",
       "count": 1
     },
     {
@@ -11127,54 +11127,6 @@
       "count": 1
     },
     {
-      "name": "aead",
-      "count": 1
-    },
-    {
-      "name": "encryption",
-      "count": 1
-    },
-    {
-      "name": "hpke",
-      "count": 1
-    },
-    {
-      "name": "kdf",
-      "count": 1
-    },
-    {
-      "name": "kem",
-      "count": 1
-    },
-    {
-      "name": "kyber",
-      "count": 1
-    },
-    {
-      "name": "ml-kem",
-      "count": 1
-    },
-    {
-      "name": "post-quantum",
-      "count": 1
-    },
-    {
-      "name": "pqc",
-      "count": 1
-    },
-    {
-      "name": "rfc9180",
-      "count": 1
-    },
-    {
-      "name": "webcrypto",
-      "count": 1
-    },
-    {
-      "name": "x-wing",
-      "count": 1
-    },
-    {
       "name": "data-binding",
       "count": 1
     },
@@ -11228,6 +11180,54 @@
     },
     {
       "name": "universal-javascript",
+      "count": 1
+    },
+    {
+      "name": "aead",
+      "count": 1
+    },
+    {
+      "name": "encryption",
+      "count": 1
+    },
+    {
+      "name": "hpke",
+      "count": 1
+    },
+    {
+      "name": "kdf",
+      "count": 1
+    },
+    {
+      "name": "kem",
+      "count": 1
+    },
+    {
+      "name": "kyber",
+      "count": 1
+    },
+    {
+      "name": "ml-kem",
+      "count": 1
+    },
+    {
+      "name": "post-quantum",
+      "count": 1
+    },
+    {
+      "name": "pqc",
+      "count": 1
+    },
+    {
+      "name": "rfc9180",
+      "count": 1
+    },
+    {
+      "name": "webcrypto",
+      "count": 1
+    },
+    {
+      "name": "x-wing",
       "count": 1
     },
     {
@@ -11296,42 +11296,6 @@
     },
     {
       "name": "sega-naomi",
-      "count": 1
-    },
-    {
-      "name": "genesis",
-      "count": 1
-    },
-    {
-      "name": "kotlin-android",
-      "count": 1
-    },
-    {
-      "name": "libretro-frontend",
-      "count": 1
-    },
-    {
-      "name": "n64",
-      "count": 1
-    },
-    {
-      "name": "nes",
-      "count": 1
-    },
-    {
-      "name": "nintendo",
-      "count": 1
-    },
-    {
-      "name": "playstation",
-      "count": 1
-    },
-    {
-      "name": "sega-master-system",
-      "count": 1
-    },
-    {
-      "name": "snes",
       "count": 1
     },
     {
@@ -11444,6 +11408,42 @@
     },
     {
       "name": "hacktoberfest2021",
+      "count": 1
+    },
+    {
+      "name": "genesis",
+      "count": 1
+    },
+    {
+      "name": "kotlin-android",
+      "count": 1
+    },
+    {
+      "name": "libretro-frontend",
+      "count": 1
+    },
+    {
+      "name": "n64",
+      "count": 1
+    },
+    {
+      "name": "nes",
+      "count": 1
+    },
+    {
+      "name": "nintendo",
+      "count": 1
+    },
+    {
+      "name": "playstation",
+      "count": 1
+    },
+    {
+      "name": "sega-master-system",
+      "count": 1
+    },
+    {
+      "name": "snes",
       "count": 1
     },
     {
@@ -13087,11 +13087,11 @@
       "count": 1
     },
     {
-      "name": "explorer",
+      "name": "emoji-searcher",
       "count": 1
     },
     {
-      "name": "emoji-searcher",
+      "name": "explorer",
       "count": 1
     },
     {
@@ -13803,10 +13803,6 @@
       "count": 1
     },
     {
-      "name": "es-modules",
-      "count": 1
-    },
-    {
       "name": "malinajs",
       "count": 1
     },
@@ -13824,6 +13820,10 @@
     },
     {
       "name": "msdos",
+      "count": 1
+    },
+    {
+      "name": "es-modules",
       "count": 1
     },
     {
@@ -14555,14 +14555,6 @@
       "count": 1
     },
     {
-      "name": "emoji-font",
-      "count": 1
-    },
-    {
-      "name": "serenityos",
-      "count": 1
-    },
-    {
       "name": "gestures",
       "count": 1
     },
@@ -14600,6 +14592,14 @@
     },
     {
       "name": "type-safe",
+      "count": 1
+    },
+    {
+      "name": "emoji-font",
+      "count": 1
+    },
+    {
+      "name": "serenityos",
       "count": 1
     },
     {
