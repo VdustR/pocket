@@ -1,11 +1,11 @@
 {
   "totalRepos": 1642,
-  "totalStars": 27909859,
+  "totalStars": 27910963,
   "languageDistribution": {
     "Python": 91,
     "Go": 66,
-    "Swift": 15,
     "TypeScript": 603,
+    "Swift": 15,
     "Batchfile": 1,
     "C": 37,
     "Rust": 59,
@@ -34,8 +34,8 @@
     "Nunjucks": 2,
     "PowerShell": 1,
     "PHP": 5,
-    "Svelte": 8,
     "GDScript": 3,
+    "Svelte": 8,
     "JSON": 1,
     "QML": 1,
     "Bikeshed": 2,
@@ -66,10 +66,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 227920,
-      "forks": 44761,
-      "watchers": 227920,
-      "openIssues": 30120,
+      "stars": 227961,
+      "forks": 44773,
+      "watchers": 227961,
+      "openIssues": 30186,
       "language": "Python",
       "topics": [
         "ai",
@@ -90,8 +90,8 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-08-09T23:31:50Z",
-      "pushedAt": "2026-08-09T23:30:02Z",
+      "updatedAt": "2026-08-10T01:59:23Z",
+      "pushedAt": "2026-08-10T01:56:25Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9564383561643834
     },
@@ -101,9 +101,9 @@
       "fullName": "binwiederhier/ntfy",
       "description": "Send push notifications to your phone or desktop using PUT/POST",
       "homepage": "https://ntfy.sh",
-      "stars": 33337,
-      "forks": 1540,
-      "watchers": 33337,
+      "stars": 33339,
+      "forks": 1542,
+      "watchers": 33339,
       "openIssues": 354,
       "language": "Go",
       "topics": [
@@ -116,28 +116,10 @@
         "rest-api"
       ],
       "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-08-09T23:14:57Z",
+      "updatedAt": "2026-08-10T01:35:31Z",
       "pushedAt": "2026-08-04T21:43:36Z",
       "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.954026944202087
-    },
-    {
-      "owner": "apple",
-      "name": "container",
-      "fullName": "apple/container",
-      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
-      "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 48799,
-      "forks": 1701,
-      "watchers": 48799,
-      "openIssues": 474,
-      "language": "Swift",
-      "topics": [],
-      "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-08-09T23:31:11Z",
-      "pushedAt": "2026-08-08T01:36:01Z",
-      "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9524708460341894
+      "score": 0.953618069557167
     },
     {
       "owner": "nexu-io",
@@ -145,10 +127,10 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 84738,
-      "forks": 9908,
-      "watchers": 84738,
-      "openIssues": 807,
+      "stars": 84748,
+      "forks": 9907,
+      "watchers": 84748,
+      "openIssues": 806,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -173,10 +155,28 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-08-09T23:33:17Z",
-      "pushedAt": "2026-08-09T17:41:06Z",
+      "updatedAt": "2026-08-10T01:56:33Z",
+      "pushedAt": "2026-08-10T01:34:39Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9523288585497294
+      "score": 0.9523329583749197
+    },
+    {
+      "owner": "apple",
+      "name": "container",
+      "fullName": "apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+      "homepage": "https://apple.github.io/container/documentation/",
+      "stars": 48803,
+      "forks": 1701,
+      "watchers": 48803,
+      "openIssues": 476,
+      "language": "Swift",
+      "topics": [],
+      "createdAt": "2025-05-30T21:26:05Z",
+      "updatedAt": "2026-08-10T01:23:05Z",
+      "pushedAt": "2026-08-08T01:36:01Z",
+      "starredAt": "2026-06-17T12:16:32Z",
+      "score": 0.9516517759419304
     },
     {
       "owner": "caddyserver",
@@ -184,9 +184,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 74784,
-      "forks": 4879,
-      "watchers": 74784,
+      "stars": 74787,
+      "forks": 4880,
+      "watchers": 74787,
       "openIssues": 289,
       "language": "Go",
       "topics": [
@@ -207,10 +207,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-08-09T23:16:25Z",
+      "updatedAt": "2026-08-10T01:25:15Z",
       "pushedAt": "2026-08-07T21:59:14Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9500421461406878
+      "score": 0.9500435398504572
     },
     {
       "owner": "massgravel",
@@ -218,9 +218,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 186481,
-      "forks": 17845,
-      "watchers": 186481,
+      "stars": 186491,
+      "forks": 17851,
+      "watchers": 186491,
       "openIssues": 3,
       "language": "Batchfile",
       "topics": [
@@ -242,7 +242,7 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-08-09T22:53:55Z",
+      "updatedAt": "2026-08-10T01:51:16Z",
       "pushedAt": "2026-07-04T16:54:38Z",
       "starredAt": "2026-06-20T21:47:10Z",
       "score": 0.9498630136986301
@@ -253,9 +253,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 147306,
+      "stars": 147311,
       "forks": 13561,
-      "watchers": 147306,
+      "watchers": 147311,
       "openIssues": 2875,
       "language": "C",
       "topics": [
@@ -269,7 +269,7 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-08-09T22:39:05Z",
+      "updatedAt": "2026-08-10T01:46:36Z",
       "pushedAt": "2026-07-12T18:16:07Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9453424657534246
@@ -281,7 +281,7 @@
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
       "stars": 95838,
-      "forks": 13991,
+      "forks": 13992,
       "watchers": 95838,
       "openIssues": 46,
       "language": "Python",
@@ -306,7 +306,7 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-08-09T23:13:13Z",
+      "updatedAt": "2026-08-10T01:47:57Z",
       "pushedAt": "2026-08-07T23:15:21Z",
       "starredAt": "2026-03-28T02:18:00Z",
       "score": 0.9418110531183425
@@ -317,17 +317,17 @@
       "fullName": "xai-org/grok-build",
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
       "homepage": "",
-      "stars": 24530,
+      "stars": 24542,
       "forks": 4674,
-      "watchers": 24530,
+      "watchers": 24542,
       "openIssues": 0,
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-07-14T20:04:23Z",
-      "updatedAt": "2026-08-09T22:46:48Z",
+      "updatedAt": "2026-08-10T01:38:24Z",
       "pushedAt": "2026-08-09T20:00:55Z",
       "starredAt": "2026-07-15T23:45:16Z",
-      "score": 0.9413142064991114
+      "score": 0.9409202391877367
     },
     {
       "owner": "mattpocock",
@@ -335,14 +335,14 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "homepage": "https://aihero.dev/skills",
-      "stars": 211080,
-      "forks": 18252,
-      "watchers": 211080,
+      "stars": 211242,
+      "forks": 18264,
+      "watchers": 211242,
       "openIssues": 314,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-08-09T23:32:47Z",
+      "updatedAt": "2026-08-10T02:00:40Z",
       "pushedAt": "2026-08-07T15:50:46Z",
       "starredAt": "2026-03-18T06:37:36Z",
       "score": 0.9391780821917808
@@ -355,9 +355,9 @@
       "fullName": "petergyang/human-review",
       "description": "A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.",
       "homepage": "https://creatoreconomy.so/p/use-my-human-review-skill-to-edit-html-markdown-visually",
-      "stars": 648,
+      "stars": 654,
       "forks": 44,
-      "watchers": 648,
+      "watchers": 654,
       "openIssues": 8,
       "language": "JavaScript",
       "topics": [
@@ -372,10 +372,10 @@
         "review"
       ],
       "createdAt": "2026-07-27T14:58:36Z",
-      "updatedAt": "2026-08-09T23:24:11Z",
+      "updatedAt": "2026-08-10T01:22:25Z",
       "pushedAt": "2026-08-08T04:21:54Z",
       "starredAt": "2026-08-06T13:52:12Z",
-      "score": 0.8229247812234816
+      "score": 0.8232445094787947
     },
     {
       "owner": "LIJI32",
@@ -383,9 +383,9 @@
       "fullName": "LIJI32/SameBoy",
       "description": "Game Boy and Game Boy Color emulator written in C",
       "homepage": "https://sameboy.github.io/",
-      "stars": 2163,
+      "stars": 2164,
       "forks": 266,
-      "watchers": 2163,
+      "watchers": 2164,
       "openIssues": 163,
       "language": "C",
       "topics": [
@@ -394,10 +394,10 @@
         "gameboy-color"
       ],
       "createdAt": "2016-04-01T20:39:14Z",
-      "updatedAt": "2026-08-09T06:39:39Z",
+      "updatedAt": "2026-08-10T00:08:55Z",
       "pushedAt": "2026-07-10T15:37:20Z",
       "starredAt": "2026-08-05T18:05:42Z",
-      "score": 0.840519210651749
+      "score": 0.8405352621921371
     },
     {
       "owner": "pokemon-speedrunning",
@@ -451,7 +451,7 @@
       "description": "A cross platform, customizable graphical frontend for launching emulators and managing your game collection.",
       "homepage": "http://pegasus-frontend.org",
       "stars": 1857,
-      "forks": 161,
+      "forks": 160,
       "watchers": 1857,
       "openIssues": 151,
       "language": "C++",
@@ -511,9 +511,9 @@
       "fullName": "oiov/vmail",
       "description": "📫 只需一个域名部署临时邮箱到 Cloudflare Worker，支持收发邮件，使用 D1 保存数据，支持多域名后缀，密码找回，开放API接口。",
       "homepage": "https://vmail.dev",
-      "stars": 1451,
+      "stars": 1450,
       "forks": 377,
-      "watchers": 1451,
+      "watchers": 1450,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -524,10 +524,10 @@
         "temporary-email"
       ],
       "createdAt": "2024-04-05T12:27:51Z",
-      "updatedAt": "2026-08-09T07:11:02Z",
+      "updatedAt": "2026-08-10T01:47:19Z",
       "pushedAt": "2026-07-16T07:10:34Z",
       "starredAt": "2026-08-03T03:35:53Z",
-      "score": 0.8307655484872082
+      "score": 0.830741612173101
     },
     {
       "owner": "openclaw",
@@ -535,10 +535,10 @@
       "fullName": "openclaw/Peekaboo",
       "description": "Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.",
       "homepage": "http://www.peekaboo.boo",
-      "stars": 4976,
+      "stars": 4977,
       "forks": 384,
-      "watchers": 4976,
-      "openIssues": 4,
+      "watchers": 4977,
+      "openIssues": 3,
       "language": "Swift",
       "topics": [
         "ai",
@@ -548,10 +548,10 @@
         "swift"
       ],
       "createdAt": "2025-05-22T16:09:06Z",
-      "updatedAt": "2026-08-09T23:21:11Z",
-      "pushedAt": "2026-08-09T23:31:59Z",
+      "updatedAt": "2026-08-10T01:46:06Z",
+      "pushedAt": "2026-08-10T01:53:47Z",
       "starredAt": "2026-08-02T08:22:10Z",
-      "score": 0.8928806989307547
+      "score": 0.8928876790530388
     },
     {
       "owner": "vp-tw",
@@ -586,9 +586,9 @@
       "fullName": "binwiederhier/ntfy",
       "description": "Send push notifications to your phone or desktop using PUT/POST",
       "homepage": "https://ntfy.sh",
-      "stars": 33337,
-      "forks": 1540,
-      "watchers": 33337,
+      "stars": 33339,
+      "forks": 1542,
+      "watchers": 33339,
       "openIssues": 354,
       "language": "Go",
       "topics": [
@@ -601,10 +601,10 @@
         "rest-api"
       ],
       "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-08-09T23:14:57Z",
+      "updatedAt": "2026-08-10T01:35:31Z",
       "pushedAt": "2026-08-04T21:43:36Z",
       "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.954026944202087
+      "score": 0.953618069557167
     }
   ]
 }
