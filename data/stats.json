@@ -1,10 +1,10 @@
 {
   "totalRepos": 1643,
-  "totalStars": 27938907,
+  "totalStars": 27939964,
   "languageDistribution": {
+    "Go": 66,
     "Python": 91,
     "Swift": 15,
-    "Go": 66,
     "TypeScript": 603,
     "Batchfile": 1,
     "C": 37,
@@ -61,15 +61,41 @@
   },
   "topActiveRepos": [
     {
+      "owner": "binwiederhier",
+      "name": "ntfy",
+      "fullName": "binwiederhier/ntfy",
+      "description": "Send push notifications to your phone or desktop using PUT/POST",
+      "homepage": "https://ntfy.sh",
+      "stars": 33371,
+      "forks": 1541,
+      "watchers": 33371,
+      "openIssues": 352,
+      "language": "Go",
+      "topics": [
+        "curl",
+        "notifications",
+        "ntfy",
+        "ntfysh",
+        "pubsub",
+        "push-notifications",
+        "rest-api"
+      ],
+      "createdAt": "2021-10-23T19:25:32Z",
+      "updatedAt": "2026-08-11T01:51:20Z",
+      "pushedAt": "2026-08-11T00:20:39Z",
+      "starredAt": "2026-07-31T01:58:32Z",
+      "score": 0.9577609897518469
+    },
+    {
       "owner": "NousResearch",
       "name": "hermes-agent",
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 228440,
-      "forks": 44929,
-      "watchers": 228440,
-      "openIssues": 30614,
+      "stars": 228490,
+      "forks": 44952,
+      "watchers": 228490,
+      "openIssues": 30654,
       "language": "Python",
       "topics": [
         "ai",
@@ -90,8 +116,8 @@
         "openclaw"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-08-10T23:35:43Z",
-      "pushedAt": "2026-08-10T23:36:16Z",
+      "updatedAt": "2026-08-11T01:52:01Z",
+      "pushedAt": "2026-08-11T01:55:04Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.956027397260274
     },
@@ -101,43 +127,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 48838,
+      "stars": 48840,
       "forks": 1705,
-      "watchers": 48838,
+      "watchers": 48840,
       "openIssues": 475,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-08-10T22:32:58Z",
+      "updatedAt": "2026-08-11T01:41:45Z",
       "pushedAt": "2026-08-10T20:42:16Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9529095602175542
-    },
-    {
-      "owner": "binwiederhier",
-      "name": "ntfy",
-      "fullName": "binwiederhier/ntfy",
-      "description": "Send push notifications to your phone or desktop using PUT/POST",
-      "homepage": "https://ntfy.sh",
-      "stars": 33371,
-      "forks": 1541,
-      "watchers": 33371,
-      "openIssues": 351,
-      "language": "Go",
-      "topics": [
-        "curl",
-        "notifications",
-        "ntfy",
-        "ntfysh",
-        "pubsub",
-        "push-notifications",
-        "rest-api"
-      ],
-      "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-08-10T22:01:26Z",
-      "pushedAt": "2026-08-04T21:43:36Z",
-      "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.9528294829025317
+      "score": 0.9529109829676998
     },
     {
       "owner": "nexu-io",
@@ -145,9 +145,9 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 84903,
-      "forks": 9933,
-      "watchers": 84903,
+      "stars": 84921,
+      "forks": 9936,
+      "watchers": 84921,
       "openIssues": 810,
       "language": "TypeScript",
       "topics": [
@@ -173,10 +173,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-08-10T23:21:10Z",
-      "pushedAt": "2026-08-10T17:41:46Z",
+      "updatedAt": "2026-08-11T01:55:42Z",
+      "pushedAt": "2026-08-11T01:34:30Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9519854849744438
+      "score": 0.9519928499722214
     },
     {
       "owner": "caddyserver",
@@ -184,9 +184,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 74826,
-      "forks": 4884,
-      "watchers": 74826,
+      "stars": 74829,
+      "forks": 4885,
+      "watchers": 74829,
       "openIssues": 282,
       "language": "Go",
       "topics": [
@@ -207,10 +207,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-08-10T22:12:34Z",
+      "updatedAt": "2026-08-11T01:35:10Z",
       "pushedAt": "2026-08-10T06:18:17Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9512945297040383
+      "score": 0.9512959226315414
     },
     {
       "owner": "massgravel",
@@ -218,9 +218,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 186590,
+      "stars": 186601,
       "forks": 17854,
-      "watchers": 186590,
+      "watchers": 186601,
       "openIssues": 3,
       "language": "Batchfile",
       "topics": [
@@ -242,7 +242,7 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-08-10T23:01:19Z",
+      "updatedAt": "2026-08-11T01:54:39Z",
       "pushedAt": "2026-07-04T16:54:38Z",
       "starredAt": "2026-06-20T21:47:10Z",
       "score": 0.9486301369863014
@@ -253,9 +253,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 147375,
+      "stars": 147382,
       "forks": 13569,
-      "watchers": 147375,
+      "watchers": 147382,
       "openIssues": 2875,
       "language": "C",
       "topics": [
@@ -269,7 +269,7 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-08-10T23:35:56Z",
+      "updatedAt": "2026-08-11T01:47:53Z",
       "pushedAt": "2026-07-12T18:16:07Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9441095890410958
@@ -280,17 +280,17 @@
       "fullName": "xai-org/grok-build",
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
       "homepage": "",
-      "stars": 24609,
-      "forks": 4681,
-      "watchers": 24609,
+      "stars": 24617,
+      "forks": 4683,
+      "watchers": 24617,
       "openIssues": 0,
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-07-14T20:04:23Z",
-      "updatedAt": "2026-08-10T23:35:58Z",
+      "updatedAt": "2026-08-11T01:39:24Z",
       "pushedAt": "2026-08-10T17:23:36Z",
       "starredAt": "2026-07-15T23:45:16Z",
-      "score": 0.9410149564934845
+      "score": 0.9406152898811952
     },
     {
       "owner": "hacksider",
@@ -298,9 +298,9 @@
       "fullName": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
-      "stars": 95853,
+      "stars": 95855,
       "forks": 13995,
-      "watchers": 95853,
+      "watchers": 95855,
       "openIssues": 47,
       "language": "Python",
       "topics": [
@@ -324,10 +324,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-08-10T22:54:20Z",
+      "updatedAt": "2026-08-11T01:09:54Z",
       "pushedAt": "2026-08-07T23:15:21Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.9405836137811847
+      "score": 0.9405843387002512
     },
     {
       "owner": "mattpocock",
@@ -335,14 +335,14 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "homepage": "https://aihero.dev/skills",
-      "stars": 212531,
-      "forks": 18360,
-      "watchers": 212531,
-      "openIssues": 317,
+      "stars": 212629,
+      "forks": 18371,
+      "watchers": 212629,
+      "openIssues": 318,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-08-10T23:35:36Z",
+      "updatedAt": "2026-08-11T01:55:44Z",
       "pushedAt": "2026-08-07T15:50:46Z",
       "starredAt": "2026-03-18T06:37:36Z",
       "score": 0.937945205479452
@@ -382,9 +382,9 @@
       "fullName": "petergyang/human-review",
       "description": "A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.",
       "homepage": "https://creatoreconomy.so/p/use-my-human-review-skill-to-edit-html-markdown-visually",
-      "stars": 696,
+      "stars": 702,
       "forks": 45,
-      "watchers": 696,
+      "watchers": 702,
       "openIssues": 9,
       "language": "JavaScript",
       "topics": [
@@ -399,10 +399,10 @@
         "review"
       ],
       "createdAt": "2026-07-27T14:58:36Z",
-      "updatedAt": "2026-08-10T23:21:55Z",
+      "updatedAt": "2026-08-11T01:35:33Z",
       "pushedAt": "2026-08-08T04:21:54Z",
       "starredAt": "2026-08-06T13:52:12Z",
-      "score": 0.8241709510149642
+      "score": 0.8244687547687093
     },
     {
       "owner": "LIJI32",
@@ -410,10 +410,10 @@
       "fullName": "LIJI32/SameBoy",
       "description": "Game Boy and Game Boy Color emulator written in C",
       "homepage": "https://sameboy.github.io/",
-      "stars": 2165,
+      "stars": 2166,
       "forks": 266,
-      "watchers": 2165,
-      "openIssues": 163,
+      "watchers": 2166,
+      "openIssues": 164,
       "language": "C",
       "topics": [
         "emulator",
@@ -421,10 +421,10 @@
         "gameboy-color"
       ],
       "createdAt": "2016-04-01T20:39:14Z",
-      "updatedAt": "2026-08-10T19:06:39Z",
+      "updatedAt": "2026-08-11T01:45:15Z",
       "pushedAt": "2026-07-10T15:37:20Z",
       "starredAt": "2026-08-05T18:05:42Z",
-      "score": 0.8393184296078017
+      "score": 0.8393344663302429
     },
     {
       "owner": "pokemon-speedrunning",
@@ -450,9 +450,9 @@
       "fullName": "skylersaleh/SkyEmu",
       "description": "Game Boy Advance, Game Boy, Game Boy Color, and DS Emulator",
       "homepage": "http://skyemu.app",
-      "stars": 1232,
+      "stars": 1233,
       "forks": 94,
-      "watchers": 1232,
+      "watchers": 1233,
       "openIssues": 256,
       "language": "C",
       "topics": [
@@ -466,10 +466,10 @@
         "wasm"
       ],
       "createdAt": "2021-05-21T00:49:33Z",
-      "updatedAt": "2026-08-09T16:05:38Z",
+      "updatedAt": "2026-08-10T23:53:07Z",
       "pushedAt": "2026-06-26T12:34:27Z",
       "starredAt": "2026-08-05T17:03:31Z",
-      "score": 0.8082359502372475
+      "score": 0.8082641168853668
     },
     {
       "owner": "mmatyas",
@@ -477,9 +477,9 @@
       "fullName": "mmatyas/pegasus-frontend",
       "description": "A cross platform, customizable graphical frontend for launching emulators and managing your game collection.",
       "homepage": "http://pegasus-frontend.org",
-      "stars": 1859,
+      "stars": 1860,
       "forks": 160,
-      "watchers": 1859,
+      "watchers": 1860,
       "openIssues": 151,
       "language": "C++",
       "topics": [
@@ -495,10 +495,10 @@
         "retrogaming"
       ],
       "createdAt": "2017-04-30T15:50:59Z",
-      "updatedAt": "2026-08-10T19:40:18Z",
+      "updatedAt": "2026-08-11T01:04:26Z",
       "pushedAt": "2026-07-26T14:59:14Z",
       "starredAt": "2026-08-04T17:32:34Z",
-      "score": 0.8467665149894881
+      "score": 0.8467851893025161
     },
     {
       "owner": "inbucket",
@@ -506,9 +506,9 @@
       "fullName": "inbucket/inbucket",
       "description": "Disposable webmail server (similar to Mailinator) with built in SMTP, POP3, RESTful servers; no DB required.",
       "homepage": "https://inbucket.org/",
-      "stars": 2245,
+      "stars": 2246,
       "forks": 219,
-      "watchers": 2245,
+      "watchers": 2246,
       "openIssues": 37,
       "language": "Go",
       "topics": [
@@ -527,10 +527,10 @@
         "windows"
       ],
       "createdAt": "2012-10-06T23:09:56Z",
-      "updatedAt": "2026-08-08T13:55:30Z",
+      "updatedAt": "2026-08-11T01:36:05Z",
       "pushedAt": "2026-04-02T07:14:36Z",
       "starredAt": "2026-08-03T03:36:19Z",
-      "score": 0.7583867527567749
+      "score": 0.75840221839627
     },
     {
       "owner": "oiov",
@@ -565,7 +565,7 @@
       "stars": 4980,
       "forks": 384,
       "watchers": 4980,
-      "openIssues": 1,
+      "openIssues": 2,
       "language": "Swift",
       "topics": [
         "ai",
@@ -575,8 +575,8 @@
         "swift"
       ],
       "createdAt": "2025-05-22T16:09:06Z",
-      "updatedAt": "2026-08-10T23:08:19Z",
-      "pushedAt": "2026-08-10T23:24:32Z",
+      "updatedAt": "2026-08-11T01:29:46Z",
+      "pushedAt": "2026-08-11T01:43:06Z",
       "starredAt": "2026-08-02T08:22:10Z",
       "score": 0.892497652105714
     },
