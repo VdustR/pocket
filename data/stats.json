@@ -1,10 +1,10 @@
 {
-  "totalRepos": 1644,
-  "totalStars": 28001502,
+  "totalRepos": 1645,
+  "totalStars": 28009059,
   "languageDistribution": {
+    "TypeScript": 605,
     "Go": 66,
     "Python": 91,
-    "TypeScript": 604,
     "Swift": 15,
     "Batchfile": 1,
     "C": 37,
@@ -61,14 +61,36 @@
   },
   "topActiveRepos": [
     {
+      "owner": "deepseek-ai",
+      "name": "deepseek-harness",
+      "fullName": "deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "homepage": "https://deepseek.com/harness",
+      "stars": 31433,
+      "forks": 2358,
+      "watchers": 31433,
+      "openIssues": 0,
+      "language": "TypeScript",
+      "topics": [
+        "cordis",
+        "dsh",
+        "dsh-plugin"
+      ],
+      "createdAt": "2026-08-13T11:56:32Z",
+      "updatedAt": "2026-08-13T16:04:47Z",
+      "pushedAt": "2026-08-13T13:00:21Z",
+      "starredAt": "2026-08-13T14:29:36Z",
+      "score": 0.9597919719065273
+    },
+    {
       "owner": "binwiederhier",
       "name": "ntfy",
       "fullName": "binwiederhier/ntfy",
       "description": "Send push notifications to your phone or desktop using PUT/POST",
       "homepage": "https://ntfy.sh",
-      "stars": 33440,
+      "stars": 33442,
       "forks": 1544,
-      "watchers": 33440,
+      "watchers": 33442,
       "openIssues": 355,
       "language": "Go",
       "topics": [
@@ -81,10 +103,10 @@
         "rest-api"
       ],
       "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-08-13T14:44:06Z",
+      "updatedAt": "2026-08-13T15:42:59Z",
       "pushedAt": "2026-08-11T21:43:48Z",
       "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.9557779569061939
+      "score": 0.9557800347459502
     },
     {
       "owner": "NousResearch",
@@ -92,10 +114,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 229953,
-      "forks": 45447,
-      "watchers": 229953,
-      "openIssues": 31735,
+      "stars": 229980,
+      "forks": 45460,
+      "watchers": 229980,
+      "openIssues": 31759,
       "language": "Python",
       "topics": [
         "ai",
@@ -113,32 +135,10 @@
         "openai"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-08-13T14:55:55Z",
-      "pushedAt": "2026-08-13T10:38:56Z",
+      "updatedAt": "2026-08-13T16:03:46Z",
+      "pushedAt": "2026-08-13T16:03:11Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9547945205479451
-    },
-    {
-      "owner": "deepseek-ai",
-      "name": "deepseek-harness",
-      "fullName": "deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
-      "homepage": "https://deepseek.com/harness",
-      "stars": 25622,
-      "forks": 1859,
-      "watchers": 25622,
-      "openIssues": 0,
-      "language": "TypeScript",
-      "topics": [
-        "cordis",
-        "dsh",
-        "dsh-plugin"
-      ],
-      "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-08-13T14:59:51Z",
-      "pushedAt": "2026-08-13T13:00:21Z",
-      "starredAt": "2026-08-13T14:29:36Z",
-      "score": 0.9526903981269024
     },
     {
       "owner": "apple",
@@ -146,17 +146,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 48925,
+      "stars": 48927,
       "forks": 1717,
-      "watchers": 48925,
+      "watchers": 48927,
       "openIssues": 476,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-08-13T14:33:06Z",
+      "updatedAt": "2026-08-13T15:47:19Z",
       "pushedAt": "2026-08-13T04:00:44Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9517385193440623
+      "score": 0.9517399395643314
     },
     {
       "owner": "nexu-io",
@@ -164,10 +164,10 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 85525,
-      "forks": 10027,
-      "watchers": 85525,
-      "openIssues": 796,
+      "stars": 85541,
+      "forks": 10028,
+      "watchers": 85541,
+      "openIssues": 792,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -192,10 +192,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-08-13T14:58:55Z",
-      "pushedAt": "2026-08-13T14:58:11Z",
+      "updatedAt": "2026-08-13T15:59:48Z",
+      "pushedAt": "2026-08-13T16:02:20Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.951417167933313
+      "score": 0.9514236670674405
     },
     {
       "owner": "caddyserver",
@@ -203,9 +203,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 74905,
-      "forks": 4894,
-      "watchers": 74905,
+      "stars": 74906,
+      "forks": 4895,
+      "watchers": 74906,
       "openIssues": 273,
       "language": "Go",
       "topics": [
@@ -226,10 +226,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-08-13T14:40:55Z",
+      "updatedAt": "2026-08-13T15:01:35Z",
       "pushedAt": "2026-08-13T04:59:32Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9505092737055779
+      "score": 0.9500987786271518
     },
     {
       "owner": "massgravel",
@@ -237,9 +237,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 186911,
+      "stars": 186917,
       "forks": 17888,
-      "watchers": 186911,
+      "watchers": 186917,
       "openIssues": 3,
       "language": "Batchfile",
       "topics": [
@@ -261,7 +261,7 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-08-13T14:59:42Z",
+      "updatedAt": "2026-08-13T15:50:43Z",
       "pushedAt": "2026-07-04T16:54:38Z",
       "starredAt": "2026-06-20T21:47:10Z",
       "score": 0.9461643835616439
@@ -272,10 +272,10 @@
       "fullName": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
-      "stars": 95914,
+      "stars": 95917,
       "forks": 13996,
-      "watchers": 95914,
-      "openIssues": 45,
+      "watchers": 95917,
+      "openIssues": 43,
       "language": "Python",
       "topics": [
         "ai",
@@ -298,10 +298,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-08-13T14:53:11Z",
+      "updatedAt": "2026-08-13T16:02:45Z",
       "pushedAt": "2026-08-13T14:50:17Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.94183859372337
+      "score": 0.9418396804047611
     },
     {
       "owner": "Genymobile",
@@ -309,9 +309,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 147558,
+      "stars": 147564,
       "forks": 13588,
-      "watchers": 147558,
+      "watchers": 147564,
       "openIssues": 2878,
       "language": "C",
       "topics": [
@@ -325,7 +325,7 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-08-13T14:25:57Z",
+      "updatedAt": "2026-08-13T16:01:27Z",
       "pushedAt": "2026-07-12T18:16:07Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9412328767123287
@@ -336,29 +336,52 @@
       "fullName": "xai-org/grok-build",
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
       "homepage": "",
-      "stars": 25002,
-      "forks": 4739,
-      "watchers": 25002,
+      "stars": 25012,
+      "forks": 4741,
+      "watchers": 25012,
       "openIssues": 0,
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-07-14T20:04:23Z",
-      "updatedAt": "2026-08-13T14:59:32Z",
+      "updatedAt": "2026-08-13T16:02:47Z",
       "pushedAt": "2026-08-12T22:42:20Z",
       "starredAt": "2026-07-15T23:45:16Z",
-      "score": 0.9403325203555872
+      "score": 0.9403464133334405
     }
   ],
   "recentlyStarred": [
+    {
+      "owner": "cordiverse",
+      "name": "cordis",
+      "fullName": "cordiverse/cordis",
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "homepage": "https://deepseek-harness.github.io/deepseek-harness/reference/cordis-primer",
+      "stars": 1066,
+      "forks": 55,
+      "watchers": 1066,
+      "openIssues": 12,
+      "language": "TypeScript",
+      "topics": [
+        "effect",
+        "framework",
+        "nodejs",
+        "plugin"
+      ],
+      "createdAt": "2022-05-17T18:52:57Z",
+      "updatedAt": "2026-08-13T16:04:44Z",
+      "pushedAt": "2026-08-13T13:48:22Z",
+      "starredAt": "2026-08-13T15:47:23Z",
+      "score": 0.8422531535539575
+    },
     {
       "owner": "deepseek-ai",
       "name": "deepseek-harness",
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 25622,
-      "forks": 1859,
-      "watchers": 25622,
+      "stars": 31433,
+      "forks": 2358,
+      "watchers": 31433,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -367,10 +390,10 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-08-13T14:59:51Z",
+      "updatedAt": "2026-08-13T16:04:47Z",
       "pushedAt": "2026-08-13T13:00:21Z",
       "starredAt": "2026-08-13T14:29:36Z",
-      "score": 0.9526903981269024
+      "score": 0.9597919719065273
     },
     {
       "owner": "infernojs",
@@ -405,9 +428,9 @@
       "fullName": "petergyang/human-review",
       "description": "A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.",
       "homepage": "https://creatoreconomy.so/p/use-my-human-review-skill-to-edit-html-markdown-visually",
-      "stars": 940,
-      "forks": 58,
-      "watchers": 940,
+      "stars": 942,
+      "forks": 59,
+      "watchers": 942,
       "openIssues": 15,
       "language": "JavaScript",
       "topics": [
@@ -422,10 +445,10 @@
         "review"
       ],
       "createdAt": "2026-07-27T14:58:36Z",
-      "updatedAt": "2026-08-13T14:49:46Z",
+      "updatedAt": "2026-08-13T15:03:41Z",
       "pushedAt": "2026-08-08T04:21:54Z",
       "starredAt": "2026-08-06T13:52:12Z",
-      "score": 0.8309008685043175
+      "score": 0.8309746340491232
     },
     {
       "owner": "LIJI32",
@@ -447,7 +470,7 @@
       "updatedAt": "2026-08-11T08:48:30Z",
       "pushedAt": "2026-07-10T15:37:20Z",
       "starredAt": "2026-08-05T18:05:42Z",
-      "score": 0.836884742229308
+      "score": 0.8360628244210887
     },
     {
       "owner": "pokemon-speedrunning",
@@ -473,9 +496,9 @@
       "fullName": "skylersaleh/SkyEmu",
       "description": "Game Boy Advance, Game Boy, Game Boy Color, and DS Emulator",
       "homepage": "http://skyemu.app",
-      "stars": 1234,
+      "stars": 1235,
       "forks": 95,
-      "watchers": 1234,
+      "watchers": 1235,
       "openIssues": 255,
       "language": "C",
       "topics": [
@@ -489,10 +512,10 @@
         "wasm"
       ],
       "createdAt": "2021-05-21T00:49:33Z",
-      "updatedAt": "2026-08-11T20:00:49Z",
+      "updatedAt": "2026-08-13T14:59:52Z",
       "pushedAt": "2026-06-26T12:34:27Z",
       "starredAt": "2026-08-05T17:03:31Z",
-      "score": 0.805004589484367
+      "score": 0.805032710536936
     },
     {
       "owner": "mmatyas",
@@ -578,30 +601,6 @@
       "pushedAt": "2026-07-16T07:10:34Z",
       "starredAt": "2026-08-03T03:35:53Z",
       "score": 0.8258579614726087
-    },
-    {
-      "owner": "openclaw",
-      "name": "Peekaboo",
-      "fullName": "openclaw/Peekaboo",
-      "description": "Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.",
-      "homepage": "http://www.peekaboo.boo",
-      "stars": 4985,
-      "forks": 384,
-      "watchers": 4985,
-      "openIssues": 2,
-      "language": "Swift",
-      "topics": [
-        "ai",
-        "macos",
-        "mcp",
-        "screenshots",
-        "swift"
-      ],
-      "createdAt": "2025-05-22T16:09:06Z",
-      "updatedAt": "2026-08-13T14:55:14Z",
-      "pushedAt": "2026-08-13T14:51:25Z",
-      "starredAt": "2026-08-02T08:22:10Z",
-      "score": 0.8912996339882149
     }
   ]
 }
