@@ -1,11 +1,11 @@
 {
   "totalRepos": 1645,
-  "totalStars": 28091512,
+  "totalStars": 28092000,
   "languageDistribution": {
     "TypeScript": 605,
     "C": 37,
-    "Go": 66,
     "Python": 91,
+    "Go": 66,
     "Swift": 15,
     "Batchfile": 1,
     "Rust": 59,
@@ -66,9 +66,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 94677,
-      "forks": 8717,
-      "watchers": 94677,
+      "stars": 94875,
+      "forks": 8748,
+      "watchers": 94875,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -78,10 +78,10 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-08-14T21:27:00Z",
+      "updatedAt": "2026-08-14T22:25:33Z",
       "pushedAt": "2026-08-13T13:00:21Z",
       "starredAt": "2026-08-13T14:29:36Z",
-      "score": 0.9968670493050089
+      "score": 0.9969396326015401
     },
     {
       "owner": "Genymobile",
@@ -90,7 +90,7 @@
       "description": "Display and control your Android device",
       "homepage": "",
       "stars": 147640,
-      "forks": 13598,
+      "forks": 13599,
       "watchers": 147640,
       "openIssues": 2877,
       "language": "C",
@@ -105,10 +105,42 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-08-14T21:11:38Z",
+      "updatedAt": "2026-08-14T22:17:07Z",
       "pushedAt": "2026-08-14T15:22:32Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9663013698630136
+    },
+    {
+      "owner": "NousResearch",
+      "name": "hermes-agent",
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "homepage": "https://hermes-agent.nousresearch.com",
+      "stars": 230631,
+      "forks": 45723,
+      "watchers": 230631,
+      "openIssues": 32160,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "nous-research",
+        "openai"
+      ],
+      "createdAt": "2025-07-22T22:22:28Z",
+      "updatedAt": "2026-08-14T22:23:45Z",
+      "pushedAt": "2026-08-14T22:24:11Z",
+      "starredAt": "2026-04-25T13:46:18Z",
+      "score": 0.9543835616438356
     },
     {
       "owner": "binwiederhier",
@@ -134,39 +166,7 @@
       "updatedAt": "2026-08-14T21:11:13Z",
       "pushedAt": "2026-08-11T21:43:48Z",
       "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.9545886887543447
-    },
-    {
-      "owner": "NousResearch",
-      "name": "hermes-agent",
-      "fullName": "NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 230612,
-      "forks": 45720,
-      "watchers": 230612,
-      "openIssues": 32162,
-      "language": "Python",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "codex",
-        "hermes",
-        "hermes-agent",
-        "llm",
-        "nous-research",
-        "openai"
-      ],
-      "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-08-14T21:25:51Z",
-      "pushedAt": "2026-08-14T21:27:04Z",
-      "starredAt": "2026-04-25T13:46:18Z",
-      "score": 0.9543835616438356
+      "score": 0.9537667709461255
     },
     {
       "owner": "apple",
@@ -192,9 +192,9 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 86292,
-      "forks": 10067,
-      "watchers": 86292,
+      "stars": 86300,
+      "forks": 10069,
+      "watchers": 86300,
       "openIssues": 796,
       "language": "TypeScript",
       "topics": [
@@ -220,10 +220,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-08-14T21:21:24Z",
+      "updatedAt": "2026-08-14T22:20:20Z",
       "pushedAt": "2026-08-14T18:27:38Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9509054426698214
+      "score": 0.9509086635056399
     },
     {
       "owner": "caddyserver",
@@ -231,9 +231,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 74953,
+      "stars": 74955,
       "forks": 4899,
-      "watchers": 74953,
+      "watchers": 74955,
       "openIssues": 272,
       "language": "Go",
       "topics": [
@@ -254,10 +254,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-08-14T20:50:37Z",
+      "updatedAt": "2026-08-14T21:56:10Z",
       "pushedAt": "2026-08-13T04:59:32Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9488876947402478
+      "score": 0.9488886217913732
     },
     {
       "owner": "massgravel",
@@ -265,9 +265,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 187014,
-      "forks": 17897,
-      "watchers": 187014,
+      "stars": 187015,
+      "forks": 17896,
+      "watchers": 187015,
       "openIssues": 5,
       "language": "Batchfile",
       "topics": [
@@ -289,10 +289,10 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-08-14T21:19:12Z",
+      "updatedAt": "2026-08-14T22:23:09Z",
       "pushedAt": "2026-07-04T16:54:38Z",
       "starredAt": "2026-06-20T21:47:10Z",
-      "score": 0.9441095890410959
+      "score": 0.9436986301369863
     },
     {
       "owner": "hacksider",
@@ -326,7 +326,7 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-08-14T21:01:17Z",
+      "updatedAt": "2026-08-14T22:05:26Z",
       "pushedAt": "2026-08-13T22:44:22Z",
       "starredAt": "2026-03-28T02:18:00Z",
       "score": 0.941434878719949
@@ -338,7 +338,7 @@
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
       "homepage": "",
       "stars": 25191,
-      "forks": 4766,
+      "forks": 4765,
       "watchers": 25191,
       "openIssues": 0,
       "language": "Rust",
@@ -357,9 +357,9 @@
       "fullName": "cordiverse/cordis",
       "description": "Meta-Framework of Spatiotemporal Composability",
       "homepage": "https://deepseek-harness.github.io/deepseek-harness/reference/cordis-primer",
-      "stars": 3346,
+      "stars": 3357,
       "forks": 155,
-      "watchers": 3346,
+      "watchers": 3357,
       "openIssues": 30,
       "language": "TypeScript",
       "topics": [
@@ -369,10 +369,10 @@
         "plugin"
       ],
       "createdAt": "2022-05-17T18:52:57Z",
-      "updatedAt": "2026-08-14T21:24:39Z",
+      "updatedAt": "2026-08-14T22:21:04Z",
       "pushedAt": "2026-08-13T13:48:22Z",
       "starredAt": "2026-08-13T15:47:23Z",
-      "score": 0.8807395802762934
+      "score": 0.8808535786318337
     },
     {
       "owner": "deepseek-ai",
@@ -380,9 +380,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 94677,
-      "forks": 8717,
-      "watchers": 94677,
+      "stars": 94875,
+      "forks": 8748,
+      "watchers": 94875,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -392,10 +392,10 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-08-14T21:27:00Z",
+      "updatedAt": "2026-08-14T22:25:33Z",
       "pushedAt": "2026-08-13T13:00:21Z",
       "starredAt": "2026-08-13T14:29:36Z",
-      "score": 0.9968670493050089
+      "score": 0.9969396326015401
     },
     {
       "owner": "infernojs",
@@ -431,7 +431,7 @@
       "description": "A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.",
       "homepage": "https://creatoreconomy.so/p/use-my-human-review-skill-to-edit-html-markdown-visually",
       "stars": 974,
-      "forks": 65,
+      "forks": 66,
       "watchers": 974,
       "openIssues": 16,
       "language": "JavaScript",
