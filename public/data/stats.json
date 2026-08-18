@@ -1,12 +1,12 @@
 {
   "totalRepos": 1646,
-  "totalStars": 28213227,
+  "totalStars": 28213687,
   "languageDistribution": {
     "TypeScript": 606,
     "C": 37,
+    "Go": 66,
     "Python": 91,
     "Swift": 15,
-    "Go": 66,
     "Batchfile": 1,
     "Rust": 59,
     "Shell": 34,
@@ -66,9 +66,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 160039,
-      "forks": 16730,
-      "watchers": 160039,
+      "stars": 160135,
+      "forks": 16749,
+      "watchers": 160135,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -78,7 +78,7 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-08-18T21:25:07Z",
+      "updatedAt": "2026-08-18T22:24:48Z",
       "pushedAt": "2026-08-17T12:01:58Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9971232876712328
@@ -111,15 +111,41 @@
       "score": 0.9638356164383561
     },
     {
+      "owner": "binwiederhier",
+      "name": "ntfy",
+      "fullName": "binwiederhier/ntfy",
+      "description": "Send push notifications to your phone or desktop using PUT/POST",
+      "homepage": "https://ntfy.sh",
+      "stars": 33593,
+      "forks": 1551,
+      "watchers": 33593,
+      "openIssues": 361,
+      "language": "Go",
+      "topics": [
+        "curl",
+        "notifications",
+        "ntfy",
+        "ntfysh",
+        "pubsub",
+        "push-notifications",
+        "rest-api"
+      ],
+      "createdAt": "2021-10-23T19:25:32Z",
+      "updatedAt": "2026-08-18T18:04:29Z",
+      "pushedAt": "2026-08-18T21:43:12Z",
+      "starredAt": "2026-07-31T01:58:32Z",
+      "score": 0.9547036771563175
+    },
+    {
       "owner": "NousResearch",
       "name": "hermes-agent",
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 232510,
-      "forks": 46393,
-      "watchers": 232510,
-      "openIssues": 33195,
+      "stars": 232515,
+      "forks": 46401,
+      "watchers": 232515,
+      "openIssues": 33207,
       "language": "Python",
       "topics": [
         "ai",
@@ -137,8 +163,8 @@
         "openai"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-08-18T21:24:52Z",
-      "pushedAt": "2026-08-18T21:26:31Z",
+      "updatedAt": "2026-08-18T22:15:46Z",
+      "pushedAt": "2026-08-18T22:25:50Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9527397260273972
     },
@@ -148,10 +174,10 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 88863,
-      "forks": 10263,
-      "watchers": 88863,
-      "openIssues": 801,
+      "stars": 88869,
+      "forks": 10265,
+      "watchers": 88869,
+      "openIssues": 802,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -176,10 +202,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-08-18T21:23:30Z",
+      "updatedAt": "2026-08-18T22:07:05Z",
       "pushedAt": "2026-08-18T18:31:24Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9502816302894488
+      "score": 0.9502839760572972
     },
     {
       "owner": "apple",
@@ -190,40 +216,14 @@
       "stars": 49053,
       "forks": 1720,
       "watchers": 49053,
-      "openIssues": 487,
+      "openIssues": 488,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-08-18T20:35:07Z",
+      "updatedAt": "2026-08-18T21:55:05Z",
       "pushedAt": "2026-08-18T20:12:07Z",
       "starredAt": "2026-06-17T12:16:32Z",
       "score": 0.9497745020846824
-    },
-    {
-      "owner": "binwiederhier",
-      "name": "ntfy",
-      "fullName": "binwiederhier/ntfy",
-      "description": "Send push notifications to your phone or desktop using PUT/POST",
-      "homepage": "https://ntfy.sh",
-      "stars": 33593,
-      "forks": 1551,
-      "watchers": 33593,
-      "openIssues": 358,
-      "language": "Go",
-      "topics": [
-        "curl",
-        "notifications",
-        "ntfy",
-        "ntfysh",
-        "pubsub",
-        "push-notifications",
-        "rest-api"
-      ],
-      "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-08-18T18:04:29Z",
-      "pushedAt": "2026-08-11T21:43:48Z",
-      "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.9497721703070026
     },
     {
       "owner": "caddyserver",
@@ -265,9 +265,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 187469,
-      "forks": 17928,
-      "watchers": 187469,
+      "stars": 187470,
+      "forks": 17930,
+      "watchers": 187470,
       "openIssues": 6,
       "language": "Batchfile",
       "topics": [
@@ -289,10 +289,10 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-08-18T21:24:34Z",
+      "updatedAt": "2026-08-18T22:18:50Z",
       "pushedAt": "2026-07-04T16:54:38Z",
       "starredAt": "2026-06-20T21:47:10Z",
-      "score": 0.9391780821917808
+      "score": 0.9387671232876711
     },
     {
       "owner": "xai-org",
@@ -300,17 +300,17 @@
       "fullName": "xai-org/grok-build",
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
       "homepage": "",
-      "stars": 25626,
+      "stars": 25627,
       "forks": 4821,
-      "watchers": 25626,
+      "watchers": 25627,
       "openIssues": 0,
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-07-14T20:04:23Z",
-      "updatedAt": "2026-08-18T21:06:23Z",
+      "updatedAt": "2026-08-18T21:37:06Z",
       "pushedAt": "2026-08-17T18:48:30Z",
       "starredAt": "2026-07-15T23:45:16Z",
-      "score": 0.9383122598678275
+      "score": 0.9383136155817502
     },
     {
       "owner": "hacksider",
@@ -357,9 +357,9 @@
       "fullName": "dmmulroy/anti-slop",
       "description": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
       "homepage": "",
-      "stars": 2613,
+      "stars": 2620,
       "forks": 47,
-      "watchers": 2613,
+      "watchers": 2620,
       "openIssues": 2,
       "language": "TypeScript",
       "topics": [
@@ -369,10 +369,10 @@
         "typescript"
       ],
       "createdAt": "2026-08-12T13:48:50Z",
-      "updatedAt": "2026-08-18T21:26:15Z",
+      "updatedAt": "2026-08-18T22:23:40Z",
       "pushedAt": "2026-08-18T13:21:06Z",
       "starredAt": "2026-08-18T17:05:13Z",
-      "score": 0.8733844466595619
+      "score": 0.8734773616757281
     },
     {
       "owner": "cordiverse",
@@ -380,9 +380,9 @@
       "fullName": "cordiverse/cordis",
       "description": "Meta-Framework of Spatiotemporal Composability",
       "homepage": "https://deepseek-harness.github.io/deepseek-harness/reference/cordis-primer",
-      "stars": 6078,
+      "stars": 6084,
       "forks": 332,
-      "watchers": 6078,
+      "watchers": 6084,
       "openIssues": 46,
       "language": "TypeScript",
       "topics": [
@@ -392,10 +392,10 @@
         "plugin"
       ],
       "createdAt": "2022-05-17T18:52:57Z",
-      "updatedAt": "2026-08-18T21:26:29Z",
+      "updatedAt": "2026-08-18T22:24:47Z",
       "pushedAt": "2026-08-13T13:48:22Z",
       "starredAt": "2026-08-13T15:47:23Z",
-      "score": 0.8965421879091113
+      "score": 0.8965764630436428
     },
     {
       "owner": "deepseek-ai",
@@ -403,9 +403,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 160039,
-      "forks": 16730,
-      "watchers": 160039,
+      "stars": 160135,
+      "forks": 16749,
+      "watchers": 160135,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -415,7 +415,7 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-08-18T21:25:07Z",
+      "updatedAt": "2026-08-18T22:24:48Z",
       "pushedAt": "2026-08-17T12:01:58Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9971232876712328
@@ -548,9 +548,9 @@
       "fullName": "mmatyas/pegasus-frontend",
       "description": "A cross platform, customizable graphical frontend for launching emulators and managing your game collection.",
       "homepage": "http://pegasus-frontend.org",
-      "stars": 1870,
+      "stars": 1871,
       "forks": 161,
-      "watchers": 1870,
+      "watchers": 1871,
       "openIssues": 152,
       "language": "C++",
       "topics": [
@@ -566,10 +566,10 @@
         "retrogaming"
       ],
       "createdAt": "2017-04-30T15:50:59Z",
-      "updatedAt": "2026-08-18T08:35:28Z",
+      "updatedAt": "2026-08-18T21:49:39Z",
       "pushedAt": "2026-07-26T14:59:14Z",
       "starredAt": "2026-08-04T17:32:34Z",
-      "score": 0.8371083687534253
+      "score": 0.8371269333055915
     },
     {
       "owner": "inbucket",
