@@ -4247,11 +4247,11 @@
       "count": 2
     },
     {
-      "name": "spreadsheet",
+      "name": "self-hosting",
       "count": 2
     },
     {
-      "name": "tabular-data",
+      "name": "sharing",
       "count": 2
     },
     {
@@ -4264,6 +4264,14 @@
     },
     {
       "name": "vpn",
+      "count": 2
+    },
+    {
+      "name": "spreadsheet",
+      "count": 2
+    },
+    {
+      "name": "tabular-data",
       "count": 2
     },
     {
@@ -4327,19 +4335,11 @@
       "count": 2
     },
     {
-      "name": "self-hosting",
-      "count": 2
-    },
-    {
-      "name": "sharing",
+      "name": "liquid",
       "count": 2
     },
     {
       "name": "octokit-js",
-      "count": 2
-    },
-    {
-      "name": "liquid",
       "count": 2
     },
     {
@@ -5139,6 +5139,30 @@
       "count": 1
     },
     {
+      "name": "assistant",
+      "count": 1
+    },
+    {
+      "name": "crustacean",
+      "count": 1
+    },
+    {
+      "name": "molty",
+      "count": 1
+    },
+    {
+      "name": "openclaw",
+      "count": 1
+    },
+    {
+      "name": "own-your-data",
+      "count": 1
+    },
+    {
+      "name": "personal",
+      "count": 1
+    },
+    {
       "name": "ai-scraping",
       "count": 1
     },
@@ -5168,30 +5192,6 @@
     },
     {
       "name": "xpath",
-      "count": 1
-    },
-    {
-      "name": "assistant",
-      "count": 1
-    },
-    {
-      "name": "crustacean",
-      "count": 1
-    },
-    {
-      "name": "molty",
-      "count": 1
-    },
-    {
-      "name": "openclaw",
-      "count": 1
-    },
-    {
-      "name": "own-your-data",
-      "count": 1
-    },
-    {
-      "name": "personal",
       "count": 1
     },
     {
@@ -5739,14 +5739,6 @@
       "count": 1
     },
     {
-      "name": "logger",
-      "count": 1
-    },
-    {
-      "name": "pino",
-      "count": 1
-    },
-    {
       "name": "d1-database",
       "count": 1
     },
@@ -5756,6 +5748,14 @@
     },
     {
       "name": "temporary-email",
+      "count": 1
+    },
+    {
+      "name": "logger",
+      "count": 1
+    },
+    {
+      "name": "pino",
       "count": 1
     },
     {
@@ -6983,10 +6983,6 @@
       "count": 1
     },
     {
-      "name": "typechecker",
-      "count": 1
-    },
-    {
       "name": "home-assistant",
       "count": 1
     },
@@ -7012,6 +7008,10 @@
     },
     {
       "name": "xiaomi-smart-home",
+      "count": 1
+    },
+    {
+      "name": "typechecker",
       "count": 1
     },
     {
@@ -9291,26 +9291,6 @@
       "count": 1
     },
     {
-      "name": "javbus",
-      "count": 1
-    },
-    {
-      "name": "javdb",
-      "count": 1
-    },
-    {
-      "name": "javhd",
-      "count": 1
-    },
-    {
-      "name": "javlibrary",
-      "count": 1
-    },
-    {
-      "name": "javporn",
-      "count": 1
-    },
-    {
       "name": "commit-hooks",
       "count": 1
     },
@@ -9396,6 +9376,26 @@
     },
     {
       "name": "protection",
+      "count": 1
+    },
+    {
+      "name": "javbus",
+      "count": 1
+    },
+    {
+      "name": "javdb",
+      "count": 1
+    },
+    {
+      "name": "javhd",
+      "count": 1
+    },
+    {
+      "name": "javlibrary",
+      "count": 1
+    },
+    {
+      "name": "javporn",
       "count": 1
     },
     {
@@ -10039,51 +10039,31 @@
       "count": 1
     },
     {
-      "name": "presentations",
+      "name": "enterprise",
       "count": 1
     },
     {
-      "name": "datajournalism",
+      "name": "federated",
       "count": 1
     },
     {
-      "name": "datawrangling",
+      "name": "file-sync",
       "count": 1
     },
     {
-      "name": "devops-tools",
+      "name": "owncloud",
       "count": 1
     },
     {
-      "name": "eda",
-      "count": 1
-    },
-    {
-      "name": "hdf5",
-      "count": 1
-    },
-    {
-      "name": "opendata",
-      "count": 1
-    },
-    {
-      "name": "pandas",
-      "count": 1
-    },
-    {
-      "name": "reconciliation",
-      "count": 1
-    },
-    {
-      "name": "tsv",
-      "count": 1
-    },
-    {
-      "name": "unix-toolkit",
+      "name": "owncloud-classic",
       "count": 1
     },
     {
       "name": "pi",
+      "count": 1
+    },
+    {
+      "name": "presentations",
       "count": 1
     },
     {
@@ -10152,6 +10132,46 @@
     },
     {
       "name": "uncensored",
+      "count": 1
+    },
+    {
+      "name": "datajournalism",
+      "count": 1
+    },
+    {
+      "name": "datawrangling",
+      "count": 1
+    },
+    {
+      "name": "devops-tools",
+      "count": 1
+    },
+    {
+      "name": "eda",
+      "count": 1
+    },
+    {
+      "name": "hdf5",
+      "count": 1
+    },
+    {
+      "name": "opendata",
+      "count": 1
+    },
+    {
+      "name": "pandas",
+      "count": 1
+    },
+    {
+      "name": "reconciliation",
+      "count": 1
+    },
+    {
+      "name": "tsv",
+      "count": 1
+    },
+    {
+      "name": "unix-toolkit",
       "count": 1
     },
     {
@@ -10279,30 +10299,6 @@
       "count": 1
     },
     {
-      "name": "enterprise",
-      "count": 1
-    },
-    {
-      "name": "federated",
-      "count": 1
-    },
-    {
-      "name": "file-sync",
-      "count": 1
-    },
-    {
-      "name": "owncloud",
-      "count": 1
-    },
-    {
-      "name": "owncloud-classic",
-      "count": 1
-    },
-    {
-      "name": "octokit",
-      "count": 1
-    },
-    {
       "name": "builder",
       "count": 1
     },
@@ -10312,6 +10308,10 @@
     },
     {
       "name": "visual",
+      "count": 1
+    },
+    {
+      "name": "octokit",
       "count": 1
     },
     {
@@ -10775,22 +10775,6 @@
       "count": 1
     },
     {
-      "name": "dotenvx",
-      "count": 1
-    },
-    {
-      "name": "end-to-end-encryption",
-      "count": 1
-    },
-    {
-      "name": "secrets-management",
-      "count": 1
-    },
-    {
-      "name": "winget",
-      "count": 1
-    },
-    {
       "name": "class-library",
       "count": 1
     },
@@ -10804,6 +10788,22 @@
     },
     {
       "name": "winforms",
+      "count": 1
+    },
+    {
+      "name": "dotenvx",
+      "count": 1
+    },
+    {
+      "name": "end-to-end-encryption",
+      "count": 1
+    },
+    {
+      "name": "secrets-management",
+      "count": 1
+    },
+    {
+      "name": "winget",
       "count": 1
     },
     {
@@ -11327,22 +11327,6 @@
       "count": 1
     },
     {
-      "name": "8bit",
-      "count": 1
-    },
-    {
-      "name": "gameengine",
-      "count": 1
-    },
-    {
-      "name": "tic-80",
-      "count": 1
-    },
-    {
-      "name": "tic80",
-      "count": 1
-    },
-    {
       "name": "pastel-colors",
       "count": 1
     },
@@ -11376,6 +11360,22 @@
     },
     {
       "name": "srgb",
+      "count": 1
+    },
+    {
+      "name": "8bit",
+      "count": 1
+    },
+    {
+      "name": "gameengine",
+      "count": 1
+    },
+    {
+      "name": "tic-80",
+      "count": 1
+    },
+    {
+      "name": "tic80",
       "count": 1
     },
     {
@@ -11623,14 +11623,6 @@
       "count": 1
     },
     {
-      "name": "gtk3",
-      "count": 1
-    },
-    {
-      "name": "vte",
-      "count": 1
-    },
-    {
       "name": "cdn-providers",
       "count": 1
     },
@@ -11656,6 +11648,14 @@
     },
     {
       "name": "traffic",
+      "count": 1
+    },
+    {
+      "name": "gtk3",
+      "count": 1
+    },
+    {
+      "name": "vte",
       "count": 1
     },
     {
@@ -13155,15 +13155,15 @@
       "count": 1
     },
     {
+      "name": "board",
+      "count": 1
+    },
+    {
       "name": "algorithms-and-data-structures",
       "count": 1
     },
     {
       "name": "tutorials",
-      "count": 1
-    },
-    {
-      "name": "board",
       "count": 1
     },
     {
@@ -13811,14 +13811,6 @@
       "count": 1
     },
     {
-      "name": "developertools",
-      "count": 1
-    },
-    {
-      "name": "microsoft-edge-browser",
-      "count": 1
-    },
-    {
       "name": "gifs",
       "count": 1
     },
@@ -13844,6 +13836,14 @@
     },
     {
       "name": "mosh",
+      "count": 1
+    },
+    {
+      "name": "developertools",
+      "count": 1
+    },
+    {
+      "name": "microsoft-edge-browser",
       "count": 1
     },
     {
