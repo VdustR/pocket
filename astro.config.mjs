@@ -3,7 +3,7 @@ import svelte from "@astrojs/svelte";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  site: "https://vdustr.dev",
+  site: "https://vdustr.github.io",
   base: "/pocket",
   integrations: [svelte()],
   vite: {

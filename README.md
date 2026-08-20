@@ -4,7 +4,7 @@
 
 A curated collection of my GitHub starred repositories — searchable, filterable, and beautifully organized.
 
-**[Live Demo →](https://vdustr.dev/pocket)**
+**[Live Demo →](https://vdustr.github.io/pocket)**
 
 ## Features
 

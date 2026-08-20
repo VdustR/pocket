@@ -35,7 +35,7 @@ export async function GET(context: APIContext) {
   return rss({
     title: "ViPro's Pocket",
     description: "It's dangerous to go alone! Take this. Curated GitHub stars for your coding adventure.",
-    site: context.site || "https://vdustr.dev",
+    site: context.site || "https://vdustr.github.io",
     items: sortedRepos.map((repo) => ({
       title: repo.fullName,
       pubDate: new Date(repo.starredAt),
