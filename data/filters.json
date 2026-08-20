@@ -2,7 +2,7 @@
   "languages": [
     {
       "name": "TypeScript",
-      "count": 607
+      "count": 606
     },
     {
       "name": "JavaScript",
@@ -14,7 +14,7 @@
     },
     {
       "name": "Go",
-      "count": 66
+      "count": 67
     },
     {
       "name": "C++",
@@ -1263,6 +1263,10 @@
       "count": 5
     },
     {
+      "name": "lua",
+      "count": 5
+    },
+    {
       "name": "rust-lang",
       "count": 5
     },
@@ -1288,10 +1292,6 @@
     },
     {
       "name": "vim",
-      "count": 5
-    },
-    {
-      "name": "lua",
       "count": 5
     },
     {
@@ -1527,19 +1527,19 @@
       "count": 4
     },
     {
-      "name": "file-manager",
-      "count": 4
-    },
-    {
-      "name": "terminal-based",
-      "count": 4
-    },
-    {
       "name": "dependencies",
       "count": 4
     },
     {
       "name": "gitlab",
+      "count": 4
+    },
+    {
+      "name": "file-manager",
+      "count": 4
+    },
+    {
+      "name": "terminal-based",
       "count": 4
     },
     {
@@ -2495,11 +2495,11 @@
       "count": 3
     },
     {
-      "name": "logos",
+      "name": "pwa",
       "count": 3
     },
     {
-      "name": "pwa",
+      "name": "logos",
       "count": 3
     },
     {
@@ -2671,11 +2671,11 @@
       "count": 3
     },
     {
-      "name": "buffer",
+      "name": "truetype",
       "count": 3
     },
     {
-      "name": "truetype",
+      "name": "buffer",
       "count": 3
     },
     {
@@ -2911,15 +2911,15 @@
       "count": 2
     },
     {
+      "name": "linting",
+      "count": 2
+    },
+    {
       "name": "google-drive",
       "count": 2
     },
     {
       "name": "google-sheets",
-      "count": 2
-    },
-    {
-      "name": "linting",
       "count": 2
     },
     {
@@ -3279,19 +3279,19 @@
       "count": 2
     },
     {
-      "name": "linux-app",
-      "count": 2
-    },
-    {
-      "name": "terminal-app",
-      "count": 2
-    },
-    {
       "name": "bitbucket",
       "count": 2
     },
     {
       "name": "dependency-manager",
+      "count": 2
+    },
+    {
+      "name": "linux-app",
+      "count": 2
+    },
+    {
+      "name": "terminal-app",
       "count": 2
     },
     {
@@ -3324,6 +3324,14 @@
     },
     {
       "name": "sqlite",
+      "count": 2
+    },
+    {
+      "name": "love2d",
+      "count": 2
+    },
+    {
+      "name": "luajit",
       "count": 2
     },
     {
@@ -3435,14 +3443,6 @@
       "count": 2
     },
     {
-      "name": "love2d",
-      "count": 2
-    },
-    {
-      "name": "luajit",
-      "count": 2
-    },
-    {
       "name": "mysql",
       "count": 2
     },
@@ -3495,14 +3495,6 @@
       "count": 2
     },
     {
-      "name": "algorithms",
-      "count": 2
-    },
-    {
-      "name": "interview",
-      "count": 2
-    },
-    {
       "name": "note-taking",
       "count": 2
     },
@@ -3512,6 +3504,14 @@
     },
     {
       "name": "code-editor",
+      "count": 2
+    },
+    {
+      "name": "algorithms",
+      "count": 2
+    },
+    {
+      "name": "interview",
       "count": 2
     },
     {
@@ -4003,18 +4003,6 @@
       "count": 2
     },
     {
-      "name": "icon-pack",
-      "count": 2
-    },
-    {
-      "name": "logo",
-      "count": 2
-    },
-    {
-      "name": "svg-images",
-      "count": 2
-    },
-    {
       "name": "edge-extension",
       "count": 2
     },
@@ -4035,11 +4023,23 @@
       "count": 2
     },
     {
-      "name": "chrome-extensions",
+      "name": "icon-pack",
+      "count": 2
+    },
+    {
+      "name": "logo",
+      "count": 2
+    },
+    {
+      "name": "svg-images",
       "count": 2
     },
     {
       "name": "eslintplugin",
+      "count": 2
+    },
+    {
+      "name": "chrome-extensions",
       "count": 2
     },
     {
@@ -4060,14 +4060,6 @@
     },
     {
       "name": "command-line-interface",
-      "count": 2
-    },
-    {
-      "name": "monitor",
-      "count": 2
-    },
-    {
-      "name": "process-manager",
       "count": 2
     },
     {
@@ -4095,15 +4087,19 @@
       "count": 2
     },
     {
+      "name": "monitor",
+      "count": 2
+    },
+    {
+      "name": "process-manager",
+      "count": 2
+    },
+    {
       "name": "fullstack",
       "count": 2
     },
     {
       "name": "searchparams",
-      "count": 2
-    },
-    {
-      "name": "rolldown",
       "count": 2
     },
     {
@@ -4116,6 +4112,10 @@
     },
     {
       "name": "developer-experience",
+      "count": 2
+    },
+    {
+      "name": "rolldown",
       "count": 2
     },
     {
@@ -4283,6 +4283,10 @@
       "count": 2
     },
     {
+      "name": "prompts",
+      "count": 2
+    },
+    {
       "name": "acknowledgements",
       "count": 2
     },
@@ -4307,23 +4311,11 @@
       "count": 2
     },
     {
-      "name": "prompts",
-      "count": 2
-    },
-    {
       "name": "cpp20",
       "count": 2
     },
     {
       "name": "reimplementation",
-      "count": 2
-    },
-    {
-      "name": "codimd",
-      "count": 2
-    },
-    {
-      "name": "hackmd",
       "count": 2
     },
     {
@@ -4336,6 +4328,14 @@
     },
     {
       "name": "accessible",
+      "count": 2
+    },
+    {
+      "name": "codimd",
+      "count": 2
+    },
+    {
+      "name": "hackmd",
       "count": 2
     },
     {
@@ -4459,11 +4459,11 @@
       "count": 2
     },
     {
-      "name": "colorfont",
+      "name": "iconsets",
       "count": 2
     },
     {
-      "name": "iconsets",
+      "name": "colorfont",
       "count": 2
     },
     {
@@ -4627,10 +4627,6 @@
       "count": 2
     },
     {
-      "name": "visualisation",
-      "count": 2
-    },
-    {
       "name": "promises",
       "count": 2
     },
@@ -4640,6 +4636,10 @@
     },
     {
       "name": "focus-trap",
+      "count": 2
+    },
+    {
+      "name": "visualisation",
       "count": 2
     },
     {
@@ -5391,6 +5391,10 @@
       "count": 1
     },
     {
+      "name": "oxlint",
+      "count": 1
+    },
+    {
       "name": "discovery-api",
       "count": 1
     },
@@ -5420,10 +5424,6 @@
     },
     {
       "name": "google-workspace",
-      "count": 1
-    },
-    {
-      "name": "oxlint",
       "count": 1
     },
     {
@@ -6575,10 +6575,6 @@
       "count": 1
     },
     {
-      "name": "bubbletea",
-      "count": 1
-    },
-    {
       "name": "azure-devops",
       "count": 1
     },
@@ -6588,6 +6584,10 @@
     },
     {
       "name": "package-management",
+      "count": 1
+    },
+    {
+      "name": "bubbletea",
       "count": 1
     },
     {
@@ -6659,19 +6659,19 @@
       "count": 1
     },
     {
-      "name": "claude-ai",
-      "count": 1
-    },
-    {
-      "name": "claude-desktop",
-      "count": 1
-    },
-    {
       "name": "nonsense",
       "count": 1
     },
     {
       "name": "useless",
+      "count": 1
+    },
+    {
+      "name": "claude-ai",
+      "count": 1
+    },
+    {
+      "name": "claude-desktop",
       "count": 1
     },
     {
@@ -7003,6 +7003,22 @@
       "count": 1
     },
     {
+      "name": "gpui",
+      "count": 1
+    },
+    {
+      "name": "zed",
+      "count": 1
+    },
+    {
+      "name": "typechecker",
+      "count": 1
+    },
+    {
+      "name": "template",
+      "count": 1
+    },
+    {
       "name": "home-assistant",
       "count": 1
     },
@@ -7028,22 +7044,6 @@
     },
     {
       "name": "xiaomi-smart-home",
-      "count": 1
-    },
-    {
-      "name": "gpui",
-      "count": 1
-    },
-    {
-      "name": "zed",
-      "count": 1
-    },
-    {
-      "name": "typechecker",
-      "count": 1
-    },
-    {
-      "name": "template",
       "count": 1
     },
     {
@@ -7203,14 +7203,6 @@
       "count": 1
     },
     {
-      "name": "lefthook",
-      "count": 1
-    },
-    {
-      "name": "manager",
-      "count": 1
-    },
-    {
       "name": "rules",
       "count": 1
     },
@@ -7224,6 +7216,14 @@
     },
     {
       "name": "sketch-ui",
+      "count": 1
+    },
+    {
+      "name": "lefthook",
+      "count": 1
+    },
+    {
+      "name": "manager",
       "count": 1
     },
     {
@@ -7343,22 +7343,6 @@
       "count": 1
     },
     {
-      "name": "algorithm",
-      "count": 1
-    },
-    {
-      "name": "data-structures",
-      "count": 1
-    },
-    {
-      "name": "interview-preparation",
-      "count": 1
-    },
-    {
-      "name": "javascript-algorithms",
-      "count": 1
-    },
-    {
       "name": "enex-files",
       "count": 1
     },
@@ -7404,6 +7388,22 @@
     },
     {
       "name": "no-electron",
+      "count": 1
+    },
+    {
+      "name": "algorithm",
+      "count": 1
+    },
+    {
+      "name": "data-structures",
+      "count": 1
+    },
+    {
+      "name": "interview-preparation",
+      "count": 1
+    },
+    {
+      "name": "javascript-algorithms",
       "count": 1
     },
     {
@@ -8019,6 +8019,18 @@
       "count": 1
     },
     {
+      "name": "neovim-guis",
+      "count": 1
+    },
+    {
+      "name": "github-extension",
+      "count": 1
+    },
+    {
+      "name": "userstyle",
+      "count": 1
+    },
+    {
       "name": "javascript-linter",
       "count": 1
     },
@@ -8036,18 +8048,6 @@
     },
     {
       "name": "typescript-linting",
-      "count": 1
-    },
-    {
-      "name": "neovim-guis",
-      "count": 1
-    },
-    {
-      "name": "github-extension",
-      "count": 1
-    },
-    {
-      "name": "userstyle",
       "count": 1
     },
     {
@@ -8627,14 +8627,6 @@
       "count": 1
     },
     {
-      "name": "badge",
-      "count": 1
-    },
-    {
-      "name": "badge-maker",
-      "count": 1
-    },
-    {
       "name": "image-viewer",
       "count": 1
     },
@@ -8643,7 +8635,11 @@
       "count": 1
     },
     {
-      "name": "csv-parser",
+      "name": "badge",
+      "count": 1
+    },
+    {
+      "name": "badge-maker",
       "count": 1
     },
     {
@@ -8656,6 +8652,10 @@
     },
     {
       "name": "violentmonkey",
+      "count": 1
+    },
+    {
+      "name": "csv-parser",
       "count": 1
     },
     {
@@ -8975,50 +8975,6 @@
       "count": 1
     },
     {
-      "name": "brand",
-      "count": 1
-    },
-    {
-      "name": "brand-assets",
-      "count": 1
-    },
-    {
-      "name": "brand-colors",
-      "count": 1
-    },
-    {
-      "name": "branding",
-      "count": 1
-    },
-    {
-      "name": "branding-assets",
-      "count": 1
-    },
-    {
-      "name": "brands",
-      "count": 1
-    },
-    {
-      "name": "company-brands",
-      "count": 1
-    },
-    {
-      "name": "design-assets",
-      "count": 1
-    },
-    {
-      "name": "icon-packs",
-      "count": 1
-    },
-    {
-      "name": "iconset",
-      "count": 1
-    },
-    {
-      "name": "svg-files",
-      "count": 1
-    },
-    {
       "name": "ai-news",
       "count": 1
     },
@@ -9111,11 +9067,55 @@
       "count": 1
     },
     {
-      "name": "wxt",
+      "name": "brand",
+      "count": 1
+    },
+    {
+      "name": "brand-assets",
+      "count": 1
+    },
+    {
+      "name": "brand-colors",
+      "count": 1
+    },
+    {
+      "name": "branding",
+      "count": 1
+    },
+    {
+      "name": "branding-assets",
+      "count": 1
+    },
+    {
+      "name": "brands",
+      "count": 1
+    },
+    {
+      "name": "company-brands",
+      "count": 1
+    },
+    {
+      "name": "design-assets",
+      "count": 1
+    },
+    {
+      "name": "icon-packs",
+      "count": 1
+    },
+    {
+      "name": "iconset",
+      "count": 1
+    },
+    {
+      "name": "svg-files",
       "count": 1
     },
     {
       "name": "tslint",
+      "count": 1
+    },
+    {
+      "name": "wxt",
       "count": 1
     },
     {
@@ -9223,6 +9223,42 @@
       "count": 1
     },
     {
+      "name": "apparmor",
+      "count": 1
+    },
+    {
+      "name": "minify-images",
+      "count": 1
+    },
+    {
+      "name": "seccomp-profile",
+      "count": 1
+    },
+    {
+      "name": "slim",
+      "count": 1
+    },
+    {
+      "name": "ls",
+      "count": 1
+    },
+    {
+      "name": "clustering",
+      "count": 1
+    },
+    {
+      "name": "dependency-injection",
+      "count": 1
+    },
+    {
+      "name": "error-handling",
+      "count": 1
+    },
+    {
+      "name": "opentelemetry",
+      "count": 1
+    },
+    {
       "name": "administrator",
       "count": 1
     },
@@ -9264,42 +9300,6 @@
     },
     {
       "name": "task-manager",
-      "count": 1
-    },
-    {
-      "name": "apparmor",
-      "count": 1
-    },
-    {
-      "name": "minify-images",
-      "count": 1
-    },
-    {
-      "name": "seccomp-profile",
-      "count": 1
-    },
-    {
-      "name": "slim",
-      "count": 1
-    },
-    {
-      "name": "ls",
-      "count": 1
-    },
-    {
-      "name": "clustering",
-      "count": 1
-    },
-    {
-      "name": "dependency-injection",
-      "count": 1
-    },
-    {
-      "name": "error-handling",
-      "count": 1
-    },
-    {
-      "name": "opentelemetry",
       "count": 1
     },
     {
@@ -9355,14 +9355,6 @@
       "count": 1
     },
     {
-      "name": "oxc",
-      "count": 1
-    },
-    {
-      "name": "graphs",
-      "count": 1
-    },
-    {
       "name": "control-flow",
       "count": 1
     },
@@ -9411,6 +9403,10 @@
       "count": 1
     },
     {
+      "name": "oxc",
+      "count": 1
+    },
+    {
       "name": "javbus",
       "count": 1
     },
@@ -9444,6 +9440,10 @@
     },
     {
       "name": "semantic-versioning",
+      "count": 1
+    },
+    {
+      "name": "graphs",
       "count": 1
     },
     {
@@ -10211,6 +10211,10 @@
       "count": 1
     },
     {
+      "name": "command-line-app",
+      "count": 1
+    },
+    {
       "name": "cropper",
       "count": 1
     },
@@ -10255,10 +10259,6 @@
       "count": 1
     },
     {
-      "name": "command-line-app",
-      "count": 1
-    },
-    {
       "name": "game-2d",
       "count": 1
     },
@@ -10272,10 +10272,6 @@
     },
     {
       "name": "uwp",
-      "count": 1
-    },
-    {
-      "name": "hedgedoc",
       "count": 1
     },
     {
@@ -10316,6 +10312,10 @@
     },
     {
       "name": "odometer",
+      "count": 1
+    },
+    {
+      "name": "hedgedoc",
       "count": 1
     },
     {
@@ -10363,14 +10363,6 @@
       "count": 1
     },
     {
-      "name": "cli-tool",
-      "count": 1
-    },
-    {
-      "name": "updates",
-      "count": 1
-    },
-    {
       "name": "computational-linguistics",
       "count": 1
     },
@@ -10396,6 +10388,14 @@
     },
     {
       "name": "typescript-types",
+      "count": 1
+    },
+    {
+      "name": "cli-tool",
+      "count": 1
+    },
+    {
+      "name": "updates",
       "count": 1
     },
     {
@@ -10431,6 +10431,18 @@
       "count": 1
     },
     {
+      "name": "glyph-fonts",
+      "count": 1
+    },
+    {
+      "name": "svg-framework",
+      "count": 1
+    },
+    {
+      "name": "vector-icons",
+      "count": 1
+    },
+    {
       "name": "design-tokens",
       "count": 1
     },
@@ -10451,18 +10463,6 @@
       "count": 1
     },
     {
-      "name": "glyph-fonts",
-      "count": 1
-    },
-    {
-      "name": "svg-framework",
-      "count": 1
-    },
-    {
-      "name": "vector-icons",
-      "count": 1
-    },
-    {
       "name": "path-to-regexp",
       "count": 1
     },
@@ -10471,15 +10471,15 @@
       "count": 1
     },
     {
+      "name": "codesandbox",
+      "count": 1
+    },
+    {
       "name": "benchmark",
       "count": 1
     },
     {
       "name": "light-weight",
-      "count": 1
-    },
-    {
-      "name": "codesandbox",
       "count": 1
     },
     {
@@ -10899,6 +10899,22 @@
       "count": 1
     },
     {
+      "name": "code-generation",
+      "count": 1
+    },
+    {
+      "name": "glyphs",
+      "count": 1
+    },
+    {
+      "name": "kerning",
+      "count": 1
+    },
+    {
+      "name": "opentypejs",
+      "count": 1
+    },
+    {
       "name": "detect",
       "count": 1
     },
@@ -10919,31 +10935,15 @@
       "count": 1
     },
     {
-      "name": "code-generation",
-      "count": 1
-    },
-    {
-      "name": "glyphs",
-      "count": 1
-    },
-    {
-      "name": "kerning",
-      "count": 1
-    },
-    {
-      "name": "opentypejs",
-      "count": 1
-    },
-    {
-      "name": "openmoji",
-      "count": 1
-    },
-    {
       "name": "icon-collections",
       "count": 1
     },
     {
       "name": "searching",
+      "count": 1
+    },
+    {
+      "name": "openmoji",
       "count": 1
     },
     {
@@ -11279,10 +11279,6 @@
       "count": 1
     },
     {
-      "name": "disable-devtool",
-      "count": 1
-    },
-    {
       "name": "pull-requests",
       "count": 1
     },
@@ -11315,6 +11311,10 @@
       "count": 1
     },
     {
+      "name": "disable-devtool",
+      "count": 1
+    },
+    {
       "name": "async-queue",
       "count": 1
     },
@@ -11328,6 +11328,30 @@
     },
     {
       "name": "pastel-colors",
+      "count": 1
+    },
+    {
+      "name": "8bit",
+      "count": 1
+    },
+    {
+      "name": "gameengine",
+      "count": 1
+    },
+    {
+      "name": "tic-80",
+      "count": 1
+    },
+    {
+      "name": "tic80",
+      "count": 1
+    },
+    {
+      "name": "chart",
+      "count": 1
+    },
+    {
+      "name": "rollup-plugin-visualizer",
       "count": 1
     },
     {
@@ -11360,30 +11384,6 @@
     },
     {
       "name": "srgb",
-      "count": 1
-    },
-    {
-      "name": "8bit",
-      "count": 1
-    },
-    {
-      "name": "gameengine",
-      "count": 1
-    },
-    {
-      "name": "tic-80",
-      "count": 1
-    },
-    {
-      "name": "tic80",
-      "count": 1
-    },
-    {
-      "name": "chart",
-      "count": 1
-    },
-    {
-      "name": "rollup-plugin-visualizer",
       "count": 1
     },
     {
@@ -11839,42 +11839,6 @@
       "count": 1
     },
     {
-      "name": "3ds",
-      "count": 1
-    },
-    {
-      "name": "a9lh",
-      "count": 1
-    },
-    {
-      "name": "cia",
-      "count": 1
-    },
-    {
-      "name": "file-explorer",
-      "count": 1
-    },
-    {
-      "name": "god-mode",
-      "count": 1
-    },
-    {
-      "name": "nand",
-      "count": 1
-    },
-    {
-      "name": "ncch",
-      "count": 1
-    },
-    {
-      "name": "sd-card",
-      "count": 1
-    },
-    {
-      "name": "sysnand",
-      "count": 1
-    },
-    {
       "name": "browserfs",
       "count": 1
     },
@@ -11911,6 +11875,42 @@
       "count": 1
     },
     {
+      "name": "3ds",
+      "count": 1
+    },
+    {
+      "name": "a9lh",
+      "count": 1
+    },
+    {
+      "name": "cia",
+      "count": 1
+    },
+    {
+      "name": "file-explorer",
+      "count": 1
+    },
+    {
+      "name": "god-mode",
+      "count": 1
+    },
+    {
+      "name": "nand",
+      "count": 1
+    },
+    {
+      "name": "ncch",
+      "count": 1
+    },
+    {
+      "name": "sd-card",
+      "count": 1
+    },
+    {
+      "name": "sysnand",
+      "count": 1
+    },
+    {
       "name": "chroma",
       "count": 1
     },
@@ -11927,6 +11927,14 @@
       "count": 1
     },
     {
+      "name": "nexus-repository",
+      "count": 1
+    },
+    {
+      "name": "eslint-stylistic",
+      "count": 1
+    },
+    {
       "name": "capnproto",
       "count": 1
     },
@@ -11936,14 +11944,6 @@
     },
     {
       "name": "sandstorm",
-      "count": 1
-    },
-    {
-      "name": "nexus-repository",
-      "count": 1
-    },
-    {
-      "name": "eslint-stylistic",
       "count": 1
     },
     {
@@ -12027,34 +12027,6 @@
       "count": 1
     },
     {
-      "name": "conversion",
-      "count": 1
-    },
-    {
-      "name": "image-optimization",
-      "count": 1
-    },
-    {
-      "name": "png-compression",
-      "count": 1
-    },
-    {
-      "name": "pngquant",
-      "count": 1
-    },
-    {
-      "name": "quantization",
-      "count": 1
-    },
-    {
-      "name": "smaller",
-      "count": 1
-    },
-    {
-      "name": "stdin",
-      "count": 1
-    },
-    {
       "name": "language-server",
       "count": 1
     },
@@ -12116,6 +12088,34 @@
     },
     {
       "name": "headlessui",
+      "count": 1
+    },
+    {
+      "name": "conversion",
+      "count": 1
+    },
+    {
+      "name": "image-optimization",
+      "count": 1
+    },
+    {
+      "name": "png-compression",
+      "count": 1
+    },
+    {
+      "name": "pngquant",
+      "count": 1
+    },
+    {
+      "name": "quantization",
+      "count": 1
+    },
+    {
+      "name": "smaller",
+      "count": 1
+    },
+    {
+      "name": "stdin",
       "count": 1
     },
     {
@@ -12535,14 +12535,6 @@
       "count": 1
     },
     {
-      "name": "ascii-art",
-      "count": 1
-    },
-    {
-      "name": "visual-effects",
-      "count": 1
-    },
-    {
       "name": "promise-utilities",
       "count": 1
     },
@@ -12556,6 +12548,14 @@
     },
     {
       "name": "tappable",
+      "count": 1
+    },
+    {
+      "name": "ascii-art",
+      "count": 1
+    },
+    {
+      "name": "visual-effects",
       "count": 1
     },
     {
@@ -12635,11 +12635,11 @@
       "count": 1
     },
     {
-      "name": "std",
+      "name": "focusable",
       "count": 1
     },
     {
-      "name": "focusable",
+      "name": "std",
       "count": 1
     },
     {
@@ -13571,14 +13571,6 @@
       "count": 1
     },
     {
-      "name": "noto",
-      "count": 1
-    },
-    {
-      "name": "taipei",
-      "count": 1
-    },
-    {
       "name": "blend-modes",
       "count": 1
     },
@@ -13588,6 +13580,14 @@
     },
     {
       "name": "holographic",
+      "count": 1
+    },
+    {
+      "name": "noto",
+      "count": 1
+    },
+    {
+      "name": "taipei",
       "count": 1
     },
     {
@@ -13811,6 +13811,14 @@
       "count": 1
     },
     {
+      "name": "developertools",
+      "count": 1
+    },
+    {
+      "name": "microsoft-edge-browser",
+      "count": 1
+    },
+    {
       "name": "gifs",
       "count": 1
     },
@@ -13836,14 +13844,6 @@
     },
     {
       "name": "mosh",
-      "count": 1
-    },
-    {
-      "name": "developertools",
-      "count": 1
-    },
-    {
-      "name": "microsoft-edge-browser",
       "count": 1
     },
     {
@@ -14171,14 +14171,6 @@
       "count": 1
     },
     {
-      "name": "devilution",
-      "count": 1
-    },
-    {
-      "name": "hellfire",
-      "count": 1
-    },
-    {
       "name": "filter-list",
       "count": 1
     },
@@ -14200,6 +14192,14 @@
     },
     {
       "name": "typeahead-search",
+      "count": 1
+    },
+    {
+      "name": "devilution",
+      "count": 1
+    },
+    {
+      "name": "hellfire",
       "count": 1
     },
     {
@@ -14383,14 +14383,6 @@
       "count": 1
     },
     {
-      "name": "fontmake",
-      "count": 1
-    },
-    {
-      "name": "type-design",
-      "count": 1
-    },
-    {
       "name": "expo",
       "count": 1
     },
@@ -14407,15 +14399,15 @@
       "count": 1
     },
     {
+      "name": "fontmake",
+      "count": 1
+    },
+    {
+      "name": "type-design",
+      "count": 1
+    },
+    {
       "name": "zip",
-      "count": 1
-    },
-    {
-      "name": "hooks-api-react",
-      "count": 1
-    },
-    {
-      "name": "reactdom",
       "count": 1
     },
     {
@@ -14432,6 +14424,14 @@
     },
     {
       "name": "replay",
+      "count": 1
+    },
+    {
+      "name": "hooks-api-react",
+      "count": 1
+    },
+    {
+      "name": "reactdom",
       "count": 1
     },
     {
