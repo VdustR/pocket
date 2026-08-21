@@ -1,6 +1,6 @@
 {
   "totalRepos": 1646,
-  "totalStars": 28283145,
+  "totalStars": 28283990,
   "languageDistribution": {
     "TypeScript": 605,
     "C": 37,
@@ -8,8 +8,8 @@
     "Python": 91,
     "Swift": 15,
     "Rust": 59,
-    "Batchfile": 1,
     "Shell": 34,
+    "Batchfile": 1,
     "JavaScript": 361,
     "Java": 10,
     "Zig": 2,
@@ -66,9 +66,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 180242,
-      "forks": 19679,
-      "watchers": 180242,
+      "stars": 180429,
+      "forks": 19707,
+      "watchers": 180429,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -78,7 +78,7 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-08-21T16:36:58Z",
+      "updatedAt": "2026-08-21T17:30:39Z",
       "pushedAt": "2026-08-21T12:35:08Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9967123287671232
@@ -116,9 +116,9 @@
       "fullName": "binwiederhier/ntfy",
       "description": "Send push notifications to your phone or desktop using PUT/POST",
       "homepage": "https://ntfy.sh",
-      "stars": 33658,
+      "stars": 33660,
       "forks": 1556,
-      "watchers": 33658,
+      "watchers": 33660,
       "openIssues": 363,
       "language": "Go",
       "topics": [
@@ -131,10 +131,10 @@
         "rest-api"
       ],
       "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-08-21T15:14:57Z",
+      "updatedAt": "2026-08-21T16:47:37Z",
       "pushedAt": "2026-08-20T14:18:56Z",
       "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.952716041930049
+      "score": 0.9527181063126136
     },
     {
       "owner": "NousResearch",
@@ -142,10 +142,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 233873,
-      "forks": 46929,
-      "watchers": 233873,
-      "openIssues": 34257,
+      "stars": 233894,
+      "forks": 46938,
+      "watchers": 233894,
+      "openIssues": 34239,
       "language": "Python",
       "topics": [
         "ai",
@@ -163,8 +163,8 @@
         "openai"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-08-21T16:33:01Z",
-      "pushedAt": "2026-08-21T16:23:12Z",
+      "updatedAt": "2026-08-21T17:29:23Z",
+      "pushedAt": "2026-08-21T17:28:49Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9515068493150685
     },
@@ -174,10 +174,10 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 90083,
-      "forks": 10385,
-      "watchers": 90083,
-      "openIssues": 811,
+      "stars": 90092,
+      "forks": 10387,
+      "watchers": 90092,
+      "openIssues": 809,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -202,10 +202,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-08-21T16:30:00Z",
-      "pushedAt": "2026-08-21T15:44:36Z",
+      "updatedAt": "2026-08-21T17:30:52Z",
+      "pushedAt": "2026-08-21T16:54:40Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9495224978846277
+      "score": 0.949525968827392
     },
     {
       "owner": "apple",
@@ -213,17 +213,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 49185,
+      "stars": 49184,
       "forks": 1732,
-      "watchers": 49185,
+      "watchers": 49184,
       "openIssues": 490,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-08-21T16:32:52Z",
+      "updatedAt": "2026-08-21T16:44:17Z",
       "pushedAt": "2026-08-20T22:41:02Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9486349916689503
+      "score": 0.9486342852908805
     },
     {
       "owner": "caddyserver",
@@ -278,14 +278,32 @@
       "score": 0.9373750288429646
     },
     {
+      "owner": "mattpocock",
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "homepage": "https://aihero.dev/skills",
+      "stars": 228858,
+      "forks": 19574,
+      "watchers": 228858,
+      "openIssues": 374,
+      "language": "Shell",
+      "topics": [],
+      "createdAt": "2026-02-03T11:15:53Z",
+      "updatedAt": "2026-08-21T17:29:40Z",
+      "pushedAt": "2026-08-21T10:56:48Z",
+      "starredAt": "2026-03-18T06:37:36Z",
+      "score": 0.935890410958904
+    },
+    {
       "owner": "massgravel",
       "name": "Microsoft-Activation-Scripts",
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 187795,
+      "stars": 187801,
       "forks": 17952,
-      "watchers": 187795,
+      "watchers": 187801,
       "openIssues": 8,
       "language": "Batchfile",
       "topics": [
@@ -307,28 +325,10 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-08-21T16:30:17Z",
+      "updatedAt": "2026-08-21T17:23:58Z",
       "pushedAt": "2026-07-04T16:54:38Z",
       "starredAt": "2026-06-20T21:47:10Z",
-      "score": 0.9363013698630136
-    },
-    {
-      "owner": "mattpocock",
-      "name": "skills",
-      "fullName": "mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "homepage": "https://aihero.dev/skills",
-      "stars": 228762,
-      "forks": 19566,
-      "watchers": 228762,
-      "openIssues": 374,
-      "language": "Shell",
-      "topics": [],
-      "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-08-21T16:36:53Z",
-      "pushedAt": "2026-08-21T10:56:48Z",
-      "starredAt": "2026-03-18T06:37:36Z",
-      "score": 0.935890410958904
+      "score": 0.9354794520547944
     }
   ],
   "recentlyStarred": [
@@ -338,9 +338,9 @@
       "fullName": "dmmulroy/anti-slop",
       "description": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
       "homepage": "",
-      "stars": 3263,
+      "stars": 3272,
       "forks": 62,
-      "watchers": 3263,
+      "watchers": 3272,
       "openIssues": 15,
       "language": "TypeScript",
       "topics": [
@@ -350,10 +350,10 @@
         "typescript"
       ],
       "createdAt": "2026-08-12T13:48:50Z",
-      "updatedAt": "2026-08-21T16:31:06Z",
+      "updatedAt": "2026-08-21T17:30:36Z",
       "pushedAt": "2026-08-18T13:21:06Z",
       "starredAt": "2026-08-18T17:05:13Z",
-      "score": 0.8778123407736691
+      "score": 0.877497050287654
     },
     {
       "owner": "cordiverse",
@@ -361,9 +361,9 @@
       "fullName": "cordiverse/cordis",
       "description": "Meta-Framework of Spatiotemporal Composability",
       "homepage": "https://deepseek-harness.github.io/deepseek-harness/reference/cordis-primer",
-      "stars": 6900,
-      "forks": 396,
-      "watchers": 6900,
+      "stars": 6904,
+      "forks": 399,
+      "watchers": 6904,
       "openIssues": 52,
       "language": "TypeScript",
       "topics": [
@@ -373,10 +373,10 @@
         "plugin"
       ],
       "createdAt": "2022-05-17T18:52:57Z",
-      "updatedAt": "2026-08-21T15:46:13Z",
+      "updatedAt": "2026-08-21T17:30:50Z",
       "pushedAt": "2026-08-21T07:31:48Z",
       "starredAt": "2026-08-13T15:47:23Z",
-      "score": 0.9038252909596032
+      "score": 0.9038454234002954
     },
     {
       "owner": "deepseek-ai",
@@ -384,9 +384,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 180242,
-      "forks": 19679,
-      "watchers": 180242,
+      "stars": 180429,
+      "forks": 19707,
+      "watchers": 180429,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -396,7 +396,7 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-08-21T16:36:58Z",
+      "updatedAt": "2026-08-21T17:30:39Z",
       "pushedAt": "2026-08-21T12:35:08Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9967123287671232
@@ -521,7 +521,7 @@
       "updatedAt": "2026-08-21T07:25:44Z",
       "pushedAt": "2026-06-26T12:34:27Z",
       "starredAt": "2026-08-05T17:03:31Z",
-      "score": 0.7953099616979806
+      "score": 0.7948990027938709
     },
     {
       "owner": "mmatyas",
@@ -558,9 +558,9 @@
       "fullName": "inbucket/inbucket",
       "description": "Disposable webmail server (similar to Mailinator) with built in SMTP, POP3, RESTful servers; no DB required.",
       "homepage": "https://inbucket.org/",
-      "stars": 2256,
+      "stars": 2257,
       "forks": 220,
-      "watchers": 2256,
+      "watchers": 2257,
       "openIssues": 37,
       "language": "Go",
       "topics": [
@@ -579,10 +579,10 @@
         "windows"
       ],
       "createdAt": "2012-10-06T23:09:56Z",
-      "updatedAt": "2026-08-21T15:57:48Z",
+      "updatedAt": "2026-08-21T17:13:24Z",
       "pushedAt": "2026-04-02T07:14:36Z",
       "starredAt": "2026-08-03T03:36:19Z",
-      "score": 0.7449948534933443
+      "score": 0.7450102437742392
     }
   ]
 }
