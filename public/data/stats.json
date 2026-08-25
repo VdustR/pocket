@@ -1,11 +1,11 @@
 {
   "totalRepos": 1647,
-  "totalStars": 28363762,
+  "totalStars": 28364150,
   "languageDistribution": {
     "TypeScript": 605,
     "C": 37,
-    "Python": 91,
     "Go": 68,
+    "Python": 91,
     "Swift": 15,
     "Rust": 59,
     "Shell": 34,
@@ -66,9 +66,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 195119,
-      "forks": 22026,
-      "watchers": 195119,
+      "stars": 195155,
+      "forks": 22036,
+      "watchers": 195155,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -78,7 +78,7 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-08-25T21:28:09Z",
+      "updatedAt": "2026-08-25T22:29:00Z",
       "pushedAt": "2026-08-21T12:35:08Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9917808219178081
@@ -105,10 +105,36 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-08-25T20:49:02Z",
+      "updatedAt": "2026-08-25T22:26:26Z",
       "pushedAt": "2026-08-17T10:27:07Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9552054794520548
+    },
+    {
+      "owner": "binwiederhier",
+      "name": "ntfy",
+      "fullName": "binwiederhier/ntfy",
+      "description": "Send push notifications to your phone or desktop using PUT/POST",
+      "homepage": "https://ntfy.sh",
+      "stars": 33755,
+      "forks": 1565,
+      "watchers": 33755,
+      "openIssues": 370,
+      "language": "Go",
+      "topics": [
+        "curl",
+        "notifications",
+        "ntfy",
+        "ntfysh",
+        "pubsub",
+        "push-notifications",
+        "rest-api"
+      ],
+      "createdAt": "2021-10-23T19:25:32Z",
+      "updatedAt": "2026-08-25T22:22:31Z",
+      "pushedAt": "2026-08-25T21:43:31Z",
+      "starredAt": "2026-07-31T01:58:32Z",
+      "score": 0.9519941056542863
     },
     {
       "owner": "NousResearch",
@@ -116,10 +142,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 236374,
-      "forks": 47722,
-      "watchers": 236374,
-      "openIssues": 35929,
+      "stars": 236388,
+      "forks": 47728,
+      "watchers": 236388,
+      "openIssues": 35953,
       "language": "Python",
       "topics": [
         "ai",
@@ -137,8 +163,8 @@
         "openai"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-08-25T21:23:25Z",
-      "pushedAt": "2026-08-25T21:27:30Z",
+      "updatedAt": "2026-08-25T22:24:29Z",
+      "pushedAt": "2026-08-25T22:29:38Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9498630136986301
     },
@@ -148,9 +174,9 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 91457,
+      "stars": 91464,
       "forks": 10533,
-      "watchers": 91457,
+      "watchers": 91464,
       "openIssues": 857,
       "language": "TypeScript",
       "topics": [
@@ -176,36 +202,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-08-25T21:29:04Z",
+      "updatedAt": "2026-08-25T22:27:52Z",
       "pushedAt": "2026-08-25T21:13:59Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9484045853161567
-    },
-    {
-      "owner": "binwiederhier",
-      "name": "ntfy",
-      "fullName": "binwiederhier/ntfy",
-      "description": "Send push notifications to your phone or desktop using PUT/POST",
-      "homepage": "https://ntfy.sh",
-      "stars": 33754,
-      "forks": 1565,
-      "watchers": 33754,
-      "openIssues": 366,
-      "language": "Go",
-      "topics": [
-        "curl",
-        "notifications",
-        "ntfy",
-        "ntfysh",
-        "pubsub",
-        "push-notifications",
-        "rest-api"
-      ],
-      "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-08-25T20:21:09Z",
-      "pushedAt": "2026-08-20T14:18:56Z",
-      "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.9478834873421514
+      "score": 0.9484072444121696
     },
     {
       "owner": "apple",
@@ -213,17 +213,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 49391,
+      "stars": 49392,
       "forks": 1739,
-      "watchers": 49391,
+      "watchers": 49392,
       "openIssues": 493,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-08-25T20:52:29Z",
+      "updatedAt": "2026-08-25T22:00:29Z",
       "pushedAt": "2026-08-24T20:58:54Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9463144467792608
+      "score": 0.9463151501969569
     },
     {
       "owner": "caddyserver",
@@ -232,7 +232,7 @@
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
       "stars": 75203,
-      "forks": 4911,
+      "forks": 4910,
       "watchers": 75203,
       "openIssues": 265,
       "language": "Go",
@@ -272,7 +272,7 @@
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-07-14T20:04:23Z",
-      "updatedAt": "2026-08-25T21:25:57Z",
+      "updatedAt": "2026-08-25T22:25:07Z",
       "pushedAt": "2026-08-25T21:15:55Z",
       "starredAt": "2026-07-15T23:45:16Z",
       "score": 0.9368289293957801
@@ -320,14 +320,14 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "homepage": "https://aihero.dev/skills",
-      "stars": 236631,
-      "forks": 20138,
-      "watchers": 236631,
+      "stars": 236652,
+      "forks": 20143,
+      "watchers": 236652,
       "openIssues": 397,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-08-25T21:28:31Z",
+      "updatedAt": "2026-08-25T22:22:49Z",
       "pushedAt": "2026-08-24T14:20:17Z",
       "starredAt": "2026-03-18T06:37:36Z",
       "score": 0.9334246575342465
@@ -393,7 +393,7 @@
         "plugin"
       ],
       "createdAt": "2022-05-17T18:52:57Z",
-      "updatedAt": "2026-08-25T21:12:16Z",
+      "updatedAt": "2026-08-25T22:25:59Z",
       "pushedAt": "2026-08-21T07:31:48Z",
       "starredAt": "2026-08-13T15:47:23Z",
       "score": 0.9019336468253782
@@ -404,9 +404,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 195119,
-      "forks": 22026,
-      "watchers": 195119,
+      "stars": 195155,
+      "forks": 22036,
+      "watchers": 195155,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -416,7 +416,7 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-08-25T21:28:09Z",
+      "updatedAt": "2026-08-25T22:29:00Z",
       "pushedAt": "2026-08-21T12:35:08Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9917808219178081
@@ -454,9 +454,9 @@
       "fullName": "petergyang/human-review",
       "description": "A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.",
       "homepage": "https://creatoreconomy.so/p/use-my-human-review-skill-to-edit-html-markdown-visually",
-      "stars": 1156,
+      "stars": 1157,
       "forks": 86,
-      "watchers": 1156,
+      "watchers": 1157,
       "openIssues": 25,
       "language": "JavaScript",
       "topics": [
@@ -471,10 +471,10 @@
         "review"
       ],
       "createdAt": "2026-07-27T14:58:36Z",
-      "updatedAt": "2026-08-25T20:49:29Z",
+      "updatedAt": "2026-08-25T22:15:59Z",
       "pushedAt": "2026-08-15T18:45:34Z",
       "starredAt": "2026-08-06T13:52:12Z",
-      "score": 0.8290392714558661
+      "score": 0.8290692874910395
     },
     {
       "owner": "LIJI32",
