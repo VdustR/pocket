@@ -1,17 +1,17 @@
 {
   "totalRepos": 1648,
-  "totalStars": 28457526,
+  "totalStars": 28461486,
   "languageDistribution": {
     "TypeScript": 604,
-    "C": 37,
     "Python": 92,
+    "C": 38,
     "Go": 68,
     "Swift": 15,
     "Rust": 59,
     "Shell": 34,
     "Batchfile": 1,
     "JavaScript": 360,
-    "Java": 11,
+    "Java": 10,
     "Zig": 2,
     "HTML": 40,
     "Vue": 13,
@@ -34,8 +34,8 @@
     "Dockerfile": 4,
     "PowerShell": 1,
     "PHP": 5,
-    "Nunjucks": 2,
     "GDScript": 3,
+    "Nunjucks": 2,
     "JSON": 1,
     "Bikeshed": 2,
     "Haxe": 3,
@@ -66,9 +66,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 207071,
-      "forks": 24078,
-      "watchers": 207071,
+      "stars": 207582,
+      "forks": 24147,
+      "watchers": 207582,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -78,37 +78,10 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-09-01T07:27:20Z",
+      "updatedAt": "2026-09-01T13:14:10Z",
       "pushedAt": "2026-08-31T16:03:39Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9926027397260273
-    },
-    {
-      "owner": "Genymobile",
-      "name": "scrcpy",
-      "fullName": "Genymobile/scrcpy",
-      "description": "Display and control your Android device",
-      "homepage": "",
-      "stars": 148647,
-      "forks": 13669,
-      "watchers": 148647,
-      "openIssues": 2891,
-      "language": "C",
-      "topics": [
-        "android",
-        "c",
-        "ffmpeg",
-        "libav",
-        "mirroring",
-        "recording",
-        "screen",
-        "sdl2"
-      ],
-      "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-09-01T07:24:44Z",
-      "pushedAt": "2026-08-17T10:27:07Z",
-      "starredAt": "2026-05-24T02:27:27Z",
-      "score": 0.9473972602739726
     },
     {
       "owner": "NousResearch",
@@ -116,10 +89,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 239169,
-      "forks": 48801,
-      "watchers": 239169,
-      "openIssues": 38243,
+      "stars": 239307,
+      "forks": 48852,
+      "watchers": 239307,
+      "openIssues": 38376,
       "language": "Python",
       "topics": [
         "ai",
@@ -137,8 +110,8 @@
         "openai"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-09-01T07:25:33Z",
-      "pushedAt": "2026-09-01T07:24:24Z",
+      "updatedAt": "2026-09-01T13:14:44Z",
+      "pushedAt": "2026-09-01T10:57:20Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9473972602739725
     },
@@ -148,10 +121,10 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 93154,
-      "forks": 10751,
-      "watchers": 93154,
-      "openIssues": 915,
+      "stars": 93228,
+      "forks": 10760,
+      "watchers": 93228,
+      "openIssues": 920,
       "language": null,
       "topics": [
         "agent-skills",
@@ -176,10 +149,37 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-09-01T07:19:05Z",
-      "pushedAt": "2026-09-01T07:08:07Z",
+      "updatedAt": "2026-09-01T13:09:31Z",
+      "pushedAt": "2026-09-01T13:06:37Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9465775895042534
+      "score": 0.9466051779610734
+    },
+    {
+      "owner": "Genymobile",
+      "name": "scrcpy",
+      "fullName": "Genymobile/scrcpy",
+      "description": "Display and control your Android device",
+      "homepage": "",
+      "stars": 148662,
+      "forks": 13671,
+      "watchers": 148662,
+      "openIssues": 2893,
+      "language": "C",
+      "topics": [
+        "android",
+        "c",
+        "ffmpeg",
+        "libav",
+        "mirroring",
+        "recording",
+        "screen",
+        "sdl2"
+      ],
+      "createdAt": "2017-11-21T18:00:27Z",
+      "updatedAt": "2026-09-01T13:08:24Z",
+      "pushedAt": "2026-08-17T10:27:07Z",
+      "starredAt": "2026-05-24T02:27:27Z",
+      "score": 0.9465753424657534
     },
     {
       "owner": "binwiederhier",
@@ -187,9 +187,9 @@
       "fullName": "binwiederhier/ntfy",
       "description": "Send push notifications to your phone or desktop using PUT/POST",
       "homepage": "https://ntfy.sh",
-      "stars": 33919,
-      "forks": 1572,
-      "watchers": 33919,
+      "stars": 33924,
+      "forks": 1573,
+      "watchers": 33924,
       "openIssues": 375,
       "language": "Go",
       "topics": [
@@ -202,10 +202,10 @@
         "rest-api"
       ],
       "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-09-01T06:53:10Z",
+      "updatedAt": "2026-09-01T11:50:40Z",
       "pushedAt": "2026-08-27T20:17:06Z",
       "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.9459981113223905
+      "score": 0.9460032323421583
     },
     {
       "owner": "apple",
@@ -213,17 +213,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 49556,
+      "stars": 49571,
       "forks": 1779,
-      "watchers": 49556,
+      "watchers": 49571,
       "openIssues": 508,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-09-01T07:22:26Z",
+      "updatedAt": "2026-09-01T12:55:06Z",
       "pushedAt": "2026-08-31T17:21:38Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9447864828234689
+      "score": 0.9443860385696081
     },
     {
       "owner": "caddyserver",
@@ -231,9 +231,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 75376,
-      "forks": 4929,
-      "watchers": 75376,
+      "stars": 75384,
+      "forks": 4932,
+      "watchers": 75384,
       "openIssues": 276,
       "language": "Go",
       "topics": [
@@ -254,10 +254,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-09-01T06:36:36Z",
+      "updatedAt": "2026-09-01T13:07:49Z",
       "pushedAt": "2026-08-31T20:20:06Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9429188339124909
+      "score": 0.9429225211608515
     },
     {
       "owner": "xai-org",
@@ -265,17 +265,17 @@
       "fullName": "xai-org/grok-build",
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
       "homepage": "",
-      "stars": 26310,
-      "forks": 4947,
-      "watchers": 26310,
+      "stars": 26321,
+      "forks": 4949,
+      "watchers": 26321,
       "openIssues": 0,
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-07-14T20:04:23Z",
-      "updatedAt": "2026-09-01T07:22:46Z",
+      "updatedAt": "2026-09-01T12:21:16Z",
       "pushedAt": "2026-08-31T17:40:39Z",
       "starredAt": "2026-07-15T23:45:16Z",
-      "score": 0.9342959198743555
+      "score": 0.9343104422899364
     },
     {
       "owner": "hacksider",
@@ -283,9 +283,9 @@
       "fullName": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
-      "stars": 96223,
-      "forks": 14044,
-      "watchers": 96223,
+      "stars": 96241,
+      "forks": 14045,
+      "watchers": 96241,
       "openIssues": 41,
       "language": "Python",
       "topics": [
@@ -309,10 +309,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-09-01T07:10:14Z",
+      "updatedAt": "2026-09-01T12:55:32Z",
       "pushedAt": "2026-08-29T07:05:23Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.9316763711437708
+      "score": 0.9316828697882666
     },
     {
       "owner": "mattpocock",
@@ -320,14 +320,14 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "homepage": "https://aihero.dev/skills",
-      "stars": 243218,
-      "forks": 20670,
-      "watchers": 243218,
+      "stars": 243536,
+      "forks": 20701,
+      "watchers": 243536,
       "openIssues": 445,
       "language": "Shell",
       "topics": [],
       "createdAt": "2026-02-03T11:15:53Z",
-      "updatedAt": "2026-09-01T07:27:30Z",
+      "updatedAt": "2026-09-01T13:14:56Z",
       "pushedAt": "2026-08-24T14:20:17Z",
       "starredAt": "2026-03-18T06:37:36Z",
       "score": 0.9256164383561645
@@ -355,7 +355,7 @@
       "updatedAt": "2026-08-26T11:27:35Z",
       "pushedAt": "2026-01-19T19:16:03Z",
       "starredAt": "2026-08-26T11:27:34Z",
-      "score": 0.6490370688389692
+      "score": 0.6486261099348596
     },
     {
       "owner": "kamichikoichi",
@@ -381,9 +381,9 @@
       "fullName": "dmmulroy/anti-slop",
       "description": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
       "homepage": "",
-      "stars": 3942,
+      "stars": 3955,
       "forks": 85,
-      "watchers": 3942,
+      "watchers": 3955,
       "openIssues": 1,
       "language": "TypeScript",
       "topics": [
@@ -393,10 +393,10 @@
         "typescript"
       ],
       "createdAt": "2026-08-12T13:48:50Z",
-      "updatedAt": "2026-09-01T06:43:12Z",
+      "updatedAt": "2026-09-01T12:30:47Z",
       "pushedAt": "2026-08-31T21:35:30Z",
       "starredAt": "2026-08-18T17:05:13Z",
-      "score": 0.8823236764124331
+      "score": 0.8824380368805866
     },
     {
       "owner": "cordiverse",
@@ -404,10 +404,10 @@
       "fullName": "cordiverse/cordis",
       "description": "Meta-Framework of Spatiotemporal Composability",
       "homepage": "https://deepseek-harness.github.io/deepseek-harness/reference/cordis-primer",
-      "stars": 7918,
-      "forks": 484,
-      "watchers": 7918,
-      "openIssues": 27,
+      "stars": 7940,
+      "forks": 490,
+      "watchers": 7940,
+      "openIssues": 30,
       "language": "TypeScript",
       "topics": [
         "effect",
@@ -416,10 +416,10 @@
         "plugin"
       ],
       "createdAt": "2022-05-17T18:52:57Z",
-      "updatedAt": "2026-09-01T07:16:24Z",
+      "updatedAt": "2026-09-01T13:01:29Z",
       "pushedAt": "2026-08-31T16:46:24Z",
       "starredAt": "2026-08-13T15:47:23Z",
-      "score": 0.9044963671632698
+      "score": 0.9045927554077082
     },
     {
       "owner": "deepseek-ai",
@@ -427,9 +427,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 207071,
-      "forks": 24078,
-      "watchers": 207071,
+      "stars": 207582,
+      "forks": 24147,
+      "watchers": 207582,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -439,7 +439,7 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-09-01T07:27:20Z",
+      "updatedAt": "2026-09-01T13:14:10Z",
       "pushedAt": "2026-08-31T16:03:39Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9926027397260273
@@ -469,7 +469,7 @@
       "updatedAt": "2026-09-01T02:47:47Z",
       "pushedAt": "2026-08-19T12:23:11Z",
       "starredAt": "2026-08-10T03:03:22Z",
-      "score": 0.9184081660296624
+      "score": 0.9175862482214432
     },
     {
       "owner": "petergyang",
@@ -477,9 +477,9 @@
       "fullName": "petergyang/human-review",
       "description": "A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.",
       "homepage": "https://creatoreconomy.so/p/use-my-human-review-skill-to-edit-html-markdown-visually",
-      "stars": 1201,
+      "stars": 1204,
       "forks": 91,
-      "watchers": 1201,
+      "watchers": 1204,
       "openIssues": 26,
       "language": "JavaScript",
       "topics": [
@@ -494,10 +494,10 @@
         "review"
       ],
       "createdAt": "2026-07-27T14:58:36Z",
-      "updatedAt": "2026-08-31T15:56:11Z",
+      "updatedAt": "2026-09-01T13:05:05Z",
       "pushedAt": "2026-08-15T18:45:34Z",
       "starredAt": "2026-08-06T13:52:12Z",
-      "score": 0.8229676998790911
+      "score": 0.8230543062186244
     },
     {
       "owner": "LIJI32",
@@ -516,7 +516,7 @@
         "gameboy-color"
       ],
       "createdAt": "2016-04-01T20:39:14Z",
-      "updatedAt": "2026-08-31T23:04:33Z",
+      "updatedAt": "2026-09-01T09:25:50Z",
       "pushedAt": "2026-07-10T15:37:20Z",
       "starredAt": "2026-08-05T18:05:42Z",
       "score": 0.8137314577702688
@@ -564,7 +564,7 @@
       "updatedAt": "2026-08-29T09:09:38Z",
       "pushedAt": "2026-06-26T12:34:27Z",
       "starredAt": "2026-08-05T17:03:31Z",
-      "score": 0.7827656599783973
+      "score": 0.7819437421701781
     }
   ]
 }
