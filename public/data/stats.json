@@ -1,11 +1,11 @@
 {
   "totalRepos": 1648,
-  "totalStars": 28487612,
+  "totalStars": 28494575,
   "languageDistribution": {
     "TypeScript": 604,
+    "C": 38,
     "Go": 68,
     "Python": 92,
-    "C": 38,
     "Swift": 15,
     "Rust": 60,
     "Shell": 34,
@@ -24,8 +24,8 @@
     "Assembly": 5,
     "Astro": 1,
     "Ruby": 7,
-    "CSS": 25,
     "Markdown": 1,
+    "CSS": 25,
     "Clojure": 2,
     "MDX": 3,
     "Vim Script": 2,
@@ -66,9 +66,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 210291,
-      "forks": 24589,
-      "watchers": 210291,
+      "stars": 210645,
+      "forks": 24647,
+      "watchers": 210645,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -78,10 +78,37 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-09-03T08:42:36Z",
+      "updatedAt": "2026-09-03T13:21:39Z",
       "pushedAt": "2026-09-03T06:23:34Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9917808219178081
+    },
+    {
+      "owner": "Genymobile",
+      "name": "scrcpy",
+      "fullName": "Genymobile/scrcpy",
+      "description": "Display and control your Android device",
+      "homepage": "",
+      "stars": 148790,
+      "forks": 13682,
+      "watchers": 148790,
+      "openIssues": 2896,
+      "language": "C",
+      "topics": [
+        "android",
+        "c",
+        "ffmpeg",
+        "libav",
+        "mirroring",
+        "recording",
+        "screen",
+        "sdl2"
+      ],
+      "createdAt": "2017-11-21T18:00:27Z",
+      "updatedAt": "2026-09-03T13:18:05Z",
+      "pushedAt": "2026-09-03T11:00:58Z",
+      "starredAt": "2026-05-24T02:27:27Z",
+      "score": 0.9580821917808219
     },
     {
       "owner": "binwiederhier",
@@ -89,9 +116,9 @@
       "fullName": "binwiederhier/ntfy",
       "description": "Send push notifications to your phone or desktop using PUT/POST",
       "homepage": "https://ntfy.sh",
-      "stars": 33971,
-      "forks": 1579,
-      "watchers": 33971,
+      "stars": 33980,
+      "forks": 1581,
+      "watchers": 33980,
       "openIssues": 378,
       "language": "Go",
       "topics": [
@@ -104,10 +131,10 @@
         "rest-api"
       ],
       "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-09-03T08:30:22Z",
+      "updatedAt": "2026-09-03T12:21:46Z",
       "pushedAt": "2026-09-02T23:26:39Z",
       "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.9485170864932922
+      "score": 0.9485262896786938
     },
     {
       "owner": "NousResearch",
@@ -115,10 +142,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 240386,
-      "forks": 49218,
-      "watchers": 240386,
-      "openIssues": 38681,
+      "stars": 240547,
+      "forks": 49245,
+      "watchers": 240547,
+      "openIssues": 38823,
       "language": "Python",
       "topics": [
         "ai",
@@ -136,8 +163,8 @@
         "openai"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-09-03T08:42:10Z",
-      "pushedAt": "2026-09-03T08:39:45Z",
+      "updatedAt": "2026-09-03T13:20:28Z",
+      "pushedAt": "2026-09-03T12:37:18Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9465753424657534
     },
@@ -147,10 +174,10 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 93732,
-      "forks": 10811,
-      "watchers": 93732,
-      "openIssues": 929,
+      "stars": 93794,
+      "forks": 10816,
+      "watchers": 93794,
+      "openIssues": 933,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -175,37 +202,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-09-03T08:41:28Z",
-      "pushedAt": "2026-09-03T07:50:52Z",
+      "updatedAt": "2026-09-03T13:20:38Z",
+      "pushedAt": "2026-09-03T13:20:27Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9459705794576041
-    },
-    {
-      "owner": "Genymobile",
-      "name": "scrcpy",
-      "fullName": "Genymobile/scrcpy",
-      "description": "Display and control your Android device",
-      "homepage": "",
-      "stars": 148777,
-      "forks": 13681,
-      "watchers": 148777,
-      "openIssues": 2893,
-      "language": "C",
-      "topics": [
-        "android",
-        "c",
-        "ffmpeg",
-        "libav",
-        "mirroring",
-        "recording",
-        "screen",
-        "sdl2"
-      ],
-      "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-09-03T08:23:59Z",
-      "pushedAt": "2026-08-17T10:27:07Z",
-      "starredAt": "2026-05-24T02:27:27Z",
-      "score": 0.944931506849315
+      "score": 0.9459935531010998
     },
     {
       "owner": "apple",
@@ -213,17 +213,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 49619,
+      "stars": 49621,
       "forks": 1779,
-      "watchers": 49619,
+      "watchers": 49621,
       "openIssues": 510,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-09-03T07:16:38Z",
+      "updatedAt": "2026-09-03T13:01:25Z",
       "pushedAt": "2026-09-02T22:49:15Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9440087051784569
+      "score": 0.943599146631396
     },
     {
       "owner": "caddyserver",
@@ -231,9 +231,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 75432,
-      "forks": 4936,
-      "watchers": 75432,
+      "stars": 75443,
+      "forks": 4938,
+      "watchers": 75443,
       "openIssues": 277,
       "language": "Go",
       "topics": [
@@ -254,10 +254,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-09-03T07:17:47Z",
+      "updatedAt": "2026-09-03T12:59:05Z",
       "pushedAt": "2026-09-02T22:02:52Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9421227186288834
+      "score": 0.942127784731003
     },
     {
       "owner": "xai-org",
@@ -265,17 +265,17 @@
       "fullName": "xai-org/grok-build",
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
       "homepage": "",
-      "stars": 26410,
-      "forks": 4956,
-      "watchers": 26410,
+      "stars": 26419,
+      "forks": 4958,
+      "watchers": 26419,
       "openIssues": 0,
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-07-14T20:04:23Z",
-      "updatedAt": "2026-09-03T08:37:28Z",
+      "updatedAt": "2026-09-03T13:17:03Z",
       "pushedAt": "2026-09-01T22:20:40Z",
       "starredAt": "2026-07-15T23:45:16Z",
-      "score": 0.9327838835076312
+      "score": 0.9327957209526918
     },
     {
       "owner": "hacksider",
@@ -283,10 +283,10 @@
       "fullName": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
-      "stars": 96472,
-      "forks": 14081,
-      "watchers": 96472,
-      "openIssues": 41,
+      "stars": 96474,
+      "forks": 14082,
+      "watchers": 96474,
+      "openIssues": 42,
       "language": "Python",
       "topics": [
         "ai",
@@ -309,10 +309,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-09-03T08:25:26Z",
+      "updatedAt": "2026-09-03T12:47:27Z",
       "pushedAt": "2026-08-29T07:05:23Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.9293004079171399
+      "score": 0.9293011281849541
     },
     {
       "owner": "heygen-com",
@@ -320,9 +320,9 @@
       "fullName": "heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "homepage": "",
-      "stars": 43768,
+      "stars": 43792,
       "forks": 4203,
-      "watchers": 43768,
+      "watchers": 43792,
       "openIssues": 236,
       "language": "TypeScript",
       "topics": [
@@ -339,10 +339,10 @@
         "video"
       ],
       "createdAt": "2026-03-10T01:51:06Z",
-      "updatedAt": "2026-09-03T08:41:03Z",
+      "updatedAt": "2026-09-03T13:21:15Z",
       "pushedAt": "2026-09-03T05:52:03Z",
       "starredAt": "2026-05-09T07:47:14Z",
-      "score": 0.923211138163547
+      "score": 0.923230183992243
     }
   ],
   "recentlyStarred": [
@@ -367,7 +367,7 @@
       "updatedAt": "2026-09-01T14:32:55Z",
       "pushedAt": "2026-01-19T19:16:03Z",
       "starredAt": "2026-08-26T11:27:34Z",
-      "score": 0.646611181808304
+      "score": 0.6462002229041944
     },
     {
       "owner": "kamichikoichi",
@@ -385,7 +385,7 @@
       "updatedAt": "2026-08-23T13:15:22Z",
       "pushedAt": "2025-09-12T01:13:51Z",
       "starredAt": "2026-08-23T13:15:21Z",
-      "score": 0.44778206915158764
+      "score": 0.4473711102474781
     },
     {
       "owner": "dmmulroy",
@@ -393,9 +393,9 @@
       "fullName": "dmmulroy/anti-slop",
       "description": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
       "homepage": "",
-      "stars": 4025,
+      "stars": 4038,
       "forks": 88,
-      "watchers": 4025,
+      "watchers": 4038,
       "openIssues": 3,
       "language": "TypeScript",
       "topics": [
@@ -405,10 +405,10 @@
         "typescript"
       ],
       "createdAt": "2026-08-12T13:48:50Z",
-      "updatedAt": "2026-09-03T08:12:46Z",
+      "updatedAt": "2026-09-03T13:15:01Z",
       "pushedAt": "2026-08-31T21:35:30Z",
       "starredAt": "2026-08-18T17:05:13Z",
-      "score": 0.8805816824661288
+      "score": 0.8806936890755168
     },
     {
       "owner": "cordiverse",
@@ -416,10 +416,10 @@
       "fullName": "cordiverse/cordis",
       "description": "Meta-Framework of Spatiotemporal Composability",
       "homepage": "https://deepseek-harness.github.io/deepseek-harness/reference/cordis-primer",
-      "stars": 8023,
-      "forks": 492,
-      "watchers": 8023,
-      "openIssues": 32,
+      "stars": 8034,
+      "forks": 493,
+      "watchers": 8034,
+      "openIssues": 30,
       "language": "TypeScript",
       "topics": [
         "effect",
@@ -428,10 +428,10 @@
         "plugin"
       ],
       "createdAt": "2022-05-17T18:52:57Z",
-      "updatedAt": "2026-09-03T08:30:52Z",
-      "pushedAt": "2026-09-03T03:34:27Z",
+      "updatedAt": "2026-09-03T13:09:47Z",
+      "pushedAt": "2026-09-03T10:43:16Z",
       "starredAt": "2026-08-13T15:47:23Z",
-      "score": 0.9041320955187971
+      "score": 0.9041796924057572
     },
     {
       "owner": "deepseek-ai",
@@ -439,9 +439,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 210291,
-      "forks": 24589,
-      "watchers": 210291,
+      "stars": 210645,
+      "forks": 24647,
+      "watchers": 210645,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -451,7 +451,7 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-09-03T08:42:36Z",
+      "updatedAt": "2026-09-03T13:21:39Z",
       "pushedAt": "2026-09-03T06:23:34Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9917808219178081
@@ -481,7 +481,7 @@
       "updatedAt": "2026-09-02T18:56:59Z",
       "pushedAt": "2026-08-19T12:23:11Z",
       "starredAt": "2026-08-10T03:03:22Z",
-      "score": 0.9159424126050049
+      "score": 0.9151204947967857
     },
     {
       "owner": "petergyang",
@@ -576,7 +576,7 @@
       "updatedAt": "2026-09-01T17:28:31Z",
       "pushedAt": "2026-06-26T12:34:27Z",
       "starredAt": "2026-08-05T17:03:31Z",
-      "score": 0.780383324501501
+      "score": 0.7795614066932819
     }
   ]
 }
