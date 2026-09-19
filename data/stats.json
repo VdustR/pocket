@@ -1,13 +1,13 @@
 {
   "totalRepos": 1653,
-  "totalStars": 28789446,
+  "totalStars": 28790419,
   "languageDistribution": {
     "TypeScript": 609,
     "C++": 65,
     "Batchfile": 1,
     "C": 38,
-    "Go": 67,
     "Python": 92,
+    "Go": 67,
     "Swift": 15,
     "Rust": 60,
     "Shell": 34,
@@ -66,9 +66,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 229958,
-      "forks": 27529,
-      "watchers": 229958,
+      "stars": 229989,
+      "forks": 27533,
+      "watchers": 229989,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -78,7 +78,7 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-09-19T20:10:23Z",
+      "updatedAt": "2026-09-19T22:42:05Z",
       "pushedAt": "2026-09-17T13:30:15Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9831506849315068
@@ -89,9 +89,9 @@
       "fullName": "x64dbg/x64dbg",
       "description": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.",
       "homepage": "http://x64dbg.com",
-      "stars": 49557,
+      "stars": 49556,
       "forks": 2843,
-      "watchers": 49557,
+      "watchers": 49556,
       "openIssues": 572,
       "language": "C++",
       "topics": [
@@ -117,10 +117,10 @@
         "x86-64"
       ],
       "createdAt": "2015-04-11T20:48:23Z",
-      "updatedAt": "2026-09-19T19:53:20Z",
+      "updatedAt": "2026-09-19T22:01:56Z",
       "pushedAt": "2026-09-19T14:15:43Z",
       "starredAt": "2026-09-12T14:51:27Z",
-      "score": 0.9727323893786117
+      "score": 0.9727316883029209
     },
     {
       "owner": "massgravel",
@@ -128,9 +128,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 191263,
+      "stars": 191269,
       "forks": 18192,
-      "watchers": 191263,
+      "watchers": 191269,
       "openIssues": 8,
       "language": "Batchfile",
       "topics": [
@@ -152,10 +152,10 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-09-19T19:56:17Z",
+      "updatedAt": "2026-09-19T22:00:52Z",
       "pushedAt": "2026-09-10T22:33:44Z",
       "starredAt": "2026-06-20T21:47:10Z",
-      "score": 0.9564383561643837
+      "score": 0.9552054794520548
     },
     {
       "owner": "Genymobile",
@@ -163,9 +163,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 150007,
-      "forks": 13771,
-      "watchers": 150007,
+      "stars": 150017,
+      "forks": 13772,
+      "watchers": 150017,
       "openIssues": 2904,
       "language": "C",
       "topics": [
@@ -179,7 +179,7 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-09-19T20:09:45Z",
+      "updatedAt": "2026-09-19T22:44:32Z",
       "pushedAt": "2026-09-19T08:54:25Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.9515068493150685
@@ -190,9 +190,9 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 97079,
-      "forks": 11282,
-      "watchers": 97079,
+      "stars": 97090,
+      "forks": 11283,
+      "watchers": 97090,
       "openIssues": 1101,
       "language": "TypeScript",
       "topics": [
@@ -218,36 +218,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-09-19T20:14:12Z",
+      "updatedAt": "2026-09-19T22:37:16Z",
       "pushedAt": "2026-09-19T18:18:00Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9402032581251205
-    },
-    {
-      "owner": "binwiederhier",
-      "name": "ntfy",
-      "fullName": "binwiederhier/ntfy",
-      "description": "Send push notifications to your phone or desktop using PUT/POST",
-      "homepage": "https://ntfy.sh",
-      "stars": 34323,
-      "forks": 1608,
-      "watchers": 34323,
-      "openIssues": 406,
-      "language": "Go",
-      "topics": [
-        "curl",
-        "notifications",
-        "ntfy",
-        "ntfysh",
-        "pubsub",
-        "push-notifications",
-        "rest-api"
-      ],
-      "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-09-19T19:40:49Z",
-      "pushedAt": "2026-09-15T21:43:19Z",
-      "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.9398341328338363
+      "score": 0.9402071946464804
     },
     {
       "owner": "NousResearch",
@@ -255,10 +229,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 247133,
-      "forks": 51905,
-      "watchers": 247133,
-      "openIssues": 43569,
+      "stars": 247149,
+      "forks": 51917,
+      "watchers": 247149,
+      "openIssues": 43446,
       "language": "Python",
       "topics": [
         "ai",
@@ -276,10 +250,36 @@
         "openai"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-09-19T20:07:52Z",
-      "pushedAt": "2026-09-19T19:38:57Z",
+      "updatedAt": "2026-09-19T22:38:10Z",
+      "pushedAt": "2026-09-19T22:03:23Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.9395890410958904
+    },
+    {
+      "owner": "binwiederhier",
+      "name": "ntfy",
+      "fullName": "binwiederhier/ntfy",
+      "description": "Send push notifications to your phone or desktop using PUT/POST",
+      "homepage": "https://ntfy.sh",
+      "stars": 34328,
+      "forks": 1608,
+      "watchers": 34328,
+      "openIssues": 406,
+      "language": "Go",
+      "topics": [
+        "curl",
+        "notifications",
+        "ntfy",
+        "ntfysh",
+        "pubsub",
+        "push-notifications",
+        "rest-api"
+      ],
+      "createdAt": "2021-10-23T19:25:32Z",
+      "updatedAt": "2026-09-19T21:34:44Z",
+      "pushedAt": "2026-09-15T21:43:19Z",
+      "starredAt": "2026-07-31T01:58:32Z",
+      "score": 0.9390172757743993
     },
     {
       "owner": "apple",
@@ -287,17 +287,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 50064,
+      "stars": 50068,
       "forks": 1795,
-      "watchers": 50064,
+      "watchers": 50068,
       "openIssues": 545,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-09-19T18:02:05Z",
+      "updatedAt": "2026-09-19T21:14:51Z",
       "pushedAt": "2026-09-18T19:45:07Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9365106828455911
+      "score": 0.9365134586107515
     },
     {
       "owner": "caddyserver",
@@ -305,9 +305,9 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 75858,
+      "stars": 75859,
       "forks": 4975,
-      "watchers": 75858,
+      "watchers": 75859,
       "openIssues": 288,
       "language": "Go",
       "topics": [
@@ -328,10 +328,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-09-19T18:50:03Z",
+      "updatedAt": "2026-09-19T20:17:31Z",
       "pushedAt": "2026-09-19T16:02:47Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9353320759198754
+      "score": 0.9353325339186568
     },
     {
       "owner": "xai-org",
@@ -339,17 +339,17 @@
       "fullName": "xai-org/grok-build",
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
       "homepage": "",
-      "stars": 26891,
-      "forks": 5063,
-      "watchers": 26891,
+      "stars": 26893,
+      "forks": 5064,
+      "watchers": 26893,
       "openIssues": 0,
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-07-14T20:04:23Z",
-      "updatedAt": "2026-09-19T19:55:58Z",
+      "updatedAt": "2026-09-19T22:30:12Z",
       "pushedAt": "2026-09-19T17:08:04Z",
       "starredAt": "2026-07-15T23:45:16Z",
-      "score": 0.9276575194394916
+      "score": 0.9276601032760712
     }
   ],
   "recentlyStarred": [
@@ -359,9 +359,9 @@
       "fullName": "Tencent/BrowserSkill",
       "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
       "homepage": "",
-      "stars": 5703,
+      "stars": 5718,
       "forks": 401,
-      "watchers": 5703,
+      "watchers": 5718,
       "openIssues": 58,
       "language": "TypeScript",
       "topics": [
@@ -370,10 +370,10 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-06-22T07:24:40Z",
-      "updatedAt": "2026-09-19T20:10:34Z",
+      "updatedAt": "2026-09-19T22:39:14Z",
       "pushedAt": "2026-09-19T17:00:58Z",
       "starredAt": "2026-09-18T04:32:49Z",
-      "score": 0.900083402443395
+      "score": 0.9001746488196243
     },
     {
       "owner": "opencoredev",
@@ -381,17 +381,17 @@
       "fullName": "opencoredev/bg0",
       "description": "Private, unlimited background removal that runs in your browser.",
       "homepage": "https://bg0.dev",
-      "stars": 269,
+      "stars": 272,
       "forks": 30,
-      "watchers": 269,
-      "openIssues": 4,
+      "watchers": 272,
+      "openIssues": 3,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-09-14T16:42:22Z",
-      "updatedAt": "2026-09-19T19:40:35Z",
-      "pushedAt": "2026-09-19T19:55:45Z",
+      "updatedAt": "2026-09-19T22:34:58Z",
+      "pushedAt": "2026-09-19T20:46:13Z",
       "starredAt": "2026-09-15T18:07:56Z",
-      "score": 0.7928652655162807
+      "score": 0.7932491761468221
     },
     {
       "owner": "x64dbg",
@@ -399,9 +399,9 @@
       "fullName": "x64dbg/x64dbg",
       "description": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.",
       "homepage": "http://x64dbg.com",
-      "stars": 49557,
+      "stars": 49556,
       "forks": 2843,
-      "watchers": 49557,
+      "watchers": 49556,
       "openIssues": 572,
       "language": "C++",
       "topics": [
@@ -427,10 +427,10 @@
         "x86-64"
       ],
       "createdAt": "2015-04-11T20:48:23Z",
-      "updatedAt": "2026-09-19T19:53:20Z",
+      "updatedAt": "2026-09-19T22:01:56Z",
       "pushedAt": "2026-09-19T14:15:43Z",
       "starredAt": "2026-09-12T14:51:27Z",
-      "score": 0.9727323893786117
+      "score": 0.9727316883029209
     },
     {
       "owner": "TanStack",
@@ -515,9 +515,9 @@
       "fullName": "dmmulroy/anti-slop",
       "description": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
       "homepage": "",
-      "stars": 4656,
+      "stars": 4657,
       "forks": 104,
-      "watchers": 4656,
+      "watchers": 4657,
       "openIssues": 4,
       "language": "TypeScript",
       "topics": [
@@ -527,10 +527,10 @@
         "typescript"
       ],
       "createdAt": "2026-08-12T13:48:50Z",
-      "updatedAt": "2026-09-19T19:15:30Z",
+      "updatedAt": "2026-09-19T20:49:20Z",
       "pushedAt": "2026-09-10T13:53:24Z",
       "starredAt": "2026-08-18T17:05:13Z",
-      "score": 0.872900553829139
+      "score": 0.8729080135304135
     },
     {
       "owner": "cordiverse",
@@ -538,9 +538,9 @@
       "fullName": "cordiverse/cordis",
       "description": "Meta-Framework of Spatiotemporal Composability",
       "homepage": "https://deepseek-harness.github.io/deepseek-harness/reference/cordis-primer",
-      "stars": 8665,
+      "stars": 8666,
       "forks": 539,
-      "watchers": 8665,
+      "watchers": 8666,
       "openIssues": 51,
       "language": "TypeScript",
       "topics": [
@@ -550,10 +550,10 @@
         "plugin"
       ],
       "createdAt": "2022-05-17T18:52:57Z",
-      "updatedAt": "2026-09-19T19:00:59Z",
+      "updatedAt": "2026-09-19T20:25:07Z",
       "pushedAt": "2026-09-08T18:15:04Z",
       "starredAt": "2026-08-13T15:47:23Z",
-      "score": 0.8907789194334027
+      "score": 0.890782928382643
     },
     {
       "owner": "deepseek-ai",
@@ -561,9 +561,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 229958,
-      "forks": 27529,
-      "watchers": 229958,
+      "stars": 229989,
+      "forks": 27533,
+      "watchers": 229989,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -573,7 +573,7 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-09-19T20:10:23Z",
+      "updatedAt": "2026-09-19T22:42:05Z",
       "pushedAt": "2026-09-17T13:30:15Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9831506849315068
