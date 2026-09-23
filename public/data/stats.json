@@ -1,14 +1,14 @@
 {
   "totalRepos": 1655,
-  "totalStars": 28855178,
+  "totalStars": 28856425,
   "languageDistribution": {
     "TypeScript": 610,
     "C++": 65,
     "Batchfile": 1,
     "C": 38,
+    "Go": 67,
     "Python": 94,
     "Swift": 15,
-    "Go": 67,
     "Rust": 60,
     "Shell": 35,
     "Java": 10,
@@ -66,9 +66,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 234265,
-      "forks": 28150,
-      "watchers": 234265,
+      "stars": 234300,
+      "forks": 28161,
+      "watchers": 234300,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -78,7 +78,7 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-09-23T19:59:43Z",
+      "updatedAt": "2026-09-23T23:25:34Z",
       "pushedAt": "2026-09-23T13:30:24Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9831506849315068
@@ -128,9 +128,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 191706,
+      "stars": 191715,
       "forks": 18229,
-      "watchers": 191706,
+      "watchers": 191715,
       "openIssues": 4,
       "language": "Batchfile",
       "topics": [
@@ -152,10 +152,10 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-09-23T19:54:14Z",
+      "updatedAt": "2026-09-23T23:03:31Z",
       "pushedAt": "2026-09-10T22:33:44Z",
       "starredAt": "2026-06-20T21:47:10Z",
-      "score": 0.9515068493150685
+      "score": 0.9502739726027398
     },
     {
       "owner": "Genymobile",
@@ -163,9 +163,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 150268,
+      "stars": 150276,
       "forks": 13798,
-      "watchers": 150268,
+      "watchers": 150276,
       "openIssues": 2906,
       "language": "C",
       "topics": [
@@ -179,10 +179,36 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-09-23T19:38:45Z",
+      "updatedAt": "2026-09-23T23:09:55Z",
       "pushedAt": "2026-09-22T19:42:04Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.949041095890411
+    },
+    {
+      "owner": "binwiederhier",
+      "name": "ntfy",
+      "fullName": "binwiederhier/ntfy",
+      "description": "Send push notifications to your phone or desktop using PUT/POST",
+      "homepage": "https://ntfy.sh",
+      "stars": 34395,
+      "forks": 1615,
+      "watchers": 34395,
+      "openIssues": 410,
+      "language": "Go",
+      "topics": [
+        "curl",
+        "notifications",
+        "ntfy",
+        "ntfysh",
+        "pubsub",
+        "push-notifications",
+        "rest-api"
+      ],
+      "createdAt": "2021-10-23T19:25:32Z",
+      "updatedAt": "2026-09-23T23:13:42Z",
+      "pushedAt": "2026-09-23T23:13:38Z",
+      "starredAt": "2026-07-31T01:58:32Z",
+      "score": 0.9407288544002368
     },
     {
       "owner": "nexu-io",
@@ -190,10 +216,10 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 97812,
-      "forks": 11347,
-      "watchers": 97812,
-      "openIssues": 1115,
+      "stars": 97823,
+      "forks": 11350,
+      "watchers": 97823,
+      "openIssues": 1118,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -218,10 +244,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-09-23T19:51:28Z",
+      "updatedAt": "2026-09-23T22:53:14Z",
       "pushedAt": "2026-09-23T18:19:26Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9388207674364152
+      "score": 0.93882467445957
     },
     {
       "owner": "NousResearch",
@@ -229,10 +255,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 248357,
-      "forks": 52486,
-      "watchers": 248357,
-      "openIssues": 44039,
+      "stars": 248391,
+      "forks": 52499,
+      "watchers": 248391,
+      "openIssues": 44045,
       "language": "Python",
       "topics": [
         "ai",
@@ -250,8 +276,8 @@
         "openai"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-09-23T19:56:42Z",
-      "pushedAt": "2026-09-23T19:59:03Z",
+      "updatedAt": "2026-09-23T23:27:19Z",
+      "pushedAt": "2026-09-23T23:27:08Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.937945205479452
     },
@@ -261,43 +287,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 50140,
+      "stars": 50141,
       "forks": 1804,
-      "watchers": 50140,
+      "watchers": 50141,
       "openIssues": 544,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-09-23T19:39:38Z",
+      "updatedAt": "2026-09-23T20:02:58Z",
       "pushedAt": "2026-09-22T23:36:21Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9357414666910905
-    },
-    {
-      "owner": "binwiederhier",
-      "name": "ntfy",
-      "fullName": "binwiederhier/ntfy",
-      "description": "Send push notifications to your phone or desktop using PUT/POST",
-      "homepage": "https://ntfy.sh",
-      "stars": 34392,
-      "forks": 1614,
-      "watchers": 34392,
-      "openIssues": 410,
-      "language": "Go",
-      "topics": [
-        "curl",
-        "notifications",
-        "ntfy",
-        "ntfysh",
-        "pubsub",
-        "push-notifications",
-        "rest-api"
-      ],
-      "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-09-23T18:46:06Z",
-      "pushedAt": "2026-09-15T21:43:19Z",
-      "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.93497239929668
+      "score": 0.9357421596013257
     },
     {
       "owner": "caddyserver",
@@ -305,10 +305,10 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 76031,
+      "stars": 76035,
       "forks": 4993,
-      "watchers": 76031,
-      "openIssues": 296,
+      "watchers": 76035,
+      "openIssues": 295,
       "language": "Go",
       "topics": [
         "acme",
@@ -328,10 +328,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-09-23T19:28:37Z",
-      "pushedAt": "2026-09-23T15:31:54Z",
+      "updatedAt": "2026-09-23T23:24:32Z",
+      "pushedAt": "2026-09-23T20:09:48Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9337673844032017
+      "score": 0.933769212193851
     },
     {
       "owner": "xai-org",
@@ -339,17 +339,17 @@
       "fullName": "xai-org/grok-build",
       "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
       "homepage": "",
-      "stars": 27050,
-      "forks": 5100,
-      "watchers": 27050,
+      "stars": 27051,
+      "forks": 5102,
+      "watchers": 27051,
       "openIssues": 0,
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-07-14T20:04:23Z",
-      "updatedAt": "2026-09-23T19:54:23Z",
+      "updatedAt": "2026-09-23T20:02:52Z",
       "pushedAt": "2026-09-23T16:52:48Z",
       "starredAt": "2026-07-15T23:45:16Z",
-      "score": 0.926218501568014
+      "score": 0.9262197859167027
     }
   ],
   "recentlyStarred": [
@@ -359,10 +359,10 @@
       "fullName": "omacom/omarchy-mac",
       "description": "Opinionated Arch/Hyprland Setup for Apple Silicon Macs M1/M2 ",
       "homepage": "https://discord.gg/KNQRk7dMzy",
-      "stars": 1822,
+      "stars": 1823,
       "forks": 93,
-      "watchers": 1822,
-      "openIssues": 170,
+      "watchers": 1823,
+      "openIssues": 171,
       "language": "Shell",
       "topics": [
         "applesilicon",
@@ -373,10 +373,10 @@
         "omarchy-mac"
       ],
       "createdAt": "2025-07-26T22:58:09Z",
-      "updatedAt": "2026-09-23T18:22:11Z",
+      "updatedAt": "2026-09-23T23:00:27Z",
       "pushedAt": "2026-09-23T19:19:14Z",
       "starredAt": "2026-09-22T03:23:25Z",
-      "score": 0.8604519745882886
+      "score": 0.8604710278152823
     },
     {
       "owner": "waydroid",
@@ -384,9 +384,9 @@
       "fullName": "waydroid/waydroid",
       "description": "Waydroid uses a container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu.",
       "homepage": "https://waydro.id",
-      "stars": 12248,
+      "stars": 12254,
       "forks": 535,
-      "watchers": 12248,
+      "watchers": 12254,
       "openIssues": 955,
       "language": "Python",
       "topics": [
@@ -394,10 +394,10 @@
         "linux"
       ],
       "createdAt": "2021-04-16T02:02:14Z",
-      "updatedAt": "2026-09-23T18:45:35Z",
+      "updatedAt": "2026-09-23T23:23:32Z",
       "pushedAt": "2026-09-06T12:52:47Z",
       "starredAt": "2026-09-20T13:35:17Z",
-      "score": 0.9118425713193579
+      "score": 0.9118595857949928
     },
     {
       "owner": "Tencent",
@@ -405,10 +405,10 @@
       "fullName": "Tencent/BrowserSkill",
       "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
       "homepage": "",
-      "stars": 6892,
+      "stars": 6908,
       "forks": 499,
-      "watchers": 6892,
-      "openIssues": 53,
+      "watchers": 6908,
+      "openIssues": 54,
       "language": "TypeScript",
       "topics": [
         "agent",
@@ -416,10 +416,10 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-06-22T07:24:40Z",
-      "updatedAt": "2026-09-23T19:41:38Z",
+      "updatedAt": "2026-09-23T22:52:06Z",
       "pushedAt": "2026-09-23T13:06:53Z",
       "starredAt": "2026-09-18T04:32:49Z",
-      "score": 0.905017867758987
+      "score": 0.9050984208941635
     },
     {
       "owner": "opencoredev",
@@ -427,17 +427,17 @@
       "fullName": "opencoredev/bg0",
       "description": "Private, unlimited background removal that runs in your browser.",
       "homepage": "https://bg0.dev",
-      "stars": 333,
+      "stars": 334,
       "forks": 33,
-      "watchers": 333,
+      "watchers": 334,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-09-14T16:42:22Z",
-      "updatedAt": "2026-09-23T19:15:31Z",
+      "updatedAt": "2026-09-23T23:22:16Z",
       "pushedAt": "2026-09-23T12:51:30Z",
       "starredAt": "2026-09-15T18:07:56Z",
-      "score": 0.7986120461120484
+      "score": 0.7987159133300709
     },
     {
       "owner": "x64dbg",
@@ -484,17 +484,17 @@
       "fullName": "TanStack/redact",
       "description": "An alternative logical projection of React with 100% API compliancy but simpler implementation resulting in smaller bundle size and better performance.",
       "homepage": "",
-      "stars": 283,
+      "stars": 287,
       "forks": 8,
-      "watchers": 283,
+      "watchers": 287,
       "openIssues": 4,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-04-20T02:36:25Z",
-      "updatedAt": "2026-09-23T19:26:56Z",
+      "updatedAt": "2026-09-23T22:31:42Z",
       "pushedAt": "2026-09-12T15:47:56Z",
       "starredAt": "2026-09-12T05:55:37Z",
-      "score": 0.7827038233681466
+      "score": 0.783189755185122
     },
     {
       "owner": "oreo-design",
@@ -561,9 +561,9 @@
       "fullName": "dmmulroy/anti-slop",
       "description": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
       "homepage": "",
-      "stars": 4914,
+      "stars": 4921,
       "forks": 110,
-      "watchers": 4914,
+      "watchers": 4921,
       "openIssues": 4,
       "language": "TypeScript",
       "topics": [
@@ -573,10 +573,10 @@
         "typescript"
       ],
       "createdAt": "2026-08-12T13:48:50Z",
-      "updatedAt": "2026-09-23T19:41:32Z",
+      "updatedAt": "2026-09-23T23:08:40Z",
       "pushedAt": "2026-09-10T13:53:24Z",
       "starredAt": "2026-08-18T17:05:13Z",
-      "score": 0.8698424297186579
+      "score": 0.8698918766945481
     }
   ]
 }
