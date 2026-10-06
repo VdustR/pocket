@@ -1,12 +1,12 @@
 {
   "totalRepos": 1659,
-  "totalStars": 28995878,
+  "totalStars": 28998661,
   "languageDistribution": {
     "TypeScript": 611,
     "C++": 63,
     "C": 39,
-    "Batchfile": 1,
     "Go": 66,
+    "Batchfile": 1,
     "Python": 98,
     "Swift": 15,
     "Shell": 35,
@@ -66,9 +66,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 243926,
-      "forks": 29222,
-      "watchers": 243926,
+      "stars": 244009,
+      "forks": 29233,
+      "watchers": 244009,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -78,7 +78,7 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-10-05T18:07:07Z",
+      "updatedAt": "2026-10-06T00:39:02Z",
       "pushedAt": "2026-10-03T06:02:48Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9765753424657534
@@ -89,9 +89,9 @@
       "fullName": "x64dbg/x64dbg",
       "description": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.",
       "homepage": "http://x64dbg.com",
-      "stars": 49695,
-      "forks": 2850,
-      "watchers": 49695,
+      "stars": 49697,
+      "forks": 2851,
+      "watchers": 49697,
       "openIssues": 577,
       "language": "C++",
       "topics": [
@@ -117,10 +117,10 @@
         "x86-64"
       ],
       "createdAt": "2015-04-11T20:48:23Z",
-      "updatedAt": "2026-10-05T17:30:57Z",
+      "updatedAt": "2026-10-05T22:44:36Z",
       "pushedAt": "2026-10-01T13:08:29Z",
       "starredAt": "2026-09-12T14:51:27Z",
-      "score": 0.9629659886964799
+      "score": 0.9629673869120082
     },
     {
       "owner": "Genymobile",
@@ -128,10 +128,10 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 151078,
-      "forks": 13876,
-      "watchers": 151078,
-      "openIssues": 2916,
+      "stars": 151120,
+      "forks": 13877,
+      "watchers": 151120,
+      "openIssues": 2915,
       "language": "C",
       "topics": [
         "android",
@@ -145,10 +145,36 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-10-05T17:53:22Z",
-      "pushedAt": "2026-10-05T10:31:09Z",
+      "updatedAt": "2026-10-06T00:34:41Z",
+      "pushedAt": "2026-10-05T21:19:08Z",
       "starredAt": "2026-05-24T02:27:27Z",
       "score": 0.944931506849315
+    },
+    {
+      "owner": "binwiederhier",
+      "name": "ntfy",
+      "fullName": "binwiederhier/ntfy",
+      "description": "Send push notifications to your phone or desktop using PUT/POST",
+      "homepage": "https://ntfy.sh",
+      "stars": 34638,
+      "forks": 1636,
+      "watchers": 34638,
+      "openIssues": 411,
+      "language": "Go",
+      "topics": [
+        "curl",
+        "notifications",
+        "ntfy",
+        "ntfysh",
+        "pubsub",
+        "push-notifications",
+        "rest-api"
+      ],
+      "createdAt": "2021-10-23T19:25:32Z",
+      "updatedAt": "2026-10-05T22:12:14Z",
+      "pushedAt": "2026-10-06T00:32:22Z",
+      "starredAt": "2026-07-31T01:58:32Z",
+      "score": 0.9360419399923487
     },
     {
       "owner": "massgravel",
@@ -156,9 +182,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 193441,
-      "forks": 18350,
-      "watchers": 193441,
+      "stars": 193464,
+      "forks": 18354,
+      "watchers": 193464,
       "openIssues": 3,
       "language": "Batchfile",
       "topics": [
@@ -180,36 +206,10 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-10-05T17:53:15Z",
+      "updatedAt": "2026-10-06T00:11:54Z",
       "pushedAt": "2026-09-10T22:33:44Z",
       "starredAt": "2026-06-20T21:47:10Z",
-      "score": 0.9367123287671233
-    },
-    {
-      "owner": "binwiederhier",
-      "name": "ntfy",
-      "fullName": "binwiederhier/ntfy",
-      "description": "Send push notifications to your phone or desktop using PUT/POST",
-      "homepage": "https://ntfy.sh",
-      "stars": 34633,
-      "forks": 1636,
-      "watchers": 34633,
-      "openIssues": 414,
-      "language": "Go",
-      "topics": [
-        "curl",
-        "notifications",
-        "ntfy",
-        "ntfysh",
-        "pubsub",
-        "push-notifications",
-        "rest-api"
-      ],
-      "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-10-05T17:02:29Z",
-      "pushedAt": "2026-10-05T02:25:03Z",
-      "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.9360369245377542
+      "score": 0.9354794520547944
     },
     {
       "owner": "nexu-io",
@@ -217,10 +217,10 @@
       "fullName": "nexu-io/open-design",
       "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
       "homepage": "https://open-design.ai",
-      "stars": 99538,
-      "forks": 11505,
-      "watchers": 99538,
-      "openIssues": 1155,
+      "stars": 99568,
+      "forks": 11507,
+      "watchers": 99568,
+      "openIssues": 1154,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -245,10 +245,10 @@
         "vibe-coding"
       ],
       "createdAt": "2026-04-28T04:25:20Z",
-      "updatedAt": "2026-10-05T18:03:56Z",
-      "pushedAt": "2026-10-05T01:37:31Z",
+      "updatedAt": "2026-10-06T00:37:46Z",
+      "pushedAt": "2026-10-05T18:19:09Z",
       "starredAt": "2026-04-29T16:13:56Z",
-      "score": 0.9344969961162874
+      "score": 0.934507465879074
     },
     {
       "owner": "NousResearch",
@@ -256,10 +256,10 @@
       "fullName": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
-      "stars": 251395,
-      "forks": 53985,
-      "watchers": 251395,
-      "openIssues": 48127,
+      "stars": 251446,
+      "forks": 54002,
+      "watchers": 251446,
+      "openIssues": 48049,
       "language": "Python",
       "topics": [
         "ai",
@@ -277,8 +277,8 @@
         "openai"
       ],
       "createdAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-10-05T18:05:26Z",
-      "pushedAt": "2026-10-05T18:05:05Z",
+      "updatedAt": "2026-10-06T00:39:38Z",
+      "pushedAt": "2026-10-06T00:38:55Z",
       "starredAt": "2026-04-25T13:46:18Z",
       "score": 0.933013698630137
     },
@@ -288,17 +288,17 @@
       "fullName": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "homepage": "https://apple.github.io/container/documentation/",
-      "stars": 50508,
-      "forks": 1804,
-      "watchers": 50508,
-      "openIssues": 565,
+      "stars": 50512,
+      "forks": 1806,
+      "watchers": 50512,
+      "openIssues": 564,
       "language": "Swift",
       "topics": [],
       "createdAt": "2025-05-30T21:26:05Z",
-      "updatedAt": "2026-10-05T17:44:00Z",
-      "pushedAt": "2026-10-02T20:18:04Z",
+      "updatedAt": "2026-10-05T23:32:58Z",
+      "pushedAt": "2026-10-05T22:52:37Z",
       "starredAt": "2026-06-17T12:16:32Z",
-      "score": 0.9294201865506362
+      "score": 0.9310667735328024
     },
     {
       "owner": "caddyserver",
@@ -306,10 +306,10 @@
       "fullName": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "homepage": "https://caddyserver.com",
-      "stars": 76976,
-      "forks": 5068,
-      "watchers": 76976,
-      "openIssues": 286,
+      "stars": 77109,
+      "forks": 5073,
+      "watchers": 77109,
+      "openIssues": 280,
       "language": "Go",
       "topics": [
         "acme",
@@ -329,10 +329,10 @@
         "web-server"
       ],
       "createdAt": "2015-01-13T19:45:03Z",
-      "updatedAt": "2026-10-05T18:04:20Z",
-      "pushedAt": "2026-10-05T15:32:12Z",
+      "updatedAt": "2026-10-06T00:39:04Z",
+      "pushedAt": "2026-10-05T22:54:40Z",
       "starredAt": "2026-05-08T15:58:57Z",
-      "score": 0.9292650429010375
+      "score": 0.9293250206335524
     },
     {
       "owner": "hacksider",
@@ -340,9 +340,9 @@
       "fullName": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
-      "stars": 96920,
-      "forks": 14121,
-      "watchers": 96920,
+      "stars": 96917,
+      "forks": 14123,
+      "watchers": 96917,
       "openIssues": 46,
       "language": "Python",
       "topics": [
@@ -366,10 +366,10 @@
         "webcamera"
       ],
       "createdAt": "2023-09-24T13:19:31Z",
-      "updatedAt": "2026-10-05T17:52:59Z",
+      "updatedAt": "2026-10-05T21:28:58Z",
       "pushedAt": "2026-10-05T00:58:03Z",
       "starredAt": "2026-03-28T02:18:00Z",
-      "score": 0.9204202802271235
+      "score": 0.9204192047915748
     }
   ],
   "recentlyStarred": [
@@ -379,17 +379,17 @@
       "fullName": "Droid-Deck/DroidDeck",
       "description": "DroidDeck brings the SteamOS experience to Android",
       "homepage": "",
-      "stars": 1829,
-      "forks": 60,
-      "watchers": 1829,
+      "stars": 1933,
+      "forks": 64,
+      "watchers": 1933,
       "openIssues": 79,
       "language": "C",
       "topics": [],
       "createdAt": "2026-09-24T15:14:13Z",
-      "updatedAt": "2026-10-05T18:06:38Z",
-      "pushedAt": "2026-10-05T17:59:37Z",
+      "updatedAt": "2026-10-06T00:36:47Z",
+      "pushedAt": "2026-10-06T00:32:54Z",
       "starredAt": "2026-10-05T15:31:32Z",
-      "score": 0.8609960871784343
+      "score": 0.8629165175797586
     },
     {
       "owner": "ggfto",
@@ -397,9 +397,9 @@
       "fullName": "ggfto/DroidDeck",
       "description": "Turn an Android phone into a Stream Deck for Windows: hotkeys, macros, per-app audio mixer, media, live CPU/GPU stats, Discord, OBS, soundboard and Tuya smart home. Flutter app + .NET 8 tray server.",
       "homepage": "https://me.gf2.in/DroidDeck/",
-      "stars": 62,
+      "stars": 63,
       "forks": 2,
-      "watchers": 62,
+      "watchers": 63,
       "openIssues": 0,
       "language": "C#",
       "topics": [
@@ -425,10 +425,10 @@
         "windows"
       ],
       "createdAt": "2021-04-01T00:45:38Z",
-      "updatedAt": "2026-10-05T16:31:51Z",
-      "pushedAt": "2026-10-02T14:28:44Z",
+      "updatedAt": "2026-10-05T23:20:28Z",
+      "pushedAt": "2026-10-05T19:00:22Z",
       "starredAt": "2026-10-05T14:49:57Z",
-      "score": 0.7414814905316289
+      "score": 0.7444943979187109
     },
     {
       "owner": "keshav-exe",
@@ -436,9 +436,9 @@
       "fullName": "keshav-exe/mdxcn",
       "description": "mdxcn is a free, open-source set of callouts, steps, terminals, charts, and timelines for mdx. copy any component with the shadcn cli.",
       "homepage": "https://mdxcn.dev",
-      "stars": 376,
+      "stars": 377,
       "forks": 5,
-      "watchers": 376,
+      "watchers": 377,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -451,10 +451,10 @@
         "ui-library"
       ],
       "createdAt": "2026-08-27T15:01:28Z",
-      "updatedAt": "2026-10-05T14:57:14Z",
+      "updatedAt": "2026-10-05T23:50:46Z",
       "pushedAt": "2026-10-02T20:38:32Z",
       "starredAt": "2026-09-24T16:37:23Z",
-      "score": 0.7999429244548196
+      "score": 0.799213042617115
     },
     {
       "owner": "Warren2060",
@@ -483,7 +483,7 @@
       "stars": 1906,
       "forks": 99,
       "watchers": 1906,
-      "openIssues": 208,
+      "openIssues": 207,
       "language": "Shell",
       "topics": [
         "applesilicon",
@@ -505,20 +505,20 @@
       "fullName": "waydroid/waydroid",
       "description": "Waydroid uses a container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu.",
       "homepage": "https://waydro.id",
-      "stars": 12319,
+      "stars": 12323,
       "forks": 543,
-      "watchers": 12319,
-      "openIssues": 960,
+      "watchers": 12323,
+      "openIssues": 961,
       "language": "Python",
       "topics": [
         "android",
         "linux"
       ],
       "createdAt": "2021-04-16T02:02:14Z",
-      "updatedAt": "2026-10-05T18:07:18Z",
+      "updatedAt": "2026-10-05T21:33:40Z",
       "pushedAt": "2026-09-26T16:51:54Z",
       "starredAt": "2026-09-20T13:35:17Z",
-      "score": 0.9136872127906561
+      "score": 0.9136984913359758
     },
     {
       "owner": "Tencent",
@@ -526,9 +526,9 @@
       "fullName": "Tencent/BrowserSkill",
       "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
       "homepage": "",
-      "stars": 8163,
+      "stars": 8167,
       "forks": 584,
-      "watchers": 8163,
+      "watchers": 8167,
       "openIssues": 72,
       "language": "TypeScript",
       "topics": [
@@ -537,10 +537,10 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-06-22T07:24:40Z",
-      "updatedAt": "2026-10-05T17:32:22Z",
+      "updatedAt": "2026-10-05T22:38:12Z",
       "pushedAt": "2026-09-30T04:52:55Z",
       "starredAt": "2026-09-18T04:32:49Z",
-      "score": 0.9018563492725638
+      "score": 0.9018733679153494
     },
     {
       "owner": "opencoredev",
@@ -558,7 +558,7 @@
       "updatedAt": "2026-10-05T15:36:12Z",
       "pushedAt": "2026-09-29T19:08:20Z",
       "starredAt": "2026-09-15T18:07:56Z",
-      "score": 0.7921004600252295
+      "score": 0.7908675833129006
     },
     {
       "owner": "x64dbg",
@@ -566,9 +566,9 @@
       "fullName": "x64dbg/x64dbg",
       "description": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.",
       "homepage": "http://x64dbg.com",
-      "stars": 49695,
-      "forks": 2850,
-      "watchers": 49695,
+      "stars": 49697,
+      "forks": 2851,
+      "watchers": 49697,
       "openIssues": 577,
       "language": "C++",
       "topics": [
@@ -594,10 +594,10 @@
         "x86-64"
       ],
       "createdAt": "2015-04-11T20:48:23Z",
-      "updatedAt": "2026-10-05T17:30:57Z",
+      "updatedAt": "2026-10-05T22:44:36Z",
       "pushedAt": "2026-10-01T13:08:29Z",
       "starredAt": "2026-09-12T14:51:27Z",
-      "score": 0.9629659886964799
+      "score": 0.9629673869120082
     },
     {
       "owner": "TanStack",
@@ -615,7 +615,7 @@
       "updatedAt": "2026-10-05T08:18:33Z",
       "pushedAt": "2026-10-04T19:46:32Z",
       "starredAt": "2026-09-12T05:55:37Z",
-      "score": 0.7928612812276918
+      "score": 0.7920393634194727
     }
   ]
 }
