@@ -1,18 +1,18 @@
 {
   "totalRepos": 1686,
-  "totalStars": 29786772,
+  "totalStars": 29792747,
   "languageDistribution": {
     "TypeScript": 622,
     "C++": 63,
-    "Swift": 16,
     "Rust": 67,
+    "Swift": 16,
     "Batchfile": 1,
-    "C": 39,
+    "C": 40,
     "Kotlin": 8,
     "Go": 69,
     "Python": 102,
-    "Shell": 35,
     "JavaScript": 357,
+    "Shell": 35,
     "Haxe": 4,
     "Java": 11,
     "Zig": 2,
@@ -65,10 +65,10 @@
       "fullName": "videojs/video.js",
       "description": "Video.js v10 - open source media player framework for HTML and React.",
       "homepage": "https://videojs.org",
-      "stars": 40164,
-      "forks": 7494,
-      "watchers": 40164,
-      "openIssues": 212,
+      "stars": 40165,
+      "forks": 7495,
+      "watchers": 40165,
+      "openIssues": 213,
       "language": "TypeScript",
       "topics": [
         "dash",
@@ -87,10 +87,10 @@
         "vue"
       ],
       "createdAt": "2010-05-14T18:45:10Z",
-      "updatedAt": "2026-11-11T20:31:50Z",
-      "pushedAt": "2026-11-12T00:00:33Z",
+      "updatedAt": "2026-11-12T06:05:16Z",
+      "pushedAt": "2026-11-12T02:43:21Z",
       "starredAt": "2026-11-09T05:30:30Z",
-      "score": 0.9674859038957349
+      "score": 0.9670758100016101
     },
     {
       "owner": "deepseek-ai",
@@ -98,9 +98,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 279031,
-      "forks": 34329,
-      "watchers": 279031,
+      "stars": 279383,
+      "forks": 34391,
+      "watchers": 279383,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -110,7 +110,7 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-11-12T01:21:14Z",
+      "updatedAt": "2026-11-12T09:28:07Z",
       "pushedAt": "2026-11-11T11:32:04Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.963013698630137
@@ -121,9 +121,9 @@
       "fullName": "x64dbg/x64dbg",
       "description": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.",
       "homepage": "http://x64dbg.com",
-      "stars": 50280,
-      "forks": 2943,
-      "watchers": 50280,
+      "stars": 50284,
+      "forks": 2942,
+      "watchers": 50284,
       "openIssues": 576,
       "language": "C++",
       "topics": [
@@ -149,33 +149,10 @@
         "x86-64"
       ],
       "createdAt": "2015-04-11T20:48:23Z",
-      "updatedAt": "2026-11-12T01:13:00Z",
+      "updatedAt": "2026-11-12T06:12:37Z",
       "pushedAt": "2026-11-09T10:38:38Z",
       "starredAt": "2026-09-12T14:51:27Z",
-      "score": 0.9498109426527908
-    },
-    {
-      "owner": "steipete",
-      "name": "CodexBar",
-      "fullName": "steipete/CodexBar",
-      "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
-      "homepage": "https://codex.bar",
-      "stars": 23123,
-      "forks": 2222,
-      "watchers": 23123,
-      "openIssues": 59,
-      "language": "Swift",
-      "topics": [
-        "ai",
-        "claude-code",
-        "codex",
-        "swift"
-      ],
-      "createdAt": "2025-11-16T17:00:44Z",
-      "updatedAt": "2026-11-12T00:56:05Z",
-      "pushedAt": "2026-11-08T03:49:00Z",
-      "starredAt": "2026-11-03T03:44:51Z",
-      "score": 0.943371612198712
+      "score": 0.9498137064941345
     },
     {
       "owner": "vercel-labs",
@@ -183,10 +160,10 @@
       "fullName": "vercel-labs/agent-desktop",
       "description": "Computer use CLI for AI agents",
       "homepage": "https://agent-browser.dev/desktop",
-      "stars": 22097,
-      "forks": 1646,
-      "watchers": 22097,
-      "openIssues": 220,
+      "stars": 22385,
+      "forks": 1662,
+      "watchers": 22385,
+      "openIssues": 221,
       "language": "Rust",
       "topics": [
         "accessibility",
@@ -203,10 +180,33 @@
         "rust"
       ],
       "createdAt": "2026-02-19T18:00:49Z",
-      "updatedAt": "2026-11-12T01:20:34Z",
+      "updatedAt": "2026-11-12T09:27:16Z",
       "pushedAt": "2026-11-11T06:09:45Z",
       "starredAt": "2026-10-31T01:00:28Z",
-      "score": 0.9426167306897695
+      "score": 0.9422446952964236
+    },
+    {
+      "owner": "steipete",
+      "name": "CodexBar",
+      "fullName": "steipete/CodexBar",
+      "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+      "homepage": "https://codex.bar",
+      "stars": 23126,
+      "forks": 2224,
+      "watchers": 23126,
+      "openIssues": 59,
+      "language": "Swift",
+      "topics": [
+        "ai",
+        "claude-code",
+        "codex",
+        "swift"
+      ],
+      "createdAt": "2025-11-16T17:00:44Z",
+      "updatedAt": "2026-11-12T08:51:35Z",
+      "pushedAt": "2026-11-08T03:49:00Z",
+      "starredAt": "2026-11-03T03:44:51Z",
+      "score": 0.9421432426613979
     },
     {
       "owner": "massgravel",
@@ -214,10 +214,10 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 198606,
-      "forks": 18796,
-      "watchers": 198606,
-      "openIssues": 4,
+      "stars": 198653,
+      "forks": 18799,
+      "watchers": 198653,
+      "openIssues": 6,
       "language": "Batchfile",
       "topics": [
         "activator",
@@ -238,7 +238,7 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-11-12T01:20:50Z",
+      "updatedAt": "2026-11-12T09:27:18Z",
       "pushedAt": "2026-11-11T14:30:12Z",
       "starredAt": "2026-06-20T21:47:10Z",
       "score": 0.9408219178082191
@@ -249,17 +249,17 @@
       "fullName": "deepseek-ai/dsh-superagent-prototype",
       "description": "Towards a More Autonomous Agent System",
       "homepage": "",
-      "stars": 22497,
-      "forks": 2731,
-      "watchers": 22497,
+      "stars": 22636,
+      "forks": 2749,
+      "watchers": 22636,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-10-31T09:32:46Z",
-      "updatedAt": "2026-11-12T01:21:34Z",
+      "updatedAt": "2026-11-12T09:27:37Z",
       "pushedAt": "2026-11-03T09:29:14Z",
       "starredAt": "2026-10-31T16:56:13Z",
-      "score": 0.9370756225843677
+      "score": 0.9372896192568589
     },
     {
       "owner": "Genymobile",
@@ -267,9 +267,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 154595,
-      "forks": 14187,
-      "watchers": 154595,
+      "stars": 154627,
+      "forks": 14190,
+      "watchers": 154627,
       "openIssues": 2949,
       "language": "C",
       "topics": [
@@ -284,10 +284,10 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-11-12T01:21:45Z",
+      "updatedAt": "2026-11-12T09:27:18Z",
       "pushedAt": "2026-11-10T20:17:35Z",
       "starredAt": "2026-05-24T02:27:27Z",
-      "score": 0.9289041095890411
+      "score": 0.9284931506849314
     },
     {
       "owner": "Droid-Deck",
@@ -295,17 +295,17 @@
       "fullName": "Droid-Deck/DroidDeck",
       "description": "DroidDeck brings the SteamOS experience to Android",
       "homepage": "",
-      "stars": 19499,
-      "forks": 989,
-      "watchers": 19499,
-      "openIssues": 598,
+      "stars": 19589,
+      "forks": 993,
+      "watchers": 19589,
+      "openIssues": 587,
       "language": "Kotlin",
       "topics": [],
       "createdAt": "2026-09-24T15:14:13Z",
-      "updatedAt": "2026-11-12T01:17:56Z",
-      "pushedAt": "2026-11-12T00:13:49Z",
+      "updatedAt": "2026-11-12T09:18:25Z",
+      "pushedAt": "2026-11-12T07:10:37Z",
       "starredAt": "2026-10-05T15:31:32Z",
-      "score": 0.9279972894569466
+      "score": 0.9281572754275241
     },
     {
       "owner": "binwiederhier",
@@ -313,10 +313,10 @@
       "fullName": "binwiederhier/ntfy",
       "description": "Send push notifications to your phone or desktop using PUT/POST",
       "homepage": "https://ntfy.sh",
-      "stars": 35489,
-      "forks": 1708,
-      "watchers": 35489,
-      "openIssues": 376,
+      "stars": 35493,
+      "forks": 1709,
+      "watchers": 35493,
+      "openIssues": 377,
       "language": "Go",
       "topics": [
         "curl",
@@ -328,10 +328,10 @@
         "rest-api"
       ],
       "createdAt": "2021-10-23T19:25:32Z",
-      "updatedAt": "2026-11-11T22:36:10Z",
+      "updatedAt": "2026-11-12T06:47:53Z",
       "pushedAt": "2026-11-11T06:58:21Z",
       "starredAt": "2026-07-31T01:58:32Z",
-      "score": 0.9216797128245198
+      "score": 0.9204507517617558
     }
   ],
   "recentlyStarred": [
@@ -359,9 +359,9 @@
       "fullName": "deepnight/ldtk",
       "description": "Modern, lightweight and efficient 2D level editor",
       "homepage": "https://ldtk.io",
-      "stars": 4900,
-      "forks": 321,
-      "watchers": 4900,
+      "stars": 4908,
+      "forks": 322,
+      "watchers": 4908,
       "openIssues": 391,
       "language": "Haxe",
       "topics": [
@@ -373,10 +373,10 @@
         "level-editor"
       ],
       "createdAt": "2020-05-29T09:39:23Z",
-      "updatedAt": "2026-11-12T01:19:21Z",
+      "updatedAt": "2026-11-12T08:39:18Z",
       "pushedAt": "2026-11-05T18:22:31Z",
       "starredAt": "2026-11-10T15:44:39Z",
-      "score": 0.8898803104475856
+      "score": 0.8899369768145649
     },
     {
       "owner": "jdx",
@@ -387,12 +387,12 @@
       "stars": 2379,
       "forks": 121,
       "watchers": 2379,
-      "openIssues": 2,
+      "openIssues": 5,
       "language": "Rust",
       "topics": [],
       "createdAt": "2025-10-18T11:19:04Z",
-      "updatedAt": "2026-11-11T22:17:32Z",
-      "pushedAt": "2026-11-12T00:14:56Z",
+      "updatedAt": "2026-11-12T03:14:31Z",
+      "pushedAt": "2026-11-12T04:05:30Z",
       "starredAt": "2026-11-10T09:36:55Z",
       "score": 0.8697151976604114
     },
@@ -402,9 +402,9 @@
       "fullName": "github/relative-time-element",
       "description": "Web component extensions to the standard <time> element.",
       "homepage": "https://github.github.io/relative-time-element/examples/",
-      "stars": 4061,
+      "stars": 4062,
       "forks": 200,
-      "watchers": 4061,
+      "watchers": 4062,
       "openIssues": 22,
       "language": "JavaScript",
       "topics": [
@@ -415,10 +415,10 @@
         "web-components"
       ],
       "createdAt": "2014-04-22T17:51:39Z",
-      "updatedAt": "2026-11-11T07:16:02Z",
+      "updatedAt": "2026-11-12T06:40:57Z",
       "pushedAt": "2026-11-08T22:51:10Z",
       "starredAt": "2026-11-09T12:59:05Z",
-      "score": 0.8854115222926264
+      "score": 0.8854200745532361
     },
     {
       "owner": "videojs",
@@ -426,10 +426,10 @@
       "fullName": "videojs/video.js",
       "description": "Video.js v10 - open source media player framework for HTML and React.",
       "homepage": "https://videojs.org",
-      "stars": 40164,
-      "forks": 7494,
-      "watchers": 40164,
-      "openIssues": 212,
+      "stars": 40165,
+      "forks": 7495,
+      "watchers": 40165,
+      "openIssues": 213,
       "language": "TypeScript",
       "topics": [
         "dash",
@@ -448,10 +448,10 @@
         "vue"
       ],
       "createdAt": "2010-05-14T18:45:10Z",
-      "updatedAt": "2026-11-11T20:31:50Z",
-      "pushedAt": "2026-11-12T00:00:33Z",
+      "updatedAt": "2026-11-12T06:05:16Z",
+      "pushedAt": "2026-11-12T02:43:21Z",
       "starredAt": "2026-11-09T05:30:30Z",
-      "score": 0.9674859038957349
+      "score": 0.9670758100016101
     },
     {
       "owner": "Minireel",
@@ -459,10 +459,10 @@
       "fullName": "Minireel/HGhub",
       "description": "YellowFruit third-party client",
       "homepage": "",
-      "stars": 8293,
-      "forks": 3994,
-      "watchers": 8293,
-      "openIssues": 18,
+      "stars": 8372,
+      "forks": 4335,
+      "watchers": 8372,
+      "openIssues": 17,
       "language": null,
       "topics": [
         "android",
@@ -473,10 +473,10 @@
         "windows"
       ],
       "createdAt": "2026-11-03T14:04:27Z",
-      "updatedAt": "2026-11-12T01:20:20Z",
+      "updatedAt": "2026-11-12T09:21:53Z",
       "pushedAt": "2026-11-10T13:42:26Z",
       "starredAt": "2026-11-08T16:33:22Z",
-      "score": 0.911446327961692
+      "score": 0.9117756927761156
     },
     {
       "owner": "notofonts",
@@ -484,17 +484,17 @@
       "fullName": "notofonts/noto-cjk",
       "description": "Noto CJK fonts",
       "homepage": "http://www.google.com/get/noto/help/cjk",
-      "stars": 4153,
+      "stars": 4154,
       "forks": 278,
-      "watchers": 4153,
+      "watchers": 4154,
       "openIssues": 78,
       "language": "Python",
       "topics": [],
       "createdAt": "2015-06-05T00:46:19Z",
-      "updatedAt": "2026-11-11T16:11:21Z",
+      "updatedAt": "2026-11-12T03:11:45Z",
       "pushedAt": "2025-12-16T05:18:51Z",
       "starredAt": "2026-11-08T07:20:47Z",
-      "score": 0.6170115659512689
+      "score": 0.6157870521126241
     },
     {
       "owner": "quint-co",
@@ -502,10 +502,10 @@
       "fullName": "quint-co/quint",
       "description": "An executable specification language  with delightful tooling based on the temporal logic of actions (TLA)",
       "homepage": "https://quint.sh",
-      "stars": 2078,
+      "stars": 2081,
       "forks": 163,
-      "watchers": 2078,
-      "openIssues": 258,
+      "watchers": 2081,
+      "openIssues": 259,
       "language": "TypeScript",
       "topics": [
         "apalache",
@@ -519,10 +519,10 @@
         "verification"
       ],
       "createdAt": "2021-05-28T14:01:41Z",
-      "updatedAt": "2026-11-11T21:02:56Z",
+      "updatedAt": "2026-11-12T08:51:56Z",
       "pushedAt": "2026-11-03T20:21:16Z",
       "starredAt": "2026-11-07T11:41:25Z",
-      "score": 0.8572091810643259
+      "score": 0.8572592799317698
     },
     {
       "owner": "anomalyco",
@@ -530,17 +530,17 @@
       "fullName": "anomalyco/rune",
       "description": "Rune: Native UI framework",
       "homepage": "",
-      "stars": 6661,
-      "forks": 239,
-      "watchers": 6661,
-      "openIssues": 327,
+      "stars": 6758,
+      "forks": 243,
+      "watchers": 6758,
+      "openIssues": 336,
       "language": "Rust",
       "topics": [],
       "createdAt": "2026-10-22T05:51:40Z",
-      "updatedAt": "2026-11-12T01:19:02Z",
-      "pushedAt": "2026-11-12T01:18:36Z",
+      "updatedAt": "2026-11-12T09:26:18Z",
+      "pushedAt": "2026-11-12T09:28:15Z",
       "starredAt": "2026-11-06T06:15:42Z",
-      "score": 0.9038335757478647
+      "score": 0.9039248422908219
     },
     {
       "owner": "steipete",
@@ -548,9 +548,9 @@
       "fullName": "steipete/CodexBar",
       "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
       "homepage": "https://codex.bar",
-      "stars": 23123,
-      "forks": 2222,
-      "watchers": 23123,
+      "stars": 23126,
+      "forks": 2224,
+      "watchers": 23126,
       "openIssues": 59,
       "language": "Swift",
       "topics": [
@@ -560,10 +560,10 @@
         "swift"
       ],
       "createdAt": "2025-11-16T17:00:44Z",
-      "updatedAt": "2026-11-12T00:56:05Z",
+      "updatedAt": "2026-11-12T08:51:35Z",
       "pushedAt": "2026-11-08T03:49:00Z",
       "starredAt": "2026-11-03T03:44:51Z",
-      "score": 0.943371612198712
+      "score": 0.9421432426613979
     }
   ]
 }
