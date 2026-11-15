@@ -26,7 +26,7 @@ A curated collection of my GitHub starred repositories — searchable, filterabl
 
 Requirements:
 
-- Node.js >= 22
+- Node.js >= 22.23.4
 - pnpm >= 9
 
 ```bash
