@@ -1,15 +1,15 @@
 {
   "totalRepos": 1694,
-  "totalStars": 30111317,
+  "totalStars": 30117924,
   "languageDistribution": {
     "JavaScript": 358,
-    "TypeScript": 626,
-    "C++": 63,
+    "TypeScript": 627,
+    "C++": 64,
     "Rust": 68,
     "Swift": 17,
     "Kotlin": 8,
     "Batchfile": 1,
-    "C": 41,
+    "C": 40,
     "Go": 70,
     "Python": 103,
     "Shell": 33,
@@ -17,7 +17,7 @@
     "Java": 11,
     "Zig": 2,
     "HTML": 36,
-    "Dart": 7,
+    "Dart": 6,
     "C#": 25,
     "Vue": 11,
     "Vim Script": 3,
@@ -34,8 +34,8 @@
     "CMake": 1,
     "Jupyter Notebook": 5,
     "PowerShell": 1,
-    "Assembly": 5,
     "PHP": 5,
+    "Assembly": 5,
     "GDScript": 3,
     "Dockerfile": 4,
     "Mermaid": 1,
@@ -63,12 +63,12 @@
       "owner": "tt-a1i",
       "name": "archify",
       "fullName": "tt-a1i/archify",
-      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "description": "Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architecture Diagnosis, Story video and PR walkthroughs. An Agent Skill for Claude Code, Codex, Cursor and more.",
       "homepage": "https://archify.si",
-      "stars": 99737,
-      "forks": 6826,
-      "watchers": 99737,
-      "openIssues": 368,
+      "stars": 99882,
+      "forks": 6831,
+      "watchers": 99882,
+      "openIssues": 362,
       "language": "JavaScript",
       "topics": [
         "agent-skills",
@@ -76,6 +76,7 @@
         "architecture-diagram",
         "claude-code",
         "claude-skills",
+        "code-analysis",
         "codex",
         "coding-agents",
         "deepseek-harness",
@@ -87,16 +88,15 @@
         "llm",
         "mermaid",
         "opencode",
-        "sequence-diagram",
         "software-architecture",
         "system-design",
         "visualization"
       ],
       "createdAt": "2026-04-15T05:27:37Z",
-      "updatedAt": "2026-11-25T11:00:03Z",
-      "pushedAt": "2026-11-25T08:52:37Z",
+      "updatedAt": "2026-11-25T21:17:49Z",
+      "pushedAt": "2026-11-25T21:11:33Z",
       "starredAt": "2026-11-23T16:55:56Z",
-      "score": 0.9994978935169472
+      "score": 0.9991374084294813
     },
     {
       "owner": "videojs",
@@ -105,7 +105,7 @@
       "description": "Video.js v10 - open source media player framework for HTML and React.",
       "homepage": "https://videojs.org",
       "stars": 40251,
-      "forks": 7505,
+      "forks": 7506,
       "watchers": 40251,
       "openIssues": 217,
       "language": "TypeScript",
@@ -127,7 +127,7 @@
       ],
       "createdAt": "2010-05-14T18:45:10Z",
       "updatedAt": "2026-11-25T05:48:37Z",
-      "pushedAt": "2026-11-25T00:53:43Z",
+      "pushedAt": "2026-11-25T20:53:11Z",
       "starredAt": "2026-11-09T05:30:30Z",
       "score": 0.96180765465567
     },
@@ -137,9 +137,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 286829,
-      "forks": 35762,
-      "watchers": 286829,
+      "stars": 287010,
+      "forks": 35794,
+      "watchers": 287010,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -149,10 +149,10 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-11-25T11:06:24Z",
+      "updatedAt": "2026-11-25T21:19:54Z",
       "pushedAt": "2026-11-22T11:00:05Z",
       "starredAt": "2026-08-13T14:29:36Z",
-      "score": 0.9552054794520548
+      "score": 0.9547945205479452
     },
     {
       "owner": "x64dbg",
@@ -160,10 +160,10 @@
       "fullName": "x64dbg/x64dbg",
       "description": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.",
       "homepage": "http://x64dbg.com",
-      "stars": 50389,
-      "forks": 2961,
-      "watchers": 50389,
-      "openIssues": 576,
+      "stars": 50391,
+      "forks": 2960,
+      "watchers": 50391,
+      "openIssues": 575,
       "language": "C++",
       "topics": [
         "binary-analysis",
@@ -188,10 +188,10 @@
         "x86-64"
       ],
       "createdAt": "2015-04-11T20:48:23Z",
-      "updatedAt": "2026-11-25T04:57:56Z",
+      "updatedAt": "2026-11-25T19:59:53Z",
       "pushedAt": "2026-11-22T15:39:51Z",
       "starredAt": "2026-09-12T14:51:27Z",
-      "score": 0.9445437130520231
+      "score": 0.9433122152985782
     },
     {
       "owner": "vercel-labs",
@@ -199,9 +199,9 @@
       "fullName": "vercel-labs/agent-desktop",
       "description": "Computer use CLI for AI agents",
       "homepage": "https://agent-browser.dev/desktop",
-      "stars": 26576,
-      "forks": 2001,
-      "watchers": 26576,
+      "stars": 26662,
+      "forks": 2005,
+      "watchers": 26662,
       "openIssues": 280,
       "language": "Rust",
       "topics": [
@@ -219,10 +219,10 @@
         "rust"
       ],
       "createdAt": "2026-02-19T18:00:49Z",
-      "updatedAt": "2026-11-25T10:38:15Z",
+      "updatedAt": "2026-11-25T21:13:29Z",
       "pushedAt": "2026-11-24T19:54:49Z",
       "starredAt": "2026-10-31T01:00:28Z",
-      "score": 0.9436865039096126
+      "score": 0.9429768306030574
     },
     {
       "owner": "steipete",
@@ -230,10 +230,10 @@
       "fullName": "steipete/CodexBar",
       "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
       "homepage": "https://codex.bar",
-      "stars": 23331,
-      "forks": 2255,
-      "watchers": 23331,
-      "openIssues": 52,
+      "stars": 23339,
+      "forks": 2256,
+      "watchers": 23339,
+      "openIssues": 53,
       "language": "Swift",
       "topics": [
         "ai",
@@ -242,10 +242,10 @@
         "swift"
       ],
       "createdAt": "2025-11-16T17:00:44Z",
-      "updatedAt": "2026-11-25T09:06:09Z",
+      "updatedAt": "2026-11-25T20:29:09Z",
       "pushedAt": "2026-11-21T17:40:47Z",
       "starredAt": "2026-11-03T03:44:51Z",
-      "score": 0.9379293081055697
+      "score": 0.9371193010134604
     },
     {
       "owner": "Droid-Deck",
@@ -253,17 +253,17 @@
       "fullName": "Droid-Deck/DroidDeck",
       "description": "DroidDeck brings the SteamOS experience to Android",
       "homepage": "",
-      "stars": 21869,
-      "forks": 1116,
-      "watchers": 21869,
-      "openIssues": 713,
+      "stars": 21945,
+      "forks": 1120,
+      "watchers": 21945,
+      "openIssues": 730,
       "language": "Kotlin",
       "topics": [],
       "createdAt": "2026-09-24T15:14:13Z",
-      "updatedAt": "2026-11-25T11:08:41Z",
-      "pushedAt": "2026-11-25T10:48:44Z",
+      "updatedAt": "2026-11-25T21:11:33Z",
+      "pushedAt": "2026-11-25T21:08:17Z",
       "starredAt": "2026-10-05T15:31:32Z",
-      "score": 0.9266399574375315
+      "score": 0.9263495258795075
     },
     {
       "owner": "massgravel",
@@ -271,10 +271,10 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 200888,
-      "forks": 18967,
-      "watchers": 200888,
-      "openIssues": 10,
+      "stars": 200946,
+      "forks": 18970,
+      "watchers": 200946,
+      "openIssues": 12,
       "language": "Batchfile",
       "topics": [
         "activator",
@@ -295,10 +295,10 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-11-25T11:04:50Z",
+      "updatedAt": "2026-11-25T20:47:32Z",
       "pushedAt": "2026-11-11T14:30:12Z",
       "starredAt": "2026-06-20T21:47:10Z",
-      "score": 0.9247945205479452
+      "score": 0.923972602739726
     },
     {
       "owner": "Genymobile",
@@ -306,9 +306,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 155664,
-      "forks": 14280,
-      "watchers": 155664,
+      "stars": 155711,
+      "forks": 14289,
+      "watchers": 155711,
       "openIssues": 2965,
       "language": "C",
       "topics": [
@@ -323,10 +323,10 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-11-25T11:05:59Z",
+      "updatedAt": "2026-11-25T20:29:37Z",
       "pushedAt": "2026-11-24T20:51:39Z",
       "starredAt": "2026-05-24T02:27:27Z",
-      "score": 0.9239726027397259
+      "score": 0.9231506849315068
     },
     {
       "owner": "deepseek-ai",
@@ -334,17 +334,17 @@
       "fullName": "deepseek-ai/dsh-superagent-prototype",
       "description": "Towards a More Autonomous Agent System",
       "homepage": "",
-      "stars": 24549,
-      "forks": 3074,
-      "watchers": 24549,
+      "stars": 24573,
+      "forks": 3083,
+      "watchers": 24573,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-10-31T09:32:46Z",
-      "updatedAt": "2026-11-25T10:57:08Z",
+      "updatedAt": "2026-11-25T20:44:33Z",
       "pushedAt": "2026-11-03T09:29:14Z",
       "starredAt": "2026-10-31T16:56:13Z",
-      "score": 0.9232589142372669
+      "score": 0.9228819039314636
     }
   ],
   "recentlyStarred": [
@@ -352,12 +352,12 @@
       "owner": "tt-a1i",
       "name": "archify",
       "fullName": "tt-a1i/archify",
-      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "description": "Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architecture Diagnosis, Story video and PR walkthroughs. An Agent Skill for Claude Code, Codex, Cursor and more.",
       "homepage": "https://archify.si",
-      "stars": 99737,
-      "forks": 6826,
-      "watchers": 99737,
-      "openIssues": 368,
+      "stars": 99882,
+      "forks": 6831,
+      "watchers": 99882,
+      "openIssues": 362,
       "language": "JavaScript",
       "topics": [
         "agent-skills",
@@ -365,6 +365,7 @@
         "architecture-diagram",
         "claude-code",
         "claude-skills",
+        "code-analysis",
         "codex",
         "coding-agents",
         "deepseek-harness",
@@ -376,16 +377,15 @@
         "llm",
         "mermaid",
         "opencode",
-        "sequence-diagram",
         "software-architecture",
         "system-design",
         "visualization"
       ],
       "createdAt": "2026-04-15T05:27:37Z",
-      "updatedAt": "2026-11-25T11:00:03Z",
-      "pushedAt": "2026-11-25T08:52:37Z",
+      "updatedAt": "2026-11-25T21:17:49Z",
+      "pushedAt": "2026-11-25T21:11:33Z",
       "starredAt": "2026-11-23T16:55:56Z",
-      "score": 0.9994978935169472
+      "score": 0.9991374084294813
     },
     {
       "owner": "Netflix",
@@ -393,17 +393,17 @@
       "fullName": "Netflix/vmaf",
       "description": "Perceptual video quality assessment based on multi-method fusion.",
       "homepage": "",
-      "stars": 5659,
+      "stars": 5660,
       "forks": 856,
-      "watchers": 5659,
+      "watchers": 5660,
       "openIssues": 192,
       "language": "C",
       "topics": [],
       "createdAt": "2016-02-08T18:41:38Z",
-      "updatedAt": "2026-11-25T05:57:18Z",
+      "updatedAt": "2026-11-25T12:46:44Z",
       "pushedAt": "2026-11-16T16:30:15Z",
       "starredAt": "2026-11-22T08:50:35Z",
-      "score": 0.8924170953169794
+      "score": 0.8916013154044662
     },
     {
       "owner": "vercel-labs",
@@ -411,17 +411,17 @@
       "fullName": "vercel-labs/emulate",
       "description": "API emulators for local dev, CI and sandboxes",
       "homepage": "https://emulate.dev",
-      "stars": 2106,
+      "stars": 2109,
       "forks": 154,
-      "watchers": 2106,
-      "openIssues": 109,
+      "watchers": 2109,
+      "openIssues": 108,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-03-20T17:01:49Z",
-      "updatedAt": "2026-11-25T06:29:25Z",
-      "pushedAt": "2026-11-25T01:34:39Z",
+      "updatedAt": "2026-11-25T21:00:29Z",
+      "pushedAt": "2026-11-25T19:10:54Z",
       "starredAt": "2026-11-20T02:39:55Z",
-      "score": 0.8638383683281
+      "score": 0.8638878019032674
     },
     {
       "owner": "vercel-labs",
@@ -439,7 +439,7 @@
       "updatedAt": "2026-11-23T23:43:40Z",
       "pushedAt": "2026-11-23T18:08:35Z",
       "starredAt": "2026-11-13T08:39:25Z",
-      "score": 0.8050047569553243
+      "score": 0.8041828391471051
     },
     {
       "owner": "sainnhe",
@@ -463,7 +463,7 @@
       "updatedAt": "2026-11-25T00:31:25Z",
       "pushedAt": "2026-06-08T19:09:46Z",
       "starredAt": "2026-11-13T02:30:16Z",
-      "score": 0.7467366622424945
+      "score": 0.7459147444342753
     },
     {
       "owner": "vercel-labs",
@@ -471,10 +471,10 @@
       "fullName": "vercel-labs/ui",
       "description": "A library of behaviors for agents to build and drive the next generation of user interfaces.",
       "homepage": "https://ui-sdk.dev",
-      "stars": 7381,
-      "forks": 257,
-      "watchers": 7381,
-      "openIssues": 143,
+      "stars": 7485,
+      "forks": 263,
+      "watchers": 7485,
+      "openIssues": 190,
       "language": "TypeScript",
       "topics": [
         "accessibility",
@@ -495,10 +495,10 @@
         "webmcp"
       ],
       "createdAt": "2026-10-26T17:39:27Z",
-      "updatedAt": "2026-11-25T11:07:51Z",
-      "pushedAt": "2026-11-24T20:57:49Z",
+      "updatedAt": "2026-11-25T21:14:22Z",
+      "pushedAt": "2026-11-25T21:18:28Z",
       "starredAt": "2026-11-13T00:38:38Z",
-      "score": 0.9045224164194559
+      "score": 0.9050084789729571
     },
     {
       "owner": "microsoft",
@@ -506,17 +506,17 @@
       "fullName": "microsoft/Procexp-Mac",
       "description": "Process Explorer for MacOS",
       "homepage": "",
-      "stars": 1062,
+      "stars": 1065,
       "forks": 34,
-      "watchers": 1062,
-      "openIssues": 9,
+      "watchers": 1065,
+      "openIssues": 10,
       "language": "Swift",
       "topics": [],
       "createdAt": "2026-07-06T21:43:46Z",
-      "updatedAt": "2026-11-25T07:55:21Z",
+      "updatedAt": "2026-11-25T20:22:23Z",
       "pushedAt": "2026-11-23T22:43:14Z",
       "starredAt": "2026-11-12T11:45:59Z",
-      "score": 0.8363692365043294
+      "score": 0.8360561928136006
     },
     {
       "owner": "openai",
@@ -524,17 +524,17 @@
       "fullName": "openai/mcp-extensions",
       "description": "Build plugins that feel like native, first-class features of ChatGPT.",
       "homepage": "",
-      "stars": 1201,
+      "stars": 1203,
       "forks": 56,
-      "watchers": 1201,
+      "watchers": 1203,
       "openIssues": 12,
       "language": "TypeScript",
       "topics": [],
       "createdAt": "2026-09-29T00:45:42Z",
-      "updatedAt": "2026-11-23T09:14:22Z",
+      "updatedAt": "2026-11-25T20:20:37Z",
       "pushedAt": "2026-11-10T22:55:15Z",
       "starredAt": "2026-11-11T00:11:27Z",
-      "score": 0.829132083440735
+      "score": 0.8291898449811417
     },
     {
       "owner": "deepnight",
@@ -542,9 +542,9 @@
       "fullName": "deepnight/ldtk",
       "description": "Modern, lightweight and efficient 2D level editor",
       "homepage": "https://ldtk.io",
-      "stars": 5014,
+      "stars": 5016,
       "forks": 331,
-      "watchers": 5014,
+      "watchers": 5016,
       "openIssues": 392,
       "language": "Haxe",
       "topics": [
@@ -556,10 +556,10 @@
         "level-editor"
       ],
       "createdAt": "2020-05-29T09:39:23Z",
-      "updatedAt": "2026-11-25T04:21:28Z",
+      "updatedAt": "2026-11-25T13:23:33Z",
       "pushedAt": "2026-11-24T17:02:03Z",
       "starredAt": "2026-11-10T15:44:39Z",
-      "score": 0.8902682503309807
+      "score": 0.8890492267123571
     },
     {
       "owner": "jdx",
@@ -567,17 +567,17 @@
       "fullName": "jdx/fnox",
       "description": "encrypted/remote secret manager",
       "homepage": "https://fnox.jdx.dev",
-      "stars": 2421,
+      "stars": 2422,
       "forks": 123,
-      "watchers": 2421,
-      "openIssues": 1,
+      "watchers": 2422,
+      "openIssues": 2,
       "language": "Rust",
       "topics": [],
       "createdAt": "2025-10-18T11:19:04Z",
-      "updatedAt": "2026-11-25T08:21:39Z",
-      "pushedAt": "2026-11-24T01:58:28Z",
+      "updatedAt": "2026-11-25T12:48:09Z",
+      "pushedAt": "2026-11-25T13:41:59Z",
       "starredAt": "2026-11-10T09:36:55Z",
-      "score": 0.8637476297346998
+      "score": 0.8645838895693567
     }
   ]
 }
