@@ -1,8 +1,9 @@
 {
-  "totalRepos": 1694,
-  "totalStars": 30135700,
+  "totalRepos": 1695,
+  "totalStars": 30199877,
   "languageDistribution": {
     "JavaScript": 358,
+    "Markdown": 2,
     "TypeScript": 626,
     "Rust": 68,
     "C++": 64,
@@ -24,7 +25,6 @@
     "Objective-C": 3,
     "Makefile": 5,
     "Clojure": 2,
-    "Markdown": 1,
     "Astro": 1,
     "Ruby": 7,
     "Nunjucks": 2,
@@ -65,10 +65,10 @@
       "fullName": "tt-a1i/archify",
       "description": "Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architecture Diagnosis, Story video and PR walkthroughs. An Agent Skill for Claude Code, Codex, Cursor and more.",
       "homepage": "https://archify.si",
-      "stars": 100548,
-      "forks": 6881,
-      "watchers": 100548,
-      "openIssues": 365,
+      "stars": 100662,
+      "forks": 6888,
+      "watchers": 100662,
+      "openIssues": 362,
       "language": "JavaScript",
       "topics": [
         "agent-skills",
@@ -93,10 +93,35 @@
         "visualization"
       ],
       "createdAt": "2026-04-15T05:27:37Z",
-      "updatedAt": "2026-11-26T22:51:55Z",
+      "updatedAt": "2026-11-27T04:47:35Z",
       "pushedAt": "2026-11-26T01:45:04Z",
       "starredAt": "2026-11-23T16:55:56Z",
-      "score": 0.9987671232876711
+      "score": 0.997945205479452
+    },
+    {
+      "owner": "emilkowalski",
+      "name": "skills",
+      "fullName": "emilkowalski/skills",
+      "description": "Skills for Designers and Engineers.",
+      "homepage": "https://aiforui.dev/skills",
+      "stars": 60180,
+      "forks": 3591,
+      "watchers": 60180,
+      "openIssues": 3,
+      "language": "Markdown",
+      "topics": [
+        "agent-skills",
+        "animation",
+        "claude-code",
+        "codex",
+        "cursor",
+        "design-engineering"
+      ],
+      "createdAt": "2026-03-16T13:52:31Z",
+      "updatedAt": "2026-11-27T04:44:25Z",
+      "pushedAt": "2026-11-15T12:42:50Z",
+      "starredAt": "2026-11-27T03:45:16Z",
+      "score": 0.9733156561044447
     },
     {
       "owner": "videojs",
@@ -137,9 +162,9 @@
       "fullName": "deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "homepage": "https://deepseek.com/harness",
-      "stars": 287595,
-      "forks": 35909,
-      "watchers": 287595,
+      "stars": 287721,
+      "forks": 35932,
+      "watchers": 287721,
       "openIssues": 0,
       "language": "TypeScript",
       "topics": [
@@ -149,7 +174,7 @@
         "dsh-plugin"
       ],
       "createdAt": "2026-08-13T11:56:32Z",
-      "updatedAt": "2026-11-26T22:49:36Z",
+      "updatedAt": "2026-11-27T04:47:53Z",
       "pushedAt": "2026-11-22T11:00:05Z",
       "starredAt": "2026-08-13T14:29:36Z",
       "score": 0.9535616438356165
@@ -160,9 +185,9 @@
       "fullName": "vercel-labs/agent-desktop",
       "description": "Computer use CLI for AI agents",
       "homepage": "https://agent-browser.dev/desktop",
-      "stars": 26880,
-      "forks": 2022,
-      "watchers": 26880,
+      "stars": 26942,
+      "forks": 2027,
+      "watchers": 26942,
       "openIssues": 282,
       "language": "Rust",
       "topics": [
@@ -180,10 +205,10 @@
         "rust"
       ],
       "createdAt": "2026-02-19T18:00:49Z",
-      "updatedAt": "2026-11-26T22:45:06Z",
-      "pushedAt": "2026-11-26T20:42:30Z",
+      "updatedAt": "2026-11-27T04:50:15Z",
+      "pushedAt": "2026-11-27T01:07:48Z",
       "starredAt": "2026-10-31T01:00:28Z",
-      "score": 0.9436707021627524
+      "score": 0.9433397856777488
     },
     {
       "owner": "x64dbg",
@@ -230,10 +255,10 @@
       "fullName": "steipete/CodexBar",
       "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
       "homepage": "https://codex.bar",
-      "stars": 23362,
-      "forks": 2262,
-      "watchers": 23362,
-      "openIssues": 64,
+      "stars": 23364,
+      "forks": 2260,
+      "watchers": 23364,
+      "openIssues": 68,
       "language": "Swift",
       "topics": [
         "ai",
@@ -242,10 +267,10 @@
         "swift"
       ],
       "createdAt": "2025-11-16T17:00:44Z",
-      "updatedAt": "2026-11-26T22:19:53Z",
+      "updatedAt": "2026-11-27T03:19:47Z",
       "pushedAt": "2026-11-21T17:40:47Z",
       "starredAt": "2026-11-03T03:44:51Z",
-      "score": 0.9359206448827347
+      "score": 0.9355126600891004
     },
     {
       "owner": "Droid-Deck",
@@ -253,17 +278,17 @@
       "fullName": "Droid-Deck/DroidDeck",
       "description": "DroidDeck brings the SteamOS experience to Android",
       "homepage": "",
-      "stars": 22160,
-      "forks": 1130,
-      "watchers": 22160,
-      "openIssues": 784,
+      "stars": 22197,
+      "forks": 1132,
+      "watchers": 22197,
+      "openIssues": 783,
       "language": "Kotlin",
       "topics": [],
       "createdAt": "2026-09-24T15:14:13Z",
-      "updatedAt": "2026-11-26T22:48:20Z",
-      "pushedAt": "2026-11-26T22:52:02Z",
+      "updatedAt": "2026-11-27T04:44:01Z",
+      "pushedAt": "2026-11-27T04:47:16Z",
       "starredAt": "2026-10-05T15:31:32Z",
-      "score": 0.9262772852855534
+      "score": 0.9263352447510307
     },
     {
       "owner": "Genymobile",
@@ -271,9 +296,9 @@
       "fullName": "Genymobile/scrcpy",
       "description": "Display and control your Android device",
       "homepage": "",
-      "stars": 155837,
-      "forks": 14290,
-      "watchers": 155837,
+      "stars": 155860,
+      "forks": 14288,
+      "watchers": 155860,
       "openIssues": 2963,
       "language": "C",
       "topics": [
@@ -288,10 +313,10 @@
         "sdl2"
       ],
       "createdAt": "2017-11-21T18:00:27Z",
-      "updatedAt": "2026-11-26T21:58:09Z",
+      "updatedAt": "2026-11-27T04:48:01Z",
       "pushedAt": "2026-11-26T20:25:25Z",
       "starredAt": "2026-05-24T02:27:27Z",
-      "score": 0.9235616438356165
+      "score": 0.9231506849315068
     },
     {
       "owner": "massgravel",
@@ -299,9 +324,9 @@
       "fullName": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
       "homepage": "https://massgrave.dev",
-      "stars": 201072,
-      "forks": 18983,
-      "watchers": 201072,
+      "stars": 201091,
+      "forks": 18985,
+      "watchers": 201091,
       "openIssues": 14,
       "language": "Batchfile",
       "topics": [
@@ -323,41 +348,48 @@
         "windows-11"
       ],
       "createdAt": "2020-01-12T23:03:34Z",
-      "updatedAt": "2026-11-26T22:30:30Z",
+      "updatedAt": "2026-11-27T04:45:30Z",
       "pushedAt": "2026-11-11T14:30:12Z",
       "starredAt": "2026-06-20T21:47:10Z",
       "score": 0.9223287671232876
-    },
-    {
-      "owner": "deepseek-ai",
-      "name": "dsh-superagent-prototype",
-      "fullName": "deepseek-ai/dsh-superagent-prototype",
-      "description": "Towards a More Autonomous Agent System",
-      "homepage": "",
-      "stars": 24663,
-      "forks": 3103,
-      "watchers": 24663,
-      "openIssues": 0,
-      "language": "TypeScript",
-      "topics": [],
-      "createdAt": "2026-10-31T09:32:46Z",
-      "updatedAt": "2026-11-26T21:46:31Z",
-      "pushedAt": "2026-11-03T09:29:14Z",
-      "starredAt": "2026-10-31T16:56:13Z",
-      "score": 0.9217760398415857
     }
   ],
   "recentlyStarred": [
+    {
+      "owner": "emilkowalski",
+      "name": "skills",
+      "fullName": "emilkowalski/skills",
+      "description": "Skills for Designers and Engineers.",
+      "homepage": "https://aiforui.dev/skills",
+      "stars": 60180,
+      "forks": 3591,
+      "watchers": 60180,
+      "openIssues": 3,
+      "language": "Markdown",
+      "topics": [
+        "agent-skills",
+        "animation",
+        "claude-code",
+        "codex",
+        "cursor",
+        "design-engineering"
+      ],
+      "createdAt": "2026-03-16T13:52:31Z",
+      "updatedAt": "2026-11-27T04:44:25Z",
+      "pushedAt": "2026-11-15T12:42:50Z",
+      "starredAt": "2026-11-27T03:45:16Z",
+      "score": 0.9733156561044447
+    },
     {
       "owner": "tt-a1i",
       "name": "archify",
       "fullName": "tt-a1i/archify",
       "description": "Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architecture Diagnosis, Story video and PR walkthroughs. An Agent Skill for Claude Code, Codex, Cursor and more.",
       "homepage": "https://archify.si",
-      "stars": 100548,
-      "forks": 6881,
-      "watchers": 100548,
-      "openIssues": 365,
+      "stars": 100662,
+      "forks": 6888,
+      "watchers": 100662,
+      "openIssues": 362,
       "language": "JavaScript",
       "topics": [
         "agent-skills",
@@ -382,10 +414,10 @@
         "visualization"
       ],
       "createdAt": "2026-04-15T05:27:37Z",
-      "updatedAt": "2026-11-26T22:51:55Z",
+      "updatedAt": "2026-11-27T04:47:35Z",
       "pushedAt": "2026-11-26T01:45:04Z",
       "starredAt": "2026-11-23T16:55:56Z",
-      "score": 0.9987671232876711
+      "score": 0.997945205479452
     },
     {
       "owner": "Netflix",
@@ -421,7 +453,7 @@
       "updatedAt": "2026-11-26T22:04:30Z",
       "pushedAt": "2026-11-26T02:28:36Z",
       "starredAt": "2026-11-20T02:39:55Z",
-      "score": 0.8635097596842845
+      "score": 0.8622768829719557
     },
     {
       "owner": "vercel-labs",
@@ -463,7 +495,7 @@
       "updatedAt": "2026-11-26T20:57:06Z",
       "pushedAt": "2026-06-08T19:09:46Z",
       "starredAt": "2026-11-13T02:30:16Z",
-      "score": 0.7446980727402217
+      "score": 0.7442871138361122
     },
     {
       "owner": "vercel-labs",
@@ -471,10 +503,10 @@
       "fullName": "vercel-labs/ui",
       "description": "A library of behaviors for agents to build and drive the next generation of user interfaces.",
       "homepage": "https://ui-sdk.dev",
-      "stars": 7641,
+      "stars": 7689,
       "forks": 272,
-      "watchers": 7641,
-      "openIssues": 153,
+      "watchers": 7689,
+      "openIssues": 152,
       "language": "TypeScript",
       "topics": [
         "accessibility",
@@ -495,10 +527,10 @@
         "webmcp"
       ],
       "createdAt": "2026-10-26T17:39:27Z",
-      "updatedAt": "2026-11-26T22:49:41Z",
-      "pushedAt": "2026-11-26T22:05:34Z",
+      "updatedAt": "2026-11-27T04:48:52Z",
+      "pushedAt": "2026-11-27T03:17:01Z",
       "starredAt": "2026-11-13T00:38:38Z",
-      "score": 0.9053140969147666
+      "score": 0.9051206825265803
     },
     {
       "owner": "microsoft",
@@ -506,17 +538,17 @@
       "fullName": "microsoft/Procexp-Mac",
       "description": "Process Explorer for MacOS",
       "homepage": "",
-      "stars": 1068,
+      "stars": 1069,
       "forks": 34,
-      "watchers": 1068,
+      "watchers": 1069,
       "openIssues": 10,
       "language": "Swift",
       "topics": [],
       "createdAt": "2026-07-06T21:43:46Z",
-      "updatedAt": "2026-11-26T18:35:54Z",
+      "updatedAt": "2026-11-27T03:33:51Z",
       "pushedAt": "2026-11-23T22:43:14Z",
       "starredAt": "2026-11-12T11:45:59Z",
-      "score": 0.8340990383345104
+      "score": 0.834131524132625
     },
     {
       "owner": "openai",
@@ -534,7 +566,7 @@
       "updatedAt": "2026-11-26T09:13:11Z",
       "pushedAt": "2026-11-10T22:55:15Z",
       "starredAt": "2026-11-11T00:11:27Z",
-      "score": 0.8280722040578776
+      "score": 0.8268393273455488
     },
     {
       "owner": "deepnight",
@@ -542,9 +574,9 @@
       "fullName": "deepnight/ldtk",
       "description": "Modern, lightweight and efficient 2D level editor",
       "homepage": "https://ldtk.io",
-      "stars": 5023,
+      "stars": 5024,
       "forks": 331,
-      "watchers": 5023,
+      "watchers": 5024,
       "openIssues": 392,
       "language": "Haxe",
       "topics": [
@@ -556,28 +588,10 @@
         "level-editor"
       ],
       "createdAt": "2020-05-29T09:39:23Z",
-      "updatedAt": "2026-11-26T21:04:27Z",
+      "updatedAt": "2026-11-27T00:11:31Z",
       "pushedAt": "2026-11-24T17:02:03Z",
       "starredAt": "2026-11-10T15:44:39Z",
-      "score": 0.8878647923761394
-    },
-    {
-      "owner": "jdx",
-      "name": "fnox",
-      "fullName": "jdx/fnox",
-      "description": "encrypted/remote secret manager",
-      "homepage": "https://fnox.jdx.dev",
-      "stars": 2427,
-      "forks": 123,
-      "watchers": 2427,
-      "openIssues": 5,
-      "language": "Rust",
-      "topics": [],
-      "createdAt": "2025-10-18T11:19:04Z",
-      "updatedAt": "2026-11-26T21:16:21Z",
-      "pushedAt": "2026-11-26T01:06:51Z",
-      "starredAt": "2026-11-10T09:36:55Z",
-      "score": 0.8642445521265041
+      "score": 0.8878717072052102
     }
   ]
 }
